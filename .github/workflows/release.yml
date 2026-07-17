@@ -1,0 +1,66 @@
+name: Generate Database Release Archives
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/**'
+
+permissions:
+  contents: write
+
+jobs:
+  build-release:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Checkout the public data repository
+    - name: Checkout Code
+      uses: actions/checkout@v6
+
+    # 2. Compress both standard and minified archives natively in the runner
+    - name: Compress Archives (Standard and Minified)
+      run: |
+        # 1. Create standard zip and tar.gz
+        zip -r wuwa-db.zip data/
+        tar -czf wuwa-db.tar.gz data/
+        
+        # 2. Create a temporary directory for in-memory minification
+        mkdir minified
+        python3 -c "
+        import os, json
+        for root, dirs, files in os.walk('data'):
+            for file in files:
+                if file.endswith('.json'):
+                    in_path = os.path.join(root, file)
+                    out_dir = os.path.join('minified', os.path.relpath(root, '.'))
+                    os.makedirs(out_dir, exist_ok=True)
+                    out_path = os.path.join(out_dir, file)
+                    with open(in_path, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+                    with open(out_path, 'w', encoding='utf-8') as f:
+                        json.dump(data, f, separators=(',', ':'), ensure_ascii=False)
+        "
+        
+        # 3. Create minified zip and tar.gz from the minified folder
+        cd minified
+        zip -r ../wuwa-db-minified.zip data/
+        tar -czf ../wuwa-db-minified.tar.gz data/
+        cd ..
+        
+        # Cleanup temporary files
+        rm -rf minified
+
+    # 3. Create or update a rolling "latest" release using the native GitHub CLI
+    - name: Create Rolling GitHub Release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        # Clean up any existing 'latest' release and tag to allow overwrite
+        gh release delete latest --cleanup-tag --yes || true
+        
+        # Create a rolling release and upload all 4 archives as release assets
+        gh release create latest wuwa-db.zip wuwa-db-minified.zip wuwa-db.tar.gz wuwa-db-minified.tar.gz \
+          --title "Latest Database Assets" \
+          --notes "This rolling release contains the most up-to-date compiled archives of the database. Last updated: $(date -u +'%Y-%m-%d %H:%M:%S UTC')."

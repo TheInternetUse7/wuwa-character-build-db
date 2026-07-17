@@ -1,0 +1,93 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Wuthering Waves Character Build Guide",
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "string"
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+                "character_metadata": {
+                    "type": "object",
+                    "properties": {
+                        "name": {
+                            "type": "string"
+                        },
+                        "slug": {
+                            "type": "string"
+                        },
+                        "rarity_stars": {
+                            "type": "integer"
+                        },
+                        "element": {
+                            "type": "string"
+                        },
+                        "weapon_type": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "name",
+                        "slug",
+                        "rarity_stars",
+                        "element",
+                        "weapon_type"
+                    ]
+                },
+                "ratings": {
+                    "type": "object"
+                },
+                "pros_and_cons": {
+                    "type": "object",
+                    "properties": {
+                        "pros": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "cons": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "skills": {
+                    "type": "array"
+                },
+                "resonance_chain_dupes": {
+                    "type": "array"
+                },
+                "minor_fortes": {
+                    "type": "array"
+                },
+                "base_stats_lvl_90": {
+                    "type": "object"
+                },
+                "best_weapons": {
+                    "type": "array"
+                },
+                "best_echo_sets": {
+                    "type": "array"
+                },
+                "best_echo_stats": {
+                    "type": "object"
+                }
+            },
+            "required": [
+                "character_metadata",
+                "ratings",
+                "pros_and_cons",
+                "skills"
+            ]
+        }
+    },
+    "required": [
+        "status",
+        "data"
+    ]
+}
