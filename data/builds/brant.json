@@ -1,0 +1,1131 @@
+{
+  "status": "success",
+  "data": {
+    "character_metadata": {
+      "name": "Brant",
+      "slug": "brant",
+      "rarity_stars": 5,
+      "element": "Fusion",
+      "weapon_type": "Sword",
+      "breadcrumb": [
+        "Wuthering Waves",
+        "Characters",
+        "Brant"
+      ],
+      "updates": {
+        "last_updated": "10/July/2026",
+        "last_review_patch": "2.6",
+        "last_major_build_patch": "3",
+        "last_profile_update": "10/July/2026"
+      }
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tier": "T1.5",
+          "tags": [
+            "Sustain",
+            "Expert +1"
+          ]
+        },
+        "whimpering_wastes": {
+          "tier": "T4",
+          "tags": [
+            "Sustain",
+            "Expert +1"
+          ]
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T2"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T2"
+        }
+      }
+    },
+    "media": {
+      "youtube_guide_embed_url": "https://www.youtube.com/embed/CIxgmPXnedw",
+      "youtube_guide_full_url": "https://www.youtube.com/watch?v=CIxgmPXnedw",
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/brant_full.webp"
+    },
+    "pros_and_cons": {
+      "pros": [
+        "Offers a very nice Fusion DMG Amplify and Skill DMG Amplify Outro, allowing him to pair with a lot of DPS characters;",
+        "Able to be played as both a Solo DPS and a multi-DPS unit thanks to remarkable personal damage;",
+        "Almost all of his kit is executed in Mid-Air thereby allowing him to avoid most enemy attacks for free;",
+        "Provides additional Sustain to the whole team for free in the form of both healing and very strong shielding;",
+        "Super straightforward to play for casual players — most of his rotation simply involves holding down Basic Attack."
+      ],
+      "cons": [
+        "His Signature weapon is key to unlocking his full potential. Without it, his dedicated Echo set which improves his damage significantly is incredibly difficult to fully utilize;",
+        "High stat/gear requirements, due to needing Energy Regen and Crit Stats — one of the hardest characters to build in the game;",
+        "Has low Interruption Resistance on some of his key attacks (most notably his Forte Skill), which may require the use of Swap-Cancels or Perfect Dodges for protection on certain abilities."
+      ]
+    },
+    "review": {
+      "summary": "Brant is a 5-star Fusion Sword Hybrid character who's defined by his ability to deal great personal damage while having the potential to buff another DPS character on the team thanks to his Outro skill. This enables more unique team archetypes where, instead of concentrating damage into a single character, multiple characters contribute to the total, aka a multi-DPS team. He additionally sports Sustain abilities in the form of Heals and Shields, and most of his kit involves Mid-Air attacks. This makes him a great multi-purpose character who's able to fill many roles in a single team slot whilst also being relatively safe in the air.",
+      "sections": [
+        {
+          "heading": "Review",
+          "paragraphs": [
+            "Brant is a 5-star Fusion Sword Hybrid character who's defined by his ability to deal great personal damage while having the potential to buff another DPS character on the team thanks to his Outro skill. This enables more unique team archetypes where, instead of concentrating damage into a single character, multiple characters contribute to the total, aka a multi-DPS team. He additionally sports Sustain abilities in the form of Heals and Shields, and most of his kit involves Mid-Air attacks. This makes him a great multi-purpose character who's able to fill many roles in a single team slot whilst also being relatively safe in the air."
+          ]
+        },
+        {
+          "heading": "Key Mechanics & Forte",
+          "paragraphs": [
+            "Like many other Wuthering Waves characters, Brant's kit is centered around his Forte Circuit with the majority of his other abilities connecting to it in some way. His Forte is called \"Bravo\" and is considered full at 100 points after which he is able to cast the enhanced version of his Resonance Skill \"Returned from Ashes\" which deals tremendous damage and scales off Basic Attack DMG. \"Returned from Ashes\" makes up a significant portion of his overall damage and fills up his Concerto Energy by half, meaning building up to this Forte skill as fast as possible is a priority and should put you in a great position to trigger Brant's Outro skill right after, assuming you fully exploit his kit. Additionally, it enables him to gradually heal the party every 25 points of \"Bravo\" and to gain flat ATK - both of these are dependent on his Energy Regen.",
+            "Brant's Forte gauge is filled in 3 ways:",
+            "Via Basic Attacks;",
+            "Via Intro Skills;",
+            "Via regular Resonance Skills (mostly unused, not worth it)."
+          ]
+        },
+        {
+          "heading": "Basic Attacks",
+          "paragraphs": [
+            "Brant's Basic Attacks are the most important method to fill his Forte gauge and are hence essential to his kit. However, his grounded Basic Attacks offer very little Forte Gauge gain; the massive Forte Gauge build-up is found in his Mid-Air Basic Attacks, which he'll end up relying upon the most. His full chain of Mid-Air Basic Attacks, when paired with an Intro skill, are enough to fill his Forte Gauge. However, we can optimize it more by instead exploiting his Charged Attack and backflip mechanics. By holding down Basic Attack, Brant will perform backflips automatically for extra damage and causes the next attack in his Basic chain to be followed by a powerful Charged Attack that enables him to build up his Forte gauge quickly and efficiently. This makes Brant extremely straightforward to play as his playstyle pretty much amounts to holding down Basic Attack until his Forte is full. However, before we get to do that, a few key abilities need to be performed, namely:"
+          ]
+        },
+        {
+          "heading": "Intro Skill",
+          "paragraphs": [
+            "Brant's Intro skill, on top of doing minor damage, has two additional effects, one being generating a quarter of his Forte Gauge and second enables him to start his Mid-Air attack sequence from stage 2 instead of 1. These specifics make using his Intro skill necessary to his optimized rotations — due to the extra Forte gain."
+          ]
+        },
+        {
+          "heading": "Ultimate",
+          "paragraphs": [
+            "Brant's Ultimate also does significantly more than just minor AoE damage: it heals the whole party based on his Energy Regen, significantly increases the flat ATK boost gained from his Forte Circuit when performing his enhanced skill Returned to Ashes and lastly, it instantly puts him into Mid-Air and doubles his Forte Gauge generation from any source other than Intro skills."
+          ]
+        },
+        {
+          "heading": "Gameplay Loop",
+          "paragraphs": [
+            "Therefore, his gameplay amounts to Brant casting his Intro, immediately following up with his Ultimate and then simply following up by holding down Basic Attack until his Forte Gauge is full. At this point he can cast his enhanced skill and is ready to Swap-Out after it's performed. These actions make full use of his kit in a simplistic yet ingenious way.",
+            "At its core, we've already established that Brant's gameplay is fundamentally simple. However, don't be fooled by the simplicity of it as his Forte skill hits stupidly hard and is able to deal a huge portion of the team's damage by itself. In fact, it hits hard enough to be able to completely justify him in a traditional Hypercarry team where Brant's doing the overwhelming majority of the team's total damage. Granted, this doesn't make full use of his kit as his Outro is very valuable, however it remains a totally valid teambuilding choice."
+          ]
+        },
+        {
+          "heading": "Brant's Build Requirements",
+          "paragraphs": [
+            "Before getting too excited about building Brant there is one thing that must be highlighted and it's the main challenge with his kit — his massive Energy Regen requirements. Brant gains a significant amount of Flat ATK for each % of Energy Regen he possesses over 150% up to a cap of 280% (including the 100% Base Energy Regen). This makes Energy Regen one of his best offensive stats to have, not to mention the fact it's required in order to access his Ultimate every rotation. To make it even worse Brant's Signature Echo Set, a set which is a substantial damage gain for him over alternatives also requires an absurd 250% total Energy Regen (including the 100% Base Energy Regen).",
+            "In other words, Energy Regen is a stat he can't avoid, he needs it on his Echo Main Stats, Substats and if you have any intention of getting close to maxing out his Passive bonuses or using his Signature Echo Set, his Weapon as well. Fortunately as long as you have enough Energy to gain his Ultimate every Rotation (160-170% including Base should be enough) all you'll be losing out on is damage, as you can sub out his Signature Echo Set with 5P Molten Rift at the cost of only needing to press his skill once before doing his full rotation. Getting as much Energy Regen as possible is always a goal of Brant's but doing so at the cost of other high value offensive stats like CRIT isn't always worth it even if it means using a lower power set for a while.",
+            "Based on the above, it should be clear Brant has higher Echo requirements than most, especially if you intend to avoid using an Energy Regen weapon, although that shouldn't stop you from building him as he packs quite the punch when fully geared up. Fortunately or unfortunately based on who you ask, Brant has a quick fix to his gearing woes, his Signature Weapon Unflickering Valor. This weapon is totally tailored towards him and offers him a substantial amount of Energy Regen he needs, while providing the Basic Attack DMG bonus he needs to hit even harder with his Forte skill, and even a minor amount of CRIT Rate for his CRIT requirements to be slightly reduced. This weapon not only makes him incredibly easy to build on Tidebreaking Courage — it makes him reach a different level of viability when he's built properly.",
+            "The substantial amount of Energy Regen it gives is enough for you to run a Fusion DMG bonus 3 cost Echo instead of 2 Energy Regen 3 cost Echoes; this makes his damage potential skyrocket as DMG bonus is one of his best stats to invest into — something that his weapon leans into even more. Remember that his base ATK is low compared to other DPS units, so ATK% isn't too profitable and the flat ATK gains from his Forte/Ultimate hold a lot more meaning in comparison due to this."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Despite having healing and shielding Brant doesn't fill the role of a generalist Healer like Shorekeeper or Verina (as he wants to deal damage by running damage-focused sets & builds), however running him in addition to one makes things even more comfortable thanks to the extra Sustain available.",
+            "In contrast, his other supportive capability - his Outro - is far more useful as the combo of Resonance Skill and Fusion DMG amplification is not only very appreciated on a number of characters like Changli and Chixia, but can also extend to general Fusion DMG dealers like Encore and general Skill DMG dealers like Carlotta or even Jinhsi. And even without it, his damage ceiling is high enough to warrant him a viable position as the Main DPS of your team — provided your rotation is adjusted to account for that.",
+            "Due to Brant's very strict build requirements, if it were only up to us, we'd suggest pulling Brant with his Signature Weapon if you want to play him, and otherwise not pulling Brant at all; however, if you like the character and don't have the resources required to pull his Signature Weapon, by all means pull him and have fun. He's particularly strong in a Mono Fusion team featuring Lupa, and that's a team where his spot is very difficult to negotiate – that said, it's entirely possible to play Lupa with Encore and a generalist Support like Verina or Shorekeeper and that evens out to a mono-fusion team figuring Brant without his Signature, so his value is questionable without it from a strictly meta-focused perspective, unless his extra Sustain capabilities are particularly desired by the player.",
+            "To summarize, Brant ends up as a character who has a lot of potential, can work in multiple team archetypes, can fill many roles on a team efficiently and yet has a ton of his potential locked behind extra gear that costs a LOT of Astrites. And if his Signature Weapon alone wasn't enough, he even scales off his first 3 Sequences really well. He will still work at a baseline S0 level with Emerald of Genesis on Molten Rift; however a ton of his potential is locked behind his extra upgrades. With that being said, his Mid-Air playstyle is enjoyable and when Brant does get to work, he works brilliantly. At his best, he is part of one of the highest damage-dealing teams in the game in the form of Mono Fusion; and even outside of that scope, he remains a strong contender to add that little bit of extra damage and sustain you might need to clear the endgame contents of Wuthering Waves."
+          ]
+        }
+      ]
+    },
+    "skills": [
+      {
+        "name": "Captain's Rhapsody",
+        "category": "Active",
+        "skill_type": "Basic Attack",
+        "description": "Basic AttackPerform up to 4 consecutive attacks, dealing Fusion DMG.Heavy AttackConsume STA to attack the target, dealing Fusion DMG.Heavy Attack - Rhapsodic RiffConsume STA to attack the target, dealing Fusion DMG.After performing Basic Attack Stage 2 or Stage 4, hold Normal Attack to perform Heavy Attack - Rhapsodic Riff.After performing Mid-air Attack Stage 4, Press Normal Attack to perform Heavy Attack - Rhapsodic Riff.Mid-air AttackPerform up to 4 consecutive attacks, dealing Fusion DMG.Press Normal Attack following Mid-air Attack Stage 1 or Stage 2 to swing to the target with Grapple. Brant will attack the target if he reaches them with the swing. Release while in action to flip backward after the attack hits; or hold Normal Attack to attack the target continuously and flip backward after the finishing move. Brant flips backward automatically after Mid-air Attack Stage 3. Press Normal Attack after each flip to perform the next stage of Mid-air Attack. Flip resets Mid-air Dodge attempts.If Brant fails to reach the target with the Grapple swing of Mid-air Attack Stage 1, he instead performs a slash forward, dealing Fusion DMG.If Brant reaches the target with the Grapple swing of Mid-air Attack Stage 1 or Stage 2 but the attack fails to hit the target, he will drop down after a temporary suspension in mid-air.Dodge CounterPress Normal Attack right after a successful Dodge to attack the target, dealing Fusion DMG.",
+        "multipliers": [
+          {
+            "Lv1": "25.42%",
+            "Lv2": "27.50%",
+            "Lv3": "29.59%",
+            "Lv4": "32.51%",
+            "Lv5": "34.59%",
+            "Lv6": "36.99%",
+            "Lv7": "40.32%",
+            "Lv8": "43.66%",
+            "Lv9": "46.99%",
+            "Lv10": "50.53%",
+            "Name": "Stage 1 DMG"
+          },
+          {
+            "Lv1": "25.50% + 25.50%",
+            "Lv2": "27.60% + 27.60%",
+            "Lv3": "29.69% + 29.69%",
+            "Lv4": "32.61% + 32.61%",
+            "Lv5": "34.71% + 34.71%",
+            "Lv6": "37.11% + 37.11%",
+            "Lv7": "40.46% + 40.46%",
+            "Lv8": "43.80% + 43.80%",
+            "Lv9": "47.15% + 47.15%",
+            "Lv10": "50.70% + 50.70%",
+            "Name": "Stage 2 DMG"
+          },
+          {
+            "Lv1": "11.10%*3 + 16.64%*2",
+            "Lv2": "12.01%*3 + 18.01%*2",
+            "Lv3": "12.92%*3 + 19.37%*2",
+            "Lv4": "14.19%*3 + 21.28%*2",
+            "Lv5": "15.10%*3 + 22.65%*2",
+            "Lv6": "16.15%*3 + 24.22%*2",
+            "Lv7": "17.60%*3 + 26.40%*2",
+            "Lv8": "19.06%*3 + 28.58%*2",
+            "Lv9": "20.51%*3 + 30.77%*2",
+            "Lv10": "22.06%*3 + 33.08%*2",
+            "Name": "Stage 3 DMG"
+          },
+          {
+            "Lv1": "14.10% + 11.28%*5",
+            "Lv2": "15.25% + 12.20%*5",
+            "Lv3": "16.41% + 13.13%*5",
+            "Lv4": "18.03% + 14.42%*5",
+            "Lv5": "19.18% + 15.35%*5",
+            "Lv6": "20.51% + 16.41%*5",
+            "Lv7": "22.36% + 17.89%*5",
+            "Lv8": "24.21% + 19.37%*5",
+            "Lv9": "26.06% + 20.85%*5",
+            "Lv10": "28.02% + 22.42%*5",
+            "Name": "Stage 4 DMG"
+          },
+          {
+            "Lv1": "99.37%",
+            "Lv2": "107.52%",
+            "Lv3": "115.67%",
+            "Lv4": "127.07%",
+            "Lv5": "135.22%",
+            "Lv6": "144.59%",
+            "Lv7": "157.63%",
+            "Lv8": "170.66%",
+            "Lv9": "183.70%",
+            "Lv10": "197.55%",
+            "Name": "Heavy Attack DMG"
+          },
+          {
+            "Lv1": "85.00%",
+            "Lv2": "91.97%",
+            "Lv3": "98.94%",
+            "Lv4": "108.70%",
+            "Lv5": "115.67%",
+            "Lv6": "123.69%",
+            "Lv7": "134.84%",
+            "Lv8": "145.99%",
+            "Lv9": "157.14%",
+            "Lv10": "168.99%",
+            "Name": "Heavy Attack - Rhapsodic Riff DMG"
+          },
+          {
+            "Lv1": "61.80%",
+            "Lv2": "66.87%",
+            "Lv3": "71.93%",
+            "Lv4": "79.03%",
+            "Lv5": "84.10%",
+            "Lv6": "89.92%",
+            "Lv7": "98.03%",
+            "Lv8": "106.14%",
+            "Lv9": "114.25%",
+            "Lv10": "122.86%",
+            "Name": "Mid-air Attack Stage 1 DMG"
+          },
+          {
+            "Lv1": "16.72% + 25.08% + 20.90%*6",
+            "Lv2": "18.10% + 27.14% + 22.62%*6",
+            "Lv3": "19.47% + 29.20% + 24.33%*6",
+            "Lv4": "21.39% + 32.08% + 26.73%*6",
+            "Lv5": "22.76% + 34.13% + 28.44%*6",
+            "Lv6": "24.33% + 36.50% + 30.42%*6",
+            "Lv7": "26.53% + 39.79% + 33.16%*6",
+            "Lv8": "28.72% + 43.08% + 35.90%*6",
+            "Lv9": "30.91% + 46.37% + 38.64%*6",
+            "Lv10": "33.25% + 49.87% + 41.56%*6",
+            "Name": "Mid-air Attack Stage 1: Charged Attack DMG"
+          },
+          {
+            "Lv1": "17.00% + 29.75%",
+            "Lv2": "18.40% + 32.19%",
+            "Lv3": "19.79% + 34.63%",
+            "Lv4": "21.74% + 38.05%",
+            "Lv5": "23.14% + 40.49%",
+            "Lv6": "24.74% + 43.29%",
+            "Lv7": "26.97% + 47.20%",
+            "Lv8": "29.20% + 51.10%",
+            "Lv9": "31.43% + 55.00%",
+            "Lv10": "33.80% + 59.15%",
+            "Name": "Mid-air Attack Stage 1: Flip DMG"
+          },
+          {
+            "Lv1": "14.17%*3",
+            "Lv2": "15.33%*3",
+            "Lv3": "16.49%*3",
+            "Lv4": "18.12%*3",
+            "Lv5": "19.28%*3",
+            "Lv6": "20.62%*3",
+            "Lv7": "22.48%*3",
+            "Lv8": "24.34%*3",
+            "Lv9": "26.19%*3",
+            "Lv10": "28.17%*3",
+            "Name": "Mid-air Attack Stage 1 Slash DMG"
+          },
+          {
+            "Lv1": "42.72% + 42.72%",
+            "Lv2": "46.22% + 46.22%",
+            "Lv3": "49.72% + 49.72%",
+            "Lv4": "54.63% + 54.63%",
+            "Lv5": "58.13% + 58.13%",
+            "Lv6": "62.16% + 62.16%",
+            "Lv7": "67.76% + 67.76%",
+            "Lv8": "73.36% + 73.36%",
+            "Lv9": "78.97% + 78.97%",
+            "Lv10": "84.92% + 84.92%",
+            "Name": "Mid-air Attack Stage 2 DMG"
+          },
+          {
+            "Lv1": "16.54%*6",
+            "Lv2": "17.89%*6",
+            "Lv3": "19.25%*6",
+            "Lv4": "21.15%*6",
+            "Lv5": "22.50%*6",
+            "Lv6": "24.06%*6",
+            "Lv7": "26.23%*6",
+            "Lv8": "28.40%*6",
+            "Lv9": "30.57%*6",
+            "Lv10": "32.87%*6",
+            "Name": "Mid-air Attack Stage 2: Charged Attack DMG"
+          },
+          {
+            "Lv1": "17.00% + 29.75%",
+            "Lv2": "18.40% + 32.19%",
+            "Lv3": "19.79% + 34.63%",
+            "Lv4": "21.74% + 38.05%",
+            "Lv5": "23.14% + 40.49%",
+            "Lv6": "24.74% + 43.29%",
+            "Lv7": "26.97% + 47.20%",
+            "Lv8": "29.20% + 51.10%",
+            "Lv9": "31.43% + 55.00%",
+            "Lv10": "33.80% + 59.15%",
+            "Name": "Mid-air Attack Stage 2: Flip DMG"
+          },
+          {
+            "Lv1": "14.17%*6",
+            "Lv2": "15.33%*6",
+            "Lv3": "16.49%*6",
+            "Lv4": "18.12%*6",
+            "Lv5": "19.28%*6",
+            "Lv6": "20.62%*6",
+            "Lv7": "22.48%*6",
+            "Lv8": "24.34%*6",
+            "Lv9": "26.19%*6",
+            "Lv10": "28.17%*6",
+            "Name": "Mid-air Attack Stage 3 DMG"
+          },
+          {
+            "Lv1": "17.00% + 29.75%",
+            "Lv2": "18.40% + 32.19%",
+            "Lv3": "19.79% + 34.63%",
+            "Lv4": "21.74% + 38.05%",
+            "Lv5": "23.14% + 40.49%",
+            "Lv6": "24.74% + 43.29%",
+            "Lv7": "26.97% + 47.20%",
+            "Lv8": "29.20% + 51.10%",
+            "Lv9": "31.43% + 55.00%",
+            "Lv10": "33.80% + 59.15%",
+            "Name": "Mid-air Attack Stage 3: Flip DMG"
+          },
+          {
+            "Lv1": "51.07% + 12.77%*3 + 38.31%",
+            "Lv2": "55.26% + 13.82%*3 + 41.45%",
+            "Lv3": "59.45% + 14.87%*3 + 44.59%",
+            "Lv4": "65.31% + 16.33%*3 + 48.98%",
+            "Lv5": "69.50% + 17.38%*3 + 52.13%",
+            "Lv6": "74.31% + 18.58%*3 + 55.74%",
+            "Lv7": "81.01% + 20.26%*3 + 60.76%",
+            "Lv8": "87.71% + 21.93%*3 + 65.79%",
+            "Lv9": "94.41% + 23.61%*3 + 70.81%",
+            "Lv10": "101.53% + 25.39%*3 + 76.15%",
+            "Name": "Mid-air Attack Stage 4 DMG"
+          },
+          {
+            "Lv1": "19.13%*3 + 28.69%*2",
+            "Lv2": "20.70%*3 + 31.04%*2",
+            "Lv3": "22.27%*3 + 33.40%*2",
+            "Lv4": "24.46%*3 + 36.69%*2",
+            "Lv5": "26.03%*3 + 39.04%*2",
+            "Lv6": "27.83%*3 + 41.75%*2",
+            "Lv7": "30.34%*3 + 45.51%*2",
+            "Lv8": "32.85%*3 + 49.28%*2",
+            "Lv9": "35.36%*3 + 53.04%*2",
+            "Lv10": "38.03%*3 + 57.04%*2",
+            "Name": "Dodge Counter DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Lv10": "25",
+            "Name": "Heavy Attack STA Cost"
+          },
+          {
+            "Lv1": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Lv10": "25",
+            "Name": "Heavy Attack - Rhapsodic Riff STA Cost"
+          },
+          {
+            "Lv1": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Lv10": "5",
+            "Name": "Mid-air Attack STA Cost"
+          },
+          {
+            "Lv1": "15",
+            "Lv2": "15",
+            "Lv3": "15",
+            "Lv4": "15",
+            "Lv5": "15",
+            "Lv6": "15",
+            "Lv7": "15",
+            "Lv8": "15",
+            "Lv9": "15",
+            "Lv10": "15",
+            "Name": "Mid-air Charged Attack STA Cost"
+          }
+        ]
+      },
+      {
+        "name": "Anchors Aweigh!",
+        "category": "Active",
+        "skill_type": "Resonance Skill",
+        "description": "Brant launches himself into the air and blasts all targets in an area, dealing Fusion DMG. While in mid-air, if Bravo is not full, Resonance Skill Anchors Aweigh! is replaced with Plunging Attack.Plunging AttackPlunge at the target at the cost of STA, dealing Fusion DMG, which is considered Basic Attack DMG.If Brant fails to reach the target with the Grapple swing of Mid-air Attack Stage 1, he instead performs a slash forward. Afterward, Press Normal Attack to perform Plunging Attack.If Brant reaches the target with the Grapple swing of Mid-air Attack Stage 1 or Stage 2 but the attack fails to hit the target, Press Normal Attack to perform Plunging Attack during the suspension.",
+        "multipliers": [
+          {
+            "Lv1": "100.77% + 67.18%",
+            "Lv2": "109.04% + 72.69%",
+            "Lv3": "117.30% + 78.20%",
+            "Lv4": "128.87% + 85.91%",
+            "Lv5": "137.13% + 91.42%",
+            "Lv6": "146.64% + 97.76%",
+            "Lv7": "159.86% + 106.57%",
+            "Lv8": "173.08% + 115.39%",
+            "Lv9": "186.30% + 124.20%",
+            "Lv10": "200.35% + 133.57%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "52.70%",
+            "Lv2": "57.03%",
+            "Lv3": "61.35%",
+            "Lv4": "67.40%",
+            "Lv5": "71.72%",
+            "Lv6": "76.69%",
+            "Lv7": "83.60%",
+            "Lv8": "90.52%",
+            "Lv9": "97.43%",
+            "Lv10": "104.78%",
+            "Name": "Plunging Attack DMG"
+          },
+          {
+            "Lv1": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Lv10": "30",
+            "Name": "Plunging Attack STA Cost"
+          },
+          {
+            "Lv1": "4",
+            "Lv2": "4",
+            "Lv3": "4",
+            "Lv4": "4",
+            "Lv5": "4",
+            "Lv6": "4",
+            "Lv7": "4",
+            "Lv8": "4",
+            "Lv9": "4",
+            "Lv10": "4",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Lv10": "10",
+            "Name": "Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "To the Horizon",
+        "category": "Active",
+        "skill_type": "Resonance Liberation",
+        "description": "Deal Fusion DMG to targets within the range and heal all nearby Resonators in the team before entering the Aflame state.Can be cast in mid-air.AflameThe efficiency of gaining Bravo is increased by 100% when Normal Attack or Resonance Skill Anchors Aweigh! hits the target. Meanwhile, Forte Circuit Theatrical Moment is replaced by \"My\" Moment.\"My\" MomentBrant gains additional ATK based on his Energy Regen: For every 1% of his Energy Regen over 150%, Brant gains additional 20 points of ATK, up to 2600.",
+        "multipliers": [
+          {
+            "Lv1": "42.78%*4 + 171.12%",
+            "Lv2": "46.29%*4 + 185.16%",
+            "Lv3": "49.80%*4 + 199.19%",
+            "Lv4": "54.71%*4 + 218.83%",
+            "Lv5": "58.22%*4 + 232.87%",
+            "Lv6": "62.25%*4 + 249.00%",
+            "Lv7": "67.87%*4 + 271.45%",
+            "Lv8": "73.48%*4 + 293.90%",
+            "Lv9": "79.09%*4 + 316.35%",
+            "Lv10": "85.06%*4 + 340.21%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "500 + 1.75*per 1% Energy Regen",
+            "Lv2": "560 + 1.96*per 1% Energy Regen",
+            "Lv3": "625 + 2.18*per 1% Energy Regen",
+            "Lv4": "700 + 2.45*per 1% Energy Regen",
+            "Lv5": "790 + 2.76*per 1% Energy Regen",
+            "Lv6": "875 + 3.06*per 1% Energy Regen",
+            "Lv7": "890 + 3.11*per 1% Energy Regen",
+            "Lv8": "910 + 3.18*per 1% Energy Regen",
+            "Lv9": "925 + 3.23*per 1% Energy Regen",
+            "Lv10": "950 + 3.32*per 1% Energy Regen",
+            "Name": "Healing"
+          },
+          {
+            "Lv1": "12",
+            "Lv2": "12",
+            "Lv3": "12",
+            "Lv4": "12",
+            "Lv5": "12",
+            "Lv6": "12",
+            "Lv7": "12",
+            "Lv8": "12",
+            "Lv9": "12",
+            "Lv10": "12",
+            "Name": "Aflame Duration"
+          },
+          {
+            "Lv1": "24",
+            "Lv2": "24",
+            "Lv3": "24",
+            "Lv4": "24",
+            "Lv5": "24",
+            "Lv6": "24",
+            "Lv7": "24",
+            "Lv8": "24",
+            "Lv9": "24",
+            "Lv10": "24",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "175",
+            "Lv2": "175",
+            "Lv3": "175",
+            "Lv4": "175",
+            "Lv5": "175",
+            "Lv6": "175",
+            "Lv7": "175",
+            "Lv8": "175",
+            "Lv9": "175",
+            "Lv10": "175",
+            "Name": "Resonance Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Lv10": "20",
+            "Name": "Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "Ocean Odyssey",
+        "category": "Forte Circuit",
+        "skill_type": "Forte Circuit",
+        "description": "Theatrical MomentBrant gains additional ATK based on his Energy Regen: For every 1% of his Energy Regen over 150%, Brant gains additional 12 points of ATK, up to 1560.Waves of AcclaimsHeal all nearby Resonators in the team when Bravo reaches 25, 50, 75, and 100.\n\nReturned from AshesWhen Bravo is full, replace Resonance Skill Anchor Aweigh! with Returned from Ashes.Consume all Bravo to perform Returned from Ashes, dealing Fusion DMG, considered Basic Attack DMG, and generate a shield. Casting this skill when in Aflame ends this state after Returned from Ashes ends.\n\nBravoBrant can hold up to 100 Bravo.Obtain Bravo when Normal Attacks hit the target.Obtain Bravo when Intro Skill hits the target.Obtain Bravo when Resonance Skill hits the target.",
+        "multipliers": [
+          {
+            "Lv1": "23.75%*2 + 47.50% + 95.00%*2 + 665.00%",
+            "Lv2": "25.70%*2 + 51.40% + 102.79%*2 + 719.53%",
+            "Lv3": "27.65%*2 + 55.29% + 110.58%*2 + 774.06%",
+            "Lv4": "30.38%*2 + 60.75% + 121.49%*2 + 850.41%",
+            "Lv5": "32.32%*2 + 64.64% + 129.28%*2 + 904.94%",
+            "Lv6": "34.56%*2 + 69.12% + 138.24%*2 + 967.65%",
+            "Lv7": "37.68%*2 + 75.35% + 150.70%*2 + 1054.89%",
+            "Lv8": "40.80%*2 + 81.59% + 163.17%*2 + 1142.14%",
+            "Lv9": "43.91%*2 + 87.82% + 175.63%*2 + 1229.39%",
+            "Lv10": "47.22%*2 + 94.44% + 188.87%*2 + 1322.09%",
+            "Name": "Returned from Ashes DMG"
+          },
+          {
+            "Lv1": "312 + 1.09*per 1% Energy Regen",
+            "Lv2": "350 + 1.22*per 1% Energy Regen",
+            "Lv3": "390 + 1.36*per 1% Energy Regen",
+            "Lv4": "437 + 1.53*per 1% Energy Regen",
+            "Lv5": "493 + 1.72*per 1% Energy Regen",
+            "Lv6": "546 + 1.91*per 1% Energy Regen",
+            "Lv7": "556 + 1.94*per 1% Energy Regen",
+            "Lv8": "568 + 1.99*per 1% Energy Regen",
+            "Lv9": "578 + 2.02*per 1% Energy Regen",
+            "Lv10": "593 + 2.07*per 1% Energy Regen",
+            "Name": "Waves of Acclaims Healing"
+          },
+          {
+            "Lv1": "2500 + 9*per 1% Energy Regen",
+            "Lv2": "2800 + 10.08*per 1% Energy Regen",
+            "Lv3": "3125 + 11.25*per 1% Energy Regen",
+            "Lv4": "3500 + 12.6*per 1% Energy Regen",
+            "Lv5": "3950 + 14.22*per 1% Energy Regen",
+            "Lv6": "4375 + 15.75*per 1% Energy Regen",
+            "Lv7": "4450 + 16.02*per 1% Energy Regen",
+            "Lv8": "4550 + 16.38*per 1% Energy Regen",
+            "Lv9": "4625 + 16.65*per 1% Energy Regen",
+            "Lv10": "4750 + 17.1*per 1% Energy Regen",
+            "Name": "Shield"
+          },
+          {
+            "Lv1": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Lv10": "30",
+            "Name": "Shield Duration"
+          },
+          {
+            "Lv1": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Lv10": "20",
+            "Name": "Returned from Ashes Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "Voyager's Blaze",
+        "category": "Inherent",
+        "skill_type": "Inherent Skill",
+        "description": "Healing provided by Waves of Acclaims is increased by 20%.",
+        "multipliers": []
+      },
+      {
+        "name": "Trial by Fire and Tide",
+        "category": "Inherent",
+        "skill_type": "Inherent Skill",
+        "description": "Brant's resistance to interruption is increased during Mid-air Attacks and gains 15% Fusion DMG Bonus.",
+        "multipliers": []
+      },
+      {
+        "name": "Applaud for Me!",
+        "category": "Transition",
+        "skill_type": "Intro Skill",
+        "description": "Attack the target, dealing Fusion DMG, and gain Interlude Applause effect.\n\nInterlude ApplauseThe next Mid-air Attack begins at Stage 2. This effect ends when Brant lands early or is switched out.",
+        "multipliers": [
+          {
+            "Lv1": "102.00% + 25.50%",
+            "Lv2": "110.37% + 27.60%",
+            "Lv3": "118.73% + 29.69%",
+            "Lv4": "130.44% + 32.61%",
+            "Lv5": "138.81% + 34.71%",
+            "Lv6": "148.43% + 37.11%",
+            "Lv7": "161.81% + 40.46%",
+            "Lv8": "175.19% + 43.80%",
+            "Lv9": "188.57% + 47.15%",
+            "Lv10": "202.79% + 50.70%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Lv10": "10",
+            "Name": "Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "The Course is Set!",
+        "category": "Transition",
+        "skill_type": "Outro Skill",
+        "description": "Ampify the incoming Resonator's Fusion DMG by 20% and Resonance Skill DMG by 25% for 14s or until the Resonator is switched out.",
+        "multipliers": []
+      }
+    ],
+    "resonance_chain_dupes": [
+      {
+        "node": "S1",
+        "name": "Sequence Node 1",
+        "description": "Returned from Ashes temporarily causes nearby targets to stagnate while casting. The stagnation effect is removed when Brant is switched off the field.After casting Intro Skill Applaud for Me! or each flip following Mid-air Attack, Brant's DMG dealt is increased by 20% for 5s, stacking up to 3 times."
+      },
+      {
+        "node": "S2",
+        "name": "Sequence Node 2",
+        "description": "Casting Mid-air Attack and Returned from Ashes increases Brant's Crit. Rate by 30%.Brant's Outro Skill The Course is Set! gains a new enhancement:When Resonance Skill cast by the incoming Resonator (or nearby Resonators who activate Brant's Outro Skill) hits a target within 20s after Brant's Outro Skill, Brant blasts the hit target, dealing Fusion DMG equal to 440% of Brant's ATK (considered Basic Attack DMG). This explosion can be triggered 1 time per second, up to 2 explosions in total.This effect remains active when Brant is switched off the field."
+      },
+      {
+        "node": "S3",
+        "name": "Sequence Node 3",
+        "description": "The DMG Multiplier of Returned from Ashes is increased by 42%."
+      },
+      {
+        "node": "S4",
+        "name": "Sequence Node 4",
+        "description": "The Shield obtained from Returned from Ashes is increased by 20%. Casting Returned from Ashes restores HP for all nearby Resonators in the team (6.60 HP for every 1% Energy Regen)."
+      },
+      {
+        "node": "S5",
+        "name": "Sequence Node 5",
+        "description": "Dealing Basic Attack DMG gives Brant 15% Basic Attack DMG Bonus for 10s."
+      },
+      {
+        "node": "S6",
+        "name": "Sequence Node 6",
+        "description": "Mid-air Attack's DMG Multiplier is increased by 30%. Casting Returned from Ashes causes a secondary blast, dealing Fusion DMG equal to 30% of the DMG dealt by Returned from Ashes, considered Basic Attack DMG."
+      }
+    ],
+    "minor_fortes": [
+      {
+        "stat_name": "CRIT Rate",
+        "bonus_value": "+8%"
+      },
+      {
+        "stat_name": "ATK%",
+        "bonus_value": "+12%"
+      }
+    ],
+    "base_stats_lvl_90": {
+      "hp": 934,
+      "atk": 30,
+      "def": 107,
+      "max_energy": 125,
+      "crit_rate": "13%",
+      "crit_dmg": "150%",
+      "healing_bonus": "0%",
+      "elemental_dmg_bonus": "0%"
+    },
+    "upgrade_materials": {
+      "character_ascension": [
+        {
+          "material_name": "Golden Fleece",
+          "rarity": "boss",
+          "quantity": 60
+        },
+        {
+          "material_name": "Blazing Bone",
+          "rarity": "specialty",
+          "quantity": 46
+        },
+        {
+          "material_name": "LF Tidal Residuum",
+          "rarity": "common",
+          "quantity": 4
+        },
+        {
+          "material_name": "MF Tidal Residuum",
+          "rarity": "common",
+          "quantity": 12
+        },
+        {
+          "material_name": "HF Tidal Residuum",
+          "rarity": "common",
+          "quantity": 12
+        },
+        {
+          "material_name": "FF Tidal Residuum",
+          "rarity": "common",
+          "quantity": 4
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "The Netherworld's Stare",
+          "rarity": "weekly_boss",
+          "quantity": 26
+        },
+        {
+          "material_name": "LF Tidal Residuum",
+          "rarity": "common",
+          "quantity": 25
+        },
+        {
+          "material_name": "MF Tidal Residuum",
+          "rarity": "common",
+          "quantity": 28
+        },
+        {
+          "material_name": "HF Tidal Residuum",
+          "rarity": "common",
+          "quantity": 40
+        },
+        {
+          "material_name": "FF Tidal Residuum",
+          "rarity": "common",
+          "quantity": 57
+        },
+        {
+          "material_name": "Inert Metallic Drip",
+          "rarity": "skill_material",
+          "quantity": 25
+        },
+        {
+          "material_name": "Reactive Metallic Drip",
+          "rarity": "skill_material",
+          "quantity": 28
+        },
+        {
+          "material_name": "Polarized Metallic Drip",
+          "rarity": "skill_material",
+          "quantity": 55
+        },
+        {
+          "material_name": "Heterized Metallic Drip",
+          "rarity": "skill_material",
+          "quantity": 67
+        }
+      ]
+    },
+    "voice_actors": {
+      "eng": "",
+      "jpn": "",
+      "cn": "",
+      "kr": ""
+    },
+    "best_weapons": [
+      {
+        "weapon_name": "Unflickering Valor",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "commentary_details": "Brant's signature and by far best weapon. The massive Energy Regen, Basic ATK DMG and small CRIT Rate boosts the weapon offers are all Brant's top stats, allowing him to sport the Tidebreaking Courage set comfortably, even with a Fusion DMG Bonus Echo if you build his Energy Regen well. However, this sword isn't good on anyone else â only pull it if you have Brant, and if you do pull it, know you'll only use it on him.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 415,
+          "secondary_stat_name": "Energy Reg.",
+          "secondary_stat_val": 77,
+          "source": "Rate-up",
+          "effect_description": "Increase Crit. Rate by {0}. Casting Resonance Liberation gives {1} Basic Attack DMG Bonus for 10s. Dealing Basic Attack DMG gives {1} Basic Attack DMG Bonus for 4s."
+        }
+      },
+      {
+        "weapon_name": "Laser Shearer",
+        "dupe_rank": "R1",
+        "percentage_performance": "77.20%",
+        "commentary_details": "ATK and Energy Regen stat-stick much like Aero Rover's Signature weapon. Only marginally better than it as it can provide 12% extra ATK via the passive, but generally not worth sparing the pulls when Bloodpact's Pledge is free to obtain.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "Energy Reg.",
+          "secondary_stat_val": 38.8,
+          "source": "Permanent Convene",
+          "effect_description": "Increases ATK by {0}. Dealing damage to targets under Tune Strain: Interfered grants {1} Resonance Skill Bonus for 3s. Retriggering the effect resets its duration."
+        }
+      },
+      {
+        "weapon_name": "Bloodpact's Pledge",
+        "dupe_rank": "R5",
+        "percentage_performance": "75.10%",
+        "commentary_details": "Aero Rover's Signature weapon is actually very much usable on Brant with Tidebreaking Courage thanks to its high Base ATK and Energy Regen main stat. Unfortunately he is unable to make use of this weapon's passive effects, but as a Base ATK and Energy Regen stat-stick it's his best F2P weapon choice assuming you can acommodate Tideebreaking Courage's steep build requirements.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "Energy Reg.",
+          "secondary_stat_val": 38.9,
+          "source": "Rate-up",
+          "effect_description": "Providing Healing increases Resonance Skill DMG by {0} for 6s. When Rover: Aero casts Resonance Skill Unbound Flow, Aero DMG dealt by nearby Resonators on the field is Amplified by {0} for 30s."
+        }
+      },
+      {
+        "weapon_name": "Red Spring",
+        "dupe_rank": "R1",
+        "percentage_performance": "73.10%",
+        "commentary_details": "Camellya's signature weapon is usable by all Basic Attack focused Sword wielding characters, including Brant, but it is designed with her in mind due to a lot of its power locked behind spending Concerto mid-rotation - something only Camellya can do. While Brant is able to make good leverage of most of its stats, but due to being unable to benefit from the Tidebreaking Courage set and not benefitting from the complete passive effect, it ranks lower than the above options.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Gacha",
+          "effect_description": "Increase ATK by {0}. When dealing Basic Attack DMG, the wielder gains {1} Basic Attack DMG Bonus for 14s. This effect can be triggered once per second, stacking up to 3 times. When the wielder's Concerto Energy is consumed, gain {2} Basic DMG Bonus for 10s. This effect can be triggered once per second and ends when the wielder is switched off the field."
+        }
+      },
+      {
+        "weapon_name": "Emerald of Genesis",
+        "dupe_rank": "R1",
+        "percentage_performance": "71.30%",
+        "commentary_details": "The combination of Energy Regen, CRIT Rate and solid Base ATK make this weapon usable on Brant, and while its small ATK% boost is also easy to stack up once, Brant doesn't get to make use of the second stack in his rotations. Unfortunately, unless this weapon is R5 it's not possible to use the Tidebreaking Courage set using it which makes it rank lower than above options.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Permanent Convene",
+          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases ATK by {1}, stacking up to 2 time(s). This effect lasts for 10s."
+        }
+      }
+    ],
+    "best_echo_sets": [
+      {
+        "set_name": "Molten Rift",
+        "percentage_performance": "",
+        "commentary": "Offers a 10% unconditional Fusion DMG% boost and an additional 30% Fusion DMG% after using a Resonance Skill for a grand total of 40% additional Fusion DMG bonus. On Brant, this set is significantly worse damage-wise than Tidebreaking Courage if it is possible to use it, however provided you cannot reach his Energy Regen requirements then this is the best set to use. Make sure to start casting a Skill and cancel it via Brant's Ultimate when his rotation starts to exploit this set's full effect!",
+        "main_echo_options": [
+          {
+            "echo_name": "Nightmare: Inferno Rider",
+            "echo_commentary": "Offers an unconditional 12% Fusion DMG and 12% Resonance Skill DMG boost when placed in the main slot. While Resonance Skill DMG isn't used at all on Brant, the nature of his kit placing him in the air makes the base Inferno Rider that grants Basic DMG very difficult to use, so an unconditional 12% Fusion DMG Bonus is the next best thing to go for."
+          }
+        ]
+      },
+      {
+        "set_name": "Tidebreaking Courage",
+        "percentage_performance": "",
+        "commentary": "Brant's best set provided he can reach its tremendous Energy requirements, due to providing its total of 10% Energy Regen, 15% ATK and 30% DMG Bonus at 250% Energy Regen or above. This requires very good Echoes or his Signature weapon to achieve, and while its activation conditions are very high, the reward in terms of damage increase makes this set worth the investment.                                                                                                                                                                                                ",
+        "main_echo_options": [
+          {
+            "echo_name": "Dragon of Dirge",
+            "echo_commentary": "Offers 12% Basic ATK and 12% Fusion DMG Bonus when equipped in the main slot, making it the best choice for Brant. Its active Transform cast may be difficult to exploit as using it at the end of the rotation will significantly extend Brant's rotation time, so it is best to use it before his main rotation starts if possible."
+          }
+        ]
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ],
+        "cost_3": [
+          "Energy Regen",
+          "Energy Regen / Fusion DMG"
+        ],
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until 250%)",
+        "CRIT Rate  CRIT DMG",
+        "Energy Regen (Above 250%)",
+        "Basic Attack DMG%",
+        "ATK%",
+        "ATK"
+      ]
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 16000+",
+      "DEF: 1300+",
+      "ATK: 1600-2000+ (Before Forte buffs)",
+      "CRIT Rate: 65-80%+",
+      "CRIT DMG: 210-260%+",
+      "Energy Regen: 250-280%",
+      "Fusion DMG Bonus: 10-40%"
+    ],
+    "skill_upgrade_priority": {
+      "order": [
+        "Forte Circuit",
+        "Basic Attack",
+        "Res. Liberation",
+        "Intro Skill",
+        "Res. Skill"
+      ],
+      "commentary": "Skill and Intro can be skipped when levelling to save on resources at a minimal damage loss."
+    },
+    "rotations": [
+      {
+        "rotation_name": "Standard Rotation",
+        "steps": [
+          "Intro",
+          "Skill: Plunging Attack (OPTIONAL) (Immediately Cancel With Ultimate)",
+          "Ultimate",
+          "Mid-Air Atk P2",
+          "Mid-Air Atk P2: Charged Attack",
+          "Mid-Air Atk P2: Flip",
+          "Mid-Air Atk P3",
+          "Mid-Air Atk P3: Flip",
+          "Forte: Returned from Ashes",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "DOUBLE FORTE DPS ROTATION",
+        "steps": [
+          "Skill: Anchors Aweigh! (Pre-Rotation)",
+          "<-- Swap -->",
+          "Intro",
+          "Mid-Air Atk P2",
+          "Mid-Air Atk P2: Charged Attack",
+          "Mid-Air Atk P2: Flip",
+          "Mid-Air Atk P3",
+          "Mid-Air Atk P3: Flip",
+          "Mid-Air Atk P4",
+          "<-- Swap and Prepare Team Buffs -->",
+          "Intro",
+          "Forte: Returned from Ashes",
+          "Ultimate",
+          "Mid-Air Atk P1",
+          "Mid-Air Atk P2",
+          "Mid-Air Atk P2: Charged Attack",
+          "Mid-Air Atk P2: Flip",
+          "Mid-Air Atk P3",
+          "Mid-Air Atk P3: Flip",
+          "Mid-Air Atk P4",
+          "Forte: Returned from Ashes",
+          "Outro"
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "lupa"
+        ],
+        "commentary": "Lupa is the cornerstone of the Mono Fusion archetype thanks to her many team-wide Fusion buffs, and also Brant's best buffer due to her Outro providing Basic and Fusion DMG Amplification. Together, they make for a top tier pair!"
+      },
+      {
+        "characters": [
+          "galbrena",
+          "aemeath",
+          "changli",
+          "encore",
+          "chixia"
+        ],
+        "commentary": "All Fusion DPS characters are good choices to pair with a Brant + Lupa duo. While Changli technically has the best synergy with Brant as she takes the most leverage out of his Outro, Galbrena and Aemeath can prove more effective due to their higher baseline damage. The other two are viabele alternatives if none are available."
+      },
+      {
+        "characters": [
+          "carlotta",
+          "jinhsi"
+        ],
+        "commentary": "Thanks to Brant's Outro amplifying Skill damage and his high personal damage/healing/shielding, he also pairs well as an alternative choice with any Skill damage Main DPS. Two clear choices are available in this domain currently, being Carlotta and Jinhsi."
+      },
+      {
+        "characters": [
+          "mornye",
+          "the-shorekeeper",
+          "verina"
+        ],
+        "commentary": "These 3 are the best generalist Supports in the game. Mornye has a special synergy with Brant and Lupa because she enables Brant to work in a Hypercarry team while still sporting Lupa's full Mono Fusion buffs which makes her the best choice for that team archetype if that's available. Otherwise, Shorekeeper is amazing thanks to her massive CRIT buffs and other generalist buffs, then Verina is the most accessible and still very strong option if neither are available."
+      }
+    ],
+    "example_teams": [
+      {
+        "team_name": "Team #1: Best Team",
+        "slot_1": {
+          "character_name": "aemeath, galbrena, changli",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "brant",
+          "alternatives": []
+        },
+        "slot_3": {
+          "character_name": "lupa",
+          "alternatives": []
+        },
+        "team_notes": ""
+      },
+      {
+        "team_name": "Team #2: Mono Fusion Alternatives",
+        "slot_1": {
+          "character_name": "encore, chixia",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "brant",
+          "alternatives": []
+        },
+        "slot_3": {
+          "character_name": "lupa",
+          "alternatives": [
+            "the-shorekeeper"
+          ]
+        },
+        "team_notes": ""
+      },
+      {
+        "team_name": "Team #3: More Alternative Teams",
+        "slot_1": {
+          "character_name": "carlotta, jinhsi",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "brant",
+          "alternatives": []
+        },
+        "slot_3": {
+          "character_name": "the-shorekeeper",
+          "alternatives": [
+            "verina"
+          ]
+        },
+        "team_notes": "With Jinhsi, Verina is required to provide Coordinated Attacks."
+      },
+      {
+        "team_name": "Team #4: DPS Brant",
+        "slot_1": {
+          "character_name": "brant",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "lupa",
+          "alternatives": [
+            "sanhua"
+          ]
+        },
+        "slot_3": {
+          "character_name": "mornye",
+          "alternatives": [
+            "the-shorekeeper",
+            "verina"
+          ]
+        },
+        "team_notes": "Mornye is only best with Lupa on the team."
+      }
+    ]
+  }
+}

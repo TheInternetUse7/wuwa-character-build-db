@@ -1,0 +1,1250 @@
+{
+  "status": "success",
+  "data": {
+    "character_metadata": {
+      "name": "Jinhsi",
+      "slug": "jinhsi",
+      "rarity_stars": 5,
+      "element": "Spectro",
+      "weapon_type": "Broadblade",
+      "breadcrumb": [
+        "Wuthering Waves",
+        "Characters",
+        "Jinhsi"
+      ],
+      "updates": {
+        "last_updated": "10/July/2026",
+        "last_review_patch": "3.2",
+        "last_major_build_patch": "3.2",
+        "last_profile_update": "10/July/2026"
+      }
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tier": "T2",
+          "tags": [
+            "Coord",
+            "Gather",
+            "Expert +1"
+          ]
+        },
+        "whimpering_wastes": {
+          "tier": "T4",
+          "tags": [
+            "Coord",
+            "Gather"
+          ]
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T2"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T4"
+        }
+      }
+    },
+    "media": {
+      "youtube_guide_embed_url": "https://www.youtube.com/embed/u8S130y-ois",
+      "youtube_guide_full_url": "https://www.youtube.com/watch?v=u8S130y-ois",
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/jinhsi_full.webp"
+    },
+    "pros_and_cons": {
+      "pros": [
+        "Large focus on mid-air combat - difficult to hit her and missing attacks is never an issue;",
+        "Has a ton of room for Swap and Animation Cancels - extremely optimizable;",
+        "Can get Outros off extremely quickly, and multiple times per rotation via her unique passives;",
+        "One of the few units that can capitalize on under-utilized F2P units like Yuanwu and still perform well, + one of the best users of Verina in the game - teammates are always accessible."
+      ],
+      "cons": [
+        "Has not received any good new teammates since 1.3 - Coordinated Attacks is a dead archetype since 2.2. Very outdated in teams and overall power level;",
+        "When she does get interrupted mid-air, it completely ruins her rotation speed as she falls tumbling to the ground;",
+        "Signature weapon is a minimum to get her working up to endgame standard nowadays;",
+        "5P Celestial Light's set effect requires her to get Intros every so often even though she could work without them, and her Skill nuke gets empowered over time by Coordinated Attacks which limits teammate options and how fast her rotations can be when optimized;",
+        "Completely unusable in multi-wave content (i.e Whimpering Wastes), no matter how much you optimize (unless wheelchaired by top tiers)."
+      ]
+    },
+    "review": {
+      "summary": "Jinhsi is a 5-star Spectro Broadblade main damage dealer who is well-known for her lightning-fast rotations, and being the strongest 1.x DPS on her release. She defined the entire early meta of Wuthering Waves, via her accessibility in teammates and her ease of use, with plenty of room for optimization in very unique ways. Her playstyle, which places a particular emphasis on Animation and Swap Cancelling, alongside mid-air combat and damage concentrated in huge AoE nukes, has gotten many (including the writer of this review) smitten with the way that she flips Wuthering Waves gameplay on its head.",
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Jinhsi is a 5-star Spectro Broadblade main damage dealer who is well-known for her lightning-fast rotations, and being the strongest 1.x DPS on her release. She defined the entire early meta of Wuthering Waves, via her accessibility in teammates and her ease of use, with plenty of room for optimization in very unique ways. Her playstyle, which places a particular emphasis on Animation and Swap Cancelling, alongside mid-air combat and damage concentrated in huge AoE nukes, has gotten many (including the writer of this review) smitten with the way that she flips Wuthering Waves gameplay on its head."
+          ]
+        },
+        {
+          "heading": "Key Mechanics",
+          "paragraphs": [
+            "Jinhsi's Forte mechanics are the focus of her kit by a long shot - almost all of her kit's most essential features are concentrated there.",
+            "First of all, her Forte gauge. This is used to empower her special Skill, the biggest nuke she can unleash on enemies. Incandescence stacks up to 50, and any time any character inflicts damage of a given attribute, she gains 1 stack, once per 3 seconds. 2 stacks are applied on a separate timer per Coordinated Attack of a given element. This means one element can trigger each effect on a 3s cooldown depending on the type of attack. After having cast Jinhsi's Outro however, the cooldown of each lowers from 3s to 1s for 20s.",
+            "The nuke Skill that is empowered by her Forte gauge is called Illuminous Epiphany. Jinhsi can activate this after the fourth stage of her empowered mid-air attacks. This Skill has a solid base multiplier that gets increased by massive amounts depending on her Incandescence stacks. At full power, this is still one of the hardest-hitting attacks in the entire game. Every 25s, Jinhsi gets a free Outro that does not consume any Concerto Energy after casting this Skill.",
+            "Jinhsi enters this empowered mid-air state, called Incarnation, via a special Skill called Overflowing Radiance, that she can activate either via her Intro (instantly) or after casting the fourth stage of her regular Basic Attack chain (which takes time). She gains an entirely new set of attacks that she may cast until she reaches her empowered Skill, at which point the state ends and she may switch out until her next damage window."
+          ]
+        },
+        {
+          "heading": "Rotation Concepts",
+          "paragraphs": [
+            "The way Jinhsi rotates can be extremely varied depending on the team composition. She has many ways to access her key attacks, and can choose to frontload or backload her damage depending on the situation. Her damage is mostly concentrated within her empowered Skill and Ultimate, so she will rotate around those two abilities. This also gives her an increased affinity for crit-fishing - that is to say, if her 2 key abilities crit, but others do not, then that's still okay, so making builds with lower CRIT Rate, higher CRIT DMG, and resetting runs until her key abilities do crit is totally possible and leads to optimized Jinhsi scores.",
+            "First of all, the fact that she gains an Outro for free every 25s is for a very good reason: It is intended for her to rotate by doing 2 Skills per loop, so while your Support will rotate once, your Hybrid and Jinhsi herself will rotate twice per full team loop. This works out if and only if you plan your rotations correctly.",
+            "Since Jinhsi can rotate extremely quickly, maintaining your entire team's array of buffs by ensuring the rotation is under 30s is thankfully more than doable. The idea is that if Jinhsi has room to kill time, she can cast her mid-air Skill (the unempowered one) for extra damage alongside her usual mid-air Basic Attacks, then she may do so. However, cancelling the Skill that allows her to access this state in the first place via either a Dash or an Ultimate is key to ensuring her rotations stay within appropriate speed, provided your Forte Stack generation is fast.",
+            "Indeed, one of Jinhsi's main things keeping her from rotating too fast is a need to build up sufficient Forte stacks to power up her nuke to a desirable degree so that she doesn't overcap on the following rotation (as this would lower her damage significantly). As long as that condition is satisfied, then Jinhsi is free to rotate as fast as she wants, but nonetheless, it's very important to keep in mind that managing your Forte stacks is key to optimizing.",
+            "Overall, since Jinhsi's Intro allows her to instantly access her Incarnation state, in Hypercarry team rotations (with 2 Coordinated Attackers like Zhezhi and Verina) it will be standard to make use of it. However, since Jinhsi's Outro can be cast for free immediately on a 25s cooldown, she must also be the first character to rotate in the team (the idea is to skip as much of her low-damaging attacks as you can to access her Outro immediately before setting up your incoming rotation with your other characters to empower her Skills as quickly as possible). Additionally, in Quickswap, Jinhsi's Basic chain will be key to enter Incarnation state in some team rotations.",
+            "All of this to say: rotating with Jinhsi is not linear, and her rotations don't just boil down to \"do 4 mid-air attacks, use her empowered skill and swap off\". Jinhsi is way more complicated to optimize than that, love it or hate it. Our Gameplay section should supplement this overview of her rotation concepts quite well to give you an idea of how Jinhsi should rotate most of the time. It's also worth keeping in mind that her rotations being this potentially optimizable also means her ceiling is much higher than what most people give her credit for."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Jinhsi is a character who functions extremely uniquely compared to other characters in the game, and this gives her a damage ceiling that's much higher than what most inexperienced Jinhsi players could imagine about her. Her complexity and uniqueness in her rotation define a distinctly varied character packed with ways to optimize and mix up the way that she is played. Additionally, while her teammate choices are fairly limited for casual players, since Coordinated Attackers tend to be a necessity for the easy Hypercarry compositions to function, this does not mean Jinhsi is struggling to find teammates for Quickswap compositions or that she lacks variety in gameplay even for Hypercarry playstyles.",
+            "She has easily accessible teammates in the form of Yuanwu and Verina (or Shorekeeper), who make for a basic Jinhsi Hypercarry team that can evolve into Quickswap with the addition of Changli as a second teammate for example, or even Zhezhi, Yinlin and Cantarella to vary Hypercarry team choices. However,Cantarella is fairly anti-synergistic with Jinhsi due to being locked by her long 25s Ultimate and Forte Skill cooldowns to have smooth rotations, so Zhezhi (and to a lesser degree Yinlin) remain her primary teammate choices (Yinlin being more quickswap-friendly but less accessible than Zhezhi despite having similar if not slightly worse results when fully optimized for both).",
+            "In conclusion, Jinhsi is one of the most original characters ever created in Wuthering Waves. She may struggle in Whimpering Wastes by design since all of her damage is concentrated in a few nukes that she tends to overkill enemies with, and she may struggle nowadays in Tower of Adversity due to a lack of new optimal teammates since v1.2-1.3, but this doesn't change that she has room to persist in content like Endstate Matrix due to her highly optimizable ceiling and room for crit-fishing. While she is nowadays powercrept, and it's difficult to argue pulling for her, she may be serviceable in Tower/Matrix for those who are still willing to give her a chance!"
+          ]
+        }
+      ]
+    },
+    "skills": [
+      {
+        "name": "Slash of Breaking Dawn",
+        "category": "Active",
+        "skill_type": "Basic Attack",
+        "description": "Basic AttackPerform up to 4 consecutive strikes, dealing Spectro DMG.Heavy AttackPerform a charged attack at the cost of Stamina, dealing Spectro DMG.Mid-air AttackPerform a plunging attack while in mid-air at the cost of Stamina, dealing Spectro DMG.Dodge CounterUse Basic Attack after a successful Dodge to counterattack, dealing Spectro DMG.",
+        "multipliers": [
+          {
+            "Lv1": "33.43%",
+            "Lv2": "36.18%",
+            "Lv3": "38.92%",
+            "Lv4": "42.75%",
+            "Lv5": "45.50%",
+            "Lv6": "48.65%",
+            "Lv7": "53.03%",
+            "Lv8": "57.42%",
+            "Lv9": "61.81%",
+            "Lv10": "66.47%",
+            "Name": "Stage 1 DMG"
+          },
+          {
+            "Lv1": "19.61% + 9.81%*3",
+            "Lv2": "21.22% + 10.61%*3",
+            "Lv3": "22.83% + 11.42%*3",
+            "Lv4": "25.08% + 12.54%*3",
+            "Lv5": "26.69% + 13.35%*3",
+            "Lv6": "28.54% + 14.27%*3",
+            "Lv7": "31.11% + 15.56%*3",
+            "Lv8": "33.68% + 16.84%*3",
+            "Lv9": "36.26% + 18.13%*3",
+            "Lv10": "38.99% + 19.50%*3",
+            "Name": "Stage 2 DMG"
+          },
+          {
+            "Lv1": "5.36%*7 + 16.07%",
+            "Lv2": "5.80%*7 + 17.39%",
+            "Lv3": "6.24%*7 + 18.70%",
+            "Lv4": "6.85%*7 + 20.55%",
+            "Lv5": "7.29%*7 + 21.86%",
+            "Lv6": "7.80%*7 + 23.38%",
+            "Lv7": "8.50%*7 + 25.49%",
+            "Lv8": "9.20%*7 + 27.59%",
+            "Lv9": "9.90%*7 + 29.70%",
+            "Lv10": "10.65%*7 + 31.94%",
+            "Name": "Stage 3 DMG"
+          },
+          {
+            "Lv1": "31.74% + 47.60%",
+            "Lv2": "34.34% + 51.51%",
+            "Lv3": "36.94% + 55.41%",
+            "Lv4": "40.58% + 60.87%",
+            "Lv5": "43.19% + 64.78%",
+            "Lv6": "46.18% + 69.26%",
+            "Lv7": "50.34% + 75.51%",
+            "Lv8": "54.50% + 81.75%",
+            "Lv9": "58.67% + 88.00%",
+            "Lv10": "63.09% + 94.63%",
+            "Name": "Stage 4 DMG"
+          },
+          {
+            "Lv1": "12.00%*5 + 18.00% + 42.00%",
+            "Lv2": "12.99%*5 + 19.48% + 45.45%",
+            "Lv3": "13.97%*5 + 20.96% + 48.89%",
+            "Lv4": "15.35%*5 + 23.02% + 53.71%",
+            "Lv5": "16.33%*5 + 24.50% + 57.16%",
+            "Lv6": "17.47%*5 + 26.20% + 61.12%",
+            "Lv7": "19.04%*5 + 28.56% + 66.63%",
+            "Lv8": "20.61%*5 + 30.92% + 72.14%",
+            "Lv9": "22.19%*5 + 33.28% + 77.65%",
+            "Lv10": "23.86%*5 + 35.79% + 83.51%",
+            "Name": "Heavy Attack DMG"
+          },
+          {
+            "Lv1": "6.20% + 12.40% + 43.40%",
+            "Lv2": "6.71% + 13.42% + 46.96%",
+            "Lv3": "7.22% + 14.44% + 50.52%",
+            "Lv4": "7.93% + 15.86% + 55.50%",
+            "Lv5": "8.44% + 16.88% + 59.06%",
+            "Lv6": "9.03% + 18.05% + 63.16%",
+            "Lv7": "9.84% + 19.68% + 68.85%",
+            "Lv8": "10.65% + 21.30% + 74.54%",
+            "Lv9": "11.47% + 22.93% + 80.24%",
+            "Lv10": "12.33% + 24.66% + 86.29%",
+            "Name": "Mid-air Attack DMG"
+          },
+          {
+            "Lv1": "7.38%*7 + 22.14%",
+            "Lv2": "7.99%*7 + 23.96%",
+            "Lv3": "8.59%*7 + 25.77%",
+            "Lv4": "9.44%*7 + 28.32%",
+            "Lv5": "10.05%*7 + 30.13%",
+            "Lv6": "10.74%*7 + 32.22%",
+            "Lv7": "11.71%*7 + 35.12%",
+            "Lv8": "12.68%*7 + 38.03%",
+            "Lv9": "13.65%*7 + 40.93%",
+            "Lv10": "14.68%*7 + 44.02%",
+            "Name": "Dodge Counter DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Lv10": "25",
+            "Name": "Heavy Attack STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Lv10": "30",
+            "Name": "Mid-air Attack STA Cost"
+          }
+        ]
+      },
+      {
+        "name": "Trailing Lights of Eons",
+        "category": "Active",
+        "skill_type": "Resonance Skill",
+        "description": "Dash forward and perform consecutive strikes that inflict Spectro DMG.\n\nOverflowing RadianceAfter Jinhsi uses Basic Attack 4 or, while not in Incarnation, Intro Skill Loong's Halo, an alternative Resonance Skill Overflowing Radiance is available within 5s.Resonance Skill Overflowing Radiance inflicts Spectro DMG and sends Jinhsi into Incarnation.\nCan be cast in mid-air.",
+        "multipliers": [
+          {
+            "Lv1": "9.79%*4 + 39.15%",
+            "Lv2": "10.60%*4 + 42.37%",
+            "Lv3": "11.40%*4 + 45.58%",
+            "Lv4": "12.52%*4 + 50.07%",
+            "Lv5": "13.32%*4 + 53.28%",
+            "Lv6": "14.25%*4 + 56.97%",
+            "Lv7": "15.53%*4 + 62.11%",
+            "Lv8": "16.82%*4 + 67.25%",
+            "Lv9": "18.10%*4 + 72.38%",
+            "Lv10": "19.46%*4 + 77.84%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "4.96%*4 + 14.88%*4 + 19.84%",
+            "Lv2": "5.37%*4 + 16.11%*4 + 21.47%",
+            "Lv3": "5.78%*4 + 17.33%*4 + 23.10%",
+            "Lv4": "6.35%*4 + 19.03%*4 + 25.38%",
+            "Lv5": "6.75%*4 + 20.25%*4 + 27.00%",
+            "Lv6": "7.22%*4 + 21.66%*4 + 28.87%",
+            "Lv7": "7.87%*4 + 23.61%*4 + 31.48%",
+            "Lv8": "8.52%*4 + 25.56%*4 + 34.08%",
+            "Lv9": "9.17%*4 + 27.51%*4 + 36.68%",
+            "Lv10": "9.87%*4 + 29.59%*4 + 39.45%",
+            "Name": "Overflowing Radiance DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Lv10": "10",
+            "Name": "Incarnation Duration"
+          },
+          {
+            "Lv1": "3",
+            "Lv2": "3",
+            "Lv3": "3",
+            "Lv4": "3",
+            "Lv5": "3",
+            "Lv6": "3",
+            "Lv7": "3",
+            "Lv8": "3",
+            "Lv9": "3",
+            "Lv10": "3",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "12",
+            "Lv2": "12",
+            "Lv3": "12",
+            "Lv4": "12",
+            "Lv5": "12",
+            "Lv6": "12",
+            "Lv7": "12",
+            "Lv8": "12",
+            "Lv9": "12",
+            "Lv10": "12",
+            "Name": "Overflowing Radiance Cooldown"
+          },
+          {
+            "Lv1": "4",
+            "Lv2": "4",
+            "Lv3": "4",
+            "Lv4": "4",
+            "Lv5": "4",
+            "Lv6": "4",
+            "Lv7": "4",
+            "Lv8": "4",
+            "Lv9": "4",
+            "Lv10": "4",
+            "Name": "Overflowing Radiance Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "Purge of Light",
+        "category": "Active",
+        "skill_type": "Resonance Liberation",
+        "description": "Unleash the power of invocation to deal Spectro DMG. Can be cast in mid-air.",
+        "multipliers": [
+          {
+            "Lv1": "251.40% + 586.60%",
+            "Lv2": "272.02% + 634.71%",
+            "Lv3": "292.63% + 682.81%",
+            "Lv4": "321.50% + 750.15%",
+            "Lv5": "342.11% + 798.25%",
+            "Lv6": "365.82% + 853.57%",
+            "Lv7": "398.80% + 930.53%",
+            "Lv8": "431.78% + 1007.49%",
+            "Lv9": "464.77% + 1084.45%",
+            "Lv10": "499.81% + 1166.22%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "24",
+            "Lv2": "24",
+            "Lv3": "24",
+            "Lv4": "24",
+            "Lv5": "24",
+            "Lv6": "24",
+            "Lv7": "24",
+            "Lv8": "24",
+            "Lv9": "24",
+            "Lv10": "24",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "150",
+            "Lv2": "150",
+            "Lv3": "150",
+            "Lv4": "150",
+            "Lv5": "150",
+            "Lv6": "150",
+            "Lv7": "150",
+            "Lv8": "150",
+            "Lv9": "150",
+            "Lv10": "150",
+            "Name": "Resonance Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Lv10": "20",
+            "Name": "Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "Luminal Synthesis",
+        "category": "Forte Circuit",
+        "skill_type": "Forte Circuit",
+        "description": "IncarnationWhile in Incarnation:Alternative Basic Attack \"Incarnation - Basic Attack\" becomes available. Perform up to 4 consecutive strikes, dealing Spectro DMG considered as Resonance Skill DMG. The basic attack cycle of this will not be reset. Can be cast in mid-air.Alternative Resonance Skill \"Crescent Divinity\" becomes available. Deal Spectro DMG. Can be cast in mid-air.Alternative Heavy Attack \"Incarnation - Heavy Attack\" becomes available. Attack the target in mid-air at the cost of Stamina, dealing Spectro DMG.Alternative Dodge \"Incarnation - Dodge\" is available while in mid-air. Can be cast multiple times at the cost of Stamina.Alternative Dodge Counter \"Incarnation - Dodge Counter\" becomes available. Deal Spectro DMG. Can be cast in mid-air. Resonance Skill - Illuminous EpiphanyAfter Stage 4 of Incarnation - Basic Attack, Incarnation terminates and Jinhsi gains Ordination Glow. Can be cast in mid-air.While Ordination Glow lasts:Basic Attack is replaced with Heavy Attack \"Incarnation - Heavy Attack\". Attack the target in mid-air at the cost of Stamina, dealing Spectro DMG.Resonance Skill is replaced with Resonance Skill \"Illuminous Epiphany\". Send out Solar Flare that detonates as Stella Glamor, dealing Spectro DMG after a short delay. Consume up to 50 Incandescence, with each point of Incandescence granting bonus DMG Multiplier percentage to Stella Glamor. Can be cast in mid-air.After casting Resonance Skill Illuminous Epiphany, Jinhsi gains Unison. This can be triggered once every 25s.UnisonWhile Jinhsi has Unison, switching to other Resonators will remove Jinhsi's Unison to trigger Jinhsi's Outro Skill and the incoming Resonator's Intro Skill. Unison will be consumed in priority in place of Concerto Energy when Concerto Energy is full.IncandescenceJinhsi can hold up to 50 Incandescence.When Jinhsi is in the party, all nearby Resonators in the party gain Eras in Unity.\nEras in Unity provides 2 independent effects:Jinhsi gains 1 Incandescence anytime Resonators in the party inflict Attribute DMG. This effect may be triggered by damage of the same Attribute for up to 1 time(s) every 3s. Additionally, Jinhsi gains 2 Incandescence when Resonators in the party damage the enemy with Coordinated Attacks. This effect may be triggered by Coordinated Attacks of the same Attribute for up to 1 time(s) every 3s.",
+        "multipliers": [
+          {
+            "Lv1": "44.58%",
+            "Lv2": "48.23%",
+            "Lv3": "51.89%",
+            "Lv4": "57.00%",
+            "Lv5": "60.66%",
+            "Lv6": "64.86%",
+            "Lv7": "70.71%",
+            "Lv8": "76.56%",
+            "Lv9": "82.41%",
+            "Lv10": "88.62%",
+            "Name": "Incarnation: Basic Attack 1 DMG"
+          },
+          {
+            "Lv1": "39.22% + 13.08% + 13.08%",
+            "Lv2": "42.44% + 14.15% + 14.15%",
+            "Lv3": "45.65% + 15.22% + 15.22%",
+            "Lv4": "50.16% + 16.72% + 16.72%",
+            "Lv5": "53.37% + 17.79% + 17.79%",
+            "Lv6": "57.07% + 19.03% + 19.03%",
+            "Lv7": "62.22% + 20.74% + 20.74%",
+            "Lv8": "67.36% + 22.46% + 22.46%",
+            "Lv9": "72.51% + 24.17% + 24.17%",
+            "Lv10": "77.97% + 25.99% + 25.99%",
+            "Name": "Incarnation: Basic Attack 2 DMG"
+          },
+          {
+            "Lv1": "50.02% + 33.35%",
+            "Lv2": "54.12% + 36.08%",
+            "Lv3": "58.23% + 38.82%",
+            "Lv4": "63.97% + 42.65%",
+            "Lv5": "68.07% + 45.38%",
+            "Lv6": "72.79% + 48.53%",
+            "Lv7": "79.35% + 52.90%",
+            "Lv8": "85.91% + 57.28%",
+            "Lv9": "92.47% + 61.65%",
+            "Lv10": "99.44% + 66.30%",
+            "Name": "Incarnation: Basic Attack 3 DMG"
+          },
+          {
+            "Lv1": "9.39%*6 + 37.56%",
+            "Lv2": "10.16%*6 + 40.64%",
+            "Lv3": "10.93%*6 + 43.72%",
+            "Lv4": "12.01%*6 + 48.03%",
+            "Lv5": "12.78%*6 + 51.11%",
+            "Lv6": "13.67%*6 + 54.65%",
+            "Lv7": "14.90%*6 + 59.58%",
+            "Lv8": "16.13%*6 + 64.51%",
+            "Lv9": "17.36%*6 + 69.44%",
+            "Lv10": "18.67%*6 + 74.67%",
+            "Name": "Incarnation: Basic Attack 4 DMG"
+          },
+          {
+            "Lv1": "24.00% + 56.00%",
+            "Lv2": "25.97% + 60.60%",
+            "Lv3": "27.94% + 65.19%",
+            "Lv4": "30.70% + 71.62%",
+            "Lv5": "32.66% + 76.21%",
+            "Lv6": "34.93% + 81.49%",
+            "Lv7": "38.08% + 88.84%",
+            "Lv8": "41.22% + 96.18%",
+            "Lv9": "44.37% + 103.53%",
+            "Lv10": "47.72% + 111.34%",
+            "Name": "Incarnation: Heavy Attack DMG"
+          },
+          {
+            "Lv1": "22.08% + 16.56%*2 + 55.19%",
+            "Lv2": "23.89% + 17.92%*2 + 59.71%",
+            "Lv3": "25.70% + 19.27%*2 + 64.24%",
+            "Lv4": "28.23% + 21.17%*2 + 70.57%",
+            "Lv5": "30.04% + 22.53%*2 + 75.10%",
+            "Lv6": "32.12% + 24.09%*2 + 80.30%",
+            "Lv7": "35.02% + 26.27%*2 + 87.54%",
+            "Lv8": "37.91% + 28.44%*2 + 94.78%",
+            "Lv9": "40.81% + 30.61%*2 + 102.02%",
+            "Lv10": "43.89% + 32.92%*2 + 109.71%",
+            "Name": "Incarnation: Dodge Counter DMG"
+          },
+          {
+            "Lv1": "50.68% + 38.01%*2 + 126.70%",
+            "Lv2": "54.84% + 41.13%*2 + 137.09%",
+            "Lv3": "59.00% + 44.25%*2 + 147.48%",
+            "Lv4": "64.81% + 48.61%*2 + 162.03%",
+            "Lv5": "68.97% + 51.73%*2 + 172.42%",
+            "Lv6": "73.75% + 55.31%*2 + 184.37%",
+            "Lv7": "80.40% + 60.30%*2 + 200.99%",
+            "Lv8": "87.05% + 65.29%*2 + 217.61%",
+            "Lv9": "93.70% + 70.27%*2 + 234.24%",
+            "Lv10": "100.76% + 75.57%*2 + 251.90%",
+            "Name": "Crescent Divinity DMG"
+          },
+          {
+            "Lv1": "10.00%*6",
+            "Lv2": "10.82%*6",
+            "Lv3": "11.64%*6",
+            "Lv4": "12.79%*6",
+            "Lv5": "13.61%*6",
+            "Lv6": "14.56%*6",
+            "Lv7": "15.87%*6",
+            "Lv8": "17.18%*6",
+            "Lv9": "18.49%*6",
+            "Lv10": "19.89%*6",
+            "Name": "Illuminous Epiphany: Solar Flare DMG"
+          },
+          {
+            "Lv1": "175.00%",
+            "Lv2": "189.35%",
+            "Lv3": "203.70%",
+            "Lv4": "223.79%",
+            "Lv5": "238.14%",
+            "Lv6": "254.65%",
+            "Lv7": "277.61%",
+            "Lv8": "300.57%",
+            "Lv9": "323.53%",
+            "Lv10": "347.92%",
+            "Name": "Illuminous Epiphany: Stella Glamor DMG"
+          },
+          {
+            "Lv1": "22.40%",
+            "Lv2": "24.24%",
+            "Lv3": "26.08%",
+            "Lv4": "28.65%",
+            "Lv5": "30.49%",
+            "Lv6": "32.60%",
+            "Lv7": "35.54%",
+            "Lv8": "38.48%",
+            "Lv9": "41.42%",
+            "Lv10": "44.54%",
+            "Name": "Additional multiplier per Incandescence"
+          },
+          {
+            "Lv1": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Lv10": "30",
+            "Name": "Incarnation: Heavy Attack STA Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Lv10": "20",
+            "Name": "Incarnation: Dodge STA Cost"
+          },
+          {
+            "Lv1": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Lv10": "5",
+            "Name": "Ordination Glow Duration"
+          },
+          {
+            "Lv1": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Lv10": "5",
+            "Name": "Unison Duration"
+          },
+          {
+            "Lv1": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Lv10": "10",
+            "Name": "Crescent Divinity Cooldown"
+          },
+          {
+            "Lv1": "8",
+            "Lv2": "8",
+            "Lv3": "8",
+            "Lv4": "8",
+            "Lv5": "8",
+            "Lv6": "8",
+            "Lv7": "8",
+            "Lv8": "8",
+            "Lv9": "8",
+            "Lv10": "8",
+            "Name": "Crescent Divinity Concerto Regen"
+          },
+          {
+            "Lv1": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Lv10": "20",
+            "Name": "Illuminous Epiphany Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "Radiant Surge",
+        "category": "Inherent",
+        "skill_type": "Inherent Skill",
+        "description": "Jinhsi's Spectro DMG Bonus is increased by 20%.",
+        "multipliers": []
+      },
+      {
+        "name": "Converged Flash",
+        "category": "Inherent",
+        "skill_type": "Inherent Skill",
+        "description": "DMG Multiplier of Intro Skill Loong's Halo is increased by 50%.",
+        "multipliers": []
+      },
+      {
+        "name": "Loong's Halo",
+        "category": "Transition",
+        "skill_type": "Intro Skill",
+        "description": "Attack the target, dealing Spectro DMG.",
+        "multipliers": [
+          {
+            "Lv1": "80.00%",
+            "Lv2": "86.56%",
+            "Lv3": "93.12%",
+            "Lv4": "102.31%",
+            "Lv5": "108.87%",
+            "Lv6": "116.41%",
+            "Lv7": "126.91%",
+            "Lv8": "137.40%",
+            "Lv9": "147.90%",
+            "Lv10": "159.05%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Lv10": "10",
+            "Name": "Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "Temporal Bender",
+        "category": "Transition",
+        "skill_type": "Outro Skill",
+        "description": "Summoning the power homologous with the Sentinel, Jinhsi may now gain Incandescence via Eras in Unity from damage of the same Attribute more effectively, at 1 time(s) every 1s for 20s.",
+        "multipliers": []
+      }
+    ],
+    "resonance_chain_dupes": [
+      {
+        "node": "S1",
+        "name": "Sequence Node 1",
+        "description": "When casting Basic Attack \"Incarnation - Basic Attack\" or Resonance Skill Crescent Divinity, Jinhsi gains one stack of Herald of Revival, stacking up to 4 times and lasting for 6s. When casting Resonance Skill Illuminous Epiphany, Jinhsi consumes all stacks of Herald of Revival. Each stack increases the damage of Resonance Skill Illuminous Epiphany by 20%."
+      },
+      {
+        "node": "S2",
+        "name": "Sequence Node 2",
+        "description": "Jinhsi restores 50 Incandescence while staying out of combat for more than 4s. This effect can only be triggered 1 time(s) every 4s."
+      },
+      {
+        "node": "S3",
+        "name": "Sequence Node 3",
+        "description": "Jinhsi gains one stack of Immortal's Descendancy after casting Intro Skill Loong's Halo. Each stack of Immortal's Descendancy increases Jinhsi's ATK by 25%, stacking up to 2 time(s) and lasting for 20s."
+      },
+      {
+        "node": "S4",
+        "name": "Sequence Node 4",
+        "description": "When Jinhsi casts Resonance Liberation Purge of Light or Resonance Skill Illuminous Epiphany, all nearby Resonators on the team gain 20% Attribute DMG Bonus for 20s."
+      },
+      {
+        "node": "S5",
+        "name": "Sequence Node 5",
+        "description": "The DMG Multiplier of Resonance Liberation Purge of Light is increased by 120%."
+      },
+      {
+        "node": "S6",
+        "name": "Sequence Node 6",
+        "description": "The DMG Multiplier of Resonance Skill Illuminous Epiphany is increased by 45% and the additional DMG Multiplier gained by consuming Incandescence is increased by 45%."
+      }
+    ],
+    "minor_fortes": [
+      {
+        "stat_name": "CRIT Rate",
+        "bonus_value": "+8%"
+      },
+      {
+        "stat_name": "ATK%",
+        "bonus_value": "+12%"
+      }
+    ],
+    "base_stats_lvl_90": {
+      "hp": 866,
+      "atk": 33,
+      "def": 103,
+      "max_energy": 125,
+      "crit_rate": "13%",
+      "crit_dmg": "150%",
+      "healing_bonus": "0%",
+      "elemental_dmg_bonus": "0%"
+    },
+    "upgrade_materials": {
+      "character_ascension": [
+        {
+          "material_name": "Loong's Pearl",
+          "rarity": "boss",
+          "quantity": 60
+        },
+        {
+          "material_name": "Elegy Tacet Core",
+          "rarity": "specialty",
+          "quantity": 46
+        },
+        {
+          "material_name": "LF Howler Core",
+          "rarity": "common",
+          "quantity": 4
+        },
+        {
+          "material_name": "MF Howler Core",
+          "rarity": "common",
+          "quantity": 12
+        },
+        {
+          "material_name": "HF Howler Core",
+          "rarity": "common",
+          "quantity": 12
+        },
+        {
+          "material_name": "FF Howler Core",
+          "rarity": "common",
+          "quantity": 4
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "Sentinel's Dagger",
+          "rarity": "weekly_boss",
+          "quantity": 26
+        },
+        {
+          "material_name": "LF Howler Core",
+          "rarity": "common",
+          "quantity": 25
+        },
+        {
+          "material_name": "MF Howler Core",
+          "rarity": "common",
+          "quantity": 28
+        },
+        {
+          "material_name": "HF Howler Core",
+          "rarity": "common",
+          "quantity": 40
+        },
+        {
+          "material_name": "FF Howler Core",
+          "rarity": "common",
+          "quantity": 57
+        },
+        {
+          "material_name": "Waveworn Residue 210",
+          "rarity": "skill_material",
+          "quantity": 25
+        },
+        {
+          "material_name": "Waveworn Residue 226",
+          "rarity": "skill_material",
+          "quantity": 28
+        },
+        {
+          "material_name": "Waveworn Residue 235",
+          "rarity": "skill_material",
+          "quantity": 55
+        },
+        {
+          "material_name": "Waveworn Residue 239",
+          "rarity": "skill_material",
+          "quantity": 67
+        }
+      ]
+    },
+    "voice_actors": {
+      "eng": "Anna Devlin",
+      "jpn": "Yoshino Aoyama",
+      "cn": "Jiang Yue",
+      "kr": "Park Ha Jin"
+    },
+    "best_weapons": [
+      {
+        "weapon_name": "Ages of Harvest",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "commentary_details": "Jinhsi's Signature and best weapon, providing her with high ATK, CRIT Rate and Skill DMG%. A simple blend of stats for a simple yet very clear damage increase.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Gacha",
+          "effect_description": "Grants {0} Attribute DMG Bonus. Casting Intro Skill gives the equipper Ageless Marking, which grants {1} Resonance Skill DMG Bonus for 12s. Casting Resonance Skill gives the equipper Ethereal Endowment, which grants {1} Resonance Skill DMG Bonus for 12s."
+        }
+      },
+      {
+        "weapon_name": "Kumokiri",
+        "dupe_rank": "R1",
+        "percentage_performance": "87.90%",
+        "commentary_details": "Very high CRIT Rate, solid Base ATK and up to 16% Liberation DMG Bonus make this weapon the second best weapon Jinhsi has after her Signature.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 500,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 36,
+          "source": "Rate-up",
+          "effect_description": "ATK is increased by {0}. When the wielder casts Intro Skill or inflicts Negative Statuses, they gain {1} Resonance Liberation DMG Bonus, stacking up to 3 times for 15s. At max stacks, when Resonators in the team inflict Negative Statuses, they gain  {2} All-Attribute DMG Bonus for 15s. Effects of the same name cannot be stacked."
+        }
+      },
+      {
+        "weapon_name": "Wildfire Mark",
+        "dupe_rank": "R1",
+        "percentage_performance": "87.60%",
+        "commentary_details": "Lupa's Signature Weapon is able to buff Resonance Liberation DMG by 24% easily, and on top of its good CRIT DMG and high Base ATK stats this makes it a viable choice for Jinhsi to buff her Ultimate's damage.  She will not tend to extend this weapon's effect to gain Fusion DMG Bonus, however doing so can be considered in a team with Brant or Mortefi to get extra leverage out of this weapon's effects (which would not make it better than her Signature, but improve its performance a bit).",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Rate-up",
+          "effect_description": "Increases ATK by {0}. Performing Intro Skill or Resonance Liberation increases Resonance Liberation DMG by {1} for 6s. Dealing Heavy Attack DMG extends this effect by 4s, up to 1 time. Each successful extension gives {1} Fusion DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked."
+        }
+      },
+      {
+        "weapon_name": "Verdant Summit",
+        "dupe_rank": "R1",
+        "percentage_performance": "86.90%",
+        "commentary_details": "Simple ATK, DMG Bonus and CRIT DMG stat-stick for Jinhsi, who does not benefit from this weapon's Heavy DMG-related effects.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Limited",
+          "effect_description": "Increases the DMG Bonus of all Resonance Attributes by {0}. Every time Intro Skill or Resonance Liberation is cast, increases Heavy Attack DMG Bonus by {1}, stacking up to 2 time(s). This effect lasts for 14s."
+        }
+      },
+      {
+        "weapon_name": "Radiance Cleaver",
+        "dupe_rank": "R1",
+        "percentage_performance": "86.40%",
+        "commentary_details": "Best permanently available option for Jinhsi, which acts as a simple ATK and CRIT DMG stat-stick for her.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Permanent Convene",
+          "effect_description": "Increases ATK by {0}. Dealing damage to targets under Tune Strain: Interfered grants {1} Resonance Liberation Bonus for 3s. Retriggering the effect resets its duration."
+        }
+      },
+      {
+        "weapon_name": "Thunderflare Dominion",
+        "dupe_rank": "R1",
+        "percentage_performance": "84.80%",
+        "commentary_details": "While this weapon gives very high Base ATK, it does so at the cost of CRIT, and on Jinhsi its Heavy Attack-related effects are unusable making this weapon viable but not the best.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 675,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 12.1,
+          "source": "Rate-up",
+          "effect_description": "Increases ATK by {0}. Casting Intro Skill or Resonance Skill increases Heavy Attack DMG by {1} for 15s. Obtaining Shield allows Heavy Attack DMG to ignore {2} of the target's DEF for 7s, stacking up to 5 times. This effect is triggered once every 0.5s"
+        }
+      },
+      {
+        "weapon_name": "Lustrous Razor",
+        "dupe_rank": "R1",
+        "percentage_performance": "80.10%",
+        "commentary_details": "This permanent weapon option gives lots of ATK and some Energy Regen which alleviates Jinhsi's Energy Regen requirements. Plus, she can maximize its passive effect to increase Liberation DMG. However, due to its lack of CRIT stats like the above options, it ranks worse overall.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "Permanent Convene",
+          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases Resonance Liberation DMG by {1}, stacking up to {2} times. This effect lasts for {3}s."
+        }
+      },
+      {
+        "weapon_name": "Aureate Zenith",
+        "dupe_rank": "R5",
+        "percentage_performance": "72.30%",
+        "commentary_details": "This Battle Pass exclusive is the best 4-star as it gives some CRIT alongside ATK, but its low base ATK much like all other 4-stars makes it rank worse than any 5-star options.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 412,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 40.5,
+          "source": "Battle Pass",
+          "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Heavy Attack DMG Bonus for 15s."
+        }
+      },
+      {
+        "weapon_name": "Waning Redshift",
+        "dupe_rank": "R5",
+        "percentage_performance": "70.70%",
+        "commentary_details": "Provides ATK and flat Energy which helps alleviate Energy Regen requirements, one of the better 4-star choices available.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 462,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Gacha",
+          "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s."
+        }
+      },
+      {
+        "weapon_name": "Helios Cleaver",
+        "dupe_rank": "R5",
+        "percentage_performance": "69.50%",
+        "commentary_details": "Best fully F2P accessible-option, giving a solid amount of ATK but nothing else.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 412,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 30.3,
+          "source": "",
+          "effect_description": "Within {0}s after Resonance Skill is cast, increases ATK by {2} every 2s, stacking up to 4 time(s). This effect can be triggered 1 time(s) every 12s. When the number of stacks reaches 4, all stacks will be reset within 6s."
+        }
+      }
+    ],
+    "best_echo_sets": [
+      {
+        "set_name": "Celestial Light",
+        "percentage_performance": "100.00%",
+        "commentary": "Offers a 10% unconditional Spectro DMG% boost and an additional 30% Spectro DMG% after using the intro lasting 15 seconds for a grand total of 40% additional Spectro damage for most of your damage window.",
+        "main_echo_options": [
+          {
+            "echo_name": "JuÃ©",
+            "echo_commentary": "Best main Echo for Jinhsi specifically, as it's a simple summon Echo that deals a good chunk of damage over time while giving a 16% Skill DMG Bonus on cast. This DMG Bonus can encompass both of the empowered Skills she does per rotation if her rotation is executed properly, all at no extra field time commitment thanks ot the Echo being a Summon."
+          }
+        ]
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ],
+        "cost_3": [
+          "Spectro DMG ",
+          "Spectro DMG ≥ ATK%"
+        ],
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%",
+        "Resonance Skill DMG%",
+        "ATK"
+      ]
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 15000+",
+      "DEF: 1250+",
+      "ATK: 2000-2400+",
+      "CRIT Rate: 65-80%+",
+      "CRIT DMG: 210-280%+",
+      "Energy Regen: 100-125%+Lower end was estimated in a team with Zhezhi+Shorekeeper, higher end was estimated in a team with Yinlin+Shorekeeper.",
+      "Spectro DMG Bonus: 60-90%+Jinhsi gains an innate 20% Spectro DMG Bonus"
+    ],
+    "skill_upgrade_priority": {
+      "order": [
+        "Forte Circuit",
+        "Res. Liberation",
+        "Res. Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "commentary": "Forte has the overwhelming priority when levelling. Liberation is also good to level while Skill and Intro are generally less relevant and skippable."
+    },
+    "rotations": [
+      {
+        "rotation_name": "Opener:",
+        "steps": [
+          "Basic P1",
+          "Basic P2",
+          "Basic P3",
+          "Basic P4",
+          "Skill: Overflowing Radiance",
+          "Ultimate",
+          "Incarnation Basic P1",
+          "Incarnation Basic P2",
+          "Incarnation Basic P3",
+          "Incarnation Basic P4",
+          "Skill: Illuminous Epiphany",
+          "Outro",
+          "Intro",
+          "Skill: Overflowing Radiance",
+          "Ultimate",
+          "Incarnation: Skill: Crescent Divinity",
+          "Incarnation: Basic P1",
+          "Incarnation: Basic P2",
+          "Incarnation: Basic P3",
+          "Incarnation: Basic P4",
+          "Skill: Illuminous Epiphany",
+          "Outro",
+          "Intro",
+          "Skill: Overflowing Radiance",
+          "Incarnation: Skill: Crescent Divinity",
+          "Incarnation: Basic P1",
+          "Incarnation: Basic P2",
+          "Incarnation: Basic P3",
+          "Incarnation: Basic P4",
+          "Skill: Illuminous Epiphany",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Advanced Optimizations (Animation Cancels)",
+        "steps": [
+          "Jinhsi's Incarnation Basic Attack chain will always advance to the next stage even if it's interrupted by any other action.",
+          "Jinhsi can instantly cancel any of her attacks via her Ultimate. This makes them do 0 damage, but instantly allows her to move a step further towards accessing her Forte Skill (the overwhelming majority of her damage total, which she wants to access as quickly as possible).",
+          "Jinhsi can also cancel any of her attacks via a Dash and her base Incarnation Skill (Crescent Divinity).",
+          "Jinhsi can cancel her Basic P4 instantly via her Overflowing Radiance skill in order to enter Incarnation quicker, which makes it do 0 damage. The same can be done for her Incarnation Basic P4 with Illuminous Epiphany, however the full damage is retained in this scenario.",
+          "Jinhsi starts her Basic Attack chain from Basic P2 if she is swapped into from another character in combat without her Intro available."
+        ]
+      },
+      {
+        "rotation_name": "Advanced Opener",
+        "steps": [
+          "Instantly swap into Jinhsi from any other character",
+          "Basic P2",
+          "Basic P3",
+          "Basic P4 (Instant Cancel)",
+          "Skill: Overflowing Radiance (Instant Cancel)",
+          "Ultimate",
+          "Incarnation: Basic P1",
+          "Incarnation: Basic P2 (Dash Cancel)",
+          "Incarnation: Basic P3 (Dash Cancel)",
+          "Incarnation: Basic P4 (Instant Cancel)",
+          "Skill: Illuminous Epiphany",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Advanced Loop Rotation",
+        "steps": [
+          "Intro",
+          "Skill: Overflowing Radiance (Dash Cancel)",
+          "Incarnation: Basic P1",
+          "Incarnation: Basic P2",
+          "Incarnation: Basic P3 (Instant Cancel)",
+          "Skill: Crescent Divinity",
+          "Incarnation: Basic P4 (Instant Cancel)",
+          "Skill: Illuminous Epiphany",
+          "Outro",
+          "Intro",
+          "Skill: Overflowing Radiance (Instant Cancel)",
+          "Ultimate",
+          "Incarnation: Basic P1",
+          "Incarnation: Basic P2",
+          "Incarnation: Basic P3 (Instant Cancel)",
+          "Skill: Crescent Divinity",
+          "Incarnation: Basic P4 (Instant Cancel)",
+          "Skill: Illuminous Epiphany",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Expert Optimizations (Swap & Jump Cancels)",
+        "steps": [
+          "Once Jinhsi's Incarnation state ends, it's possible to input a Mid-Air Attack before swapping in order to squeeze slightly more damage at no rotation time cost.",
+          "Jinhsi additionally has access to several Jump Cancel opportunities during her Opener rotation. This is because her Echo, JuÃ©, generates an updraft when it is casted, which can be used to activate your Glider at very low heights. If done quickly and assuming Jinhsi is on the ground when initiating her first Incarnation Basic Attack (and the beginning of the second), this can allow Jinhsi to get her Illuminous Epiphany skill nearly instantly in the Opener (just a couple of seconds are needed!), accelerating her setup to being lightning-fast. Note that this is Jinhsi's most difficult technique to learn since it requires precise positioning and fast inputs, hence why it's only used in the Opener (even though it could theoretically be used to cancel one of her Basics at lightspeed in every rotation, it's simply unrealistic to do so and generally not worth it for DPS unless trying to finish a boss with her Forte Skill's damage — but she has more realistic ways to do so quickly).",
+          "If needed in order to quickly finish a boss, Jinhsi can entirely forget about her Crescent Divinity skill and Dash Cancel her Incarnation Basics P2 and P3 instead similarly to her Opener, in order to access her Forte Skill as quickly as possible.",
+          "Jinhsi can operate without Intros entirely and build up her Forte Skills before she even gets a single Intro from any other character. To achieve this, simply weave in her Basic 2,3,4 and Overflowing Radiance skills in the middle of another character's animations before switching out, at which point you're free to execute her Incarnation Basics however you want (after her Intro or at any point before it, in the middle of your other characters' animations... the possibilities are endless).",
+          "However, remember that Echo Set and Weapon buffs will still apply (5P Celestial Light and Ages of Harvest on Jinhsi, 5P Moonlit Clouds & Impermanence Heron on your Secondary, Shorekeeper's Stellarealm Buffs, etc). As a result, it remains best to cast any of Jinhsi's Forte Skills (outside of her Opener) after she has accessed an Intro (or 15s after one at the latest).",
+          "Finally, Jinhsi has many Swap Cancel windows available to her, the most notable of which being her Overflowing Radiance and Crescent Divinity skills. In those time windows, it's possible to switch out of Jinhsi into any other character to weave in a few attacks before switching back into her, at little to no rotation time cost. Keep in mind however that most Outro buffs will run out if she switches out."
+        ]
+      },
+      {
+        "rotation_name": "Expert Opener Rotation",
+        "steps": [
+          "Instantly swap into Jinhsi from any other character",
+          "Basic P2",
+          "Basic P3",
+          "Basic P4 (Instant Cancel)",
+          "Cast JuÃ© here to generate an updraft",
+          "Skill: Overflowing Radiance (Instant Cancel)",
+          "Ultimate",
+          "Incarnation: Basic P1",
+          "Incarnation: Basic P2 (Jump Cancel)",
+          "Incarnation: Basic P3 (Jump/Glider Cancel)",
+          "Incarnation: Basic P4 (Instant Cancel)",
+          "Skill: Illuminous Epiphany",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Expert Loop Rotation",
+        "steps": [
+          "Intro",
+          "Skill: Overflowing Radiance (Dash Cancel)",
+          "Incarnation: Basic P1",
+          "Incarnation: Basic P2",
+          "Incarnation: Basic P3 (Instant Cancel)",
+          "Skill: Crescent Divinity (Optionally Swap Cancel)",
+          "Incarnation: Basic P4 (Instant Cancel)",
+          "Skill: Illuminous Epiphany",
+          "Mid-Air Attack (Swap)",
+          "Outro",
+          "Intro",
+          "Skill: Overflowing Radiance (Instant Cancel)",
+          "Ultimate",
+          "Incarnation: Basic P1",
+          "Incarnation: Basic P2",
+          "Incarnation: Basic P3 (Instant Cancel)",
+          "Skill: Crescent Divinity (Optionally Swap Cancel)",
+          "Incarnation: Basic P4 (Instant Cancel)",
+          "Skill: Illuminous Epiphany",
+          "Mid-Air Attack (Swap)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "(Bonus) Holograms Grapple Technique",
+        "steps": [
+          "Intro",
+          "Skill: Overflowing Radiance",
+          "Grapple (when reaching the highest point of Overflowing Radiance)",
+          "Incarnation: Basic P1",
+          "Incarnation: Basic P2",
+          "Incarnation: Basic P3",
+          "Incarnation: Basic P4",
+          "Skill: Illuminous Epiphany",
+          "(Optional) Mid-Air Attack (Swap)",
+          "Outro"
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "zhezhi",
+          "yinlin",
+          "cantarella"
+        ],
+        "commentary": "Jinhsi works best with Coordinated Attackers, these are her premium options for that purpose. Zhezhi is generally the best due to her ability to buff Skill DMG on her Outro, funnel Energy to Jinhsi, and her very high Coordinated Attack uptime works well for her. Yinlin is great for quickswap players and also has near-permanent Coordinated Attack uptime in single-wave scenarios but will struggle in multi-wave, where considering other options is recommended. Lastly, Cantarella can work if temporary endgame buffs favour Echo Skill casts, otherwise she should generally be avoided since her rotation operates on a strict 25s cooldown which restricts Jinhsi from doing more than 1 Skill per rotation, significantly lowering her damage potential."
+      },
+      {
+        "characters": [
+          "brant",
+          "changli"
+        ],
+        "commentary": "Jinhsi works well in quickswap playstyles, and for that purpose Brant and Changli can work well. Brant has the additional perk of buffing Jinhsi via his Outro, but Changli has higher rotation flexibility in quickswap. Generally though for casual players, these options should be avoided as they not only force Verina to be on the team but will underperform compared to even free Coordinated Attackers if played casually."
+      },
+      {
+        "characters": [
+          "yuanwu",
+          "mortefi"
+        ],
+        "commentary": ""
+      },
+      {
+        "characters": [
+          "the-shorekeeper",
+          "verina"
+        ],
+        "commentary": "Jinhsi's best Supports are the two Generalists from the 1.x versions, as Shorekeeper provides the highest generalist buffing thanks to her unique CRIT buffs, and Verina sports a super fast rotation and Coordinated Attacks which can funnel Jinhsi's skills easily. They're overall very comparable to one another for Jinhsi teams specifically and the difference solely comes down to CRIT consistency (if that isn't a problem, Verina could prove stronger, otherwise Shorekeeper is generally the best)."
+      }
+    ],
+    "example_teams": [
+      {
+        "team_name": "Best Team",
+        "slot_1": {
+          "character_name": "jinhsi",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "zhezhi",
+          "alternatives": []
+        },
+        "slot_3": {
+          "character_name": "the-shorekeeper",
+          "alternatives": [
+            "verina"
+          ]
+        },
+        "team_notes": "Cantarella can be used instead of Zhezhi if there are temporary Endgame buffs favouring Echo Skill casts. Verina can be stronger than Shorekeeper if CRIT consistency isn't a problem. Otherwise, Shorekeeper is always the best choice."
+      },
+      {
+        "team_name": "Quickswap Team",
+        "slot_1": {
+          "character_name": "jinhsi",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "yinlin",
+          "alternatives": [
+            "brant",
+            "changli"
+          ]
+        },
+        "slot_3": {
+          "character_name": "verina",
+          "alternatives": [
+            "the-shorekeeper"
+          ]
+        },
+        "team_notes": "Verina must be used with Brant and Changli in order to have Coordinated Attacks on the team. Generally difficult teams to pilot for casual players - not recommended unless you know what you're doing."
+      },
+      {
+        "team_name": "Budget Team",
+        "slot_1": {
+          "character_name": "jinhsi",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "mortefi",
+          "alternatives": [
+            "yuanwu"
+          ]
+        },
+        "slot_3": {
+          "character_name": "verina",
+          "alternatives": []
+        },
+        "team_notes": "Mortefi is only strong if highly invested on Empyrean Anthem and a traditional Verina build, otherwise consider Yuanwu on Rejuvenating Glow with Verina on Moonlit Clouds."
+      }
+    ]
+  }
+}

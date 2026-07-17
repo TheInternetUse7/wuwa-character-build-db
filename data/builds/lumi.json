@@ -1,0 +1,959 @@
+{
+  "status": "success",
+  "data": {
+    "character_metadata": {
+      "name": "Lumi",
+      "slug": "lumi",
+      "rarity_stars": 4,
+      "element": "Electro",
+      "weapon_type": "Broadblade",
+      "breadcrumb": [
+        "Wuthering Waves",
+        "Characters",
+        "Lumi"
+      ],
+      "updates": {
+        "last_updated": "10/July/2026",
+        "last_review_patch": "2.1",
+        "last_major_build_patch": "2.1",
+        "last_profile_update": "10/July/2026"
+      }
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tier": "T4",
+          "tags": []
+        },
+        "whimpering_wastes": {
+          "tier": "T4",
+          "tags": []
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T4"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T4"
+        }
+      }
+    },
+    "media": {
+      "youtube_guide_embed_url": "",
+      "youtube_guide_full_url": "",
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/lumi_full.webp"
+    },
+    "pros_and_cons": {
+      "pros": [
+        "High mobility kit able to deal damage while moving,",
+        "Powerful Resonance Skill Amplification Boost on outro to support the team,",
+        "Gains further supportive capabilities with sequences,",
+        "Mixes the ranged and melee playstyle allowing for a bit of extra flexibility."
+      ],
+      "cons": [
+        "Long concerto rotation leads to higher field times than other hybrid/supportive characters,",
+        "Can be very energy-hungry resulting in a need for teammates that provide a lot of energy while also needing a good amount of ER."
+      ]
+    },
+    "review": {
+      "summary": "Lumi is a 4-star Electro Broadblade wielder who is primarily utilized as a Hybrid buffer character but can also be played as a dedicated DPS for those committed enough - in this review, we'll be covering her Hybrid playstyle.",
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Lumi is a 4-star Electro Broadblade wielder who is primarily utilized as a Hybrid buffer character but can also be played as a dedicated DPS for those committed enough - in this review, we'll be covering her Hybrid playstyle.",
+            "Lumi's main buff and benefit to the team is her Outro skill, which, similar to other Hybrid's grants the next character to Swap-In a 38% Damage Amplification while they remain on the field. However, what sets her apart is that she amplifies Skill Damage, a damage type currently under-serviced in the Hybrid category - presently, Skill Damage is only buffed by Taoqi.",
+            "Lumi has two main objectives to aim for when playing her as a Hybrid. The first is to generate Concerto Energy quickly in order to access her Outro skill as fast as possible, the second is to ensure she has enough Resonance Energy to use her Ultimate when required for said Concerto Energy generation. To achieve the same, utilizing her kit in a smart and quick way is incredibly beneficial.",
+            "Playing Lumi is simple, everything she does revolves around her dual Forte Gauge which is the first of its kind. Each half of the gauge represents one of her \"Combat Stances\", the yellow half \"Yellow Light Mode\" is a Ranged attacking stance where she calls upon her ally Spuekie to attack for her whereas the red half \"Red Light Mode\" is a Melee attacking stance allowing her to lash out at enemies with her Broadblade. Lumi can swap between the two stances with no cooldown by using her Resonance skill, although as good as this sounds the attack does minimal damage and has a stamina cost so spamming it isn't advised.",
+            "Attacking in either of the \"Combat Stance\" will generate \"Light Sparks\" filling up the side of the gauge that corresponds to the colour of the stance you're in and doing this is the backbone of Lumi's rotation. The reason for this is that upon reaching maximum \"Light Sparks\" of a colour Lumi can consume them to empower her next Resonance skill significantly - increasing its damage along with higher Concerto and Resonance Energy generation. Executing an empowered Resonance Skill also causes Lumi to enter a more powerful version of her \"Combat Stances\" for a short time enhancing the Basic Attacks of each stance. Putting this all together, when playing Lumi keep in mind the following:",
+            "Build \"Light Sparks\" of the stance colour you're in.",
+            "Execute an empowered Resonance Skill to swap stances.",
+            "Build \"Light Sparks\" within the newly swapped stance.",
+            "Execute another empowered Resonance Skill to swap back.",
+            "Repeat, alternating between both stances as needed.",
+            "Lumi's gameplay is simple and easy to execute at a base level. She has potential in any team that has a main DPS who mostly does Skill damage, boasts great mobility, especially in her \"Yellow Light Mode\" and can be played as a dedicated DPS if so desired.",
+            "However, at the time of her release, she lacks an ideal team or teammate to play alongside in her Hybrid role,. Furthermore, she also requires a significant amount of help in generating Resonance Energy to gain consistent access to her Ultimate. Lastly, she features a longer than average field time for those in the Hybrid role whose main goal is to get in and out as fast as possible. Combining these Pros and Cons Lumi lands without a position as best in slot in any of the Endgame Meta teams at the time of her release. However, with 2.0 approaching we'll see if she gains a foothold with any of the new characters."
+          ]
+        }
+      ]
+    },
+    "skills": [
+      {
+        "name": "Navigation Support",
+        "category": "Active",
+        "skill_type": "Basic Attack",
+        "description": "Yellow Light: Basic AttackSummon Squeakie to shoot three shots in a row, dealing Electro DMG.Yellow Light: Sprint Dodge to perform Sprint and enter Zoom Mode. Lumi is unable to Dodge when performing Sprint.Yellow Light: ZoomWhen in this state, automatically shoot Glitters at a locked-on target and deal Electro DMG, considered Basic Attack DMG.Yellow Light: Plunging AttackConsume STA to perform a Plunging Attack, dealing Electro DMG.Red Light: Basic AttackPerform up to 3 consecutive attacks, dealing Electro DMG.Red Light: Heavy AttackConsume STA to strike the ground with Squeakie, causing an impact dealing Electro DMG, considered Basic Attack DMG.Red Light: Plunging AttackConsume STA to perform a Plunging Attack, dealing Electro DMG.Red Light: Dodge CounterUse Basic Attack right after a successful Dodge to attack the target, dealing Electro DMG.",
+        "multipliers": [
+          {
+            "Lv1": "16.00%*3",
+            "Lv2": "17.32%*3",
+            "Lv3": "18.63%*3",
+            "Lv4": "20.47%*3",
+            "Lv5": "21.78%*3",
+            "Lv6": "23.29%*3",
+            "Lv7": "25.39%*3",
+            "Lv8": "27.48%*3",
+            "Lv9": "29.58%*3",
+            "Lv10": "31.81%*3",
+            "Name": "Yellow Light: Basic Attack"
+          },
+          {
+            "Lv1": "32.00%",
+            "Lv2": "34.63%",
+            "Lv3": "37.25%",
+            "Lv4": "40.93%",
+            "Lv5": "43.55%",
+            "Lv6": "46.57%",
+            "Lv7": "50.77%",
+            "Lv8": "54.96%",
+            "Lv9": "59.16%",
+            "Lv10": "63.62%",
+            "Name": "Glitter"
+          },
+          {
+            "Lv1": "48.00%",
+            "Lv2": "51.94%",
+            "Lv3": "55.88%",
+            "Lv4": "61.39%",
+            "Lv5": "65.32%",
+            "Lv6": "69.85%",
+            "Lv7": "76.15%",
+            "Lv8": "82.44%",
+            "Lv9": "88.74%",
+            "Lv10": "95.43%",
+            "Name": "Yellow Light: Plunging Attack"
+          },
+          {
+            "Lv1": "45.60%",
+            "Lv2": "49.34%",
+            "Lv3": "53.08%",
+            "Lv4": "58.32%",
+            "Lv5": "62.06%",
+            "Lv6": "66.36%",
+            "Lv7": "72.34%",
+            "Lv8": "78.32%",
+            "Lv9": "84.31%",
+            "Lv10": "90.66%",
+            "Name": "Red Light: Basic Attack 1 DMG"
+          },
+          {
+            "Lv1": "54.15% + 10.83%*5",
+            "Lv2": "58.60% + 11.72%*5",
+            "Lv3": "63.04% + 12.61%*5",
+            "Lv4": "69.25% + 13.85%*5",
+            "Lv5": "73.69% + 14.74%*5",
+            "Lv6": "78.80% + 15.76%*5",
+            "Lv7": "85.90% + 17.18%*5",
+            "Lv8": "93.01% + 18.61%*5",
+            "Lv9": "100.11% + 20.03%*5",
+            "Lv10": "107.66% + 21.54%*5",
+            "Name": "Red Light: Basic Attack 2 DMG"
+          },
+          {
+            "Lv1": "32.49% + 75.81%",
+            "Lv2": "35.16% + 82.03%",
+            "Lv3": "37.82% + 88.25%",
+            "Lv4": "41.55% + 96.95%",
+            "Lv5": "44.22% + 103.17%",
+            "Lv6": "47.28% + 110.32%",
+            "Lv7": "51.54% + 120.26%",
+            "Lv8": "55.81% + 130.21%",
+            "Lv9": "60.07% + 140.15%",
+            "Lv10": "64.60% + 150.72%",
+            "Name": "Red Light: Basic Attack 3 DMG"
+          },
+          {
+            "Lv1": "33.25%*2",
+            "Lv2": "35.98%*2",
+            "Lv3": "38.71%*2",
+            "Lv4": "42.53%*2",
+            "Lv5": "45.25%*2",
+            "Lv6": "48.39%*2",
+            "Lv7": "52.75%*2",
+            "Lv8": "57.11%*2",
+            "Lv9": "61.47%*2",
+            "Lv10": "66.11%*2",
+            "Name": "Red Light: Heavy Attack DMG"
+          },
+          {
+            "Lv1": "57.00%",
+            "Lv2": "61.68%",
+            "Lv3": "66.35%",
+            "Lv4": "72.90%",
+            "Lv5": "77.57%",
+            "Lv6": "82.95%",
+            "Lv7": "90.42%",
+            "Lv8": "97.90%",
+            "Lv9": "105.38%",
+            "Lv10": "113.33%",
+            "Name": "Red Light: Plunging Attack DMG"
+          },
+          {
+            "Lv1": "84.15% + 16.83%*5",
+            "Lv2": "91.06% + 18.22%*5",
+            "Lv3": "97.96% + 19.60%*5",
+            "Lv4": "107.62% + 21.53%*5",
+            "Lv5": "114.52% + 22.91%*5",
+            "Lv6": "122.45% + 24.49%*5",
+            "Lv7": "133.49% + 26.70%*5",
+            "Lv8": "144.53% + 28.91%*5",
+            "Lv9": "155.57% + 31.12%*5",
+            "Lv10": "167.30% + 33.46%*5",
+            "Name": "Red Light: Dodge Counter DMG"
+          },
+          {
+            "Lv1": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Lv10": "30",
+            "Name": "Yellow Light: Plunging Attack STA Cost"
+          },
+          {
+            "Lv1": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Lv10": "25",
+            "Name": "Red Light: Heavy Attack STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Lv10": "30",
+            "Name": "Red Light: Plunging Attack STA Cost"
+          }
+        ]
+      },
+      {
+        "name": "Searchlight Service",
+        "category": "Active",
+        "skill_type": "Resonance Skill",
+        "description": "PounceWhen in Yellow Light Mode, use Resonance Skill to perform Pounce, which consumes STA to pounce on the target before switching to Red Light Mode.Lumi will perform a Pounce without STA cost when switched onto the field.ReboundWhen in Red Light Mode, use Resonance Skill to perform Rebound, which consumes STA to leap backward and attack the target before switching to Yellow Light Mode.Yellow Light ModePerform ranged attacks when in Yellow Light Mode.Red Light ModePerform melee attacks when in Red Light Mode.",
+        "multipliers": [
+          {
+            "Lv1": "91.20%",
+            "Lv2": "98.68%",
+            "Lv3": "106.16%",
+            "Lv4": "116.63%",
+            "Lv5": "124.11%",
+            "Lv6": "132.71%",
+            "Lv7": "144.68%",
+            "Lv8": "156.64%",
+            "Lv9": "168.61%",
+            "Lv10": "181.32%",
+            "Name": "Pounce DMG"
+          },
+          {
+            "Lv1": "87.40%",
+            "Lv2": "94.57%",
+            "Lv3": "101.74%",
+            "Lv4": "111.77%",
+            "Lv5": "118.94%",
+            "Lv6": "127.18%",
+            "Lv7": "138.65%",
+            "Lv8": "150.11%",
+            "Lv9": "161.58%",
+            "Lv10": "173.76%",
+            "Name": "Rebound DMG"
+          },
+          {
+            "Lv1": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Lv10": "30",
+            "Name": "Pounce STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Lv10": "30",
+            "Name": "Rebound STA Cost"
+          }
+        ]
+      },
+      {
+        "name": "Squeakie Express",
+        "category": "Active",
+        "skill_type": "Resonance Liberation",
+        "description": "Throw the giant Squeakie at the target, dealing Electro DMG.",
+        "multipliers": [
+          {
+            "Lv1": "480.00%",
+            "Lv2": "519.36%",
+            "Lv3": "558.72%",
+            "Lv4": "613.83%",
+            "Lv5": "653.19%",
+            "Lv6": "698.45%",
+            "Lv7": "761.43%",
+            "Lv8": "824.40%",
+            "Lv9": "887.38%",
+            "Lv10": "954.29%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Lv10": "20",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Lv10": "125",
+            "Name": "Resonance Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Lv10": "20",
+            "Name": "Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "Signal Light",
+        "category": "Forte Circuit",
+        "skill_type": "Forte Circuit",
+        "description": "Energized PounceWhen Yellow Light Spark is fully recovered, replace Resonance Skill with Resonance Skill Energized Pounce that deals Electro DMG and enter Red Spotlight Mode. The DMG dealt is considered Basic Attack DMG.When in Red Spotlight Mode, the DMG Multiplier of Red Light: Basic Attack and Red Light: Heavy Attack is increased, with an extra amount of Sparks recovered.Red Spotlight Mode ends after performing altogether 4 Basic Attacks and/or Heavy Attacks.Energized ReboundWhen Red Light Spark is fully recovered, replace Resonance Skill with Resonance Skill Energized Rebound that deals Electro DMG and enter Yellow Spotlight Mode. The DMG dealt is considered Basic Attack DMG.When in Yellow Spotlight Mode, Glitter is replaced by Glare, with an increased DMG Multiplier and an extra amount of Sparks recovered.Yellow Spotlight Mode ends after shooting 6 Glares.LaserCasting Outro Skill consumes all Sparks obtained in the current mode.Laser can be cast when the amount of consumed Sparks is greater than or equal to 25, dealing Electro DMG. The DMG dealt is considered Basic Attack DMG. Every 25 Sparks consumed generates 1 extra Laser beam, up to 4 Laser beams.Yellow Light SparkLumi can hold up to 100 Yellow Light Sparks.Lumi obtains Yellow Light Spark under the following conditions: When Yellow Light: Basic Attack hits the target;\nWhen Glitter hits the target;When Glare hits the target;When Resonance Skill Energized Rebound hits the target;When casting Intro Skill Sepcial Delivery.Red Light SparkLumi can hold up to 100 Red Light Sparks.Lumi obtains Red Light Spark under the following conditions:When Normal Attack Navigation Support hits the target in Red Light Mode or Red Spotlight Mode.",
+        "multipliers": [
+          {
+            "Lv1": "41.00%",
+            "Lv2": "44.37%",
+            "Lv3": "47.73%",
+            "Lv4": "52.44%",
+            "Lv5": "55.80%",
+            "Lv6": "59.66%",
+            "Lv7": "65.04%",
+            "Lv8": "70.42%",
+            "Lv9": "75.80%",
+            "Lv10": "81.52%",
+            "Name": "Glare DMG"
+          },
+          {
+            "Lv1": "60.48%",
+            "Lv2": "65.44%",
+            "Lv3": "70.40%",
+            "Lv4": "77.35%",
+            "Lv5": "82.31%",
+            "Lv6": "88.01%",
+            "Lv7": "95.94%",
+            "Lv8": "103.88%",
+            "Lv9": "111.81%",
+            "Lv10": "120.25%",
+            "Name": "Red Spotlight: Basic Attack 1 DMG"
+          },
+          {
+            "Lv1": "69.57% + 13.92%*5",
+            "Lv2": "75.28% + 15.06%*5",
+            "Lv3": "80.98% + 16.20%*5",
+            "Lv4": "88.97% + 17.80%*5",
+            "Lv5": "94.68% + 18.94%*5",
+            "Lv6": "101.24% + 20.25%*5",
+            "Lv7": "110.36% + 22.08%*5",
+            "Lv8": "119.49% + 23.90%*5",
+            "Lv9": "128.62% + 25.73%*5",
+            "Lv10": "138.32% + 27.67%*5",
+            "Name": "Red Spotlight: Basic Attack 2 DMG"
+          },
+          {
+            "Lv1": "47.15% + 110.00%",
+            "Lv2": "51.01% + 119.02%",
+            "Lv3": "54.88% + 128.04%",
+            "Lv4": "60.29% + 140.67%",
+            "Lv5": "64.16% + 149.69%",
+            "Lv6": "68.60% + 160.06%",
+            "Lv7": "74.79% + 174.49%",
+            "Lv8": "80.97% + 188.93%",
+            "Lv9": "87.16% + 203.36%",
+            "Lv10": "93.73% + 218.69%",
+            "Name": "Red Spotlight: Basic Attack 3 DMG"
+          },
+          {
+            "Lv1": "44.35%*2",
+            "Lv2": "47.99%*2",
+            "Lv3": "51.63%*2",
+            "Lv4": "56.72%*2",
+            "Lv5": "60.36%*2",
+            "Lv6": "64.54%*2",
+            "Lv7": "70.36%*2",
+            "Lv8": "76.18%*2",
+            "Lv9": "81.99%*2",
+            "Lv10": "88.18%*2",
+            "Name": "Red Spotlight: Heavy Attack DMG"
+          },
+          {
+            "Lv1": "92.20%*2",
+            "Lv2": "99.77%*2",
+            "Lv3": "107.33%*2",
+            "Lv4": "117.91%*2",
+            "Lv5": "125.47%*2",
+            "Lv6": "134.17%*2",
+            "Lv7": "146.26%*2",
+            "Lv8": "158.36%*2",
+            "Lv9": "170.46%*2",
+            "Lv10": "183.31%*2",
+            "Name": "Energized Pounce DMG"
+          },
+          {
+            "Lv1": "126.60%",
+            "Lv2": "136.99%",
+            "Lv3": "147.37%",
+            "Lv4": "161.90%",
+            "Lv5": "172.28%",
+            "Lv6": "184.22%",
+            "Lv7": "200.83%",
+            "Lv8": "217.44%",
+            "Lv9": "234.05%",
+            "Lv10": "251.70%",
+            "Name": "Energized Rebound DMG"
+          },
+          {
+            "Lv1": "37.50%",
+            "Lv2": "40.58%",
+            "Lv3": "43.65%",
+            "Lv4": "47.96%",
+            "Lv5": "51.03%",
+            "Lv6": "54.57%",
+            "Lv7": "59.49%",
+            "Lv8": "64.41%",
+            "Lv9": "69.33%",
+            "Lv10": "74.56%",
+            "Name": "Single Laser Beam DMG"
+          },
+          {
+            "Lv1": "12",
+            "Lv2": "12",
+            "Lv3": "12",
+            "Lv4": "12",
+            "Lv5": "12",
+            "Lv6": "12",
+            "Lv7": "12",
+            "Lv8": "12",
+            "Lv9": "12",
+            "Lv10": "12",
+            "Name": "Energized Pounce Concerto Regen"
+          },
+          {
+            "Lv1": "12",
+            "Lv2": "12",
+            "Lv3": "12",
+            "Lv4": "12",
+            "Lv5": "12",
+            "Lv6": "12",
+            "Lv7": "12",
+            "Lv8": "12",
+            "Lv9": "12",
+            "Lv10": "12",
+            "Name": "Energized Rebound Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "Pathfinding",
+        "category": "Inherent",
+        "skill_type": "Inherent Skill",
+        "description": "Gain 10% Electro DMG Bonus when in Red Light Mode.",
+        "multipliers": []
+      },
+      {
+        "name": "Expediting",
+        "category": "Inherent",
+        "skill_type": "Inherent Skill",
+        "description": "Casting Energized Pounce or Energized Rebound increases ATK by 10% for 5s.",
+        "multipliers": []
+      },
+      {
+        "name": "Special Delivery",
+        "category": "Transition",
+        "skill_type": "Intro Skill",
+        "description": "Enter Yellow Light Mode and attack the target, dealing Electro DMG.",
+        "multipliers": [
+          {
+            "Lv1": "28.34%*3",
+            "Lv2": "30.66%*3",
+            "Lv3": "32.98%*3",
+            "Lv4": "36.24%*3",
+            "Lv5": "38.56%*3",
+            "Lv6": "41.23%*3",
+            "Lv7": "44.95%*3",
+            "Lv8": "48.67%*3",
+            "Lv9": "52.38%*3",
+            "Lv10": "56.33%*3",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Lv10": "10",
+            "Name": "Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "Escorting",
+        "category": "Transition",
+        "skill_type": "Outro Skill",
+        "description": "The incoming Resonator has their Resonance Skill DMG Amplified by 38% for 10s or until they are switched out.",
+        "multipliers": []
+      }
+    ],
+    "resonance_chain_dupes": [
+      {
+        "node": "S1",
+        "name": "Sequence Node 1",
+        "description": "After casting Energized Rebound, additionally recovers 60 STA within 3s."
+      },
+      {
+        "node": "S2",
+        "name": "Sequence Node 2",
+        "description": "Energized Pounce and Energized Rebound ignore 20% of the target's DEF."
+      },
+      {
+        "node": "S3",
+        "name": "Sequence Node 3",
+        "description": "The DMG of Resonance Liberation Squeakie Express is increased by 30%."
+      },
+      {
+        "node": "S4",
+        "name": "Sequence Node 4",
+        "description": "Gain 30% Basic Attack DMG Bonus."
+      },
+      {
+        "node": "S5",
+        "name": "Sequence Node 5",
+        "description": "When Spark is fully recovered, Laser DMG Multiplier is increased by 100%."
+      },
+      {
+        "node": "S6",
+        "name": "Sequence Node 6",
+        "description": "Casting Resonance Liberation Squeakie Express increases all team members' ATK by 20% for 20s."
+      }
+    ],
+    "minor_fortes": [
+      {
+        "stat_name": "CRIT Rate",
+        "bonus_value": "+8%"
+      },
+      {
+        "stat_name": "ATK%",
+        "bonus_value": "+12%"
+      }
+    ],
+    "base_stats_lvl_90": {
+      "hp": 680,
+      "atk": 27,
+      "def": 72,
+      "max_energy": 125,
+      "crit_rate": "13%",
+      "crit_dmg": "150%",
+      "healing_bonus": "0%",
+      "elemental_dmg_bonus": "0%"
+    },
+    "upgrade_materials": {
+      "character_ascension": [
+        {
+          "material_name": "Terraspawn Fungus",
+          "rarity": "boss",
+          "quantity": 60
+        },
+        {
+          "material_name": "Thundering Tacet Core",
+          "rarity": "specialty",
+          "quantity": 46
+        },
+        {
+          "material_name": "LF Howler Core",
+          "rarity": "common",
+          "quantity": 4
+        },
+        {
+          "material_name": "MF Howler Core",
+          "rarity": "common",
+          "quantity": 12
+        },
+        {
+          "material_name": "HF Howler Core",
+          "rarity": "common",
+          "quantity": 12
+        },
+        {
+          "material_name": "FF Howler Core",
+          "rarity": "common",
+          "quantity": 4
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "Sentinel's Dagger",
+          "rarity": "weekly_boss",
+          "quantity": 26
+        },
+        {
+          "material_name": "LF Howler Core",
+          "rarity": "common",
+          "quantity": 25
+        },
+        {
+          "material_name": "MF Howler Core",
+          "rarity": "common",
+          "quantity": 28
+        },
+        {
+          "material_name": "HF Howler Core",
+          "rarity": "common",
+          "quantity": 40
+        },
+        {
+          "material_name": "FF Howler Core",
+          "rarity": "common",
+          "quantity": 57
+        },
+        {
+          "material_name": "Waveworn Residue 210",
+          "rarity": "skill_material",
+          "quantity": 25
+        },
+        {
+          "material_name": "Waveworn Residue 226",
+          "rarity": "skill_material",
+          "quantity": 28
+        },
+        {
+          "material_name": "Waveworn Residue 235",
+          "rarity": "skill_material",
+          "quantity": 55
+        },
+        {
+          "material_name": "Waveworn Residue 239",
+          "rarity": "skill_material",
+          "quantity": 67
+        }
+      ]
+    },
+    "voice_actors": {
+      "eng": "",
+      "jpn": "",
+      "cn": "",
+      "kr": ""
+    },
+    "best_weapons": [
+      {
+        "weapon_name": "Ages of Harvest",
+        "dupe_rank": "R1",
+        "percentage_performance": "108.33%",
+        "commentary_details": "Jinhsi's weapon is currently also the best broadblade option for Lumi's damage, who benefits a great amount from the Skill DMG Bonus the weapon provides, as it boosts a good chunk of her rotations damage. The high base ATK, 24% CRIT Rate and 12% DMG Bonus the weapon additionally provides are also all stats that are welcome for her, making it a very high damage option",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Gacha",
+          "effect_description": "Grants {0} Attribute DMG Bonus. Casting Intro Skill gives the equipper Ageless Marking, which grants {1} Resonance Skill DMG Bonus for 12s. Casting Resonance Skill gives the equipper Ethereal Endowment, which grants {1} Resonance Skill DMG Bonus for 12s."
+        }
+      },
+      {
+        "weapon_name": "Verdant Summit",
+        "dupe_rank": "R1",
+        "percentage_performance": "101.11%",
+        "commentary_details": "Jiyan's signature weapon that's not only fantastic for him but also usable on all damage-focused Broadblade users. Offers a huge main stat of CRIT DMG% granting excellent scaling, 12% permanent generic DMG% and up to 48% increased Heavy ATK DMG% after using 1/2 skills and or a Resonance Liberation.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Limited",
+          "effect_description": "Increases the DMG Bonus of all Resonance Attributes by {0}. Every time Intro Skill or Resonance Liberation is cast, increases Heavy Attack DMG Bonus by {1}, stacking up to 2 time(s). This effect lasts for 14s."
+        }
+      },
+      {
+        "weapon_name": "Lustrous Razor",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "commentary_details": "Top Broadblade option only in competition with some 4â weapons with multiple copies invested or limited 5â weapons. Offers high base ATK, ATK%, a good amount of Energy Regen to save at least 1 sub-stat on gear to be reallocated to better uses and a stackable Resonance Liberation ATK DMG% bonus that ramps up as you use Resonance Skills.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "Permanent Convene",
+          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases Resonance Liberation DMG by {1}, stacking up to {2} times. This effect lasts for {3}s."
+        }
+      },
+      {
+        "weapon_name": "Autumntrace",
+        "dupe_rank": "R5",
+        "percentage_performance": "94.03%",
+        "commentary_details": "Strongest 4â Broadsword option, granting main stat CRIT RATE for excellent scaling and an incredibly easy to access bonus ability which grants a stacking ATK% buff that only requires you to use Basic or Heavy attacks during your rotation.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 412,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.2,
+          "source": "Pioneer Podcast",
+          "effect_description": "Increases ATK by {0} upon dealing Basic Attack DMG or Heavy Attack DMG, stacking up to 5 time(s). This effect lasts for 7s and can be triggered 1 time(s) every 1s."
+        }
+      },
+      {
+        "weapon_name": "Waning Redshift",
+        "dupe_rank": "R5",
+        "percentage_performance": "86.84%",
+        "commentary_details": "A solid F2P 4* broadblade option for any DPS character scaling off of ATK. The ATK% boost it provides when casting your Resonance Skill is great on most characters, and while the small energy generation it provides at the same time is more situational, it can be handy as well. ",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 462,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Gacha",
+          "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s."
+        }
+      },
+      {
+        "weapon_name": "Helios Cleaver",
+        "dupe_rank": "R5",
+        "percentage_performance": "82.78%",
+        "commentary_details": "A generic option, granting a stacking ATK% buff after using your Resonance Skill that starts at 0 and grants 1 stack every 2 seconds up to 4 stacks - reaching a maximum after 8 seconds. Buff resets shortly after the stack cap limit is reached after which you'll have to repeat the cycle anew. Falls behind other options due to it's buff being inconsistent but still a viable option if you don't have better.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 412,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 30.3,
+          "source": "",
+          "effect_description": "Within {0}s after Resonance Skill is cast, increases ATK by {2} every 2s, stacking up to 4 time(s). This effect can be triggered 1 time(s) every 12s. When the number of stacks reaches 4, all stacks will be reset within 6s."
+        }
+      },
+      {
+        "weapon_name": "Broadblade#41",
+        "dupe_rank": "R5",
+        "percentage_performance": "79.95%",
+        "commentary_details": "Another generic Broadblade option with a mix of utility and offense, granting a large amount of Energy Regen as a main stat. Also a reasonably strong and easy to maintain bonus ability that offers an ATK% buff as long as you remain above 80% HP. Our calculations assume you'll stay above 80% for the whole fight, if you can't you can lower this weapons performance.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 412,
+          "secondary_stat_name": "Energy Reg.",
+          "secondary_stat_val": 32.3,
+          "source": "Synthesis",
+          "effect_description": "When the Resonator's HP is above 80%, increases ATK by {0}. When the Resonator's HP is below {1}, restores their HP by {2}, for dealing Basic Attack DMG or Heavy Attack DMG. This effect can be triggered 1 time(s) every 8s."
+        }
+      },
+      {
+        "weapon_name": "Discord",
+        "dupe_rank": "R5",
+        "percentage_performance": "72.78%",
+        "commentary_details": "Discord is good for players looking to smooth out Lumi's rotation with some extra concerto and also for those hungry for Energy Regeneration for her.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 337,
+          "secondary_stat_name": "Energy Reg.",
+          "secondary_stat_val": 51.8,
+          "source": "",
+          "effect_description": "When Resonance Skill is released, restores Concerto Energy by {0}. This effect can be triggered 1 time every 20s."
+        }
+      }
+    ],
+    "best_echo_sets": [
+      {
+        "set_name": "Moonlit Clouds",
+        "percentage_performance": "1",
+        "commentary": "Offers a 10% unconditional Energy Regen% boost taking some pressure off your gear when aiming at ER breakpoints. Also upon using Outro, grants the next character switching in a 22.5% ATK boost, amplifying any of your main damage dealers burst windows.",
+        "main_echo_options": [
+          {
+            "echo_name": "Impermanence Heron",
+            "echo_commentary": "Supportive Echo that can be run at the cost of a sizeable chunk of damage for the character who equips, trading personal gain for team benefits. Should always be used and immediately switch cancelled right before performing an Outro, leading to another DPS. When done so will grant the next character switching in 12% increased DMG% which when combined with the 5P Moonlit set which also grants 22.5% ATK% under the same conditions makes for a sizeable boost. While the echo does lower the damage of whoever wears it, it grants a massive chunk of energy on use usually saving 1 or sometimes even 2 Energy Regen sub stats that may otherwise be needed by the wearer allowing for some damage to be recovered."
+          }
+        ]
+      },
+      {
+        "set_name": "Void Thunder",
+        "percentage_performance": "",
+        "commentary": "If you want to play Lumi as Main DPS (which isn't really that optimal), you can use the Void Thunder set on her.",
+        "main_echo_options": [
+          {
+            "echo_name": "Nightmare: Thundering Mephis",
+            "echo_commentary": "Offers an unconditional 12% Electro DMG and 12% Liberation DMG boost when placed in the main Main Echo slot, making it a solid choice for Electro focused resonators who emphasize Liberation damage and are looking to use the 5P Void Thunder set bonus."
+          }
+        ]
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ],
+        "cost_3": [
+          "Electro DMG",
+          "Electro DMG > Energy Regen"
+        ],
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%",
+        "ATK"
+      ]
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 14500+",
+      "DEF: 1100+",
+      "ATK: 2000-2800+",
+      "CRIT Rate: 65%+",
+      "CRIT DMG: 210%+",
+      "Energy Regen: 142%-150%Lower end estimated in a team with Carlotta+Shorekeeper, higher end estimated in a team with Phrolova+Shorekeeper.",
+      "Electro DMG Bonus: 30-60%+"
+    ],
+    "skill_upgrade_priority": {
+      "order": [
+        "Forte Circuit",
+        "Res. Liberation",
+        "Res. Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "commentary": ""
+    },
+    "rotations": [
+      {
+        "rotation_name": "Rotation",
+        "steps": [
+          "Intro",
+          "Ultimate",
+          "Skill: Energized Pounce (Optionally Swap Cancel and immediately back)",
+          "Red Spotlight: Basic Attack 1",
+          "Red Spotlight: Basic Attack 2",
+          "Red Spotlight: Basic Attack 3 (Optionally Swap Cancel and immediately back)",
+          "Skill: Energized Rebound",
+          "Yellow Light: Basic Attack",
+          "Channelled Dash: Glare x 6",
+          "Skill: Energized Pounce",
+          "Echo (Swap Cancel)",
+          "Outro"
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "jinhsi"
+        ],
+        "commentary": "Lumi is able to significantly buff Jinhsi's nukes via her Outro which gives 38% Resonance Skill DMG Amplify. Synergy ends there, but it's simple and effective nuke damage potential. Be wary however that Shorekeeper will not work in that team, due to Jinhsi's Forte requiring the presence of Coordinated Attacks in her teams (something Lumi and Shorekeeper don't possess, but Verina does)."
+      },
+      {
+        "characters": [
+          "carlotta"
+        ],
+        "commentary": "Carlotta does almost exclusively Skill DMG, which is exactly what Lumi amplifies by a whopping 38% on her Outro skill, making the synergy pretty natural. Be careful however that you have to time Lumi's Outro right as you activate your Forte nuke with Carlotta, else you won't get the buffs for your whole Ultimate. This means the team is rather awkward to play."
+      },
+      {
+        "characters": [
+          "verina"
+        ],
+        "commentary": "One of the usual Healing Support options that can slot into any team. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Enjoy."
+      },
+      {
+        "characters": [
+          "the-shorekeeper"
+        ],
+        "commentary": "Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game."
+      }
+    ],
+    "example_teams": [
+      {
+        "team_name": "Best Team (Jinhsi)",
+        "slot_1": {
+          "character_name": "jinhsi",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "lumi",
+          "alternatives": []
+        },
+        "slot_3": {
+          "character_name": "verina",
+          "alternatives": []
+        },
+        "team_notes": ""
+      },
+      {
+        "team_name": "Best Team (Carlotta)",
+        "slot_1": {
+          "character_name": "carlotta",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "lumi",
+          "alternatives": []
+        },
+        "slot_3": {
+          "character_name": "the-shorekeeper",
+          "alternatives": [
+            "verina"
+          ]
+        },
+        "team_notes": ""
+      }
+    ]
+  }
+}

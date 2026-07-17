@@ -1,0 +1,1075 @@
+{
+  "status": "success",
+  "data": {
+    "character_metadata": {
+      "name": "Phrolova",
+      "slug": "phrolova",
+      "rarity_stars": 5,
+      "element": "Havoc",
+      "weapon_type": "Rectifier",
+      "breadcrumb": [
+        "Wuthering Waves",
+        "Characters",
+        "Phrolova"
+      ],
+      "updates": {
+        "last_updated": "10/July/2026",
+        "last_review_patch": "2.5",
+        "last_major_build_patch": "3",
+        "last_profile_update": "10/July/2026"
+      }
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tier": "T0.5",
+          "tags": [
+            "Control",
+            "Gather"
+          ]
+        },
+        "whimpering_wastes": {
+          "tier": "T0",
+          "tags": [
+            "Control",
+            "Gather"
+          ]
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T1"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T0"
+        }
+      }
+    },
+    "media": {
+      "youtube_guide_embed_url": "https://www.youtube.com/embed/TcuvDXnOy00",
+      "youtube_guide_full_url": "https://www.youtube.com/watch?v=TcuvDXnOy00",
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/phrolova_full.webp"
+    },
+    "pros_and_cons": {
+      "pros": [
+        "Deals very high damage both on-field and off-field, giving her a constant presence in gameplay;",
+        "Has no Energy Regen requirements whatsoever to perform her Ultimate;",
+        "Able to slot as not only a Main DPS but also as a SubDPS-style buffer for Heavy Attack DPS characters effectively;",
+        "Has massive self-buffs to ATK and CRIT which doesn't make her reliant on other teammates buffing her as much as others — this particularly reinforces her SubDPS usability;",
+        "Provides a ton of Crowd Control effects and self-increases Interruption Resistance while reducing Damage Taken; in other words, makes ignoring enemy mechanics a breeze;",
+        "Top 3 profile icons in the game, arguably top 1. Ultimate also has insane quality. Literally beautiful."
+      ],
+      "cons": [
+        "Her weapon situation is worse than Brant's. Treat Phrolova as a package deal: pull her with her Signature, else we simply recommend to pull Camellya instead for a Havoc DPS (unless you really like Phrolova, we understand);",
+        "Her Echo set is STRICTLY only usable on her, and her weapon has low usage value except for Phrolova because Stringmaster exists. Hence if you choose to build her, her build cannot be shared with anybody else;",
+        "Due to her Aftersound stack ramp-up and Enhanced Intro mechanics, her earlier rotations are weaker than any later ones, particularly the first rotation;",
+        "Scales poorly off of ATK buffs due to already having too much of it in her own kit;",
+        "We unironically chose to talk about music theory instead of explaining all the details of her kit that are never used in combat in her Review, which should say a lot about how long of a read it is."
+      ]
+    },
+    "review": {
+      "summary": "Phrolova is a 5-star Havoc Rectifier DPS character whose main goal is to make you read essays simply trying to understand her kit- sorry. We mean that her main goal is to deal Havoc damage from both on and off-field by executing relatively quick in-and-out rotations that allow her partner Hecate to attack from off-field, dealing massive Havoc DMG to enemies. In this process, Phrolova will also stagnate and/or group enemies depending on your selection in her rotation.",
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Phrolova is a 5-star Havoc Rectifier DPS character whose main goal is to make you read essays simply trying to understand her kit- sorry. We mean that her main goal is to deal Havoc damage from both on and off-field by executing relatively quick in-and-out rotations that allow her partner Hecate to attack from off-field, dealing massive Havoc DMG to enemies. In this process, Phrolova will also stagnate and/or group enemies depending on your selection in her rotation.",
+            "Due to our unamusing joke in this intro, you probably understood that Phrolova's kit is a scientific journal. This might be the worst case we've had yet, above Cartethyia. However, we did read it so you don't have to, and we'll explain things as briefly as we can while glossing over a ton of details that are irrelevant to her rotations.",
+            "Everything you need to keep track of in battle while playing Phrolova are a few key attacks you'll access at certain points in her rotation, as well as her Forte gauge which resembles sheet music! In order to understand her kit better, let's talk about music theory. Phrolova is playing a melody in treble clef, visible on her Forte gauge. This clef is used to sheet higher-pitched sounds (above the middle C on a piano). This clef is the most commonly used as it covers sheets for a wide variety of popular instruments including a lot of well-known string, wood and brass instruments such as pianos, violins, clarinets, saxophones, flutes, mandolins, recorders, guitars etc. Phrolova uses a wand iconic of orchestra conductors to command Hecate, her partner who does attacks depending on the kind of notes she's playing. She plays 3 quarter notes (also known as crotchets) in every bar. This is a time signature commonly used for Waltz Dancing! We could analyze further, but overall the notes she's playing on her Forte bar would actually sound rather flat in real life. Oh well.",
+            "Regardless, in Wuthering Waves this translates to about 1.2 to 1.5 seconds per Hecate attack (Given the time signature and the fact she's playing 6 notes total, we're pretty sure she's playing the slowest music we've ever seen when trying to find a BPM for this. We don't recommend Phrolova and Hecate at concerts, they're total beginners).",
+            "So, moving on from pointless music theory knowledge (we're sorry), Phrolova can actually play different melodies depending on how you operate her rotations in game. She acquires notes in a few manners, and has 3 different types of notes she can play.",
+            "String note: This is acquired by performing Basic Attack 3 or Enhanced Basic Attack and it has the effect of stagnating enemies;",
+            "Wind note: This is acquired by performing Skill or Enhanced Skill and it has the effect of grouping enemies;",
+            "Cadenza note: This is acquired twice per rotation (only used once in practice) by using any Intro or Echo Skill and it has the effects of both Wind and String notes at once.",
+            "We mentioned Phrolova has enhanced Basic Attacks and Skills. She accesses them by casting Basic Attack 3 or Skill (12s cooldown), so you can essentially chain notes one after the other. Her enhanced Basic Attack gives higher damage while her enhanced Skill is better at controlling multiple enemies, so what kind of note you choose with your Enhanced attacks should depend on what kind of encounter you're facing (Privilege Wind notes in Whimpering Wastes as well as waves of small enemies in Tower of Adversity, and privilege String notes against all boss encounters). Some notes simply won't be changeable as they'll be acquired by doing Basic 3's and Skills which are the quickest way of accessing Phrolova's Ultimate — which is your end goal, so you should always be rotating in that manner.",
+            "Speaking of her Ultimate, it has a strict 25s cooldown as it requires a Forte Heavy Attack to be cast before using it. It costs 0 Resonance Energy and Phrolova does not have any Resonance Energy of her own (even though she generates a small amount for other characters, comparable to Cantarella). Hence, instead of waiting for her Ultimate's cooldown and simply using it at the right time with enough Resonance Energy, Phrolova's Ultimate first needs to be unlocked (with a 25s cooldown) and then be cast to finish her rotation. Phrolova's Ultimate gives her a massive 120% off-field self-ATK buff and enables her off-field attacks with Hecate, representing about half of her total damage (the rest being dealt on-field).",
+            "So Phrolova's goal is pretty clear: get your 6 notes up via Basic 3's and Skills (3 total), cast your Forte Heavy Attack, finish all of that off with your Ultimate, Hecate does off-field attacks while you're out. There's however more to consider, such as how to access that quickly:",
+            "Basic 3 can be immediately cast after Intro. Without Intro available, Phrolova's rotation requires more Basic Attacks, but it is best to cast her Ultimate first and have her start as the first member of your party in the rotation (to maximize uptime on off-field attacks and access her Enhanced Intro).",
+            "Switching her in from any other character while in combat immediately starts her at Basic 2, skipping Basic 1 entirely.",
+            "Her Intro has 2 variants, one being accessed without having cast her Ultimate, another with having cast it prior. The latter is significantly stronger than the former in terms of damage and acts as her Ultimate finisher and this instantly ends her Ultimate stance (otherwise, she takes 24s to cast it which is an exceedingly long amount of time).",
+            "So essentially, the idea for her rotation is:",
+            "Open your rotation with Phrolova by switching her in from any other character to cast Basic 2 and Basic 3. If Intro is available, do Intro into Basic 3.",
+            "Do Enhanced attacks dependent on the situation after every Basic 3 and Skill.",
+            "After your first Enhanced attack, cast Skill, then Basic 3 to access the following ones.",
+            "Finish the rotation off with your Ultimate then switch out, don't forget to use your Echo during her rotation as well (the best timing after her second Forte Enhanced attack).",
+            "Doing this will access Phrolova's full kit and buffs, the rest is dependent on her teammates and happens off-field. With that being said, she has a lot of mechanics we didn't mention, being:",
+            "All of Phrolova's Enhanced Skills/Basic Attacks are good windows to Swap Cancel. However, her Forte Heavy attack is her best window by far (be mindful that any Outro effects will expire if you do this);",
+            "Phrolova gains a massive 120% self-ATK buff while in her Ultimate state (ended after Intro or 24s) — this makes her scale with ATK buffs and Echoes much less than other characters as she already has so much of it;",
+            "While Phrolova attacks with Hecate, she gains stacks of Aftersound each time increasing her CRIT DMG by 2.5% up to a cap of 24 (she also gains 10 stacks when entering battle). Additionally, each stack of Aftersound increases the DMG Multiplier of her Forte Heavy Attack by 82.55% (additive). Each stack exceeding the cap of 24 will increase CRIT DMG by 1% (Not having this fully stacked right away is what makes her first rotation much weaker than the following ones). This extra CRIT DMG keeps ramping up as long as Phrolova isn't out of combat, meaning she keeps getting stronger as the battle goes on;",
+            "Phrolova's Outro amplifies Havoc DMG and Heavy Attack DMG by 20% and 25% respectively for 1 character (expires on swap), it also casts 2 extra off-field attacks instantly;",
+            "When any character casts an Echo Skill and Phrolova has cast her Ultimate, an Enhanced Attack from Hecate is triggered (This is what gives Phrolova synergy with Cantarella);",
+            "Phrolova's Enhanced Intro also has a stagnation effect on enemies;",
+            "Casting an Echo Skill grants Phrolova 30% Damage Taken reduction and increased Interruption Resistance for 15s.",
+            "This should be all of the info needed to potentially keep in mind when playing Phrolova. A lot of the information in the list above is details, and can for the most part be kept in the back of your mind when playing her on the team. As can be seen by her kit and mid-length rotation which is dependent on the field time of other teammates, Phrolova's main use will be in Havoc teams where she can buff other Havoc characters to do damage on their own while she aids them by dealing off-field damage of her own. Phrolova also deals high damage during her own field time, which is not to be underestimated. Finally, Phrolova can be used to buff Heavy Attack-based DPS and general Havoc-based DPS, even including Jiyan, as her own personal damage is really strong. However, this assumes she has her Signature weapon equipped.",
+            "Indeed, while Stringmaster, being the general best option for Rectifier DPS units time and time again is great on Phrolova (which makes sense given the weapon's name), her own Signature is much, MUCH stronger. It's a huge power leap for Phrolova due to the sheer amount of stats it provides to her kit— which is unprecedented and only approached closely by Brant. What this means is Phrolova's damage is balanced around her Signature weapon equipped, and in other words, without it her damage falls off drastically. This is her biggest issue. Phrolova is a package deal that requires 1.5x the pulls any character normally would take to function, the best example of this being the fellow Havoc DPS Camellya who is completely functional on the 5-star Permanent Banner Sword, being Emerald of Genesis. Without that weapon, it's extremely difficult to justify Phrolova as a competitive option to the contenders for top DPS in the game — and yes, this includes Camellya.",
+            "However, Phrolova makes up for this by having good flexibility in teammates; Cantarella is her biggest damage boost, providing Echo Skills as well as Havoc-Skill Amplification which is the kind of stats that Phrolova needs. Cantarella's poor Resonance Energy generation is compensated for by Phrolova not requiring any, and Cantarella deals good personal damage while taking more extended field time. In other words, they are perfectly synergistic with each other. However, beyond this big power boost, Phrolova can work with a plethora of teammates to roughly the same degree of success, being Roccia, Danjin, Shorekeeper, Havoc Rover and more (Jiyan could even be considered). And even without Cantarella, so long as Phrolova has her own Signature weapon, she'll be more than okay. Without it is when problems arise in terms of competitiveness in damage though.",
+            "In conclusion, Phrolova is undoubtedly the best Havoc DPS in the game with Signature weapons included. She has amazing crowd control abilities and damage which is sustained all throughout and even beyond her rotation, which makes her one of the top wave clearing units for Whimpering Wastes. Boasting amazing on-field and off-field damage as well as buffing potential, she has a lot of flexibility in her teams but lags behind in power significantly compared to the rest of the cast without her Signature weapon. With that being said, provided she has her Signature available, she will be one of the more flexible and powerful options to add to your Wuthering Waves character roster."
+          ]
+        }
+      ]
+    },
+    "skills": [
+      {
+        "name": "Movement of Life and Death",
+        "category": "Active",
+        "skill_type": "Basic Attack",
+        "description": "Basic AttackPerform up to 3 consecutive attacks, dealing Havoc DMG.When performing Basic Attack Stage 3, enter Reincarnate state.Heavy AttackConsume STA to attack the target, dealing Havoc DMG.Press Normal Attack shortly after casting this skill to cast Basic Attack Stage 2.Scarlet CodaPhrolova enters the Compose state every 25s.When the following 3 conditions are met, Heavy Attack is replaced with Scarlet Coda.Has 6 Volatile Notes.In the Compose state.Not in the Resolving Chord state.Scarlet Coda: Consume STA to deal Havoc DMG, Stagnating and pulling in nearby targets. This instance of damage is considered Resonance Skill DMG.Each stack of Aftersound additionally increases the DMG Multiplier of this instance of damage.Casting this skill is considered as casting Echo Skill.Casting this skill sends Compose state into cooldown and activates the Resolving Chord state.Mid-air AttackConsume STA to perform a Plunging Attack, dealing Havoc DMG.Dodge CounterPress Normal Attack after a successful Dodge to attack the target, dealing Havoc DMG.Press Normal Attack shortly after casting this skill to cast Basic Attack Stage 3.",
+        "multipliers": [
+          {
+            "Lv1": "26.88%*2",
+            "Lv2": "29.09%*2",
+            "Lv3": "31.29%*2",
+            "Lv4": "34.38%*2",
+            "Lv5": "36.58%*2",
+            "Lv6": "39.12%*2",
+            "Lv7": "42.64%*2",
+            "Lv8": "46.17%*2",
+            "Lv9": "49.70%*2",
+            "Lv10": "53.45%*2",
+            "Name": "Stage 1 DMG"
+          },
+          {
+            "Lv1": "48.00%",
+            "Lv2": "51.94%",
+            "Lv3": "55.88%",
+            "Lv4": "61.39%",
+            "Lv5": "65.32%",
+            "Lv6": "69.85%",
+            "Lv7": "76.15%",
+            "Lv8": "82.44%",
+            "Lv9": "88.74%",
+            "Lv10": "95.43%",
+            "Name": "Stage 2 DMG"
+          },
+          {
+            "Lv1": "16.44%*6",
+            "Lv2": "17.79%*6",
+            "Lv3": "19.14%*6",
+            "Lv4": "21.03%*6",
+            "Lv5": "22.38%*6",
+            "Lv6": "23.93%*6",
+            "Lv7": "26.08%*6",
+            "Lv8": "28.24%*6",
+            "Lv9": "30.40%*6",
+            "Lv10": "32.69%*6",
+            "Name": "Stage 3 DMG"
+          },
+          {
+            "Lv1": "40.16%*2",
+            "Lv2": "43.46%*2",
+            "Lv3": "46.75%*2",
+            "Lv4": "51.36%*2",
+            "Lv5": "54.65%*2",
+            "Lv6": "58.44%*2",
+            "Lv7": "63.71%*2",
+            "Lv8": "68.98%*2",
+            "Lv9": "74.25%*2",
+            "Lv10": "79.85%*2",
+            "Name": "Heavy Attack DMG"
+          },
+          {
+            "Lv1": "16.61%*2+6.23%*8+249.03%",
+            "Lv2": "17.97%*2+6.74%*8+269.46%",
+            "Lv3": "19.33%*2+7.25%*8+289.88%",
+            "Lv4": "21.24%*2+7.97%*8+318.46%",
+            "Lv5": "22.60%*2+8.48%*8+338.89%",
+            "Lv6": "24.16%*2+9.06%*8+362.37%",
+            "Lv7": "26.34%*2+9.88%*8+395.04%",
+            "Lv8": "28.52%*2+10.70%*8+427.71%",
+            "Lv9": "30.70%*2+11.51%*8+460.39%",
+            "Lv10": "33.01%*2+12.38%*8+495.10%",
+            "Name": "Scarlet Coda DMG"
+          },
+          {
+            "Lv1": "41.53%",
+            "Lv2": "44.90%",
+            "Lv3": "48.36%",
+            "Lv4": "53.13%",
+            "Lv5": "56.50%",
+            "Lv6": "60.38%",
+            "Lv7": "65.88%",
+            "Lv8": "71.32%",
+            "Lv9": "76.75%",
+            "Lv10": "82.55%",
+            "Name": "DMG Multiplier Increase per Aftersound"
+          },
+          {
+            "Lv1": "64.00%",
+            "Lv2": "69.25%",
+            "Lv3": "74.50%",
+            "Lv4": "81.85%",
+            "Lv5": "87.10%",
+            "Lv6": "93.13%",
+            "Lv7": "101.53%",
+            "Lv8": "109.92%",
+            "Lv9": "118.32%",
+            "Lv10": "127.24%",
+            "Name": "Mid-air Attack DMG"
+          },
+          {
+            "Lv1": "61.36%",
+            "Lv2": "66.40%",
+            "Lv3": "71.43%",
+            "Lv4": "78.47%",
+            "Lv5": "83.50%",
+            "Lv6": "89.29%",
+            "Lv7": "97.34%",
+            "Lv8": "105.39%",
+            "Lv9": "113.44%",
+            "Lv10": "121.99%",
+            "Name": "Dodge Counter DMG"
+          },
+          {
+            "Lv1": "40",
+            "Lv2": "40",
+            "Lv3": "40",
+            "Lv4": "40",
+            "Lv5": "40",
+            "Lv6": "40",
+            "Lv7": "40",
+            "Lv8": "40",
+            "Lv9": "40",
+            "Lv10": "40",
+            "Name": "Scarlet Coda Concerto Regen"
+          },
+          {
+            "Lv1": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Lv10": "25",
+            "Name": "Heavy Attack STA Cost"
+          },
+          {
+            "Lv1": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Lv10": "25",
+            "Name": "Scarlet Coda STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Lv10": "30",
+            "Name": "Mid-air Attack STA Cost"
+          }
+        ]
+      },
+      {
+        "name": "Whispers in a Fleeting Dream",
+        "category": "Active",
+        "skill_type": "Resonance Skill",
+        "description": "Attack the target and deal Havoc DMG.Casting this skill sends Phrolova into Reincarnate.",
+        "multipliers": [
+          {
+            "Lv1": "53.30%*2",
+            "Lv2": "57.68%*2",
+            "Lv3": "62.05%*2",
+            "Lv4": "68.17%*2",
+            "Lv5": "72.54%*2",
+            "Lv6": "77.56%*2",
+            "Lv7": "84.55%*2",
+            "Lv8": "91.55%*2",
+            "Lv9": "98.54%*2",
+            "Lv10": "105.97%*2",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "12",
+            "Lv2": "12",
+            "Lv3": "12",
+            "Lv4": "12",
+            "Lv5": "12",
+            "Lv6": "12",
+            "Lv7": "12",
+            "Lv8": "12",
+            "Lv9": "12",
+            "Lv10": "12",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Lv10": "10",
+            "Name": "Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "Waltz of Forsaken Depths",
+        "category": "Active",
+        "skill_type": "Resonance Liberation",
+        "description": "Waltz of Forsaken DepthsPhrolova's max Resonance Energy is 0. Waltz of Forsaken Depths does not consume Resonance Energy.When in the Resolving Chord state, Waltz of Forsaken Depths becomes available.Casting this skill ends the Resolving Chord state, and Phrolova enters the Maestro state for 24s.MaestroGain 120% ATK increase.Phrolova floats in the air and commands Hecate to fight. Hecate will share Phrolova's stats and statuses, and damage dealt by Hecate will be considered coming from Phrolova. Hecate's attacks will not remove the target's Hazy Dream state.During this period, Phrolova plays the Volatile Notes in turn. Each Volatile Note holds for 4s.If Phrolova is the active Resonator on the field, she can give the following cues to Hecate. Any damage taken by Hecate in this state affects Phrolova as well.Cue - Basic Attack: Press Normal Attack to command Hecate to cast Basic Attack - Hecate. When Phrolova is the active Resonator on the field, for every 2 times Hecate casts Basic Attack - Hecate, the next Basic Attack - Hecate is replaced with Enhanced Attack - Hecate.Cue - Dodge: Press Dodge to command Hecate to dodge an attack. Hecate takes no damage from a hit successfully Dodged.Cue - Reset: Press Jump to reset Hecate's position.Cue - Curtain Call: Press Resonance Liberation to command Hecate to cast Curtain Call and end the Maestro state.When Phrolova is not the active Resonator, Hecate takes no damage and automatically casts Basic Attack - Hecate to attack the target. When Resonators in the team cast Echo Skill, Hecate casts Enhanced Attack - Hecate to attack the target. This effect can be triggered up to 10 times in total during Phrolova's Maestro state. Echoes of the same name can trigger this effect 1 times.Switching back to Phrolova ends Maestro state.Ending Maestro state removes all Volatile Notes.Basic Attack - HecatePerform up to 2 consecutive attacks, dealing Havoc DMG (considered Echo Skill DMG).Enhanced Attack - Hecate: StringsWhen Phrolova plays Volatile Note - Strings, Hecate casts Enhanced Attack - Hecate: Strings when casting Enhanced Attack - Hecate, dealing Havoc DMG and Stagnating the targets (considered Echo Skill DMG).Enhanced Attack - Hecate: WindsWhen Phrolova plays Volatile Note - Winds, Hecate casts Enhanced Attack - Hecate: Winds when casting Enhanced Attack - Hecate, dealing Havoc DMG, pulling the targets in (considered Echo Skill DMG).Enhanced Attack - Hecate: CadenzaWhen Phrolova plays Volatile Note - Cadenza, Hecate casts Enhanced Attack - Hecate: Cadenza when casting Enhanced Attack - Hecate, dealing Havoc DMG, Stagnating and pulling the targets in (considered Echo Skill DMG).Curtain CallCurtain Call can be cast via the following 5 ways, Stagnating the targets and dealing Havoc DMG.When Phrolova is the active Resonator on the field, end the Maestro state.When Phrolova is in the Maestro state, switch to Phrolova without casting Intro Skill.When Phrolova is not the active Resonator and the Maestro state ends, switch to Phrolova without casting Intro Skill.When Phrolova is in the Maestro state, press Resonance Liberation.When Phrolova is in the Resolving Chord state, hold Resonance Liberation.When in Resolving Chord state, casting Curtain Call removes all Volatile Notes and ends the Resolving Chord state.",
+        "multipliers": [
+          {
+            "Lv1": "14.00%",
+            "Lv2": "15.15%",
+            "Lv3": "16.30%",
+            "Lv4": "17.91%",
+            "Lv5": "19.06%",
+            "Lv6": "20.38%",
+            "Lv7": "22.21%",
+            "Lv8": "24.05%",
+            "Lv9": "25.89%",
+            "Lv10": "27.84%",
+            "Name": "Basic Attack - Hecate Stage 1 DMG"
+          },
+          {
+            "Lv1": "7.00%*2",
+            "Lv2": "7.58%*2",
+            "Lv3": "8.15%*2",
+            "Lv4": "8.96%*2",
+            "Lv5": "9.53%*2",
+            "Lv6": "10.19%*2",
+            "Lv7": "11.11%*2",
+            "Lv8": "12.03%*2",
+            "Lv9": "12.95%*2",
+            "Lv10": "13.92%*2",
+            "Name": "Basic Attack - Hecate Stage 2 DMG"
+          },
+          {
+            "Lv1": "52.50%+122.50%",
+            "Lv2": "56.81%+132.55%",
+            "Lv3": "61.11%+142.59%",
+            "Lv4": "67.14%+156.66%",
+            "Lv5": "71.45%+166.70%",
+            "Lv6": "76.40%+178.25%",
+            "Lv7": "83.29%+194.33%",
+            "Lv8": "90.17%+210.40%",
+            "Lv9": "97.06%+226.47%",
+            "Lv10": "104.38%+243.55%",
+            "Name": "Enhanced Attack - Hecate: Strings DMG"
+          },
+          {
+            "Lv1": "49.88%+116.38%",
+            "Lv2": "53.97%+125.92%",
+            "Lv3": "58.06%+135.47%",
+            "Lv4": "63.79%+148.83%",
+            "Lv5": "67.87%+158.37%",
+            "Lv6": "72.58%+169.34%",
+            "Lv7": "79.12%+184.61%",
+            "Lv8": "85.67%+199.88%",
+            "Lv9": "92.21%+215.15%",
+            "Lv10": "99.16%+231.37%",
+            "Name": "Enhanced Attack - Hecate: Winds DMG"
+          },
+          {
+            "Lv1": "52.50%+122.50%",
+            "Lv2": "56.81%+132.55%",
+            "Lv3": "61.11%+142.59%",
+            "Lv4": "67.14%+156.66%",
+            "Lv5": "71.45%+166.70%",
+            "Lv6": "76.40%+178.25%",
+            "Lv7": "83.29%+194.33%",
+            "Lv8": "90.17%+210.40%",
+            "Lv9": "97.06%+226.47%",
+            "Lv10": "104.38%+243.55%",
+            "Name": "Enhanced Attack - Hecate: Cadenza DMG"
+          },
+          {
+            "Lv1": "234.00%",
+            "Lv2": "253.19%",
+            "Lv3": "272.38%",
+            "Lv4": "299.24%",
+            "Lv5": "318.43%",
+            "Lv6": "340.50%",
+            "Lv7": "371.20%",
+            "Lv8": "401.90%",
+            "Lv9": "432.60%",
+            "Lv10": "465.22%",
+            "Name": "Curtain Call DMG"
+          },
+          {
+            "Lv1": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Lv10": "20",
+            "Name": "Waltz of Forsaken Depths Concerto Regen"
+          },
+          {
+            "Lv1": "24s",
+            "Lv2": "24s",
+            "Lv3": "24s",
+            "Lv4": "24s",
+            "Lv5": "24s",
+            "Lv6": "24s",
+            "Lv7": "24s",
+            "Lv8": "24s",
+            "Lv9": "24s",
+            "Lv10": "24s",
+            "Name": "Waltz of Forsaken Depths Duration"
+          }
+        ]
+      },
+      {
+        "name": "Rhapsody of a New World",
+        "category": "Forte Circuit",
+        "skill_type": "Forte Circuit",
+        "description": "Basic Attack - Movement of Fate and FinalityWhen in Reincarnate, press Normal Attack on the ground to cast Movement of Fate and Finality, which Stagnates the target, dealing Havoc DMG (considered Resonance Skill DMG) and ending Reincarnate afterward.Resonance Skill - Murmurs in a Haunting DreamWhen in Reincarnate, press Resonance Skill on the ground to cast Murmurs in a Haunting Dream, dealing Havoc DMG (considered Resonance Skill DMG) and ending Reincarnate afterward.AftersoundPhrolova can hold up to 24 stacks of Aftersound.When Phrolova is not the active Resonator, casting Enhanced Attack - Hecate: Strings, Enhanced Attack - Hecate: Winds, and Enhanced Attack - Hecate: Cadenza grants 1 stacks of Aftersound.When Phrolova is out of combat, all stacks of Aftersound are removed every 30s.Volatile NotePhrolova can hold up to 6 Volatile Notes. When Volatile Notes reach the max number, gaining new Volatile Notes moves all Volatile Notes one slot to the left, and the leftmost Volatile Note - Strings or Volatile Note - Winds will be removed.Hitting a target with Basic Attack Stage 3 or Movement of Fate and Finality grants 1 Volatile Note - Strings.Hitting a target with Resonance Skill Whispers in a Fleeting Dream or Resonance Skill Murmurs in a Haunting Dream grants 1 Volatile Note - Winds.When Inherent Skill - Accidental is activated, casting Suite of Quietus, Suite of Immortality, or Echo Skill grants 1 Volatile Note - Cadenza.Phrolova cannot obtain Volatile Notes during Resolving Chord.",
+        "multipliers": [
+          {
+            "Lv1": "19.05%*4+59.27%*3",
+            "Lv2": "20.62%*4+64.13%*3",
+            "Lv3": "22.18%*4+68.99%*3",
+            "Lv4": "24.37%*4+75.80%*3",
+            "Lv5": "25.93%*4+80.66%*3",
+            "Lv6": "27.72%*4+86.24%*3",
+            "Lv7": "30.22%*4+94.02%*3",
+            "Lv8": "32.72%*4+101.80%*3",
+            "Lv9": "35.22%*4+109.57%*3",
+            "Lv10": "37.88%*4+117.83%*3",
+            "Name": "Movement of Fate and Finality DMG"
+          },
+          {
+            "Lv1": "11.67%*4+23.34%+163.38%",
+            "Lv2": "12.63%*4+25.26%+176.78%",
+            "Lv3": "13.59%*4+27.17%+190.18%",
+            "Lv4": "14.93%*4+29.85%+208.94%",
+            "Lv5": "15.89%*4+31.77%+222.33%",
+            "Lv6": "16.99%*4+33.97%+237.74%",
+            "Lv7": "18.52%*4+37.03%+259.17%",
+            "Lv8": "20.05%*4+40.09%+280.61%",
+            "Lv9": "21.58%*4+43.15%+302.05%",
+            "Lv10": "23.21%*4+46.41%+324.82%",
+            "Name": "Murmurs in a Haunting Dream DMG"
+          }
+        ]
+      },
+      {
+        "name": "Accidental",
+        "category": "Inherent",
+        "skill_type": "Inherent Skill",
+        "description": "Casting Echo Skill grants increased resistance to interruption and reduces damage taken by 30% for 15s.After casting Suite of Quietus, Suite of Immortality, and Echo Skill, the next Volatile Note becomes Volatile Note - Cadenza.",
+        "multipliers": []
+      },
+      {
+        "name": "Octet",
+        "category": "Inherent",
+        "skill_type": "Inherent Skill",
+        "description": "Obtain 10 stacks of Aftersound upon entering battle. This effect cannot be triggered again within 4s after exiting the combat state. For every 1 stacks of Aftersound, Crit. DMG is increased by 2.5%.When Aftersound reaches the max, each new stack of Aftersound increases Phrolova's Crit. DMG by 1%, up to 100%. The increased Crit. DMG is removed when Aftersound stacks are cleared.",
+        "multipliers": []
+      },
+      {
+        "name": "Suite of Quietus",
+        "category": "Transition",
+        "skill_type": "Intro Skill",
+        "description": "Suite of QuietusAttack the target, dealing Havoc DMG.Press Normal Attack shortly after casting this skill to cast Basic Attack Stage 3.Suite of ImmortalityWhen in the Maestro state, the next Suite of Quietus is replaced with Suite of Immortality. This replacement is cancelled if Curtain Call is cast while in this state. Suite of Immortality deals Havoc DMG (considered Resonance Skill DMG) and Stagnates the target.Press Normal Attack shortly after casting this skill to cast Basic Attack Stage 3.",
+        "multipliers": [
+          {
+            "Lv1": "40.55%+60.82%",
+            "Lv2": "43.87%+65.81%",
+            "Lv3": "47.20%+70.79%",
+            "Lv4": "51.85%+77.78%",
+            "Lv5": "55.18%+82.76%",
+            "Lv6": "59.00%+88.50%",
+            "Lv7": "64.32%+96.48%",
+            "Lv8": "69.64%+104.46%",
+            "Lv9": "74.96%+112.44%",
+            "Lv10": "80.61%+120.91%",
+            "Name": "Suite of Quietus DMG"
+          },
+          {
+            "Lv1": "300.00%",
+            "Lv2": "324.60%",
+            "Lv3": "349.20%",
+            "Lv4": "383.64%",
+            "Lv5": "408.24%",
+            "Lv6": "436.53%",
+            "Lv7": "475.89%",
+            "Lv8": "515.25%",
+            "Lv9": "554.61%",
+            "Lv10": "596.43%",
+            "Name": "Suite of Immortality DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Lv10": "10",
+            "Name": "Suite of Quietus Concerto Regen"
+          },
+          {
+            "Lv1": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Lv10": "10",
+            "Name": "Suite of Immortality Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "Unfinished Piece",
+        "category": "Transition",
+        "skill_type": "Outro Skill",
+        "description": "The incoming Resonator gains 20% Havoc DMG Amplification and 25% Heavy Attack DMG Amplification for 14s or until they are switched out.If Phrolova is in Maestro state when she casts this skill, Hecate additionally casts Enhanced Attack - Hecate 2 times when Phrolova is switched off the field while in the same Maestro state duration.",
+        "multipliers": []
+      }
+    ],
+    "resonance_chain_dupes": [
+      {
+        "node": "S1",
+        "name": "Sequence Node 1",
+        "description": "The DMG Multiplier of Movement of Fate and Finality is increased by 80%.The DMG Multiplier of Murmurs in a Haunting Dream is increased by 80%.If Phrolova has less than 2 Volatile Notes when she is not in the Maestro state and stays out of combat for 4s, she gains Volatile Note - Cadenza until she has at least 2 Volatile Notes."
+      },
+      {
+        "node": "S2",
+        "name": "Sequence Node 2",
+        "description": "The DMG Multiplier of Scarlet Coda is increased by 75%. Aftersound now additionally increases the DMG Multiplier of Scarlet Coda by 75%.Casting Scarlet Coda grants 14 stacks of Aftersound."
+      },
+      {
+        "node": "S3",
+        "name": "Sequence Node 3",
+        "description": "Echo Skill DMG is Amplified by 80%.Casting Scarlet Coda will convert all Volatile Notes to Volatile Notes - Cadenza in turn. Targets hit by Enhanced Attack - Hecate: Cadenza will have their ATK reduced by 20% for 15s."
+      },
+      {
+        "node": "S4",
+        "name": "Sequence Node 4",
+        "description": "Casting Echo Skill grants 20% Attribute DMG Bonus for all Resonators in the team for 30s."
+      },
+      {
+        "node": "S5",
+        "name": "Sequence Node 5",
+        "description": "Upon entering the Maestro state, generate a field to Stagnate the nearby targets, which lasts for 4s. Leaving the Maestro state or switching to other Resonators removes the Stagnation effect early.Damage taken during the Maestro state is reduced by 30%."
+      },
+      {
+        "node": "S6",
+        "name": "Sequence Node 6",
+        "description": "The DMG Multiplier of Enhanced Attack - Hecate is increased by 24%.During Movement of Fate and Finality and Murmurs in a Haunting Dream, command Hecate to cast 1 Apparition of Beyond - Hecate, dealing Havoc DMG equal to 216.42% of Phrolova's ATK (considered Echo Skill DMG) and granting 8 stacks of Aftersound on hit.If Phrolova is not the active Resonator during the Maestro state, targets take 40% more DMG from Hecate and Phrolova. If Phrolova is the active Resonator during the Maestro state, gain 60% Havoc DMG Bonus."
+      }
+    ],
+    "minor_fortes": [
+      {
+        "stat_name": "CRIT Rate",
+        "bonus_value": "+8%"
+      },
+      {
+        "stat_name": "ATK%",
+        "bonus_value": "+12%"
+      }
+    ],
+    "base_stats_lvl_90": {
+      "hp": 862,
+      "atk": 35,
+      "def": 93,
+      "max_energy": 125,
+      "crit_rate": "13%",
+      "crit_dmg": "150%",
+      "healing_bonus": "0%",
+      "elemental_dmg_bonus": "0%"
+    },
+    "upgrade_materials": {
+      "character_ascension": [
+        {
+          "material_name": "Afterlife",
+          "rarity": "boss",
+          "quantity": 60
+        },
+        {
+          "material_name": "Truth in Lies",
+          "rarity": "specialty",
+          "quantity": 46
+        },
+        {
+          "material_name": "LF Polygon Core",
+          "rarity": "common",
+          "quantity": 4
+        },
+        {
+          "material_name": "MF Polygon Core",
+          "rarity": "common",
+          "quantity": 12
+        },
+        {
+          "material_name": "HF Polygon Core",
+          "rarity": "common",
+          "quantity": 12
+        },
+        {
+          "material_name": "FF Polygon Core",
+          "rarity": "common",
+          "quantity": 4
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "The Netherworld's Stare",
+          "rarity": "weekly_boss",
+          "quantity": 26
+        },
+        {
+          "material_name": "LF Polygon Core",
+          "rarity": "common",
+          "quantity": 25
+        },
+        {
+          "material_name": "MF Polygon Core",
+          "rarity": "common",
+          "quantity": 28
+        },
+        {
+          "material_name": "HF Polygon Core",
+          "rarity": "common",
+          "quantity": 40
+        },
+        {
+          "material_name": "FF Polygon Core",
+          "rarity": "common",
+          "quantity": 57
+        },
+        {
+          "material_name": "Lento Helix",
+          "rarity": "skill_material",
+          "quantity": 25
+        },
+        {
+          "material_name": "Adagio Helix",
+          "rarity": "skill_material",
+          "quantity": 28
+        },
+        {
+          "material_name": "Andante Helix",
+          "rarity": "skill_material",
+          "quantity": 55
+        },
+        {
+          "material_name": "Presto Helix",
+          "rarity": "skill_material",
+          "quantity": 67
+        }
+      ]
+    },
+    "voice_actors": {
+      "eng": "",
+      "jpn": "",
+      "cn": "",
+      "kr": ""
+    },
+    "best_weapons": [
+      {
+        "weapon_name": "Lethean Elegy",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "commentary_details": "Phrolova's Signature is her best weapon by an alarming percentage, to a point where she's dependent on it to perform at the highest level due to the sheer amount of stats it provides â and her own damage being balanced around this fact. It gives her massive amounts of Base ATK, CRIT Rate, ATK%, Skill DMG Bonus, Echo Skill DMG Amplification AND DEF Ignore, all of which are fantastic stats that she works around, making this weapon her best option bar none.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up",
+          "effect_description": "ATK is increased by {0}. Within 12s after dealing Echo Skill DMG, gain {1} Resonance Skill DMG Bonus and {1} Echo Skill DMG Amplification, and ignore {2} of the target's DEF when dealing damage."
+        }
+      },
+      {
+        "weapon_name": "Stringmaster",
+        "dupe_rank": "R1",
+        "percentage_performance": "82.00%",
+        "commentary_details": "Stringmaster is a gift that keeps on giving for any Rectifier damage dealer. It's able to give Phrolova good base ATK but most importantly massive amounts of CRIT Rate, ATK% and DMG Bonus, with an even bigger ATK boost off-field which matches her playstyle. Unfortunately for Phrolova, she buffs her ATK by massive amounts already which dilutes this buff, but regardless of that fact Stringmaster remains her second best option simply by nature of massive amounts of stat buffs.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 500,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 36,
+          "source": "Limited",
+          "effect_description": "Increases the DMG Bonus by {0}. When dealing Resonance Skill DMG, increases ATK by {1}, stacking up to 2. This effect lasts for 5s. When the equipped Resonator is not on the field, increases their ATK by an additional {2}."
+        }
+      },
+      {
+        "weapon_name": "Whispers of Sirens",
+        "dupe_rank": "R1",
+        "percentage_performance": "80.20%",
+        "commentary_details": "Phrolova is able to fully take advantage of this weapon's Havoc RES Shred effect when casting her Forte Heavy Attack, as it is also counted as an Echo Skill on top of her own Echo Skill cast. Unfortunately for Phrolova, this means it only buffs a small portion of her rotation as her Forte Heavy Attack is one of the last abilities she does before switching out, and she doesn't benefit that much from Basic Attack DMG. Nonetheless, as she is able to make partial use of its effects as well as get good stats from using it, it is a good option on her.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 500,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 72,
+          "source": "Rate-up",
+          "effect_description": "Increases ATK by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attacks grants 1 stacks of Gentle Dream. Echoes with the same name can only trigger this effect once, stacking up to 2 times, lasting for 10s. When reaching 2 stacks, casting Echo Skill no longer resets the duration of this effect. This effect activates up to once per 10s. Switching to another Resonator ends this effect early.<br />With 1 stacks: Grants {1} Basic Attack DMG Bonus.<br />With 2 stacks: Ignores {0} of the target's Havoc RES."
+        }
+      },
+      {
+        "weapon_name": "Rime-Draped Sprouts",
+        "dupe_rank": "R1",
+        "percentage_performance": "77.10%",
+        "commentary_details": "Simple ATK and CRIT DMG stat stick for Phrolova who draws little benefit from this weapon's Basic ATK DMG-increasing effect.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 500,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 72,
+          "source": "Gacha",
+          "effect_description": "Increases ATK by {0}. Using Resonance Skill gives the equipped Resonator {0} Basic Attack DMG Bonus for 6s, stacking up to 3 times. When casting Outro Skill with 3 stacks, consume all stacks to give {1} DMG Bonus to the off-field Basic Attacks performed by the equipped Resonator, lasting for 27s."
+        }
+      },
+      {
+        "weapon_name": "Luminous Hymn",
+        "dupe_rank": "R1",
+        "percentage_performance": "75.20%",
+        "commentary_details": "Simple ATK and CRIT Rate stat stick for Phrolova who draws little benefit from this weapon's Spectro Frazzle-related effects.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 500,
+          "secondary_stat_name": "Crit. Rate",
+          "secondary_stat_val": 36,
+          "source": "Rate-up",
+          "effect_description": "Increase ATK by {0}. Dealing DMG to targets with Spectro Frazzle grants the wielder {1} Basic Attack DMG Bonus and {1} Heavy Attack DMG Bonus, stacking up to 3 times for 6s. Casting Outro Skill Amplifies the Spectro Frazzle DMG on targets around the active Resonator by {2} for 30s. Effects of the same name cannot be stacked."
+        }
+      },
+      {
+        "weapon_name": "Cosmic Ripples",
+        "dupe_rank": "R1",
+        "percentage_performance": "72.40%",
+        "commentary_details": "The best permanent weapon option available for Phrolova, which unfortunately doesn't provide much for her beyond ATK% and Basic ATK DMG Bonus, both of which she doesn't draw much benefit from, further widening the gap between standard and Signature.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 500,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 54,
+          "source": "Permanent Convene",
+          "effect_description": "Increases Energy Regen by {0}. When hitting a target with Basic Attacks, increases Basic Attack DMG Bonus by {1}, stacking up to {2} time(s). This effect lasts for {3}s and can be triggered 1 time(s) every 0.5s."
+        }
+      },
+      {
+        "weapon_name": "Radiant Dawn",
+        "dupe_rank": "R5",
+        "percentage_performance": "66.90%",
+        "commentary_details": "This Battle Pass exclusive grants Phrolova with a nice CRIT DMG boost as well as extra ATK and Basic DMG when casting Skill. While Phrolova barely makes use of the Basic DMG buff, the ATK buff from the passive is quite nice and overall makes this weapon the best 4-star choice for her.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 412,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 40.5,
+          "source": "Battle Pass",
+          "effect_description": "Casting Resonance Skill increases ATK by {0} and grants {0} Basic Attack DMG Bonus for 10s."
+        }
+      },
+      {
+        "weapon_name": "Augment",
+        "dupe_rank": "R5",
+        "percentage_performance": "64.90%",
+        "commentary_details": "This 4-star Battle Pass weapon gives good Base ATK to Phrolova while providing additional CRIT Rate. Additionally, its effect which increases ATK when casting Ultimate is good to buff Phrolova's off-field attacks, but unfortunately this buff will get diluted a lot by her 120% self-ATK buff when casting Ultimate which negates a lot of its benefits. It nonetheless remains a viable choice.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 412,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.2,
+          "source": "Pioneer Podcast",
+          "effect_description": "When Resonance Liberation is released, increases the caster's ATK by {0}, lasting for 15s."
+        }
+      },
+      {
+        "weapon_name": "Fusion Accretion",
+        "dupe_rank": "R5",
+        "percentage_performance": "64.10%",
+        "commentary_details": "One of the best 4-star weapons for Phrolova which simply gives Base ATK and ATK% with a further boost to ATK% when casting Resonance Skill, as its flat Energy boost is wasted on her. Falls behind the above weapon options due to a lack of good stats.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 462,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Gacha",
+          "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s."
+        }
+      },
+      {
+        "weapon_name": "Jinzhou Keeper",
+        "dupe_rank": "R5",
+        "percentage_performance": "63.60%",
+        "commentary_details": "Best fully F2P-accessible option, selectable for free at the start of the game or obtained through gacha. Gives a lot of ATK% via its stats and its passive activated upon Intro, but doesn't provide anything else, not making it stand out over the above options.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 387,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "",
+          "effect_description": "When Intro Skill is released, increases the caster's ATK by {0} and HP by {1}, lasting for {2}s."
+        }
+      }
+    ],
+    "best_echo_sets": [
+      {
+        "set_name": "Dream of the Lost",
+        "percentage_performance": "100.00%",
+        "commentary": "Best Echo set for Phrolova as it permanently gives her 20% CRIT Rate and 35% Echo Skill DMG Bonus, providing big boosts to the majority of her rotation. Additionally, this is a 3-piece set, meaning it can be combined with a 2-piece set effect of your choice. Only used on Phrolova as its effects can only be activated when the equipped character has 0 Resonance Energy, something only Phrolova can upkeep permanently. This set is best combined with your choice of:",
+        "main_echo_options": [
+          {
+            "echo_name": "Nightmare: Hecate",
+            "echo_commentary": "A Transform Echo that is quick to cast but extends Phrolova's rotation by one second approximately, which is a worthy trade-off as it provides a 12% Havoc and 20% Echo Skill DMG Bonus when placed in the main slot."
+          }
+        ]
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ],
+        "cost_3": [
+          "Havoc DMG",
+          "Havoc DMG > ATK%"
+        ],
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ]
+      },
+      "substats_priority": [
+        "CRIT RATE  CRIT DMG",
+        "ATK%",
+        "Skill DMG%",
+        "ATK"
+      ]
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 15000+",
+      "DEF: 1100+",
+      "ATK: 2000-2500+",
+      "CRIT Rate: 60%+ (before Echo set bonuses)",
+      "CRIT DMG: 215-260%+ (before any Aftersound stacks)",
+      "Energy Regen 100%Avoid any Energy Regen substats on Phrolova as her Ultimate does not cost any Energy.",
+      "Havoc DMG Bonus: 30-70%+"
+    ],
+    "skill_upgrade_priority": {
+      "order": [
+        "Res. Liberation",
+        "Basic Attack",
+        "Forte Circuit",
+        "Intro Skill",
+        "Res. Skill"
+      ],
+      "commentary": "Skill and Intro can be skipped when levelling to save on resources at a minimal damage loss."
+    },
+    "rotations": [
+      {
+        "rotation_name": "Gameplay",
+        "steps": [
+          "Against a Boss encounter, use her Forte: Basic: Movement of Fate and Finality to deal higher DMG and stagnate the target.",
+          "Against an encounter with several enemies, use her Forte: Skill: Murmurs in a Haunting Dream in order to gather enemies together and deal with them all at once.",
+          "In this gameplay section, these 2 actions will be referred to as Forte: Basic and Forte: Skill in order to simplify writing."
+        ]
+      },
+      {
+        "rotation_name": "Opener Rotation",
+        "steps": [
+          "Switch Phrolova in from any other character on the team to skip Basic P1",
+          "Basic P2",
+          "Basic P3",
+          "Forte: Basic OR Forte: Skill",
+          "Skill: Whispers in a Fleeting Dream",
+          "Forte: Basic OR Forte: Skill",
+          "Basic P1",
+          "Basic P2",
+          "Basic P3",
+          "Forte: Basic OR Forte: Skill",
+          "Heavy: Scarlet Coda",
+          "Ultimate",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Loop Rotation",
+        "steps": [
+          "Intro: Suite of Immortality",
+          "Basic P3",
+          "Forte: Basic OR Forte: Skill",
+          "Skill: Whispers in a Fleeting Dream",
+          "Forte: Basic OR Forte: Skill",
+          "Basic P1",
+          "Basic P2",
+          "Basic P3",
+          "Forte: Basic OR Forte: Skill",
+          "Heavy: Scarlet Coda",
+          "Ultimate",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Additional Tips & Tricks",
+        "steps": [
+          "Each Forte: Basic (Can be animation cancelled instantly)",
+          "Each Forte: Skill (Can be animation cancelled when the portal opens in the animation)",
+          "Each Basic P3 (typically instantly cancelled with a Dash, this does trade a chunk of Damage Per Rotation from the Basic P3 to get extra Damage Per Second - this may not be worthwhile in all situations).",
+          "Each Forte: Basic and Forte: Skill",
+          "Echo Skill Cast (Nightmare Hecate)"
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "lucilla",
+          "cantarella",
+          "sigrika",
+          "lynae"
+        ],
+        "commentary": "Phrolova's best 2nd slot partners are listed here, each work well for different reasons: Lucilla can increase the whole party's Echo DMG and do high personal damage on her own, particularly useful with Qiuyuan or as a 3rd slot teammate without him. Cantarella works on her own as she also sports multiple Echo Skill casts and a strong Outro buff to increase Phrolova's on-field damage. Sigrika works well with Qiuyuan or Lucilla to fully activate her kit as a dual DPS option, and lastly Lynae does too as a general buffer for Phrolova and her whole team without extra Echo Skill casts."
+      },
+      {
+        "characters": [
+          "qiuyuan",
+          "roccia",
+          "danjin"
+        ],
+        "commentary": "These are all of the best 3rd slot teammates for Phrolova in order of who's strongest. Danjin and Roccia can also be used in the second slot provided Cantarella isn't available. They are all fantastic recipients of Phrolova's Outro as they deal a good chunk of Heavy Attack damage. Qiuyuan has multiple Echo Skill casts and buffs team-wide Echo Skill DMG which makes him the best choice. Roccia is also fantastic as she fully benefits from Phrolova's Outro and has an extra Echo Skill cast with her Magic Box, and Danjin is the last option but still very strong due to having a good Outro, a short rotation, and party-wide buffing via her S6."
+      },
+      {
+        "characters": [
+          "yangyang-xuanling",
+          "galbrena",
+          "phoebe",
+          "jiyan"
+        ],
+        "commentary": "yangyang-xuanling, Galbrena, Jiyan and Phoebe are Heavy Attack damage dealers and Phrolova is a Heavy Attack damage amplifier (in the case of Yangyang, she also amplifies her Havoc DMG). While Phrolova would traditionally not be relegated to the role of a buffer for a DPS, and indeed she is built like a DPS no matter what, Phrolova has the ability to buff the damage of these characters while dealing her own big amounts of damage off-field,  and also provide the best Crowd Control utility in the game in the form of Hecate, making these pairings quite strong, particularly with yangyang-xuanling who takes full advantage of her Outro!"
+      },
+      {
+        "characters": [
+          "the-shorekeeper",
+          "verina"
+        ],
+        "commentary": "These are all of Phrolova's 3rd slot teammate options. Shorekeeper is the best for all ATK and CRIT-scaling DPS due to her super high buffs for a short rotation time. Buling and Verina still do present themselves as good F2P alternatives because Buling trades team-wide ATK buffs for Skill DMG buffs to Phrolova and more personal damage for slightly higher rotation times, while Verina retains a good amount of buffs for one of the shortest rotation times in the game. Especially at S6, Buling can hence even be stronger than Verina in most Phrolova teams."
+      }
+    ],
+    "example_teams": [
+      {
+        "team_name": "Team #1: Best Team",
+        "slot_1": {
+          "character_name": "phrolova",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "lucilla",
+          "alternatives": [
+            "cantarella"
+          ]
+        },
+        "slot_3": {
+          "character_name": "qiuyuan",
+          "alternatives": [
+            "roccia",
+            "the-shorekeeper",
+            "danjin"
+          ]
+        },
+        "team_notes": "Lucilla is only best in the 2nd slot with Qiuyuan as the 3rd, and is not recommended with Shorekeeper. In general, unless with Qiuyuan she pivots to the 3rd slot with another character Outro buffing Phrolova."
+      },
+      {
+        "team_name": "Team #2: Alternative Teams",
+        "slot_1": {
+          "character_name": "phrolova",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "sigrika",
+          "alternatives": [
+            "roccia",
+            "danjin"
+          ]
+        },
+        "slot_3": {
+          "character_name": "qiuyuan",
+          "alternatives": [
+            "the-shorekeeper",
+            "buling"
+          ]
+        },
+        "team_notes": "Only use Sigrika alongside Qiuyuan. Danjin + Roccia is also a possible pairing where Roccia moves to the third slot. "
+      },
+      {
+        "team_name": "Team #3; Dual DPS",
+        "slot_1": {
+          "character_name": "yangyang-xuanling, galbrena, jiyan",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "phrolova",
+          "alternatives": []
+        },
+        "slot_3": {
+          "character_name": "chisa",
+          "alternatives": [
+            "the-shorekeeper"
+          ]
+        },
+        "team_notes": "Chisa is only best in slot with yangyang-xuanling - else, prioritize Shorekeeper."
+      },
+      {
+        "team_name": "Team #4: Phoebe Dual DPS",
+        "slot_1": {
+          "character_name": "phoebe",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "phrolova",
+          "alternatives": []
+        },
+        "slot_3": {
+          "character_name": "rover-spectro",
+          "alternatives": []
+        },
+        "team_notes": "Similar concept to Jiyan, with Spectro Rover acting as the Support. One of Phoebe's best teams assuming Phrolova has her Signature weapon."
+      },
+      {
+        "team_name": "Team #5: F2P Team",
+        "slot_1": {
+          "character_name": "phrolova",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "danjin",
+          "alternatives": []
+        },
+        "slot_3": {
+          "character_name": "the-shorekeeper",
+          "alternatives": [
+            "rover-havoc",
+            "buling"
+          ]
+        },
+        "team_notes": ""
+      }
+    ]
+  }
+}

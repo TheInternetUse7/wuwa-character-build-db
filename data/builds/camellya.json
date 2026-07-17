@@ -1,0 +1,1140 @@
+{
+  "status": "success",
+  "data": {
+    "character_metadata": {
+      "name": "Camellya",
+      "slug": "camellya",
+      "rarity_stars": 5,
+      "element": "Havoc",
+      "weapon_type": "Sword",
+      "breadcrumb": [
+        "Wuthering Waves",
+        "Characters",
+        "Camellya"
+      ],
+      "updates": {
+        "last_updated": "10/July/2026",
+        "last_review_patch": "1.4",
+        "last_major_build_patch": "2.2",
+        "last_profile_update": "10/July/2026"
+      }
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tier": "T2",
+          "tags": []
+        },
+        "whimpering_wastes": {
+          "tier": "T3",
+          "tags": []
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T3"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T2"
+        }
+      }
+    },
+    "media": {
+      "youtube_guide_embed_url": "https://www.youtube.com/embed/__6ChxZLgdU",
+      "youtube_guide_full_url": "https://www.youtube.com/watch?v=__6ChxZLgdU",
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/camellya_full.webp"
+    },
+    "pros_and_cons": {
+      "pros": [
+        "Super F2P-friendly AoE DPS can use completely free teammates and weapons and yield great results;",
+        "Can switch between a more AoE and single-target-oriented playstyle to suit her needs;",
+        "Great sequence value compared to most 1.x characters;",
+        "Spin to win!"
+      ],
+      "cons": [
+        "Very old DPS, has not gotten a rerun in ages to take advantage of her sequence value and is way behind the current damage ceiling of the game despite teammate and main Echo upgrades since release;",
+        "Very prone to interruption on her highest-damaging attack until S1, plus Inherent Skills do not fully make her immune to getting interrupted during her spinning attacks, inconsistent character against boss enemies overall;",
+        "Her White Hair rotation is too long to be ideal for maximizing DPS, meaning optimally she relies on bad tracking against bosses, which only further contributes to inconsistency issues. Speaking of which, even her faster Red Hair rotation is the longest DPS rotation in the game and Outro Buffs are prone to running out near the end, where a lot of Camellya's damage lies;",
+        "All her premium teammates can and will be used up by stronger characters, often relegating her to weaker fallback options like Sanhua and Danjin that may make her struggle to clear modern endgame content."
+      ]
+    },
+    "review": {
+      "summary": "Camellya is a 5-star Havoc Sword main damage dealer known for having one of, if not the longest, rotation times of any Main DPS character in the game. She deals the greatest portion of Echo damage among any non-Echo damage dealer thanks to her dedicated Echo Nightmare: Crownless that she can incorporate into her extensive rotations for a strong mix of Basic, Liberation and Echo damage. While her most optimized rotations don't feature many Swap cancels, she makes up for it in her ability to optimize via several Echo Animation cancels in her long Hypercarry rotations and playstyle.",
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Camellya is a 5-star Havoc Sword main damage dealer known for having one of, if not the longest, rotation times of any Main DPS character in the game. She deals the greatest portion of Echo damage among any non-Echo damage dealer thanks to her dedicated Echo Nightmare: Crownless that she can incorporate into her extensive rotations for a strong mix of Basic, Liberation and Echo damage. While her most optimized rotations don't feature many Swap cancels, she makes up for it in her ability to optimize via several Echo Animation cancels in her long Hypercarry rotations and playstyle."
+          ]
+        },
+        {
+          "heading": "Key Mechanics",
+          "paragraphs": [
+            "Camellya's main rotation goals are to consume her Forte gauges by filling up her Concerto gauge 2 times: 1 to cast an enhanced Skill that deals massive damage, 1 for her actual Outro.",
+            "Her Forte gauge is called Crimson Pistils, and she can hold up to 100 of them at once. They are only restored via her Intro and her Forte Skill, called Ephemeral. Therefore, rotating with Camellya before an Intro is available is not useful, since she cannot make progress towards the latter half of her rotation, where most of her damage lies.",
+            "Camellya may consume Crimson Pistils via Skills and Basic/Heavy/Mid-air Attacks. Her Skill switches her form, of which she has 2, marked by her hair colour, which can either be white (standard form) or red (Blossom Mode). For simplicity's sake, they are commonly referred to as White Hair and Red Hair mode.",
+            "In White Hair mode, Camellya is on the ground and free to move as she desires. Her attacks are additionally longer and more single-target oriented. However, in Red Hair mode, she becomes unable to move, aside from dodges (and jumps/unenhanced skills that switch her back to White Hair mode as well). But in exchange, her attacks become faster and more capable in AoE. As Basic Attacks consume Crimson Pistils, Camellya accumulates up to 10 Crimson Buds, each empowering the state that follows the cast of her Forte Skill.",
+            "Her Forte Skill consumes 70 Concerto Energy when built to full, and Camellya enters Budding Mode. In this mode, the DMG multiplier of all her attacks except her Ultimate are increased by 50% (+5% per Crimson Bud consumed). This mode ends if Camellya is switched out, or if she runs out of Crimson Pistils again."
+          ]
+        },
+        {
+          "heading": "Rotation, Benefits & Shortcomings",
+          "paragraphs": [
+            "Camellya's rotation is very extensive, as it requires her to fill up her Concerto Gauge essentially twice. For that, she has no faster way to do so than by holding down the Basic Attack button after immediately entering her faster Red Hair mode through her Skill. This makes Camellya spin in place in a wide AoE, and it is her fastest way of consuming Crimson Pistils. Though, she will need to fully cast this spin animation twice, plus 2 Skills (one to enter and one to exit Red Hair mode), plus her Intro and Ultimate. Her Echo casts can additionally be weaved in and immediately Dash Cancelled after some animations that are beneficial to Dash Cancel anyways, but in spite of these optimizations, Camellya's rotation exceeds the 15-second mark, which means by the end of it, 14s Outro buffs have already expired.",
+            "This means that if Camellya gets interrupted at any point, which can happen, including during her Forte Skill which fully cancels its massive damage, this rotation can and will get even longer, which means half or more of the highest-damaging portion of her rotation, Budding Mode, can lose out on game-changing Outro buffs, and there is nothing Camellya can do about it other than try fighting more passive enemies."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Overall, Camellya's very long, backloaded rotation means that she has a hard time keeping her damage consistent, and that she may also execute fewer rotations within allocated endgame timespans than most characters in the game, overall making her final performances subpar, especially if her rotation isn't fully optimized to weave in extra Echo casts.",
+            "Despite Camellya's massive advantages of having easy access to F2P-friendly teammates like Sanhua and Danjin, as well as a good F2P weapon option in the form of Emerald of Genesis, she has trouble delivering on a proper standard of performance in spite of her theoretically strong damage per rotation, because in practice those rotations take too long to execute and are inconsistent. Not to mention, nowadays, Camellya's best team has barely gotten an upgrade with Lynae and Mornye's release, and she's otherwise still stuck to the Sanhua/Roccia+Shorekeeper that frankly don't deliver buffs-wise as much as Camellya could hope. Plus, Camellya's own damage per rotation standard barely delivers compared to the powerhouses of today.",
+            "In conclusion, while Camellya has massive upsides in terms of F2P-friendliness and ease of use, they don't come without severe downsides. Rotation inconsistency and excessive length, plus the lack of performance and new teammates to back up her meta stance, do not make her a valuable character to own in the current state of the game, making her difficult meta position rather forgettable, but still capable of delivering (although at a low standard) with very budgeted investments under the right conditions."
+          ]
+        }
+      ]
+    },
+    "skills": [
+      {
+        "name": "Burgeoning",
+        "category": "Active",
+        "skill_type": "Basic Attack",
+        "description": "Basic AttackPerform up to 5 consecutive attacks, dealing Havoc DMG.After performing Basic Attack Stage 3 or Heavy Attack Pruning, hold Normal Attack Button to continuously strike the target, dealing Havoc DMG. Basic Attack Stage 4 is automatically followed by Basic Attack Stage 5.Heavy AttackConsume STA to attack the target, dealing Havoc DMG.Plunging AttackConsume STA to perform Plunging Attack, dealing Havoc DMG.Dodge CounterUse Basic Attack right after a successful Dodge to attack the target, dealing Havoc DMG.",
+        "multipliers": [
+          {
+            "Lv1": "31.45%",
+            "Lv2": "34.03%",
+            "Lv3": "36.61%",
+            "Lv4": "40.22%",
+            "Lv5": "42.80%",
+            "Lv6": "45.77%",
+            "Lv7": "49.89%",
+            "Lv8": "54.02%",
+            "Lv9": "58.15%",
+            "Lv10": "62.53%",
+            "Name": "Basic Attack 1 DMG"
+          },
+          {
+            "Lv1": "23.38%*2",
+            "Lv2": "25.30%*2",
+            "Lv3": "27.21%*2",
+            "Lv4": "29.90%*2",
+            "Lv5": "31.81%*2",
+            "Lv6": "34.02%*2",
+            "Lv7": "37.08%*2",
+            "Lv8": "40.15%*2",
+            "Lv9": "43.22%*2",
+            "Lv10": "46.48%*2",
+            "Name": "Basic Attack 2 DMG"
+          },
+          {
+            "Lv1": "25.50%*3",
+            "Lv2": "27.59%*3",
+            "Lv3": "29.68%*3",
+            "Lv4": "32.61%*3",
+            "Lv5": "34.70%*3",
+            "Lv6": "37.11%*3",
+            "Lv7": "40.45%*3",
+            "Lv8": "43.80%*3",
+            "Lv9": "47.14%*3",
+            "Lv10": "50.70%*3",
+            "Name": "Basic Attack 3 DMG"
+          },
+          {
+            "Lv1": "12.42%*20",
+            "Lv2": "13.44%*20",
+            "Lv3": "14.46%*20",
+            "Lv4": "15.89%*20",
+            "Lv5": "16.91%*20",
+            "Lv6": "18.08%*20",
+            "Lv7": "19.71%*20",
+            "Lv8": "21.34%*20",
+            "Lv9": "22.97%*20",
+            "Lv10": "24.70%*20",
+            "Name": "Basic Attack 4 DMG"
+          },
+          {
+            "Lv1": "24.23%*4",
+            "Lv2": "26.22%*4",
+            "Lv3": "28.20%*4",
+            "Lv4": "30.98%*4",
+            "Lv5": "32.97%*4",
+            "Lv6": "35.25%*4",
+            "Lv7": "38.43%*4",
+            "Lv8": "41.61%*4",
+            "Lv9": "44.79%*4",
+            "Lv10": "48.17%*4",
+            "Name": "Basic Attack 5 DMG"
+          },
+          {
+            "Lv1": "44.33%*3",
+            "Lv2": "47.97%*3",
+            "Lv3": "51.60%*3",
+            "Lv4": "56.69%*3",
+            "Lv5": "60.33%*3",
+            "Lv6": "64.51%*3",
+            "Lv7": "70.32%*3",
+            "Lv8": "76.14%*3",
+            "Lv9": "81.96%*3",
+            "Lv10": "88.14%*3",
+            "Name": "Heavy Attack DMG"
+          },
+          {
+            "Lv1": "33.00%*2",
+            "Lv2": "35.71%*2",
+            "Lv3": "38.42%*2",
+            "Lv4": "42.21%*2",
+            "Lv5": "44.91%*2",
+            "Lv6": "48.02%*2",
+            "Lv7": "52.35%*2",
+            "Lv8": "56.68%*2",
+            "Lv9": "61.01%*2",
+            "Lv10": "65.61%*2",
+            "Name": "Mid-air Attack DMG"
+          },
+          {
+            "Lv1": "50.00%*3",
+            "Lv2": "54.10%*3",
+            "Lv3": "58.20%*3",
+            "Lv4": "63.94%*3",
+            "Lv5": "68.04%*3",
+            "Lv6": "72.75%*3",
+            "Lv7": "79.31%*3",
+            "Lv8": "85.87%*3",
+            "Lv9": "92.43%*3",
+            "Lv10": "99.40%*3",
+            "Name": "Dodge Counter DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Lv10": "25",
+            "Name": "Heavy Attack STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Lv10": "30",
+            "Name": "Plunging Attack STA Cost"
+          }
+        ]
+      },
+      {
+        "name": "Valse of Bloom and Blight",
+        "category": "Active",
+        "skill_type": "Resonance Skill",
+        "description": "Crimson BlossomAttack the target, dealing Havoc DMG (considered Basic Attack DMG), then enter Blossom Mode. This attack can be performed in mid-air.Blossom ModeUnable to move in Blossom Mode;Basic Attack and Heavy Attack Pruning are replaced by Basic Attack Vining Waltz: chain together 4 consecutive attacks, dealing Havoc DMG, considered Basic Attack DMG.When performing Vining Waltz Stage 3, hold Normal Attack Button to cast Blazing Waltz that deals Havoc DMG before automatically performing Vining Waltz Stage 4.Dodge Counter is replaced by Dodge Counter Atonement. Normal Attack Button right after a successful Dodge to attack the target, dealing Havoc DMG, considered Basic Attack DMG.Resonance Skill is replaced by Resonance Skill Floral Ravage. Casting Floral Ravage deals Havoc DMG, considered Basic Attack DMG.Resonance Skill Floral Ravage can be cast in mid-air.Blossom Mode ends after casting Resonance Skill Floral Ravage.Blossom Mode ends after using the Levitator.Jump is replaced with Basic Attack Vining Ronde. Jump to attack the target at the cost of STA, dealing Havoc DMG (considered Basic Attack DMG). This ends the Blossom Mode.Using Basic Attack Vining Waltz and Basic Attack Blazing Waltz in mid-air consumes STA.Casting Resonance Skill Floral Ravage doesn't restore STA.Consume STA continuously to stay suspended on the vines.",
+        "multipliers": [
+          {
+            "Lv1": "57.15%*2",
+            "Lv2": "61.84%*2",
+            "Lv3": "66.53%*2",
+            "Lv4": "73.09%*2",
+            "Lv5": "77.77%*2",
+            "Lv6": "83.16%*2",
+            "Lv7": "90.66%*2",
+            "Lv8": "98.16%*2",
+            "Lv9": "105.66%*2",
+            "Lv10": "113.62%*2",
+            "Name": "Crimson Blossom DMG"
+          },
+          {
+            "Lv1": "48.45%",
+            "Lv2": "52.43%",
+            "Lv3": "56.40%",
+            "Lv4": "61.96%",
+            "Lv5": "65.94%",
+            "Lv6": "70.50%",
+            "Lv7": "76.86%",
+            "Lv8": "83.22%",
+            "Lv9": "89.57%",
+            "Lv10": "96.33%",
+            "Name": "Vining Waltz 1 DMG"
+          },
+          {
+            "Lv1": "22.95%*2",
+            "Lv2": "24.84%*2",
+            "Lv3": "26.72%*2",
+            "Lv4": "29.35%*2",
+            "Lv5": "31.24%*2",
+            "Lv6": "33.40%*2",
+            "Lv7": "36.41%*2",
+            "Lv8": "39.42%*2",
+            "Lv9": "42.43%*2",
+            "Lv10": "45.63%*2",
+            "Name": "Vining Waltz 2 DMG"
+          },
+          {
+            "Lv1": "11.04%*6",
+            "Lv2": "11.95%*6",
+            "Lv3": "12.86%*6",
+            "Lv4": "14.12%*6",
+            "Lv5": "15.03%*6",
+            "Lv6": "16.07%*6",
+            "Lv7": "17.52%*6",
+            "Lv8": "18.97%*6",
+            "Lv9": "20.41%*6",
+            "Lv10": "21.95%*6",
+            "Name": "Vining Waltz 3 DMG"
+          },
+          {
+            "Lv1": "34.00%*3",
+            "Lv2": "36.79%*3",
+            "Lv3": "39.58%*3",
+            "Lv4": "43.48%*3",
+            "Lv5": "46.27%*3",
+            "Lv6": "49.47%*3",
+            "Lv7": "53.93%*3",
+            "Lv8": "58.39%*3",
+            "Lv9": "62.85%*3",
+            "Lv10": "67.59%*3",
+            "Name": "Vining Waltz 4 DMG"
+          },
+          {
+            "Lv1": "11.04%*19",
+            "Lv2": "11.95%*19",
+            "Lv3": "12.86%*19",
+            "Lv4": "14.12%*19",
+            "Lv5": "15.03%*19",
+            "Lv6": "16.07%*19",
+            "Lv7": "17.52%*19",
+            "Lv8": "18.97%*19",
+            "Lv9": "20.41%*19",
+            "Lv10": "21.95%*19",
+            "Name": "Blazing Waltz DMG"
+          },
+          {
+            "Lv1": "26.46%*5",
+            "Lv2": "28.63%*5",
+            "Lv3": "30.80%*5",
+            "Lv4": "33.84%*5",
+            "Lv5": "36.01%*5",
+            "Lv6": "38.51%*5",
+            "Lv7": "41.98%*5",
+            "Lv8": "45.45%*5",
+            "Lv9": "48.92%*5",
+            "Lv10": "52.61%*5",
+            "Name": "Floral Ravage DMG"
+          },
+          {
+            "Lv1": "26.64%*3",
+            "Lv2": "28.82%*3",
+            "Lv3": "31.00%*3",
+            "Lv4": "34.06%*3",
+            "Lv5": "36.24%*3",
+            "Lv6": "38.76%*3",
+            "Lv7": "42.25%*3",
+            "Lv8": "45.74%*3",
+            "Lv9": "49.24%*3",
+            "Lv10": "52.95%*3",
+            "Name": "Vining Ronde DMG"
+          },
+          {
+            "Lv1": "57.00%*2",
+            "Lv2": "61.68%*2",
+            "Lv3": "66.35%*2",
+            "Lv4": "72.90%*2",
+            "Lv5": "77.57%*2",
+            "Lv6": "82.95%*2",
+            "Lv7": "90.42%*2",
+            "Lv8": "97.90%*2",
+            "Lv9": "105.38%*2",
+            "Lv10": "113.33%*2",
+            "Name": "Atonement DMG"
+          },
+          {
+            "Lv1": "4",
+            "Lv2": "4",
+            "Lv3": "4",
+            "Lv4": "4",
+            "Lv5": "4",
+            "Lv6": "4",
+            "Lv7": "4",
+            "Lv8": "4",
+            "Lv9": "4",
+            "Lv10": "4",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "7",
+            "Lv2": "7",
+            "Lv3": "7",
+            "Lv4": "7",
+            "Lv5": "7",
+            "Lv6": "7",
+            "Lv7": "7",
+            "Lv8": "7",
+            "Lv9": "7",
+            "Lv10": "7",
+            "Name": "Crimson Blossom Concerto Regen"
+          },
+          {
+            "Lv1": "7",
+            "Lv2": "7",
+            "Lv3": "7",
+            "Lv4": "7",
+            "Lv5": "7",
+            "Lv6": "7",
+            "Lv7": "7",
+            "Lv8": "7",
+            "Lv9": "7",
+            "Lv10": "7",
+            "Name": "Floral Ravage Concerto Regen"
+          },
+          {
+            "Lv1": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Lv10": "5",
+            "Name": "Vining Waltz 1 STA Cost"
+          },
+          {
+            "Lv1": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Lv10": "5",
+            "Name": "Vining Waltz 2 STA Cost"
+          },
+          {
+            "Lv1": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Lv10": "5",
+            "Name": "Vining Waltz 3 STA Cost"
+          },
+          {
+            "Lv1": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Lv10": "5",
+            "Name": "Vining Waltz 4 STA Cost"
+          },
+          {
+            "Lv1": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Lv10": "5",
+            "Name": "Blazing Waltz STA Cost"
+          },
+          {
+            "Lv1": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Lv10": "5",
+            "Name": "Vining Ronde STA Cost"
+          },
+          {
+            "Lv1": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Lv10": "5",
+            "Name": "STA Cost Per Second When Suspended"
+          }
+        ]
+      },
+      {
+        "name": "Fervor Efflorescent",
+        "category": "Active",
+        "skill_type": "Resonance Liberation",
+        "description": "Attack the target, dealing Havoc DMG.This attack can be performed in mid-air.",
+        "multipliers": [
+          {
+            "Lv1": "605.00%",
+            "Lv2": "654.61%",
+            "Lv3": "704.22%",
+            "Lv4": "773.68%",
+            "Lv5": "823.29%",
+            "Lv6": "880.34%",
+            "Lv7": "959.72%",
+            "Lv8": "1039.09%",
+            "Lv9": "1118.47%",
+            "Lv10": "1202.81%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Lv10": "25",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Lv10": "125",
+            "Name": "Resonance Energy Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Lv10": "20",
+            "Name": "Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "Vegetative Universe",
+        "category": "Forte Circuit",
+        "skill_type": "Forte Circuit",
+        "description": "Hitting a target with Normal Attack, Basic Attack Vining Waltz, Basic Attack Blazing Waltz, Basic Attack Vining Ronde, Dodge Counter Atonement , Resonance Skill Crimson Blossom, and Resonance Skill Floral Ravage consumes Crimson Pistils. The Energy Regen Multiplier of this attack is increased by 150%.Consuming 10 Crimson Pistils recovers 4 Concerto Energy and obtains 1 Crimson Bud(s). Each bud lasts for 15s, stacking up to 10 times.Forte Circuit: EphemeralWhen Concerto Energy is fully recovered, and Ephemeral is not on Cooldown, Resonance Skill is replaced with Ephemeral.Casting Ephemeral consumes 70 Concerto Energy and deals Havoc DMG to the targets. This damage is considered Basic Attack DMG.Camellya enters Budding Mode after casting Ephemeral.This can be cast in mid-air.Budding ModeSweet Dream: Increase the DMG Multiplier of Normal Attack, Basic Attack Vining Waltz, Basic Attack Blazing Waltz, Basic Attack Vining Ronde, Dodge Counter Atonement, Resonance Skill Crimson Blossom, and Resonance Skill Floral Ravage by 50%.Casting Ephemeral consumes all Crimson Buds. Each Crimson Bud consumed additionally increases the DMG Multiplier of Sweet Dream by 5%, up to 50%.When in Budding Mode, Camellya cannot gain Crimson Buds.When in Budding Mode, the Energy Regen Multiplier of Normal Attack, Basic Attack Vining Waltz, Basic Attack Blazing Waltz, Basic Attack Vining Ronde, Dodge Counter Atonement, Resonance Skill Crimson Blossom, and Resonance Skill Floral Ravage is reduced to 0%.Budding Mode ends when Camellya is switched off the field.Budding Mode ends when all Crimson Pistils are consumed.Crimson PistilCamellya can hold up to 100 Crimson Pistils.Casting Intro Skill Everblooming recovers 100 Crimson Pistils.Activating Forte Circuit's Ephemeral recovers 100 Crimson Pistils.",
+        "multipliers": [
+          {
+            "Lv1": "635.00%",
+            "Lv2": "687.07%",
+            "Lv3": "739.14%",
+            "Lv4": "812.04%",
+            "Lv5": "864.11%",
+            "Lv6": "923.99%",
+            "Lv7": "1007.31%",
+            "Lv8": "1090.62%",
+            "Lv9": "1173.93%",
+            "Lv10": "1262.45%",
+            "Name": "Ephemeral DMG"
+          },
+          {
+            "Lv1": "15",
+            "Lv2": "15",
+            "Lv3": "15",
+            "Lv4": "15",
+            "Lv5": "15",
+            "Lv6": "15",
+            "Lv7": "15",
+            "Lv8": "15",
+            "Lv9": "15",
+            "Lv10": "15",
+            "Name": "Budding Mode Duration"
+          },
+          {
+            "Lv1": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Lv10": "25",
+            "Name": "Ephemeral Cooldown"
+          }
+        ]
+      },
+      {
+        "name": "Seedbed",
+        "category": "Inherent",
+        "skill_type": "Inherent Skill",
+        "description": "Gain 15% Havoc DMG Bonus. DMG dealt by Heavy Attack Pruning is now considered Basic Attack DMG.",
+        "multipliers": []
+      },
+      {
+        "name": "Epiphyte",
+        "category": "Inherent",
+        "skill_type": "Inherent Skill",
+        "description": "Gain 15% Basic DMG Bonus. Gain increased resistance to interruption when casting Basic Attack, Basic Attack Vining Waltz, and Basic Attack Blazing Waltz.",
+        "multipliers": []
+      },
+      {
+        "name": "Everblooming",
+        "category": "Transition",
+        "skill_type": "Intro Skill",
+        "description": "Attack the target, dealing Havoc DMG.",
+        "multipliers": [
+          {
+            "Lv1": "100.00%",
+            "Lv2": "108.20%",
+            "Lv3": "116.40%",
+            "Lv4": "127.88%",
+            "Lv5": "136.08%",
+            "Lv6": "145.51%",
+            "Lv7": "158.63%",
+            "Lv8": "171.75%",
+            "Lv9": "184.87%",
+            "Lv10": "198.81%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Lv10": "10",
+            "Name": "Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "Twining",
+        "category": "Transition",
+        "skill_type": "Outro Skill",
+        "description": "Attack the target, dealing Havoc DMG equal to 329.24% of Camellya's ATK.After activating Forte Circuit's Ephemeral, the next Outro Skill Twining deals additional Havoc DMG equal to 459.02% of Camellya's ATK.",
+        "multipliers": []
+      }
+    ],
+    "resonance_chain_dupes": [
+      {
+        "node": "S1",
+        "name": "Sequence Node 1",
+        "description": "Casting Intro Skill Everblooming increases Camellya's Crit. DMG by 28% for 18s. This effect can be triggered once every 25s. Immune to interruptions while casting Ephemeral."
+      },
+      {
+        "node": "S2",
+        "name": "Sequence Node 2",
+        "description": "The DMG Multiplier of Resonance Skill Ephemeral is increased by 120%."
+      },
+      {
+        "node": "S3",
+        "name": "Sequence Node 3",
+        "description": "The DMG Multiplier of Resonance Liberation Fervor Efflorescent is increased by 50%. When in Budding Mode, Camellya's ATK is increased by 58%."
+      },
+      {
+        "node": "S4",
+        "name": "Sequence Node 4",
+        "description": "Casting Everblooming gives all team members 25% Basic Attack DMG Bonus for 30s."
+      },
+      {
+        "node": "S5",
+        "name": "Sequence Node 5",
+        "description": "The DMG Multipliers of Intro Skill Everblooming is increased by 303% and Outro Skill Twining is increased by 68%."
+      },
+      {
+        "node": "S6",
+        "name": "Sequence Node 6",
+        "description": "The DMG Multiplier of Forte Circuit's Sweet Dream is additionally increased by 150%. Forte Circuit Perennial: Within 15s after casting Ephemeral, if Concerto Energy is full and Perennial is not on cooldown, Resonance Skill is replaced with Perennial.Casting Perennial consumes 50 Concerto Energy and recovers 50 Crimson Pistils, dealing Havoc DMG equal to 100% of Ephemeral DMG, considered Basic Attack DMG. This skill can be cast once every 25s.Camellya enters Budding Mode after casting Perennial and removes all Crimson Buds. The bonus DMG Multiplier granted by Forte Circuit's Sweet Dream is increased to 250%.Immune to interruptions when casting Perennial."
+      }
+    ],
+    "minor_fortes": [
+      {
+        "stat_name": "CRIT DMG",
+        "bonus_value": "+16%"
+      },
+      {
+        "stat_name": "ATK%",
+        "bonus_value": "+12%"
+      }
+    ],
+    "base_stats_lvl_90": {
+      "hp": 826,
+      "atk": 36,
+      "def": 95,
+      "max_energy": 125,
+      "crit_rate": "5%",
+      "crit_dmg": "166%",
+      "healing_bonus": "0%",
+      "elemental_dmg_bonus": "0%"
+    },
+    "upgrade_materials": {
+      "character_ascension": [
+        {
+          "material_name": "Nova",
+          "rarity": "boss",
+          "quantity": 60
+        },
+        {
+          "material_name": "Topological Confinement",
+          "rarity": "specialty",
+          "quantity": 46
+        },
+        {
+          "material_name": "LF Whisperin Core",
+          "rarity": "common",
+          "quantity": 4
+        },
+        {
+          "material_name": "MF Whisperin Core",
+          "rarity": "common",
+          "quantity": 12
+        },
+        {
+          "material_name": "HF Whisperin Core",
+          "rarity": "common",
+          "quantity": 12
+        },
+        {
+          "material_name": "FF Whisperin Core",
+          "rarity": "common",
+          "quantity": 4
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "Dreamless Feather",
+          "rarity": "weekly_boss",
+          "quantity": 26
+        },
+        {
+          "material_name": "LF Whisperin Core",
+          "rarity": "common",
+          "quantity": 25
+        },
+        {
+          "material_name": "MF Whisperin Core",
+          "rarity": "common",
+          "quantity": 28
+        },
+        {
+          "material_name": "HF Whisperin Core",
+          "rarity": "common",
+          "quantity": 40
+        },
+        {
+          "material_name": "FF Whisperin Core",
+          "rarity": "common",
+          "quantity": 57
+        },
+        {
+          "material_name": "Inert Metallic Drip",
+          "rarity": "skill_material",
+          "quantity": 25
+        },
+        {
+          "material_name": "Reactive Metallic Drip",
+          "rarity": "skill_material",
+          "quantity": 28
+        },
+        {
+          "material_name": "Polarized Metallic Drip",
+          "rarity": "skill_material",
+          "quantity": 55
+        },
+        {
+          "material_name": "Heterized Metallic Drip",
+          "rarity": "skill_material",
+          "quantity": 67
+        }
+      ]
+    },
+    "voice_actors": {
+      "eng": "",
+      "jpn": "",
+      "cn": "",
+      "kr": ""
+    },
+    "best_weapons": [
+      {
+        "weapon_name": "Red Spring",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "commentary_details": "Camellya's Signature is strong on a lot of Sword users, but is in particular designed for her since a lot of extra Basic Attack DMG Bonus is only exploitable if Camellya's Concerto is spent mid-rotation, which is a mechanic only she has access to, making it the best for her by a lot.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Gacha",
+          "effect_description": "Increase ATK by {0}. When dealing Basic Attack DMG, the wielder gains {1} Basic Attack DMG Bonus for 14s. This effect can be triggered once per second, stacking up to 3 times. When the wielder's Concerto Energy is consumed, gain {2} Basic DMG Bonus for 10s. This effect can be triggered once per second and ends when the wielder is switched off the field."
+        }
+      },
+      {
+        "weapon_name": "Emerald Sentence",
+        "dupe_rank": "R1",
+        "percentage_performance": "90.10%",
+        "commentary_details": "Qiuyuan's Signature is a surprisingly good alternative to Camellya's since it sports the same base stats and places a particular emphasis on Echo Skill DMG, which Camellya does a lot more of than most other characters. Also buffs the whole party's Echo Skill DMG, but generally that is negligible.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up",
+          "effect_description": "ATK is increased by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attack grants 1 stack of Bamboo Cleaver, which grants {1} Heavy Attack DMG Bonus to the wielder. This effect can be triggered by Echoes of the same name once only, stacking up to 2 times, lasting for 12s. Casting Echo Skill at max stacks does not reset the duration. This effect can be triggered once every 10s and ends early if the wielder is switched off the field. Casting Intro Skill grants {2} Echo Skill DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked."
+        }
+      },
+      {
+        "weapon_name": "Frostburn",
+        "dupe_rank": "R1",
+        "percentage_performance": "89.50%",
+        "commentary_details": "Simple ATK and CRIT Rate stat-stick for Camellya, who does not benefit from this weapon's Glacio Chafe-related effects.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up",
+          "effect_description": "ATK is increased by {0}. When the wielder applies Glacio Chafe, Glacio DMG is Amplified by {1}, and Resonance Liberation DMG ignores {2} of the target's DEF. If the wielder is the active Resonator in the team, Glacio Chafe DMG dealt to all targets within a certain range is Amplified by {3} for 6s. This effect can be triggered up to 1 time every 0.1s. Only the strongest effect of the same name applies."
+        }
+      },
+      {
+        "weapon_name": "Everbright Polestar",
+        "dupe_rank": "R1",
+        "percentage_performance": "89.40%",
+        "commentary_details": "Simple DMG Bonus and CRIT Rate stat-stick for Camellya, who does not benefit from this weapon's Tune Rupture/Fusion Burst-related effects.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up",
+          "effect_description": "Increases All-Attribute DMG Bonus by {0}. When inflicting Tune Rupture - Shifting or Fusion Burst, the wielder's Resonance Liberation DMG ignores {1} DEF and {2} Fusion RES on targets for 8s."
+        }
+      },
+      {
+        "weapon_name": "Emerald of Genesis",
+        "dupe_rank": "R1",
+        "percentage_performance": "89.20%",
+        "commentary_details": "Best permanent option for Camellya, providing her with CRIT Rate, Energy Regen and some ATK% boosts when casting Skill. Since Camellya only needs a tiny bit of Energy Regen (attributed by default at random in our calculations), this does not come into play and overall is a tiny bit weaker value-wise than above options but still an excellent alternative to her Signature overall.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Permanent Convene",
+          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases ATK by {1}, stacking up to 2 time(s). This effect lasts for 10s."
+        }
+      },
+      {
+        "weapon_name": "Blazing Brilliance",
+        "dupe_rank": "R1",
+        "percentage_performance": "88.40%",
+        "commentary_details": "Simple ATK and CRIT DMG stat-stick for Camellya, who does not benefit from this weapon's Skill DMG-related effects.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Gacha",
+          "effect_description": "ATK increased by {0}. The equipper gains 1 stack of Searing Feather upon dealing damage, which can be triggered once every 0.5s, and gains 5 stacks of the same effect upon casting Resonance Skill. Each stack of Searing Feather gives {1} additional Resonance Skill DMG Bonus for up to 14 stacks. All stacks will be removed within 12s after reaching the max stack."
+        }
+      },
+      {
+        "weapon_name": "Feather Edge",
+        "dupe_rank": "R5",
+        "percentage_performance": "77.80%",
+        "commentary_details": "Provides extra ATK and Liberation DMG Bonus when casting Ultimate as well as some CRIT Rate and low Base ATK. This Battle Pass exclusive is the best 4-star choice Camellya has overall, but Emerald of Genesis is a much more recommended pick-up.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 412,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.3,
+          "source": "Battle Pass",
+          "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Resonance Liberation DMG Bonus for 15s."
+        }
+      },
+      {
+        "weapon_name": "Lumingloss",
+        "dupe_rank": "R5",
+        "percentage_performance": "76.80%",
+        "commentary_details": "This Battle Pass exclusive provides solid Base ATK and extra Basic DMG when casting Skill, overall a solid choice but still a 4-star in terms of base stats and lacks CRIT.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 387,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "Pioneer Podcast",
+          "effect_description": "When Resonance Skill is released, increases Basic Attack DMG and Heavy Attack DMG by {0}, stacking up to 1 time(s). This effect lasts for 10s and can be triggered 1 time(s) every 1s."
+        }
+      },
+      {
+        "weapon_name": "Somnoire Anchor",
+        "dupe_rank": "R5",
+        "percentage_performance": "76.30%",
+        "commentary_details": "Past event exclusive intended for Camellya, gives her some scaling ATK and CRIT Rate with decent Base ATK. Usable, but overall Emerald of Genesis is still by far the msot recommended.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 462,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Event",
+          "effect_description": "Gain 1 stack of Hiss when dealing damage to the target, with 1 stack generated every 1s. Hiss: each stack increases the wielder's ATK by {0} for 3s, stacking up to 10 times. Switching off the wielder clears all stacks. Gaining 10 stacks increases the wielder's Crit. Rate by {1}."
+        }
+      },
+      {
+        "weapon_name": "Commando of Conviction",
+        "dupe_rank": "R5",
+        "percentage_performance": "75.30%",
+        "commentary_details": "Best no-gacha option for Camellya, obtainable for free at the start of the game. Just a 4-star ATK stat-stick that gives nothing else, but decent for a start. Pick up Emerald of Genesis or Camellya's Signature ASAP to replace this though.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 412,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 30.3,
+          "source": "",
+          "effect_description": "When Intro Skill is released, increases ATK by {0}, lasting for {1}."
+        }
+      }
+    ],
+    "best_echo_sets": [
+      {
+        "set_name": "Havoc Eclipse",
+        "percentage_performance": "100.00%",
+        "commentary": "Offers a 10% unconditional Havoc DMG% boost and up to an additional 30% Havoc DMG% after you land 4 Basic or Heavy Attacks for a grand total of 40% additional Havoc damage after fully ramped.",
+        "main_echo_options": [
+          {
+            "echo_name": "Nightmare: Crownless",
+            "echo_commentary": "Offers an unconditional 12% Havoc DMG and 12% Basic Attack DMG boost when placed in the Main Echo slot, making it a solid choice for Havoc focused resonators who emphasize Basic Attack damage and are looking to use the 5P Sunk-Sinking Eclipse set bonus."
+          }
+        ]
+      },
+      {
+        "set_name": "Endless Resonance",
+        "percentage_performance": "94.58%",
+        "commentary": "Offers a 10% unconditional ATK% boost and an additional 5% ATK% for every 1.5 seconds the equipped character has been in combat - up to 20% after 6 seconds, totalling 30% additional ATK% after fully ramped. This set almost almost loses out to most characters signature elemental sets, but is generically usable across all damage characters regardless of their element.",
+        "main_echo_options": [
+          {
+            "echo_name": "Mech Abomination",
+            "echo_commentary": "Very easy echo to use that should be used at the very beginning of the burst window right after the Intro. Thanks to its instant cast there is no thinking required and you can enjoy your ATK% boost and some nice burst damage."
+          }
+        ]
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ],
+        "cost_3": [
+          "Havoc DMG",
+          "ATK% ≥ Havoc DMG"
+        ],
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%",
+        "Basic DMG%",
+        "ATK"
+      ]
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 15000+",
+      "DEF: 1150+",
+      "ATK: 2000-2200+",
+      "CRIT Rate: 55-80%+",
+      "CRIT DMG: 220-280%+",
+      "Energy Regen: 115%-128%+Lower end estimated in a Lynae+Shorekeeper team, Higher end estimated in a Roccia+Shorekeeper team.",
+      "Havoc DMG Bonus: 70-100%+"
+    ],
+    "skill_upgrade_priority": {
+      "order": [
+        "Res. Skill",
+        "Forte Circuit",
+        "Res. Liberation",
+        "Intro Skill",
+        "Basic Attack"
+      ],
+      "commentary": "Basic can and should be levelled if using the White Hair rotation for better enemy tracking, but it's completely useless otherwise and generally not recommended to optimize Loop DPS against less mobile enemies / with more resets of endgame runs."
+    },
+    "rotations": [
+      {
+        "rotation_name": "Standard Rotation:",
+        "steps": [
+          "Intro",
+          "Skill: Crimson Blossom (Cancel animation endlag via Echo)",
+          "Echo (Cancel animation instantly via Dash)",
+          "Dash",
+          "Heavy: Vining Waltz 1",
+          "Heavy: Vining Waltz 2",
+          "Heavy: Vining Waltz 3",
+          "Heavy: Blazing Waltz",
+          "Heavy: Vining Waltz 4 (Cancel animation endlag via Echo)",
+          "Echo (Cancel animation instantly via Dash)",
+          "Dash (Cancel animation instantly via Ultimate)",
+          "Ultimate",
+          "Basic: Vining Waltz 1 (Cancel animation endlag via Skill)",
+          "Skill: Ephemeral",
+          "Heavy: Vining Waltz 1",
+          "Heavy: Vining Waltz 2",
+          "Heavy: Vining Waltz 3",
+          "Heavy: Blazing Waltz",
+          "Heavy: Vining Waltz 4 (Cancel animation endlag via Skill)",
+          "Skill: Floral Ravage",
+          "Echo (Swap)",
+          "Outro",
+          "Intro",
+          "Skill: Crimson Blossom (Cancel animation endlag via Echo)",
+          "Echo (Cancel animation instantly via Dash)",
+          "Dash",
+          "Heavy: Vining Waltz 1",
+          "Heavy: Vining Waltz 2",
+          "Heavy: Vining Waltz 3",
+          "Heavy: Blazing Waltz",
+          "Heavy: Vining Waltz 4 (Cancel animation endlag via Echo)",
+          "Echo (Cancel animation instantly via Dash)",
+          "Dash (Cancel animation instantly via Ultimate)",
+          "Ultimate",
+          "Basic: Vining Waltz 1 (Cancel animation endlag via Skill)",
+          "Skill: Ephemeral",
+          "Heavy: Vining Waltz 1",
+          "Heavy: Vining Waltz 2",
+          "Heavy: Vining Waltz 3",
+          "Heavy: Blazing Waltz",
+          "Heavy: Vining Waltz 4 (Cancel animation endlag via Echo)",
+          "Echo (Cancel animation instantly via Dash)",
+          "Dash",
+          "Basic: Vining Waltz 1",
+          "Skill: Perennial",
+          "Heavy: Vining Waltz 1",
+          "Heavy: Vining Waltz 2",
+          "Heavy: Vining Waltz 3",
+          "Heavy: Blazing Waltz",
+          "Heavy: Vining Waltz 4 (Cancel animation endlag via Skill)",
+          "Skill: Floral Ravage (Swap)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "White Hair Rotation:",
+        "steps": [
+          "Intro",
+          "Skill: Crimson Blossom",
+          "Jump: Vining Ronde",
+          "Heavy Attack",
+          "Heavy: Basic 4 (Full Channel)",
+          "Ultimate (press before Camellya initiates Basic 5 after all hits from Basic 4)",
+          "Skill: Crimson Blossom",
+          "Jump: Vining Ronde",
+          "Heavy Attack",
+          "Heavy: Basic 4 (Full Channel)",
+          "Heavy: Basic 5",
+          "Outro"
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "roccia",
+          "lynae",
+          "sanhua",
+          "danjin"
+        ],
+        "commentary": "The best Hybrid choices for Camellya, Lynae generally being the best as her generalist buffs are too many to count and make Camellya's damage skyrocket. Roccia is another one of her premium options, very comparable to Sanhua as they each provide great ATK and Basic Attack DMG Amplification buffs for her, Sanhua generally being the best F2P choice and better than Roccia if she doesn't have her Signature; Danjin is an additional option if Sanhua is already taken elsewhere as she also gives a solid general Havoc DMG Amplification buff on her Outro."
+      },
+      {
+        "characters": [
+          "mornye",
+          "the-shorekeeper",
+          "verina"
+        ],
+        "commentary": "These 3 are the best generalist Supports in the game. Mornye has a special synergy with Lynae since Lynae can apply Tune Rupture/Strain for Mornye to respond to them and provide her full array of buffs, making her the best choice if Lynae is in use. Shorekeeper is however a close second thanks to her massive CRIT buffs and other generalist buffs, then Verina is the most accessible and still very strong option if neither are available."
+      }
+    ],
+    "example_teams": [
+      {
+        "team_name": "Best Team",
+        "slot_1": {
+          "character_name": "camellya",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "lynae",
+          "alternatives": [
+            "roccia",
+            "sanhua"
+          ]
+        },
+        "slot_3": {
+          "character_name": "mornye",
+          "alternatives": [
+            "the-shorekeeper",
+            "verina"
+          ]
+        },
+        "team_notes": "Mornye is only best with Lynae on the team."
+      },
+      {
+        "team_name": "Alternative Team",
+        "slot_1": {
+          "character_name": "camellya",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "danjin",
+          "alternatives": [
+            "cantarella"
+          ]
+        },
+        "slot_3": {
+          "character_name": "the-shorekeeper",
+          "alternatives": [
+            "verina"
+          ]
+        },
+        "team_notes": ""
+      }
+    ]
+  }
+}

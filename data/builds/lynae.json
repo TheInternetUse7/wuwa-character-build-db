@@ -1,0 +1,1189 @@
+{
+  "status": "success",
+  "data": {
+    "character_metadata": {
+      "name": "Lynae",
+      "slug": "lynae",
+      "rarity_stars": 5,
+      "element": "Spectro",
+      "weapon_type": "Pistols",
+      "breadcrumb": [
+        "Wuthering Waves",
+        "Characters",
+        "Lynae"
+      ],
+      "updates": {
+        "last_updated": "10/July/2026",
+        "last_review_patch": "3",
+        "last_major_build_patch": "3",
+        "last_profile_update": "10/July/2026"
+      }
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tier": "T0",
+          "tags": [
+            "Break"
+          ]
+        },
+        "whimpering_wastes": {
+          "tier": "T1",
+          "tags": [
+            "Break"
+          ]
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T0"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T1"
+        }
+      }
+    },
+    "media": {
+      "youtube_guide_embed_url": "https://www.youtube.com/embed/jl91tCo2hcI",
+      "youtube_guide_full_url": "https://www.youtube.com/watch?v=jl91tCo2hcI",
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/lynae_full.webp"
+    },
+    "pros_and_cons": {
+      "pros": [
+        "The best generalist Hybrid buffer in the game, with tons of universal buffs to a single character while dealing a much higher amount of personal damage than most Hybrids;",
+        "Doesn't need her Signature weapon to perform - very F2P friendly;",
+        "Functions in almost all teams in the game and is the best buffer for a good chunk of them, pushing all Liberation damage dealers way up into the meta, with some specialized Tune Rupture/Strain synergies to boot (as well as other old DPS to an extent)."
+      ],
+      "cons": [
+        "Low headroom for Swap Cancels, very Intro-dependent, and major abilities have long cooldowns - locked into doing one rotation with relatively low flexibility, though quickswap with Lynae isn't fully impossible."
+      ]
+    },
+    "review": {
+      "summary": "Lynae is a 5-star Spectro Pistol Hybrid buffer who specializes in... not much, actually. Well, that's only partially true, but if you're familiar at all with Lynae, you should know she is quite the generalist buffer, and she's super good in that role. It's difficult to overstate her team flexibility and efficiency, as aside from certain characters who are overly reliant on one specific partner (Lupa for most Fusion characters, Ciaccona for Cartethyia, Phoebe for Zani for example), Lynae quite literally buffs everybody and does a fantastic job at it, having a solid amount of personal damage on top. She has specialties in Tune Rupture, Tune Strain, and Liberation DMG that can provide even better synergies than her standard generalist use cases. While all this won't make her the best Main DPS, in her role of a secondary buffer, she can provide a lot of value to most accounts, as long as she's played properly, and there's no better way to make sure of that than understanding her kit in full, which we will cover below:",
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Lynae is a 5-star Spectro Pistol Hybrid buffer who specializes in... not much, actually. Well, that's only partially true, but if you're familiar at all with Lynae, you should know she is quite the generalist buffer, and she's super good in that role. It's difficult to overstate her team flexibility and efficiency, as aside from certain characters who are overly reliant on one specific partner (Lupa for most Fusion characters, Ciaccona for Cartethyia, Phoebe for Zani for example), Lynae quite literally buffs everybody and does a fantastic job at it, having a solid amount of personal damage on top. She has specialties in Tune Rupture, Tune Strain, and Liberation DMG that can provide even better synergies than her standard generalist use cases. While all this won't make her the best Main DPS, in her role of a secondary buffer, she can provide a lot of value to most accounts, as long as she's played properly, and there's no better way to make sure of that than understanding her kit in full, which we will cover below:"
+          ]
+        },
+        {
+          "heading": "Key Mechanics",
+          "paragraphs": [
+            "Lynae is a character with 3 Forte resources she needs to manage: Overflow, Lumiflow and True Color. Overflow is mostly replenished by her Intro and either a couple of Basic Attacks or a single Skill. Fully building up Overflow allows her to cast a charged Basic Attack called Spark Collision, which then switches her to her Lumiflow state. Lumiflow replenishes over time with no way to boost its generation, but it is also fully replenished by holding Spark Collision to its maximum stage (which requires a few seconds of charging time). Once she has 40 Lumiflow, she can cast a Jump attack called Polychrome Leap. Finally, for each Polychrome Leap, she gains 1 point of True Color up to 3, which are used to cast her big Forte Mid-Air Attack, Visual Impact. This always concludes her rotation.",
+            "This essentially covers her gameplay. Beyond everything listed above, her Ultimate has two parts, but only the first one is worth executing since it deals almost all of the damage and doesn't cost any time while still providing buffs. It will be cast after Intro to ensure buff uptime."
+          ]
+        },
+        {
+          "heading": "Who does Lynae buff & How?",
+          "paragraphs": [
+            "Lynae can apply the following buffs to characters on her team:",
+            "With her Outro: 15% all-type DMG Amplification and 25% Liberation DMG Amplification to the next character via Outro (expires on swap);",
+            "With her Ultimate: 24% party-wide all-type DMG Bonus;",
+            "Upon casting Visual Impact: 40 points of Tune Break Boost party-wide (this boosts Tune Break-related damage);",
+            "With her Echo set: a total of 30% ATK and 10% all-type DMG Bonus to the next character via Outro;",
+            "With her Signature weapon: up to 24% party-wide all-type DMG Bonus.",
+            "This totals to 58% DMG Bonus, 30% ATK, 15% All-type and 25% Liberation DMG Amplification to one character. Even without her Signature weapon factored in, on Static Mist (one of the permanent banner Pistols) she trades off 24% DMG Bonus for 10% ATK, which is a negligible loss in team damage.",
+            "You may have realized that every single one of Lynae's buffs are very generally applicable, other than her Liberation DMG Amplification on Outro. Even without this factored in, Lynae stands out as our first ever generalist Hybrid buffer, capable of buffing almost any Main DPS in the game. Alongside universal Supports like Shorekeeper and especially Mornye, Lynae makes for the strongest universal buffing core in the game, capable of interacting with and improving almost any Main DPS's damage ceiling by highly significant amounts."
+          ]
+        },
+        {
+          "heading": "Resonance Mode: What does it do? What to use in what teams?",
+          "paragraphs": [
+            "Lynae has 2 modes that she can switch between freely in her Forte page out of combat. This means in combat, only 1 of the 2 modes will be available. They are each related to Tune Break: Lynae is indeed capable, via most of her essential attacks, of applying Tune Rupture or Tune Strain, which are her 2 modes. Tune Rupture acts as an extra instance of damage on every Tune Break skill cast, while Tune Strain is an extra DMG Taken increase to characters who can respond to it. Mornye is one such character, as she can deal Tune Rupture damage of her own and benefit from the damage increase of Tune Strain, depending on which one Lynae applies for her.",
+            "As for which one to use: If a direct Tune Strain synergy is in the team (as in, the Main DPS relies on it e.g Luuk), then use Tune Strain. Otherwise, always go for Tune Rupture. The overall raw damage increase Lynae gets from Tune Rupture damage is huge, so it's always best if Tune Strain response isn't on the Main DPS, and if the Main DPS interacts with Tune Rupture directly (e.g Aemeath), then you should be using Tune Rupture mode anyways."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "If it wasn't obvious by everything we've stated in this review so far, Lynae is one of the strongest meta presences that we've ever seen. As the queen of team flexibility in the Hybrid role while still being even stronger in her specialized Liberation, Tune Rupture and Tune Strain buffing capabilities, even without a specific DPS to associate with Lynae, remains a top-tier meta contender, and it's by a landslide too. This level of flexibility and general strength in Hybrids is, to put it bluntly, never before seen. Her specific synergies are with some of the strongest meta contenders as well, including but not limited to Aemeath, Luuk, Hiyuki and Iuno.",
+            "To mention her top team, alongside Aemeath and Mornye, she makes for one of the strongest single-target focused teams in the game, on the level of all the most recent DPS. And that's only one of her many teams.",
+            "But that's not all: Lynae functions very well with a myriad of already successful DPS characters like Carlotta, Phoebe, and Camellya, as well as serving as a perfectly viable replacement to the already established partners to DPS powerhouses like Augusta and even Phrolova, the current best DPS in the game when factoring in all endgame content.",
+            "In conclusion, Lynae is one of the strongest characters Wuthering Waves has ever seen. As we said in the intro to this review, it's difficult to overstate her team flexibility, and she appears as one of the strongest contenders in the meta, capable of working exceptionally well with practically any DPS out there with some specialized modern synergies that only accentuate her value further. Reminiscent of Shorekeeper in universality, but as a Hybrid buffer instead, Lynae is easily one of the best Hybrid buffers in the game, with only a bright future to come as more Liberation damage dealers, or Tune Rupture/Tune Strain-related characters release in the future."
+          ]
+        }
+      ]
+    },
+    "skills": [
+      {
+        "name": "Chroma Drift",
+        "category": "Active",
+        "skill_type": "Basic Attack",
+        "description": "Basic AttackPress or hold Normal Attack to perform up to 3 consecutive attacks, dealing Spectro DMG.Mid-air AttackConsume STA to perform Plunging Attack, dealing Spectro DMG.Dodge CounterPress Normal Attack right after a successful Dodge to attack the target, dealing Spectro DMG.Spark CollisionWith full Overflow in the Optical Sampling Stage, hold Normal Attack to enter a charging state.During this state, 15 points of Overflow will be converted to 12.5% of Lumiflow every 0.2s. Lynae is immune to interruption and takes 50% less DMG.Upon releasing Normal Attack or when Lumiflow is full, Lynae casts Spark Collision of varying strengths based on the ratio of Lumiflow, dealing Spectro DMG:Spark Collision Lv. 1: Lumiflow <50%Spark Collision Lv. 2: 50% ≤ Lumiflow < 100%Spark Collision Lv. 3: Lumiflow=100%Kaleidoscopic Parade - Basic AttackWhile in Kaleidoscopic Parade, Basic Attack is replaced with Kaleidoscopic Parade - Basic Attack.Perform up to 5 consecutive attacks, dealing Spectro DMG.With 120 points of Lumiflow, Kaleidoscopic Parade - Basic Attack Stage 1 & 4 track enemies in a greater distance.Kaleidoscopic Parade - Ground Heavy AttackWhile in Kaleidoscopic Parade, hold Normal Attack on the ground to cast this skill. Consume STA to continuously attack the target, dealing Spectro DMG, considered Basic Attack DMG. Release to cast Kaleidoscopic Parade - Graffiti Blast, dealing Spectro DMG, considered Basic Attack DMG.Kaleidoscopic Parade - Mid-air Heavy AttackWhile in Kaleidoscopic Parade, hold Normal Attack in mid-air to cast this skill. Consume STA to attack the target, dealing Spectro DMG, considered Basic Attack DMG.Cannot gain new charges while in the air. The available charges reset when Lynae is the active Resonator and is on the ground.Kaleidoscopic Parade - Mid-air AttackWhile in Kaleidoscopic Parade, Mid-air Attack is replaced with Kaleidoscopic Parade - Mid-air Attack.Consume STA to perform Plunging Attack, dealing Spectro DMG.Kaleidoscopic Parade - Dodge CounterWhile in Kaleidoscopic Parade, Dodge Counter is replaced with Kaleidoscopic Parade - Dodge Counter.Press Normal Attack right after a successful Dodge to attack the target, dealing Spectro DMG.While in Kaleidoscopic Parade, press Normal Attack shortly after casting this skill to cast Kaleidoscopic Parade - Basic Attack Stage 2.",
+        "multipliers": [
+          {
+            "Lv1": "43.35%",
+            "Lv2": "46.91%",
+            "Lv3": "50.46%",
+            "Lv4": "55.44%",
+            "Lv5": "59.00%",
+            "Lv6": "63.08%",
+            "Lv7": "68.77%",
+            "Lv8": "74.46%",
+            "Lv9": "80.15%",
+            "Lv10": "86.19%",
+            "Name": "Basic Attack Stage 1 DMG"
+          },
+          {
+            "Lv1": "26.35%+26.35%+26.35%",
+            "Lv2": "28.52%+28.52%+28.52%",
+            "Lv3": "30.68%+30.68%+30.68%",
+            "Lv4": "33.70%+33.70%+33.70%",
+            "Lv5": "35.86%+35.86%+35.86%",
+            "Lv6": "38.35%+38.35%+38.35%",
+            "Lv7": "41.80%+41.80%+41.80%",
+            "Lv8": "45.26%+45.26%+45.26%",
+            "Lv9": "48.72%+48.72%+48.72%",
+            "Lv10": "52.39%+52.39%+52.39%",
+            "Name": "Basic Attack Stage 2 DMG"
+          },
+          {
+            "Lv1": "62.05%",
+            "Lv2": "67.14%",
+            "Lv3": "72.23%",
+            "Lv4": "79.35%",
+            "Lv5": "84.44%",
+            "Lv6": "90.29%",
+            "Lv7": "98.43%",
+            "Lv8": "106.58%",
+            "Lv9": "114.72%",
+            "Lv10": "123.37%",
+            "Name": "Basic Attack Stage 3 DMG"
+          },
+          {
+            "Lv1": "120.70%",
+            "Lv2": "130.60%",
+            "Lv3": "140.50%",
+            "Lv4": "154.36%",
+            "Lv5": "164.25%",
+            "Lv6": "175.64%",
+            "Lv7": "191.47%",
+            "Lv8": "207.31%",
+            "Lv9": "223.14%",
+            "Lv10": "239.97%",
+            "Name": "Dodge Counter DMG"
+          },
+          {
+            "Lv1": "7.23%+65.03%",
+            "Lv2": "7.82%+70.36%",
+            "Lv3": "8.41%+75.69%",
+            "Lv4": "9.24%+83.16%",
+            "Lv5": "9.84%+88.49%",
+            "Lv6": "10.52%+94.62%",
+            "Lv7": "11.47%+103.15%",
+            "Lv8": "12.41%+111.69%",
+            "Lv9": "13.36%+120.22%",
+            "Lv10": "14.37%+129.28%",
+            "Name": "Mid-air Attack DMG"
+          },
+          {
+            "Lv1": "27.95%*2",
+            "Lv2": "30.24%*2",
+            "Lv3": "32.53%*2",
+            "Lv4": "35.74%*2",
+            "Lv5": "38.03%*2",
+            "Lv6": "40.67%*2",
+            "Lv7": "44.33%*2",
+            "Lv8": "48.00%*2",
+            "Lv9": "51.66%*2",
+            "Lv10": "55.56%*2",
+            "Name": "Basic Attack - Spark Collision Lv. 1 DMG"
+          },
+          {
+            "Lv1": "83.84%*2",
+            "Lv2": "90.71%*2",
+            "Lv3": "97.58%*2",
+            "Lv4": "107.21%*2",
+            "Lv5": "114.08%*2",
+            "Lv6": "121.99%*2",
+            "Lv7": "132.99%*2",
+            "Lv8": "143.99%*2",
+            "Lv9": "154.98%*2",
+            "Lv10": "166.67%*2",
+            "Name": "Basic Attack - Spark Collision Lv. 2 DMG"
+          },
+          {
+            "Lv1": "139.72%*2",
+            "Lv2": "151.18%*2",
+            "Lv3": "162.64%*2",
+            "Lv4": "178.68%*2",
+            "Lv5": "190.13%*2",
+            "Lv6": "203.31%*2",
+            "Lv7": "221.64%*2",
+            "Lv8": "239.97%*2",
+            "Lv9": "258.30%*2",
+            "Lv10": "277.78%*2",
+            "Name": "Basic Attack - Spark Collision Lv. 3 DMG"
+          },
+          {
+            "Lv1": "41.65%",
+            "Lv2": "45.07%",
+            "Lv3": "48.49%",
+            "Lv4": "53.27%",
+            "Lv5": "56.68%",
+            "Lv6": "60.61%",
+            "Lv7": "66.07%",
+            "Lv8": "71.54%",
+            "Lv9": "77.00%",
+            "Lv10": "82.81%",
+            "Name": "Kaleidoscopic Parade - Basic Attack Stage 1 DMG"
+          },
+          {
+            "Lv1": "19.55%*2",
+            "Lv2": "21.16%*2",
+            "Lv3": "22.76%*2",
+            "Lv4": "25.01%*2",
+            "Lv5": "26.61%*2",
+            "Lv6": "28.45%*2",
+            "Lv7": "31.02%*2",
+            "Lv8": "33.58%*2",
+            "Lv9": "36.15%*2",
+            "Lv10": "38.87%*2",
+            "Name": "Kaleidoscopic Parade - Basic Attack Stage 2 DMG"
+          },
+          {
+            "Lv1": "18.99%*3",
+            "Lv2": "20.54%*3",
+            "Lv3": "22.10%*3",
+            "Lv4": "24.28%*3",
+            "Lv5": "25.84%*3",
+            "Lv6": "27.63%*3",
+            "Lv7": "30.12%*3",
+            "Lv8": "32.61%*3",
+            "Lv9": "35.10%*3",
+            "Lv10": "37.75%*3",
+            "Name": "Kaleidoscopic Parade - Basic Attack Stage 3 DMG"
+          },
+          {
+            "Lv1": "14.96%*2+22.44%+22.44%",
+            "Lv2": "16.19%*2+24.29%+24.29%",
+            "Lv3": "17.42%*2+26.13%+26.13%",
+            "Lv4": "19.14%*2+28.70%+28.70%",
+            "Lv5": "20.36%*2+30.54%+30.54%",
+            "Lv6": "21.77%*2+32.66%+32.66%",
+            "Lv7": "23.74%*2+35.60%+35.60%",
+            "Lv8": "25.70%*2+38.55%+38.55%",
+            "Lv9": "27.66%*2+41.49%+41.49%",
+            "Lv10": "29.75%*2+44.62%+44.62%",
+            "Name": "Kaleidoscopic Parade - Basic Attack Stage 4 DMG"
+          },
+          {
+            "Lv1": "38.00%+7.60%*5+50.66%",
+            "Lv2": "41.12%+8.23%*5+54.82%",
+            "Lv3": "44.23%+8.85%*5+58.97%",
+            "Lv4": "48.59%+9.72%*5+64.79%",
+            "Lv5": "51.71%+10.35%*5+68.94%",
+            "Lv6": "55.29%+11.06%*5+73.72%",
+            "Lv7": "60.28%+12.06%*5+80.37%",
+            "Lv8": "65.26%+13.06%*5+87.01%",
+            "Lv9": "70.25%+14.05%*5+93.66%",
+            "Lv10": "75.54%+15.11%*5+100.72%",
+            "Name": "Kaleidoscopic Parade - Basic Attack Stage 5 DMG"
+          },
+          {
+            "Lv1": "92.65%",
+            "Lv2": "100.25%",
+            "Lv3": "107.85%",
+            "Lv4": "118.49%",
+            "Lv5": "126.08%",
+            "Lv6": "134.82%",
+            "Lv7": "146.98%",
+            "Lv8": "159.13%",
+            "Lv9": "171.29%",
+            "Lv10": "184.20%",
+            "Name": "Kaleidoscopic Parade - Dodge Counter"
+          },
+          {
+            "Lv1": "8.87%*7",
+            "Lv2": "9.60%*7",
+            "Lv3": "10.32%*7",
+            "Lv4": "11.34%*7",
+            "Lv5": "12.07%*7",
+            "Lv6": "12.90%*7",
+            "Lv7": "14.07%*7",
+            "Lv8": "15.23%*7",
+            "Lv9": "16.39%*7",
+            "Lv10": "17.63%*7",
+            "Name": "Kaleidoscopic Parade - Ground Heavy Attack DMG"
+          },
+          {
+            "Lv1": "52.70%",
+            "Lv2": "57.03%",
+            "Lv3": "61.35%",
+            "Lv4": "67.40%",
+            "Lv5": "71.72%",
+            "Lv6": "76.69%",
+            "Lv7": "83.60%",
+            "Lv8": "90.52%",
+            "Lv9": "97.43%",
+            "Lv10": "104.78%",
+            "Name": "Kaleidoscopic Parade - Graffiti Blast DMG"
+          },
+          {
+            "Lv1": "7.23%+65.03%",
+            "Lv2": "7.82%+70.36%",
+            "Lv3": "8.41%+75.69%",
+            "Lv4": "9.24%+83.16%",
+            "Lv5": "9.84%+88.49%",
+            "Lv6": "10.52%+94.62%",
+            "Lv7": "11.47%+103.15%",
+            "Lv8": "12.41%+111.69%",
+            "Lv9": "13.36%+120.22%",
+            "Lv10": "14.37%+129.28%",
+            "Name": "Kaleidoscopic Parade - Mid-Air Attack DMG"
+          },
+          {
+            "Lv1": "17.49%*7",
+            "Lv2": "18.92%*7",
+            "Lv3": "20.36%*7",
+            "Lv4": "22.37%*7",
+            "Lv5": "23.80%*7",
+            "Lv6": "25.45%*7",
+            "Lv7": "27.74%*7",
+            "Lv8": "30.04%*7",
+            "Lv9": "32.33%*7",
+            "Lv10": "34.77%*7",
+            "Name": "Kaleidoscopic Parade - Mid-air Heavy Attack DMG"
+          },
+          {
+            "Lv1": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Lv10": "30",
+            "Name": "Mid-air Attack STA Cost"
+          },
+          {
+            "Lv1": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Lv10": "25",
+            "Name": "Kaleidoscopic Parade - Ground Heavy Attack STA Cost Per Strike"
+          },
+          {
+            "Lv1": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Lv10": "25",
+            "Name": "Kaleidoscopic Parade - Mid-air Heavy Attack STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Lv10": "30",
+            "Name": "Kaleidoscopic Parade - Mid-air Attack STA Cost"
+          }
+        ]
+      },
+      {
+        "name": "Lynae-Style Palettes",
+        "category": "Active",
+        "skill_type": "Resonance Skill",
+        "description": "Lynae-Style PalettesPress Resonance Skill to deal Spectro DMG.While in Kaleidoscopic Parade, hold Resonance Skill to attack the target, dealing Spectro DMG and exiting the Kaleidoscopic Parade.Press Normal Attack within a certain time after this skill to cast Basic Attack Stage 2.Lynae-Style Palettes and Additive Color share a cooldown.Additive ColorDuring Kaleidoscopic Parade, press Resonance Skill on the ground to attack the target, dealing Spectro DMG.Within a certain time after this skill is cast, press Normal Attack to cast Kaleidoscopic Parade - Basic Attack Stage 2.Lynae-Style Palettes and Additive Color share a cooldown.",
+        "multipliers": [
+          {
+            "Lv1": "70.08%+23.36%*3",
+            "Lv2": "75.82%+25.28%*3",
+            "Lv3": "81.57%+27.19%*3",
+            "Lv4": "89.61%+29.87%*3",
+            "Lv5": "95.36%+31.79%*3",
+            "Lv6": "101.97%+33.99%*3",
+            "Lv7": "111.16%+37.06%*3",
+            "Lv8": "120.35%+40.12%*3",
+            "Lv9": "129.55%+43.19%*3",
+            "Lv10": "139.31%+46.44%*3",
+            "Name": "Lynae-Style Palettes DMG"
+          },
+          {
+            "Lv1": "58.50%*2",
+            "Lv2": "63.30%*2",
+            "Lv3": "68.10%*2",
+            "Lv4": "74.81%*2",
+            "Lv5": "79.61%*2",
+            "Lv6": "85.13%*2",
+            "Lv7": "92.80%*2",
+            "Lv8": "100.48%*2",
+            "Lv9": "108.15%*2",
+            "Lv10": "116.31%*2",
+            "Name": "Additive Color DMG"
+          },
+          {
+            "Lv1": "6",
+            "Lv2": "6",
+            "Lv3": "6",
+            "Lv4": "6",
+            "Lv5": "6",
+            "Lv6": "6",
+            "Lv7": "6",
+            "Lv8": "6",
+            "Lv9": "6",
+            "Lv10": "6",
+            "Name": "Lynae-Style Palettes Cooldown"
+          },
+          {
+            "Lv1": "6",
+            "Lv2": "6",
+            "Lv3": "6",
+            "Lv4": "6",
+            "Lv5": "6",
+            "Lv6": "6",
+            "Lv7": "6",
+            "Lv8": "6",
+            "Lv9": "6",
+            "Lv10": "6",
+            "Name": "Additive Color Cooldown"
+          }
+        ]
+      },
+      {
+        "name": "Prismatic Overblast",
+        "category": "Active",
+        "skill_type": "Resonance Liberation",
+        "description": "Deal Spectro DMG. Casting this skill grants all nearby Resonators in the team 24% All DMG Bonus that lasts for 30s.Basic Attack - To a Vivid Tomorrow!Press Normal Attack within a certain time after casting Resonance Liberation - Prismatic Overblast to cast Basic Attack - To a Vivid Tomorrow!, dealing Spectro DMG.",
+        "multipliers": [
+          {
+            "Lv1": "44.00%*10",
+            "Lv2": "47.61%*10",
+            "Lv3": "51.22%*10",
+            "Lv4": "56.27%*10",
+            "Lv5": "59.88%*10",
+            "Lv6": "64.03%*10",
+            "Lv7": "69.80%*10",
+            "Lv8": "75.57%*10",
+            "Lv9": "81.35%*10",
+            "Lv10": "87.48%*10",
+            "Name": "Prismatic Overblast DMG"
+          },
+          {
+            "Lv1": "4.22%*12+5.06%*10",
+            "Lv2": "4.56%*12+5.47%*10",
+            "Lv3": "4.91%*12+5.89%*10",
+            "Lv4": "5.39%*12+6.47%*10",
+            "Lv5": "5.73%*12+6.88%*10",
+            "Lv6": "6.13%*12+7.36%*10",
+            "Lv7": "6.68%*12+8.02%*10",
+            "Lv8": "7.24%*12+8.68%*10",
+            "Lv9": "7.79%*12+9.35%*10",
+            "Lv10": "8.38%*12+10.05%*10",
+            "Name": "Basic Attack - To a Vivid Tomorrow! DMG"
+          },
+          {
+            "Lv1": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Lv10": "20",
+            "Name": "Prismatic Overblast Concerto Regen"
+          },
+          {
+            "Lv1": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Lv10": "25",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Lv10": "125",
+            "Name": "Resonance Energy Cost"
+          }
+        ]
+      },
+      {
+        "name": "Chromaticity Modeling",
+        "category": "Forte Circuit",
+        "skill_type": "Forte Circuit",
+        "description": "Optical Sampling StageLynae is in Optical Sampling Stage by default. While in this state, Overflow recovers during certain skills.Kaleidoscopic ParadeCasting Basic Attack - Spark Collision sends Lynae into Kaleidoscopic Parade. In this state, Lynae continuously recovers Lumiflow while moving on the ground or casting certain skills. Lynae will not Walk during this state, and her Running and Sprinting will be replaced by the faster Free Skating and Speed Skating.Basic Attack - Polychrome LeapWhile in Kaleidoscopic Parade, with at least 1/3 of the max Lumiflow, Jump is replaced by Basic Attack - Polychrome Leap.Consume 1/3 of the max Lumiflow to deal Spectro DMG. Inflict Photochromic Flux on targets hit. Successful Dodges can be triggered within a certain time after casting this skill. While airborne, Basic Attack - Polychrome Leap chains up to 3 stages. Switching to another Resonator resets the combo.While in combat, each stage of Basic Attack - Polychrome Leap cast recovers 1 point of True Color.Within a certain time after Basic Attack - Polychrome Leap Stage 1 press Normal Attack on the ground to cast Kaleidoscopic Parade - Basic Attack Stage 2.Casting Basic Attack - Polychrome Leap Stage 2 also pulls in nearby targets.Basic Attack - Iridescent SplashDuring Kaleidoscopic Parade, when Lynae is in mid-air, holding 3 points of True Color, if Basic Attack - Visual Impact is on cooldown, press Normal Attack or Resonance Skill to deal Spectro DMG, and inflict Photochromic Flux on targets hit.This skill consumes 3 points of True Color.Press Normal Attack within a certain time after this skill to cast Kaleidoscopic Parade - Basic Attack Stage 2Basic Attack - Visual ImpactDuring Kaleidoscopic Parade, when Lynae is in mid-air, holding 3 points of True Color, if this skill is not on cooldown, press Normal Attack or Resonance Skill to deal Spectro DMG, inflicting Photochromic Flux on targets hit.This skill consumes 3 points of True Color and grants all nearby Resonators in the team 40 points of Tune Break Boost for 30s.\nPress Normal Attack within a certain time after this skill to cast Kaleidoscopic Parade - Basic Attack Stage 2Resonance ModeInflict Photochromic Flux when hitting a target with Basic Attack - Polychrome Leap, Basic Attack - Iridescent Splash, Basic Attack - Visual Impact and Intro Skill - Time to Show Some Colors!.Lynae can switch between Resonance Mode - Tune Rupture and Resonance Mode - Tune Strain:When in Resonance Mode - Tune Rupture, Photochromic Flux inflicts Tune Rupture - Shifting on targets for 25s.When in Resonance Mode - Tune Strain, Photochromic Flux inflicts Tune Strain - Shifting on targets for 25s.Tune Rupture Response - Spectral AnalysisDeal an instance of Spectro DMG, considered Tune Rupture DMG, to targets within range affected by Tune Rupture - Interfered.OverflowLynae can hold up to 120 points of Overflow.While in Optical Sampling Stage, Overflow recovers during Basic Attack, Lynae-Style Palettes, Mid-air Attack, and Dodge Counter.When Overflow is full, Basic Attack - Spark Collision becomes available.\nExiting Optical Sampling Stage removes all Overflow.LumiflowLynae can hold up to 120 points of Lumiflow.During Kaleidoscopic Parade:Restore 20% of Lumiflow per second when Lynae is moving on the ground/climbing, or performs a successful Dodge on the ground, or casts Kaleidoscopic Parade - Basic Attack, Kaleidoscopic Parade - Ground Heavy Attack, Kaleidoscopic Parade - Mid-air Heavy Attack, Kaleidoscopic Parade - Dodge Counter, Additive Color, ground Dodge, Intro Skill, or Basic Attack - To a Vivid Tomorrow!.Lumiflow starts to deplete by 20% per second while Lynae is staying still on the ground/climbing/swimming or off the field, or after a certain time after the skills listed above are cast.Lumiflow does not change while Lynae is not in any of the states described above.Exiting Kaleidoscopic Parade removes all Lumiflow.With 120 points of Lumiflow, Lynae's roller skating speed further increases at the cost of STA over time.True ColorLynae can hold up to 3 points of True Color.During combat, each time Basic Attack - Polychrome Leap is cast, gain 1 point of True Color. With 3 points of True Color, Basic Attack - Iridescent Splash and Basic Attack - Visual Impact become available.Exiting Kaleidoscopic Parade removes all True Color.",
+        "multipliers": [
+          {
+            "Lv1": "153.00%",
+            "Lv2": "165.55%",
+            "Lv3": "178.10%",
+            "Lv4": "195.66%",
+            "Lv5": "208.21%",
+            "Lv6": "222.64%",
+            "Lv7": "242.71%",
+            "Lv8": "262.78%",
+            "Lv9": "282.86%",
+            "Lv10": "304.18%",
+            "Name": "Basic Attack - Iridescent Splash DMG"
+          },
+          {
+            "Lv1": "612.00%",
+            "Lv2": "662.19%",
+            "Lv3": "712.37%",
+            "Lv4": "782.63%",
+            "Lv5": "832.81%",
+            "Lv6": "890.53%",
+            "Lv7": "970.82%",
+            "Lv8": "1051.11%",
+            "Lv9": "1131.41%",
+            "Lv10": "1216.72%",
+            "Name": "Basic Attack - Visual Impact DMG"
+          },
+          {
+            "Lv1": "17.00%*3",
+            "Lv2": "18.40%*3",
+            "Lv3": "19.79%*3",
+            "Lv4": "21.74%*3",
+            "Lv5": "23.14%*3",
+            "Lv6": "24.74%*3",
+            "Lv7": "26.97%*3",
+            "Lv8": "29.20%*3",
+            "Lv9": "31.43%*3",
+            "Lv10": "33.80%*3",
+            "Name": "Basic Attack - Polychrome Leap 1"
+          },
+          {
+            "Lv1": "8.50%*6",
+            "Lv2": "9.20%*6",
+            "Lv3": "9.90%*6",
+            "Lv4": "10.87%*6",
+            "Lv5": "11.57%*6",
+            "Lv6": "12.37%*6",
+            "Lv7": "13.49%*6",
+            "Lv8": "14.60%*6",
+            "Lv9": "15.72%*6",
+            "Lv10": "16.90%*6",
+            "Name": "Basic Attack - Polychrome Leap 2"
+          },
+          {
+            "Lv1": "6.59%*8",
+            "Lv2": "7.13%*8",
+            "Lv3": "7.67%*8",
+            "Lv4": "8.43%*8",
+            "Lv5": "8.97%*8",
+            "Lv6": "9.59%*8",
+            "Lv7": "10.45%*8",
+            "Lv8": "11.32%*8",
+            "Lv9": "12.18%*8",
+            "Lv10": "13.10%*8",
+            "Name": "Basic Attack - Polychrome Leap 3"
+          },
+          {
+            "Lv1": "946.00% Tune AMP",
+            "Lv2": "1023.58% Tune AMP",
+            "Lv3": "1101.15% Tune AMP",
+            "Lv4": "1209.75% Tune AMP",
+            "Lv5": "1287.32% Tune AMP",
+            "Lv6": "1376.53% Tune AMP",
+            "Lv7": "1500.64% Tune AMP",
+            "Lv8": "1624.76% Tune AMP",
+            "Lv9": "1748.88% Tune AMP",
+            "Lv10": "1880.75% Tune AMP",
+            "Name": "Tune Rupture Response - Spectral Analysis DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Lv10": "25",
+            "Name": "Basic Attack - Visual Impact Cooldown"
+          },
+          {
+            "Lv1": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Lv10": "10",
+            "Name": "Roller Skating STA Cost Per Sec at Max Overflow"
+          }
+        ]
+      },
+      {
+        "name": "Colors Never Fade!",
+        "category": "Inherent",
+        "skill_type": "Inherent Skill",
+        "description": "After casting Basic Attack - Visual Impact, Lynae leaves Spray Paint on the ground and continuously inflicts Photochromic Flux on targets within the Spray Paint for 5s, triggered once every 2s. When Spray Paint is on the ground, switching to another Resonance Mode doesn't affect the Photochromic Flux effects inflicted by the Spray Paint.With Lynae in the team, the expedition motorbike's Energy Tank expands by 600 points. Lynae enters Kaleidoscopic Parade automatically while on the expedition motorbike and restores 20% of Lumiflow.",
+        "multipliers": []
+      },
+      {
+        "name": "Adaptive Optics: Everyday Applications",
+        "category": "Inherent",
+        "skill_type": "Inherent Skill",
+        "description": "Casting Intro Skill - Time to Show Some Colors! increases Lynae's Spectro DMG by 25% for 9s.During Kaleidoscopic Parade, if Lynae isn't in combat, dodging without directional input grants her Optic Camo for 15s, which will be removed when Lynae casts any skill other than dodging or is switched off the field. Performing environmental, gameplay or functional interactions, or entering combat, removes the Optic Camo. With Optic Camo, Lynae may enter an enemy's aggro range without triggering combat.",
+        "multipliers": []
+      },
+      {
+        "name": "Time to Show Some Colors!",
+        "category": "Transition",
+        "skill_type": "Intro Skill",
+        "description": "Deal Spectro DMG, inflicting Photochromic Flux on targets hit.While in Optical Sampling Stage, casting this skill recovers 100 points of Overflow.",
+        "multipliers": [
+          {
+            "Lv1": "11.31%*10",
+            "Lv2": "12.24%*10",
+            "Lv3": "13.16%*10",
+            "Lv4": "14.46%*10",
+            "Lv5": "15.39%*10",
+            "Lv6": "16.45%*10",
+            "Lv7": "17.94%*10",
+            "Lv8": "19.42%*10",
+            "Lv9": "20.90%*10",
+            "Lv10": "22.48%*10",
+            "Name": "Time to Show Some Colors! DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Lv10": "10",
+            "Name": "Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "Let's Hit the Road!",
+        "category": "Transition",
+        "skill_type": "Outro Skill",
+        "description": "Attack the target and deal 100% Spectro DMG. The next incoming Resonator gain 15% All DMG Amplification and 25% Resonance Liberation DMG Amplification for 14s or until they are switched out.Lynae leaves the Kaleidoscopic Parade state upon casting Outro Skill.",
+        "multipliers": []
+      },
+      {
+        "name": "Spectral Analysis",
+        "category": "Forte Circuit",
+        "skill_type": "Forte Circuit",
+        "description": "Lynae can inflict Tune Rupture - Shifting or Tune Strain - Shifting on targets.Lynae can respond to Tune Rupture - Interfered and Tune Strain - Interfered.Responding to Tune Rupture - Interfered: When any Resonator in the team deals Tune Break DMG and inflicts the Tune Rupture - Interfered state, Lynae casts Tune Rupture Response - Spectral Analysis. Each target can be damaged by this skill up to once every 8s.Responding to Tune Strain - Interfered: For each stack of Tune Strain - Interfered on the target, each point of Lynae's Tune Break Boost increases her total DMG against that target by 0.12%. When Lynae is in the team, the target's max stack limit of Tune Strain - Interfered is increased by 1.When the target's Off-Tuning Level is full, Lynae can cast Tune Break on the target.",
+        "multipliers": [
+          {
+            "Lv1": "946.00%",
+            "Lv2": "1023.58%",
+            "Lv3": "1101.15%",
+            "Lv4": "1209.75%",
+            "Lv5": "1287.32%",
+            "Lv6": "1376.53%",
+            "Lv7": "1500.64%",
+            "Lv8": "1624.76%",
+            "Lv9": "1748.88%",
+            "Lv10": "1880.75%",
+            "Name": "Spectral Analysis - Discorded Tune DMG"
+          }
+        ]
+      }
+    ],
+    "resonance_chain_dupes": [
+      {
+        "node": "S1",
+        "name": "Sequence Node 1",
+        "description": "The DMG Multiplier of Basic Attack - Polychrome Leap is increased by 120%. The duration of Spray Paint is increased by 100%. Targets within the range of Spray Paint are pulled in towards the center every 6s.Lynae is now immune to interruptions during Basic Attack - Polychrome Leap and Basic Attack - Visual Impact.During Optical Sampling Stage, after staying out of combat for 2s, restore 120 points of Overflow."
+      },
+      {
+        "node": "S2",
+        "name": "Sequence Node 2",
+        "description": "Gain 25% All-DMG Amplification.Outro Skill gains the following effect:Casting Outro Skill grants the incoming Resonator 25% All-DMG Amplification for 14s or until the Resonator is switched out."
+      },
+      {
+        "node": "S3",
+        "name": "Sequence Node 3",
+        "description": "The DMG Multiplier of Basic Attack - Visual Impact and Basic Attack - Iridescent Splash is increased by 90%.With Lumiflow ≥ 120 points. Lynae gains 1 stack of Premixed Hue every 1s, up to 25 stacks. Each stack of Premixed Hue increases the Spectro DMG dealt through Additive Color by 55%. No Premixed Hue is gained while casting Additive Color. When Additive Color ends, remove all stacks of Premixed Hue. Lynae loses a stack of Premixed Hue every 0.5s once Lumiflow is below 120 points.While Lynae is out of combat, Premixed Hue regenerates twice as fast and depletes half as fast."
+      },
+      {
+        "node": "S4",
+        "name": "Sequence Node 4",
+        "description": "ATK is increased by 20%."
+      },
+      {
+        "node": "S5",
+        "name": "Sequence Node 5",
+        "description": "The DMG Multiplier of Resonance Liberation - Prismatic Overblast is increased by 70%."
+      },
+      {
+        "node": "S6",
+        "name": "Sequence Node 6",
+        "description": "Each time Kaleidoscopic Parade - Graffiti Blast or Kaleidoscopic Parade - Mid-air Heavy Attack is cast, Lynae gains 1 stack of Color of Soul, up to 3 stacks. Each stack of Color of Soul increases the DMG dealt through Basic Attack - Polychrome Leap and Basic Attack - Visual Impact by 30%. After casting Basic Attack - Polychrome Leap or Basic Attack - Visual Impact, all stacks of Color of Soul are removed.Casting Basic Attack - Polychrome Leap resets the charges of Kaleidoscopic Parade - Mid-air Heavy Attack.Lynae is immune to interruptions and all DMG taken is reduced by 30% during Kaleidoscopic Parade - Mid-air Heavy Attack.Lynae now stays in Kaleidoscopic Parade after casting Outro Skill - Let's Hit the Road!.The Lumiflow upper limit is increased from 120 to 360. At the max limit, Lynae's roller skating speed further increases.If Intro Skill is cast during Kaleidoscopic Parade, restore 120 Lumiflow."
+      }
+    ],
+    "minor_fortes": [
+      {
+        "stat_name": "CRIT Rate",
+        "bonus_value": "+8%"
+      },
+      {
+        "stat_name": "ATK%",
+        "bonus_value": "+12%"
+      }
+    ],
+    "base_stats_lvl_90": {
+      "hp": 979,
+      "atk": 30,
+      "def": 98,
+      "max_energy": 125,
+      "crit_rate": "13%",
+      "crit_dmg": "150%",
+      "healing_bonus": "0%",
+      "elemental_dmg_bonus": "0%"
+    },
+    "upgrade_materials": {
+      "character_ascension": [
+        {
+          "material_name": "Rimewisp",
+          "rarity": "boss",
+          "quantity": 60
+        },
+        {
+          "material_name": "Suncoveter's Reach",
+          "rarity": "specialty",
+          "quantity": 46
+        },
+        {
+          "material_name": "LF Exoswarm Core",
+          "rarity": "common",
+          "quantity": 4
+        },
+        {
+          "material_name": "MF Exoswarm Core",
+          "rarity": "common",
+          "quantity": 12
+        },
+        {
+          "material_name": "HF Exoswarm Core",
+          "rarity": "common",
+          "quantity": 12
+        },
+        {
+          "material_name": "FF Exoswarm Core",
+          "rarity": "common",
+          "quantity": 4
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "Dreamless Feather",
+          "rarity": "weekly_boss",
+          "quantity": 26
+        },
+        {
+          "material_name": "LF Exoswarm Core",
+          "rarity": "common",
+          "quantity": 25
+        },
+        {
+          "material_name": "MF Exoswarm Core",
+          "rarity": "common",
+          "quantity": 28
+        },
+        {
+          "material_name": "HF Exoswarm Core",
+          "rarity": "common",
+          "quantity": 40
+        },
+        {
+          "material_name": "FF Exoswarm Core",
+          "rarity": "common",
+          "quantity": 57
+        },
+        {
+          "material_name": "Incomplete Combustor",
+          "rarity": "skill_material",
+          "quantity": 25
+        },
+        {
+          "material_name": "Aftertune Combustor",
+          "rarity": "skill_material",
+          "quantity": 28
+        },
+        {
+          "material_name": "Remnant Combustor",
+          "rarity": "skill_material",
+          "quantity": 55
+        },
+        {
+          "material_name": "Reverb Combustor",
+          "rarity": "skill_material",
+          "quantity": 67
+        }
+      ]
+    },
+    "voice_actors": {
+      "eng": "",
+      "jpn": "",
+      "cn": "",
+      "kr": ""
+    },
+    "best_weapons": [
+      {
+        "weapon_name": "Spectrum Blaster",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "commentary_details": "Lynae's Signature weapon provides her with a significant boost to her ATK, CRIT Rate and Basic Attack DMG Bonus, while increasing all damage dealt by the team when applying Tune Rupture or Tune Strain. Overall a fantastic choice to buff both personal and team damage at once.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up",
+          "effect_description": "Increases ATK by {0}. Casting Intro Skill or hitting the target with Basic Attack increases the wielder's Basic Attack DMG by {1} for 4s. Each time the wielder inflicts Tune Rupture - Shifting or Tune Strain - Shifting during Basic Attacks, all DMG dealt by Resonators in the team is increased by {2} for 30s, up to 3 stacks. Effects of the same name cannot be stacked."
+        }
+      },
+      {
+        "weapon_name": "Static Mist",
+        "dupe_rank": "R1",
+        "percentage_performance": "81.50%",
+        "commentary_details": "While Static Mist provides noticeably less personal damage than other 5-star weapons, it is generally the best choice on Lynae after her Signature as its passive allows her to buff the Main DPS of the team's ATK which is almost always preferable compared to improving her own personal damage.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Permanent Convene",
+          "effect_description": "Increases Energy Regen by {0}. When Outro Skill is released, increases the switched-in Resonator's ATK by {1}, stacking up to 1 time(s). This effect lasts for 14s."
+        }
+      },
+      {
+        "weapon_name": "Phasic Homogenizer",
+        "dupe_rank": "R1",
+        "percentage_performance": "91.20%",
+        "commentary_details": "An amazing generalist permanently available pistol that can universally improve the wearer's ATK, DMG Bonus and CRIT DMG. Can get close to a lot of character signatures and is overall a must-have for most accounts.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Permanent Convene",
+          "effect_description": "Increases ATK by {0}. When a Resonator in the team casts a Tune Break skill, it grants {1} All-Attribute DMG Bonus to the wielder for 14s."
+        }
+      },
+      {
+        "weapon_name": "The Last Dance",
+        "dupe_rank": "R1",
+        "percentage_performance": "85.00%",
+        "commentary_details": "Mostly an ATK and CRIT DMG stat-stick for Lynae, who barely benefits from this weapon's Skill DMG-increasing effects.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 500,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 72,
+          "source": "Rate-up",
+          "effect_description": "Increases ATK by {0}. Every time Intro Skill or Resonance Liberation is cast, Resonance Skill DMG Bonus increases by {1} for 5s."
+        }
+      },
+      {
+        "weapon_name": "Lux & Umbra",
+        "dupe_rank": "R1",
+        "percentage_performance": "83.80%",
+        "commentary_details": "ATK and CRIT DMG stat-stick for Lynae who cannot benefit from this weapon's Heavy Attack and Echo DMG-focused effects.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Rate-up",
+          "effect_description": "ATK is increased by {0}. Upon dealing Echo Skill DMG, gain {1} Heavy Attack DMG Amplification for 6s. Upon dealing Heavy Attack DMG, gain {1} Echo Skill DMG Amplification for 6s. DMG Amplification on each attack is capped at {1}. While both effects are active, dealing damage ignores {2} of the target's DEF."
+        }
+      },
+      {
+        "weapon_name": "Woodland Aria",
+        "dupe_rank": "R1",
+        "percentage_performance": "82.60%",
+        "commentary_details": "ATK and CRIT Rate stat-stick for Lynae who does not benefit from this weapon's Aero Erosion-focused effects.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 500,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 36,
+          "source": "Rate-up",
+          "effect_description": "ATK is increased by {0}. Inflicting Aero Erosion on the target gives {1} Aero DMG Bonus for 10s. Hitting targets with Aero Erosion reduces their Aero RES by {2} for 20s. Effects of the same name cannot be stacked."
+        }
+      },
+      {
+        "weapon_name": "Solar Flame",
+        "dupe_rank": "R5",
+        "percentage_performance": "70.30%",
+        "commentary_details": "ATK and CRIT Rate stat-stick for Lynae, who does not benefit from this weapon's Heavy ATK DMG-increasing effects.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 412,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.3,
+          "source": "Battle Pass",
+          "effect_description": "Dealing Basic Attack or Heavy Attack DMG increases ATK by {0} and grants {0} Heavy Attack DMG Bonus for 7s, stacking up to 4 times. This effect can be triggered 1 time every 1s."
+        }
+      },
+      {
+        "weapon_name": "Relativistic Jet",
+        "dupe_rank": "R5",
+        "percentage_performance": "68.80%",
+        "commentary_details": "Grants a small amount of flat Energy to the wearer, alleviating Energy Regen requirements. Otherwise only provides ATK and no other stats while having lower base ATK than 5-star weapons. Generally good 4-star, but will not outclass 5-star weapons.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 462,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Gacha",
+          "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s."
+        }
+      },
+      {
+        "weapon_name": "Pistols#26",
+        "dupe_rank": "R5",
+        "percentage_performance": "68.50%",
+        "commentary_details": "Strongest no-gacha weapon for most pistol users, granting extra ATK to the wearer practically permanently so long as they don't take any damage. Generally inferior to all above options as it only grants ATK and nothing else.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 387,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "Synthesis",
+          "effect_description": "When the Resonator takes no damage, increases ATK by {0} every 5s, stacking up to 2 time(s). This effect lasts for 8s. When the Resonator takes damage, reduces the number of stacks by 1 and restores their HP by {1}."
+        }
+      }
+    ],
+    "best_echo_sets": [
+      {
+        "set_name": "Pact of Neonlight Leap",
+        "percentage_performance": "1",
+        "commentary": "The best Support set specifically made for Lynae that provides a total of 30% ATK (and an extra 10% DMG Bonus via the Main Echo) to the next character Lynae uses her Outro on. Amazing set to buff your Main DPS by massive amounts.",
+        "main_echo_options": [
+          {
+            "echo_name": "Hyvatia",
+            "echo_commentary": "Simple summon Echo with the special property of giving an extra 10% DMG Bonus to the next character switched into via an Outro. Sacrifices small amounts of personal damage usually seen in Main Echoes for extra damage increase to the DPS, which is highly preferred by buff-focused characters."
+          }
+        ]
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ],
+        "cost_3": [
+          "Spectro DMG",
+          "Spectro DMG > ATK%"
+        ],
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%",
+        "ATK  Basic Attack DMG%"
+      ]
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 12000+",
+      "DEF: 1150+",
+      "ATK: 2000-2200+",
+      "CRIT Rate: 50-80%+",
+      "CRIT DMG: 250-280%+",
+      "Energy Regen: 115-130%+Lower end was estimated in a team with Iuno+Ciaccona, higher end was estimated in a team with Xiangli Yao+Shorekeeper. Lynae is, however, very flexible teams-wise, so Energy requirements are highly variable - please keep this in mind.",
+      "Spectro DMG Bonus: 40-70%+"
+    ],
+    "skill_upgrade_priority": {
+      "order": [
+        "Forte Circuit",
+        "Res. Liberation",
+        "Basic Attack",
+        "Res. Skill",
+        "Intro Skill"
+      ],
+      "commentary": "Skill and Intro can be skipped when levelling to save on resources at a minimal damage loss."
+    },
+    "rotations": [
+      {
+        "rotation_name": "Standard Rotation",
+        "steps": [
+          "Intro (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Skill: Lynae-Style Palettes",
+          "Heavy: Spark Collision (Full Charge) (Cancel animation endlag via Jump)",
+          "Jump: Polychrome Leap (3 Times)",
+          "Basic: Mid-air Attack: Visual Impact",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "S6 Rotation",
+        "steps": [
+          "Intro",
+          "Heavy: Ground Heavy Attack (2 Times)",
+          "(Release) Graffiti Blast",
+          "Skill: Additive Color",
+          "Jump: Polychrome Leap (3 Times)",
+          "Heavy: Mid-air Heavy Attack (Interrupt via Mid-air Attack around 5 hits)",
+          "Basic: Mid-air Attack: Visual Impact",
+          "Ultimate",
+          "Outro"
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "aemeath",
+          "hiyuki",
+          "iuno",
+          "yangyang-xuanling"
+        ],
+        "commentary": "Lynae pairs best with Liberation damage dealers who can make full use of her Outro. Aemeath is by far the best choice, she perfectly synergizes with every element of Lynae's kit and makes for an overwhelmingly strong team composition. While Hiyuki doesn't have full synergy with Lynae, paired with Chisa the team can match Aemeath in power. Iuno is also a really strong character in this role too, dealing a ton of Liberation damage. In fact, Lynae buffs Iuno so well that it's enough to make her one of the best singletarget DPS characters in the game; however Lynae is also one of the premium choices for yangyang-xuanling even if her Outro isn't fully taken advantage of, by virtue of her generalist buffs alone."
+      },
+      {
+        "characters": [
+          "phoebe",
+          "carlotta",
+          "camellya"
+        ],
+        "commentary": "Lynae is the best generalist Hybrid character in the game, and this means she's also the best buffer for quite a lot of characters that wouldn't immediately come to mind. Phoebe as a DPS doesn't have any dedicated partners but Lynae is perfect for her since general buffs are what she wants to cover her numerous damage types; Carlotta and Camellya on the other hand already have dedicated buffers but their kits don't provide as much buffing strength as Lynae, which can make her slightly better when properly built for damage."
+      },
+      {
+        "characters": [
+          "mornye",
+          "the-shorekeeper",
+          "verina"
+        ],
+        "commentary": "These 3 are the best generalist Supports in the game. Mornye has a special synergy with Lynae since Lynae can apply Tune Rupture/Strain for Mornye to respond to them and provide her full array of buffs, making her the best choice generally. Shorekeeper is however a close second thanks to her massive CRIT buffs and other generalist buffs, then Verina is the most accessible and still very strong option if neither are available."
+      }
+    ],
+    "example_teams": [
+      {
+        "team_name": "Best Team",
+        "slot_1": {
+          "character_name": "aemeath",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "lynae",
+          "alternatives": []
+        },
+        "slot_3": {
+          "character_name": "mornye",
+          "alternatives": []
+        },
+        "team_notes": "Lynae & Mornye can go with close to any damage dealer, only exceptions being Zani & Cartethyia."
+      },
+      {
+        "team_name": "Lynae + Chisa",
+        "slot_1": {
+          "character_name": "hiyuki, aemeath, yangyang-xuanling",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "lynae",
+          "alternatives": []
+        },
+        "slot_3": {
+          "character_name": "chisa",
+          "alternatives": []
+        },
+        "team_notes": "Hiyuki can get close to Aemeath teams in power thanks to Chisa and Hiyuki's super high base damage. However, Aemeath on Fusion Burst in this team is much weaker than the Rupture team we listed above."
+      },
+      {
+        "team_name": "Alternative Liberation Teams",
+        "slot_1": {
+          "character_name": "hiyuki, iuno, xiangli-yao, calcharo",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "lynae",
+          "alternatives": []
+        },
+        "slot_3": {
+          "character_name": "mornye",
+          "alternatives": [
+            "the-shorekeeper",
+            "verina"
+          ]
+        },
+        "team_notes": "Ciaccona is also an option for the third slot alongside Iuno in specific."
+      },
+      {
+        "team_name": "Other Alternative Teams",
+        "slot_1": {
+          "character_name": "carlotta, camellya",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "lynae",
+          "alternatives": []
+        },
+        "slot_3": {
+          "character_name": "mornye",
+          "alternatives": [
+            "the-shorekeeper",
+            "verina"
+          ]
+        },
+        "team_notes": ""
+      },
+      {
+        "team_name": "Phoebe Team",
+        "slot_1": {
+          "character_name": "phoebe",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "lynae",
+          "alternatives": []
+        },
+        "slot_3": {
+          "character_name": "rover-spectro",
+          "alternatives": []
+        },
+        "team_notes": ""
+      }
+    ]
+  }
+}

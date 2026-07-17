@@ -1,0 +1,1194 @@
+{
+  "status": "success",
+  "data": {
+    "character_metadata": {
+      "name": "Chisa",
+      "slug": "chisa",
+      "rarity_stars": 5,
+      "element": "Havoc",
+      "weapon_type": "Broadblade",
+      "breadcrumb": [
+        "Wuthering Waves",
+        "Characters",
+        "Chisa"
+      ],
+      "updates": {
+        "last_updated": "10/July/2026",
+        "last_review_patch": "2.8",
+        "last_major_build_patch": "3.5",
+        "last_profile_update": "10/July/2026"
+      }
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tier": "T0",
+          "tags": [
+            "Bane",
+            "Sustain",
+            "Gather"
+          ]
+        },
+        "whimpering_wastes": {
+          "tier": "T0",
+          "tags": [
+            "Bane",
+            "Sustain",
+            "Gather"
+          ]
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T0"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T0.5"
+        }
+      }
+    },
+    "media": {
+      "youtube_guide_embed_url": "https://www.youtube.com/embed/2oxhbOqbtnw",
+      "youtube_guide_full_url": "https://www.youtube.com/watch?v=2oxhbOqbtnw",
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/chisa_full.webp"
+    },
+    "pros_and_cons": {
+      "pros": [
+        "Is a top-tier Support for a ton of teams since the Negative Status archetype is currently extremely prominent within the meta;",
+        "Extremely quickswap-friendly, has lots of animations that can put her personal damage to use since its usual cost of high rotation time is negated;",
+        "Has grouping, healing and shielding capabilities greatly facilitating her use;",
+        "Provides a very unique form of damage increase via DEF Shred/DEF Ignore which works well for all types of damage in the game, including Negative Status."
+      ],
+      "cons": [
+        "Needs her Signature weapon to stand out from Aero Rover in the Cartethyia team;",
+        "The majority of her buffs exist in the form of Negative Status (weak effects in multi-wave content) or only function on Negative Status appliers (Signature) and/or damage dealers (DEF Ignore). This restricts Chisa's use-case to Negative Status teams and she has no reason to be used outside of them;",
+        "Her rotation is really long for a Support and doesn't justify her personal damage, even if on the higher-end for Supports. This is, however, negated in Quickswap."
+      ]
+    },
+    "review": {
+      "summary": "Chisa is a 5-star Havoc Broadblade Negative Status-oriented Support serving as the third slot teammate to Negative Status teams, capable of applying Havoc Bane which provides DEF Shred on the enemy, alongside extra DEF Ignore and DMG Bonus buffs for Negative Status teammates, as well as being able to increase the stack count of all Negative Statuses applied on enemies. Functional in single-target and AoE via grouping and multi-wave Negative Status application, while also having healing and a modicum of personal damage, Chisa presents herself as a generalist Support for Negative Status teams.",
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Chisa is a 5-star Havoc Broadblade Negative Status-oriented Support serving as the third slot teammate to Negative Status teams, capable of applying Havoc Bane which provides DEF Shred on the enemy, alongside extra DEF Ignore and DMG Bonus buffs for Negative Status teammates, as well as being able to increase the stack count of all Negative Statuses applied on enemies. Functional in single-target and AoE via grouping and multi-wave Negative Status application, while also having healing and a modicum of personal damage, Chisa presents herself as a generalist Support for Negative Status teams."
+          ]
+        },
+        {
+          "heading": "Key Mechanics - Who does Chisa buff and how?",
+          "paragraphs": [
+            "Chisa is capable of providing a specialized array of buffs for Negative Status-oriented team members, with a modicum of generally applicable damage increases, as follows:",
+            "Unseen Snare: Enables Chisa to apply Havoc Bane to enemies every 2s, and allows allies with Thread of Bane to ignore 18% of the afflicted enemy's DEF.",
+            "Havoc Bane: Up to 12% DEF Shred at 6 stacks. Applied to the enemy by Chisa every 2s in the Unseen Snare status.",
+            "Thread of Bane: Provides 18% DEF Ignore to any character who applies a Negative Status on the enemy or inflicts Negative Status damage. Provides nothing to any characters who do not fulfill either condition.",
+            "Signature Weapon (Kumokiri): Provides 24% general DMG Bonus to any character who inflicts a Negative Status on the enemy. Provides nothing to any character who does not fulfill this condition.",
+            "Outro: Allows any character who damages any enemy to increase the maximum applicable stacks of any Negative Status and Electro Rage by 3.",
+            "All of these buffs will be permanently active in battle, assuming any given character in the team can fulfill all activation conditions and the rotation lasts 30s or less (which is over the standard for any viable team in the game, generally around 25 to 28s). Also, all of her buffs and debuffs have mechanics intended to make them still applicable across several waves of enemies on Negative Status characters (but the ramp-up time across several waves of enemies still does make it less effective than in single-target encounters).",
+            "What's important to note here is that almost all of these buffs either only pertain to Negative Status or only apply to characters who can inflict their own Negative Status/deal Negative Status type damage during their own rotation. Buffs will NOT apply if the character who wants to receive the majority of Chisa's buffs is not able to fulfill these conditions by themselves. This makes most of Chisa's kit not functional in any non-Negative Status teams. Ideally, the whole team has to apply their own Negative Status for Chisa to function at her maximum potential.",
+            "In other words, Chisa only functions in Negative Status-focused teams, and her use case as a generalist Support for non-Negative Status teams is nonexistent since even free characters like Baizhi can fulfill that role better. Additionally, her personal damage is too low to allow her to function effectively as a DPS.",
+            "It's also worth noting her kit provides DEF Ignore (18%) and DEF Shred (12% at max Havoc Bane). Aside from the difference that Ignore is character-applied and Shred is enemy-applied, they function as different parts of the enemy DEF calculation. In the case of DEF reduction, it becomes more effective the more of it is reduced (similarly to RES reduction), so this actually works against Chisa since 30% Ignore or 30% Shred would actually shred more of the enemy's DEF than the 18% Ignore and 12% Shred that she has.",
+            "However, enemy DEF is one of the few parameters that influence direct Negative Status damage (damage from ticks of Spectro Frazzle/Aero Erosion for example). Chisa's unique ability to provide this DEF reduction suggests that she works with direct Negative Status damage dealers much more effectively than other Supports.",
+            "Lastly, her Forte Gauge called Ring of Chainsaw is the core of her own rotation. When her Forte Gauge is filled, she gains access to an Enhanced Skill where she gains access to Enhanced Chainsaw Basic Attacks, which will conclude her rotation once the final attack has been cast, called Eradication. There are several ways to achieve this, but simply tapping Basic Attack during this state and then Swap Cancelling the last attack has proven to be most efficient to minimize rotation time costs."
+          ]
+        },
+        {
+          "heading": "Attacks used in her rotations and their effects",
+          "paragraphs": [
+            "Chisa is mostly a Basic Attack-focused character with similar gameplay to characters like Galbrena and Lupa, so she will feel very familiar to players already used to those characters. This is because her Ultimate, Skill and Intro are all used once per rotation (or twice for her Skill in her Opener since an Intro is lacking) and other than that she only ever wants to press Basic Attack as her main rotation input.",
+            "A typical loop rotation will have her use her Intro for some damage and it immediately allows her to transition into Basic Attack 2. It also triggers the part of her Inherent Passive 2 which grants her 20% Havoc DMG and Healing Bonus for her rotation.",
+            "She then follows with some of her 5-part Basic Attack with her Basic Attack 2, 3 (also called Rending Lunge), and 4 (called Death Snip). Her Basic Attack 5 (called Thread Withdrawn) is not necessary to fulfill her Forte Gauge on loop and is hence skippable, but will be utilized in the Opener.",
+            "Since her Forte Gauge is almost full, she can cancel the animation endlag via her Ultimate, which deals a good amount of damage, provides a good amount of healing to the entire team and restores some Forte while enhancing the damage of her Chainsaw Attacks. Finally, she can then cast her enhanced Skill called Serrated Loop, cast her Chainsaw Basic Attacks until she casts the last one, Eradication, that she can Swap Cancel out of as soon as it is cast (this concludes her rotation).",
+            "For special effects, Death Snip has an additional DMG multiplier that can be obtained by pressing Basic Attack again a couple of times during the cast, so make sure to do this during the Opener where it's utilized and mandatory. It also provides some healing to the team. Additionally, her Eradication attack gains a boost of damage depending on how much Forte Gauge is consumed and provides a sizable Shield to the entire team, reminiscent of Brant's, making her Sustain capabilities quite noteworthy.",
+            "She additionally sports a Dodge Counter which does not get in the way of her rotations that much, whether in her base state or her Chainsaw State; so make use of it if needed."
+          ]
+        },
+        {
+          "heading": "Unused attacks in her rotations",
+          "paragraphs": [
+            "Outside of her Opener, Chisa will never make use of her Base Skill as it generates too little Forte and Concerto Energy to be worthwhile in those scenarios relative to the time spent casting it. Any mid-air Attacks, Heavy Attacks, and her second Forte Gauge called Jetstream are all entirely useless to her rotation and are not worth discussing due to their inefficiency in the context of battle."
+          ]
+        },
+        {
+          "heading": "Meta position & Conclusion",
+          "paragraphs": [
+            "Chisa has settled herself in the meta very well over the past few patches. The Negative Status meta is only growing bigger with Glacio Chafe and Fusion Burst providing two extremely strong synergies for Chisa where Shorekeeper and Verina can't just replace her. She has the issue of being less valuable for Cartethyia's team as she requires her Signature to stand out from Aero Rover, but with that being said, she does provide a higher ceiling to the team, particularly in quickswap. Her slots in the Glacio Chafe and Fusion Burst teams are also not contested.",
+            "Even still, Chisa's value is partially hindered in Whimpering Wastes where enemies are defeated quicker than her Havoc Bane can fully apply, whereas comparatively, other Supports like Aero Rover do not struggle with this as they do not apply any Negative Status of their own and are intended to work just as well whether in multiwave or single-target content, which hinders Chisa's pull value outside of Tower of Adversity/Endstate Matrix by a small margin. However, her ability to increase any Negative Status team's damage ceiling substantially via her unique properties like Stack Cap Increase and DEF Shred/Ignore tends to compensate for this flaw.",
+            "In the third slot to Spectro Frazzle teams, Chisa is worse than other options (Shorekeeper or Spectro Rover in a Zani+Phoebe team; Lynae in an Absolution Phoebe team outside of Quickswap). In non-Negative Status teams, as discussed earlier, Chisa does not have access to the majority of her buffs that could give her a modicum of generalist use case, so even characters like Baizhi end up outclassing her as a generalist.",
+            "In conclusion, Chisa has super high performance in a large quantity of teams that dominate the WuWa meta: Hiyuki with Glacio Chafe, Aemeath with Fusion Burst, Cartethyia with Aero Erosion, Absolution Phoebe with Spectro Frazzle in quickswap. In spite of Chisa having no viable meta niche outside of these compositions, she carved out a strong position for herself as the third slot to many Negative Status compositions as of recent, making her one of the top picks in the current WuWa meta."
+          ]
+        }
+      ]
+    },
+    "skills": [
+      {
+        "name": "Reign of Silence",
+        "category": "Active",
+        "skill_type": "Basic Attack",
+        "description": "Basic AttackPerform up to 2 consecutive attacks, dealing Havoc DMG.Press Normal Attack shortly after casting Basic Attack Stage 2 to cast Rending Lunge.Rending LungeDeal Havoc DMG.Press Normal Attack shortly after casting this skill on the ground to cast Death Snip.Use Normal Attack shortly after casting this skill in mid-air to cast Hanging Finality.Death SnipOpen the scissors, dealing Havoc DMG. After a while, the scissors snip, dealing Havoc DMG and restoring HP for all nearby Resonators in the team.Use Normal Attack during this skill to deal additional Havoc DMG. Use Normal Attack again to immediately snip the target.The skill DMG is considered Resonance Liberation DMG.Press Normal Attack shortly after casting Death Snip to cast Thread Withdrawn.Thread WithdrawnDeal Havoc DMG.Can trigger successful Dodges within a certain time after being cast.Heavy AttackLeap into the air and consume STA to attack the target, dealing Havoc DMG.This skill cannot be cast while in Chainsaw Mode.Perform the following actions within a certain time after casting this skill to cast Hanging Finality:Press Normal Attack;Cast Lifethread - Glide and press Normal Attack before landing.Hold Normal Attack before landing after casting Heavy Attack to cast Heavy Attack - Severed Facet.Mid-air AttackConsume STA to perform Plunging Attack, dealing Havoc DMG.While not in Chainsaw Mode, press Normal Attack within a certain time after casting Mid-air Attack to cast Basic Attack Stage 2.Heavy Attack - Severed FacetDeal Havoc DMG.Use Normal Attack within a certain time after casting Heavy Attack - Severed Facet to cast Hanging Finality.If interrupted, Heavy Attack - Severed Facet can be cast again by holding Normal Attack before landing. This effect can be triggered once only before landing.Hanging FinalityConsume STA to perform Plunging Attack, dealing Havoc DMG.Press Normal Attack shortly after casting this skill on the ground to cast Death Snip.Dodge CounterPress Normal Attack right after a successful Dodge to attack the target, dealing Havoc DMG.Press Normal Attack shortly after casting this skill to cast Rending Lunge.Dodge Counter - Eye of Unraveling: RetractionHold Dodge after a successful Dodge on the ground to cast Dodge Counter - Eye of Unraveling: Retraction to attack and Stagnate the target, dealing Havoc DMG.While not in Chainsaw Mode, after casting this skill, Press Normal Attack on the ground or use Normal Attack in mid-air to cast Rending Lunge. This effect is removed when Chisa enters Chainsaw Mode.While in Chainsaw Mode, press Normal Attack shortly after casting this skill to cast Sawring - Blitz Stage 3.",
+        "multipliers": [
+          {
+            "Lv1": "8.40%*2",
+            "Lv2": "9.78%*2",
+            "Lv3": "9.78%*2",
+            "Lv4": "10.75%*2",
+            "Lv5": "11.44%*2",
+            "Lv6": "12.23%*2",
+            "Lv7": "13.33%*2",
+            "Lv8": "14.43%*2",
+            "Lv9": "15.53%*2",
+            "Lv10": "16.71%*2",
+            "Name": "Stage 1 DMG"
+          },
+          {
+            "Lv1": "4.80%+9.60%+33.60%",
+            "Lv2": "5.59%+11.18%+39.12%",
+            "Lv3": "5.59%+11.18%+39.12%",
+            "Lv4": "6.14%+12.28%+42.97%",
+            "Lv5": "6.54%+13.07%+45.73%",
+            "Lv6": "6.99%+13.97%+48.90%",
+            "Lv7": "7.62%+15.23%+53.30%",
+            "Lv8": "8.25%+16.49%+57.71%",
+            "Lv9": "8.88%+17.75%+62.12%",
+            "Lv10": "9.55%+19.09%+66.81%",
+            "Name": "Stage 2 DMG"
+          },
+          {
+            "Lv1": "15.00%+7.50%+52.48%",
+            "Lv2": "17.46%+8.73%+61.09%",
+            "Lv3": "17.46%+8.73%+61.09%",
+            "Lv4": "19.18%+9.59%+67.12%",
+            "Lv5": "20.41%+10.21%+71.42%",
+            "Lv6": "21.82%+10.91%+76.37%",
+            "Lv7": "23.79%+11.90%+83.25%",
+            "Lv8": "25.76%+12.88%+90.14%",
+            "Lv9": "27.72%+13.86%+97.02%",
+            "Lv10": "29.81%+14.91%+104.34%",
+            "Name": "Death Snip DMG"
+          },
+          {
+            "Lv1": "24.03%",
+            "Lv2": "27.98%",
+            "Lv3": "27.98%",
+            "Lv4": "30.73%",
+            "Lv5": "32.71%",
+            "Lv6": "34.97%",
+            "Lv7": "38.12%",
+            "Lv8": "41.28%",
+            "Lv9": "44.43%",
+            "Lv10": "47.78%",
+            "Name": "Death Snip Additional DMG"
+          },
+          {
+            "Lv1": "600+24.00% ATK",
+            "Lv2": "750+25.92% ATK",
+            "Lv3": "750+25.92% ATK",
+            "Lv4": "840+27.36% ATK",
+            "Lv5": "948+29.28% ATK",
+            "Lv6": "1050+31.20% ATK",
+            "Lv7": "1068+34.80% ATK",
+            "Lv8": "1092+38.88% ATK",
+            "Lv9": "1110+43.20% ATK",
+            "Lv10": "1140+50.40% ATK",
+            "Name": "Death Snip Healing"
+          },
+          {
+            "Lv1": "5.11%*2+23.82%",
+            "Lv2": "5.94%*2+27.72%",
+            "Lv3": "5.94%*2+27.72%",
+            "Lv4": "6.53%*2+30.46%",
+            "Lv5": "6.95%*2+32.41%",
+            "Lv6": "7.43%*2+34.66%",
+            "Lv7": "8.10%*2+37.78%",
+            "Lv8": "8.77%*2+40.91%",
+            "Lv9": "9.44%*2+44.03%",
+            "Lv10": "10.15%*2+47.35%",
+            "Name": "Thread Withdrawn DMG"
+          },
+          {
+            "Lv1": "7.61%*4+45.61%",
+            "Lv2": "8.85%*4+53.08%",
+            "Lv3": "8.85%*4+53.08%",
+            "Lv4": "9.72%*4+58.32%",
+            "Lv5": "10.35%*4+62.06%",
+            "Lv6": "11.06%*4+66.36%",
+            "Lv7": "12.06%*4+72.34%",
+            "Lv8": "13.06%*4+78.33%",
+            "Lv9": "14.06%*4+84.31%",
+            "Lv10": "15.11%*4+90.66%",
+            "Name": "Rending Lunge DMG"
+          },
+          {
+            "Lv1": "18.00%*2",
+            "Lv2": "20.96%*2",
+            "Lv3": "20.96%*2",
+            "Lv4": "23.02%*2",
+            "Lv5": "24.50%*2",
+            "Lv6": "26.20%*2",
+            "Lv7": "28.56%*2",
+            "Lv8": "30.92%*2",
+            "Lv9": "33.28%*2",
+            "Lv10": "35.79%*2",
+            "Name": "Heavy Attack DMG"
+          },
+          {
+            "Lv1": "37.20%",
+            "Lv2": "43.31%",
+            "Lv3": "43.31%",
+            "Lv4": "47.58%",
+            "Lv5": "50.63%",
+            "Lv6": "54.13%",
+            "Lv7": "59.02%",
+            "Lv8": "63.90%",
+            "Lv9": "68.78%",
+            "Lv10": "73.96%",
+            "Name": "Mid-air Attack DMG"
+          },
+          {
+            "Lv1": "22.50%*2",
+            "Lv2": "26.19%*2",
+            "Lv3": "26.19%*2",
+            "Lv4": "28.78%*2",
+            "Lv5": "30.62%*2",
+            "Lv6": "32.74%*2",
+            "Lv7": "35.70%*2",
+            "Lv8": "38.65%*2",
+            "Lv9": "41.60%*2",
+            "Lv10": "44.74%*2",
+            "Name": "Severed Facet DMG"
+          },
+          {
+            "Lv1": "6.00%+12.00%*2+30.00%",
+            "Lv2": "6.99%+13.97%*2+34.92%",
+            "Lv3": "6.99%+13.97%*2+34.92%",
+            "Lv4": "7.68%+15.35%*2+38.37%",
+            "Lv5": "8.17%+16.33%*2+40.83%",
+            "Lv6": "8.74%+17.47%*2+43.66%",
+            "Lv7": "9.52%+19.04%*2+47.59%",
+            "Lv8": "10.31%+20.61%*2+51.53%",
+            "Lv9": "11.10%+22.19%*2+55.47%",
+            "Lv10": "11.93%+23.86%*2+59.65%",
+            "Name": "Hanging Finality DMG"
+          },
+          {
+            "Lv1": "12.00%+24.00%+84.00%",
+            "Lv2": "13.97%+27.94%+97.78%",
+            "Lv3": "13.97%+27.94%+97.78%",
+            "Lv4": "15.35%+30.70%+107.42%",
+            "Lv5": "16.33%+32.66%+114.31%",
+            "Lv6": "17.47%+34.93%+122.23%",
+            "Lv7": "19.04%+38.08%+133.25%",
+            "Lv8": "20.61%+41.22%+144.27%",
+            "Lv9": "22.19%+44.37%+155.30%",
+            "Lv10": "23.86%+47.72%+167.01%",
+            "Name": "Dodge Counter DMG"
+          },
+          {
+            "Lv1": "90.00%",
+            "Lv2": "104.76%",
+            "Lv3": "104.76%",
+            "Lv4": "115.10%",
+            "Lv5": "122.48%",
+            "Lv6": "130.96%",
+            "Lv7": "142.77%",
+            "Lv8": "154.58%",
+            "Lv9": "166.39%",
+            "Lv10": "178.93%",
+            "Name": "Eye of Unraveling - Retraction DMG"
+          },
+          {
+            "Lv1": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Lv10": "20",
+            "Name": "Heavy Attack STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Lv10": "30",
+            "Name": "Mid-air Attack STA Cost"
+          },
+          {
+            "Lv1": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Lv10": "10",
+            "Name": "Severed Facet STA Cost"
+          },
+          {
+            "Lv1": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Lv10": "10",
+            "Name": "Hanging Finality STA Cost"
+          }
+        ]
+      },
+      {
+        "name": "Fractured Composition",
+        "category": "Active",
+        "skill_type": "Resonance Skill",
+        "description": "Eye of UnravelingStagnate and deal Havoc DMG.While not in Chainsaw Mode, after casting this skill, press Normal Attack on the ground or use Normal Attack in mid-air to cast Rending Lunge. This effect is removed when Chisa enters Chainsaw Mode.While in Chainsaw Mode and on the ground, press Normal Attack shortly after casting this skill to cast Sawring - Blitz Stage 2.Can be cast in mid-air.Serrated LoopWhile on the ground and Ring of Chainsaw is full, Resonance Skill is replaced with Serrated Loop.\nStagnate targets, and deal Havoc DMG and pull in nearby targets.Casting this skill sends Chisa into Chainsaw Mode and replaces Resonance Skill with Eye of Unraveling.Press Normal Attack shortly after casting this skill to cast Sawring - Blitz Stage 2.Hold Resonance Skill while casting this skill to continuously attack and pull in nearby targets. Release the Resonance Skill button in the duration or keep holding it for a certain period of time to cast Sawring - Blitz Stage 1.",
+        "multipliers": [
+          {
+            "Lv1": "18.00%",
+            "Lv2": "19.48%",
+            "Lv3": "20.96%",
+            "Lv4": "23.02%",
+            "Lv5": "24.50%",
+            "Lv6": "26.20%",
+            "Lv7": "28.56%",
+            "Lv8": "30.92%",
+            "Lv9": "33.28%",
+            "Lv10": "35.79%",
+            "Name": "Eye of Unraveling DMG"
+          },
+          {
+            "Lv1": "8.78%*8",
+            "Lv2": "9.50%*8",
+            "Lv3": "10.22%*8",
+            "Lv4": "11.22%*8",
+            "Lv5": "11.94%*8",
+            "Lv6": "12.77%*8",
+            "Lv7": "13.92%*8",
+            "Lv8": "15.07%*8",
+            "Lv9": "16.22%*8",
+            "Lv10": "17.45%*8",
+            "Name": "Serrated Loop DMG"
+          },
+          {
+            "Lv1": "3.76%*16",
+            "Lv2": "4.06%*16",
+            "Lv3": "4.37%*16",
+            "Lv4": "4.80%*16",
+            "Lv5": "5.11%*16",
+            "Lv6": "5.46%*16",
+            "Lv7": "5.96%*16",
+            "Lv8": "6.45%*16",
+            "Lv9": "6.94%*16",
+            "Lv10": "7.46%*16",
+            "Name": "Serrated Loop Hold DMG"
+          },
+          {
+            "Lv1": "12s",
+            "Lv2": "12s",
+            "Lv3": "12s",
+            "Lv4": "12s",
+            "Lv5": "12s",
+            "Lv6": "12s",
+            "Lv7": "12s",
+            "Lv8": "12s",
+            "Lv9": "12s",
+            "Lv10": "12s",
+            "Name": "Eye of Unraveling Cooldown"
+          }
+        ]
+      },
+      {
+        "name": "Moment of Nihility",
+        "category": "Active",
+        "skill_type": "Resonance Liberation",
+        "description": "Deal Havoc DMG and recover HP for all nearby Resonators in the team.Casting this skill sends Chisa into Woven Myriad - Convergence for 15s.While not in Chainsaw Mode, press Normal Attack shortly after casting this skill to cast Basic Attack Stage 2.Can be cast in mid-air close to the ground.Woven Myriad - ConvergenceThe DMG Multipliers of Sawring - Blitz, Chainsaw Mode - Dodge Counter, and Sawring - Eradication are increased by 120%.The bonus DMG Multiplier for Sawring - Eradication granted by Sawring- Blitz and Chainsaw Mode - Dodge Counter when Ring of Chainsaw is consumed additionally increases by 120%.Casting Sawring - Eradication ends Woven Myriad - Convergence.",
+        "multipliers": [
+          {
+            "Lv1": "480.00%",
+            "Lv2": "519.36%",
+            "Lv3": "558.72%",
+            "Lv4": "613.83%",
+            "Lv5": "653.19%",
+            "Lv6": "698.45%",
+            "Lv7": "761.43%",
+            "Lv8": "824.40%",
+            "Lv9": "887.38%",
+            "Lv10": "954.29%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "1400+56.00% ATK",
+            "Lv2": "1568+58.24% ATK",
+            "Lv3": "1750+60.48% ATK",
+            "Lv4": "1960+63.84% ATK",
+            "Lv5": "2212+68.32% ATK",
+            "Lv6": "2450+72.80% ATK",
+            "Lv7": "2492+81.20% ATK",
+            "Lv8": "2548+90.72% ATK",
+            "Lv9": "2590+100.80% ATK",
+            "Lv10": "2660+117.60% ATK",
+            "Name": "Healing"
+          },
+          {
+            "Lv1": "25s",
+            "Lv2": "25s",
+            "Lv3": "25s",
+            "Lv4": "25s",
+            "Lv5": "25s",
+            "Lv6": "25s",
+            "Lv7": "25s",
+            "Lv8": "25s",
+            "Lv9": "25s",
+            "Lv10": "25s",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Lv10": "125",
+            "Name": "Resonance Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Lv10": "20",
+            "Name": "Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "Sight of Unraveling - Oblivion",
+        "category": "Forte Circuit",
+        "skill_type": "Forte Circuit",
+        "description": "Unseen SnareChisa inflicts Unseen Snare on the target for 30s in the following 4 ways:Hitting a target with Resonance Skill.Hitting a target within a certain period of time after casting Serrated Loop.Hitting a target with Dodge Counter - Eye of Unraveling: Retraction.Locking on to a target.When targets marked by Unseen Snare take direct damage from Resonators, Chisa inflicts 1 stack of Havoc Bane on them. This effect can be triggered up to once every 2s.Thread of BaneWhen dealing damage to targets affected by Unseen Snare, ignore 18% of their DEF.Chainsaw ModeWhile in Chainsaw Mode, Chisa unlocks Sawring - Blitz, Sawring - Eradication, Chainsaw Mode - Dodge Counter.Sawring - Blitz and Chainsaw Mode - Dodge Counter consume Ring of Chainsaw on hit.Sawring - BlitzSawring - Blitz chains up to 3 consecutive attacks, dealing Havoc DMG.Press Normal Attack to start the combo from Sawring - Blitz Stage 1. Hold Normal Attack to start from Sawring - Blitz Stage 2.Hold Normal Attack while casting Sawring - Blitz Stage 2 to continuously attack the target. Sawring - Blitz Stage 2 is automatically followed by Sawring - Blitz Stage 3.While casting Sawring - Blitz Stage 2, release the Normal Attack button or Dodge without directional input to automatically cast Sawring - Blitz Stage 2: Discordance, dealing Havoc DMG. Shortly after casting Sawring - Blitz Stage 2: Discordance, successful Dodges can be triggered.Press Normal Attack shortly after casting Sawring - Blitz Stage 2: Discordance to cast Sawring - Blitz Stage 3.While casting Sawring - Blitz Stage 3, hold Normal Attack to continuously attack the target. Sawring - Blitz Stage 3 is automatically followed by Sawring - Eradication.Release Normal Attack during Sawring - Blitz Stage 3 to automatically cast Sawring - Blitz Stage 3: Falltone, dealing Havoc DMG.Sawring - Blitz DMG is considered Resonance Liberation DMG.Chainsaw Mode - Dodge CounterWhile in Chainsaw Mode, press Normal Attack following a successful Dodge to cast Chainsaw Mode - Dodge Counter, dealing Havoc DMG.Press Normal Attack following Chainsaw Mode - Dodge Counter to cast Sawring - Blitz Stage 3.\nHold Normal Attack while casting Chainsaw Mode - Dodge Counter to sustain the attack. When Chainsaw Mode - Dodge Counter ends, cast Sawring - Blitz Stage 3 automatically.Release the Normal Attack button or Dodge without directional input while casting Chainsaw Mode - Dodge Counter to cast Sawring - Blitz Stage 2: Discordance automatically.Chainsaw Mode - Dodge Counter deals Resonance Liberation DMG.Sawring - EradicationWhile in Chainsaw Mode, Chisa casts Sawring - Eradication in the following 2 ways:Press Normal Attack after casting Sawring - Blitz Stage 3: Falltone.Press Normal Attack after consuming all Ring of Chainsaw with Sawring - Blitz or Chainsaw Mode - Dodge Counter.Attacking targets with Sawring - Eradication deals Havoc DMG and grants Shields to all nearby Resonators in the team for 30s.The skill DMG is considered Resonance Liberation DMG.Every 1 point of Ring of Chainsaw consumed by Sawring - Blitz and Chainsaw Mode - Dodge Counter increases the DMG Multiplier of the next Sawring - Eradication. Up to 100 points will be counted toward this effect.Casting this skill consumes all Ring of Chainsaw and ends Chainsaw Mode.Chainsaw FeverWhile in Chainsaw Mode, Lifethread - Jetstream is replaced with Chainsaw Fever.\nChainsaw Fever is at 100% by default.When Chisa goes on for a period without dealing any damage, Chainsaw Fever will rapidly deplete. Once it reaches 0, Chisa enters the Burnout State and exits Chainsaw Mode.While in Chainsaw Mode, Chisa resets Chainsaw Fever when dealing damage or when casting Resonance Liberation Moment of Nihility, Intro Skill Reverberance - Return and Sawring - Blitz Stage 3: Falltone.While in the Burnout State, Ring of Chainsaw will rapidly deplete. Once it reaches 0, Chisa exits the Burnout State.When in Burnout State, Chisa exits the state upon dealing damage, or casting Resonance Liberation Moment of Nihility and Intro Skill Reverberance - Return.Lifethread - GlideWhen Chisa is not in Chainsaw Mode and has more than 10 points of Lifethread - Jetstream, she can consume 50 points of Lifethread - Jetstream to cast Lifethread - Glide in the following 5 ways:Press Dodge in mid-air before landing after casting Heavy Attack.While in mid-air, press Dodge before landing after casting Resonance Skill Eye of Unraveling or Rending Lunge.Dodge forward shortly after casting Thread Withdrawn.Press Dodge before landing when launched into mid-air.Press Dodge before landing after casting Lifethread - Glide.Casting this skill can pull in nearby enemies marked by Unseen Snare.During the skill, hold Dodge to glide a short distance on the weapon.Can trigger successful Dodges within a certain time after casting this skill.Ring of ChainsawChisa can hold up to 100 points of Ring of Chainsaw.Hitting a target with Normal Attack and Resonance Skill Eye of Unraveling grants Ring of Chainsaw.Casting Resonance Liberation Moment of Nihility grants 40 points of Ring of Chainsaw.Casting Intro Skill Reverberance - Return grants 20 points of Ring of Chainsaw.Lifethread - JetstreamChisa can hold up to 100 points of Lifethread - Jetstream.Chisa continuously obtains Lifethread - Jetstream over time.Chisa obtains 100 points of Lifethread - Jetstream upon defeating a target.Exiting Chainsaw Mode resets Lifethread - Jetstream to the max limit.Chisa cannot obtain Lifethread - Jetstream passively for a short period of time after casting Lifethread - Glide.",
+        "multipliers": [
+          {
+            "Lv1": "5.78%*6",
+            "Lv2": "6.25%*6",
+            "Lv3": "6.73%*6",
+            "Lv4": "7.39%*6",
+            "Lv5": "7.86%*6",
+            "Lv6": "8.41%*6",
+            "Lv7": "9.17%*6",
+            "Lv8": "9.92%*6",
+            "Lv9": "10.68%*6",
+            "Lv10": "11.49%*6",
+            "Name": "Sawring - Blitz Stage 1 DMG"
+          },
+          {
+            "Lv1": "5.35%*8",
+            "Lv2": "5.79%*8",
+            "Lv3": "6.23%*8",
+            "Lv4": "6.85%*8",
+            "Lv5": "7.29%*8",
+            "Lv6": "7.79%*8",
+            "Lv7": "8.49%*8",
+            "Lv8": "9.19%*8",
+            "Lv9": "9.90%*8",
+            "Lv10": "10.64%*8",
+            "Name": "Sawring - Blitz Stage 2 DMG"
+          },
+          {
+            "Lv1": "5.35%*10",
+            "Lv2": "5.79%*10",
+            "Lv3": "6.23%*10",
+            "Lv4": "6.85%*10",
+            "Lv5": "7.29%*10",
+            "Lv6": "7.79%*10",
+            "Lv7": "8.49%*10",
+            "Lv8": "9.19%*10",
+            "Lv9": "9.90%*10",
+            "Lv10": "10.64%*10",
+            "Name": "Sawring - Blitz Stage 2 Hold DMG"
+          },
+          {
+            "Lv1": "1.80%*3",
+            "Lv2": "1.95%*3",
+            "Lv3": "2.10%*3",
+            "Lv4": "2.31%*3",
+            "Lv5": "2.45%*3",
+            "Lv6": "2.62%*3",
+            "Lv7": "2.86%*3",
+            "Lv8": "3.10%*3",
+            "Lv9": "3.33%*3",
+            "Lv10": "3.58%*3",
+            "Name": "Sawring - Blitz Stage 2: Discordance DMG"
+          },
+          {
+            "Lv1": "8.04%*8",
+            "Lv2": "8.70%*8",
+            "Lv3": "9.36%*8",
+            "Lv4": "10.28%*8",
+            "Lv5": "10.94%*8",
+            "Lv6": "11.70%*8",
+            "Lv7": "12.75%*8",
+            "Lv8": "13.81%*8",
+            "Lv9": "14.86%*8",
+            "Lv10": "15.98%*8",
+            "Name": "Sawring - Blitz Stage 3 DMG"
+          },
+          {
+            "Lv1": "8.04%*6",
+            "Lv2": "8.70%*6",
+            "Lv3": "9.36%*6",
+            "Lv4": "10.28%*6",
+            "Lv5": "10.94%*6",
+            "Lv6": "11.70%*6",
+            "Lv7": "12.75%*6",
+            "Lv8": "13.81%*6",
+            "Lv9": "14.86%*6",
+            "Lv10": "15.98%*6",
+            "Name": "Sawring - Blitz Stage 3 Hold DMG"
+          },
+          {
+            "Lv1": "1.80%*3",
+            "Lv2": "1.95%*3",
+            "Lv3": "2.10%*3",
+            "Lv4": "2.31%*3",
+            "Lv5": "2.45%*3",
+            "Lv6": "2.62%*3",
+            "Lv7": "2.86%*3",
+            "Lv8": "3.10%*3",
+            "Lv9": "3.33%*3",
+            "Lv10": "3.58%*3",
+            "Name": "Sawring - Blitz Stage 3: Falltone DMG"
+          },
+          {
+            "Lv1": "5.35%*8",
+            "Lv2": "5.79%*8",
+            "Lv3": "6.23%*8",
+            "Lv4": "6.85%*8",
+            "Lv5": "7.29%*8",
+            "Lv6": "7.79%*8",
+            "Lv7": "8.49%*8",
+            "Lv8": "9.19%*8",
+            "Lv9": "9.90%*8",
+            "Lv10": "10.64%*8",
+            "Name": "Chainsaw Mode - Dodge Counter DMG"
+          },
+          {
+            "Lv1": "5.35%*10",
+            "Lv2": "5.79%*10",
+            "Lv3": "6.23%*10",
+            "Lv4": "6.85%*10",
+            "Lv5": "7.29%*10",
+            "Lv6": "7.79%*10",
+            "Lv7": "8.49%*10",
+            "Lv8": "9.19%*10",
+            "Lv9": "9.90%*10",
+            "Lv10": "10.64%*10",
+            "Name": "Chainsaw Mode - Dodge Counter Hold DMG"
+          },
+          {
+            "Lv1": "25.92%+103.68%",
+            "Lv2": "28.05%+112.19%",
+            "Lv3": "30.18%+120.69%",
+            "Lv4": "33.15%+132.59%",
+            "Lv5": "35.28%+141.09%",
+            "Lv6": "37.72%+150.87%",
+            "Lv7": "41.12%+164.47%",
+            "Lv8": "44.52%+178.08%",
+            "Lv9": "47.92%+191.68%",
+            "Lv10": "51.54%+206.13%",
+            "Name": "Sawring - Eradication DMG"
+          },
+          {
+            "Lv1": "1.30%",
+            "Lv2": "1.42%",
+            "Lv3": "1.52%",
+            "Lv4": "1.67%",
+            "Lv5": "1.78%",
+            "Lv6": "1.89%",
+            "Lv7": "2.07%",
+            "Lv8": "2.24%",
+            "Lv9": "2.40%",
+            "Lv10": "2.59%",
+            "Name": "Bonus DMG Multiplier per Ring of Chainsaw"
+          },
+          {
+            "Lv1": "2000+80.00% ATK",
+            "Lv2": "2240+83.20% ATK",
+            "Lv3": "2500+86.40% ATK",
+            "Lv4": "2800+91.20% ATK",
+            "Lv5": "3160+97.60% ATK",
+            "Lv6": "3500+104.00% ATK",
+            "Lv7": "3560+116.00% ATK",
+            "Lv8": "3640+129.60% ATK",
+            "Lv9": "3700+144.00% ATK",
+            "Lv10": "3800+168.00% ATK",
+            "Name": "Sawring - Eradication Shield"
+          },
+          {
+            "Lv1": "45",
+            "Lv2": "45",
+            "Lv3": "45",
+            "Lv4": "45",
+            "Lv5": "45",
+            "Lv6": "45",
+            "Lv7": "45",
+            "Lv8": "45",
+            "Lv9": "45",
+            "Lv10": "45",
+            "Name": "Sawring - Eradication Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "Inescapable Fate",
+        "category": "Inherent",
+        "skill_type": "Inherent Skill",
+        "description": "When a Resonator in the team defeats a target marked by Unseen Snare, the Cooldown of Chisa's Resonance Skill Eye of Unraveling is reset, triggered up to once every 3s.",
+        "multipliers": []
+      },
+      {
+        "name": "All Ends Here",
+        "category": "Inherent",
+        "skill_type": "Inherent Skill",
+        "description": "Casting Intro Skill Reverberance - Return or Resonance Liberation Moment of Nihility grants 20% Havoc DMG Bonus and 20% Healing Bonus for 12s.When Resonators in the team with Thread of Bane defeat a target marked by Unseen Snare, Chisa gains Sight of Unraveling, lasting 3s.While in Sight of Unraveling, Chisa inflicts Unseen Snare that lasts for 30s on the targets damaged by Resonators in the team with Thread of Bane.",
+        "multipliers": []
+      },
+      {
+        "name": "Reverberance - Return",
+        "category": "Transition",
+        "skill_type": "Intro Skill",
+        "description": "Attack the target, dealing Havoc DMG.While not in Chainsaw Mode, press Normal Attack shortly after casting this skill to cast Basic Attack Stage 2.While in Chainsaw Mode, use Normal Attack shortly after casting this skill to cast Sawring - Blitz Stage 2.",
+        "multipliers": [
+          {
+            "Lv1": "48.00%",
+            "Lv2": "51.94%",
+            "Lv3": "55.88%",
+            "Lv4": "61.39%",
+            "Lv5": "65.32%",
+            "Lv6": "69.85%",
+            "Lv7": "76.15%",
+            "Lv8": "82.44%",
+            "Lv9": "88.74%",
+            "Lv10": "95.43%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Lv10": "10",
+            "Name": "Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "Unraveling - Law Zero",
+        "category": "Transition",
+        "skill_type": "Outro Skill",
+        "description": "Grant Resonant Thread of Closure to all nearby Resonators in the team for 20s.While in Resonant Thread of Closure:When an attack hits, increase the max stacks of Negative Status and Electro Rage the target can receive by 3 for 15s. Unstackable.Inflicting Negative Status or dealing Negative Status DMG grants Thread of Bane for 15s.",
+        "multipliers": []
+      }
+    ],
+    "resonance_chain_dupes": [
+      {
+        "node": "S1",
+        "name": "Sequence Node 1",
+        "description": "Chisa is immune to interruption during Sawring - Blitz, Sawring - Eradication, and Chainsaw Mode - Dodge CounterInflicting Unseen Snare grants the following additional effects:Chisa's ATK is increased by 30% for 15s.Deal fixed 61803 points of Havoc DMG. The target's HP can be reduced to 61.80% at most and each target can take this damage only once. This instance of damage is considered Basic Attack DMG that does not bear any effect from damage bonuses."
+      },
+      {
+        "node": "S2",
+        "name": "Sequence Node 2",
+        "description": "Ignore 10% of the target's Havoc RES when dealing damage.Nearby Resonators in the team with Thread of Bane gain 50% All-Attribute DMG Bonus."
+      },
+      {
+        "node": "S3",
+        "name": "Sequence Node 3",
+        "description": "The DMG Multipliers of Sawring - Blitz, Chainsaw Mode - Dodge Counter and Sawring - Eradication are increased by 120%. This effect is mutually stackable with that of Woven Myriad - Convergence.The bonus DMG Multiplier for Sawring - Eradication granted by Sawring- Blitz and Chainsaw Mode - Dodge Counter when Ring of Chainsaw is consumed is increased by 120%. This effect is mutually stackable with that of Woven Myriad - Convergence.The Vibration Strength Reduction Rate of Sawring - Blitz, Chainsaw Mode - Dodge Counter and Sawring - Eradication is increased by 50%."
+      },
+      {
+        "node": "S4",
+        "name": "Sequence Node 4",
+        "description": "The effect of Unseen Snare becomes: When targets marked by Unseen Snare take direct damage from Resonators, Chisa inflicts 1 stack of Havoc Bane on them. This effect is triggered up to once every 1s."
+      },
+      {
+        "node": "S5",
+        "name": "Sequence Node 5",
+        "description": "Resonance Liberation Moment of Nihility gains 100% DMG Bonus.Lifethread - Glide costs 50% less Lifethread - Jetstream."
+      },
+      {
+        "node": "S6",
+        "name": "Sequence Node 6",
+        "description": "When Chisa takes a fatal blow during Sawring - Blitz, Sawring - Eradication, and Chainsaw Mode - Dodge Counter, she will remain standing with at least 1 HP.Unseen Snare becomes Unseen Snare - Finality, which has the following effects:Unseen Snare - Finality has all the effects of Unseen Snare.Targets affected by Unseen Snare - Finality takes 30% Amplified DMG from Negative Statuses.Targets affected by Unseen Snare - Finality takes 40% increased DMG from Chisa."
+      }
+    ],
+    "minor_fortes": [
+      {
+        "stat_name": "CRIT Rate",
+        "bonus_value": "+8%"
+      },
+      {
+        "stat_name": "ATK%",
+        "bonus_value": "+12%"
+      }
+    ],
+    "base_stats_lvl_90": {
+      "hp": 862,
+      "atk": 35,
+      "def": 93,
+      "max_energy": 125,
+      "crit_rate": "13%",
+      "crit_dmg": "150%",
+      "healing_bonus": "0%",
+      "elemental_dmg_bonus": "0%"
+    },
+    "upgrade_materials": {
+      "character_ascension": [
+        {
+          "material_name": "Summer Flower",
+          "rarity": "boss",
+          "quantity": 60
+        },
+        {
+          "material_name": "Abyssal Husk",
+          "rarity": "specialty",
+          "quantity": 46
+        },
+        {
+          "material_name": "LF Polygon Core",
+          "rarity": "common",
+          "quantity": 4
+        },
+        {
+          "material_name": "MF Polygon Core",
+          "rarity": "common",
+          "quantity": 12
+        },
+        {
+          "material_name": "HF Polygon Core",
+          "rarity": "common",
+          "quantity": 12
+        },
+        {
+          "material_name": "FF Polygon Core",
+          "rarity": "common",
+          "quantity": 4
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "When Irises Bloom",
+          "rarity": "weekly_boss",
+          "quantity": 26
+        },
+        {
+          "material_name": "LF Polygon Core",
+          "rarity": "common",
+          "quantity": 25
+        },
+        {
+          "material_name": "MF Polygon Core",
+          "rarity": "common",
+          "quantity": 28
+        },
+        {
+          "material_name": "HF Polygon Core",
+          "rarity": "common",
+          "quantity": 40
+        },
+        {
+          "material_name": "FF Polygon Core",
+          "rarity": "common",
+          "quantity": 57
+        },
+        {
+          "material_name": "Waveworn Residue 210",
+          "rarity": "skill_material",
+          "quantity": 25
+        },
+        {
+          "material_name": "Waveworn Residue 226",
+          "rarity": "skill_material",
+          "quantity": 28
+        },
+        {
+          "material_name": "Waveworn Residue 235",
+          "rarity": "skill_material",
+          "quantity": 55
+        },
+        {
+          "material_name": "Waveworn Residue 239",
+          "rarity": "skill_material",
+          "quantity": 67
+        }
+      ]
+    },
+    "voice_actors": {
+      "eng": "",
+      "jpn": "",
+      "cn": "",
+      "kr": ""
+    },
+    "best_weapons": [
+      {
+        "weapon_name": "Kumokiri",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "commentary_details": "Chisa's weapon is naturally her best as it plays into her kit, fully stacking and utilizing the 24% Liberation DMG Bonus from the passive and also enabling other Negative Status appliers in the team to gain another 24% DMG Bonus when they apply their own Negative Status. This does not work with Zani but works fine with all other Negative Status characters, including Chisa herself.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 500,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 36,
+          "source": "Rate-up",
+          "effect_description": "ATK is increased by {0}. When the wielder casts Intro Skill or inflicts Negative Statuses, they gain {1} Resonance Liberation DMG Bonus, stacking up to 3 times for 15s. At max stacks, when Resonators in the team inflict Negative Statuses, they gain  {2} All-Attribute DMG Bonus for 15s. Effects of the same name cannot be stacked."
+        }
+      },
+      {
+        "weapon_name": "Wildfire Mark",
+        "dupe_rank": "R1",
+        "percentage_performance": "88.40%",
+        "commentary_details": "Lupa's Signature plays well into Chisa's kit since it grants her high damaging stats and a Resonance Liberation DMG Bonus which allows her to retain good personal damage. However, she does lose out on any team buffing potential with this weapon.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Rate-up",
+          "effect_description": "Increases ATK by {0}. Performing Intro Skill or Resonance Liberation increases Resonance Liberation DMG by {1} for 6s. Dealing Heavy Attack DMG extends this effect by 4s, up to 1 time. Each successful extension gives {1} Fusion DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked."
+        }
+      },
+      {
+        "weapon_name": "Ages of Harvest",
+        "dupe_rank": "R1",
+        "percentage_performance": "82.10%",
+        "commentary_details": "Simple ATK, DMG Bonus and CRIT Rate stat-stick for Chisa who barely benefits from this weapon's Skill DMG-increasing effects.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Gacha",
+          "effect_description": "Grants {0} Attribute DMG Bonus. Casting Intro Skill gives the equipper Ageless Marking, which grants {1} Resonance Skill DMG Bonus for 12s. Casting Resonance Skill gives the equipper Ethereal Endowment, which grants {1} Resonance Skill DMG Bonus for 12s."
+        }
+      },
+      {
+        "weapon_name": "Verdant Summit",
+        "dupe_rank": "R1",
+        "percentage_performance": "81.50%",
+        "commentary_details": "Simple ATK, DMG Bonus and CRIT DMG stat-stick for Chisa who barely benefits from this weapon's Heavy Attack DMG-increasing effects.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Limited",
+          "effect_description": "Increases the DMG Bonus of all Resonance Attributes by {0}. Every time Intro Skill or Resonance Liberation is cast, increases Heavy Attack DMG Bonus by {1}, stacking up to 2 time(s). This effect lasts for 14s."
+        }
+      },
+      {
+        "weapon_name": "Radiance Cleaver",
+        "dupe_rank": "R1",
+        "percentage_performance": "80.00%",
+        "commentary_details": "Simple ATK and CRIT DMG stat-stick for Chisa, the strongest permanently available choice for her.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Permanent Convene",
+          "effect_description": "Increases ATK by {0}. Dealing damage to targets under Tune Strain: Interfered grants {1} Resonance Liberation Bonus for 3s. Retriggering the effect resets its duration."
+        }
+      },
+      {
+        "weapon_name": "Thunderflare Dominion",
+        "dupe_rank": "R1",
+        "percentage_performance": "78.80%",
+        "commentary_details": "Simple ATK and CRIT Rate stat-stick for Chisa who barely benefits from this weapon's Heavy Attack DMG-increasing effects.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 675,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 12.1,
+          "source": "Rate-up",
+          "effect_description": "Increases ATK by {0}. Casting Intro Skill or Resonance Skill increases Heavy Attack DMG by {1} for 15s. Obtaining Shield allows Heavy Attack DMG to ignore {2} of the target's DEF for 7s, stacking up to 5 times. This effect is triggered once every 0.5s"
+        }
+      },
+      {
+        "weapon_name": "Lustrous Razor",
+        "dupe_rank": "R1",
+        "percentage_performance": "75.40%",
+        "commentary_details": "One of the best permanently accessible options for Chisa, which grants her with some much appreciated ATK, Energy Regen and Resonance Liberation DMG Bonus on the passive which she can partially utilize, even if she doesn't fully stack its effect up as it requires multiple Skill casts that she doesn't use in practice.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "Permanent Convene",
+          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases Resonance Liberation DMG by {1}, stacking up to {2} times. This effect lasts for {3}s."
+        }
+      },
+      {
+        "weapon_name": "Autumntrace",
+        "dupe_rank": "R5",
+        "percentage_performance": "69.80%",
+        "commentary_details": "Only worth using over Meditations on Mercy at R5. This Battle Pass exclusive grants a solid CRIT Rate secondary stat but also provides a lot of ATK when dealing Basic or Heavy Attack DMG which Chisa can stack up twice per rotation (four times in the opener). However, due to its low Base ATK compared to any 5-stars, it remains worse than them.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 412,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.2,
+          "source": "Pioneer Podcast",
+          "effect_description": "Increases ATK by {0} upon dealing Basic Attack DMG or Heavy Attack DMG, stacking up to 5 time(s). This effect lasts for 7s and can be triggered 1 time(s) every 1s."
+        }
+      },
+      {
+        "weapon_name": "Meditations on Mercy",
+        "dupe_rank": "R5",
+        "percentage_performance": "69.00%",
+        "commentary_details": "The best no-gacha option for Chisa, this Rinascita craftable provides a lot of ATK which is particularly reinforced when dealing damage to enemies with Negative Statuses applied on them, which Chisa can do by herself. A great 4-star choice for her overall by the sheer amount of ATK it provides.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 462,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Crafting",
+          "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times."
+        }
+      }
+    ],
+    "best_echo_sets": [
+      {
+        "set_name": "Rejuvenating Glow",
+        "percentage_performance": "1",
+        "commentary": "Best overall set for Chisa with the exception of non-ATK scaling teams like the Cartethyia team. Provides 15% ATK to the whole team practically permanently as long as Chisa triggers healing (very easy to achieve via her Ultimate). The usual Main Echo of this set, Fallacy of No Return, further contributes with Energy Regen to the wielder of the set and an increased ATK boost to all party members on cast. Overall the best set to partially buff Chisa's own damage but most importantly increase her teammates', so long as they scale on ATK.",
+        "main_echo_options": [
+          {
+            "echo_name": "Fallacy of No Return",
+            "echo_commentary": "Simple summon Echo that can be cast any time (ideally right before the wielder's Outro), granting 10% ATK to the team for 20s (sufficient for 2 other teammates' rotation times if cast right before Outro) as well as 10% Energy Regen to the wielder to help with Energy requirements."
+          }
+        ]
+      },
+      {
+        "set_name": "Thread of Severed Fate",
+        "percentage_performance": "2",
+        "commentary": "Chisa's best set to maximize her personal damage, which grants her 20% ATK and 30% Liberation DMG Bonus for 5s when applying Havoc Bane. Considering she applies Havoc Bane every 2s all the time and primarily deals Liberation DMG, this set is meant for her.",
+        "main_echo_options": [
+          {
+            "echo_name": "Reminiscence: Threnodian - Leviathan",
+            "echo_commentary": "Increases Havoc DMG and Liberation DMG Bonus by 12% each in the main slot (Chisa's 2 damage types) while also dealing a good amount of cast damage over 4s after casting which is increased if the target has Havoc Bane applied onto them. Ideally animation cancelled by her Ultimate to not lose on time."
+          }
+        ]
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ],
+        "cost_3": [
+          "Havoc DMG",
+          "Havoc DMG ≥ ATK%"
+        ],
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%",
+        "Liberation DMG%",
+        "ATK"
+      ]
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 15000+",
+      "DEF: 1100+",
+      "ATK: 2000-2500+",
+      "CRIT Rate: 65-80%+",
+      "CRIT DMG: 210-255%+",
+      "Energy Regen: 125%+",
+      "Havoc DMG Bonus: 40-70%+"
+    ],
+    "skill_upgrade_priority": {
+      "order": [
+        "Forte Circuit",
+        "Res. Liberation",
+        "Basic Attack",
+        "Res. Skill",
+        "Intro Skill"
+      ],
+      "commentary": "Skill and Intro can be skipped when levelling to save on resources at a minimal damage loss."
+    },
+    "rotations": [
+      {
+        "rotation_name": "Opener Rotation",
+        "steps": [
+          "Basic 1",
+          "Basic 2 (Cancel animation endlag via Skill)",
+          "Skill: Eye of Unraveling",
+          "Basic: Rending Lunge",
+          "Basic: Death Snip Full",
+          "Basic: Thread Withdrawn (Cancel animation on cast via Ultimate)",
+          "Ultimate",
+          "Basic 2 (Cancel animation endlag via Skill)",
+          "Skill: Serrated Loop",
+          "Basic: Sawring Blitz 2",
+          "Basic: Sawring Blitz 3",
+          "Basic: Eradication (Swap)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Loop Rotation",
+        "steps": [
+          "Intro",
+          "Basic 2",
+          "Basic: Rending Lunge",
+          "Basic: Death Snip (Partial animation interruption via Ultimate)",
+          "Ultimate",
+          "Skill: Serrated Loop",
+          "Basic: Sawring Blitz 2",
+          "Basic: Sawring Blitz 3",
+          "Basic: Eradication (Swap)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Additional Tips & Tricks",
+        "steps": [
+          "Any non-Sawring Blitz Basic Attack after the second and Skill: Serrated Loop - optionally Swap Cancellable to manage other characters during Chisa's own rotation.",
+          "Sawring Blitz Basic 3 - Relatively short Swap Cancel window, often used in more complicated quickswap setups by quickly switching in and out of Chisa to weave in quick other character attacks before Eradication and her Outro."
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "yangyang-xuanling",
+          "aemeath",
+          "hiyuki",
+          "cartethyia",
+          "phoebe"
+        ],
+        "commentary": "Chisa is always at her best when buffing Negative Status main damage dealers, due to the way her Outro and Weapon buffs require teammates to apply Negative Statuses in order to use them. By order of current strength, yangyang-xuanling has the highest damage ceiling in the game as of her release. Aemeath is very close when in a full-fledged Fusion Burst team with Denia, but Cartethyia and Hiyuki are also amazing and can get close when team rotations are fully optimized. Phoebe is fine as a fallback option if nothing else is available."
+      }
+    ],
+    "example_teams": [
+      {
+        "team_name": "Team #1: Best Team",
+        "slot_1": {
+          "character_name": "yangyang-xuanling",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "lynae",
+          "alternatives": [
+            "rebecca",
+            "phrolova"
+          ]
+        },
+        "slot_3": {
+          "character_name": "chisa",
+          "alternatives": []
+        },
+        "team_notes": ""
+      },
+      {
+        "team_name": "Team #2: Aemeath Fusion Burst",
+        "slot_1": {
+          "character_name": "aemeath",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "denia",
+          "alternatives": []
+        },
+        "slot_3": {
+          "character_name": "chisa",
+          "alternatives": []
+        },
+        "team_notes": ""
+      },
+      {
+        "team_name": "Team #3: Hiyuki Team",
+        "slot_1": {
+          "character_name": "hiyuki",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "lynae",
+          "alternatives": []
+        },
+        "slot_3": {
+          "character_name": "chisa",
+          "alternatives": []
+        },
+        "team_notes": ""
+      },
+      {
+        "team_name": "Team #4: Cartethyia Team",
+        "slot_1": {
+          "character_name": "cartethyia",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "ciaccona",
+          "alternatives": [
+            "rover-aero"
+          ]
+        },
+        "slot_3": {
+          "character_name": "chisa",
+          "alternatives": []
+        },
+        "team_notes": "Chisa is only stronger than Aero Rover in the third slot with her Signature. Also remember to use Skyfall Severance to convert Havoc Bane into Erosion if you use them with Chisa!"
+      },
+      {
+        "team_name": "Team #5: Phoebe Expert Team",
+        "slot_1": {
+          "character_name": "phoebe",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "rover-spectro",
+          "alternatives": [
+            "ciaccona"
+          ]
+        },
+        "slot_3": {
+          "character_name": "chisa",
+          "alternatives": []
+        },
+        "team_notes": "Chisa is only worthwhile here with heavy investment and quickswap involved. She is otherwise easily outshined by the likes of Lynae and Phrolova. Generally not recommended to most players. Use Ciaccona in Whimpering Wastes, otherwise stick to Spectro Rover."
+      }
+    ]
+  }
+}

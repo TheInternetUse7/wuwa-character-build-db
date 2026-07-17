@@ -1,0 +1,926 @@
+{
+  "status": "success",
+  "data": {
+    "character_metadata": {
+      "name": "Qiuyuan",
+      "slug": "qiuyuan",
+      "rarity_stars": 5,
+      "element": "Aero",
+      "weapon_type": "Sword",
+      "breadcrumb": [
+        "Wuthering Waves",
+        "Characters",
+        "Qiuyuan"
+      ],
+      "updates": {
+        "last_updated": "10/July/2026",
+        "last_review_patch": "2.7",
+        "last_major_build_patch": "2.7",
+        "last_profile_update": "10/July/2026"
+      }
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tier": "T0",
+          "tags": []
+        },
+        "whimpering_wastes": {
+          "tier": "T0",
+          "tags": []
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T0.5"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T0"
+        }
+      }
+    },
+    "media": {
+      "youtube_guide_embed_url": "https://www.youtube.com/embed/-eXFmZmDF4U",
+      "youtube_guide_full_url": "https://www.youtube.com/watch?v=-eXFmZmDF4U",
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/qiuyuan_full.webp"
+    },
+    "pros_and_cons": {
+      "pros": [
+        "Quick rotations, strong specialized buffing, and easy gameplay make for a high-quality buffer;",
+        "The Echo Skill damage niche is currently very strong in the meta (particularly via Sigrika, Phrolova, but also Galbrena), for which Qiuyuan is a buffer of choice;",
+        "Has very good, permanently accessible weapon options, which makes him not as costly as more recent Hybrids that want their weapon for higher personal damage/buffing potential (while this is true for Qiuyuan, the difference is on the lower end, and his Signature ends up easily replaced)."
+      ],
+      "cons": [
+        "Qiuyuan's value is tied to Echo Skill damage dealers until at least S3 (at which point any modern DPS can function amazingly well). His value therefore dies alongside Echo Skill damage dealers', with no guarantee of further maintenance of this niche (like what happened to Coordinated Attacks & Youhu);",
+        "Optimal Echo sets vary between team choices; optimizing his build while wanting to keep him flexible in between his different teams can prove to be expensive on resources;",
+        "Arguably the most inconsistent Hybrid character in the game until S1. Getting interrupted on his Forte Heavy Attack chain happens often, and can ruin his Concerto generation and cause him to not apply all his buffs."
+      ]
+    },
+    "review": {
+      "summary": "Qiuyuan is a 5-star Aero Sword character who focuses on buffing Echo Skill damage and possesses multiple Echo casts. As you can most likely guess, this enables him to function well in Echo Skill-focused teams as a buffer, and indeed, that is his main and most competitive use in the meta. Let's delve into the details of his kit to understand how to make him work:",
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Qiuyuan is a 5-star Aero Sword character who focuses on buffing Echo Skill damage and possesses multiple Echo casts. As you can most likely guess, this enables him to function well in Echo Skill-focused teams as a buffer, and indeed, that is his main and most competitive use in the meta. Let's delve into the details of his kit to understand how to make him work:",
+            "Key Mechanics",
+            "The most important aspect of Qiuyuan's gameplay resides in his Forte gauge called \"Swordster's Soliloquy\". It is separated into three thirds at a value of 200 points each. At 200 points, he acquires enhanced Basic Attacks called Inkwash. At 400 points, he grants a 30% Echo Skill DMG Bonus to the active resonator in the team for 30s, and at 600 points, he gets to cast 3 Forte Heavy Attacks that restore a lot of Concerto Energy, deal good damage, and expend his Forte Gauge, concluding his rotation.",
+            "Since Qiuyuan is a character focused on buffing, he additionally gives teammates up to 30% CRIT DMG from his Ultimate if he is at 65% CRIT Rate or higher. However, this buff and the 30% Echo Skill DMG Bonus from acquiring 400 Forte points both only apply to the active resonator in the party, which means they won't apply to any Coordinated and off-field characters. In Qiuyuan's case, this is most relevant for Phrolova's Hecate. It makes the synergy a bit weaker than it would otherwise, but as we'll discuss later, the synergy between Phrolova and Qiuyuan is very much present regardless of this.",
+            "Lastly, he provides 50% Echo Skill DMG Amplification to the next character that switches in via his Outro for 14s, which expires upon swapping. This is only really relevant for Galbrena and Sigrika in the current meta; his Signature weapon also provides 20% Echo Skill DMG Bonus to the entire team, and he also has 2 Echo sets to provide team buffs in the form of Moonlit Clouds and Law of Harmony.",
+            "Overall, this makes his buffing profile really specialized towards Echo Skill damage, and indeed this will be the team archetype that he plays in."
+          ]
+        },
+        {
+          "heading": "Important Rotation Attacks",
+          "paragraphs": [
+            "Qiuyuan's rotation is very easy to understand simply by reading his kit, as his combos are intended to flow naturally into one another.",
+            "His Intro provides him 400 Forte points and also allows him to directly start his Basic chain from Stage 3. Since he gets 400 Forte from his Intro alone, this makes him cast Enhanced Basic Attacks right away and Stages 3 & 4 of his Inkwash Basic Attacks are enough to get him to the full 600 Forte.",
+            "After that, his Ultimate follows to give himself the 30% CRIT DMG buff on top of dealing a lot of damage and restoring Concerto Energy.",
+            "Since his Forte is full at this point, he can hold Basic Attack to cast his 3 Forte Heavy Attacks and finally finish the rotation with a Swap Cancel of his Echo cast (interrupted by his Outro) if it has an animation like Impermanence Heron to activate its buffs. In the Phrolova team specifically, however, casting it right before his Ultimate to privilege buffing Enhanced Hecate attacks is a better idea, so there is some nuance. And that concludes his rotation, very easy to perform.",
+            "At S3 and higher, his rotation changes as he is allowed to perform a unique Skill in place of his Intro to perform this same rotation a second time. This unlocks a DPS playstyle for him, while still enabling his use of the standard Skill as a buffer by simply holding the Skill input instead of tapping it."
+          ]
+        },
+        {
+          "heading": "Unused parts of his kit",
+          "paragraphs": [
+            "In Qiuyuan's rotation, all of his non-Inkwash Basic Attack-related moves as well as his regular Heavy Attack are all unused. With that being said, after an Intro, Qiuyuan doesn't lose much from having to dodge during his Forte generation phase, so the Dodge Counter isn't bad to exploit when available (provided you aren't busy casting his Forte Heavy Attacks)."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Qiuyuan is in a strong meta position currently, but he is not without his flaws. Due to his lack of personal damage and a rotation that's on the medium-short side, he doesn't perform well as a general buffer in spite of his generalist ability to buff the active party member's CRIT DMG, and outside of S3 enabling strong DPS rotations, he does not have potential as a Main DPS either, unlike Iuno or Brant, for example.",
+            "This makes Qiuyuan somewhat niche, where he'll have a hard time finding a spot on your teams unless you own an Echo Skill damage dealer. However, as it currently stands, the Echo Skill Damage archetype is composed of several very strong meta contenders in terms of DPS right now, and rest assured, Qiuyuan is on the best teams of Sigrika and Phrolova while being very close to Mono Fusion for Galbrena. This is because Qiuyuan's numerous Echo casts and team-wide Echo damage buffing increase Hecate's damage potential by a ton in Phrolova teams (not to mention Qiuyuan benefits from 25% DMG Amplification via Phrolova's Outro), and in teams featuring Galbrena and Sigrika, they fully utilize Qiuyuan's array of buffs, including his Outro and multiple Echo Skill casts, boosting their damage by a massive amount.",
+            "However, this does not come without its downsides. Qiuyuan is currently the strongest choice for these characters, but he is only a choice in these three teams. The issue with that? He is easily replaced by Lupa in a Galbrena team (where Lupa proves stronger alongside Mornye or other Quickswap compositions like Changli for more advanced players), and he is easily replaced in a Phrolova team by Lucilla (if she is played alongside one of Phrolova's many accessible 2nd slots), or at a lower power budget, Roccia, Shorekeeper, even Danjin, and in the Sigrika team he's replaceable by Lucilla in the 2nd slot. Alternatives always exist, and Qiuyuan is hence never necessary, although he is beyond the shadow of a doubt part of Phrolova's best team alongside Lucilla and Sigrika's best team alongside Ciaccona.",
+            "With that being said, he does have his selling points. Qiuyuan does not need his Signature weapon, which makes him less costly than most of his recent Hybrid peers (Lucilla included); he is very easy to pilot and he is the strongest teammate for 2 of the strongest teams in the game right now, Phrolova and Sigrika being the strongest teams in Whimpering Wastes while displaying excellent performance in other endgames too. That alone is more than enough to justify his position in the meta as a Hybrid buffer.",
+            "In conclusion, Qiuyuan is currently in a very strong meta position. Able to work with 3 of the best teams in the game as one of the best team members available, and having no need for a Signature weapon while remaining easy to play, he has a lot going for him. However, he is only limited to these 3 teams because of the nature of his kit focusing on the archetype of Echo Skill damage. Qiuyuan has a niche in which he specializes in and is very strong, and in spite of his low number of use cases, for players looking to improve their Sigrika, Phrolova and/or Galbrena teams, he's definitely worth considering."
+          ]
+        }
+      ]
+    },
+    "skills": [
+      {
+        "name": "Inkwash",
+        "category": "Active",
+        "skill_type": "Basic Attack",
+        "description": "Basic AttackPerform up to 3 consecutive attacks, dealing Aero DMG.Heavy AttackConsume STA to attack the target, dealing Aero DMG. Press Normal Attack within a certain period of time after casting this skill to perform Basic Attack Thus Spoke the Blade: Inkwash Stage 4.Mid-air AttackConsume STA to perform Plunging Attack, dealing Aero DMG.Dodge CounterPress Normal Attack right after a successful Dodge to attack the target, dealing Aero DMG, considered as Heavy Attack.Moments after a Basic Attack or Heavy Attack, Qiuyuan becomes immune to the next instance of DMG he takes and casts Dodge Counter upon being attacked, dealing Aero DMG.",
+        "multipliers": [
+          {
+            "Lv1": "21.00%",
+            "Lv2": "22.73%",
+            "Lv3": "24.45%",
+            "Lv4": "26.86%",
+            "Lv5": "28.58%",
+            "Lv6": "30.56%",
+            "Lv7": "33.32%",
+            "Lv8": "36.07%",
+            "Lv9": "38.83%",
+            "Lv10": "41.76%",
+            "Name": "Stage 1 DMG"
+          },
+          {
+            "Lv1": "17.50%+17.50%",
+            "Lv2": "18.94%+18.94%",
+            "Lv3": "20.37%+20.37%",
+            "Lv4": "22.38%+22.38%",
+            "Lv5": "23.82%+23.82%",
+            "Lv6": "25.47%+25.47%",
+            "Lv7": "27.77%+27.77%",
+            "Lv8": "30.06%+30.06%",
+            "Lv9": "32.36%+32.36%",
+            "Lv10": "34.80%+34.80%",
+            "Name": "Stage 2 DMG"
+          },
+          {
+            "Lv1": "12.39%+12.39%+12.39%+12.39%+33.04%",
+            "Lv2": "13.41%+13.41%+13.41%+13.41%+35.75%",
+            "Lv3": "14.43%+14.43%+14.43%+14.43%+38.46%",
+            "Lv4": "15.85%+15.85%+15.85%+15.85%+42.26%",
+            "Lv5": "16.87%+16.87%+16.87%+16.87%+44.97%",
+            "Lv6": "18.03%+18.03%+18.03%+18.03%+48.08%",
+            "Lv7": "19.66%+19.66%+19.66%+19.66%+52.42%",
+            "Lv8": "21.28%+21.28%+21.28%+21.28%+56.75%",
+            "Lv9": "22.91%+22.91%+22.91%+22.91%+61.09%",
+            "Lv10": "24.64%+24.64%+24.64%+24.64%+65.69%",
+            "Name": "Stage 3 DMG"
+          },
+          {
+            "Lv1": "58.80%",
+            "Lv2": "63.63%",
+            "Lv3": "68.45%",
+            "Lv4": "75.20%",
+            "Lv5": "80.02%",
+            "Lv6": "85.56%",
+            "Lv7": "93.28%",
+            "Lv8": "100.99%",
+            "Lv9": "108.71%",
+            "Lv10": "116.91%",
+            "Name": "Mid-air Attack DMG"
+          },
+          {
+            "Lv1": "83.30%",
+            "Lv2": "90.14%",
+            "Lv3": "96.97%",
+            "Lv4": "106.53%",
+            "Lv5": "113.36%",
+            "Lv6": "121.21%",
+            "Lv7": "132.14%",
+            "Lv8": "143.07%",
+            "Lv9": "154.00%",
+            "Lv10": "165.61%",
+            "Name": "Heavy Attack DMG"
+          },
+          {
+            "Lv1": "98.00%+14.00%*3",
+            "Lv2": "106.04%+15.15%*3",
+            "Lv3": "114.08%+16.30%*3",
+            "Lv4": "125.33%+17.91%*3",
+            "Lv5": "133.36%+19.06%*3",
+            "Lv6": "142.60%+20.38%*3",
+            "Lv7": "155.46%+22.21%*3",
+            "Lv8": "168.32%+24.05%*3",
+            "Lv9": "181.18%+25.89%*3",
+            "Lv10": "194.84%+27.84%*3",
+            "Name": "Dodge Counter DMG"
+          },
+          {
+            "Lv1": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Lv10": "30",
+            "Name": "Mid-air Attack STA Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Lv10": "20",
+            "Name": "Heavy Attack STA Cost"
+          }
+        ]
+      },
+      {
+        "name": "Through the Groves",
+        "category": "Active",
+        "skill_type": "Resonance Skill",
+        "description": "Press Resonance Skill to dash forward for a distance, dealing Aero DMG, considered as Echo Skill DMG. If Resonance Skill is cast upon being attacked by an enemy target, Qiuyuan becomes immune to this instance of DMG and stagnates nearby enemies, while gaining immunity to interruption during this Resonance Skill.Switching to other Resonators removes the Stagnation effect from enemies.Undaunted WayfarerHold Resonance Skill to dash forward for a distance at the cost of STA, dealing Aero DMG to the target, considered as Echo Skill DMG.If there are no targets nearby, Qiuyuan will leap up and dash through the air by continuously consuming STA until it runs out. Release Resonance Skill to immediately end the dash and land. If there are targets nearby when Qiuyuan lands, deal Aero DMG to nearby targets, considered as Echo Skill DMG. This skill can be cast in mid-air.",
+        "multipliers": [
+          {
+            "Lv1": "36.14%*3",
+            "Lv2": "39.10%*3",
+            "Lv3": "42.06%*3",
+            "Lv4": "46.21%*3",
+            "Lv5": "49.18%*3",
+            "Lv6": "52.58%*3",
+            "Lv7": "57.32%*3",
+            "Lv8": "62.06%*3",
+            "Lv9": "66.80%*3",
+            "Lv10": "71.84%*3",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "16.26%+16.26%*3+43.36%",
+            "Lv2": "17.60%+17.60%*3+46.92%",
+            "Lv3": "18.93%+18.93%*3+50.48%",
+            "Lv4": "20.80%+20.80%*3+55.45%",
+            "Lv5": "22.13%+22.13%*3+59.01%",
+            "Lv6": "23.66%+23.66%*3+63.10%",
+            "Lv7": "25.80%+25.80%*3+68.79%",
+            "Lv8": "27.93%+27.93%*3+74.48%",
+            "Lv9": "30.06%+30.06%*3+80.16%",
+            "Lv10": "32.33%+32.33%*3+86.21%",
+            "Name": "Undaunted Wayfarer DMG"
+          },
+          {
+            "Lv1": "14s",
+            "Lv2": "14s",
+            "Lv3": "14s",
+            "Lv4": "14s",
+            "Lv5": "14s",
+            "Lv6": "14s",
+            "Lv7": "14s",
+            "Lv8": "14s",
+            "Lv9": "14s",
+            "Lv10": "14s",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Lv10": "10",
+            "Name": "Concerto Regen"
+          },
+          {
+            "Lv1": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Lv10": "10",
+            "Name": "Undaunted Wayfarer Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "Sundering Strike",
+        "category": "Active",
+        "skill_type": "Resonance Liberation",
+        "description": "Deal Aero DMG to targets within range, considered as Echo Skill DMG.For every 1% of Qiuyuan's Crit. Rate over 50%, this skill increases the Crit. DMG of all nearby active Resonators in the team by 2% for 30s, up to 30%.",
+        "multipliers": [
+          {
+            "Lv1": "400.00%",
+            "Lv2": "432.80%",
+            "Lv3": "465.60%",
+            "Lv4": "511.52%",
+            "Lv5": "544.32%",
+            "Lv6": "582.04%",
+            "Lv7": "634.52%",
+            "Lv8": "687.00%",
+            "Lv9": "739.48%",
+            "Lv10": "795.24%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "25s",
+            "Lv2": "25s",
+            "Lv3": "25s",
+            "Lv4": "25s",
+            "Lv5": "25s",
+            "Lv6": "25s",
+            "Lv7": "25s",
+            "Lv8": "25s",
+            "Lv9": "25s",
+            "Lv10": "25s",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Lv10": "125",
+            "Name": "Resonance Energy Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Lv10": "20",
+            "Name": "Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "Verdant Edge",
+        "category": "Forte Circuit",
+        "skill_type": "Forte Circuit",
+        "description": "Basic Attack - Thus Spoke the Blade: InkwashWhen Qiuyuan reaches 200 points of Swordster's Soliloquy, his Basic Attack is replaced with Basic Attack Thus Spoke the Blade: Inkwash, which chains together up to 4 consecutive strikes, dealing Aero DMG, considered as Heavy Attack DMG.Bamboo's ShadeWhen Qiuyuan reaches 400 points of Swordster's Soliloquy, he gains the Bamboo's Shade effect, granting all nearby active Resonators in the team 30% Echo Skill DMG Bonus for 30s.Inksplash of MindWhen Swordster's Soliloquy is full, Qiuyuan enters the Inksplash of Mind state for 8s, during which Heavy Attack is replaced with Heavy Attack Thus Spoke the Blade: To Save.In this state, hold Normal Attack to consume Swordster's Soliloquy to perform Heavy Attack Thus Spoke the Blade: To Teach, Thus Spoke the Blade: To Save, and Thus Spoke the Blade: To Sacrifice in order, dealing Aero DMG, considered as Heavy Attack DMG.Performing Thus Spoke the Blade: To Teach, Thus Spoke the Blade: To Save, or Thus Spoke the Blade: To Sacrifice is considered as performing Echo Skill.Inksplash of Mind ends when Swordster's Soliloquy is used up.Swordster's SoliloquyQiuyuan can hold up to 600 points of Swordster's Soliloquy.100 points of Swordster's Soliloquy is obtained when performing Basic Attack Stage 3.100 points of Swordster's Soliloquy is obtained when performing each stage of Basic Attack Thus Spoke the Blade: Inkwash.100 points of Swordster's Soliloquy is obtained when performing Dodge Counter.400 points of Swordster's Soliloquy is obtained when performing Intro Skill.Swordster's Soliloquy cannot be obtained in the Inksplash of Mind state.Swordster's Soliloquy is cleared when the Inksplash of Mind state ends.",
+        "multipliers": [
+          {
+            "Lv1": "30.00%+30.00%",
+            "Lv2": "32.46%+32.46%",
+            "Lv3": "34.92%+34.92%",
+            "Lv4": "38.37%+38.37%",
+            "Lv5": "40.83%+40.83%",
+            "Lv6": "43.66%+43.66%",
+            "Lv7": "47.59%+47.59%",
+            "Lv8": "51.53%+51.53%",
+            "Lv9": "55.47%+55.47%",
+            "Lv10": "59.65%+59.65%",
+            "Name": "Thus Spoke the Blade: Inkwash Stage 1 DMG"
+          },
+          {
+            "Lv1": "27.99%+27.99%+37.32%",
+            "Lv2": "30.29%+30.29%+40.39%",
+            "Lv3": "32.59%+32.59%+43.45%",
+            "Lv4": "35.80%+35.80%+47.73%",
+            "Lv5": "38.09%+38.09%+50.79%",
+            "Lv6": "40.73%+40.73%+54.31%",
+            "Lv7": "44.41%+44.41%+59.21%",
+            "Lv8": "48.08%+48.08%+64.10%",
+            "Lv9": "51.75%+51.75%+69.00%",
+            "Lv10": "55.65%+55.65%+74.20%",
+            "Name": "Thus Spoke the Blade: Inkwash Stage 2 DMG"
+          },
+          {
+            "Lv1": "7.33%+7.33%*4+36.65%",
+            "Lv2": "7.94%+7.94%*4+39.66%",
+            "Lv3": "8.54%+8.54%*4+42.67%",
+            "Lv4": "9.38%+9.38%*4+46.87%",
+            "Lv5": "9.98%+9.98%*4+49.88%",
+            "Lv6": "10.67%+10.67%*4+53.33%",
+            "Lv7": "11.63%+11.63%*4+58.14%",
+            "Lv8": "12.59%+12.59%*4+62.95%",
+            "Lv9": "13.56%+13.56%*4+67.76%",
+            "Lv10": "14.58%+14.58%*4+72.87%",
+            "Name": "Thus Spoke the Blade: Inkwash Stage 3 DMG"
+          },
+          {
+            "Lv1": "86.70%",
+            "Lv2": "93.81%",
+            "Lv3": "100.92%",
+            "Lv4": "110.88%",
+            "Lv5": "117.99%",
+            "Lv6": "126.16%",
+            "Lv7": "137.54%",
+            "Lv8": "148.91%",
+            "Lv9": "160.29%",
+            "Lv10": "172.37%",
+            "Name": "Thus Spoke the Blade: Inkwash Stage 4 DMG"
+          },
+          {
+            "Lv1": "45.99%+45.99%+45.99%+45.99%+45.99%",
+            "Lv2": "49.77%+49.77%+49.77%+49.77%+49.77%",
+            "Lv3": "53.54%+53.54%+53.54%+53.54%+53.54%",
+            "Lv4": "58.82%+58.82%+58.82%+58.82%+58.82%",
+            "Lv5": "62.59%+62.59%+62.59%+62.59%+62.59%",
+            "Lv6": "66.93%+66.93%+66.93%+66.93%+66.93%",
+            "Lv7": "72.96%+72.96%+72.96%+72.96%+72.96%",
+            "Lv8": "78.99%+78.99%+78.99%+78.99%+78.99%",
+            "Lv9": "85.03%+85.03%+85.03%+85.03%+85.03%",
+            "Lv10": "91.44%+91.44%+91.44%+91.44%+91.44%",
+            "Name": "Thus Spoke the Blade: To Teach DMG"
+          },
+          {
+            "Lv1": "19.34%*3+15.82%+15.82%+15.82%",
+            "Lv2": "20.92%*3+17.12%+17.12%+17.12%",
+            "Lv3": "22.51%*3+18.42%+18.42%+18.42%",
+            "Lv4": "24.73%*3+20.23%+20.23%+20.23%",
+            "Lv5": "26.31%*3+21.53%+21.53%+21.53%",
+            "Lv6": "28.14%*3+23.02%+23.02%+23.02%",
+            "Lv7": "30.67%*3+25.10%+25.10%+25.10%",
+            "Lv8": "33.21%*3+27.17%+27.17%+27.17%",
+            "Lv9": "35.74%*3+29.25%+29.25%+29.25%",
+            "Lv10": "38.44%*3+31.45%+31.45%+31.45%",
+            "Name": "Thus Spoke the Blade: To Save DMG"
+          },
+          {
+            "Lv1": "109.50%",
+            "Lv2": "118.48%",
+            "Lv3": "127.46%",
+            "Lv4": "140.03%",
+            "Lv5": "149.01%",
+            "Lv6": "159.34%",
+            "Lv7": "173.70%",
+            "Lv8": "188.07%",
+            "Lv9": "202.44%",
+            "Lv10": "217.70%",
+            "Name": "Thus Spoke the Blade: To Sacrifice DMG"
+          }
+        ]
+      },
+      {
+        "name": "Quietude Within",
+        "category": "Inherent",
+        "skill_type": "Inherent Skill",
+        "description": "Qiuyuan obtains Quietude Within for 10s upon entering the Inksplash of Mind state. This effect can be triggered once every 22s.Heavy Attack Thus Spoke the Blade: To Teach, Thus Spoke the Blade: To Save, and Thus Spoke the Blade: To Sacrifice deal 50% more DMG. Thus Spoke the Blade: To Sacrifice additionally restores 30 points of Concerto Energy on hit.This effect ends early when Qiuyuan is switched off the field.",
+        "multipliers": []
+      },
+      {
+        "name": "Drink Away Woes Age-Old",
+        "category": "Inherent",
+        "skill_type": "Inherent Skill",
+        "description": "When casting Echo Skill, Qiuyuan's bamboo flask absorbs the overflowing energy and brews it into Flowing Panacea.The next time Swordster's Soliloquy is obtained, the Flowing Panacea is consumed to gain 10% ATK increase for 20s.",
+        "multipliers": []
+      },
+      {
+        "name": "Attack the Must-Defend",
+        "category": "Transition",
+        "skill_type": "Intro Skill",
+        "description": "Attack the target, dealing Aero DMG, considered as Heavy Attack DMG.Within a certain period of time after casting this skill, press Normal Attack to perform Basic Attack Thus Spoke the Blade: Inkwash Stage 3.",
+        "multipliers": [
+          {
+            "Lv1": "4.80%*5+24.00%+72.00%",
+            "Lv2": "5.20%*5+25.97%+77.91%",
+            "Lv3": "5.59%*5+27.94%+83.81%",
+            "Lv4": "6.14%*5+30.70%+92.08%",
+            "Lv5": "6.54%*5+32.66%+97.98%",
+            "Lv6": "6.99%*5+34.93%+104.77%",
+            "Lv7": "7.62%*5+38.08%+114.22%",
+            "Lv8": "8.25%*5+41.22%+123.66%",
+            "Lv9": "8.88%*5+44.37%+133.11%",
+            "Lv10": "9.55%*5+47.72%+143.15%",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Lv10": "10",
+            "Name": "Concerto Regen"
+          }
+        ]
+      },
+      {
+        "name": "Strike Before Ready",
+        "category": "Transition",
+        "skill_type": "Outro Skill",
+        "description": "Attack the target, dealing Aero DMG equal to 100% of Qiuyuan's ATK, considered as Echo Skill DMG.Grant 50% Echo Skill DMG Amplification to the incoming Resonator, lasting for 14s or until the Resonator is switched out.",
+        "multipliers": []
+      }
+    ],
+    "resonance_chain_dupes": [
+      {
+        "node": "S1",
+        "name": "Sequence Node 1",
+        "description": "Thus Spoke the Blade: To Teach, Thus Spoke the Blade: To Save, and Thus Spoke the Blade: To Sacrifice can no longer be interrupted.Qiuyuan gains 20% Crit. Rate increase."
+      },
+      {
+        "node": "S2",
+        "name": "Sequence Node 2",
+        "description": "Bamboo's Shade now grants an additional 30% Echo Skill DMG Amplification to all nearby Resonators in the team."
+      },
+      {
+        "node": "S3",
+        "name": "Sequence Node 3",
+        "description": "The DMG Multiplier of Resonance Liberation Sundering Strike is increased by 500%.If Concerto Energy is full when not in the Inksplash of Mind state, Qiuyuan's Resonance Skill is replaced with Resonance Skill Straw Cape in Drizzly Rain, available once every 20s.Upon casting Straw Cape in Drizzly Rain, the Quietude Within effect immediately ends and 60 Concerto Energy is consumed to deal Aero DMG equal to 500% of Qiuyuan's ATK, considered Echo Skill DMG, and restore 400 points of Swordster's Soliloquy. The next Basic Attack is replaced with Thus Spoke the Blade: Inkwash Stage 3.Upon casting Straw Cape in Drizzly Rain, Qiuyuan cannot gain the Quietude Within effect the next time he enters Inksplash of Mind. Thus Spoke the Blade: To Teach, Thus Spoke the Blade: To Save, and Thus Spoke the Blade: To Sacrifice gain 600% DMG Multiplier increase and additionally restore 30 points of Concerto Energy on hit.\nWhen not in Co-op mode, upon casting Straw Cape in Drizzly Rain, the next Outro Skill is replaced with Outro Skill Sheath Fallen, New Shoots Revealed, which deals Aero DMG equal to 500% of Qiuyuan's ATK, considered Echo Skill DMG."
+      },
+      {
+        "node": "S4",
+        "name": "Sequence Node 4",
+        "description": "ATK is increased by 20%."
+      },
+      {
+        "node": "S5",
+        "name": "Sequence Node 5",
+        "description": "Qiuyuan now ignores 15% of the target's DEF when dealing damage."
+      },
+      {
+        "node": "S6",
+        "name": "Sequence Node 6",
+        "description": "Casting Heavy Attack Thus Spoke the Blade: To Sacrifice stagnates nearby targets for 5s or until the targets are damaged or until Qiuyuan is switched off the field. This effect is not available in the Co-op Mode.When Qiuyuan is the active Resonator in the team, upon exiting Inksplash of Mind, he deals Aero DMG equal to 600% of his ATK to all targets within range, considered Echo Skill DMG.Casting Resonance Skill Straw Cape in Drizzly Rain increases Qiuyuan's Crit. DMG by 100% for 6s. Switching to another Resonator ends this effect early."
+      }
+    ],
+    "minor_fortes": [
+      {
+        "stat_name": "CRIT Rate",
+        "bonus_value": "+8%"
+      },
+      {
+        "stat_name": "ATK%",
+        "bonus_value": "+12%"
+      }
+    ],
+    "base_stats_lvl_90": {
+      "hp": 979,
+      "atk": 30,
+      "def": 98,
+      "max_energy": 125,
+      "crit_rate": "13%",
+      "crit_dmg": "150%",
+      "healing_bonus": "0%",
+      "elemental_dmg_bonus": "0%"
+    },
+    "upgrade_materials": {
+      "character_ascension": [
+        {
+          "material_name": "Wintry Bell",
+          "rarity": "boss",
+          "quantity": 60
+        },
+        {
+          "material_name": "Truth in Lies",
+          "rarity": "specialty",
+          "quantity": 46
+        },
+        {
+          "material_name": "LF Whisperin Core",
+          "rarity": "common",
+          "quantity": 4
+        },
+        {
+          "material_name": "MF Whisperin Core",
+          "rarity": "common",
+          "quantity": 12
+        },
+        {
+          "material_name": "HF Whisperin Core",
+          "rarity": "common",
+          "quantity": 12
+        },
+        {
+          "material_name": "FF Whisperin Core",
+          "rarity": "common",
+          "quantity": 4
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "Curse of the Abyss",
+          "rarity": "weekly_boss",
+          "quantity": 26
+        },
+        {
+          "material_name": "LF Whisperin Core",
+          "rarity": "common",
+          "quantity": 25
+        },
+        {
+          "material_name": "MF Whisperin Core",
+          "rarity": "common",
+          "quantity": 28
+        },
+        {
+          "material_name": "HF Whisperin Core",
+          "rarity": "common",
+          "quantity": 40
+        },
+        {
+          "material_name": "FF Whisperin Core",
+          "rarity": "common",
+          "quantity": 57
+        },
+        {
+          "material_name": "Inert Metallic Drip",
+          "rarity": "skill_material",
+          "quantity": 25
+        },
+        {
+          "material_name": "Reactive Metallic Drip",
+          "rarity": "skill_material",
+          "quantity": 28
+        },
+        {
+          "material_name": "Polarized Metallic Drip",
+          "rarity": "skill_material",
+          "quantity": 55
+        },
+        {
+          "material_name": "Heterized Metallic Drip",
+          "rarity": "skill_material",
+          "quantity": 67
+        }
+      ]
+    },
+    "voice_actors": {
+      "eng": "",
+      "jpn": "",
+      "cn": "",
+      "kr": ""
+    },
+    "best_weapons": [
+      {
+        "weapon_name": "Emerald Sentence",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "commentary_details": "Qiuyuan's Signature weapon is naturally his best choice, since it provides him with high ATK, CRIT Rate and Heavy Attack DMG stats, it perfectly suits his needs to maximize his damage. It additionally gives 20% Echo Skill DMG Bonus to all characters in the team which will be up permanently throughout a fight given a proper team rotation, slightly buffing the damage of Qiuyuan's best DPS characters to pair with. However, since Qiuyuan's personal damage is on the low end and the team buff on this weapon is rather low, it tends to be skippable since good permanently available options exist.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up",
+          "effect_description": "ATK is increased by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attack grants 1 stack of Bamboo Cleaver, which grants {1} Heavy Attack DMG Bonus to the wielder. This effect can be triggered by Echoes of the same name once only, stacking up to 2 times, lasting for 12s. Casting Echo Skill at max stacks does not reset the duration. This effect can be triggered once every 10s and ends early if the wielder is switched off the field. Casting Intro Skill grants {2} Echo Skill DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked."
+        }
+      },
+      {
+        "weapon_name": "Red Spring",
+        "dupe_rank": "R1",
+        "percentage_performance": "85.20%",
+        "commentary_details": "Simple ATK and CRIT Rate stat-stick for Qiuyuan, who does not benefit from this weapon's Basic Attack DMG-focused effects.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Gacha",
+          "effect_description": "Increase ATK by {0}. When dealing Basic Attack DMG, the wielder gains {1} Basic Attack DMG Bonus for 14s. This effect can be triggered once per second, stacking up to 3 times. When the wielder's Concerto Energy is consumed, gain {2} Basic DMG Bonus for 10s. This effect can be triggered once per second and ends when the wielder is switched off the field."
+        }
+      },
+      {
+        "weapon_name": "Blazing Brilliance",
+        "dupe_rank": "R1",
+        "percentage_performance": "84.40%",
+        "commentary_details": "Simple ATK and CRIT DMG stat-stick for Qiuyuan, who barely benefits from this weapon's Skill DMG-focused effects.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Gacha",
+          "effect_description": "ATK increased by {0}. The equipper gains 1 stack of Searing Feather upon dealing damage, which can be triggered once every 0.5s, and gains 5 stacks of the same effect upon casting Resonance Skill. Each stack of Searing Feather gives {1} additional Resonance Skill DMG Bonus for up to 14 stacks. All stacks will be removed within 12s after reaching the max stack."
+        }
+      },
+      {
+        "weapon_name": "Emerald of Genesis",
+        "dupe_rank": "R1",
+        "percentage_performance": "84.10%",
+        "commentary_details": "Best permanently available option by far, since Qiuyuan wants Energy Regen, CRIT Rate and ATK and those are the stats this weapon provides, in high quantities as well. The 12% ATK increase when casting Skill is not exploited well by Qiuyuan, however all other effects of this weapon are very welcome on him and make for one of his top choices easily, able to replace his Signature weapon at a minimal loss.",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Permanent Convene",
+          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases ATK by {1}, stacking up to 2 time(s). This effect lasts for 10s."
+        }
+      },
+      {
+        "weapon_name": "Feather Edge",
+        "dupe_rank": "R5",
+        "percentage_performance": "80.10%",
+        "commentary_details": "This Battle Pass exclusive has much lower Base ATK than all 5-star choices above which makes it much worse, however it does have a good CRIT DMG secondary stat and Qiuyuan can use the ATK% part of this weapon's passive well, which makes it the best 4-star choice.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 412,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.3,
+          "source": "Battle Pass",
+          "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Resonance Liberation DMG Bonus for 15s."
+        }
+      },
+      {
+        "weapon_name": "Commando of Conviction",
+        "dupe_rank": "R5",
+        "percentage_performance": "74.10%",
+        "commentary_details": "This weapon provides a lot of ATK throughout the whole rotation thanks to its universal passive activated upon Intro, making it a good 4-star choice for almost every Sword user including Qiuyuan.",
+        "weapon_base_info": {
+          "rarity": 4,
+          "primary_stat_val": 412,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 30.3,
+          "source": "",
+          "effect_description": "When Intro Skill is released, increases ATK by {0}, lasting for {1}."
+        }
+      },
+      {
+        "weapon_name": "Bloodpact's Pledge",
+        "dupe_rank": "R1",
+        "percentage_performance": "72.80%",
+        "commentary_details": "A simple ATK and Energy Regen stat-stick for Qiuyuan, but since this weapon has 5-star level base stats it makes for his best free weapon choice despite not being able to use the passive effect at all (which means weapon rank does not matter).",
+        "weapon_base_info": {
+          "rarity": 5,
+          "primary_stat_val": 587,
+          "secondary_stat_name": "Energy Reg.",
+          "secondary_stat_val": 38.9,
+          "source": "Rate-up",
+          "effect_description": "Providing Healing increases Resonance Skill DMG by {0} for 6s. When Rover: Aero casts Resonance Skill Unbound Flow, Aero DMG dealt by nearby Resonators on the field is Amplified by {0} for 30s."
+        }
+      }
+    ],
+    "best_echo_sets": [
+      {
+        "set_name": "Law of Harmony",
+        "percentage_performance": "1",
+        "commentary": "Optimally used in Phrolova teams and DPS Qiuyuan teams. Qiuyuan's best set to maximize his personal damage and buff Echo skill damage of teammates. Gives Qiuyuan 30% Heavy Attack DMG Bonus on the majority of his rotation and up to 16% Echo Skill DMG Bonus to the whole party, most often up permanently throughout a fight. A good mix of personal damage and team buffing makes for a strong set for him to use.",
+        "main_echo_options": [
+          {
+            "echo_name": "Reminiscence: Fenrico",
+            "echo_commentary": "The best generalist main Echo for this set for Qiuyuan as it grants 12% Aero and 12% Heavy DMG Bonus when equipped in the main slot, being Qiuyuan's 2 main damage types. Other than that, it's a simple Summon Echo that can deal damage on cast without any need to pay attention to the timing."
+          },
+          {
+            "echo_name": "Bell-Borne Geochelone",
+            "echo_commentary": "Usable with 2P Moonlit Clouds and optimal in a Phrolova + Cantarella team provided Qiuyuan is at S0R1 investment or lower, this niche main Echo choice can be used to buff the whole party's DMG Bonus by 10% for 15s, including the majority of Qiuyuan's rotation. It is optimally used right before his Ultimate and after his Inkwash Basic 4."
+          }
+        ]
+      },
+      {
+        "set_name": "Moonlit Clouds",
+        "percentage_performance": "2",
+        "commentary": "Optimal with Galbrena + Shorekeeper. This set sacrifices Qiuyuan's personal damage in order to provide higher buffing to a single character. It provides an extra 10% Energy Regen to the wielder unconditionally and gives 22.5% ATK to the incoming character for 15s after casting Outro skill.",
+        "main_echo_options": [
+          {
+            "echo_name": "Impermanence Heron",
+            "echo_commentary": "The best and only real option 5P Moonlit Clouds has, as it grants an extra 12% DMG Bonus on top of the ATK boost to the next character that Moonlit Clouds would usually give. Additionally restores a lot of Energy to the caster when it deals damage. On Qiuyuan, this Echo may either be cast before his rotation starts (during your Shorekeeper's rotation for example) or it can be instantly interrupted via his Ultimate - this way, no Energy or damage is generated but the buff will still apply to the incoming ally."
+          }
+        ]
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ],
+        "cost_3": [
+          "Aero DMG",
+          "Aero DMG > ATK%"
+        ],
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%",
+        "Heavy Attack DMG%",
+        "ATK"
+      ]
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 16500+",
+      "DEF: 1150+",
+      "ATK: 1600-2400+",
+      "CRIT Rate: 65-80%+",
+      "CRIT DMG: 210-260%+",
+      "Energy Regen: 115-130%+The lower end was estimated by a team with Galbrena+Shorekeeper; the higher end was estimated by a team with Phrolova+Cantarella.",
+      "Aero DMG Bonus: 40-70%+"
+    ],
+    "skill_upgrade_priority": {
+      "order": [
+        "Forte Circuit",
+        "Res. Liberation",
+        "Intro Skill",
+        "Res. Skill",
+        "Basic Attack"
+      ],
+      "commentary": ""
+    },
+    "rotations": [
+      {
+        "rotation_name": "Standard Hybrid Rotation (S0-S2)",
+        "steps": [
+          "Intro",
+          "Basic: Inkwash 3",
+          "Basic: Inkwash 4 (OPTIONAL: Cancel animation endlag via Skill)",
+          "OPTIONAL: Skill (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Heavy: To Teach",
+          "Heavy: To Save",
+          "Heavy: To Sacrifice",
+          "Outro",
+          "At S3 and higher, Qiuyuan's Skill is replaced by a new Skill that enables him to recast his 2 Inkwash Basics and 3 Forte Heavy Attacks and function as a Main DPS. However, it consumes Concerto Energy, and as a result it must be skipped out when used as a buffer. A normal Skill can still be cast in a pinch for Resonance Energy by holding down the Skill input.",
+          "With 5P Moonlit Clouds, he uses Impermanence Heron as his main Echo. This can make him necessitate way less Energy; however, it needs to be cast either before his rotation starts (optimally) to benefit from the flat Energy regeneration effect and extra damage, or at the end of his rotation, which will interrupt the animation via his Outro. This is also applicable with a 2P Moonlit Clouds and Bell-Borne Geochelone in Phrolova teams, as he can use this at the very end of his rotation as well, this time benefiting from the damage and Energy generation from the cast itself but losing out on a bit of his Inherent Skill ATK buff.",
+          "With 3P Law of Harmony, he'll tend to run Reminiscence: Fenrico a lot of the time, which has no relevant timing to its use - just cast it immediately after switching into him to benefit from his Inherent Skill ATK buff."
+        ]
+      },
+      {
+        "rotation_name": "S3+ DPS Rotation",
+        "steps": [
+          "Intro",
+          "Basic: Inkwash 3",
+          "Basic: Inkwash 4",
+          "Ultimate",
+          "Heavy: To Teach",
+          "Heavy: To Save",
+          "Heavy: To Sacrifice",
+          "Skill: Straw Cape in Drizzly Rain",
+          "Basic: Inkwash 3",
+          "Basic: Inkwash 4",
+          "Heavy: To Teach",
+          "Heavy: To Save",
+          "Heavy: To Sacrifice",
+          "Outro"
+        ]
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "sigrika",
+          "galbrena",
+          "phrolova"
+        ],
+        "commentary": "Qiuyuan is the best second slot teammate for Galbrena, and the best third slot teammate for Phrolova. The reason why is simple: for Galbrena and Sigrika, he is her best buffer due to his many buffs catered towards Echo Skill DMG, including his powerful Outro. For Phrolova, he has multiple Echo Skill casts which activates Hecate Enhanced Attacks and he also is a good recipient of Phrolova's 25% Heavy DMG Amplification Outro. These 3 pairs make Qiuyuan very strong in the current meta and are absolutely worth using."
+      },
+      {
+        "characters": [
+          "the-shorekeeper",
+          "verina"
+        ],
+        "commentary": "As the two best generalist Supports by heaps and bounds, it's no surprise Shorekeeper and Verina can slot in almost any team in the game as they provide high team-wide ATK% and 15% DMG Amplify. Shorekeeper additionally provides CRIT Rate and CRIT DMG, always making her the best third slot teammate for Galbrena+Qiuyuan teams, but Verina is a close, more accessible second provided Shorekeeper isn't available."
+      }
+    ],
+    "example_teams": [
+      {
+        "team_name": "Best Team",
+        "slot_1": {
+          "character_name": "sigrika",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "qiuyuan",
+          "alternatives": []
+        },
+        "slot_3": {
+          "character_name": "ciaccona",
+          "alternatives": [
+            "the-shorekeeper",
+            "phrolova",
+            "verina"
+          ]
+        },
+        "team_notes": "Phrolova can be stronger in multi-wave scenarios like Whimpering Wastes, but it's worth keeping in mind Phrolova also has stronger teams of her own."
+      },
+      {
+        "team_name": "Phrolova Team",
+        "slot_1": {
+          "character_name": "phrolova",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "lucilla",
+          "alternatives": [
+            "cantarella",
+            "lynae",
+            "danjin"
+          ]
+        },
+        "slot_3": {
+          "character_name": "qiuyuan",
+          "alternatives": []
+        },
+        "team_notes": ""
+      },
+      {
+        "team_name": "Galbrena Team",
+        "slot_1": {
+          "character_name": "galbrena",
+          "alternatives": []
+        },
+        "slot_2": {
+          "character_name": "qiuyuan",
+          "alternatives": []
+        },
+        "slot_3": {
+          "character_name": "the-shorekeeper",
+          "alternatives": [
+            "verina"
+          ]
+        },
+        "team_notes": ""
+      }
+    ]
+  }
+}
