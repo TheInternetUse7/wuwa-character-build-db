@@ -1,0 +1,1089 @@
+{
+  "data": {
+    "base_stats_lvl_90": {
+      "atk": 33,
+      "crit_dmg": "150%",
+      "crit_rate": "5%",
+      "def": 103,
+      "elemental_dmg_bonus": "1.12%",
+      "healing_bonus": "0%",
+      "hp": 866,
+      "max_energy": 125
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Offers a 10% unconditional Havoc DMG% boost and up to an additional 30% Havoc DMG% after you land 4 Basic or Heavy Attacks for a grand total of 40% additional Havoc damage after fully ramped.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "One of the strongest burst damage Echoes in the game that also generates a sizeable chunk of Resonance Energy. What makes this Echo strong is that its damage is delivered in a massive 360 degree area around the target it fixates on and is immediately swap cancellable the second it's used with 0 downsides. When using this Echo, always use it and immediately switch out so it deals it's damage and finishes its animation while the caster of the Echo is off the field. Due to this fact this Echo is normally used outside of characters burst windows.",
+            "echo_name": "Dreamless"
+          }
+        ],
+        "percentage_performance": "1",
+        "set_name": "Havoc Eclipse"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ],
+        "cost_3": [
+          "Havoc DMG",
+          "Havoc DMG > ATK%"
+        ],
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%",
+        "ATK",
+        "Basic DMG%",
+        "Liberation DMG%"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "Camellya's signature weapon is usable by all Basic Attack focused Sword wielding characters, but clearly designed with her in mind due to a lot of its power locked behind spending Concerto mid-rotation - something only Camellya can do. Offers a decent amount of ATK%, CRIT RATE% and Basic Attack DMG for all characters but a huge Basic Attack DMG bonus after spending Concerto. ",
+        "dupe_rank": "R1",
+        "percentage_performance": "104.84%",
+        "weapon_base_info": {
+          "effect_description": "Increase ATK by {0}. When dealing Basic Attack DMG, the wielder gains {1} Basic Attack DMG Bonus for 14s. This effect can be triggered once per second, stacking up to 3 times. When the wielder's Concerto Energy is consumed, gain {2} Basic DMG Bonus for 10s. This effect can be triggered once per second and ends when the wielder is switched off the field.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Gacha"
+        },
+        "weapon_name": "Red Spring"
+      },
+      {
+        "commentary_details": "Changli's signature weapon that's not only fantastic for her but also usable on all damage-focused Sword users who have a large portion of their damage originating from Resonance Skill damage. Offers a huge main stat of CRIT DMG% granting excellent scaling, 12% permanent ATK% and up to 56% increased Resonance Skill DMG% which should be at or close to full power during the bulk of your rotation when opening with one or two resonance skills.",
+        "dupe_rank": "R1",
+        "percentage_performance": "104.15%",
+        "weapon_base_info": {
+          "effect_description": "ATK increased by {0}. The equipper gains 1 stack of Searing Feather upon dealing damage, which can be triggered once every 0.5s, and gains 5 stacks of the same effect upon casting Resonance Skill. Each stack of Searing Feather gives {1} additional Resonance Skill DMG Bonus for up to 14 stacks. All stacks will be removed within 12s after reaching the max stack.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Gacha"
+        },
+        "weapon_name": "Blazing Brilliance"
+      },
+      {
+        "commentary_details": "Outstanding Sword choice, offering significantly higher base damage due to its 5â rarity, as well as a stackable ATK% buff almost every character can effortlessly get 1 stack of (but with 2 also being easily achievable by most when played correctly). Additionally has a good amount of Energy Regen, which on most characters will allow one sub-stat of Energy Regen to be allocated elsewhere to increase damage even further. Best Sword choice across the board with only S5 4â Swords having a chance to compete with it.",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases ATK by {1}, stacking up to 2 time(s). This effect lasts for 10s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Emerald of Genesis"
+      },
+      {
+        "commentary_details": "An amazing, completely free 4* option for characters who have extended field times, providing a rare CRIT Rate boost and loads of ATK. However, due to the nature of its buffs stacking up over time, this sword will deminish a lot in power if the wielder swaps out in less than 10 seconds. ",
+        "dupe_rank": "R5",
+        "percentage_performance": "91.24%",
+        "weapon_base_info": {
+          "effect_description": "Gain 1 stack of Hiss when dealing damage to the target, with 1 stack generated every 1s. Hiss: each stack increases the wielder's ATK by {0} for 3s, stacking up to 10 times. Switching off the wielder clears all stacks. Gaining 10 stacks increases the wielder's Crit. Rate by {1}.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Event"
+        },
+        "weapon_name": "Somnoire Anchor"
+      },
+      {
+        "commentary_details": "Exceptional all-around generic Sword gaining its bonus close to unconditionally as most Resonators almost always aim to make use of their Intro skill and very few characters spend more than 15 seconds on field during their duration.",
+        "dupe_rank": "R5",
+        "percentage_performance": "85.25%",
+        "weapon_base_info": {
+          "effect_description": "When Intro Skill is released, increases ATK by {0}, lasting for {1}.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 30.3,
+          "source": ""
+        },
+        "weapon_name": "Commando of Conviction"
+      },
+      {
+        "commentary_details": "Sword option for Heavy and Basic ATK users with an easy to trigger passive - with the only downside being its 10 second time limit. For characters that use their Skill multiple times per rotation, this downside is a non-issue but for Main DPS characters who take up a lot of field time and don't use their skill often this sword can lose value. ",
+        "dupe_rank": "R5",
+        "percentage_performance": "83.60%",
+        "weapon_base_info": {
+          "effect_description": "When Resonance Skill is released, increases Basic Attack DMG and Heavy Attack DMG by {0}, stacking up to 1 time(s). This effect lasts for 10s and can be triggered 1 time(s) every 1s.",
+          "primary_stat_val": 387,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "Pioneer Podcast"
+        },
+        "weapon_name": "Lumingloss"
+      },
+      {
+        "commentary_details": "Often inferior to Commando of Conviction for DPS, this sword is still a great F2P 4* option for characters who need the energy boost. Realistically however, only consider this option over Commando of Conviction if you have energy problems on your character. ",
+        "dupe_rank": "R5",
+        "percentage_performance": "83.09%",
+        "weapon_base_info": {
+          "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Gacha"
+        },
+        "weapon_name": "Endless Collapse"
+      },
+      {
+        "commentary_details": "Powerful sword for Resonators spending minimal time on the field - the shorter the better. Best for Hybrid characters executing their rotation fast and infrequently, but less powerful on Main DPS characters that aim to spend extended time on field.",
+        "dupe_rank": "R5",
+        "percentage_performance": "79.48%",
+        "weapon_base_info": {
+          "effect_description": "Equipped Resonator gains 6 stack(s) of Oath upon entering the battlefield. Each stack increases ATK by {0}, up to 6 stacks. This effect can be triggered 1 time(s) every 12s. Oath reduces by 1 stack(s) every 2s. Equipped Resonator gains an additional <b>6</b> stack(s) of Oath upon defeating an enemy.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 30.3,
+          "source": ""
+        },
+        "weapon_name": "Lunar Cutter"
+      }
+    ],
+    "character_metadata": {
+      "breadcrumb": [
+        "Wuthering Waves",
+        "Characters",
+        "Rover (Havoc)"
+      ],
+      "element": "Havoc",
+      "name": "Rover (Havoc)",
+      "rarity_stars": 5,
+      "slug": "rover-havoc",
+      "updates": {
+        "last_major_build_patch": "2.2",
+        "last_profile_update": "10/July/2026",
+        "last_review_patch": "2.2",
+        "last_updated": "10/July/2026"
+      },
+      "weapon_type": "Sword"
+    },
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "rover-havoc"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "roccia"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Best Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "phrolova"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "rover-havoc"
+        },
+        "slot_3": {
+          "alternatives": [
+            "cantarella"
+          ],
+          "character_name": "danjin"
+        },
+        "team_name": "Phrolova Team",
+        "team_notes": "Team order depends on the third teammate: with Danjin, Danjin buffs Havoc Rover and Phrolova buffs Danjin, while with Cantarella, Cantarella buffs Phrolova and Phrolova buffs Havoc Rover."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "rover-havoc"
+        },
+        "slot_2": {
+          "alternatives": [
+            "sanhua"
+          ],
+          "character_name": "danjin"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "F2P Team",
+        "team_notes": "Danjin will perform slightly stronger than Sanhua, but feel free to use Sanhua if you don't want to invest into Danjin."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "rover-havoc"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "cantarella"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Cantarella Alternative",
+        "team_notes": "Only use this team if you really want the extra heals â the above teams will yield better results otherwise."
+      }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/rover-havoc_full.webp",
+      "youtube_guide_embed_url": "https://www.youtube.com/embed/UrnsviS6EFw",
+      "youtube_guide_full_url": "https://www.youtube.com/watch?v=UrnsviS6EFw"
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+12%",
+        "stat_name": "Havoc DMG"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "ATK%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "One of the longest Main DPS on-field times in the game;",
+        "Falls behind limited options as a Dual DPS due to a long Forte buildup;",
+        "Low AoE potential outside of big nukes that have cooldowns."
+      ],
+      "pros": [
+        "Able to be used effectively as both a Main DPS and a burst dual DPS;",
+        "Versatile teams with many options available;",
+        "Simplistic in playstyle with easy rotations to perform;",
+        "Damage can be frontloaded to finish enemies off quickly — low-cooldown",
+        "Ultimate and signature Echo nukes with very high damage;",
+        "Sword user with lots of viable and commonly obtained 5-star options available:",
+        "They and their sequences are free and make building them easy!"
+      ]
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [],
+          "tier": "T3"
+        },
+        "whimpering_wastes": {
+          "tags": [],
+          "tier": "T4"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T3"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T4"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 15000+",
+      "DEF: 1250+",
+      "ATK: 1800-2200+",
+      "CRIT Rate: 60-75%+ (Before S6 buff)",
+      "CRIT DMG: 210-260%+",
+      "Energy Regen: 140%+This requirement applies across Phrolova+Cantarella, Danjin+Shorekeeper and Roccia+Shorekeeper.",
+      "Havoc DMG Bonus: 40-70%+"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "Resonance Skill DMG Bonus is increased by 30%.",
+        "name": "Sequence Node 1",
+        "node": "S1"
+      },
+      {
+        "description": "Reset Resonance Skill's Cooldown when Rover enters the Dark Surge state by casting Heavy Attack Devastation.",
+        "name": "Sequence Node 2",
+        "node": "S2"
+      },
+      {
+        "description": "In the Dark Surge state, Basic Attack V restores HP equal to 10% of total HP lost on hit.",
+        "name": "Sequence Node 3",
+        "node": "S3"
+      },
+      {
+        "description": "Heavy Attack Devastation and Resonance Liberation Deadening Abyss reduces enemy Havoc RES by 10% for 20s on hit.",
+        "name": "Sequence Node 4",
+        "node": "S4"
+      },
+      {
+        "description": "In the Dark Surge state, Basic Attack V deals an additional Havoc DMG equal to 50% of Basic Attack V damage.",
+        "name": "Sequence Node 5",
+        "node": "S5"
+      },
+      {
+        "description": "In the Dark Surge state, Rover's Crit. Rate is increased by 25%.",
+        "name": "Sequence Node 6",
+        "node": "S6"
+      }
+    ],
+    "review": {
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Havoc Rover is a free 5-star Havoc DPS character everyone can gain access to after completing Act I Chapter 6 of the main story. Unlike a lot of Main DPS characters who have their combos locked behind their Ultimate, they use their Forte gauge to access a stance that lets them deal the bulk of their damage. With that being said, Havoc Rover's ultimate hits like a freight train, along with some other abilities as well. Maximizing the damage potential of their full kit is the key to making them perform as efficiently as possible.",
+            "Havoc Rover's kit is not centered towards a single type of damage, nor towards a single ability. Their Skill, their Ultimate and their Forte Circuit are all components that contribute towards their strength as a DPS. However, the most central part of their kit is the \"Dark Surge\" state provided by their Forte Circuit. This state is accessed by accumulating a total of 100 \"Umbra\" points via their Intro Skill, their regular Resonance Skill and their Basic Attacks.",
+            "When the Umbra bar is full, they can cast a special Heavy Attack called \"Devastation\" which lets them enter the Dark Surge state and reduces the Havoc RES of enemies by 10% for 20s on hit. In this state, the Forte gauge will start depleting until it's completely empty, which happens constantly even if the character is switched out. During this state, with all their Skills and Sequences unlocked (given for free), they also possess increased Havoc DMG Bonus, they recover additional Resonance Energy, their Basic Attacks are replaced by new, enhanced ones which heal them on the final hit, they obtain an extra 25% CRIT Rate and their Resonance Skill's cooldown is instantly refreshed and it is replaced by a new, enhanced one that not only deals more damage, but also slightly extends their Dark Surge time.",
+            "The quickest and most effective way to access this Dark Surge state is to use a Resonance Skill before you do your Support and/or Hybrid's rotations depending on your cooldowns, then use an Intro Skill and a second Resonance Skill when you enter the field with all of your buffs. This method is what will be used in all of Havoc Rover's optimized rotations. Note that if you don't use this method, you may need to perform a full Basic Attack string off of your Dark Surge state, which is suboptimal.",
+            "Interestingly, in the Dark Surge state, using your Intro Skill restores the Dark Surge gauge. When paired with a cast of their Dark Surge skill, this allows Havoc Rover to use two enhanced skills per Dark Surge rotation, extending the state's duration even more, which can be useful in teams where Havoc Rover acts as a Dual DPS who does big bursts of damage over short periods of time. Additionally, with one Enhanced Skill alone, the duration is barely long enough to allow Havoc Rover to cast 3 full Basic Attack chains if they aren't interrupted, which is useful for Main DPS rotations.",
+            "They are also unique in the sense that they have one 4-cost Echo that is tailored towards them specifically: the Dreamless. That Echo, when equipped on Havoc Rover and used within 5 seconds of Havoc Rover's Ultimate, possesses 50% increased damage. Already sporting huge damage at base, this wide AoE damaging Echo turns into a very powerful burst of damage similar to Yinlin's Ultimate, which makes it the highest damaging Echo skill in the game. This Echo skill can be swap cancelled right upon casting, which enables them to deal a huge amount of damage in a short period of time in a wide AoE at the cost of almost no field time and no chances of interruption. As the Dreamless effectively gives them two Ultimates in one, this is a huge selling point for Havoc Rover and a good chunk of the reason why their damage is very good, whether used as a Main or a Dual DPS.",
+            "Speaking of Ultimates, Havoc Rover's ultimate is extremely simple: an insanely high-damage cleave nuke they can launch at a ridiculous 125 Energy cost on a 16 second cooldown. Similar abilities usually cost 150 Energy and have higher cooldowns, which for a 1520% multiplier at level 10 is costs that are absolutely unheard of. Plus, thanks to their extra Energy generation during the Dark Surge state, unless they're played as a burst-focused Dual DPS, they do not need any Energy Regen on their build despite their Ultimate being powerful and low-cooldown. This is another huge selling point for Havoc Rover.",
+            "These quick bursts of damage, not only present in the form of their Ultimate and Echo but also their Resonance Skills in single-target scenarios (as they refresh instantly when entering Dark Surge), will allow them to perform very well as a Dual DPS character if you can effectively manage two DPS characters' cooldowns at once; only problem being that is rather difficult to execute, but when learnt properly it can be amazing.",
+            "Unfortunately, despite all of those selling points, their biggest flaw is also the biggest source of their damage, being their Dark Surge Basic Attacks. Those attacks aren't bad by any means; but their relatively slow time to execute doesn't justify their multipliers being on the average end of things, at least when compared to the high tier DPS characters.",
+            "This isn't as problematic for Dual DPS Havoc Rover, but in that instance, they are still in a losing position compared to a lot of other optimal team options because they don't have a buffing Outro skill and instead have a damaging one, something that  characters in a similar position, such as Changli and Brant, have over Havoc Rover.  Additionally, they don't have many swap windows, their biggest ones being their final Basic Attack, their Skills and their Echo, however they either take a while to access or operate on cooldowns which isn't preferred for quickswap playstyles. As a result, they fall short of premium options.",
+            "With that being said, as a Main DPS, they are a character who has damage potential similar to the likes of Encore, Jiyan and Xiangli Yao, mostly thanks to their S6 giving them a massive boost and their ability to frontload damage via their Skills, Echo and Ultimate to finish enemies off quickly. One of their most noteworthy Main DPS synergies is with Danjin, who can even be played alongside Havoc Rover in a more Dual DPS style for the most experienced players. This 4-star and free character pairing makes for one of the best teams in the game, both for experienced players and beginners, as both characters have simple playstyles and complex playstyles to help with clearing endgame content. In version 2.0, Havoc Rover got access to Roccia, who thanks to her grouping was a big upgrade to their AoE nuke potential and upgraded their performance as a Main DPS character thanks to her higher buffing as well.",
+            "To summarize, Havoc Rover is a character who is often overlooked due to them being free, however they remain a very strong choice for a Main DPS carry but also a Dual DPS burst damage-focused option. They have many teams they can play in and different playstyles and roles they can fill in a team. Overall, Havoc Rover is a flexible DPS character whose potential shouldn't be overlooked, as they comfortably sit in the high tiers of the Wuthering Waves meta."
+          ]
+        }
+      ],
+      "summary": "Havoc Rover is a free 5-star Havoc DPS character everyone can gain access to after completing Act I Chapter 6 of the main story. Unlike a lot of Main DPS characters who have their combos locked behind their Ultimate, they use their Forte gauge to access a stance that lets them deal the bulk of their damage. With that being said, Havoc Rover's ultimate hits like a freight train, along with some other abilities as well. Maximizing the damage potential of their full kit is the key to making them perform as efficiently as possible."
+    },
+    "rotations": [
+      {
+        "rotation_name": "WARM UP",
+        "steps": [
+          "Your top priority when playing Havoc Rover is to ensure you keep using your Resonance Skill on cooldown in your downtime between Umbra burst windows.",
+          "In addition to using your Resonance Skill on cooldown, hit the enemy with a Basic Attack when possible to maintain the 5P Havoc Eclipse echo set."
+        ]
+      },
+      {
+        "rotation_name": "SHORT BURST COMBO",
+        "steps": [
+          "Intro",
+          "Skill",
+          "Heavy ATK: Devastation",
+          "Skill: Umbra: Lifetaker (Optionally Swap Cancel)",
+          "Ultimate",
+          "Echo (Dreamless Swap Cancel)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "MEDIUM BURST COMBO",
+        "steps": [
+          "Intro",
+          "Skill",
+          "Heavy ATK: Devastation",
+          "Umbra: Basic P1",
+          "Umbra: Basic P2",
+          "Umbra: Basic P3",
+          "Umbra: Basic P4",
+          "Umbra: Basic P5",
+          "Umbra: Basic P1",
+          "Umbra: Basic P2",
+          "Umbra: Basic P3",
+          "Umbra: Basic P4",
+          "Umbra: Basic P5",
+          "Skill: Umbra: Lifetaker (Optionally Swap Cancel)",
+          "Ultimate",
+          "Echo (Dreamless Swap Cancel)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "LONG BURST COMBO",
+        "steps": [
+          "Intro",
+          "Skill",
+          "Heavy ATK: Devastation",
+          "Umbra: Basic P1",
+          "Umbra: Basic P2",
+          "Umbra: Basic P3",
+          "Umbra: Basic P4",
+          "Umbra: Basic P5",
+          "Skill: Umbra: Lifetaker (Optionally Swap Cancel)",
+          "Umbra: Basic P1",
+          "Umbra: Basic P2",
+          "Umbra: Basic P3",
+          "Umbra: Basic P4",
+          "Umbra: Basic P5",
+          "Ultimate",
+          "Umbra: Basic P1",
+          "Umbra: Basic P2",
+          "Umbra: Basic P3",
+          "Umbra: Basic P4",
+          "Umbra: Basic P5",
+          "Echo (Dreamless Swap Cancel)",
+          "Outro"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "",
+      "order": [
+        "Res. Liberation",
+        "Forte Circuit",
+        "Res. Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic AttackRover-Havoc performs up to 5 consecutive attacks, dealing Havoc DMG.Heavy AttackRover-Havoc consumes Stamina to attack, dealing Havoc DMG. Use Basic Attack after casting Heavy Attack to cast Basic Attack IV.Mid-air AttackRover-Havoc consumes Stamina to cast a Mid-Air Plunging Attack, dealing Havoc DMG.Dodge CounterUse Basic Attack after a successful Dodge to attack the target, dealing Havoc DMG.",
+        "multipliers": [
+          {
+            "Lv1": "28.50%",
+            "Lv10": "56.67%",
+            "Lv2": "30.84%",
+            "Lv3": "33.18%",
+            "Lv4": "36.45%",
+            "Lv5": "38.79%",
+            "Lv6": "41.48%",
+            "Lv7": "45.21%",
+            "Lv8": "48.95%",
+            "Lv9": "52.69%",
+            "Name": "Part 1 Damage"
+          },
+          {
+            "Lv1": "28.50%*2",
+            "Lv10": "56.67%*2",
+            "Lv2": "30.84%*2",
+            "Lv3": "33.18%*2",
+            "Lv4": "36.45%*2",
+            "Lv5": "38.79%*2",
+            "Lv6": "41.48%*2",
+            "Lv7": "45.21%*2",
+            "Lv8": "48.95%*2",
+            "Lv9": "52.69%*2",
+            "Name": "Part 2 Damage"
+          },
+          {
+            "Lv1": "42.75%",
+            "Lv10": "85.00%",
+            "Lv2": "46.26%",
+            "Lv3": "49.77%",
+            "Lv4": "54.67%",
+            "Lv5": "58.18%",
+            "Lv6": "62.21%",
+            "Lv7": "67.82%",
+            "Lv8": "73.43%",
+            "Lv9": "79.04%",
+            "Name": "Part 3 Damage"
+          },
+          {
+            "Lv1": "20.27%*3",
+            "Lv10": "40.30%*3",
+            "Lv2": "21.93%*3",
+            "Lv3": "23.60%*3",
+            "Lv4": "25.92%*3",
+            "Lv5": "27.58%*3",
+            "Lv6": "29.50%*3",
+            "Lv7": "32.15%*3",
+            "Lv8": "34.81%*3",
+            "Lv9": "37.47%*3",
+            "Name": "Part 4 Damage"
+          },
+          {
+            "Lv1": "47.50%*2",
+            "Lv10": "94.44%*2",
+            "Lv2": "51.40%*2",
+            "Lv3": "55.29%*2",
+            "Lv4": "60.75%*2",
+            "Lv5": "64.64%*2",
+            "Lv6": "69.12%*2",
+            "Lv7": "75.35%*2",
+            "Lv8": "81.59%*2",
+            "Lv9": "87.82%*2",
+            "Name": "Part 5 Damage"
+          },
+          {
+            "Lv1": "48.00%",
+            "Lv10": "95.43%",
+            "Lv2": "51.94%",
+            "Lv3": "55.88%",
+            "Lv4": "61.39%",
+            "Lv5": "65.32%",
+            "Lv6": "69.85%",
+            "Lv7": "76.15%",
+            "Lv8": "82.44%",
+            "Lv9": "88.74%",
+            "Name": "Heavy Attack Damage"
+          },
+          {
+            "Lv1": "58.90%",
+            "Lv10": "117.10%",
+            "Lv2": "63.73%",
+            "Lv3": "68.56%",
+            "Lv4": "75.33%",
+            "Lv5": "80.16%",
+            "Lv6": "85.71%",
+            "Lv7": "93.44%",
+            "Lv8": "101.17%",
+            "Lv9": "108.89%",
+            "Name": "Mid-Air Attack Damage"
+          },
+          {
+            "Lv1": "90.25%",
+            "Lv10": "179.43%",
+            "Lv2": "97.66%",
+            "Lv3": "105.06%",
+            "Lv4": "115.42%",
+            "Lv5": "122.82%",
+            "Lv6": "131.33%",
+            "Lv7": "143.17%",
+            "Lv8": "155.01%",
+            "Lv9": "166.85%",
+            "Name": "Dodge Counter Damage"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Heavy Attack Stamina Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-Air Attack Stamina Cost"
+          }
+        ],
+        "name": "Tuneslayer",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Transforms sound into feathers, dealing Havoc DMG.",
+        "multipliers": [
+          {
+            "Lv1": "144.00%*2",
+            "Lv10": "286.29%*2",
+            "Lv2": "155.81%*2",
+            "Lv3": "167.62%*2",
+            "Lv4": "184.15%*2",
+            "Lv5": "195.96%*2",
+            "Lv6": "209.54%*2",
+            "Lv7": "228.43%*2",
+            "Lv8": "247.32%*2",
+            "Lv9": "266.22%*2",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "12",
+            "Lv10": "12",
+            "Lv2": "12",
+            "Lv3": "12",
+            "Lv4": "12",
+            "Lv5": "12",
+            "Lv6": "12",
+            "Lv7": "12",
+            "Lv8": "12",
+            "Lv9": "12",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "15",
+            "Lv10": "15",
+            "Lv2": "15",
+            "Lv3": "15",
+            "Lv4": "15",
+            "Lv5": "15",
+            "Lv6": "15",
+            "Lv7": "15",
+            "Lv8": "15",
+            "Lv9": "15",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Wingblade",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Gather the echoes between Rover's palms to attack a target, dealing Havoc DMG.",
+        "multipliers": [
+          {
+            "Lv1": "765.00%",
+            "Lv10": "1520.90%",
+            "Lv2": "827.73%",
+            "Lv3": "890.46%",
+            "Lv4": "978.29%",
+            "Lv5": "1041.02%",
+            "Lv6": "1113.16%",
+            "Lv7": "1213.52%",
+            "Lv8": "1313.89%",
+            "Lv9": "1414.26%",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "16",
+            "Lv10": "16",
+            "Lv2": "16",
+            "Lv3": "16",
+            "Lv4": "16",
+            "Lv5": "16",
+            "Lv6": "16",
+            "Lv7": "16",
+            "Lv8": "16",
+            "Lv9": "16",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv10": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Name": "Res. Energy Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Deadening Abyss",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "DevastationWhen \"Umbra\" is full, hold Basic Attack to cast Devastation to attack the target, dealing Havoc DMG, considered as Heavy Attack damage.Dark SurgeAfter casting Devastation, Rover enters the Dark Surge state. In this state:\nBasic Attack is replaced with Enhanced Basic Attack, which performs up to 5 consecutive attacks, dealing Havoc DMG.Heavy Attack is replaced with Enhanced Heavy Attack.Use Basic Attack after casting Enhanced Heavy Attack to cast Heavy Attack Thwackblade to attack the target, dealing Havoc DMG, considered as Heavy Attack damage.Use Basic Attack after casting Heavy Attack Thwackblade to cast Enhanced Basic Attack 3 to attack the target, dealing Havoc DMG.Resonance Skill Wingblade is replaced with Resonance Skill Lifetaker, transforming sounds into blades to attack the target, dealing Havoc DMG.UmbraRover can hold up to 100 points of Umbra.Normal Attack Tuneslayer recovers Umbra on hit. Resonance Skill Wingblade recovers Umbra when cast. Resonance Skill Lifetaker recovers Umbra when cast. Intro Skill Instant of Annihilation recovers Umbra when cast.",
+        "multipliers": [
+          {
+            "Lv1": "114.75%",
+            "Lv10": "228.14%",
+            "Lv2": "124.16%",
+            "Lv3": "133.57%",
+            "Lv4": "146.75%",
+            "Lv5": "156.16%",
+            "Lv6": "166.98%",
+            "Lv7": "182.03%",
+            "Lv8": "197.09%",
+            "Lv9": "212.14%",
+            "Name": "Devastation Damage"
+          },
+          {
+            "Lv1": "28.35%",
+            "Lv10": "56.37%",
+            "Lv2": "30.68%",
+            "Lv3": "33.00%",
+            "Lv4": "36.26%",
+            "Lv5": "38.58%",
+            "Lv6": "41.26%",
+            "Lv7": "44.98%",
+            "Lv8": "48.70%",
+            "Lv9": "52.42%",
+            "Name": "Umbra: Basic Attack Part 1 Damage"
+          },
+          {
+            "Lv1": "47.25%",
+            "Lv10": "93.94%",
+            "Lv2": "51.13%",
+            "Lv3": "55.00%",
+            "Lv4": "60.43%",
+            "Lv5": "64.30%",
+            "Lv6": "68.76%",
+            "Lv7": "74.96%",
+            "Lv8": "81.16%",
+            "Lv9": "87.36%",
+            "Name": "Umbra: Basic Attack Part 2 Damage"
+          },
+          {
+            "Lv1": "78.30%",
+            "Lv10": "155.67%",
+            "Lv2": "84.73%",
+            "Lv3": "91.15%",
+            "Lv4": "100.14%",
+            "Lv5": "106.56%",
+            "Lv6": "113.94%",
+            "Lv7": "124.21%",
+            "Lv8": "134.49%",
+            "Lv9": "144.76%",
+            "Name": "Umbra: Basic Attack Part 3 Damage"
+          },
+          {
+            "Lv1": "18.68%*3+56.03%",
+            "Lv10": "37.13%*3+111.39%",
+            "Lv2": "20.21%*3+60.62%",
+            "Lv3": "21.74%*3+65.22%",
+            "Lv4": "23.89%*3+71.65%",
+            "Lv5": "25.42%*3+76.24%",
+            "Lv6": "27.18%*3+81.53%",
+            "Lv7": "29.63%*3+88.88%",
+            "Lv8": "32.08%*3+96.23%",
+            "Lv9": "34.53%*3+103.58%",
+            "Name": "Umbra: Basic Attack Part 4 Damage"
+          },
+          {
+            "Lv1": "14.35%*4+57.38%",
+            "Lv10": "28.52%*4+114.07%",
+            "Lv2": "15.52%*4+62.08%",
+            "Lv3": "16.70%*4+66.79%",
+            "Lv4": "18.35%*4+73.38%",
+            "Lv5": "19.52%*4+78.08%",
+            "Lv6": "20.88%*4+83.49%",
+            "Lv7": "22.76%*4+91.02%",
+            "Lv8": "24.64%*4+98.55%",
+            "Lv9": "26.52%*4+106.07%",
+            "Name": "Umbra: Basic Attack Part 5 Damage"
+          },
+          {
+            "Lv1": "64.80%",
+            "Lv10": "128.83%",
+            "Lv2": "70.12%",
+            "Lv3": "75.43%",
+            "Lv4": "82.87%",
+            "Lv5": "88.18%",
+            "Lv6": "94.30%",
+            "Lv7": "102.80%",
+            "Lv8": "111.30%",
+            "Lv9": "119.80%",
+            "Name": "Umbra: Heavy Attack Damage"
+          },
+          {
+            "Lv1": "63.70%+5.00%*4",
+            "Lv10": "126.65%+9.95%*4",
+            "Lv2": "68.93%+5.41%*4",
+            "Lv3": "74.15%+5.82%*4",
+            "Lv4": "81.46%+6.40%*4",
+            "Lv5": "86.69%+6.81%*4",
+            "Lv6": "92.69%+7.28%*4",
+            "Lv7": "101.05%+7.94%*4",
+            "Lv8": "109.41%+8.59%*4",
+            "Lv9": "117.77%+9.25%*4",
+            "Name": "Umbra: Thwackblade Damage"
+          },
+          {
+            "Lv1": "62.00%",
+            "Lv10": "123.27%",
+            "Lv2": "67.09%",
+            "Lv3": "72.17%",
+            "Lv4": "79.29%",
+            "Lv5": "84.37%",
+            "Lv6": "90.22%",
+            "Lv7": "98.36%",
+            "Lv8": "106.49%",
+            "Lv9": "114.62%",
+            "Name": "Umbra: Plunging Attack Damage"
+          },
+          {
+            "Lv1": "159.30%",
+            "Lv10": "316.71%",
+            "Lv2": "172.37%",
+            "Lv3": "185.43%",
+            "Lv4": "203.72%",
+            "Lv5": "216.78%",
+            "Lv6": "231.80%",
+            "Lv7": "252.70%",
+            "Lv8": "273.60%",
+            "Lv9": "294.50%",
+            "Name": "Umbra: Dodge Counter Damage"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Umbra: Heavy Attack Stamina Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Umbra: Plunging Stamina Cost"
+          },
+          {
+            "Lv1": "139.00%*2+5.00%*4",
+            "Lv10": "276.35%*2+9.95%*4",
+            "Lv2": "150.40%*2+5.41%*4",
+            "Lv3": "161.80%*2+5.82%*4",
+            "Lv4": "177.76%*2+6.40%*4",
+            "Lv5": "189.16%*2+6.81%*4",
+            "Lv6": "202.26%*2+7.28%*4",
+            "Lv7": "220.50%*2+7.94%*4",
+            "Lv8": "238.74%*2+8.59%*4",
+            "Lv9": "256.97%*2+9.25%*4",
+            "Name": "Umbra: Lifetaker Damage"
+          },
+          {
+            "Lv1": "12",
+            "Lv10": "12",
+            "Lv2": "12",
+            "Lv3": "12",
+            "Lv4": "12",
+            "Lv5": "12",
+            "Lv6": "12",
+            "Lv7": "12",
+            "Lv8": "12",
+            "Lv9": "12",
+            "Name": "Umbra: Lifetaker Cooldown"
+          },
+          {
+            "Lv1": "15",
+            "Lv10": "15",
+            "Lv2": "15",
+            "Lv3": "15",
+            "Lv4": "15",
+            "Lv5": "15",
+            "Lv6": "15",
+            "Lv7": "15",
+            "Lv8": "15",
+            "Lv9": "15",
+            "Name": "Lifetaker Con. Energy Regen"
+          }
+        ],
+        "name": "Umbra Eclipse",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "In the Dark Surge state, Havoc DMG Bonus is increased by 20%.",
+        "multipliers": [],
+        "name": "Metamorph",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "While in the Dark Surge state, Basic Attack recovers 1 Resonance Energy when it hits a target, and this effect can be triggered once per second.",
+        "multipliers": [],
+        "name": "Bleak Crescendo",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Attack the target, dealing Havoc DMG.",
+        "multipliers": [
+          {
+            "Lv1": "100.00%",
+            "Lv10": "198.81%",
+            "Lv2": "108.20%",
+            "Lv3": "116.40%",
+            "Lv4": "127.88%",
+            "Lv5": "136.08%",
+            "Lv6": "145.51%",
+            "Lv7": "158.63%",
+            "Lv8": "171.75%",
+            "Lv9": "184.87%",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Instant of Annihilation",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Summons a Havoc Field to attack a target, dealing 143.3% Havoc DMG to targets within range every 2s for 6s.",
+        "multipliers": [],
+        "name": "Soundweaver",
+        "skill_type": "Outro Skill"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "roccia"
+        ],
+        "commentary": "Havoc Rover's best buffer. Granting an amazing 20% Havoc and 25% Basic Attack DMG Amplify on Outro while retaining good personal damage and amazing grouping abilities that Havoc Rover very much benefits from when it comes to their Ultimate and Echo skills, the pair is extremely natural."
+      },
+      {
+        "characters": [
+          "phrolova"
+        ],
+        "commentary": "While Havoc Rover doesn't provide anything to Phrolova herself, and they don't tend to do much Heavy Attack damage so they aren't the best recipient of Phrolova's Outro buff, they are able to fill in for a lot of field time while doing great damage and generating lots of Resonance Energy. This makes Havoc Rover one of the highest damage dealers to pair with Phrolova and makes for a great alternative option in Phrolova teams."
+      },
+      {
+        "characters": [
+          "danjin"
+        ],
+        "commentary": "Maybe surprising to some, but she's Havoc Rover's best buffer after Roccia, very close to her in strength. Use Danjin with short, low-damage rotations in favour of her 23% Havoc DMG Amplify on Outro that greatly benefits Havoc Rover due to having more than one damage type. This makes for an extremely strong F2P pair!"
+      },
+      {
+        "characters": [
+          "sanhua"
+        ],
+        "commentary": "If you don't want to invest into Danjin but you do have Sanhua, as she's top tier in other teams, she's Havoc Rover's 3rd best option. Following not too far behind Danjin, she has an extremely short rotation time and a 38% Basic ATK DMG Amplify on her Outro that Havoc Rover makes good use of."
+      },
+      {
+        "characters": [
+          "cantarella"
+        ],
+        "commentary": "Cantarella is a good alternative for Havoc Rover as she offers a 20% Havoc DMG and 25% Skill DMG Amplify on her Outro that they appreciate. Cantarella also has good personal damage and extra heals for added comfort. However, this option is less recommended, as Danjin and Sanhua rotate faster than Cantarella and don't face any Energy Regen problems your team may have to build around, so only use Cantarella if you want the extra heals or like the character. She remains a competitive option though."
+      },
+      {
+        "characters": [
+          "verina"
+        ],
+        "commentary": "One of the usual Healing Support options that can slot into any team. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Enjoy."
+      },
+      {
+        "characters": [
+          "the-shorekeeper"
+        ],
+        "commentary": "Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game."
+      }
+    ],
+    "upgrade_materials": {
+      "character_ascension": [
+        {
+          "material_name": "Pecok Flower",
+          "quantity": 60,
+          "rarity": "boss"
+        },
+        {
+          "material_name": "Mysterious Code",
+          "quantity": 5,
+          "rarity": "specialty"
+        },
+        {
+          "material_name": "LF Whisperin Core",
+          "quantity": 4,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Whisperin Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Whisperin Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Whisperin Core",
+          "quantity": 4,
+          "rarity": "common"
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "Unwarranted Feather",
+          "quantity": 26,
+          "rarity": "weekly_boss"
+        },
+        {
+          "material_name": "LF Whisperin Core",
+          "quantity": 25,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Whisperin Core",
+          "quantity": 28,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Whisperin Core",
+          "quantity": 40,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Whisperin Core",
+          "quantity": 57,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Inert Metallic Drip",
+          "quantity": 25,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Reactive Metallic Drip",
+          "quantity": 28,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Polarized Metallic Drip",
+          "quantity": 55,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Heterized Metallic Drip",
+          "quantity": 67,
+          "rarity": "skill_material"
+        }
+      ]
+    },
+    "voice_actors": {
+      "cn": "Du QingQing / Ma Yang",
+      "eng": "Jane Jackson / Chase Brown",
+      "jpn": "Tanaka Minami / Toshiki Masuda",
+      "kr": "Song Ha Rim / Kim Sin Woo"
+    }
+  },
+  "status": "success"
+}

@@ -1,0 +1,960 @@
+{
+  "data": {
+    "base_stats_lvl_90": {
+      "atk": 30,
+      "crit_dmg": "150%",
+      "crit_rate": "5%",
+      "def": 112,
+      "elemental_dmg_bonus": "1.12%",
+      "healing_bonus": "0%",
+      "hp": 912,
+      "max_energy": 125
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Offers a 10% unconditional Energy Regen% boost taking some pressure off your gear when aiming at ER breakpoints. Also upon using Outro, grants the next character switching in a 22.5% ATK boost, amplifying any of your main damage dealers burst windows.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Supportive Echo that can be run at the cost of a sizeable chunk of damage for the character who equips, trading personal gain for team benefits. Should always be used and immediately switch cancelled right before performing an Outro, leading to another DPS. When done so will grant the next character switching in 12% increased DMG% which when combined with the 5P Moonlit set which also grants 22.5% ATK% under the same conditions makes for a sizeable boost. While the echo does lower the damage of whoever wears it, it grants a massive chunk of energy on use usually saving 1 or sometimes even 2 Energy Regen sub stats that may otherwise be needed by the wearer allowing for some damage to be recovered.",
+            "echo_name": "Impermanence Heron"
+          }
+        ],
+        "percentage_performance": "1",
+        "set_name": "Moonlit Clouds"
+      },
+      {
+        "commentary": "Offers a 10% unconditional Healing% boost and an most importantly a 15% ATK% boost for the entire team, lasting 30 seconds whenever you heal yourself or any of your allies. This bonus can be triggered by character abilities and weapon effects, is easy to keep active 100% of the time and is a big help for all party members.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Grants 10% increased Energy Regeneration for the wearer and a team wide 10% ATK boost on use for 20 seconds. A strong option for those looking to generate as much energy as possible or who favor a more permanent party buffing effect compared to Bell-Borne Geochelone.",
+            "echo_name": "Fallacy of No Return"
+          },
+          {
+            "echo_commentary": "While nowadays a worse option for the Rejuvenating Glow set for damage than the Fallacy of No Return due to a shorter buff uptime, only granting 10% DMG Bonus for 15 seconds, the Bell-Borne Geochelone remains a good choice if you don't have a good Fallacy to use for the set. It also has increased survivability by blocking 50% of the damage from a max of 3 hits if you desire to have that in your team.",
+            "echo_name": "Bell-Borne Geochelone"
+          }
+        ],
+        "percentage_performance": "2",
+        "set_name": "Rejuvenating Glow"
+      },
+      {
+        "commentary": "Offers a 10% unconditional Spectro DMG% boost, a 20% CRIT RATE buff for 15 seconds after inflicting Spectro Frazzle and further 15% Spectro DMG% boost for 15 seconds after attacking an enemy that has 10 Spectro Frazzle stacks. For characters that have the capability to inflict Spectro Frazzle in their kit the 20% CRIT RATE is all but permanant, while the 15% Spectro DMG boost should maintain decent uptime in Spectro Frazzle focused teams.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Offers an unconditional 12% Spectro DMG boost when active in a resonators Main Echo Slot and gains a 100% DMG bonus to attack against enemies inflicted by Spectro Frazzle. This echo is the go to choice for most resonators capable of inflicting Spectro Frazzle, who are focusing on damage and are looking to use the 5P Eternal Radiance set bonus.",
+            "echo_name": "Nightmare: Mourning Aix"
+          }
+        ],
+        "percentage_performance": "",
+        "set_name": "Eternal Radiance"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ],
+        "cost_3": [
+          "Spectro DMG",
+          "Spectro DMG > ATK%"
+        ],
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%",
+        "ATK",
+        "Skill DMG%",
+        "Liberation DMG%"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "Changli's signature weapon that's not only fantastic for her but also usable on all damage-focused Sword users who have a large portion of their damage originating from Resonance Skill damage. Offers a huge main stat of CRIT DMG% granting excellent scaling, 12% permanent ATK% and up to 56% increased Resonance Skill DMG% which should be at or close to full power during the bulk of your rotation when opening with one or two resonance skills.",
+        "dupe_rank": "R1",
+        "percentage_performance": "107.85%",
+        "weapon_base_info": {
+          "effect_description": "ATK increased by {0}. The equipper gains 1 stack of Searing Feather upon dealing damage, which can be triggered once every 0.5s, and gains 5 stacks of the same effect upon casting Resonance Skill. Each stack of Searing Feather gives {1} additional Resonance Skill DMG Bonus for up to 14 stacks. All stacks will be removed within 12s after reaching the max stack.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Gacha"
+        },
+        "weapon_name": "Blazing Brilliance"
+      },
+      {
+        "commentary_details": "Outstanding Sword choice, offering significantly higher base damage due to its 5â rarity, as well as a stackable ATK% buff almost every character can effortlessly get 1 stack of (but with 2 also being easily achievable by most when played correctly). Additionally has a good amount of Energy Regen, which on most characters will allow one sub-stat of Energy Regen to be allocated elsewhere to increase damage even further. Best Sword choice across the board with only S5 4â Swords having a chance to compete with it.",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases ATK by {1}, stacking up to 2 time(s). This effect lasts for 10s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Emerald of Genesis"
+      },
+      {
+        "commentary_details": "Powerful sword for Resonators spending minimal time on the field - the shorter the better. Best for Hybrid characters executing their rotation fast and infrequently, but less powerful on Main DPS characters that aim to spend extended time on field.",
+        "dupe_rank": "R5",
+        "percentage_performance": "86.05%",
+        "weapon_base_info": {
+          "effect_description": "Equipped Resonator gains 6 stack(s) of Oath upon entering the battlefield. Each stack increases ATK by {0}, up to 6 stacks. This effect can be triggered 1 time(s) every 12s. Oath reduces by 1 stack(s) every 2s. Equipped Resonator gains an additional <b>6</b> stack(s) of Oath upon defeating an enemy.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 30.3,
+          "source": ""
+        },
+        "weapon_name": "Lunar Cutter"
+      },
+      {
+        "commentary_details": "Often inferior to Commando of Conviction for DPS, this sword is still a great F2P 4* option for characters who need the energy boost. Realistically however, only consider this option over Commando of Conviction if you have energy problems on your character. ",
+        "dupe_rank": "R5",
+        "percentage_performance": "85.72%",
+        "weapon_base_info": {
+          "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Gacha"
+        },
+        "weapon_name": "Endless Collapse"
+      },
+      {
+        "commentary_details": "Exceptional all-around generic Sword gaining its bonus close to unconditionally as most Resonators almost always aim to make use of their Intro skill and very few characters spend more than 15 seconds on field during their duration.",
+        "dupe_rank": "R5",
+        "percentage_performance": "85.47%",
+        "weapon_base_info": {
+          "effect_description": "When Intro Skill is released, increases ATK by {0}, lasting for {1}.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 30.3,
+          "source": ""
+        },
+        "weapon_name": "Commando of Conviction"
+      },
+      {
+        "commentary_details": "Sword option for Heavy and Basic ATK users with an easy to trigger passive - with the only downside being its 10 second time limit. For characters that use their Skill multiple times per rotation, this downside is a non-issue but for Main DPS characters who take up a lot of field time and don't use their skill often this sword can lose value. ",
+        "dupe_rank": "R5",
+        "percentage_performance": "82.99%",
+        "weapon_base_info": {
+          "effect_description": "When Resonance Skill is released, increases Basic Attack DMG and Heavy Attack DMG by {0}, stacking up to 1 time(s). This effect lasts for 10s and can be triggered 1 time(s) every 1s.",
+          "primary_stat_val": 387,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "Pioneer Podcast"
+        },
+        "weapon_name": "Lumingloss"
+      }
+    ],
+    "character_metadata": {
+      "breadcrumb": [
+        "Wuthering Waves",
+        "Characters",
+        "Rover (Spectro)"
+      ],
+      "element": "Spectro",
+      "name": "Rover (Spectro)",
+      "rarity_stars": 5,
+      "slug": "rover-spectro",
+      "updates": {
+        "last_major_build_patch": "2.3",
+        "last_profile_update": "10/July/2026",
+        "last_review_patch": "2.1",
+        "last_updated": "10/July/2026"
+      },
+      "weapon_type": "Sword"
+    },
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "zani"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "phoebe"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "rover-spectro"
+        },
+        "team_name": "Best Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "phoebe"
+        },
+        "slot_2": {
+          "alternatives": [
+            "phrolova",
+            "ciaccona"
+          ],
+          "character_name": "iuno"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "rover-spectro"
+        },
+        "team_name": "Premium Phoebe Teams",
+        "team_notes": "Ciaccona is the best and only partner for Absolution Phoebe in Whimpering Wastes, and in that mode in specific she is best used with Shorekeeper!"
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "phoebe"
+        },
+        "slot_2": {
+          "alternatives": [
+            "sanhua"
+          ],
+          "character_name": "mortefi"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "rover-spectro"
+        },
+        "team_name": "F2P Phoebe Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "phoebe"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "changli"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "rover-spectro"
+        },
+        "team_name": "Quickswap Phoebe Team",
+        "team_notes": "Only use this team if you have a lot of quickswap experience, else consider other teams."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "phoebe"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "rover-spectro"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Phoebe Triple Spectro Team",
+        "team_notes": "Make sure Spectro Rover is wielding the Moonlit Clouds set here."
+      }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/rover-spectro_full.webp",
+      "youtube_guide_embed_url": "",
+      "youtube_guide_full_url": ""
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+12%",
+        "stat_name": "Spectro DMG"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "ATK%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "While the character has a ton of survivability built into their kit, they buff way less than other characters in the same niche;",
+        "Rotations aren't straightforward and require to swap in and out of the field in unconventional ways to perform;",
+        "Only really wanted in a single team, solely due to their Spectro Frazzle application, making them niche to build and likely to be replaceable in the future."
+      ],
+      "pros": [
+        "Is one of the few characters that can deal a great amount of damage while retaining good healing in their base kit;",
+        "Relevant meta character thanks to being mandatory with one of the best DPS characters in the game as they're one of the main Spectro Frazzle appliers;",
+        "Can quickly fill their Forte gauge for fast rotations;",
+        "Able to be played with multiple Echo sets to make teambuilding flexible;",
+        "The character and all their sequences are available for free, unlocking the rare ability to lower enemy resistances;",
+        "Fast and precise attack frames that make parrying easier;",
+        "Outro skill slows enemies in place, providing a lot of comfort."
+      ]
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [
+            "Control",
+            "Frazzle",
+            "Sustain",
+            "Expert +1"
+          ],
+          "tier": "T1.5"
+        },
+        "whimpering_wastes": {
+          "tags": [
+            "Control",
+            "Frazzle",
+            "Sustain",
+            "Expert +1"
+          ],
+          "tier": "T2"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T1.5"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T3"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 15500+",
+      "DEF: 1350+",
+      "ATK: 1800-2200+",
+      "CRIT Rate: 60-75%+ (Before S1)",
+      "CRIT DMG: 210-260%+",
+      "Energy Regen: 120%-123%+Lower end estimated using Phoebe+Lynae, Higher end estimated using Zani+Phoebe.",
+      "Spectro DMG Bonus: 40-80%+Spectro Rover gains 20% Spectro Damage Bonus on S2"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "Rover's Crit. Rate is increased by 15% for 7s when casting Resonance Skill Resonating Slashes or Resonance Skill Resonating Spin.",
+        "name": "Sequence Node 1",
+        "node": "S1"
+      },
+      {
+        "description": "Rover's Spectro DMG Bonus is increased by 20%.",
+        "name": "Sequence Node 2",
+        "node": "S2"
+      },
+      {
+        "description": "Rover's Energy Regen is increased by 20%.",
+        "name": "Sequence Node 3",
+        "node": "S3"
+      },
+      {
+        "description": "When casting Resonance Liberation Echoing Resonance, Rover continuously restores HP for all team members: HP equal to 20% of Rover's ATK will be restored every second for 5s.",
+        "name": "Sequence Node 4",
+        "node": "S4"
+      },
+      {
+        "description": "Rover's Resonance Liberation DMG Bonus is increased by 40%.",
+        "name": "Sequence Node 5",
+        "node": "S5"
+      },
+      {
+        "description": "Resonance Skill Resonating Slashes and Resonance Skill Resonating Spin reduces the target's Spectro DMG RES by 10% on hit for 20s.",
+        "name": "Sequence Node 6",
+        "node": "S6"
+      }
+    ],
+    "review": {
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Rover is the main character in Wuthering Waves, unlocked for free by default and starting as a Spectro Hybrid Sword character who is a jack-of-all-trades, capable of many roles: healing, crowd control, debuff, damage over time and Sub-DPS damage dealer. They received a lot of buffs in versions 2.0 and 2.1 that now make them desirable in specific teams linked to their new core mechanic: Spectro Frazzle.",
+            "Spectro Frazzle is a damage over time mechanic currently only inflicted and exploited by a select few Spectro characters, being Spectro Rover themselves and Phoebe as of the current patch. As said previously, it's the mechanic that Spectro Rover's kit revolves around. It deals damage every 3 seconds to any enemy inflicted based on the number of stacks applied, enemy defense, enemy elemental resistance, character level, and Spectro Frazzle-specific buffs, stacking up to 10 times.",
+            "Spectro Rover has two ways to apply Spectro Frazzle: their Ultimate, a simple AoE nuke, applies 6 stacks by default, and their Resonance Skill, when enhanced by their Forte gauge (more details later), applies 2 stacks. This means you need 2 Resonance Skills and 1 Ultimate to build all 10 stacks of Spectro Frazzle - considering their Skill is on a very low cooldown of 6 seconds, this means they're able to apply full Spectro Frazzle to several enemies quickly, as their Ultimate has a good AoE.",
+            "Their Forte gauge, called Diminutive Sound, fills up to 100 points and is split in two halves. Spectro Rover consumes one half in order to enhance their Resonance Skill. To fill this gauge up, they need to use either Basic Attacks, Intro Skills, or most efficiently their Heavy Attacks, which they can follow up by a special Heavy Attack called Aftertune by attacking again. Intro skills and Aftertune each restore half of their Forte gauge, meaning they face no problems charging the gauge up for every Resonance Skill.",
+            "Their enhanced Resonance Skill, called Resonating Spin, not only applies 2 stacks of Spectro Frazzle as mentioned prior, but deals enhanced damage, spawns an extra whirling attack around Spectro Rover for even more damage, applies Shimmer to enemies hit which prevents any Spectro Frazzle stacks from diminishing for 9 seconds while still doing damage normally, and allows them to follow up with up to 2 special enhanced Skills called Resonating Echoes. Thanks to their S6, Resonating Echoes and Resonating Spin decreases the Spectro RES of any enemy hit by 10% for 20s. Keep in mind this last debuff can't stack, but is good damage increase nonetheless.",
+            "So with all of these mechanics explained, gameplay-wise they'll differ based on the Echo set they're running. Keep this in mind: you access all of Spectro Rover's sequences for free. Among these included the Spectro RES shred we just mentioned, but also a free 15% CRIT Rate after casting their Skill, a free 20% Spectro DMG bonus, a free 40% Liberation DMG bonus, and even a free 20% Energy Regen. These are a ton of free stats that make their builds way easier, but most importantly with their S4 they access healing to the whole team equal to 20% of their ATK every second for 5s after casting their Ultimate.",
+            "Realistically, this healing is small - it should amount to roughly 3000 to 4000 healing per team member in total. However, any healing is enough healing to trigger the Rejuvenating Glow set, which gives a free 15% ATK to the whole team for 30s after a heal is triggered. This makes them playable both on that set and the Moonlit Clouds set for more traditional Hybrid buffing. However, it means their gameplay and playstyle vary a fair amount depending on the role they fill in your team, said role depending on the Echo set you choose to run.",
+            "Equipped with the Rejuvenating Glow set, you won't want to run a traditional healer - you're looking for Spectro Rover to fill that role. The heals they provide won't be nearly as high, but they should be enough for experienced players - worst case scenario build Healing Bonus and lots of ATK and you should be good. In this case they don't need to build their Outro up since it doesn't buff characters like traditional healer Outroes do - so you can skip it altogether and only focus on applying Spectro Frazzle. This shortens their actions and their field time significantly. Generally speaking, you'll run this build with a traditional Moonlit Clouds Hybrid, or a quickswap second DPS for the more expert players.",
+            "This changes with Moonlit Clouds though. The buff to your DPS coming from it is triggered after an Outro - so you'll want to build that up more traditionally in order to access the buff. This makes their rotations a bit longer but makes them deal more damage and allows you to run lots of healing, since you'll pair this Spectro Rover build with a traditional healer, making for teams that have some of the highest survivability in the game.",
+            "Generally speaking though, their rotations follow the same rules of wanting to apply max Spectro Frazzle via their enhanced Skill - built after an Intro or after a Heavy Attack Aftertune - and their Ultimate. So that's essentially what their gameplay's about regardless.",
+            "Now, to tackle their meta relevancy: Spectro Rover finds themselves in an awkward position. Sure, they can fulfill many roles, but they're a jack-of-all-trades, master of none. The only thing they're a master of, which is their only meta niche, is applying Spectro Frazzle for Phoebe specifically, who needs it applied to enemies in order to deal great damage. This means currently, since we have no characters that can apply Spectro Frazzle other than Phoebe and Spectro Rover, the two are mandatory together. But other than that? Spectro Rover doesn't buff enough, or they don't deal enough damage, or they don't heal enough, or they don't debuff enough. So in other teams, they're caught between a rock and a hard place. Besides, in terms of applying Spectro Frazzle alone, Phoebe does it better than them via her Hybrid mode. This means the second another DPS character comes out who relies on Spectro Frazzle, they'll want Phoebe over Spectro Rover. And the second someone else generates Spectro Frazzle, but buffs more or deals more damage? They'll take the role of Phoebe's support over Spectro Rover.",
+            "This means Spectro Rover is currently necessary to Phoebe, but also holds an unstable future to her as well - we're unsure whether or not more characters that will work around Spectro Frazzle will come out, and the second Spectro Rover gets outclassed in that niche, they'll go back to having no meta relevancy - only being a budget option compared to the better ones. Regardless though, like said prior, Spectro Rover IS necessary to Phoebe, and the two together make for a team with ludicrous levels of damage, some of the very best in the entire game. So even if Spectro Rover does get outclassed in the future, you can rest assured you'll clear ANY content in the game ridiculously easily for a long time.",
+            "To summarize, Spectro Rover is a character capable of filling a ton of roles, so far as to fill multiple possible positions on a team. Currently, though, their only viable team is with Phoebe, so there is no justification to build them other than if you own her. That being said, the team with Phoebe is way too strong, and Spectro Rover is currently necessary to make Phoebe work well - this means Spectro Rover is, undeniably, a meta character, with who you'll enjoy great damage, healing, crowd control, buffs and debuffs for one of the best Spectro teams in the game."
+          ]
+        }
+      ],
+      "summary": "Rover is the main character in Wuthering Waves, unlocked for free by default and starting as a Spectro Hybrid Sword character who is a jack-of-all-trades, capable of many roles: healing, crowd control, debuff, damage over time and Sub-DPS damage dealer. They received a lot of buffs in versions 2.0 and 2.1 that now make them desirable in specific teams linked to their new core mechanic: Spectro Frazzle."
+    },
+    "rotations": [
+      {
+        "rotation_name": "BURST COMBO",
+        "steps": [
+          "Heavy Atk",
+          "Resonance",
+          "Aftertune",
+          "Forte: Resonating Spin",
+          "Forte: Resonating Whirl",
+          "Swap while waiting for Skill CD",
+          "Intro",
+          "Ultimate",
+          "Basic P1",
+          "Basic P2",
+          "Forte: Resonating Spin",
+          "Forte: Resonating Whirl",
+          "Forte: Resonating Echoes P1",
+          "Forte: Resonating Echoes P2",
+          "Outro"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "",
+      "order": [
+        "Res. Liberation",
+        "Forte Circuit",
+        "Basic Attack",
+        "Res. Skill",
+        "Intro Skill"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic AttackRover casts up to 4 consecutive attacks, dealing Spectro DMG.Heavy AttackRover consumes Stamina, dealing Spectro DMG.Heavy Attack: ResonanceAfter Basic Attack III or Heavy Attack, press the Basic Attack button at the right time to perform Heavy Attack Resonance, dealing Spectro DMG. Heavy Attack: AftertuneAfter Heavy Attack Resonance or Dodge Counter hits a target, press the Basic Attack button to perform Heavy Attack Aftertune, dealing Spectro DMG. Mid-air AttackRover consumes Stamina to perform a Mid-Air Plunging Attack, dealing Spectro DMG.Dodge CounterUse Basic Attack after a successful Dodge to attack the target, dealing Spectro DMG.",
+        "multipliers": [
+          {
+            "Lv1": "29.75%",
+            "Lv10": "59.15%",
+            "Lv2": "32.19%",
+            "Lv3": "34.63%",
+            "Lv4": "38.05%",
+            "Lv5": "40.49%",
+            "Lv6": "43.29%",
+            "Lv7": "47.20%",
+            "Lv8": "51.10%",
+            "Lv9": "55.00%",
+            "Name": "Part 1 Damage"
+          },
+          {
+            "Lv1": "38.25%",
+            "Lv10": "76.05%",
+            "Lv2": "41.39%",
+            "Lv3": "44.53%",
+            "Lv4": "48.92%",
+            "Lv5": "52.06%",
+            "Lv6": "55.66%",
+            "Lv7": "60.68%",
+            "Lv8": "65.70%",
+            "Lv9": "70.72%",
+            "Name": "Part 2 Damage"
+          },
+          {
+            "Lv1": "7.65%*5",
+            "Lv10": "15.21%*5",
+            "Lv2": "8.28%*5",
+            "Lv3": "8.91%*5",
+            "Lv4": "9.79%*5",
+            "Lv5": "10.42%*5",
+            "Lv6": "11.14%*5",
+            "Lv7": "12.14%*5",
+            "Lv8": "13.14%*5",
+            "Lv9": "14.15%*5",
+            "Name": "Part 3 Damage"
+          },
+          {
+            "Lv1": "65.45%",
+            "Lv10": "130.13%",
+            "Lv2": "70.82%",
+            "Lv3": "76.19%",
+            "Lv4": "83.70%",
+            "Lv5": "89.07%",
+            "Lv6": "95.24%",
+            "Lv7": "103.83%",
+            "Lv8": "112.42%",
+            "Lv9": "121.00%",
+            "Name": "Part 4 Damage"
+          },
+          {
+            "Lv1": "98.25%",
+            "Lv10": "195.34%",
+            "Lv2": "106.31%",
+            "Lv3": "114.37%",
+            "Lv4": "125.65%",
+            "Lv5": "133.70%",
+            "Lv6": "142.97%",
+            "Lv7": "155.86%",
+            "Lv8": "168.75%",
+            "Lv9": "181.64%",
+            "Name": "Dodge Counter Damage"
+          },
+          {
+            "Lv1": "9.69%*5",
+            "Lv10": "19.27%*5",
+            "Lv2": "10.49%*5",
+            "Lv3": "11.28%*5",
+            "Lv4": "12.40%*5",
+            "Lv5": "13.19%*5",
+            "Lv6": "14.10%*5",
+            "Lv7": "15.38%*5",
+            "Lv8": "16.65%*5",
+            "Lv9": "17.92%*5",
+            "Name": "Heavy Attack Damage"
+          },
+          {
+            "Lv1": "38.25%",
+            "Lv10": "76.05%",
+            "Lv2": "41.39%",
+            "Lv3": "44.53%",
+            "Lv4": "48.92%",
+            "Lv5": "52.06%",
+            "Lv6": "55.66%",
+            "Lv7": "60.68%",
+            "Lv8": "65.70%",
+            "Lv9": "70.72%",
+            "Name": "HA: Resonance Damage"
+          },
+          {
+            "Lv1": "63.75%",
+            "Lv10": "126.75%",
+            "Lv2": "68.98%",
+            "Lv3": "74.21%",
+            "Lv4": "81.53%",
+            "Lv5": "86.76%",
+            "Lv6": "92.77%",
+            "Lv7": "101.13%",
+            "Lv8": "109.50%",
+            "Lv9": "117.86%",
+            "Name": "HA: Aftertune Damage"
+          },
+          {
+            "Lv1": "52.70%",
+            "Lv10": "104.78%",
+            "Lv2": "57.03%",
+            "Lv3": "61.35%",
+            "Lv4": "67.40%",
+            "Lv5": "71.72%",
+            "Lv6": "76.69%",
+            "Lv7": "83.60%",
+            "Lv8": "90.52%",
+            "Lv9": "97.43%",
+            "Name": "Mid-Air Attack Damage"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Heavy Attack Stamina Consumption"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-Air Attack Stamina Consumption"
+          }
+        ],
+        "name": "Vibration Manifestation",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Rover launches an attack forward, dealing Spectro DMG.",
+        "multipliers": [
+          {
+            "Lv1": "118.80%",
+            "Lv10": "236.19%",
+            "Lv2": "128.55%",
+            "Lv3": "138.29%",
+            "Lv4": "151.93%",
+            "Lv5": "161.67%",
+            "Lv6": "172.87%",
+            "Lv7": "188.46%",
+            "Lv8": "204.04%",
+            "Lv9": "219.63%",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "6",
+            "Lv10": "6",
+            "Lv2": "6",
+            "Lv3": "6",
+            "Lv4": "6",
+            "Lv5": "6",
+            "Lv6": "6",
+            "Lv7": "6",
+            "Lv8": "6",
+            "Lv9": "6",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Resonating Slashes",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Channel Spectro energy to attack the target area, causing a blast after a short delay, dealing Spectro DMG and applying 6 stack(s) of Spectro Frazzle.",
+        "multipliers": [
+          {
+            "Lv1": "100.00%+340.00%",
+            "Lv10": "198.81%+675.96%",
+            "Lv2": "108.20%+367.88%",
+            "Lv3": "116.40%+395.76%",
+            "Lv4": "127.88%+434.80%",
+            "Lv5": "136.08%+462.68%",
+            "Lv6": "145.51%+494.74%",
+            "Lv7": "158.63%+539.35%",
+            "Lv8": "171.75%+583.95%",
+            "Lv9": "184.87%+628.56%",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv10": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Name": "Res. Energy Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Echoing Orchestra",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Resonance Skill: Resonating SpinIf \"Diminutive Sound\" exceeds 50 when Resonance Skill is used, Rover consumes 50 \"Diminutive Sound\" to cast Resonating Spin, dealing Spectro DMG. This damage is considered as Resonance Skill DMG and applies 2 stack(s) of Spectro Frazzle along with Shimmer.ShimmerShimmer prevents Spectro Frazzle stacks from reducing over time.Resonance Skill: Resonating EchoesAfter Resonance Skill Resonating Spin ends, Rover performs Resonance Skill Resonating Echoes upon pressing the Basic Attack button. Rover performs attacks forward, dealing Spectro DMG considered as Resonance Skill DMG.Diminutive SoundRover can hold up to 100 \"Diminutive Sounds\". Rover obtains \"Diminutive Sound\" for every Normal Attack Vibration Manifestation on hit. Rover obtains \"Diminutive Sound\" for every Heavy Attack aftertune on hit. Rover obtains \"Diminutive Sound\" upon casting Intro Skill Waveshock.",
+        "multipliers": [
+          {
+            "Lv1": "64.93%*2",
+            "Lv10": "129.08%*2",
+            "Lv2": "70.25%*2",
+            "Lv3": "75.58%*2",
+            "Lv4": "83.03%*2",
+            "Lv5": "88.35%*2",
+            "Lv6": "94.48%*2",
+            "Lv7": "103.00%*2",
+            "Lv8": "111.51%*2",
+            "Lv9": "120.03%*2",
+            "Name": "Resonating Spin Damage"
+          },
+          {
+            "Lv1": "20.00%",
+            "Lv10": "39.77%",
+            "Lv2": "21.64%",
+            "Lv3": "23.28%",
+            "Lv4": "25.58%",
+            "Lv5": "27.22%",
+            "Lv6": "29.11%",
+            "Lv7": "31.73%",
+            "Lv8": "34.35%",
+            "Lv9": "36.98%",
+            "Name": "Resonating Whirl Damage"
+          },
+          {
+            "Lv1": "40.00%",
+            "Lv10": "79.53%",
+            "Lv2": "43.28%",
+            "Lv3": "46.56%",
+            "Lv4": "51.16%",
+            "Lv5": "54.44%",
+            "Lv6": "58.21%",
+            "Lv7": "63.46%",
+            "Lv8": "68.70%",
+            "Lv9": "73.95%",
+            "Name": "Resonating Echoes Part 1 Damage"
+          },
+          {
+            "Lv1": "80.00%",
+            "Lv10": "159.05%",
+            "Lv2": "86.56%",
+            "Lv3": "93.12%",
+            "Lv4": "102.31%",
+            "Lv5": "108.87%",
+            "Lv6": "116.41%",
+            "Lv7": "126.91%",
+            "Lv8": "137.40%",
+            "Lv9": "147.90%",
+            "Name": "Resonating Echoes Part 2 Damage"
+          },
+          {
+            "Lv1": "9s",
+            "Lv10": "9s",
+            "Lv2": "9s",
+            "Lv3": "9s",
+            "Lv4": "9s",
+            "Lv5": "9s",
+            "Lv6": "9s",
+            "Lv7": "9s",
+            "Lv8": "9s",
+            "Lv9": "9s",
+            "Name": "Shimmer Duration"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Resonating Spin Con. Energy Regen"
+          },
+          {
+            "Lv1": "8",
+            "Lv10": "8",
+            "Lv2": "8",
+            "Lv3": "8",
+            "Lv4": "8",
+            "Lv5": "8",
+            "Lv6": "8",
+            "Lv7": "8",
+            "Lv8": "8",
+            "Lv9": "8",
+            "Name": "Resonating Echoes Con. Energy Regen"
+          }
+        ],
+        "name": "World in a Grain of Sand",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "Damage dealt by Rover's Resonance Skill Resonating Echoes is increased by 60%.",
+        "multipliers": [],
+        "name": "Reticence",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "Rover's ATK is increased by 15% for 5s upon casting Heavy Attack Resonance.",
+        "multipliers": [],
+        "name": "Silent Listener",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Rover attacks the target, dealing Spectro DMG.",
+        "multipliers": [
+          {
+            "Lv1": "85.00%",
+            "Lv10": "168.99%",
+            "Lv2": "91.97%",
+            "Lv3": "98.94%",
+            "Lv4": "108.70%",
+            "Lv5": "115.67%",
+            "Lv6": "123.69%",
+            "Lv7": "134.84%",
+            "Lv8": "145.99%",
+            "Lv9": "157.14%",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Waveshock",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Rover generates an area of stasis surrounding the next character (or other characters on a nearby team that activates an Outro Skill) over 3s.",
+        "multipliers": [],
+        "name": "Instant",
+        "skill_type": "Outro Skill"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "phoebe"
+        ],
+        "commentary": "Absolution Phoebe needs a Spectro Frazzle applier to function, Spectro Rover being one of the main options to consider. This is because Spectro Rover's S6 Spectro RES Shred contributes to higher damage, and as their Ultimate has healing included, they can comfortably run both Rejuvenating Glow and Moonlit Clouds Echoes to adjust to Phoebe's teams, allowing for various teammate choices. Other than that, they work fantastically as a Support to the Phoebe-Zani team for Confession Phoebe as well."
+      },
+      {
+        "characters": [
+          "zani"
+        ],
+        "commentary": "Spectro Rover is an amazing pairing to Zani as a Support alongside Phoebe due to their Spectro RES Shred, Spectro Frazzle application, good personal damage and ability to trigger the Rejuvenating Glow set effect with their Ultimate. They can also act as a replacement for Phoebe if you don't own her, however they're problematic for a few reasons. While they do provide 10% Spectro RES Shred via their S6, their skill cooldowns are an issue to their rotations. Plus, they do not give any Frazzle DMG Amplify that Phoebe applies in ridiculous amounts, and they lack the Frazzle application for Zani to exploit her full combos. While the duo works together, Phoebe is a big upgrade, but worry not about clearing endgame content with Spectro Rover on the team — it's perfectly viable!"
+      },
+      {
+        "characters": [
+          "ciaccona"
+        ],
+        "commentary": "Spectro Rover is a great choice for Ciaccona in Spectro Frazzle teams, as they are able to apply Spectro Frazzle together quickly and efficiently, which allows them to match Confession Phoebe's level of application. Additionally, Ciaccona has the edge in multi-wave content as she is able to apply Spectro Frazzle off-field. This makes the duo hold a legitimate niche in Spectro Frazzle-based teams."
+      },
+      {
+        "characters": [
+          "verina"
+        ],
+        "commentary": "One of the usual Healing Support options that can slot into any team. Use her on Rejuvenating Glow with a Moonlit Clouds Spectro Rover. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Enjoy."
+      },
+      {
+        "characters": [
+          "the-shorekeeper"
+        ],
+        "commentary": "Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. Use her on Rejuvenating Glow with a Moonlit Clouds Spectro Rover. One of the best but also easy to use characters in the game."
+      }
+    ],
+    "upgrade_materials": {
+      "character_ascension": [
+        {
+          "material_name": "Pecok Flower",
+          "quantity": 60,
+          "rarity": "boss"
+        },
+        {
+          "material_name": "Mysterious Code",
+          "quantity": 5,
+          "rarity": "specialty"
+        },
+        {
+          "material_name": "LF Whisperin Core",
+          "quantity": 4,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Whisperin Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Whisperin Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Whisperin Core",
+          "quantity": 4,
+          "rarity": "common"
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "Unending Destruction",
+          "quantity": 26,
+          "rarity": "weekly_boss"
+        },
+        {
+          "material_name": "LF Whisperin Core",
+          "quantity": 25,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Whisperin Core",
+          "quantity": 28,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Whisperin Core",
+          "quantity": 40,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Whisperin Core",
+          "quantity": 57,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Inert Metallic Drip",
+          "quantity": 25,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Reactive Metallic Drip",
+          "quantity": 28,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Polarized Metallic Drip",
+          "quantity": 55,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Heterized Metallic Drip",
+          "quantity": 67,
+          "rarity": "skill_material"
+        }
+      ]
+    },
+    "voice_actors": {
+      "cn": "Du QingQing / Ma Yang",
+      "eng": "Jane Jackson / Chase Brown",
+      "jpn": " Tanaka Minami / Toshiki Masuda",
+      "kr": "Song Ha Rim /  Kim Sin Woo"
+    }
+  },
+  "status": "success"
+}

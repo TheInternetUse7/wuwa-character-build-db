@@ -1,367 +1,367 @@
 {
-  "status": "success",
   "data": {
     "characters": [
       {
+        "element": "Aero",
         "name": "Aalto",
-        "slug": "aalto",
         "rarity_stars": 4,
-        "element": "Aero"
+        "slug": "aalto"
       },
       {
+        "element": "Fusion",
         "name": "Aemeath",
-        "slug": "aemeath",
         "rarity_stars": 5,
-        "element": "Fusion"
+        "slug": "aemeath"
       },
       {
+        "element": "Electro",
         "name": "Augusta",
-        "slug": "augusta",
         "rarity_stars": 5,
-        "element": "Electro"
+        "slug": "augusta"
       },
       {
+        "element": "Glacio",
         "name": "Baizhi",
-        "slug": "baizhi",
         "rarity_stars": 4,
-        "element": "Glacio"
+        "slug": "baizhi"
       },
       {
+        "element": "Fusion",
         "name": "Brant",
-        "slug": "brant",
         "rarity_stars": 5,
-        "element": "Fusion"
+        "slug": "brant"
       },
       {
+        "element": "Electro",
         "name": "Buling",
-        "slug": "buling",
         "rarity_stars": 4,
-        "element": "Electro"
+        "slug": "buling"
       },
       {
+        "element": "Electro",
         "name": "Calcharo",
-        "slug": "calcharo",
         "rarity_stars": 5,
-        "element": "Electro"
+        "slug": "calcharo"
       },
       {
+        "element": "Havoc",
         "name": "Camellya",
-        "slug": "camellya",
         "rarity_stars": 5,
-        "element": "Havoc"
+        "slug": "camellya"
       },
       {
+        "element": "Havoc",
         "name": "Cantarella",
-        "slug": "cantarella",
         "rarity_stars": 5,
-        "element": "Havoc"
+        "slug": "cantarella"
       },
       {
+        "element": "Glacio",
         "name": "Carlotta",
-        "slug": "carlotta",
         "rarity_stars": 5,
-        "element": "Glacio"
+        "slug": "carlotta"
       },
       {
+        "element": "Aero",
         "name": "Cartethyia",
-        "slug": "cartethyia",
         "rarity_stars": 5,
-        "element": "Aero"
+        "slug": "cartethyia"
       },
       {
+        "element": "Fusion",
         "name": "Changli",
-        "slug": "changli",
         "rarity_stars": 5,
-        "element": "Fusion"
+        "slug": "changli"
       },
       {
+        "element": "Havoc",
         "name": "Chisa",
-        "slug": "chisa",
         "rarity_stars": 5,
-        "element": "Havoc"
+        "slug": "chisa"
       },
       {
+        "element": "Fusion",
         "name": "Chixia",
-        "slug": "chixia",
         "rarity_stars": 4,
-        "element": "Fusion"
+        "slug": "chixia"
       },
       {
+        "element": "Aero",
         "name": "Ciaccona",
-        "slug": "ciaccona",
         "rarity_stars": 5,
-        "element": "Aero"
+        "slug": "ciaccona"
       },
       {
+        "element": "Havoc",
         "name": "Danjin",
-        "slug": "danjin",
         "rarity_stars": 4,
-        "element": "Havoc"
+        "slug": "danjin"
       },
       {
+        "element": "Fusion",
         "name": "Denia",
-        "slug": "denia",
         "rarity_stars": 5,
-        "element": "Fusion"
+        "slug": "denia"
       },
       {
+        "element": "Fusion",
         "name": "Encore",
-        "slug": "encore",
         "rarity_stars": 5,
-        "element": "Fusion"
+        "slug": "encore"
       },
       {
+        "element": "Fusion",
         "name": "Galbrena",
-        "slug": "galbrena",
         "rarity_stars": 5,
-        "element": "Fusion"
+        "slug": "galbrena"
       },
       {
+        "element": "Glacio",
         "name": "Hiyuki",
-        "slug": "hiyuki",
         "rarity_stars": 5,
-        "element": "Glacio"
+        "slug": "hiyuki"
       },
       {
+        "element": "Unknown",
         "name": "Hsin",
-        "slug": "hsin",
         "rarity_stars": 5,
-        "element": "Unknown"
+        "slug": "hsin"
       },
       {
+        "element": "Aero",
         "name": "Iuno",
-        "slug": "iuno",
         "rarity_stars": 5,
-        "element": "Aero"
+        "slug": "iuno"
       },
       {
+        "element": "Aero",
         "name": "Jianxin",
-        "slug": "jianxin",
         "rarity_stars": 5,
-        "element": "Aero"
+        "slug": "jianxin"
       },
       {
+        "element": "Fusion",
         "name": "Jingran",
-        "slug": "jingran",
         "rarity_stars": 5,
-        "element": "Fusion"
+        "slug": "jingran"
       },
       {
+        "element": "Spectro",
         "name": "Jinhsi",
-        "slug": "jinhsi",
         "rarity_stars": 5,
-        "element": "Spectro"
+        "slug": "jinhsi"
       },
       {
+        "element": "Aero",
         "name": "Jiyan",
-        "slug": "jiyan",
         "rarity_stars": 5,
-        "element": "Aero"
+        "slug": "jiyan"
       },
       {
+        "element": "Glacio",
         "name": "Lingyang",
-        "slug": "lingyang",
         "rarity_stars": 5,
-        "element": "Glacio"
+        "slug": "lingyang"
       },
       {
+        "element": "Glacio",
         "name": "Lucilla",
-        "slug": "lucilla",
         "rarity_stars": 5,
-        "element": "Glacio"
+        "slug": "lucilla"
       },
       {
+        "element": "Spectro",
         "name": "Lucy",
-        "slug": "lucy",
         "rarity_stars": 5,
-        "element": "Spectro"
+        "slug": "lucy"
       },
       {
+        "element": "Electro",
         "name": "Lumi",
-        "slug": "lumi",
         "rarity_stars": 4,
-        "element": "Electro"
+        "slug": "lumi"
       },
       {
+        "element": "Fusion",
         "name": "Lupa",
-        "slug": "lupa",
         "rarity_stars": 5,
-        "element": "Fusion"
+        "slug": "lupa"
       },
       {
+        "element": "Spectro",
         "name": "Luuk Herssen",
-        "slug": "luuk-herssen",
         "rarity_stars": 5,
-        "element": "Spectro"
+        "slug": "luuk-herssen"
       },
       {
+        "element": "Spectro",
         "name": "Lynae",
-        "slug": "lynae",
         "rarity_stars": 5,
-        "element": "Spectro"
+        "slug": "lynae"
       },
       {
+        "element": "Fusion",
         "name": "Mornye",
-        "slug": "mornye",
         "rarity_stars": 5,
-        "element": "Fusion"
+        "slug": "mornye"
       },
       {
+        "element": "Fusion",
         "name": "Mortefi",
-        "slug": "mortefi",
         "rarity_stars": 4,
-        "element": "Fusion"
+        "slug": "mortefi"
       },
       {
+        "element": "Spectro",
         "name": "Phoebe",
-        "slug": "phoebe",
         "rarity_stars": 5,
-        "element": "Spectro"
+        "slug": "phoebe"
       },
       {
+        "element": "Havoc",
         "name": "Phrolova",
-        "slug": "phrolova",
         "rarity_stars": 5,
-        "element": "Havoc"
+        "slug": "phrolova"
       },
       {
+        "element": "Aero",
         "name": "Qingxiao",
-        "slug": "qingxiao",
         "rarity_stars": 5,
-        "element": "Aero"
+        "slug": "qingxiao"
       },
       {
+        "element": "Aero",
         "name": "Qiuyuan",
-        "slug": "qiuyuan",
         "rarity_stars": 5,
-        "element": "Aero"
+        "slug": "qiuyuan"
       },
       {
+        "element": "Electro",
         "name": "Rebecca",
-        "slug": "rebecca",
         "rarity_stars": 5,
-        "element": "Electro"
+        "slug": "rebecca"
       },
       {
+        "element": "Havoc",
         "name": "Roccia",
-        "slug": "roccia",
         "rarity_stars": 5,
-        "element": "Havoc"
+        "slug": "roccia"
       },
       {
+        "element": "Aero",
         "name": "Rover (Aero)",
-        "slug": "rover-aero",
         "rarity_stars": 5,
-        "element": "Aero"
+        "slug": "rover-aero"
       },
       {
+        "element": "Electro",
         "name": "Rover (Electro)",
-        "slug": "rover-electro",
         "rarity_stars": 5,
-        "element": "Electro"
+        "slug": "rover-electro"
       },
       {
+        "element": "Havoc",
         "name": "Rover (Havoc)",
-        "slug": "rover-havoc",
         "rarity_stars": 5,
-        "element": "Havoc"
+        "slug": "rover-havoc"
       },
       {
+        "element": "Spectro",
         "name": "Rover (Spectro)",
-        "slug": "rover-spectro",
         "rarity_stars": 5,
-        "element": "Spectro"
+        "slug": "rover-spectro"
       },
       {
+        "element": "Glacio",
         "name": "Sanhua",
-        "slug": "sanhua",
         "rarity_stars": 4,
-        "element": "Glacio"
+        "slug": "sanhua"
       },
       {
+        "element": "Aero",
         "name": "Sigrika",
-        "slug": "sigrika",
         "rarity_stars": 5,
-        "element": "Aero"
+        "slug": "sigrika"
       },
       {
+        "element": "Glacio",
         "name": "Suisui",
-        "slug": "suisui",
         "rarity_stars": 5,
-        "element": "Glacio"
+        "slug": "suisui"
       },
       {
+        "element": "Unknown",
         "name": "Suoming",
-        "slug": "suoming",
         "rarity_stars": 5,
-        "element": "Unknown"
+        "slug": "suoming"
       },
       {
+        "element": "Havoc",
         "name": "Taoqi",
-        "slug": "taoqi",
         "rarity_stars": 4,
-        "element": "Havoc"
+        "slug": "taoqi"
       },
       {
+        "element": "Spectro",
         "name": "The Shorekeeper",
-        "slug": "the-shorekeeper",
         "rarity_stars": 5,
-        "element": "Spectro"
+        "slug": "the-shorekeeper"
       },
       {
+        "element": "Spectro",
         "name": "Verina",
-        "slug": "verina",
         "rarity_stars": 5,
-        "element": "Spectro"
+        "slug": "verina"
       },
       {
+        "element": "Electro",
         "name": "Xiangli Yao",
-        "slug": "xiangli-yao",
         "rarity_stars": 5,
-        "element": "Electro"
+        "slug": "xiangli-yao"
       },
       {
+        "element": "Aero",
         "name": "Yangyang",
-        "slug": "yangyang",
         "rarity_stars": 4,
-        "element": "Aero"
+        "slug": "yangyang"
       },
       {
+        "element": "Havoc",
         "name": "Yangyang Xuanling",
-        "slug": "yangyang-xuanling",
         "rarity_stars": 5,
-        "element": "Havoc"
+        "slug": "yangyang-xuanling"
       },
       {
+        "element": "Electro",
         "name": "Yinlin",
-        "slug": "yinlin",
         "rarity_stars": 5,
-        "element": "Electro"
+        "slug": "yinlin"
       },
       {
+        "element": "Glacio",
         "name": "Youhu",
-        "slug": "youhu",
         "rarity_stars": 4,
-        "element": "Glacio"
+        "slug": "youhu"
       },
       {
+        "element": "Electro",
         "name": "Yuanwu",
-        "slug": "yuanwu",
         "rarity_stars": 4,
-        "element": "Electro"
+        "slug": "yuanwu"
       },
       {
+        "element": "Spectro",
         "name": "Zani",
-        "slug": "zani",
         "rarity_stars": 5,
-        "element": "Spectro"
+        "slug": "zani"
       },
       {
+        "element": "Glacio",
         "name": "Zhezhi",
-        "slug": "zhezhi",
         "rarity_stars": 5,
-        "element": "Glacio"
+        "slug": "zhezhi"
       }
     ]
-  }
+  },
+  "status": "success"
 }

@@ -1,0 +1,950 @@
+{
+  "data": {
+    "base_stats_lvl_90": {
+      "atk": 23,
+      "crit_dmg": "150%",
+      "crit_rate": "5%",
+      "def": 90,
+      "elemental_dmg_bonus": "0%",
+      "healing_bonus": "1.12%",
+      "hp": 1337,
+      "max_energy": 125
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Offers a 10% unconditional Healing% boost and an most importantly a 15% ATK% boost for the entire team, lasting 30 seconds whenever you heal yourself or any of your allies. This bonus can be triggered by character abilities and weapon effects, is easy to keep active 100% of the time and is a big help for all party members.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Grants 10% Energy Regen on cast, making it possible to run a Spectro DMG 3-cost on Shorekeeper using 4-star weapons while still reaching the 230% Energy Regen requirement Shorekeeper must meet, which can boost her personal damage a good amount. On top of this, the Echo also grants the entire team a 10% boost to ATK for 20 seconds and deals damage based on the wearers HP, so it will slightly boost both Shorekeeper's and the whole team's damage contribution, making it her best choice generally.",
+            "echo_name": "Fallacy of No Return"
+          },
+          {
+            "echo_commentary": "While nowadays a worse option for the Rejuvenating Glow set for damage than the Fallacy of No Return due to a shorter buff uptime, only granting 10% DMG Bonus for 15 seconds, the Bell-Borne Geochelone remains a good choice if you don't have a good Fallacy to use for the set. It also has increased survivability by blocking 50% of the damage from a max of 3 hits if you desire to have that in your team.",
+            "echo_name": "Bell-Borne Geochelone"
+          }
+        ],
+        "percentage_performance": "1",
+        "set_name": "Rejuvenating Glow"
+      },
+      {
+        "commentary": "Offers a 10% unconditional Energy Regen% boost taking some pressure off your gear when aiming at ER breakpoints. Also upon using Outro, grants the next character switching in a 22.5% ATK boost, amplifying any of your main damage dealers burst windows.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Supportive Echo that can be run at the cost of a sizeable chunk of damage for the character who equips, trading personal gain for team benefits. Should always be used and immediately switch cancelled right before performing an Outro, leading to another DPS. When done so will grant the next character switching in 12% increased DMG% which when combined with the 5P Moonlit set which also grants 22.5% ATK% under the same conditions makes for a sizeable boost. While the echo does lower the damage of whoever wears it, it grants a massive chunk of energy on use usually saving 1 or sometimes even 2 Energy Regen sub stats that may otherwise be needed by the wearer allowing for some damage to be recovered.",
+            "echo_name": "Impermanence Heron"
+          }
+        ],
+        "percentage_performance": "",
+        "set_name": "Moonlit Clouds"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "HP%",
+          "HP%"
+        ],
+        "cost_3": [
+          "Energy Regen",
+          "Energy Regen / Spectro DMG"
+        ],
+        "cost_4": [
+          "CRIT DMG > HP%"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until 230%)",
+        "CRIT DMG ≥ Liberation DMG%",
+        "HP%",
+        "CRIT Rate",
+        "HP",
+        "ATK%  ATK"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "Shorekeeper's Signature is her best weapon but not by a big difference compared to Variation. It does provide a 14% team-wide ATK boost when casting Shorekeeper's skill and provides an extra Concerto boost when casting Ultimate. Additionally, it increases Energy Regen by a massive amount, making reaching Shorekeeper's 230% requirement easy. However, due to providing lower amounts of Concerto than an R5 Variation, its competition is fierce as this weapon makes Shorekeeper's opening rotation noticeably slower.",
+        "dupe_rank": "R1",
+        "percentage_performance": "116.30%",
+        "weapon_base_info": {
+          "effect_description": "Increase HP by {0}. Restore {1} Concerto Energy when casting Resonance Liberation. This effect can be triggered 1 time(s) every 20s. When casting Resonance Skill that heals, increase nearby party members' ATK by {2} for 30s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 412,
+          "rarity": 5,
+          "secondary_stat_name": "Energy Regen",
+          "secondary_stat_val": 77,
+          "source": "Gacha"
+        },
+        "weapon_name": "Stellar Symphony"
+      },
+      {
+        "commentary_details": "The best 4-star weapon in the game for many players, Variation provides a simple, yet massive Concerto boost when casting Skill on top of a massive amount of Energy Regen. This weapon speeds up Shorekeeper's rotation significantly and makes her rotations quick and smooth, making it one of the best choices very close to her Signature even at R1.",
+        "dupe_rank": "R5",
+        "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "When Resonance Skill is released, restores Concerto Energy by {0}. This effect can be triggered 1 time every 20s.",
+          "primary_stat_val": 337,
+          "rarity": 4,
+          "secondary_stat_name": "Energy Reg.",
+          "secondary_stat_val": 51.8,
+          "source": ""
+        },
+        "weapon_name": "Variation"
+      },
+      {
+        "commentary_details": "The best option for Shorekeeper that doesn't require any gacha. Provides a big amount of Energy Regen and a small ATK% boost when casting Skill, acquired for free via crafting.",
+        "dupe_rank": "R5",
+        "percentage_performance": "87.20%",
+        "weapon_base_info": {
+          "effect_description": "When Resonance Skill is released, if the Resonator's HP is below 60%, restores their HP by {0}. This effect can be triggered 1 time(s) every 8s; if the Resonator's HP is above 60%, increases ATK by {1}, lasting for 10s.",
+          "primary_stat_val": 337,
+          "rarity": 4,
+          "secondary_stat_name": "Energy Reg.",
+          "secondary_stat_val": 51.8,
+          "source": "Synthesis"
+        },
+        "weapon_name": "Rectifier#25"
+      },
+      {
+        "commentary_details": "More healing-focused option for Shorekeeper which is also given for free via an Exploration quest in Rinascita. Provides the same amount of Energy Regen as the above options, but has the added pro of increasing Healing Bonus by 16% for 15s when casting Ultimate. Better than Rectifier#25 if the player desires more healing on the team, but it is not a necessity.",
+        "dupe_rank": "R5",
+        "percentage_performance": "85.10%",
+        "weapon_base_info": {
+          "effect_description": "Casting Resonance Liberation increases the Resonator's Healing Bonus by {0} for 15s.",
+          "primary_stat_val": 338,
+          "rarity": 4,
+          "secondary_stat_name": "Energy Regen",
+          "secondary_stat_val": 51.8,
+          "source": "Event"
+        },
+        "weapon_name": "Call of the Abyss"
+      }
+    ],
+    "character_metadata": {
+      "breadcrumb": [
+        "Wuthering Waves",
+        "Characters",
+        "The Shorekeeper"
+      ],
+      "element": "Spectro",
+      "name": "The Shorekeeper",
+      "rarity_stars": 5,
+      "slug": "the-shorekeeper",
+      "updates": {
+        "last_major_build_patch": "2.6",
+        "last_profile_update": "10/July/2026",
+        "last_review_patch": "1.4",
+        "last_updated": "10/July/2026"
+      },
+      "weapon_type": "Rectifier"
+    },
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "augusta"
+        },
+        "slot_2": {
+          "alternatives": [
+            "mortefi"
+          ],
+          "character_name": "iuno"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Augusta Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "carlotta"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "zhezhi"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Carlotta Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "zani"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "phoebe"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Zani Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "camellya"
+        },
+        "slot_2": {
+          "alternatives": [
+            "sanhua"
+          ],
+          "character_name": "roccia"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Camellya Team",
+        "team_notes": ""
+      }
+    ],
+    "media": {
+      "full_image_gallery_url": "$undefined",
+      "youtube_guide_embed_url": "https://www.youtube.com/embed/18qsttMI_xI",
+      "youtube_guide_full_url": "https://www.youtube.com/watch?v=18qsttMI_xI"
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+12%",
+        "stat_name": "HP%"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "Healing Bonus"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "Really wants a weapon with Concerto Energy generation and feels worse without it.",
+        "Can have a bit of a slow start in Tower of Adversity depending on team composition.",
+        "Lacks the Coordinated Attacks Verina has which lowers her potential in comparison with characters that synergize with that mechanic."
+      ],
+      "pros": [
+        "Unique and incredible Critical Rate and Critical Damage buffs.",
+        "Tremendous continuous healing for the whole team.",
+        "Full team Damage Amplification that isn't lost on switching.",
+        "Excellent carrier of the Rejuvenating Glow set.",
+        "Deals surprisingly high damage with the empowered Intro (if built with it in mind).",
+        "Incredibly flexible - can be played in many different teams."
+      ]
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [
+            "Gather",
+            "Sustain"
+          ],
+          "tier": "T0"
+        },
+        "whimpering_wastes": {
+          "tags": [
+            "Gather",
+            "Sustain"
+          ],
+          "tier": "T0.5"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T0"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T0.5"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 20000-35000+",
+      "DEF: 1100+",
+      "CRIT Rate: 20%-40%+",
+      "CRIT DMG: 220-280%+",
+      "Energy Regen: 230% (Before Echo/Passive)Remember Shorekeeper's passive and her Fallacy of No Return Echo both increase her Energy by 10%, up to 250% total. If running a different Echo, 240% Energy Regen will be required.",
+      "Spectro DMG Bonus: 0-30%"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "The Stellarealms generated by Resonance Liberation End Loop gain the following enhancements:The effective range of the healing and buffs is extended by 150%The duration is extended by 10s.Casting Intro Skill Discernment no longer ends the existing Stellarealm.",
+        "name": "Sequence Node 1",
+        "node": "S1"
+      },
+      {
+        "description": "The Outer Stellarealm now increases the ATK of all nearby party members by 40%.",
+        "name": "Sequence Node 2",
+        "node": "S2"
+      },
+      {
+        "description": "Casting Resonance Liberation End Loop grants Shorekeeper 20 Concerto Energy. This effect can be triggered once every 25s.",
+        "name": "Sequence Node 3",
+        "node": "S3"
+      },
+      {
+        "description": "Gain 70% additional Healing Bonus when casting Resonance Skill Chaos Theory.",
+        "name": "Sequence Node 4",
+        "node": "S4"
+      },
+      {
+        "description": "Extend the ranges of the pulling effect of Basic Attack Stage 3 by 50% and Illation by 30%.",
+        "name": "Sequence Node 5",
+        "node": "S5"
+      },
+      {
+        "description": "Increase the DMG Multiplier of Intro Skill Discernment by 42%. Casting Intro Skill Discernment increases Shorekeeper's Crit. DMG by 500%.",
+        "name": "Sequence Node 6",
+        "node": "S6"
+      }
+    ],
+    "review": {
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "The Shorekeeper is a 5-star Spectro Rectifier wielder specializing in healing and supporting her allies. She shares a similar role to Verina and can similarly fit in almost any team composition. Her unique aspect is her buffs being CRIT-based instead of Attack%, which usually allows her to outperform Verina in the raw damage multiplication department (excluding other synergies). However, unlike Verina, she must follow a strict rotation as her buffing capabilities are entirely tied to her Resonance Liberation and Outro. This isn't a bad thing, but understanding how to achieve it efficiently and consistently is very important if you want to use The Shorekeeper to her full potential.",
+            "Now let's dive into her kit.",
+            "Her Resonance Liberation: End Loop has an activation cost of whopping 175 Energy. Upon its use, she summons the Stellarealm for 30 seconds - a massive ring providing benefits to allies within its radius and generating Shorekeeper 20 Concerto Energy upon activation. Stellarealm features 3 different stages with each offering a benefit that can stack with each other. The initial summon will be in \"Outer Stellarealm\" variant, but whenever an ally executes an Intro skill within its bounds, it is upgraded to the next stage. The 3 stages are:",
+            "Outer Stellarealm (Baseline) - Continuously Heal all allies once every 3 seconds.",
+            "Inner Stellarealm (After 1 Intro) - Increases 0.01% Critical Rate per 0.2% of Shorekeeper's Energy Regeneration up to 12.5% for all allies.",
+            "Supernal Stellarealm (After 2 Intro) - Increases 0.02% Critical Damage per 0.1% of Shorekeeper's Energy Regeneration up to 25% for all allies.",
+            "After using 2 Intros, your party gains Continuous Healing, 12.5% Critical Rate and 25% Critical Damage for the duration of Stellarealm. To achieve this though, you'll need to ensure The Shorekeeper is built with enough Energy Regeneration - the magic number being 250% (150% from Echoes, Weapon, and Passives). Additionally, the 250% Energy Regeneration is a comfortable checkpoint to ensure her timely access to her Ultimate in most team set-ups as well. As her Resonance Liberation features a 25-second cooldown, with careful planning you should have no trouble maintaining its uptime for most of the fight.",
+            "Her other key supportive ability is her Outro, which grants the entire party a 15% Damage Amplification buff for 30 seconds, regardless of how many times they Swap In-or-Out. As an added bonus, whenever the On-Field Resonator is launched/knocked back, you can immediately recover and execute Perfect Dodge followed by a Dodge Counter by tapping the Dodge button. However, this effect is limited to 5 times per application.",
+            "These two abilities form the core of her kit and are the focus of everything she will aim to achieve on the field. The game plan is simple:",
+            "generate as much as Concerto Energy as fast as possible,",
+            "summon the Stellarealm and then immediately perform her Outro triggering another character's Intro to upgrade the realm immediately and apply Shorekeeper's Outro buff,",
+            "after which you only require 1 more Intro to fully upgrade the realm.",
+            "Fortunately, the rest of her kit is competent at generating Concerto quickly, so let's take a look at that. Her Forte Circuit: Astral Chord is divided into two different charge-based resources - \"Collapsed Cores\" and \"Empirical Data\".",
+            "\"Collapsed Cores\" are glowing orbs that materialize on the field when triggered and are generated by the use of any of her standard Basic Attacks. These Cores transform into \"Flare Star Butterflies\" after 6 seconds of spawn - a homing missile attack targeting the closest enemy dealing small damage but generating good Concerto Energy. She can only have 5 Cores active at once, with additional Cores transforming the oldest Core into a Butterfly ignoring the 6-second rule.",
+            "\"Empirical Data\" also features a 5 charge limit and is generated via her Basic Attacks, but can be only used once you have accumulated all 5, enhancing her next Heavy Attack of Mid-Air Attack, consuming all charges and gaining the following effects:",
+            "Enhanced Mid-Air Attack: Forte Transmutation - Deals Spectro damage, generates good Concerto Energy, and converts all \"Collapsed Cores\" into \"Flare Star Butterflies\" instantly and can be followed up by Basic Attack 2.",
+            "Enhanced Heavy Attack: Forte Illation - Deals Spectro damage, generates good Concerto Energy, converts all \"Collapsed Cores\" into \"Flare Star Butterflies\" instantly, and slightly pulls Non Elite/Boss enemies to the center of the ability gathering them.",
+            "Both abilities are similar, but Forte Illation is preferred as it doesn't require you to be in Mid-Air and also features Pull, as such use it whenever you have 5 \"Empirical Data\" to generate additional Concerto Energy and expedite the conversion of \"Collapsed Cores\" into Concerto generating \"Flare Star Butterflies\".",
+            "To activate these Forte Abilities, we will need to use her Basic Attacks - mainly her standard 4 Basic Attack combo, which is:",
+            "Basic Attack 1 (Generates 1 \"Collapsed Cores\" and 1 \"Empirical Data\")",
+            "Basic Attack 2 (Generates 1 \"Collapsed Cores\" and 1 \"Empirical Data\")",
+            "Basic Attack 3 (Generates 1 \"Collapsed Cores\" and 2 \"Empirical Data\")",
+            "Basic Attack 4 (Generates 1 \"Collapsed Cores\" and 1 \"Empirical Data\")",
+            "The combo generates enough \"Empirical Data\" and \"Collapsed Cores\" to immediately follow up with an enhanced Forte attack of your choice (Illation recommended) after which all Cores will convert to \"Flare Star Butterflies\" generating a burst of Concerto Energy. Furthermore, her Dodge Counter also generates strong Concerto Energy but should be only utilized if a situation arises.",
+            "Shorekeeper's Resonance Skill isn't overly connected to the rest of her kit but is an excellent tool for a burst of healing and concerto generation. Using it grants 20 Concerto energy immediately, heals the party for a decent amount instantly, and summons 5 \"Dim Star Butterflies\" which operate identically to \"Flare Star Butterflies\". Overall, the ability grants 30 Concerto after the butterflies find their target and only has a 16-second cooldown - use it whenever it's available and you aren't full on concerto. As a bonus using Basic Attacks right after this ability will skip straight to Basic Attack 2 of the combo.",
+            "Lastly let's talk about The Shorekeeper's Intro skill, which she has two of - a standard one and an empowered one accessible only once per Resonance Liberation used. Both Intro skills heal, deal damage, and generate good Concerto Energy, but the empowered one does it all better at the cost of immediately ending the current Stellarealm regardless of the duration left.",
+            "This might look like a steep cost to pay, but when played optimally you should be only switching Shorekeeper in when she needs to refresh the Stellarealm anyway, making this downside negligible. On the upside, empowered Intro generates double Concerto Energy, deals damage based on her HP instead of Attack (resulting in a surprisingly large damage nuke), always hits Critically, and heals slightly more. With all these bonuses, you should always aim to execute the empowered Intro if possible, and the damage dealt is non-negligible if you decide to build into it.",
+            "Rounding off her kit is her Inherent Skills:",
+            "The first offers the standard Cheat Death ability we expect from healing characters protecting a fatally wounded ally by transferring half of Shorekeeper's HP to it instead.",
+            "The second one grants Shorekeeper 10% additional Energy Regen while any Resonator is within the Stellarealm radius (counting towards the 250% Bonus) meaning you only need to get 240% now! As an extra bit of flavor, if Rover is in the team, they too gain the 10% Energy Regeneration bonus.",
+            "In conclusion, Shorekeeper has a packed-to-the-brim supportive kit with excellent healing capabilities but she has a strong reliance on Concerto Energy generation tools such as her Intro and the weapons - Variation or Stellar Symphony (her Signature), without which she will feel less smooth. This can lead to her having weak openers in endgame modes lacking immediate Intro access - such as Tower of Adversity, and longer rotations for those lacking either weapon option.",
+            "However, if you are able to overcome these limitations, she is absolutely a meta powerhouse featuring some of the best supportive capabilities and flexibility in the game."
+          ]
+        }
+      ],
+      "summary": "The Shorekeeper is a 5-star Spectro Rectifier wielder specializing in healing and supporting her allies. She shares a similar role to Verina and can similarly fit in almost any team composition. Her unique aspect is her buffs being CRIT-based instead of Attack%, which usually allows her to outperform Verina in the raw damage multiplication department (excluding other synergies). However, unlike Verina, she must follow a strict rotation as her buffing capabilities are entirely tied to her Resonance Liberation and Outro. This isn't a bad thing, but understanding how to achieve it efficiently and consistently is very important if you want to use The Shorekeeper to her full potential."
+    },
+    "rotations": [
+      {
+        "rotation_name": "Opener Rotation:",
+        "steps": [
+          "Basic P1",
+          "Basic P2",
+          "Basic P3",
+          "Basic P4",
+          "Forte: Heavy Atk: Illation",
+          "Basic P1",
+          "Basic P2",
+          "Basic P3",
+          "Basic P4",
+          "Forte: Heavy Atk: Illation",
+          "Skill: Chaos Theory",
+          "Echo",
+          "Liberation",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Standard Rotation:",
+        "steps": [
+          "Intro Skill: Discernment",
+          "Basic P1",
+          "Basic P2",
+          "Basic P3",
+          "Basic P4",
+          "Forte: Heavy Atk: Illation",
+          "Skill: Chaos Theory",
+          "Echo",
+          "Liberation",
+          "Outro"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "",
+      "order": [
+        "Intro Skill",
+        "Res. Skill",
+        "Basic Attack",
+        "Forte Circuit",
+        "Res. Liberation"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic AttackPerform up to 4 consecutive attacks, dealing Spectro DMG. Each hit generates 1 Collapsed Core.Heavy AttackHold the Normal Attack Button to enter Unbound Form, which consumes STA continuously. While in this form, Shorekeeper will:Generate a segment of Deductive Data every second.Automatically collect nearby plant collectibles.Using up all STA or actions such as casting Basic Attack will end the Unbound Form and deal Spectro DMG to the target. Each accumulated segment of Deductive Data will convert into a segment of Empirical Data and generate a Collapsed Core.Mid-air AttackConsume STA to perform a Plunging Attack. Each hit generates 1 Collapsed Core. Quickly Press the Normal Attack Button after the Plunging Attack to perform Basic Attack Stage 2.Dodge CounterPress the Normal Attack Button after a successful Dodge to attack a target, dealing Spectro DMG.",
+        "multipliers": [
+          {
+            "Lv1": "15.99%",
+            "Lv10": "31.78%",
+            "Lv2": "17.30%",
+            "Lv3": "18.61%",
+            "Lv4": "20.45%",
+            "Lv5": "21.76%",
+            "Lv6": "23.26%",
+            "Lv7": "25.36%",
+            "Lv8": "27.46%",
+            "Lv9": "29.55%",
+            "Name": "Stage 1 DMG"
+          },
+          {
+            "Lv1": "12.00%*2",
+            "Lv10": "23.86%*2",
+            "Lv2": "12.99%*2",
+            "Lv3": "13.97%*2",
+            "Lv4": "15.35%*2",
+            "Lv5": "16.33%*2",
+            "Lv6": "17.47%*2",
+            "Lv7": "19.04%*2",
+            "Lv8": "20.61%*2",
+            "Lv9": "22.19%*2",
+            "Name": "Stage 2 DMG"
+          },
+          {
+            "Lv1": "11.73%*3",
+            "Lv10": "23.32%*3",
+            "Lv2": "12.69%*3",
+            "Lv3": "13.66%*3",
+            "Lv4": "15.00%*3",
+            "Lv5": "15.96%*3",
+            "Lv6": "17.07%*3",
+            "Lv7": "18.61%*3",
+            "Lv8": "20.15%*3",
+            "Lv9": "21.69%*3",
+            "Name": "Stage 3 DMG"
+          },
+          {
+            "Lv1": "36.58%",
+            "Lv10": "72.72%",
+            "Lv2": "39.58%",
+            "Lv3": "42.58%",
+            "Lv4": "46.78%",
+            "Lv5": "49.78%",
+            "Lv6": "53.23%",
+            "Lv7": "58.03%",
+            "Lv8": "62.82%",
+            "Lv9": "67.62%",
+            "Name": "Stage 4 DMG"
+          },
+          {
+            "Lv1": "23.04%",
+            "Lv10": "45.81%",
+            "Lv2": "24.93%",
+            "Lv3": "26.82%",
+            "Lv4": "29.47%",
+            "Lv5": "31.36%",
+            "Lv6": "33.53%",
+            "Lv7": "36.55%",
+            "Lv8": "39.58%",
+            "Lv9": "42.60%",
+            "Name": "Heavy Attack DMG"
+          },
+          {
+            "Lv1": "37.20%",
+            "Lv10": "73.96%",
+            "Lv2": "40.26%",
+            "Lv3": "43.31%",
+            "Lv4": "47.58%",
+            "Lv5": "50.63%",
+            "Lv6": "54.13%",
+            "Lv7": "59.02%",
+            "Lv8": "63.90%",
+            "Lv9": "68.78%",
+            "Name": "Plunging Attack DMG"
+          },
+          {
+            "Lv1": "44.00%*2",
+            "Lv10": "87.48%*2",
+            "Lv2": "47.61%*2",
+            "Lv3": "51.22%*2",
+            "Lv4": "56.27%*2",
+            "Lv5": "59.88%*2",
+            "Lv6": "64.03%*2",
+            "Lv7": "69.80%*2",
+            "Lv8": "75.57%*2",
+            "Lv9": "81.35%*2",
+            "Name": "Dodge Counter DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Heavy Attack STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Plunging Attack STA Cost"
+          }
+        ],
+        "name": "Origin Calculus",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Restore HP for all nearby party members and summon 5 Dim Star Butterflies, which automatically track and attack a target, dealing Spectro DMG. Follow up with Basic Attack in time to start the Basic Attack cycle from Stage 2.Can be performed in mid-air.",
+        "multipliers": [
+          {
+            "Lv1": "15.75%",
+            "Lv10": "31.31%",
+            "Lv2": "17.04%",
+            "Lv3": "18.33%",
+            "Lv4": "20.14%",
+            "Lv5": "21.43%",
+            "Lv6": "22.91%",
+            "Lv7": "24.98%",
+            "Lv8": "27.05%",
+            "Lv9": "29.11%",
+            "Name": "Dim Star Butterfly DMG"
+          },
+          {
+            "Lv1": "660 + 3.00% HP",
+            "Lv10": "1313 + 5.97% HP",
+            "Lv2": "715 + 3.25% HP",
+            "Lv3": "769 + 3.50% HP",
+            "Lv4": "845 + 3.84% HP",
+            "Lv5": "899 + 4.09% HP",
+            "Lv6": "961 + 4.37% HP",
+            "Lv7": "1047 + 4.76% HP",
+            "Lv8": "1134 + 5.16% HP",
+            "Lv9": "1221 + 5.55% HP",
+            "Name": "Healing"
+          },
+          {
+            "Lv1": "16",
+            "Lv10": "16",
+            "Lv2": "16",
+            "Lv3": "16",
+            "Lv4": "16",
+            "Lv5": "16",
+            "Lv6": "16",
+            "Lv7": "16",
+            "Lv8": "16",
+            "Lv9": "16",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Chaos Theory",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Outer StellarealmGenerate the Outer Stellarealm to restore HP for all party members within its effective range continuously. This effect can be triggered once every 3s.Inner StellarealmWhen a party member uses Intro Skill within the Outer Stellarealm, it evolves into the Inner Stellarealm. Within the effective range of the Inner Stellarealm, for every 0.2% of Shorekeeper's Energy Regen, all party members gain 0.01% bonus Crit. Rate, up to 12.5%. \nInner Stellarealm has all the effects of the Outer Stellarealm.Supernal StellarealmWhen a party member uses Intro Skill within the Inner Stellarealm, it evolves into the Supernal Stellarealm. Within the effective range of the Supernal Stellarealm, for every 0.1% of Shorekeeper's Energy Regen, all party members gain a 0.01% increase of Crit. DMG, up to 25%. Supernal Stellarealm has all the effects of the Inner Stellarealm.When Supernal Stellarealm is generated, Shorekeeper's first Intro Skill triggered in its duration will be replaced with Intro Skill Discernment. This effect takes place once each time a Supernal Stellarealm is generated.",
+        "multipliers": [
+          {
+            "Lv1": "220 + 1.20% HP",
+            "Lv10": "438 + 2.39% HP",
+            "Lv2": "239 + 1.30% HP",
+            "Lv3": "257 + 1.40% HP",
+            "Lv4": "282 + 1.54% HP",
+            "Lv5": "300 + 1.64% HP",
+            "Lv6": "321 + 1.75% HP",
+            "Lv7": "349 + 1.91% HP",
+            "Lv8": "378 + 2.07% HP",
+            "Lv9": "407 + 2.22% HP",
+            "Name": "Healing"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Stellarealm Duration"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "175",
+            "Lv10": "175",
+            "Lv2": "175",
+            "Lv3": "175",
+            "Lv4": "175",
+            "Lv5": "175",
+            "Lv6": "175",
+            "Lv7": "175",
+            "Lv8": "175",
+            "Lv9": "175",
+            "Name": "Resonance Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "End Loop",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Flare Star ButterflyHitting a target with a Normal Attack generates a Collapsed Core, which transforms into a Flare Star Butterfly after 6s. Flare Star Butterflies automatically track and attack a target, dealing Spectro DMG. If there are already 5 Collapsed Cores, Shorekeeper's next Normal Attack hit will instantly convert a Collapsed Core into a Flare Star Butterfly.IllationWhen Shorekeeper has 5 segments of Empirical Data, casting Heavy Attack will consume all segments to pull in nearby targets, dealing Spectro DMG. Meanwhile, all generated Collapsed Cores will instantly transform into Flare Star Butterflies.TransmutationWhen Shorekeeper has 5 segments of Empirical Data, casting Mid-air Attack will consume all segments to deal Spectro DMG. Meanwhile, all generated Collapsed Cores will instantly transform into Flare Star Butterflies. Quickly press the Normal Attack Button afterward to perform Basic Attack Stage 2.Empirical DataShorekeeper can hold up to 5 segments of Empirical Data.Obtain 1 segment of Empirical Data when Basic Attack Stage 1, 2, or 4 hits a target.Obtain 2 segments of Empirical Data when Basic Attack Stage 3 hits a target.Obtain 1 segment of Empirical Data when Mid-air Attack hits a target.Obtain 1 segment of Empirical Data when Dodge Counter hits a target.",
+        "multipliers": [
+          {
+            "Lv1": "18.76%",
+            "Lv10": "37.29%",
+            "Lv2": "20.29%",
+            "Lv3": "21.83%",
+            "Lv4": "23.99%",
+            "Lv5": "25.52%",
+            "Lv6": "27.29%",
+            "Lv7": "29.75%",
+            "Lv8": "32.21%",
+            "Lv9": "34.67%",
+            "Name": "Flare Star Butterfly DMG"
+          },
+          {
+            "Lv1": "9.54%*5",
+            "Lv10": "18.97%*5",
+            "Lv2": "10.33%*5",
+            "Lv3": "11.11%*5",
+            "Lv4": "12.20%*5",
+            "Lv5": "12.99%*5",
+            "Lv6": "13.89%*5",
+            "Lv7": "15.14%*5",
+            "Lv8": "16.39%*5",
+            "Lv9": "17.64%*5",
+            "Name": "Illation DMG"
+          },
+          {
+            "Lv1": "37.20%",
+            "Lv10": "73.96%",
+            "Lv2": "40.26%",
+            "Lv3": "43.31%",
+            "Lv4": "47.58%",
+            "Lv5": "50.63%",
+            "Lv6": "54.13%",
+            "Lv7": "59.02%",
+            "Lv8": "63.90%",
+            "Lv9": "68.78%",
+            "Name": "Transmutation DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Illation STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Transmutation STA Cost"
+          },
+          {
+            "Lv1": "6",
+            "Lv10": "6",
+            "Lv2": "6",
+            "Lv3": "6",
+            "Lv4": "6",
+            "Lv5": "6",
+            "Lv6": "6",
+            "Lv7": "6",
+            "Lv8": "6",
+            "Lv9": "6",
+            "Name": "Illation Concerto Regen"
+          },
+          {
+            "Lv1": "6",
+            "Lv10": "6",
+            "Lv2": "6",
+            "Lv3": "6",
+            "Lv4": "6",
+            "Lv5": "6",
+            "Lv6": "6",
+            "Lv7": "6",
+            "Lv8": "6",
+            "Lv9": "6",
+            "Name": "Transmutation Concerto Regen"
+          }
+        ],
+        "name": "Astral Chord",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "When a Resonator other than Shorekeeper takes a fatal blow, they will not be knocked out and will instead be healed for 50% of Shorekeeper's HP while Shorekeeper loses the same amount of HP. Shorekeeper's HP will not go below 1 from this effect. This effect can be triggered once every 10 minutes.",
+        "multipliers": [],
+        "name": "Life Entwined",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "When the Resonator on the field is within the effective range of a Stellarealm, Shorekeeper's Energy Regen increases by 10%. If Rover is on the same team, Rover's Energy Regen also increases by 10%.",
+        "multipliers": [],
+        "name": "Self Gravitation",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "EnlightenmentShorekeeper appears to restore HP for all nearby party members and summon 5 Dim Star Butterflies, which automatically track and attack a target, dealing Spectro DMG. This is considered Resonance Skill DMG.DiscernmentWhen a Supernal Stellarealm is generated, Shorekeeper's first Intro Skill triggered in its duration will be replaced with Intro Skill Discernment. Casting Discernment ends the current Stellarealm, restores HP for all nearby party members, and deals Spectro DMG to the targets. This attack is guaranteed to be a Critical Hit dealing Resonance Liberation DMG. The Intro Skill Discernment can only be cast one time for each Supernal Stellarealm generated.",
+        "multipliers": [
+          {
+            "Lv1": "22.79%*5",
+            "Lv10": "45.30%*5",
+            "Lv2": "24.66%*5",
+            "Lv3": "26.53%*5",
+            "Lv4": "29.14%*5",
+            "Lv5": "31.01%*5",
+            "Lv6": "33.16%*5",
+            "Lv7": "36.15%*5",
+            "Lv8": "39.14%*5",
+            "Lv9": "42.13%*5",
+            "Name": "Enlightenment DMG"
+          },
+          {
+            "Lv1": "9.88%*3 HP",
+            "Lv10": "19.64%*3 HP",
+            "Lv2": "10.69%*3 HP",
+            "Lv3": "11.50%*3 HP",
+            "Lv4": "12.64%*3 HP",
+            "Lv5": "13.45%*3 HP",
+            "Lv6": "14.38%*3 HP",
+            "Lv7": "15.67%*3 HP",
+            "Lv8": "16.97%*3 HP",
+            "Lv9": "18.26%*3 HP",
+            "Name": "Discernment DMG"
+          },
+          {
+            "Lv1": "130 + 0.60% HP",
+            "Lv10": "259 + 1.20% HP",
+            "Lv2": "141 + 0.65% HP",
+            "Lv3": "152 + 0.70% HP",
+            "Lv4": "167 + 0.77% HP",
+            "Lv5": "177 + 0.82% HP",
+            "Lv6": "190 + 0.88% HP",
+            "Lv7": "207 + 0.96% HP",
+            "Lv8": "224 + 1.04% HP",
+            "Lv9": "241 + 1.11% HP",
+            "Name": "Enlightenment Healing"
+          },
+          {
+            "Lv1": "145 + 0.66% HP",
+            "Lv10": "289 + 1.32% HP",
+            "Lv2": "157 + 0.72% HP",
+            "Lv3": "169 + 0.77% HP",
+            "Lv4": "186 + 0.85% HP",
+            "Lv5": "198 + 0.90% HP",
+            "Lv6": "211 + 0.97% HP",
+            "Lv7": "231 + 1.05% HP",
+            "Lv8": "250 + 1.14% HP",
+            "Lv9": "269 + 1.23% HP",
+            "Name": "Discernment Healing"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Enlightenment Concerto Regen"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Discernment Concerto Regen"
+          }
+        ],
+        "name": "Proof of Existence",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Shorekeeper summons 1 Flare Star Butterfly and 1 Dim Star Butterfly to circle the Resonator on the field for up to 30s, granting the following effects: If the Resonator on the field is hit or launched, tapping the Dodge Button allows the Resonator to immediately recover from the interruption, triggering a successful Dodge. The Resonator launched in the air can land on the ground standing if they are close to the ground. This effect can be triggered up to 5 time(s).All nearby party members' DMG is Amplified by 15%.",
+        "multipliers": [],
+        "name": "Binary Butterfly",
+        "skill_type": "Outro Skill"
+      }
+    ],
+    "synergies": [],
+    "upgrade_materials": {
+      "character_ascension": [
+        {
+          "material_name": "Novas",
+          "quantity": 60,
+          "rarity": "boss"
+        },
+        {
+          "material_name": "Topological Confinement",
+          "quantity": 46,
+          "rarity": "specialty"
+        },
+        {
+          "material_name": "LF Whisperin Core",
+          "quantity": 4,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Whisperin Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Whisperin Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Whisperin Core",
+          "quantity": 4,
+          "rarity": "common"
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "Sentinel's Dagger",
+          "quantity": 26,
+          "rarity": "weekly_boss"
+        },
+        {
+          "material_name": "LF Whisperin Core",
+          "quantity": 25,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Whisperin Core",
+          "quantity": 28,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Whisperin Core",
+          "quantity": 40,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Whisperin Core",
+          "quantity": 57,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Lento Helix",
+          "quantity": 25,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Adagio Helix",
+          "quantity": 28,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Andante Helix",
+          "quantity": 55,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Presto Helix",
+          "quantity": 67,
+          "rarity": "skill_material"
+        }
+      ]
+    },
+    "voice_actors": {
+      "cn": "",
+      "eng": "",
+      "jpn": "",
+      "kr": ""
+    }
+  },
+  "status": "success"
+}

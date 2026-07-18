@@ -1,0 +1,848 @@
+{
+  "data": {
+    "base_stats_lvl_90": {
+      "atk": 18,
+      "crit_dmg": "150%",
+      "crit_rate": "5%",
+      "def": 128,
+      "elemental_dmg_bonus": "1.12%",
+      "healing_bonus": "0%",
+      "hp": 716,
+      "max_energy": 125
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Offers a 10% unconditional Healing% boost and an most importantly a 15% ATK% boost for the entire team, lasting 30 seconds whenever you heal yourself or any of your allies. This bonus can be triggered by character abilities and weapon effects, is easy to keep active 100% of the time and is a big help for all party members.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Grants 10% increased Energy Regeneration for the wearer and a team wide 10% ATK boost on use for 20 seconds. A strong option for those looking to generate as much energy as possible or who favor a more permanent party buffing effect compared to Bell-Borne Geochelone.",
+            "echo_name": "Fallacy of No Return"
+          },
+          {
+            "echo_commentary": "While nowadays a worse option for the Rejuvenating Glow set for damage than the Fallacy of No Return due to a shorter buff uptime, only granting 10% DMG Bonus for 15 seconds, the Bell-Borne Geochelone remains a good choice if you don't have a good Fallacy to use for the set. It also has increased survivability by blocking 50% of the damage from a max of 3 hits if you desire to have that in your team.",
+            "echo_name": "Bell-Borne Geochelone"
+          }
+        ],
+        "percentage_performance": "1",
+        "set_name": "Rejuvenating Glow"
+      },
+      {
+        "commentary": "Offers a 10% unconditional Energy Regen% boost taking some pressure off your gear when aiming at ER breakpoints. Also upon using Outro, grants the next character switching in a 22.5% ATK boost, amplifying any of your main damage dealers burst windows.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Supportive Echo that can be run at the cost of a sizeable chunk of damage for the character who equips, trading personal gain for team benefits. Should always be used and immediately switch cancelled right before performing an Outro, leading to another DPS. When done so will grant the next character switching in 12% increased DMG% which when combined with the 5P Moonlit set which also grants 22.5% ATK% under the same conditions makes for a sizeable boost. While the echo does lower the damage of whoever wears it, it grants a massive chunk of energy on use usually saving 1 or sometimes even 2 Energy Regen sub stats that may otherwise be needed by the wearer allowing for some damage to be recovered.",
+            "echo_name": "Impermanence Heron"
+          }
+        ],
+        "percentage_performance": "",
+        "set_name": "Moonlit Clouds"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "DEF%",
+          "DEF%"
+        ],
+        "cost_3": [
+          "Energy Regen / Havoc DMG%",
+          "Energy Regen / Havoc DMG"
+        ],
+        "cost_4": [
+          "DEF%"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "DEF%",
+        "DEF"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "A close-to necessary option for Taoqi if you have it, enabling her to cut down on a lot of her annoying rotation time issues. The higher the refinement, the more time you can shave off her rotation. By far and ahead the biggest contribution to your team DPS by virtue of not having a character who does little damage on the field for too long.",
+        "dupe_rank": "R5",
+        "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "When Resonance Skill is released, restores Concerto Energy by {0}. This effect can be triggered 1 time every 20s.",
+          "primary_stat_val": 337,
+          "rarity": 4,
+          "secondary_stat_name": "Energy Reg.",
+          "secondary_stat_val": 51.8,
+          "source": ""
+        },
+        "weapon_name": "Discord"
+      },
+      {
+        "commentary_details": "The next best in line option for Taoqi - a completely free option acquired via exploration that boosts her DEF% and as such the bulk of her damage while providing no rotational advantage.",
+        "dupe_rank": "R5",
+        "percentage_performance": "107.54%",
+        "weapon_base_info": {
+          "effect_description": "When Intro Skill is released, increases ATK by {0} and DEF by {1}, lasting for {2}s.",
+          "primary_stat_val": 337,
+          "rarity": 4,
+          "secondary_stat_name": "DEF",
+          "secondary_stat_val": 61.5,
+          "source": ""
+        },
+        "weapon_name": "Dauntless Evernight"
+      }
+    ],
+    "character_metadata": {
+      "breadcrumb": [
+        "Wuthering Waves",
+        "Characters",
+        "Taoqi"
+      ],
+      "element": "Havoc",
+      "name": "Taoqi",
+      "rarity_stars": 4,
+      "slug": "taoqi",
+      "updates": {
+        "last_major_build_patch": "2.3",
+        "last_profile_update": "10/July/2026",
+        "last_review_patch": "2.1",
+        "last_updated": "10/July/2026"
+      },
+      "weapon_type": "Broadblade"
+    },
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "carlotta"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "taoqi"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Best Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "jinhsi"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "taoqi"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "verina"
+        },
+        "team_name": "Jinhsi Nuke Team",
+        "team_notes": ""
+      }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/taoqi_full.webp",
+      "youtube_guide_embed_url": "",
+      "youtube_guide_full_url": ""
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+12%",
+        "stat_name": "Havoc DMG"
+      },
+      {
+        "bonus_value": "+15.2%",
+        "stat_name": "DEF%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "Has one of the longest support rotations in the game;",
+        "Little to no use of her sequences to the rest of her team, unlike many other available supports;",
+        "Has some of the slowest attack animations of any character in the game, opening her up to being interrupted by enemy attacks;",
+        "Has no place in the meta aside from contributing to big Jinhsi & Carlotta nukes, a niche which is not viable."
+      ],
+      "pros": [
+        "Provides shields and damage reduction to the team through her skill while they are active, which persist after switching;",
+        "Has a powerful Resonance Skill amplification Outro skill buff;",
+        "Has an innate parry which generates Concerto energy and reduces damage from big hits while requiring little timing."
+      ]
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [
+            "Sustain"
+          ],
+          "tier": "T4"
+        },
+        "whimpering_wastes": {
+          "tags": [
+            "Sustain"
+          ],
+          "tier": "T4"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T4"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T4"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 15000+",
+      "DEF: 1150+",
+      "ATK: 1800-2200+",
+      "CRIT Rate: 60-80%+",
+      "CRIT DMG: 210-260%+",
+      "Energy Regen: 100%-126%+On Moonlit Clouds Taoqi requires no Energy Regen at S5, Before S5 the estimate is 126% in a Carlotta+Shorekeeper team.",
+      "Havoc DMG Bonus: 30-60%+"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "Forte Circuit Power Shift's Shield is increased by 40%.",
+        "name": "Sequence Node 1",
+        "node": "S1"
+      },
+      {
+        "description": "The Crit. Rate and Crit. DMG of Resonance Liberation Unmovable is increased by 20% and 20%, respectively.",
+        "name": "Sequence Node 2",
+        "node": "S2"
+      },
+      {
+        "description": "The duration of Resonance Skill Rocksteady Shield is extended to 30s.",
+        "name": "Sequence Node 3",
+        "node": "S3"
+      },
+      {
+        "description": "When Taoqi successfully triggers Heavy Attack Strategic Parry, she restores 25% HP and increases her DEF by 50% for 5s. This can be triggered once every 15 seconds.",
+        "name": "Sequence Node 4",
+        "node": "S4"
+      },
+      {
+        "description": "The damage of Forte Circuit Power Shift is increased by 50%. When Forte Circuit Power Shift hits a target, restore 20 Resonance Energy.",
+        "name": "Sequence Node 5",
+        "node": "S5"
+      },
+      {
+        "description": "The damage of Taoqi's Basic Attack and Heavy Attack is increased by 40% while the Shield granted by Resonance Skill Rocksteady Shield holds.",
+        "name": "Sequence Node 6",
+        "node": "S6"
+      }
+    ],
+    "review": {
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Taoqi is a 4-star Broadblade Havoc support who acts as a Skill DMG Amplifier and Shielder. Sporting one of the beefiest buffing Outro skills in the game, she is found to be desirable buff-wise for any Resonance Skill DMG-focused characters. But then, why is she bottom tier? Let's delve into some specifics.",
+            "Taoqi's main niche, as said in the introduction, and the most important part of her kit by far, is her Outro skill. It amplifies the incoming character's Resonance Skill DMG by 38%. This buff is absolutely massive: we have two characters in this game that scale almost entirely off of Resonance Skill DMG, Jinhsi and Carlotta. They also happen to be some of the best DPS characters in the game currently. In itself, this is enough to justify her position on a team with either of two of the best characters in the game. So it really calls into question why she's a bottom tier character. For that, we need to talk about the rest of her kit, starting with her Forte Circuit.",
+            "Her Forte Circuit allows her to consume her Damage Reduction shields generated by her Resonance Skill (which we cover later) in order to cast Timed Counters, that generate some Concerto Energy and a notable amount of Resonance Energy. However, this requires you to cast your Heavy Attack or Intro Skill prior, assuming you have some shields left. Your Heavy Attack causes Taoqi to stand still for 3 seconds waiting to receive an attack, the DMG of which will be reduced by 35% after which she will cast Strategic Parry, causing a minor amount of damage, Concerto Energy and Resonance Energy to be generated. So without parries or a Forte circuit to show for, all she has left is her Basic Attacks, her Skill and her Ultimate.",
+            "This is inherently problematic for many reasons: first, in the case you want to use it after her Strategic Parry, it requires you to get hit. This means, for starters, that you can write Taoqi off for any Hologram content where enemies will almost always oneshot you, so you can't get hit in the first place as the DMG reduction is too small without a Bell-Borne Geochelone Echo involved (which is suboptimal for DPS because you forfeit the amazing Impermanence Heron or Fallacy of No Return's damage boosts for it). However, it also means enemies HAVE to attack you for it to activate quickly (which is necessary to retain good DPS and clear endgame content in the required amount of time), something that's very unreliable. It's therefore not something you can consider in every rotation.",
+            "Additionally, when comparing Taoqi to any character, Parrying or Dodging manually generates a chunk of Concerto Energy quickly, consistently and easily, which Taoqi can also do and often ends up being ironically preferable over her Strategic Parries, simply because it's more consistent and much easier (her Strategic Parries having an awkward wind-up time unlike regular dodges, which makes it difficult to get used to and optimize).",
+            "Finally, for after an Intro Skill, you need to have shields pre-generated. You therefore need to cast her Skill pre-rotation as a result, something that not only the average player wouldn't do, but also that you need to not get hit with your generalist Support before casting your Intro with Taoqi for this to work in its entirety, meaning it won't be consistent once again and can't be considered for standard rotations. This means her Forte Circuit, in her standard rotations, can be disregarded pretty much entirely. Which could already look like pretty bad news, since a lot of characters' kits revolve around their Forte circuit. However, this is far from killing a character's viability in itself.",
+            "Her Ultimate is not good for a support: it simply does damage based on her DEF. Taoqi is not aiming to do crazy amounts of damage: all that she wants is to amplify the next character in line's damage and provide survivability to the team. As that works towards neither goal, it is only useful in providing Concerto energy for her - which, thankfully, it does well, so her Ultimate is pretty necessary and very much wanted, but is a lot of wasted potential in its effect. It nonetheless means building some Energy Regen on her is a requirement.",
+            "Her Resonance Skill actually holds some support capability: it recovers a huge chunk of Taoqi's own health and provides 15% all-type damage reduction that can apply to your whole party in the form of 3 consumable shields that expire upon taking a hit, while doing some damage and generating a good chunk of Concerto, all at once almost instantly on a 15 second cooldown. Which might unfortunately be the only not completely flawed part of her kit, beyond the fact that it only heals Taoqi herself and she typically won't be the one tanking hits, as your DPS will most often be the one taking damage. Nevertheless, it isn't a terrible ability.",
+            "However, being a heavy Broadblade user, she suffers from very long Basic Attack animations, which have a lot of wind-up and leave her vulnerable to being interrupted, not to mention in this game the shields she generates do not remedy this issue at all; chances are you'll have to dodge and interrupt your string - which, all things considered, really isn't that bad because the basics don't do damage as they scale off of ATK - or you'll take a hit, be staggered and have your attack string reset anyways due to the really long animations. Subsequently, this makes her Concerto rotation difficult to finish and her Outro (the most desirable part of her kit) difficult to access.",
+            "All in all, as much as this whole review has been practically doomposting Taoqi, she does hold a single niche, which is being able to amplify and contribute to big nukes to any Resonance Skill DMG focused characters, and as of right now that's mostly Jinhsi. Taoqi is indeed one of the characters that can provide the biggest buffs to your Jinhsi's insane nuking capabilities and that leads to huge Damage Per Screenshot moments. However, that is not a viable meta niche as Taoqi doesn't do much damage and takes a while to access her potent buffs, ruining her potential to contribute to an overall team's DPS. All of these factors explain why Taoqi is a bottom tier character in the meta. But hey, if you like Taoqi, by all means play her! Jinhsi is good enough that you can actually clear all the hardest endgame content with Taoqi on the team, so don't let this review affect your will to play her because you like her all too much! What matters at the end of the day is that you have fun playing characters you like, and we at Prydwen aren't here to discourage that at all.",
+            "To summarize, while Taoqi is a bottom-tier character due to her kit fundamentally not being viable in the meta, she nevertheless allows for some big Jinhsi nuke numbers - just make sure to run her on Moonlit Clouds, Outro into your Jinhsi, and you're good to go. Maybe Taoqi will find her ideal partner to support in the future, but as of Patch 1.4, that has unfortunately yet to happen. All of these factors amount to one conclusion: Taoqi has too many flaws to see effective meta use. Unless? Because she does hold a single niche, all thanks to her Outro being ever so valuable. Two of the best DPS characters in the game do Resonance Skill DMG almost exclusively: Carlotta and Jinhsi. She's directly compared to the premium Zhezhi, who outclasses Taoqi by far for a multitude of reasons, from higher damage, to shorter, more consistent rotations, to a more cohesive kit, and so on. Zhezhi even has Coordinated Attacks to contribute more to Jinhsi teams, where Taoqi doesn't. Lumi on the other hand is a fairer comparison: she's also 4 star, has the same 38% Skill DMG Amplify Outro buff, and a more cohesive kit than Taoqi. However, she has an even longer rotation time despite accessing similar buffs, so the two are comparable, but Taoqi ends up usually contributing to more team DPS due to her Outro buff lasting 14 seconds compared to Lumi's 10, and her rotation being slightly shorter while remaining fairly lengthy.",
+            "So all in all, she isn't the worst character in the game, compared to what some might believe, and she holds some genuine use in Jinhsi and Carlotta teams - where, once again, due to her rotations taking too long, some options will be preferred - but you are more than free to play her if you simply like her or want to see really big damage numbers on your Jinhsi and Carlotta. Those two DPS characters are strong enough in themselves to clear any form of content in the game, so as long as they have supports that make sense - a category Taoqi falls into, thus you'll be able to easily clear anything the game throws at you.",
+            "In conclusion, Taoqi isn't a perfect character and understandably bottom tier due to a lack of a cohesive kit and suffering a lot of comparison to stronger options. However, one part of her kit, her Outro skill, is really advantageous for some of the best DPS characters in the game and as a result, she ends up being very usable in teams that'll easily clear any of the endgame's content. While outclassed, she is by no means unusable, so go ahead and play her if you like her or simply want big damage numbers!"
+          ]
+        }
+      ],
+      "summary": "Taoqi is a 4-star Broadblade Havoc support who acts as a Skill DMG Amplifier and Shielder. Sporting one of the beefiest buffing Outro skills in the game, she is found to be desirable buff-wise for any Resonance Skill DMG-focused characters. But then, why is she bottom tier? Let's delve into some specifics."
+    },
+    "rotations": [
+      {
+        "rotation_name": "SAMPLE TAOQI ROTATION",
+        "steps": [
+          "Basic P1 (pre-rotation)",
+          "Basic P2 (pre-rotation)",
+          "Basic P3 (pre-rotation)",
+          "Intro",
+          "Timed Counter 1",
+          "Timed Counter 2",
+          "Timed Counter 3",
+          "Ultimate",
+          "Basic P1",
+          "Basic P2",
+          "Basic P3",
+          "Basic P4",
+          "Skill",
+          "Outro"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "",
+      "order": [
+        "Res. Liberation",
+        "Forte Circuit",
+        "Res. Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic AttackTaoqi performs up to 4 continuous attacks, dealing Havoc DMG.Heavy AttackTaoqi consumes Stamina and enters Rocksteady Defense state.Rocksteady DefenseTaoqi's damage taken is reduced by 35%.When Taoqi is attacked during Rocksteady Defense, she will cast Strategic ParryStrategic Parry is automatically cast after Rocksteady Defense lasts for 3sIf Taoqi is attacked when casting Resonance Skill Rocksteady Shield, Strategic Parry is automatically cast. Strategic ParryAttack the target, dealing Havoc DMG.Mid-air AttackConsumes Stamina to perform a Mid-Air Plunging Attack, dealing Havoc DMG.Dodge CounterUse Basic Attack after a successful Dodge to attack the target, dealing Havoc DMG.",
+        "multipliers": [
+          {
+            "Lv1": "45.34%",
+            "Lv10": "90.15%",
+            "Lv2": "49.06%",
+            "Lv3": "52.78%",
+            "Lv4": "57.99%",
+            "Lv5": "61.70%",
+            "Lv6": "65.98%",
+            "Lv7": "71.93%",
+            "Lv8": "77.88%",
+            "Lv9": "83.83%",
+            "Name": "Part 1 Damage"
+          },
+          {
+            "Lv1": "42.67%",
+            "Lv10": "84.84%",
+            "Lv2": "46.17%",
+            "Lv3": "49.67%",
+            "Lv4": "54.57%",
+            "Lv5": "58.07%",
+            "Lv6": "62.09%",
+            "Lv7": "67.69%",
+            "Lv8": "73.29%",
+            "Lv9": "78.89%",
+            "Name": "Part 2 Damage"
+          },
+          {
+            "Lv1": "56.00%",
+            "Lv10": "111.34%",
+            "Lv2": "60.60%",
+            "Lv3": "65.19%",
+            "Lv4": "71.62%",
+            "Lv5": "76.21%",
+            "Lv6": "81.49%",
+            "Lv7": "88.84%",
+            "Lv8": "96.18%",
+            "Lv9": "103.53%",
+            "Name": "Part 3 Damage"
+          },
+          {
+            "Lv1": "136.00%",
+            "Lv10": "270.39%",
+            "Lv2": "147.16%",
+            "Lv3": "158.31%",
+            "Lv4": "173.92%",
+            "Lv5": "185.07%",
+            "Lv6": "197.90%",
+            "Lv7": "215.74%",
+            "Lv8": "233.58%",
+            "Lv9": "251.43%",
+            "Name": "Part 4 Damage"
+          },
+          {
+            "Lv1": "110.84%",
+            "Lv10": "220.37%",
+            "Lv2": "119.93%",
+            "Lv3": "129.02%",
+            "Lv4": "141.75%",
+            "Lv5": "150.84%",
+            "Lv6": "161.29%",
+            "Lv7": "175.83%",
+            "Lv8": "190.37%",
+            "Lv9": "204.91%",
+            "Name": "Heavy Attack Damage"
+          },
+          {
+            "Lv1": "35%",
+            "Lv10": "35%",
+            "Lv2": "35%",
+            "Lv3": "35%",
+            "Lv4": "35%",
+            "Lv5": "35%",
+            "Lv6": "35%",
+            "Lv7": "35%",
+            "Lv8": "35%",
+            "Lv9": "35%",
+            "Name": "Heavy Attack Damage Reduction"
+          },
+          {
+            "Lv1": "39.59% DEF",
+            "Lv10": "78.70% DEF",
+            "Lv2": "42.84% DEF",
+            "Lv3": "46.08% DEF",
+            "Lv4": "50.63% DEF",
+            "Lv5": "53.87% DEF",
+            "Lv6": "57.61% DEF",
+            "Lv7": "62.80% DEF",
+            "Lv8": "67.99% DEF",
+            "Lv9": "73.19% DEF",
+            "Name": "Strategic Parry Damage"
+          },
+          {
+            "Lv1": "62%",
+            "Lv10": "123.27%",
+            "Lv2": "67.09%",
+            "Lv3": "72.17%",
+            "Lv4": "79.29%",
+            "Lv5": "84.37%",
+            "Lv6": "90.22%",
+            "Lv7": "98.36%",
+            "Lv8": "106.49%",
+            "Lv9": "114.62%",
+            "Name": "Mid-Air Attack Damage"
+          },
+          {
+            "Lv1": "125%",
+            "Lv10": "248.52%",
+            "Lv2": "135.25%",
+            "Lv3": "145.50%",
+            "Lv4": "159.85%",
+            "Lv5": "170.10%",
+            "Lv6": "181.89%",
+            "Lv7": "198.29%",
+            "Lv8": "214.69%",
+            "Lv9": "231.09%",
+            "Name": "Dodge Counter Damage"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Heavy Attack Stamina Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-Air Attack Stamina Cost"
+          }
+        ],
+        "name": "Concealed Edge",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Taoqi deals Havoc DMG to surrounding targets, generating 3 Rocksteady Shield and restoring HP to Taoqi. If attacked when casting Fortified Defense, Strategic Parry will be automatically cast.Rocksteady ShieldWhen the on-field character is attacked, 1 Rocksteady Shield is consumed to reduce the damage taken.",
+        "multipliers": [
+          {
+            "Lv1": "67.86% DEF",
+            "Lv10": "134.92% DEF",
+            "Lv2": "73.43% DEF",
+            "Lv3": "78.99% DEF",
+            "Lv4": "86.78% DEF",
+            "Lv5": "92.35% DEF",
+            "Lv6": "98.75% DEF",
+            "Lv7": "107.65% DEF",
+            "Lv8": "116.55% DEF",
+            "Lv9": "125.46% DEF",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "950+45.00% DEF",
+            "Lv10": "1805+94.50% DEF",
+            "Lv2": "1064+46.80% DEF",
+            "Lv3": "1187+48.60% DEF",
+            "Lv4": "1330+51.30% DEF",
+            "Lv5": "1501+54.90% DEF",
+            "Lv6": "1662+58.50% DEF",
+            "Lv7": "1691+65.25% DEF",
+            "Lv8": "1729+72.90% DEF",
+            "Lv9": "1757+81.00% DEF",
+            "Name": "HP recovery"
+          },
+          {
+            "Lv1": "15.00%",
+            "Lv10": "15.00%",
+            "Lv2": "15.00%",
+            "Lv3": "15.00%",
+            "Lv4": "15.00%",
+            "Lv5": "15.00%",
+            "Lv6": "15.00%",
+            "Lv7": "15.00%",
+            "Lv8": "15.00%",
+            "Lv9": "15.00%",
+            "Name": "Rocksteady Shield Damage Reduction"
+          },
+          {
+            "Lv1": "15",
+            "Lv10": "15",
+            "Lv2": "15",
+            "Lv3": "15",
+            "Lv4": "15",
+            "Lv5": "15",
+            "Lv6": "15",
+            "Lv7": "15",
+            "Lv8": "15",
+            "Lv9": "15",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "15",
+            "Lv10": "15",
+            "Lv2": "15",
+            "Lv3": "15",
+            "Lv4": "15",
+            "Lv5": "15",
+            "Lv6": "15",
+            "Lv7": "15",
+            "Lv8": "15",
+            "Lv9": "15",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Fortified Defense",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Launch an attack based on Taoqi's DEF on the target, dealing Havoc DMG.",
+        "multipliers": [
+          {
+            "Lv1": "226.20% DEF",
+            "Lv10": "449.71% DEF",
+            "Lv2": "244.75% DEF",
+            "Lv3": "263.30% DEF",
+            "Lv4": "289.27% DEF",
+            "Lv5": "307.82% DEF",
+            "Lv6": "329.15% DEF",
+            "Lv7": "358.83% DEF",
+            "Lv8": "388.50% DEF",
+            "Lv9": "418.18% DEF",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "16",
+            "Lv10": "16",
+            "Lv2": "16",
+            "Lv3": "16",
+            "Lv4": "16",
+            "Lv5": "16",
+            "Lv6": "16",
+            "Lv7": "16",
+            "Lv8": "16",
+            "Lv9": "16",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv10": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Name": "Res. Energy Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Unmovable",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Timed CountersWhen carrying \"Resolving Caliber\", use Basic Attack after Heavy Attack: Strategic Parry or Intro Skill: Defense Formation to cast Timed Counters, performing up to 3 consecutive attacks, dealing Havoc DMG, considered as Basic Attack damage.Timed Counters consume 1 \"Resolving Caliber\" upon hitting an enemy to grant a shield. After casting the Intro Skill Defense Formation, using Basic Attack can directly cast Timed Counters.Resolving CaliberTaoqi can hold up to 3 Resolving Caliber. Basic Attack IV will consume all of Taoqi's Rocksteady Shields to obtain that many \"Resolving Caliber\".\nWhile Rocksteady Shield exists, when the on-field character is attacked, 1 Rocksteady Shield will be consumed, and \"Resolving Caliber\" is recovered. After Rocksteady Shield ends, all remaining Rocksteady Shield will be consumed to grant that many \"Resolving Caliber\".",
+        "multipliers": [
+          {
+            "Lv1": "43.36% DEF",
+            "Lv10": "86.20% DEF",
+            "Lv2": "46.92% DEF",
+            "Lv3": "50.47% DEF",
+            "Lv4": "55.45% DEF",
+            "Lv5": "59.00% DEF",
+            "Lv6": "63.09% DEF",
+            "Lv7": "68.78% DEF",
+            "Lv8": "74.47% DEF",
+            "Lv9": "80.16% DEF",
+            "Name": "Timed Counters Part 1 Damage"
+          },
+          {
+            "Lv1": "55.80% DEF",
+            "Lv10": "110.93% DEF",
+            "Lv2": "60.38% DEF",
+            "Lv3": "64.95% DEF",
+            "Lv4": "71.36% DEF",
+            "Lv5": "75.93% DEF",
+            "Lv6": "81.19% DEF",
+            "Lv7": "88.51% DEF",
+            "Lv8": "95.83% DEF",
+            "Lv9": "103.16% DEF",
+            "Name": "Timed Counters Part 2 Damage"
+          },
+          {
+            "Lv1": "73.14% DEF",
+            "Lv10": "145.41% DEF",
+            "Lv2": "79.14% DEF",
+            "Lv3": "85.14% DEF",
+            "Lv4": "93.53% DEF",
+            "Lv5": "99.53% DEF",
+            "Lv6": "106.43% DEF",
+            "Lv7": "116.02% DEF",
+            "Lv8": "125.62% DEF",
+            "Lv9": "135.22% DEF",
+            "Name": "Timed Counters Part 3 Damage"
+          },
+          {
+            "Lv1": "300+11.25% DEF",
+            "Lv10": "570+23.62% DEF",
+            "Lv2": "336+11.7% DEF",
+            "Lv3": "375+12.15% DEF",
+            "Lv4": "420+12.82% DEF",
+            "Lv5": "474+13.72% DEF",
+            "Lv6": "525+14.62% DEF",
+            "Lv7": "534+16.31% DEF",
+            "Lv8": "546+18.22% DEF",
+            "Lv9": "555+20.25% DEF",
+            "Name": "Timed Counters Part 1 Shield"
+          },
+          {
+            "Lv1": "450+16.87% DEF",
+            "Lv10": "855+35.43% DEF",
+            "Lv2": "504+17.55% DEF",
+            "Lv3": "562+18.22% DEF",
+            "Lv4": "630+19.23% DEF",
+            "Lv5": "711+20.58% DEF",
+            "Lv6": "787+21.93% DEF",
+            "Lv7": "801+24.46% DEF",
+            "Lv8": "819+27.33% DEF",
+            "Lv9": "832+30.37% DEF",
+            "Name": "Timed Counters Part 2 Shield"
+          },
+          {
+            "Lv1": "750+28.12% DEF",
+            "Lv10": "1425+59.06% DEF",
+            "Lv2": "840+29.25% DEF",
+            "Lv3": "937+30.37% DEF",
+            "Lv4": "1050+32.06% DEF",
+            "Lv5": "1185+34.31% DEF",
+            "Lv6": "1312+36.56% DEF",
+            "Lv7": "1335+40.78% DEF",
+            "Lv8": "1365+45.56% DEF",
+            "Lv9": "1387+50.62% DEF",
+            "Name": "Timed Counters Part 3 Shield"
+          },
+          {
+            "Lv1": "18",
+            "Lv10": "18",
+            "Lv2": "18",
+            "Lv3": "18",
+            "Lv4": "18",
+            "Lv5": "18",
+            "Lv6": "18",
+            "Lv7": "18",
+            "Lv8": "18",
+            "Lv9": "18",
+            "Name": "Shield Duration"
+          }
+        ],
+        "name": "Power Shift",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "During the duration of the Resonance Skill Rocksteady Shield, the Character's DEF is increased by 15%.",
+        "multipliers": [],
+        "name": "Steadfast Protection ",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "After Heavy Attack: Strategic Parry is successfully triggered, 25 Stamina is recovered.",
+        "multipliers": [],
+        "name": "Unyielding",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Attack the target, dealing Havoc DMG.",
+        "multipliers": [
+          {
+            "Lv1": "105.00%",
+            "Lv10": "208.76%",
+            "Lv2": "113.61%",
+            "Lv3": "122.22%",
+            "Lv4": "134.28%",
+            "Lv5": "142.89%",
+            "Lv6": "152.79%",
+            "Lv7": "166.57%",
+            "Lv8": "180.34%",
+            "Lv9": "194.12%",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Defense Formation",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "The next character (or other characters on a nearby team that activates an Outro Skill) gains 38% Resonance Skill DMG Deepen for 14 seconds or until the character is switched.",
+        "multipliers": [],
+        "name": "Iron Will",
+        "skill_type": "Outro Skill"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "carlotta"
+        ],
+        "commentary": "By far Taoqi's best DPS to support, as almost all of her damage is Resonance Skill DMG, which Taoqi amplifies by 38% on Outro, making the pair very natural. It's far from Carlotta's best team because Taoqi takes too long to get her buffs off, meaning it's only a good pair for nuke teams. But it's still viable enough to clear all content (as Carlotta is just that strong)."
+      },
+      {
+        "characters": [
+          "jinhsi"
+        ],
+        "commentary": "Taoqi can also support Jinhsi to deal great nuke DMG via Jinhsi's Skill decently you pair the two with Verina to make sure Forte stacks can be generated (Coordinated Attacks boost Forte stack generation immensely and are necessary for good Jinhsi nukes, something Taoqi doesn't have). It's far from meta but leads to good damage per screenshot."
+      },
+      {
+        "characters": [
+          "verina"
+        ],
+        "commentary": "One of the usual Healing Support options that can slot into any team. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Enjoy."
+      },
+      {
+        "characters": [
+          "the-shorekeeper"
+        ],
+        "commentary": "Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game."
+      }
+    ],
+    "upgrade_materials": {
+      "character_ascension": [
+        {
+          "material_name": "Iris",
+          "quantity": 60,
+          "rarity": "boss"
+        },
+        {
+          "material_name": "Gold-Dissolving Feather",
+          "quantity": 46,
+          "rarity": "specialty"
+        },
+        {
+          "material_name": "LF Howler Core",
+          "quantity": 4,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Howler Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Howler Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Howler Core",
+          "quantity": 4,
+          "rarity": "common"
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "Unwarranted Feather",
+          "quantity": 26,
+          "rarity": "weekly_boss"
+        },
+        {
+          "material_name": "LF Howler Core",
+          "quantity": 25,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Howler Core",
+          "quantity": 28,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Howler Core",
+          "quantity": 40,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Howler Core",
+          "quantity": 57,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Waveworn Residue 210",
+          "quantity": 25,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Waveworn Residue 226",
+          "quantity": 28,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Waveworn Residue 235",
+          "quantity": 55,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Waveworn Residue 239",
+          "quantity": 67,
+          "rarity": "skill_material"
+        }
+      ]
+    },
+    "voice_actors": {
+      "cn": "Kiyo",
+      "eng": "Clare Louise Connoll",
+      "jpn": "Hina Yomiya ",
+      "kr": "Lee Sae-a "
+    }
+  },
+  "status": "success"
+}

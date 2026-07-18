@@ -1,41 +1,337 @@
 {
-  "status": "success",
   "data": {
+    "base_stats_lvl_90": {
+      "atk": 30,
+      "crit_dmg": "166%",
+      "crit_rate": "5%",
+      "def": 98,
+      "elemental_dmg_bonus": "0%",
+      "healing_bonus": "0%",
+      "hp": 979,
+      "max_energy": 125
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Best set for Aero Erosion supports. Allows characters that can apply Aero Erosion to gain a total of 40% Aero DMG Bonus, an equivalent to Sierra Gale. However, it gains an edge over this set by being able to give 15% of that Aero DMG Bonus to the whole team for 20s, providing both offensive and supportive benefits. This set is only favoured on Ciaccona if an Aero Main DPS is present in the team. Use Moonlit Clouds if this doesn't apply.",
+        "main_echo_options": [
+          {
+            "echo_commentary": " This Echo provides a free decent amount of Aero DMG when casting Outro Skill in all situations, provides 12% Aero DMG Bonus to Ciaccona and while its Transform Active Skill is not used in Ciaccona's rotations, it is the best Main Echo she has, albeit by a very small difference when compared to Reminiscence: Fleurdelys (pick what has the best substats, or use Fleurdelys if Ciaccona uses Lux & Umbra as her weapon as explained above!)",
+            "echo_name": "Nightmare: Kelpie"
+          }
+        ],
+        "percentage_performance": "100.00%",
+        "set_name": "Gusts of Welkin"
+      },
+      {
+        "commentary": "Best set for Ciaccona in all non-Aero teams. This set sacrifices Ciaccona's personal damage in order to provide higher buffing to a single character. It provides an extra 10% Energy Regen to the wielder unconditionally and gives 22.5% ATK to the incoming character for 15s after casting Outro skill, making it one of the strongest sets to buff any ATK-scaling DPS.                                                                                                                                                                                        ",
+        "main_echo_options": [
+          {
+            "echo_commentary": "The best and only real option 5P Moonlit Clouds has, as it grants an extra 12% DMG Bonus on top of the ATK boost to the next character that Moonlit Clouds would usually give. Additionally restores a lot of Energy to the caster when it deals damage. On Ciaccona, this Echo should either be used before her rotation starts or it can be instantly interrupted at any point via a Dash - this way, no Energy or damage is generated but the buff will still apply to the incoming character.",
+            "echo_name": "Impermanence Heron"
+          }
+        ],
+        "percentage_performance": "75.35%",
+        "set_name": "Moonlit Clouds"
+      },
+      {
+        "commentary": "Used with Main DPS Ciaccona. Best set for Aero Main DPS characters who can apply Aero Erosion or have an Aero Erosion applier on the team. Grants 10% Aero DMG Bonus and an extra 30% Aero DMG Bonus as well as 10% CRIT Rate for 10s when attacking targets inflicted with Aero Erosion. Offers an extra 10% CRIT Rate over the other Aero sets such as Gusts of Welkin or Sierra Gale, providing extra overall damage so long as Aero Erosion is present on the enemy.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "This Echo provides a free decent amount of Aero DMG when casting Outro Skill in all situations, provides 12% Aero DMG Bonus to Ciaccona and while its Transform Active Skill is not used in Ciaccona's rotations, it is the best Main Echo she has, albeit by a very small difference when compared to Reminiscence: Fleurdelys (pick what has the best substats!)",
+            "echo_name": "Nightmare: Kelpie"
+          }
+        ],
+        "percentage_performance": "",
+        "set_name": "Windward Pilgrimage"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ],
+        "cost_3": [
+          "Aero DMG",
+          "Aero DMG > ATK%"
+        ],
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%",
+        "ATK"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "The best option overall for Ciaccona not only from a personal damage perspective but also from a team damage perspective as this weapon shreds the Aero RES of enemies by 10%, which is particularly useful in Aero teams. Still outclasses all other options in any teams thanks to its big personal damage boost.",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. Inflicting Aero Erosion on the target gives {1} Aero DMG Bonus for 10s. Hitting targets with Aero Erosion reduces their Aero RES by {2} for 20s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 36,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Woodland Aria"
+      },
+      {
+        "commentary_details": "An amazing generalist permanently available pistol that can universally improve the wearer's ATK, DMG Bonus and CRIT DMG. Can get close to a lot of character signatures and is overall a must-have for most accounts. Better than Static Mist in compositions that don't benefit from its ATK buff such as Cartethyia's team.",
+        "dupe_rank": "R1",
+        "percentage_performance": "86.90%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. When a Resonator in the team casts a Tune Break skill, it grants {1} All-Attribute DMG Bonus to the wielder for 14s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Phasic Homogenizer"
+      },
+      {
+        "commentary_details": "Best Echo with this weapon is Reminiscence: Fleurdelys. Galbrena's Signature has a good Base ATK and CRIT DMG boosts, but can also amplify Heavy Attack DMG and Echo Skill DMG when both damage types are triggered close to one another alongside an extra DEF Ignore buff. Ciaccona takes a solid damage increase from the Heavy Attack DMG Amplify and DEF Ignore towards the end of her rotation if she uses her Echo Skill while her Forte Heavy Attack is about to cast, making it a great alternative overall.",
+        "dupe_rank": "R1",
+        "percentage_performance": "83.00%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. Upon dealing Echo Skill DMG, gain {1} Heavy Attack DMG Amplification for 6s. Upon dealing Heavy Attack DMG, gain {1} Echo Skill DMG Amplification for 6s. DMG Amplification on each attack is capped at {1}. While both effects are active, dealing damage ignores {2} of the target's DEF.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Lux & Umbra"
+      },
+      {
+        "commentary_details": "Lynae's Signature weapon can proivde extra Basic Attack DMG to Ciaccona and also has a lot of CRIT Rate and ATK for her to benefit from, however she cannot trigger the party-wide buff this weapon provides which makes it generally worse than the permanent banner weapons.",
+        "dupe_rank": "R1",
+        "percentage_performance": "82.80%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Casting Intro Skill or hitting the target with Basic Attack increases the wielder's Basic Attack DMG by {1} for 4s. Each time the wielder inflicts Tune Rupture - Shifting or Tune Strain - Shifting during Basic Attacks, all DMG dealt by Resonators in the team is increased by {2} for 30s, up to 3 stacks. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Spectrum Blaster"
+      },
+      {
+        "commentary_details": "While Ciaccona takes full advantage of this weapon's passive thanks to her really short rotation, Skill DMG is the most negligible part of her damage types which makes this weapon mostly an atk and CRIT DMG stat-stick. Still a good choice for personal damage overall.",
+        "dupe_rank": "R1",
+        "percentage_performance": "78.80%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Every time Intro Skill or Resonance Liberation is cast, Resonance Skill DMG Bonus increases by {1} for 5s.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 72,
+          "source": "Rate-up"
+        },
+        "weapon_name": "The Last Dance"
+      },
+      {
+        "commentary_details": "Can outclass Phasic Homogenizer in ATK-scaling teams thanks to team buffing. One of the 2 best permanently available options for Ciaccona, which makes her give 10% ATK to the next character she Outros into and also provides her with high Base ATK, CRIT Rate and some Energy Regen, making her take full advantage of the weapon's passive.",
+        "dupe_rank": "R1",
+        "percentage_performance": "77.00%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When Outro Skill is released, increases the switched-in Resonator's ATK by {1}, stacking up to 1 time(s). This effect lasts for 14s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Static Mist"
+      },
+      {
+        "commentary_details": "Best 4-star and F2P no-gacha option for Ciaccona, this Rinascita craftable synergizes well with her ability to apply Aero Erosion constantly on enemies, allowing her to take full advantage of this weapon's massive ATK increase. Still lower than other options because it only provides ATK (and 4-stars have lower Base ATK than 5-stars too which makes increasing ATK% less effective).",
+        "dupe_rank": "R5",
+        "percentage_performance": "69.90%",
+        "weapon_base_info": {
+          "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Crafting"
+        },
+        "weapon_name": "Romance in Farewell"
+      }
+    ],
     "character_metadata": {
-      "name": "Ciaccona",
-      "slug": "ciaccona",
-      "rarity_stars": 5,
-      "element": "Aero",
-      "weapon_type": "Pistols",
       "breadcrumb": [
         "Wuthering Waves",
         "Characters",
         "Ciaccona"
       ],
+      "element": "Aero",
+      "name": "Ciaccona",
+      "rarity_stars": 5,
+      "slug": "ciaccona",
       "updates": {
-        "last_updated": "10/July/2026",
-        "last_review_patch": "2.4",
         "last_major_build_patch": "3",
-        "last_profile_update": "10/July/2026"
+        "last_profile_update": "10/July/2026",
+        "last_review_patch": "2.4",
+        "last_updated": "10/July/2026"
+      },
+      "weapon_type": "Pistols"
+    },
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "sigrika"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "qiuyuan"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "ciaccona"
+        },
+        "team_name": "Team #1: Best Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "cartethyia"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "ciaccona"
+        },
+        "slot_3": {
+          "alternatives": [
+            "rover-aero",
+            "the-shorekeeper"
+          ],
+          "character_name": "chisa"
+        },
+        "team_name": "Team #2: Cartethyia Team",
+        "team_notes": "Chisa is only stronger than Aero Rover with her Signature. Shorekeeper is also mostly usable in the third slot in Whimpering Wastes since Aero Erosion won't have time to ramp up to 6."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "jiyan"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "iuno"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "ciaccona"
+        },
+        "team_name": "Team #3: Jiyan Iuno Dual DPS",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "iuno, sigrika, jiyan"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "ciaccona"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "rover-aero"
+        },
+        "team_name": "Team #4: Other Aero Teams",
+        "team_notes": "Iuno + Lynae + Ciaccona is also one of DPS Iuno's strongest teams by far, exceeding the teams shown here if you have access to it."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "phoebe, zani"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "ciaccona"
+        },
+        "slot_3": {
+          "alternatives": [
+            "the-shorekeeper"
+          ],
+          "character_name": "rover-aero"
+        },
+        "team_name": "Team #5: Spectro Frazzle Teams",
+        "team_notes": "Shorekeeper will only really see use on DPS Phoebe teams in Whimpering Wastes, however it is DPS Phoebe's best Whimpering Wastes team and is worth mentioning."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "ciaccona"
+        },
+        "slot_2": {
+          "alternatives": [
+            "sanhua"
+          ],
+          "character_name": "lynae"
+        },
+        "slot_3": {
+          "alternatives": [
+            "chisa",
+            "the-shorekeeper"
+          ],
+          "character_name": "mornye"
+        },
+        "team_name": "Team #6: Main DPS Ciaccona",
+        "team_notes": ""
       }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/ciaccona_full.webp",
+      "youtube_guide_embed_url": "https://www.youtube.com/embed/ILyz6x5_A7M",
+      "youtube_guide_full_url": "https://www.youtube.com/watch?v=ILyz6x5_A7M"
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+16%",
+        "stat_name": "CRIT DMG"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "ATK%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "May need you to build 2 separate Echo Sets for her to access her team flexibility (Gusts of Welkin is only used in Aero teams, Moonlit Clouds for general use);",
+        "A lot of her potential is locked behind her Signature weapon in Aero teams or as a Main DPS;",
+        "Sings during her Ultimate which replaces a potentially epic battle theme by a silly song."
+      ],
+      "pros": []
     },
     "ratings": {
       "dps_ratings": {
         "tower_of_adversity": {
-          "tier": "T0.5",
           "tags": [
             "Erosion",
             "Frazzle",
             "Gather"
-          ]
+          ],
+          "tier": "T0.5"
         },
         "whimpering_wastes": {
-          "tier": "T1",
           "tags": [
             "Erosion",
             "Frazzle",
             "Gather"
-          ]
+          ],
+          "tier": "T1"
         }
       },
       "value_tier_ratings": {
@@ -47,21 +343,48 @@
         }
       }
     },
-    "media": {
-      "youtube_guide_embed_url": "https://www.youtube.com/embed/ILyz6x5_A7M",
-      "youtube_guide_full_url": "https://www.youtube.com/watch?v=ILyz6x5_A7M",
-      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/ciaccona_full.webp"
-    },
-    "pros_and_cons": {
-      "pros": [],
-      "cons": [
-        "May need you to build 2 separate Echo Sets for her to access her team flexibility (Gusts of Welkin is only used in Aero teams, Moonlit Clouds for general use);",
-        "A lot of her potential is locked behind her Signature weapon in Aero teams or as a Main DPS;",
-        "Sings during her Ultimate which replaces a potentially epic battle theme by a silly song."
-      ]
-    },
+    "recommended_endgame_stats_target": [
+      "HP: 16500+",
+      "DEF: 1150+",
+      "ATK: 2000-2200+",
+      "CRIT Rate: 55-80%+",
+      "CRIT DMG: 225-280%+",
+      "Energy Regen: 115%+",
+      "Aero DMG Bonus: 30-80%+"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "Casting Resonance Skill Harmonic Allegro grants Ciaccona immunity to interruption for 3s. Casting Basic Attack increases Ciaccona's ATK by 35% for 10s.",
+        "name": "Sequence Node 1",
+        "node": "S1"
+      },
+      {
+        "description": "During Resonance Liberation Singer's Triple Cadenza, Resonators in the team gain 40% Aero DMG Bonus.",
+        "name": "Sequence Node 2",
+        "node": "S2"
+      },
+      {
+        "description": "Casting Basic Attack Stage 4 additionally grants 1 segments of Musical Essence. Resonance Skill Harmonic Allegro gains 1 more charge.",
+        "name": "Sequence Node 3",
+        "node": "S3"
+      },
+      {
+        "description": "Ciaccona ignores 45% of the targets' DEF when dealing damage with Heavy Attack Quadruple Downbeat.Ciaccona ignores 45% of the targets' DEF when dealing Resonance Liberation DMG.",
+        "name": "Sequence Node 4",
+        "node": "S4"
+      },
+      {
+        "description": "Gain 40% Resonance Liberation DMG Bonus.DMG taken by Resonators within and around the range of Resonance Liberation Singer's Triple Cadenza is reduced by 30%.",
+        "name": "Sequence Node 5",
+        "node": "S5"
+      },
+      {
+        "description": "When in Solo Concert, Ciaccona or Ensemble Sylph deals Aero DMG equal to 220% of Ciaccona's ATK to nearby targets, considered Resonance Liberation DMG.",
+        "name": "Sequence Node 6",
+        "node": "S6"
+      }
+    ],
     "review": {
-      "summary": "Ciaccona is a 5-star Aero Pistol DPS whose primary point of interest is her ability to apply both Spectro Frazzle and Aero Erosion (mostly via her Ultimate). She amplifies Aero Erosion DMG and boosts Aero DMG in several ways, and is characterized by her ability to rotate quickly while retaining an off-field presence, similar to Coordinated Attackers (even though she isn't one). She additionally has great personal damage if you wish to play her as a Main DPS, it is a completely viable playstyle for her.",
       "sections": [
         {
           "heading": "Summary",
@@ -86,722 +409,8 @@
             "In conclusion, Ciaccona is a character who has quick rotations, AoE capabilities, slots in many teams, while buffing damage by good amounts and dealing very good damage of her own. Overall, she is desirable for many characters and can even be used as a Main DPS herself, allowing her a ton of flexibility, one of the highest in the game. Besides, her full potential lies with one of the best damage dealers in the game currently, if not the best. All this to say, Ciaccona is one of the most valuable characters, as you are sure to have a viable team for her on your account no matter what, some of her strongest synergies making up for some of the strongest teams in the game, cementing her position as a top meta character."
           ]
         }
-      ]
-    },
-    "skills": [
-      {
-        "name": "Quadruple Time Steps",
-        "category": "Active",
-        "skill_type": "Basic Attack",
-        "description": "Basic AttackPerform up to 4 consecutive attacks, dealing Aero DMG. Basic Attack Stage 4 inflicts 1 stack of Aero Erosion upon the target hit.When the first three stages of Ciaccona's Basic Attack are interrupted by dodging, press Basic Attack in time to resume the attack cycle and cast the corresponding Basic Attack stage.After Basic Attack Stage 4, Ciaccona starts a Solo Concert. If Ciaccona's Basic Attack Stage 4 or Solo Concert ends early (proactively or being interrupted), an Ensemble Sylph is generated.Solo ConcertWhen Ciaccona or Ensemble Sylph performs Solo Concert, they give 24% Aero DMG Bonus to all nearby Resonators in the team. This effect is not stackable.Ensemble SylphUp to 2 Ensemble Sylphs may exist simultaneously.If Ciaccona's Basic Attack Stage 4 is interrupted, the Ensemble Sylphs generated will finish the attack for Ciaccona and enter Solo Concert.If Ciaccona's Solo Concert is interrupted, the Ensemble Sylphs generated will continue the Solo Concert for Ciaccona.Aside from the two situations mentioned above, Ensemble Sylphs generated by Resonance Skill will finish Ciaccona's current attack without entering Solo Concert.Heavy AttackConsume STA to jump into mid-air and attack the target, dealing Aero DMG.Aimed AttackPress Aim to enter Aiming Mode to fire charged shots, dealing Aero DMG, considered Heavy Attack DMG.Mid-air AttackConsume STA to perform up to 2 consecutive attacks, dealing Aero DMG.Press Normal Attack after Mid-air Attack Stage 2 to cast Basic Attack Stage 4.Dodge CounterFollow up successful Dodges with Basic Attack to attack the target, dealing Aero DMG.",
-        "multipliers": [
-          {
-            "Lv1": "28.70%",
-            "Lv2": "31.06%",
-            "Lv3": "33.41%",
-            "Lv4": "36.71%",
-            "Lv5": "39.06%",
-            "Lv6": "41.77%",
-            "Lv7": "45.53%",
-            "Lv8": "49.30%",
-            "Lv9": "53.06%",
-            "Lv10": "57.06%",
-            "Name": "Stage 1 DMG"
-          },
-          {
-            "Lv1": "24.60% + 12.30%*2 + 32.80%",
-            "Lv2": "26.62% + 13.31%*2 + 35.49%",
-            "Lv3": "28.64% + 14.32%*2 + 38.18%",
-            "Lv4": "31.46% + 15.73%*2 + 41.95%",
-            "Lv5": "33.48% + 16.74%*2 + 44.64%",
-            "Lv6": "35.80% + 17.90%*2 + 47.73%",
-            "Lv7": "39.03% + 19.52%*2 + 52.04%",
-            "Lv8": "42.26% + 21.13%*2 + 56.34%",
-            "Lv9": "45.48% + 22.74%*2 + 60.64%",
-            "Lv10": "48.91% + 24.46%*2 + 65.21%",
-            "Name": "Stage 2 DMG"
-          },
-          {
-            "Lv1": "16.61%*4",
-            "Lv2": "17.97%*4",
-            "Lv3": "19.33%*4",
-            "Lv4": "21.24%*4",
-            "Lv5": "22.60%*4",
-            "Lv6": "24.17%*4",
-            "Lv7": "26.35%*4",
-            "Lv8": "28.52%*4",
-            "Lv9": "30.70%*4",
-            "Lv10": "33.02%*4",
-            "Name": "Stage 3 DMG"
-          },
-          {
-            "Lv1": "30.75%*4",
-            "Lv2": "33.28%*4",
-            "Lv3": "35.80%*4",
-            "Lv4": "39.33%*4",
-            "Lv5": "41.85%*4",
-            "Lv6": "44.75%*4",
-            "Lv7": "48.78%*4",
-            "Lv8": "52.82%*4",
-            "Lv9": "56.85%*4",
-            "Lv10": "61.14%*4",
-            "Name": "Stage 4 DMG"
-          },
-          {
-            "Lv1": "54.12%",
-            "Lv2": "58.56%",
-            "Lv3": "63.00%",
-            "Lv4": "69.21%",
-            "Lv5": "73.65%",
-            "Lv6": "78.76%",
-            "Lv7": "85.86%",
-            "Lv8": "92.96%",
-            "Lv9": "100.06%",
-            "Lv10": "107.60%",
-            "Name": "Heavy Attack DMG"
-          },
-          {
-            "Lv1": "16.40%",
-            "Lv2": "17.75%",
-            "Lv3": "19.09%",
-            "Lv4": "20.98%",
-            "Lv5": "22.32%",
-            "Lv6": "23.87%",
-            "Lv7": "26.02%",
-            "Lv8": "28.17%",
-            "Lv9": "30.32%",
-            "Lv10": "32.61%",
-            "Name": "Aimed Shot DMG"
-          },
-          {
-            "Lv1": "36.90%",
-            "Lv2": "39.93%",
-            "Lv3": "42.96%",
-            "Lv4": "47.19%",
-            "Lv5": "50.22%",
-            "Lv6": "53.70%",
-            "Lv7": "58.54%",
-            "Lv8": "63.38%",
-            "Lv9": "68.22%",
-            "Lv10": "73.37%",
-            "Name": "Fully Charged Aimed Shot DMG"
-          },
-          {
-            "Lv1": "27.88%*2",
-            "Lv2": "30.17%*2",
-            "Lv3": "32.46%*2",
-            "Lv4": "35.66%*2",
-            "Lv5": "37.94%*2",
-            "Lv6": "40.57%*2",
-            "Lv7": "44.23%*2",
-            "Lv8": "47.89%*2",
-            "Lv9": "51.55%*2",
-            "Lv10": "55.43%*2",
-            "Name": "Mid-air Attack Stage 1 DMG"
-          },
-          {
-            "Lv1": "12.30%*4",
-            "Lv2": "13.31%*4",
-            "Lv3": "14.32%*4",
-            "Lv4": "15.73%*4",
-            "Lv5": "16.74%*4",
-            "Lv6": "17.90%*4",
-            "Lv7": "19.52%*4",
-            "Lv8": "21.13%*4",
-            "Lv9": "22.74%*4",
-            "Lv10": "24.46%*4",
-            "Name": "Mid-air Attack Stage 2 DMG"
-          },
-          {
-            "Lv1": "28.76%*4",
-            "Lv2": "31.12%*4",
-            "Lv3": "33.48%*4",
-            "Lv4": "36.78%*4",
-            "Lv5": "39.13%*4",
-            "Lv6": "41.85%*4",
-            "Lv7": "45.62%*4",
-            "Lv8": "49.39%*4",
-            "Lv9": "53.16%*4",
-            "Lv10": "57.17%*4",
-            "Name": "Dodge Counter DMG"
-          },
-          {
-            "Lv1": "25",
-            "Lv2": "25",
-            "Lv3": "25",
-            "Lv4": "25",
-            "Lv5": "25",
-            "Lv6": "25",
-            "Lv7": "25",
-            "Lv8": "25",
-            "Lv9": "25",
-            "Lv10": "25",
-            "Name": "Heavy Attack STA Cost"
-          },
-          {
-            "Lv1": "15",
-            "Lv2": "15",
-            "Lv3": "15",
-            "Lv4": "15",
-            "Lv5": "15",
-            "Lv6": "15",
-            "Lv7": "15",
-            "Lv8": "15",
-            "Lv9": "15",
-            "Lv10": "15",
-            "Name": "Mid-air Attack Stage 1 STA Cost"
-          },
-          {
-            "Lv1": "15",
-            "Lv2": "15",
-            "Lv3": "15",
-            "Lv4": "15",
-            "Lv5": "15",
-            "Lv6": "15",
-            "Lv7": "15",
-            "Lv8": "15",
-            "Lv9": "15",
-            "Lv10": "15",
-            "Name": "Mid-air Attack Stage 2 STA Cost"
-          }
-        ]
-      },
-      {
-        "name": "Harmonic Allegro",
-        "category": "Active",
-        "skill_type": "Resonance Skill",
-        "description": "Move a certain distance, dealing Aero DMG and inflicting 1 stack of Aero Erosion on the target upon hit.Press Normal Attack in time to cast Basic Attack Stage 2.When Ciaccona interrupts Basic Attack, Heavy Attack, Mid-air Attack, or Solo Concert with Resonance Skill, an Ensemble Sylph is generated.Ciaccona's Resonance Skill can be cast in mid-air.",
-        "multipliers": [
-          {
-            "Lv1": "20.32%*4",
-            "Lv2": "21.98%*4",
-            "Lv3": "23.65%*4",
-            "Lv4": "25.98%*4",
-            "Lv5": "27.65%*4",
-            "Lv6": "29.56%*4",
-            "Lv7": "32.23%*4",
-            "Lv8": "34.89%*4",
-            "Lv9": "37.56%*4",
-            "Lv10": "40.39%*4",
-            "Name": "Skill DMG"
-          },
-          {
-            "Lv1": "10",
-            "Lv2": "10",
-            "Lv3": "10",
-            "Lv4": "10",
-            "Lv5": "10",
-            "Lv6": "10",
-            "Lv7": "10",
-            "Lv8": "10",
-            "Lv9": "10",
-            "Lv10": "10",
-            "Name": "Cooldown"
-          },
-          {
-            "Lv1": "15",
-            "Lv2": "15",
-            "Lv3": "15",
-            "Lv4": "15",
-            "Lv5": "15",
-            "Lv6": "15",
-            "Lv7": "15",
-            "Lv8": "15",
-            "Lv9": "15",
-            "Lv10": "15",
-            "Name": "Concerto Regen"
-          }
-        ]
-      },
-      {
-        "name": "Singer's Triple Cadenza",
-        "category": "Active",
-        "skill_type": "Resonance Liberation",
-        "description": "Ciaccona and Ensemble Sylphs perform an Improvised Symphonic Poem together, dealing Aero DMG once to the nearby targets and entering Recital.RecitalWhen in Recital, sound waves will periodically radiate around Ciaccona. When the sound wave overlaps with the circle indicator, press the green or yellow buttons to generate Symphonic Poem: Tonic of the corresponding color and recover a certain amount of Concerto Energy.During RecitalSwitching to another Resonator doesn't end Recital, but automatically generates a Symphonic Poem: Tonic matching the color of the last generated Tonic before switching. A green Symphonic Poem: Tonic is generated by default if no interaction input is given before switching to another Resonator.Ciaccona is immune to interruptions and takes 50% less DMG.Exit Recital by pressing Resonance Liberation again or switching Ciaccona back onto the field.Ensemble Sylphs can now directly grant Aero DMG Bonus provided by Solo Concert.Symphonic Poem: TonicGreen Tonic: Deal Aero DMG to nearby targets and inflict a stack of Aero Erosion on targets hit.Yellow Tonic: Deal Aero DMG to nearby targets and inflict a stack of Spectro Frazzle on targets hit.",
-        "multipliers": [
-          {
-            "Lv1": "553.50%",
-            "Lv2": "598.89%",
-            "Lv3": "644.28%",
-            "Lv4": "707.82%",
-            "Lv5": "753.21%",
-            "Lv6": "805.40%",
-            "Lv7": "878.02%",
-            "Lv8": "950.64%",
-            "Lv9": "1023.26%",
-            "Lv10": "1100.42%",
-            "Name": "Improvised Symphonic Poem Skill DMG"
-          },
-          {
-            "Lv1": "3.08%*20",
-            "Lv2": "3.33%*20",
-            "Lv3": "3.58%*20",
-            "Lv4": "3.94%*20",
-            "Lv5": "4.19%*20",
-            "Lv6": "4.48%*20",
-            "Lv7": "4.88%*20",
-            "Lv8": "5.29%*20",
-            "Lv9": "5.69%*20",
-            "Lv10": "6.12%*20",
-            "Name": "Symphonic Poem: Tonic DMG"
-          },
-          {
-            "Lv1": "20",
-            "Lv2": "20",
-            "Lv3": "20",
-            "Lv4": "20",
-            "Lv5": "20",
-            "Lv6": "20",
-            "Lv7": "20",
-            "Lv8": "20",
-            "Lv9": "20",
-            "Lv10": "20",
-            "Name": "Cooldown"
-          },
-          {
-            "Lv1": "125",
-            "Lv2": "125",
-            "Lv3": "125",
-            "Lv4": "125",
-            "Lv5": "125",
-            "Lv6": "125",
-            "Lv7": "125",
-            "Lv8": "125",
-            "Lv9": "125",
-            "Lv10": "125",
-            "Name": "Resonance Cost"
-          },
-          {
-            "Lv1": "20",
-            "Lv2": "20",
-            "Lv3": "20",
-            "Lv4": "20",
-            "Lv5": "20",
-            "Lv6": "20",
-            "Lv7": "20",
-            "Lv8": "20",
-            "Lv9": "20",
-            "Lv10": "20",
-            "Name": "Concerto Regen"
-          },
-          {
-            "Lv1": "10",
-            "Lv2": "10",
-            "Lv3": "10",
-            "Lv4": "10",
-            "Lv5": "10",
-            "Lv6": "10",
-            "Lv7": "10",
-            "Lv8": "10",
-            "Lv9": "10",
-            "Lv10": "10",
-            "Name": "Successful Interaction Concerto Regen"
-          }
-        ]
-      },
-      {
-        "name": "Symphony of Wind and Verse",
-        "category": "Forte Circuit",
-        "skill_type": "Forte Circuit",
-        "description": "Heavy Attack - Quadruple DownbeatWhen there are 3 segments of Musical Essence, Heavy Attack is replaced with Heavy Attack - Quadruple Downbeat.Consume all Musical Essence to shoot Downbeat Notes forward to deal Aero DMG, pulling in the nearby targets and inflicting 1 stack of Aero Erosion on the target hit.Heavy Attack - Quadruple Downbeat can be cast in mid-air close to the ground.Musical EssenceCiaccona can hold up to 3 segments of Musical Essence.Casting Basic Attack Stage 4 or Intro Skill recovers 1 segment of Musical Essence.",
-        "multipliers": [
-          {
-            "Lv1": "15.80%*10 + 157.95%",
-            "Lv2": "17.10%*10 + 170.91%",
-            "Lv3": "18.39%*10 + 183.86%",
-            "Lv4": "20.20%*10 + 201.99%",
-            "Lv5": "21.50%*10 + 214.94%",
-            "Lv6": "22.99%*10 + 229.84%",
-            "Lv7": "25.06%*10 + 250.56%",
-            "Lv8": "27.13%*10 + 271.28%",
-            "Lv9": "29.21%*10 + 292.01%",
-            "Lv10": "31.41%*10 + 314.03%",
-            "Name": "Quadruple Downbeat DMG"
-          },
-          {
-            "Lv1": "25",
-            "Lv2": "25",
-            "Lv3": "25",
-            "Lv4": "25",
-            "Lv5": "25",
-            "Lv6": "25",
-            "Lv7": "25",
-            "Lv8": "25",
-            "Lv9": "25",
-            "Lv10": "25",
-            "Name": "Concerto Regen"
-          }
-        ]
-      },
-      {
-        "name": "Interlude Tune",
-        "category": "Inherent",
-        "skill_type": "Inherent Skill",
-        "description": "Casting Resonance Liberation Singer's Triple Cadenza grants Ciaccona a Shield equal to 100% of her Max HP for 4s. Switching out Ciaccona removes the Shield.",
-        "multipliers": []
-      },
-      {
-        "name": "Winds of Rinascita",
-        "category": "Inherent",
-        "skill_type": "Inherent Skill",
-        "description": "Increase Heavy Attack - Quadruple Downbeat's DMG by 30%.",
-        "multipliers": []
-      },
-      {
-        "name": "Roaming with the Wind",
-        "category": "Transition",
-        "skill_type": "Intro Skill",
-        "description": "Attack the target to deal Aero DMG and inflict a stack of Aero Erosion.Follow up with Basic Attack in time to cast Basic Attack Stage 3.",
-        "multipliers": [
-          {
-            "Lv1": "95.12%",
-            "Lv2": "102.92%",
-            "Lv3": "110.72%",
-            "Lv4": "121.64%",
-            "Lv5": "129.44%",
-            "Lv6": "138.41%",
-            "Lv7": "150.89%",
-            "Lv8": "163.37%",
-            "Lv9": "175.85%",
-            "Lv10": "189.11%",
-            "Name": "Skill DMG"
-          },
-          {
-            "Lv1": "10",
-            "Lv2": "10",
-            "Lv3": "10",
-            "Lv4": "10",
-            "Lv5": "10",
-            "Lv6": "10",
-            "Lv7": "10",
-            "Lv8": "10",
-            "Lv9": "10",
-            "Lv10": "10",
-            "Name": "Concerto Regen"
-          }
-        ]
-      },
-      {
-        "name": "Windcalling Tune",
-        "category": "Transition",
-        "skill_type": "Outro Skill",
-        "description": "Aero Erosion DMG dealt to targets near the active Resonator is Amplified by 100% for 30s.",
-        "multipliers": []
-      }
-    ],
-    "resonance_chain_dupes": [
-      {
-        "node": "S1",
-        "name": "Sequence Node 1",
-        "description": "Casting Resonance Skill Harmonic Allegro grants Ciaccona immunity to interruption for 3s. Casting Basic Attack increases Ciaccona's ATK by 35% for 10s."
-      },
-      {
-        "node": "S2",
-        "name": "Sequence Node 2",
-        "description": "During Resonance Liberation Singer's Triple Cadenza, Resonators in the team gain 40% Aero DMG Bonus."
-      },
-      {
-        "node": "S3",
-        "name": "Sequence Node 3",
-        "description": "Casting Basic Attack Stage 4 additionally grants 1 segments of Musical Essence. Resonance Skill Harmonic Allegro gains 1 more charge."
-      },
-      {
-        "node": "S4",
-        "name": "Sequence Node 4",
-        "description": "Ciaccona ignores 45% of the targets' DEF when dealing damage with Heavy Attack Quadruple Downbeat.Ciaccona ignores 45% of the targets' DEF when dealing Resonance Liberation DMG."
-      },
-      {
-        "node": "S5",
-        "name": "Sequence Node 5",
-        "description": "Gain 40% Resonance Liberation DMG Bonus.DMG taken by Resonators within and around the range of Resonance Liberation Singer's Triple Cadenza is reduced by 30%."
-      },
-      {
-        "node": "S6",
-        "name": "Sequence Node 6",
-        "description": "When in Solo Concert, Ciaccona or Ensemble Sylph deals Aero DMG equal to 220% of Ciaccona's ATK to nearby targets, considered Resonance Liberation DMG."
-      }
-    ],
-    "minor_fortes": [
-      {
-        "stat_name": "CRIT DMG",
-        "bonus_value": "+16%"
-      },
-      {
-        "stat_name": "ATK%",
-        "bonus_value": "+12%"
-      }
-    ],
-    "base_stats_lvl_90": {
-      "hp": 979,
-      "atk": 30,
-      "def": 98,
-      "max_energy": 125,
-      "crit_rate": "5%",
-      "crit_dmg": "166%",
-      "healing_bonus": "0%",
-      "elemental_dmg_bonus": "0%"
-    },
-    "upgrade_materials": {
-      "character_ascension": [
-        {
-          "material_name": "Golden Fleece",
-          "rarity": "boss",
-          "quantity": 60
-        },
-        {
-          "material_name": "Blazing Bone",
-          "rarity": "specialty",
-          "quantity": 46
-        },
-        {
-          "material_name": "LF Tidal Residuum",
-          "rarity": "common",
-          "quantity": 4
-        },
-        {
-          "material_name": "MF Tidal Residuum",
-          "rarity": "common",
-          "quantity": 12
-        },
-        {
-          "material_name": "HF Tidal Residuum",
-          "rarity": "common",
-          "quantity": 12
-        },
-        {
-          "material_name": "FF Tidal Residuum",
-          "rarity": "common",
-          "quantity": 4
-        }
       ],
-      "skill_upgrades": [
-        {
-          "material_name": "When Irises Bloom",
-          "rarity": "weekly_boss",
-          "quantity": 26
-        },
-        {
-          "material_name": "LF Tidal Residuum",
-          "rarity": "common",
-          "quantity": 25
-        },
-        {
-          "material_name": "MF Tidal Residuum",
-          "rarity": "common",
-          "quantity": 28
-        },
-        {
-          "material_name": "HF Tidal Residuum",
-          "rarity": "common",
-          "quantity": 40
-        },
-        {
-          "material_name": "FF Tidal Residuum",
-          "rarity": "common",
-          "quantity": 57
-        },
-        {
-          "material_name": "Impure Phlogiston",
-          "rarity": "skill_material",
-          "quantity": 25
-        },
-        {
-          "material_name": "Extracted Phlogiston",
-          "rarity": "skill_material",
-          "quantity": 28
-        },
-        {
-          "material_name": "Refined Phlogiston",
-          "rarity": "skill_material",
-          "quantity": 55
-        },
-        {
-          "material_name": "Flawless Phlogiston",
-          "rarity": "skill_material",
-          "quantity": 67
-        }
-      ]
-    },
-    "voice_actors": {
-      "eng": "",
-      "jpn": "",
-      "cn": "",
-      "kr": ""
-    },
-    "best_weapons": [
-      {
-        "weapon_name": "Woodland Aria",
-        "dupe_rank": "R1",
-        "percentage_performance": "100.00%",
-        "commentary_details": "The best option overall for Ciaccona not only from a personal damage perspective but also from a team damage perspective as this weapon shreds the Aero RES of enemies by 10%, which is particularly useful in Aero teams. Still outclasses all other options in any teams thanks to its big personal damage boost.",
-        "weapon_base_info": {
-          "rarity": 5,
-          "primary_stat_val": 500,
-          "secondary_stat_name": "CRIT Rate",
-          "secondary_stat_val": 36,
-          "source": "Rate-up",
-          "effect_description": "ATK is increased by {0}. Inflicting Aero Erosion on the target gives {1} Aero DMG Bonus for 10s. Hitting targets with Aero Erosion reduces their Aero RES by {2} for 20s. Effects of the same name cannot be stacked."
-        }
-      },
-      {
-        "weapon_name": "Phasic Homogenizer",
-        "dupe_rank": "R1",
-        "percentage_performance": "86.90%",
-        "commentary_details": "An amazing generalist permanently available pistol that can universally improve the wearer's ATK, DMG Bonus and CRIT DMG. Can get close to a lot of character signatures and is overall a must-have for most accounts. Better than Static Mist in compositions that don't benefit from its ATK buff such as Cartethyia's team.",
-        "weapon_base_info": {
-          "rarity": 5,
-          "primary_stat_val": 587,
-          "secondary_stat_name": "CRIT DMG",
-          "secondary_stat_val": 48.6,
-          "source": "Permanent Convene",
-          "effect_description": "Increases ATK by {0}. When a Resonator in the team casts a Tune Break skill, it grants {1} All-Attribute DMG Bonus to the wielder for 14s."
-        }
-      },
-      {
-        "weapon_name": "Lux & Umbra",
-        "dupe_rank": "R1",
-        "percentage_performance": "83.00%",
-        "commentary_details": "Best Echo with this weapon is Reminiscence: Fleurdelys. Galbrena's Signature has a good Base ATK and CRIT DMG boosts, but can also amplify Heavy Attack DMG and Echo Skill DMG when both damage types are triggered close to one another alongside an extra DEF Ignore buff. Ciaccona takes a solid damage increase from the Heavy Attack DMG Amplify and DEF Ignore towards the end of her rotation if she uses her Echo Skill while her Forte Heavy Attack is about to cast, making it a great alternative overall.",
-        "weapon_base_info": {
-          "rarity": 5,
-          "primary_stat_val": 587,
-          "secondary_stat_name": "CRIT DMG",
-          "secondary_stat_val": 48.6,
-          "source": "Rate-up",
-          "effect_description": "ATK is increased by {0}. Upon dealing Echo Skill DMG, gain {1} Heavy Attack DMG Amplification for 6s. Upon dealing Heavy Attack DMG, gain {1} Echo Skill DMG Amplification for 6s. DMG Amplification on each attack is capped at {1}. While both effects are active, dealing damage ignores {2} of the target's DEF."
-        }
-      },
-      {
-        "weapon_name": "Spectrum Blaster",
-        "dupe_rank": "R1",
-        "percentage_performance": "82.80%",
-        "commentary_details": "Lynae's Signature weapon can proivde extra Basic Attack DMG to Ciaccona and also has a lot of CRIT Rate and ATK for her to benefit from, however she cannot trigger the party-wide buff this weapon provides which makes it generally worse than the permanent banner weapons.",
-        "weapon_base_info": {
-          "rarity": 5,
-          "primary_stat_val": 587,
-          "secondary_stat_name": "CRIT Rate",
-          "secondary_stat_val": 24.3,
-          "source": "Rate-up",
-          "effect_description": "Increases ATK by {0}. Casting Intro Skill or hitting the target with Basic Attack increases the wielder's Basic Attack DMG by {1} for 4s. Each time the wielder inflicts Tune Rupture - Shifting or Tune Strain - Shifting during Basic Attacks, all DMG dealt by Resonators in the team is increased by {2} for 30s, up to 3 stacks. Effects of the same name cannot be stacked."
-        }
-      },
-      {
-        "weapon_name": "The Last Dance",
-        "dupe_rank": "R1",
-        "percentage_performance": "78.80%",
-        "commentary_details": "While Ciaccona takes full advantage of this weapon's passive thanks to her really short rotation, Skill DMG is the most negligible part of her damage types which makes this weapon mostly an atk and CRIT DMG stat-stick. Still a good choice for personal damage overall.",
-        "weapon_base_info": {
-          "rarity": 5,
-          "primary_stat_val": 500,
-          "secondary_stat_name": "CRIT DMG",
-          "secondary_stat_val": 72,
-          "source": "Rate-up",
-          "effect_description": "Increases ATK by {0}. Every time Intro Skill or Resonance Liberation is cast, Resonance Skill DMG Bonus increases by {1} for 5s."
-        }
-      },
-      {
-        "weapon_name": "Static Mist",
-        "dupe_rank": "R1",
-        "percentage_performance": "77.00%",
-        "commentary_details": "Can outclass Phasic Homogenizer in ATK-scaling teams thanks to team buffing. One of the 2 best permanently available options for Ciaccona, which makes her give 10% ATK to the next character she Outros into and also provides her with high Base ATK, CRIT Rate and some Energy Regen, making her take full advantage of the weapon's passive.",
-        "weapon_base_info": {
-          "rarity": 5,
-          "primary_stat_val": 587,
-          "secondary_stat_name": "CRIT Rate",
-          "secondary_stat_val": 24.3,
-          "source": "Permanent Convene",
-          "effect_description": "Increases Energy Regen by {0}. When Outro Skill is released, increases the switched-in Resonator's ATK by {1}, stacking up to 1 time(s). This effect lasts for 14s."
-        }
-      },
-      {
-        "weapon_name": "Romance in Farewell",
-        "dupe_rank": "R5",
-        "percentage_performance": "69.90%",
-        "commentary_details": "Best 4-star and F2P no-gacha option for Ciaccona, this Rinascita craftable synergizes well with her ability to apply Aero Erosion constantly on enemies, allowing her to take full advantage of this weapon's massive ATK increase. Still lower than other options because it only provides ATK (and 4-stars have lower Base ATK than 5-stars too which makes increasing ATK% less effective).",
-        "weapon_base_info": {
-          "rarity": 4,
-          "primary_stat_val": 462,
-          "secondary_stat_name": "ATK",
-          "secondary_stat_val": 18.2,
-          "source": "Crafting",
-          "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times."
-        }
-      }
-    ],
-    "best_echo_sets": [
-      {
-        "set_name": "Gusts of Welkin",
-        "percentage_performance": "100.00%",
-        "commentary": "Best set for Aero Erosion supports. Allows characters that can apply Aero Erosion to gain a total of 40% Aero DMG Bonus, an equivalent to Sierra Gale. However, it gains an edge over this set by being able to give 15% of that Aero DMG Bonus to the whole team for 20s, providing both offensive and supportive benefits. This set is only favoured on Ciaccona if an Aero Main DPS is present in the team. Use Moonlit Clouds if this doesn't apply.",
-        "main_echo_options": [
-          {
-            "echo_name": "Nightmare: Kelpie",
-            "echo_commentary": " This Echo provides a free decent amount of Aero DMG when casting Outro Skill in all situations, provides 12% Aero DMG Bonus to Ciaccona and while its Transform Active Skill is not used in Ciaccona's rotations, it is the best Main Echo she has, albeit by a very small difference when compared to Reminiscence: Fleurdelys (pick what has the best substats, or use Fleurdelys if Ciaccona uses Lux & Umbra as her weapon as explained above!)"
-          }
-        ]
-      },
-      {
-        "set_name": "Moonlit Clouds",
-        "percentage_performance": "75.35%",
-        "commentary": "Best set for Ciaccona in all non-Aero teams. This set sacrifices Ciaccona's personal damage in order to provide higher buffing to a single character. It provides an extra 10% Energy Regen to the wielder unconditionally and gives 22.5% ATK to the incoming character for 15s after casting Outro skill, making it one of the strongest sets to buff any ATK-scaling DPS.                                                                                                                                                                                        ",
-        "main_echo_options": [
-          {
-            "echo_name": "Impermanence Heron",
-            "echo_commentary": "The best and only real option 5P Moonlit Clouds has, as it grants an extra 12% DMG Bonus on top of the ATK boost to the next character that Moonlit Clouds would usually give. Additionally restores a lot of Energy to the caster when it deals damage. On Ciaccona, this Echo should either be used before her rotation starts or it can be instantly interrupted at any point via a Dash - this way, no Energy or damage is generated but the buff will still apply to the incoming character."
-          }
-        ]
-      },
-      {
-        "set_name": "Windward Pilgrimage",
-        "percentage_performance": "",
-        "commentary": "Used with Main DPS Ciaccona. Best set for Aero Main DPS characters who can apply Aero Erosion or have an Aero Erosion applier on the team. Grants 10% Aero DMG Bonus and an extra 30% Aero DMG Bonus as well as 10% CRIT Rate for 10s when attacking targets inflicted with Aero Erosion. Offers an extra 10% CRIT Rate over the other Aero sets such as Gusts of Welkin or Sierra Gale, providing extra overall damage so long as Aero Erosion is present on the enemy.",
-        "main_echo_options": [
-          {
-            "echo_name": "Nightmare: Kelpie",
-            "echo_commentary": "This Echo provides a free decent amount of Aero DMG when casting Outro Skill in all situations, provides 12% Aero DMG Bonus to Ciaccona and while its Transform Active Skill is not used in Ciaccona's rotations, it is the best Main Echo she has, albeit by a very small difference when compared to Reminiscence: Fleurdelys (pick what has the best substats!)"
-          }
-        ]
-      }
-    ],
-    "best_echo_stats": {
-      "main_stats": {
-        "cost_4": [
-          "CRIT Rate / CRIT DMG"
-        ],
-        "cost_3": [
-          "Aero DMG",
-          "Aero DMG > ATK%"
-        ],
-        "cost_1": [
-          "ATK%",
-          "ATK%"
-        ]
-      },
-      "substats_priority": [
-        "Energy Regen (Until Satisfied)",
-        "CRIT Rate  CRIT DMG",
-        "ATK%",
-        "ATK"
-      ]
-    },
-    "recommended_endgame_stats_target": [
-      "HP: 16500+",
-      "DEF: 1150+",
-      "ATK: 2000-2200+",
-      "CRIT Rate: 55-80%+",
-      "CRIT DMG: 225-280%+",
-      "Energy Regen: 115%+",
-      "Aero DMG Bonus: 30-80%+"
-    ],
-    "skill_upgrade_priority": {
-      "order": [
-        "Res. Liberation",
-        "Basic Attack",
-        "Forte Circuit",
-        "Intro Skill",
-        "Res. Skill"
-      ],
-      "commentary": "Skill and Intro can be skipped when levelling to save on resources at a minimal damage loss."
+      "summary": "Ciaccona is a 5-star Aero Pistol DPS whose primary point of interest is her ability to apply both Spectro Frazzle and Aero Erosion (mostly via her Ultimate). She amplifies Aero Erosion DMG and boosts Aero DMG in several ways, and is characterized by her ability to rotate quickly while retaining an off-field presence, similar to Coordinated Attackers (even though she isn't one). She additionally has great personal damage if you wish to play her as a Main DPS, it is a completely viable playstyle for her."
     },
     "rotations": [
       {
@@ -874,6 +483,417 @@
         ]
       }
     ],
+    "skill_upgrade_priority": {
+      "commentary": "Skill and Intro can be skipped when levelling to save on resources at a minimal damage loss.",
+      "order": [
+        "Res. Liberation",
+        "Basic Attack",
+        "Forte Circuit",
+        "Intro Skill",
+        "Res. Skill"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic AttackPerform up to 4 consecutive attacks, dealing Aero DMG. Basic Attack Stage 4 inflicts 1 stack of Aero Erosion upon the target hit.When the first three stages of Ciaccona's Basic Attack are interrupted by dodging, press Basic Attack in time to resume the attack cycle and cast the corresponding Basic Attack stage.After Basic Attack Stage 4, Ciaccona starts a Solo Concert. If Ciaccona's Basic Attack Stage 4 or Solo Concert ends early (proactively or being interrupted), an Ensemble Sylph is generated.Solo ConcertWhen Ciaccona or Ensemble Sylph performs Solo Concert, they give 24% Aero DMG Bonus to all nearby Resonators in the team. This effect is not stackable.Ensemble SylphUp to 2 Ensemble Sylphs may exist simultaneously.If Ciaccona's Basic Attack Stage 4 is interrupted, the Ensemble Sylphs generated will finish the attack for Ciaccona and enter Solo Concert.If Ciaccona's Solo Concert is interrupted, the Ensemble Sylphs generated will continue the Solo Concert for Ciaccona.Aside from the two situations mentioned above, Ensemble Sylphs generated by Resonance Skill will finish Ciaccona's current attack without entering Solo Concert.Heavy AttackConsume STA to jump into mid-air and attack the target, dealing Aero DMG.Aimed AttackPress Aim to enter Aiming Mode to fire charged shots, dealing Aero DMG, considered Heavy Attack DMG.Mid-air AttackConsume STA to perform up to 2 consecutive attacks, dealing Aero DMG.Press Normal Attack after Mid-air Attack Stage 2 to cast Basic Attack Stage 4.Dodge CounterFollow up successful Dodges with Basic Attack to attack the target, dealing Aero DMG.",
+        "multipliers": [
+          {
+            "Lv1": "28.70%",
+            "Lv10": "57.06%",
+            "Lv2": "31.06%",
+            "Lv3": "33.41%",
+            "Lv4": "36.71%",
+            "Lv5": "39.06%",
+            "Lv6": "41.77%",
+            "Lv7": "45.53%",
+            "Lv8": "49.30%",
+            "Lv9": "53.06%",
+            "Name": "Stage 1 DMG"
+          },
+          {
+            "Lv1": "24.60% + 12.30%*2 + 32.80%",
+            "Lv10": "48.91% + 24.46%*2 + 65.21%",
+            "Lv2": "26.62% + 13.31%*2 + 35.49%",
+            "Lv3": "28.64% + 14.32%*2 + 38.18%",
+            "Lv4": "31.46% + 15.73%*2 + 41.95%",
+            "Lv5": "33.48% + 16.74%*2 + 44.64%",
+            "Lv6": "35.80% + 17.90%*2 + 47.73%",
+            "Lv7": "39.03% + 19.52%*2 + 52.04%",
+            "Lv8": "42.26% + 21.13%*2 + 56.34%",
+            "Lv9": "45.48% + 22.74%*2 + 60.64%",
+            "Name": "Stage 2 DMG"
+          },
+          {
+            "Lv1": "16.61%*4",
+            "Lv10": "33.02%*4",
+            "Lv2": "17.97%*4",
+            "Lv3": "19.33%*4",
+            "Lv4": "21.24%*4",
+            "Lv5": "22.60%*4",
+            "Lv6": "24.17%*4",
+            "Lv7": "26.35%*4",
+            "Lv8": "28.52%*4",
+            "Lv9": "30.70%*4",
+            "Name": "Stage 3 DMG"
+          },
+          {
+            "Lv1": "30.75%*4",
+            "Lv10": "61.14%*4",
+            "Lv2": "33.28%*4",
+            "Lv3": "35.80%*4",
+            "Lv4": "39.33%*4",
+            "Lv5": "41.85%*4",
+            "Lv6": "44.75%*4",
+            "Lv7": "48.78%*4",
+            "Lv8": "52.82%*4",
+            "Lv9": "56.85%*4",
+            "Name": "Stage 4 DMG"
+          },
+          {
+            "Lv1": "54.12%",
+            "Lv10": "107.60%",
+            "Lv2": "58.56%",
+            "Lv3": "63.00%",
+            "Lv4": "69.21%",
+            "Lv5": "73.65%",
+            "Lv6": "78.76%",
+            "Lv7": "85.86%",
+            "Lv8": "92.96%",
+            "Lv9": "100.06%",
+            "Name": "Heavy Attack DMG"
+          },
+          {
+            "Lv1": "16.40%",
+            "Lv10": "32.61%",
+            "Lv2": "17.75%",
+            "Lv3": "19.09%",
+            "Lv4": "20.98%",
+            "Lv5": "22.32%",
+            "Lv6": "23.87%",
+            "Lv7": "26.02%",
+            "Lv8": "28.17%",
+            "Lv9": "30.32%",
+            "Name": "Aimed Shot DMG"
+          },
+          {
+            "Lv1": "36.90%",
+            "Lv10": "73.37%",
+            "Lv2": "39.93%",
+            "Lv3": "42.96%",
+            "Lv4": "47.19%",
+            "Lv5": "50.22%",
+            "Lv6": "53.70%",
+            "Lv7": "58.54%",
+            "Lv8": "63.38%",
+            "Lv9": "68.22%",
+            "Name": "Fully Charged Aimed Shot DMG"
+          },
+          {
+            "Lv1": "27.88%*2",
+            "Lv10": "55.43%*2",
+            "Lv2": "30.17%*2",
+            "Lv3": "32.46%*2",
+            "Lv4": "35.66%*2",
+            "Lv5": "37.94%*2",
+            "Lv6": "40.57%*2",
+            "Lv7": "44.23%*2",
+            "Lv8": "47.89%*2",
+            "Lv9": "51.55%*2",
+            "Name": "Mid-air Attack Stage 1 DMG"
+          },
+          {
+            "Lv1": "12.30%*4",
+            "Lv10": "24.46%*4",
+            "Lv2": "13.31%*4",
+            "Lv3": "14.32%*4",
+            "Lv4": "15.73%*4",
+            "Lv5": "16.74%*4",
+            "Lv6": "17.90%*4",
+            "Lv7": "19.52%*4",
+            "Lv8": "21.13%*4",
+            "Lv9": "22.74%*4",
+            "Name": "Mid-air Attack Stage 2 DMG"
+          },
+          {
+            "Lv1": "28.76%*4",
+            "Lv10": "57.17%*4",
+            "Lv2": "31.12%*4",
+            "Lv3": "33.48%*4",
+            "Lv4": "36.78%*4",
+            "Lv5": "39.13%*4",
+            "Lv6": "41.85%*4",
+            "Lv7": "45.62%*4",
+            "Lv8": "49.39%*4",
+            "Lv9": "53.16%*4",
+            "Name": "Dodge Counter DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Heavy Attack STA Cost"
+          },
+          {
+            "Lv1": "15",
+            "Lv10": "15",
+            "Lv2": "15",
+            "Lv3": "15",
+            "Lv4": "15",
+            "Lv5": "15",
+            "Lv6": "15",
+            "Lv7": "15",
+            "Lv8": "15",
+            "Lv9": "15",
+            "Name": "Mid-air Attack Stage 1 STA Cost"
+          },
+          {
+            "Lv1": "15",
+            "Lv10": "15",
+            "Lv2": "15",
+            "Lv3": "15",
+            "Lv4": "15",
+            "Lv5": "15",
+            "Lv6": "15",
+            "Lv7": "15",
+            "Lv8": "15",
+            "Lv9": "15",
+            "Name": "Mid-air Attack Stage 2 STA Cost"
+          }
+        ],
+        "name": "Quadruple Time Steps",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Move a certain distance, dealing Aero DMG and inflicting 1 stack of Aero Erosion on the target upon hit.Press Normal Attack in time to cast Basic Attack Stage 2.When Ciaccona interrupts Basic Attack, Heavy Attack, Mid-air Attack, or Solo Concert with Resonance Skill, an Ensemble Sylph is generated.Ciaccona's Resonance Skill can be cast in mid-air.",
+        "multipliers": [
+          {
+            "Lv1": "20.32%*4",
+            "Lv10": "40.39%*4",
+            "Lv2": "21.98%*4",
+            "Lv3": "23.65%*4",
+            "Lv4": "25.98%*4",
+            "Lv5": "27.65%*4",
+            "Lv6": "29.56%*4",
+            "Lv7": "32.23%*4",
+            "Lv8": "34.89%*4",
+            "Lv9": "37.56%*4",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "15",
+            "Lv10": "15",
+            "Lv2": "15",
+            "Lv3": "15",
+            "Lv4": "15",
+            "Lv5": "15",
+            "Lv6": "15",
+            "Lv7": "15",
+            "Lv8": "15",
+            "Lv9": "15",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Harmonic Allegro",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Ciaccona and Ensemble Sylphs perform an Improvised Symphonic Poem together, dealing Aero DMG once to the nearby targets and entering Recital.RecitalWhen in Recital, sound waves will periodically radiate around Ciaccona. When the sound wave overlaps with the circle indicator, press the green or yellow buttons to generate Symphonic Poem: Tonic of the corresponding color and recover a certain amount of Concerto Energy.During RecitalSwitching to another Resonator doesn't end Recital, but automatically generates a Symphonic Poem: Tonic matching the color of the last generated Tonic before switching. A green Symphonic Poem: Tonic is generated by default if no interaction input is given before switching to another Resonator.Ciaccona is immune to interruptions and takes 50% less DMG.Exit Recital by pressing Resonance Liberation again or switching Ciaccona back onto the field.Ensemble Sylphs can now directly grant Aero DMG Bonus provided by Solo Concert.Symphonic Poem: TonicGreen Tonic: Deal Aero DMG to nearby targets and inflict a stack of Aero Erosion on targets hit.Yellow Tonic: Deal Aero DMG to nearby targets and inflict a stack of Spectro Frazzle on targets hit.",
+        "multipliers": [
+          {
+            "Lv1": "553.50%",
+            "Lv10": "1100.42%",
+            "Lv2": "598.89%",
+            "Lv3": "644.28%",
+            "Lv4": "707.82%",
+            "Lv5": "753.21%",
+            "Lv6": "805.40%",
+            "Lv7": "878.02%",
+            "Lv8": "950.64%",
+            "Lv9": "1023.26%",
+            "Name": "Improvised Symphonic Poem Skill DMG"
+          },
+          {
+            "Lv1": "3.08%*20",
+            "Lv10": "6.12%*20",
+            "Lv2": "3.33%*20",
+            "Lv3": "3.58%*20",
+            "Lv4": "3.94%*20",
+            "Lv5": "4.19%*20",
+            "Lv6": "4.48%*20",
+            "Lv7": "4.88%*20",
+            "Lv8": "5.29%*20",
+            "Lv9": "5.69%*20",
+            "Name": "Symphonic Poem: Tonic DMG"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv10": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Name": "Resonance Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Concerto Regen"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Successful Interaction Concerto Regen"
+          }
+        ],
+        "name": "Singer's Triple Cadenza",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Heavy Attack - Quadruple DownbeatWhen there are 3 segments of Musical Essence, Heavy Attack is replaced with Heavy Attack - Quadruple Downbeat.Consume all Musical Essence to shoot Downbeat Notes forward to deal Aero DMG, pulling in the nearby targets and inflicting 1 stack of Aero Erosion on the target hit.Heavy Attack - Quadruple Downbeat can be cast in mid-air close to the ground.Musical EssenceCiaccona can hold up to 3 segments of Musical Essence.Casting Basic Attack Stage 4 or Intro Skill recovers 1 segment of Musical Essence.",
+        "multipliers": [
+          {
+            "Lv1": "15.80%*10 + 157.95%",
+            "Lv10": "31.41%*10 + 314.03%",
+            "Lv2": "17.10%*10 + 170.91%",
+            "Lv3": "18.39%*10 + 183.86%",
+            "Lv4": "20.20%*10 + 201.99%",
+            "Lv5": "21.50%*10 + 214.94%",
+            "Lv6": "22.99%*10 + 229.84%",
+            "Lv7": "25.06%*10 + 250.56%",
+            "Lv8": "27.13%*10 + 271.28%",
+            "Lv9": "29.21%*10 + 292.01%",
+            "Name": "Quadruple Downbeat DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Symphony of Wind and Verse",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "Casting Resonance Liberation Singer's Triple Cadenza grants Ciaccona a Shield equal to 100% of her Max HP for 4s. Switching out Ciaccona removes the Shield.",
+        "multipliers": [],
+        "name": "Interlude Tune",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "Increase Heavy Attack - Quadruple Downbeat's DMG by 30%.",
+        "multipliers": [],
+        "name": "Winds of Rinascita",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Attack the target to deal Aero DMG and inflict a stack of Aero Erosion.Follow up with Basic Attack in time to cast Basic Attack Stage 3.",
+        "multipliers": [
+          {
+            "Lv1": "95.12%",
+            "Lv10": "189.11%",
+            "Lv2": "102.92%",
+            "Lv3": "110.72%",
+            "Lv4": "121.64%",
+            "Lv5": "129.44%",
+            "Lv6": "138.41%",
+            "Lv7": "150.89%",
+            "Lv8": "163.37%",
+            "Lv9": "175.85%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Roaming with the Wind",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Aero Erosion DMG dealt to targets near the active Resonator is Amplified by 100% for 30s.",
+        "multipliers": [],
+        "name": "Windcalling Tune",
+        "skill_type": "Outro Skill"
+      }
+    ],
     "synergies": [
       {
         "characters": [
@@ -908,113 +928,93 @@
         "commentary": "Ciaccona's long list of Support choices is a byproduct of her huge team flexibility. Chisa and Aero Rover both see use in teams with Cartethyia to enable Aero Erosion to ramp up to 6; Aero Rover is also used alongside Main DPS Iuno for general Aero buffs; Spectro Rover is used with Zani and Phoebe for higher Spectro Frazzle application; lastly, Shorekeeper and Verina are your best generalist bets. Pick and choose based on your team and what's available, Ciaccona works well with all of them!"
       }
     ],
-    "example_teams": [
-      {
-        "team_name": "Team #1: Best Team",
-        "slot_1": {
-          "character_name": "sigrika",
-          "alternatives": []
+    "upgrade_materials": {
+      "character_ascension": [
+        {
+          "material_name": "Golden Fleece",
+          "quantity": 60,
+          "rarity": "boss"
         },
-        "slot_2": {
-          "character_name": "qiuyuan",
-          "alternatives": []
+        {
+          "material_name": "Blazing Bone",
+          "quantity": 46,
+          "rarity": "specialty"
         },
-        "slot_3": {
-          "character_name": "ciaccona",
-          "alternatives": []
+        {
+          "material_name": "LF Tidal Residuum",
+          "quantity": 4,
+          "rarity": "common"
         },
-        "team_notes": ""
-      },
-      {
-        "team_name": "Team #2: Cartethyia Team",
-        "slot_1": {
-          "character_name": "cartethyia",
-          "alternatives": []
+        {
+          "material_name": "MF Tidal Residuum",
+          "quantity": 12,
+          "rarity": "common"
         },
-        "slot_2": {
-          "character_name": "ciaccona",
-          "alternatives": []
+        {
+          "material_name": "HF Tidal Residuum",
+          "quantity": 12,
+          "rarity": "common"
         },
-        "slot_3": {
-          "character_name": "chisa",
-          "alternatives": [
-            "rover-aero",
-            "the-shorekeeper"
-          ]
+        {
+          "material_name": "FF Tidal Residuum",
+          "quantity": 4,
+          "rarity": "common"
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "When Irises Bloom",
+          "quantity": 26,
+          "rarity": "weekly_boss"
         },
-        "team_notes": "Chisa is only stronger than Aero Rover with her Signature. Shorekeeper is also mostly usable in the third slot in Whimpering Wastes since Aero Erosion won't have time to ramp up to 6."
-      },
-      {
-        "team_name": "Team #3: Jiyan Iuno Dual DPS",
-        "slot_1": {
-          "character_name": "jiyan",
-          "alternatives": []
+        {
+          "material_name": "LF Tidal Residuum",
+          "quantity": 25,
+          "rarity": "common"
         },
-        "slot_2": {
-          "character_name": "iuno",
-          "alternatives": []
+        {
+          "material_name": "MF Tidal Residuum",
+          "quantity": 28,
+          "rarity": "common"
         },
-        "slot_3": {
-          "character_name": "ciaccona",
-          "alternatives": []
+        {
+          "material_name": "HF Tidal Residuum",
+          "quantity": 40,
+          "rarity": "common"
         },
-        "team_notes": ""
-      },
-      {
-        "team_name": "Team #4: Other Aero Teams",
-        "slot_1": {
-          "character_name": "iuno, sigrika, jiyan",
-          "alternatives": []
+        {
+          "material_name": "FF Tidal Residuum",
+          "quantity": 57,
+          "rarity": "common"
         },
-        "slot_2": {
-          "character_name": "ciaccona",
-          "alternatives": []
+        {
+          "material_name": "Impure Phlogiston",
+          "quantity": 25,
+          "rarity": "skill_material"
         },
-        "slot_3": {
-          "character_name": "rover-aero",
-          "alternatives": []
+        {
+          "material_name": "Extracted Phlogiston",
+          "quantity": 28,
+          "rarity": "skill_material"
         },
-        "team_notes": "Iuno + Lynae + Ciaccona is also one of DPS Iuno's strongest teams by far, exceeding the teams shown here if you have access to it."
-      },
-      {
-        "team_name": "Team #5: Spectro Frazzle Teams",
-        "slot_1": {
-          "character_name": "phoebe, zani",
-          "alternatives": []
+        {
+          "material_name": "Refined Phlogiston",
+          "quantity": 55,
+          "rarity": "skill_material"
         },
-        "slot_2": {
-          "character_name": "ciaccona",
-          "alternatives": []
-        },
-        "slot_3": {
-          "character_name": "rover-aero",
-          "alternatives": [
-            "the-shorekeeper"
-          ]
-        },
-        "team_notes": "Shorekeeper will only really see use on DPS Phoebe teams in Whimpering Wastes, however it is DPS Phoebe's best Whimpering Wastes team and is worth mentioning."
-      },
-      {
-        "team_name": "Team #6: Main DPS Ciaccona",
-        "slot_1": {
-          "character_name": "ciaccona",
-          "alternatives": []
-        },
-        "slot_2": {
-          "character_name": "lynae",
-          "alternatives": [
-            "sanhua"
-          ]
-        },
-        "slot_3": {
-          "character_name": "mornye",
-          "alternatives": [
-            "chisa",
-            "the-shorekeeper"
-          ]
-        },
-        "team_notes": ""
-      }
-    ]
-  }
+        {
+          "material_name": "Flawless Phlogiston",
+          "quantity": 67,
+          "rarity": "skill_material"
+        }
+      ]
+    },
+    "voice_actors": {
+      "cn": "",
+      "eng": "",
+      "jpn": "",
+      "kr": ""
+    }
+  },
+  "status": "success"
 }

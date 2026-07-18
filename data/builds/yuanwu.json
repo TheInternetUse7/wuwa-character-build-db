@@ -1,0 +1,994 @@
+{
+  "data": {
+    "base_stats_lvl_90": {
+      "atk": 18,
+      "crit_dmg": "150%",
+      "crit_rate": "5%",
+      "def": 134,
+      "elemental_dmg_bonus": "1.12%",
+      "healing_bonus": "0%",
+      "hp": 682,
+      "max_energy": 125
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Offers a 10% unconditional Healing% boost and an most importantly a 15% ATK% boost for the entire team, lasting 30 seconds whenever you heal yourself or any of your allies. This bonus can be triggered by character abilities and weapon effects, is easy to keep active 100% of the time and is a big help for all party members.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Grants 10% increased Energy Regeneration for the wearer and a team wide 10% ATK boost on use for 20 seconds. A strong option for those looking to generate as much energy as possible or who favor a more permanent party buffing effect compared to Bell-Borne Geochelone.",
+            "echo_name": "Fallacy of No Return"
+          },
+          {
+            "echo_commentary": "While nowadays a worse option for the Rejuvenating Glow set for damage than the Fallacy of No Return due to a shorter buff uptime, only granting 10% DMG Bonus for 15 seconds, the Bell-Borne Geochelone remains a good choice if you don't have a good Fallacy to use for the set. It also has increased survivability by blocking 50% of the damage from a max of 3 hits if you desire to have that in your team.",
+            "echo_name": "Bell-Borne Geochelone"
+          }
+        ],
+        "percentage_performance": "1",
+        "set_name": "Rejuvenating Glow"
+      },
+      {
+        "commentary": "Offers a 10% unconditional Energy Regen% boost taking some pressure off your gear when aiming at ER breakpoints. Also upon using Outro, grants the next character switching in a 22.5% ATK boost, amplifying any of your main damage dealers burst windows.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Supportive Echo that can be run at the cost of a sizeable chunk of damage for the character who equips, trading personal gain for team benefits. Should always be used and immediately switch cancelled right before performing an Outro, leading to another DPS. When done so will grant the next character switching in 12% increased DMG% which when combined with the 5P Moonlit set which also grants 22.5% ATK% under the same conditions makes for a sizeable boost. While the echo does lower the damage of whoever wears it, it grants a massive chunk of energy on use usually saving 1 or sometimes even 2 Energy Regen sub stats that may otherwise be needed by the wearer allowing for some damage to be recovered.",
+            "echo_name": "Impermanence Heron"
+          }
+        ],
+        "percentage_performance": "2",
+        "set_name": "Moonlit Clouds"
+      },
+      {
+        "commentary": "Offers an unconditional 10% Energy Regen% and 80% Coordinated DMG boost. Also grants a passive supportive effect which triggers when the wearer of this set critically strikes with a Coordinated attack - this effect grants the on field Resonator an ATK% boost regardless if they're the wearer of the set or not.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Offers an unconditional 12% Electro DMG and 12% Resonance Skill DMG boost when placed in the Main Echo slot, making it a solid choice for Electro focused resonators who emphasize Resonance Skill damage and are looking to use either the 5P Empyrean Anthem Echo or 5P Void Thunder set bonus.",
+            "echo_name": "Nightmare: Tempest Mephis"
+          }
+        ],
+        "percentage_performance": "",
+        "set_name": "Empyrean Anthem"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "DEF%",
+          "DEF%"
+        ],
+        "cost_3": [
+          "Electro DMG",
+          "Electro DMG > DEF%"
+        ],
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "DEF%",
+        "Flat DEF"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "Xiangli Yao's signature and an ideal weapon for any Resonance Liberation based Gauntlet user. Grants a tremendous 24.3% CRIT RATE boost and 12% generic DMG% boost all permanently and on top of that also grants an incredibly convenient 48% Resonance Liberation DMG% lasting 8 seconds on use of the wearers Liberation. Due to the timing of when this buff activates, it is almost always up when you need it most and the duration can also be extended up to 3 times for 5 seconds each time whenever you use a resonance skill. This extends the total duration of this buff to a whopping 23 seconds.",
+        "dupe_rank": "R1",
+        "percentage_performance": "101.32%",
+        "weapon_base_info": {
+          "effect_description": "Gain {0} Attribute DMG Bonus. When using Resonance Liberation, the wielder gains {1} Resonance Liberation DMG Bonus for 8s. This effect can be extended by 5 seconds each time Resonance Skills are cast, up to 3 times.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Gacha"
+        },
+        "weapon_name": "Verity's Handle"
+      },
+      {
+        "commentary_details": "Outstanding damage focused option for DEF-scaling damage dealers that deal a reasonable portion of their damage with their Resonance Liberation. Current best option for all DEF scalers.",
+        "dupe_rank": "R5",
+        "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "When Intro Skill is released, increases Resonance Liberation DMG Bonus by {0}, lasting for {1}s.",
+          "primary_stat_val": 337,
+          "rarity": 4,
+          "secondary_stat_name": "DEF",
+          "secondary_stat_val": 61.5,
+          "source": ""
+        },
+        "weapon_name": "Amity Accord"
+      },
+      {
+        "commentary_details": "Specialist Gauntlets for Resonance Liberation scaling users, thanks to its passive that grants increased Resonance Liberation DMG% after using a Resonance Skill. Still usable by characters who don't focus specifically on Liberation damage as a big part of their kit, thanks to the reasonably high base stats but more importantly CRIT RATE main stat.",
+        "dupe_rank": "R5",
+        "percentage_performance": "93.03%",
+        "weapon_base_info": {
+          "effect_description": "When Resonance Skill is released, increases the caster's Resonance Liberation DMG Bonus by {0}, lasting for 15s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.2,
+          "source": "Pioneer Podcast"
+        },
+        "weapon_name": "Stonard"
+      },
+      {
+        "commentary_details": "Free to play accessible alternative for DEF-scaling damage dealers that make use of their Resonance Liberation as a damage dealing tool. A good alternative if you don't have Amity Accord.",
+        "dupe_rank": "R5",
+        "percentage_performance": "90.36%",
+        "weapon_base_info": {
+          "effect_description": "Increases Resonance Liberation DMG Bonus by {0}.",
+          "primary_stat_val": 300,
+          "rarity": 3,
+          "secondary_stat_name": "DEF",
+          "secondary_stat_val": 38.4,
+          "source": ""
+        },
+        "weapon_name": "Guardian Gauntlets"
+      },
+      {
+        "commentary_details": "Gauntlets with the unique function of adding healing to a characters kit causing their Basic Attacks to restore a small amount of health to themselves with a cooldown of 3 seconds. The Gauntlets have bad combat stats and the heal would otherwise be considered terrible for most content but it allows characters to activate the incredibly powerful 5P Rejuvenating Glow set which requires healing to buff. This weapon should only be equipped when aiming to use the set on a character who could not otherwise heal.",
+        "dupe_rank": "R5",
+        "percentage_performance": "86.70%",
+        "weapon_base_info": {
+          "effect_description": "When hitting a target with Basic Attacks, restores HP by {0}. This effect can be triggered 1 time(s) every 3s.",
+          "primary_stat_val": 300,
+          "rarity": 3,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 40.5,
+          "source": ""
+        },
+        "weapon_name": "Originite: Type IV"
+      },
+      {
+        "commentary_details": "An easily accessible supportive option with a reasonable amount of Energy Regen. It also grants the unique ability to gain a sizable chunk of raw Resonance Energy once every 20 seconds. For most character's rotations in teams, this bonus will be ready every time it's their turn to switch-in, making this weapon a great choice for any character who doesn't need damage but needs their Ultimate fast and has trouble accessing it otherwise. The flat energy gain is more powerful the less energy the character and team they are a part of can generate.",
+        "dupe_rank": "R5",
+        "percentage_performance": "85.91%",
+        "weapon_base_info": {
+          "effect_description": "When Resonance Skill is released, restores Resonance Energy by {0}. This effect can be triggered {2} time(s) every {1}.",
+          "primary_stat_val": 325,
+          "rarity": 3,
+          "secondary_stat_name": "DEF",
+          "secondary_stat_val": 30.7,
+          "source": ""
+        },
+        "weapon_name": "Gauntlets of Voyager"
+      },
+      {
+        "commentary_details": "One of the top Gauntlets options in game with the only competitors being 4â Weapons with multiple dupes. Offers high base ATK, ATK%, a good amount of Energy Regen to save at least 1 sub-stat on gear to be reallocated to better uses and a conditional bonus boosting Resonance Skill damage and Basic Attacks that is very easy to satisfy.",
+        "dupe_rank": "R1",
+        "percentage_performance": "85.01%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When hitting a target with Resonance Skill, increases Basic Attack DMG Bonus by {1}, lasting for {2}. When hitting a target with Basic Attacks, increases Resonance Skill DMG Bonus by {3}, lasting for {4}s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Abyss Surges"
+      },
+      {
+        "commentary_details": "If you're playing Yuanwu in the Support role, here is the Weapon you should use on him (so he can trigger the Rejuvenating Glow set):\nGauntlets with the unique function of adding healing to a characters kit causing their Basic Attacks to restore a small amount of health to themselves with a cooldown of 3 seconds. The Gauntlets have bad combat stats and the heal would otherwise be considered terrible for most content but it allows characters to activate the incredibly powerful 5P Rejuvenating Glow set which requires healing to buff. This weapon should only be equipped when aiming to use the set on a character who could not otherwise heal.",
+        "dupe_rank": "R5",
+        "percentage_performance": "-",
+        "weapon_base_info": {
+          "effect_description": "When hitting a target with Basic Attacks, restores HP by {0}. This effect can be triggered 1 time(s) every 3s.",
+          "primary_stat_val": 300,
+          "rarity": 3,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 40.5,
+          "source": ""
+        },
+        "weapon_name": "Originite: Type IV"
+      }
+    ],
+    "character_metadata": {
+      "breadcrumb": [
+        "Wuthering Waves",
+        "Characters",
+        "Yuanwu"
+      ],
+      "element": "Electro",
+      "name": "Yuanwu",
+      "rarity_stars": 4,
+      "slug": "yuanwu",
+      "updates": {
+        "last_major_build_patch": "2.1",
+        "last_profile_update": "10/July/2026",
+        "last_review_patch": "2.1",
+        "last_updated": "10/July/2026"
+      },
+      "weapon_type": "Gauntlets"
+    },
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "jinhsi"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "yuanwu"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Best Team",
+        "team_notes": "Make sure to run Yuanwu on Rejuvenating Glow and your third party member on Moonlit Clouds for optimal DPS!"
+      }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/yuanwu_full.webp",
+      "youtube_guide_embed_url": "",
+      "youtube_guide_full_url": ""
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+12%",
+        "stat_name": "Electro DMG"
+      },
+      {
+        "bonus_value": "+15.2%",
+        "stat_name": "DEF%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "Does not provide close to any buffs and is lacking compared to other supports in that department;",
+        "Needs to replace his Thunder Wedge often against highly mobile enemies;",
+        "Does pretty much literally zero damage unless you're willing to invest hard into him, which has very little return;",
+        "Only works in a single team as of patch 1.4 (Jinhsi), where he is not the strongest option, incentivizing investment even less."
+      ],
+      "pros": [
+        "Is surprisingly a great user of the Rejuvenating Glow healing set by being able to run the Originite: Type IV weapon to trigger it with a single basic attack;",
+        "Has the shortest rotation time in the game, as he doesn't need to use anything beyond a basic attack, and his skill and echo;",
+        "Requires absolutely no investment to perform;",
+        "Arguably the easiest character to play, just use basic, skill, echo and swap off;",
+        "Provides interruption resistance to the entire team, making all rotations easier to perform;",
+        "Makes the stagger bar of enemies easier to shred through;",
+        "He's free!"
+      ]
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [
+            "Coord",
+            "Sustain"
+          ],
+          "tier": "T4"
+        },
+        "whimpering_wastes": {
+          "tags": [
+            "Coord",
+            "Sustain"
+          ],
+          "tier": "T4"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T4"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T4"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 13000+",
+      "DEF: 1800+",
+      "ATK: 1200+",
+      "CRIT Rate: 60%+",
+      "CRIT DMG: 250%+",
+      "Energy Regen: 100%Yuanwu's optimal playstyle in a Jinhsi team does not involve his Resonance Liberation.",
+      "Electro DMG Bonus: 30-60%+"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "When Yuanwu is in Forte Circuit's Lightning Infused state, his Basic Attack Speed is increased by 20%, and his Heavy Attack Speed is increased by 20%.",
+        "name": "Sequence Node 1",
+        "node": "S1"
+      },
+      {
+        "description": "Intro Skill Thunder Bombardment additionally recovers 15 Resonance Energy for Yuanwu.",
+        "name": "Sequence Node 2",
+        "node": "S2"
+      },
+      {
+        "description": "When the Coordinated Attacks of Resonance Skill's Thunder Wedge hits a target, the damage is additionally increased by 20% of Yuanwu's DEF.",
+        "name": "Sequence Node 3",
+        "node": "S3"
+      },
+      {
+        "description": "When casting Resonance Liberation Blazing Might, the on-field character will gain a Shield equal to 200% of Yuanwu's DEF for 10s.",
+        "name": "Sequence Node 4",
+        "node": "S4"
+      },
+      {
+        "description": "When Resonance Skill Thunder Wedge is on the field, Yuanwu's Resonance Liberation DMG Bonus is increased by 50%.",
+        "name": "Sequence Node 5",
+        "node": "S5"
+      },
+      {
+        "description": "All team members nearby within the range of Resonance Skill Thunder Wedge will gain a 32% DEF increase, lasting 3s.",
+        "name": "Sequence Node 6",
+        "node": "S6"
+      }
+    ],
+    "review": {
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Yuanwu is a free 4-star Electro Gauntlet Hybrid character whose main role is to provide buffs to the rest of your team with very low field time. His unique support abilities include a team-wide anti-interruption buff, which makes received enemy attacks not cancel your own, as well as the ability to deal extra Vibration Strength bar damage with his Outro, allowing you to stagger enemies, particularly bosses, and make them vulnerable in short amounts of time.",
+            "Yuanwu's skill, replaceable once every 3 seconds, is the core of his gameplay. Summoning a Thunder Wedge that creates a large circular area around itself, it generates Forte gauge for Yuanwu by launching Coordinated Attacks every 1.2 seconds to enemies who take damage within it. Dealing damage based on his DEF, it represents the most important part of his kit and lasts for 12 seconds.",
+            "However, once Yuanwu's Forte gauge is filled, which is going to be generated off-field by his Thunder Wedge's coordinated attacks, he can use an enhanced skill that detonates the Thunder Wedge early, dealing a bigger burst of damage based on his DEF. He then enters a state where the rest of his own attacks are empowered. His Ultimate, which deals damage based on his DEF and gives his Forte's enhanced state to the entire team, which in the case of his other teammates grants the Interruption Resistance buff. It also has the Thunder Wedge detonation effect, which greatly helps his generation of Concerto Energy.",
+            "All things considered, this makes Yuanwu a character who wants to spend minimal time on the field due to his kit being pretty much exclusively centered around placing his Thunder Wedge down and leaving the field immediately. While he gets enhanced attacks from his Forte's enhanced state, they end up having extremely subpar damage compared to the rest of the cast; all in all, in his single meta use case, you end up pretty much forfeiting this kit entirely.",
+            "And now we enter into the main problem with Yuanwu and why he is a low-tier character: presenting subpar damage, and sporting literally no inherent damage buffs in his kit, he does not fill either of the two niches that are required to be a meta character, healing not being necessary due to dodging, healers simply being favoured due to their buffing potential.",
+            "As a result, Yuanwu finds himself only one meta niche: being a stack generator for one of the best characters in the game, Jinhsi. Thankfully, he does have Coordinated Attacks that can have 100% uptime, meaning you can infinitely refresh his Thunder Wedge and have it always be ready to hit enemies. As currently the only character in the game that practically does so, he finds value in being the best Forte stack generator for Jinhsi, who capitalizes off of Coordinated Attacks, and finds himself usable sporting the Rejuvenating Glow Echo set and the 3 star weapon Originite: Type IV to allow him to heal himself and trigger the 15% team-wide attack buff the set provides. Only requiring him to add a single Basic Attack to his rotation and simply requiring him to place his Thunder Wedge down and ignore the rest of his kit entirely, he is completely effective to use in Jinhsi teams at level 1 with a 3 star weapon and level 0 echoes, allowing you to invest in your other characters without sacrificing close to any of the team's damage ceiling.",
+            "But let's not forget that even in this role, he finds himself doing practically no damage and as a result contributes smaller amounts to the whole team's damage than any option that does. Not to mention that he only has ONE team he properly works in, and requires a very specific build to work (albeit not being an expensive one, it requires you to build your support on a second supportive set, i.e Moonlit Clouds, which is awkward to do in itself).",
+            "In summary, this makes Yuanwu usable in a single team, and not useful in many other places. But if you still wish to use him in this role, he is very much recommendable, as his simplistic gameplay makes him very easy to pick up for even the most casual of players."
+          ]
+        }
+      ],
+      "summary": "Yuanwu is a free 4-star Electro Gauntlet Hybrid character whose main role is to provide buffs to the rest of your team with very low field time. His unique support abilities include a team-wide anti-interruption buff, which makes received enemy attacks not cancel your own, as well as the ability to deal extra Vibration Strength bar damage with his Outro, allowing you to stagger enemies, particularly bosses, and make them vulnerable in short amounts of time."
+    },
+    "rotations": [
+      {
+        "rotation_name": "Ability Priority",
+        "steps": [
+          "Echo",
+          "Intro (If Available)",
+          "Skill: Place Thunderwedge",
+          "Ultimate (Detonates Thunderwedge)",
+          "Skill: Forte: Rumbling Spark",
+          "Skill: Place Thunderwedge",
+          "Outro (If Available)",
+          "Skill: Place Thunderwedge (As needed to keep active and on top of enemies)"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "",
+      "order": [
+        "Res. Liberation",
+        "Res. Skill",
+        "Forte Circuit",
+        "Intro Skill",
+        "Basic Attack"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic AttackPerform up to 5 continuous attacks, dealing Electro DMG.Heavy AttackConsume Stamina to attack the target, dealing Electro DMG.Mid-air AttackConsume Stamina to launch a Plunging Attack, dealing Electro DMG.Dodge CounterUse Basic Attack after a successful Dodge to attack the target, dealing Electro DMG.",
+        "multipliers": [
+          {
+            "Lv1": "24.70%",
+            "Lv10": "49.11%",
+            "Lv2": "26.73%",
+            "Lv3": "28.76%",
+            "Lv4": "31.59%",
+            "Lv5": "33.62%",
+            "Lv6": "35.95%",
+            "Lv7": "39.19%",
+            "Lv8": "42.43%",
+            "Lv9": "45.67%",
+            "Name": "Part 1 Damage"
+          },
+          {
+            "Lv1": "26.06%*2",
+            "Lv10": "51.81%*2",
+            "Lv2": "28.20%*2",
+            "Lv3": "30.34%*2",
+            "Lv4": "33.33%*2",
+            "Lv5": "35.46%*2",
+            "Lv6": "37.92%*2",
+            "Lv7": "41.34%*2",
+            "Lv8": "44.76%*2",
+            "Lv9": "48.18%*2",
+            "Name": "Part 2 Damage"
+          },
+          {
+            "Lv1": "10.99%*2+16.48%*2",
+            "Lv10": "21.84%*2+32.76%*2",
+            "Lv2": "11.89%*2+17.83%*2",
+            "Lv3": "12.79%*2+19.18%*2",
+            "Lv4": "14.05%*2+21.07%*2",
+            "Lv5": "14.95%*2+22.42%*2",
+            "Lv6": "15.99%*2+23.98%*2",
+            "Lv7": "17.43%*2+26.14%*2",
+            "Lv8": "18.87%*2+28.30%*2",
+            "Lv9": "20.31%*2+30.46%*2",
+            "Name": "Part 3 Damage"
+          },
+          {
+            "Lv1": "26.06%*2",
+            "Lv10": "51.81%*2",
+            "Lv2": "28.20%*2",
+            "Lv3": "30.34%*2",
+            "Lv4": "33.33%*2",
+            "Lv5": "35.46%*2",
+            "Lv6": "37.92%*2",
+            "Lv7": "41.34%*2",
+            "Lv8": "44.76%*2",
+            "Lv9": "48.18%*2",
+            "Name": "Part 4 Damage"
+          },
+          {
+            "Lv1": "24.70%*2+32.94%",
+            "Lv10": "49.11%*2+65.48%",
+            "Lv2": "26.73%*2+35.64%",
+            "Lv3": "28.76%*2+38.34%",
+            "Lv4": "31.59%*2+42.12%",
+            "Lv5": "33.62%*2+44.82%",
+            "Lv6": "35.95%*2+47.93%",
+            "Lv7": "39.19%*2+52.25%",
+            "Lv8": "42.43%*2+56.57%",
+            "Lv9": "45.67%*2+60.89%",
+            "Name": "Part 5 Damage"
+          },
+          {
+            "Lv1": "80.00%",
+            "Lv10": "159.05%",
+            "Lv2": "86.56%",
+            "Lv3": "93.12%",
+            "Lv4": "102.31%",
+            "Lv5": "108.87%",
+            "Lv6": "116.41%",
+            "Lv7": "126.91%",
+            "Lv8": "137.40%",
+            "Lv9": "147.90%",
+            "Name": "Heavy Attack Damage"
+          },
+          {
+            "Lv1": "49.60%",
+            "Lv10": "98.61%",
+            "Lv2": "53.67%",
+            "Lv3": "57.74%",
+            "Lv4": "63.43%",
+            "Lv5": "67.50%",
+            "Lv6": "72.18%",
+            "Lv7": "78.69%",
+            "Lv8": "85.19%",
+            "Lv9": "91.70%",
+            "Name": "Mid-Air Attack Damage"
+          },
+          {
+            "Lv1": "57.60%*2",
+            "Lv10": "114.52%*2",
+            "Lv2": "62.33%*2",
+            "Lv3": "67.05%*2",
+            "Lv4": "73.66%*2",
+            "Lv5": "78.39%*2",
+            "Lv6": "83.82%*2",
+            "Lv7": "91.38%*2",
+            "Lv8": "98.93%*2",
+            "Lv9": "106.49%*2",
+            "Name": "Dodge Counter Damage"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Heavy Attack Stamina Consumption"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-Air Attack Stamina Consumption"
+          }
+        ],
+        "name": "Leihuangquan",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Thunder WedgeYuanwu summons Thunder Wedge, dealing Electro DMG, and forms a Thunder Field centered on the Thunder Wedge. Thunder Wedge lasts for 12s. Forte Circuit Rumbling Spark and Resonance Liberation Blazing Might will immediately detonate Resonance Skill Thunder Wedge on the field, dealing Electro DMG, considered as Resonance Skill Damage.Thunder FieldThe on-field character gains the effects below when in the Thunder Field: a Coordinated Attack from Resonance Skill Thunder Wedge is triggered when attacks hit a target, dealing Electro DMG. This can be triggered once every 1.2s. The effect lasts for 1.5s.",
+        "multipliers": [
+          {
+            "Lv1": "12.00% DEF",
+            "Lv10": "23.86%",
+            "Lv2": "12.99% DEF",
+            "Lv3": "13.97% DEF",
+            "Lv4": "15.35% DEF",
+            "Lv5": "16.33% DEF",
+            "Lv6": "17.47% DEF",
+            "Lv7": "19.04% DEF",
+            "Lv8": "20.61% DEF",
+            "Lv9": "22.19% DEF",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "4.00% DEF",
+            "Lv10": "7.96% DEF",
+            "Lv2": "4.33% DEF",
+            "Lv3": "4.66% DEF",
+            "Lv4": "5.12% DEF",
+            "Lv5": "5.45% DEF",
+            "Lv6": "5.83% DEF",
+            "Lv7": "6.35% DEF",
+            "Lv8": "6.87% DEF",
+            "Lv9": "7.40% DEF",
+            "Name": "Thunder Wedge Coordinated Attack Damage"
+          },
+          {
+            "Lv1": "30.00% DEF",
+            "Lv10": "59.65% DEF",
+            "Lv2": "32.46% DEF",
+            "Lv3": "34.92% DEF",
+            "Lv4": "38.37% DEF",
+            "Lv5": "40.83% DEF",
+            "Lv6": "43.66% DEF",
+            "Lv7": "47.59% DEF",
+            "Lv8": "51.53% DEF",
+            "Lv9": "55.47% DEF",
+            "Name": "Thunder Wedge Detonation Damage"
+          },
+          {
+            "Lv1": "54.60% DEF",
+            "Lv10": "108.54% DEF",
+            "Lv2": "59.07% DEF",
+            "Lv3": "63.55% DEF",
+            "Lv4": "69.82% DEF",
+            "Lv5": "74.29% DEF",
+            "Lv6": "79.44% DEF",
+            "Lv7": "86.60% DEF",
+            "Lv8": "93.76% DEF",
+            "Lv9": "100.93% DEF",
+            "Name": "Rumbling Spark Damage"
+          },
+          {
+            "Lv1": "12",
+            "Lv10": "12",
+            "Lv2": "12",
+            "Lv3": "12",
+            "Lv4": "12",
+            "Lv5": "12",
+            "Lv6": "12",
+            "Lv7": "12",
+            "Lv8": "12",
+            "Lv9": "12",
+            "Name": "Thunder Wedge Duration"
+          },
+          {
+            "Lv1": "3",
+            "Lv10": "3",
+            "Lv2": "3",
+            "Lv3": "3",
+            "Lv4": "3",
+            "Lv5": "3",
+            "Lv6": "3",
+            "Lv7": "3",
+            "Lv8": "3",
+            "Lv9": "3",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "3",
+            "Lv10": "3",
+            "Lv2": "3",
+            "Lv3": "3",
+            "Lv4": "3",
+            "Lv5": "3",
+            "Lv6": "3",
+            "Lv7": "3",
+            "Lv8": "3",
+            "Lv9": "3",
+            "Name": "Leihuang Master Con. Energy Regen"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Rumbling Spark Con. Energy Regen"
+          }
+        ],
+        "name": "Leihuang Master",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Awaken the power of thunder and provide Forte Circuit Lightning Infused status for all nearby characters for 10s, granting them increased Anti-interruption, then perform a powerful blow that deals Electro DMG.",
+        "multipliers": [
+          {
+            "Lv1": "88.00%*2 DEF",
+            "Lv10": "174.96%*2 DEF",
+            "Lv2": "95.22%*2 DEF",
+            "Lv3": "102.44%*2 DEF",
+            "Lv4": "112.54%*2 DEF",
+            "Lv5": "119.76%*2 DEF",
+            "Lv6": "128.05%*2 DEF",
+            "Lv7": "139.60%*2 DEF",
+            "Lv8": "151.14%*2 DEF",
+            "Lv9": "162.69%*2 DEF",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv10": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Name": "Res. Energy Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Blazing Might",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Rumbling SparkWhen \"Readiness\" is full, long press Resonance Skill to consume all \"Readiness\" and cast Rumbling Spark, dealing Electro DMG and entering the Lightning Infused state.Thunder UprisingWhen you have full \"Readiness\", Resonance Skill Thunder Wedge will cast Thunder Uprising, dealing Electro DMG.Lightning InfusedThe character in Lightning Infused state has a greatly increased anti-interruption. When Yuanwu is in this state:Basic Attacks: Hits targets in a larger range, depletes enemy Vibration Strength faster.Heavy Attacks: Attack speed is increased, deplete enemy Vibration Strength fasterDodge Counters: Attack speed is increased, deplete enemy Vibration Strength faster. Use Basic Attack within 3s after casting a Heavy Attack or a successful Counterattack to cast Thunderweaver, dealing Electro DMG, considered as Basic Attack damage; EdgeYuanwu can hold up to 100 \"Readiness\". When Resonance Skill Thunder Wedge is on the field, Yuanwu gains 6 \"Readiness\" every second, even when he is not the on-field character; When Resonance Skill Thunder Wedge hits a target with a Coordinated Attack, Yuanwu gains 5 \"Readiness\".",
+        "multipliers": [
+          {
+            "Lv1": "20.00% DEF",
+            "Lv10": "39.77% DEF",
+            "Lv2": "21.64% DEF",
+            "Lv3": "23.28% DEF",
+            "Lv4": "25.58% DEF",
+            "Lv5": "27.22% DEF",
+            "Lv6": "29.11% DEF",
+            "Lv7": "31.73% DEF",
+            "Lv8": "34.35% DEF",
+            "Lv9": "36.98% DEF",
+            "Name": "Thunder Uprising Damage"
+          },
+          {
+            "Lv1": "12.35% DEF",
+            "Lv10": "24.56% DEF",
+            "Lv2": "13.37% DEF",
+            "Lv3": "14.38% DEF",
+            "Lv4": "15.80% DEF",
+            "Lv5": "16.81% DEF",
+            "Lv6": "17.98% DEF",
+            "Lv7": "19.60% DEF",
+            "Lv8": "21.22% DEF",
+            "Lv9": "22.84% DEF",
+            "Name": "Lightning Infused Basic Attack Part 1 Damage"
+          },
+          {
+            "Lv1": "13.03%*2 DEF",
+            "Lv10": "25.91%*2 DEF",
+            "Lv2": "14.10%*2 DEF",
+            "Lv3": "15.17%*2 DEF",
+            "Lv4": "16.67%*2 DEF",
+            "Lv5": "17.73%*2 DEF",
+            "Lv6": "18.96%*2 DEF",
+            "Lv7": "20.67%*2 DEF",
+            "Lv8": "22.38%*2 DEF",
+            "Lv9": "24.09%*2 DEF",
+            "Name": "Lightning Infused Basic Attack Part 2 Damage"
+          },
+          {
+            "Lv1": "5.50%*2+8.24%*2 DEF",
+            "Lv10": "10.92%*2+16.38%*2 DEF",
+            "Lv2": "5.95%*2+8.92%*2 DEF",
+            "Lv3": "6.40%*2+9.59%*2 DEF",
+            "Lv4": "7.03%*2+10.54%*2 DEF",
+            "Lv5": "7.48%*2+11.21%*2 DEF",
+            "Lv6": "8.00%*2+11.99%*2 DEF",
+            "Lv7": "8.72%*2+13.07%*2 DEF",
+            "Lv8": "9.44%*2+14.15%*2 DEF",
+            "Lv9": "10.16%*2+15.23%*2 DEF",
+            "Name": "Lightning Infused Basic Attack Part 3 Damage"
+          },
+          {
+            "Lv1": "5.77%*5 DEF",
+            "Lv10": "11.46%*5 DEF",
+            "Lv2": "6.24%*5 DEF",
+            "Lv3": "6.71%*5 DEF",
+            "Lv4": "7.38%*5 DEF",
+            "Lv5": "7.85%*5 DEF",
+            "Lv6": "8.39%*5 DEF",
+            "Lv7": "9.15%*5 DEF",
+            "Lv8": "9.90%*5 DEF",
+            "Lv9": "10.66%*5 DEF",
+            "Name": "Lightning Infused Basic Attack Part 4 Damage"
+          },
+          {
+            "Lv1": "8.24%*3+16.47% DEF",
+            "Lv10": "16.37%*3+32.74% DEF",
+            "Lv2": "8.91%*3+17.82% DEF",
+            "Lv3": "9.59%*3+19.17% DEF",
+            "Lv4": "10.53%*3+21.06% DEF",
+            "Lv5": "11.21%*3+22.41% DEF",
+            "Lv6": "11.99%*3+23.97% DEF",
+            "Lv7": "13.07%*3+26.13% DEF",
+            "Lv8": "14.15%*3+28.29% DEF",
+            "Lv9": "15.23%*3+30.45% DEF",
+            "Name": "Lightning Infused Basic Attack Part V Damage"
+          },
+          {
+            "Lv1": "15.60% DEF",
+            "Lv10": "31.02% DEF",
+            "Lv2": "16.88% DEF",
+            "Lv3": "18.16% DEF",
+            "Lv4": "19.95% DEF",
+            "Lv5": "21.23% DEF",
+            "Lv6": "22.70% DEF",
+            "Lv7": "24.75% DEF",
+            "Lv8": "26.80% DEF",
+            "Lv9": "28.84% DEF",
+            "Name": "Lightning Infused Heavy Attack Damage"
+          },
+          {
+            "Lv1": "15.60%+10.40%*2 DEF",
+            "Lv10": "31.02%+20.68%*2 DEF",
+            "Lv2": "16.88%+11.26%*2 DEF",
+            "Lv3": "18.16%+12.11%*2 DEF",
+            "Lv4": "19.95%+13.30%*2 DEF",
+            "Lv5": "21.23%+14.16%*2 DEF",
+            "Lv6": "22.70%+15.14%*2 DEF",
+            "Lv7": "24.75%+16.50%*2 DEF",
+            "Lv8": "26.80%+17.87%*2 DEF",
+            "Lv9": "28.84%+19.23%*2 DEF",
+            "Name": "Thunderweaver Damage"
+          },
+          {
+            "Lv1": "21.76%+16.32%*2 DEF",
+            "Lv10": "43.27%+32.45%*2 DEF",
+            "Lv2": "23.55%+17.66%*2 DEF",
+            "Lv3": "25.33%+19.00%*2 DEF",
+            "Lv4": "27.83%+20.88%*2 DEF",
+            "Lv5": "29.62%+22.21%*2 DEF",
+            "Lv6": "31.67%+23.75%*2 DEF",
+            "Lv7": "34.52%+25.89%*2 DEF",
+            "Lv8": "37.38%+28.03%*2 DEF",
+            "Lv9": "40.23%+30.18%*2 DEF",
+            "Name": "Lightning Infused Dodge Counter Damage"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Lightning Infused Heavy Attack Stamina Consumption"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Lightning Infused Duration"
+          }
+        ],
+        "name": "Unassuming Blade",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "The damage multiplier of Resonance Skill Thunder Uprising is increased by 40%, and its depletion of enemy Vibration Strength is enhanced.",
+        "multipliers": [],
+        "name": "Thunderweaver",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "The ranges of the Resonance Skill Thunder Field and Thunder Uprising are greatly expanded. When exiting during combat, if Readiness is not full, Yuanwu will automatically leave 1 Resonance Skill Thunder Wedge in place.",
+        "multipliers": [],
+        "name": "Reserved Confidence",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Attack the target, dealing Electro DMG.",
+        "multipliers": [
+          {
+            "Lv1": "32.00% DEF",
+            "Lv10": "63.62% DEF",
+            "Lv2": "34.63% DEF",
+            "Lv3": "37.25% DEF",
+            "Lv4": "40.93% DEF",
+            "Lv5": "43.55% DEF",
+            "Lv6": "46.57% DEF",
+            "Lv7": "50.77% DEF",
+            "Lv8": "54.96% DEF",
+            "Lv9": "59.16% DEF",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Thunder Bombardment",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Yuanwu summons thunderbolts on a field centered on the skill target, dealing significant Vibration Strength depletion to the enemies hit.",
+        "multipliers": [],
+        "name": "Lightning Manipulation",
+        "skill_type": "Outro Skill"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "jinhsi"
+        ],
+        "commentary": "Yuanwu's only meta use case is to work as a good budget option for Jinhsi teams, as he's free to acquire, takes minimal field time, can activate the Rejuvenating Glow set easily with the Originite: Type IV 3 star weapon, and has the highest Coordinated Attack frequency of any character in the game. The pairing isn't meta, but requires minimal investment to perform, and remains a good option."
+      },
+      {
+        "characters": [
+          "verina"
+        ],
+        "commentary": "One of the usual Healing Support options that can slot into any team. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Make sure to run her with Moonlit Clouds if you're using her along with Yuanwu, as she can trigger her Outro way more consistently & faster than he can every rotation!"
+      },
+      {
+        "characters": [
+          "the-shorekeeper"
+        ],
+        "commentary": "Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game. Make sure to run her with Moonlit Clouds if you're using her along with Yuanwu, as she can trigger her Outro way more consistently & faster than he can every rotation!"
+      }
+    ],
+    "upgrade_materials": {
+      "character_ascension": [
+        {
+          "material_name": "Terraspawn Fungus",
+          "quantity": 60,
+          "rarity": "boss"
+        },
+        {
+          "material_name": "Hidden Thunder Tacet Core",
+          "quantity": 46,
+          "rarity": "specialty"
+        },
+        {
+          "material_name": "Crude Ring",
+          "quantity": 4,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Basic Ring",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Improved Ring",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Tailored Ring",
+          "quantity": 4,
+          "rarity": "common"
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "Unending Destruction",
+          "quantity": 26,
+          "rarity": "weekly_boss"
+        },
+        {
+          "material_name": "Crude Ring",
+          "quantity": 25,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Basic Ring",
+          "quantity": 28,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Improved Ring",
+          "quantity": 40,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Tailored Ring",
+          "quantity": 57,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Cadence Seed",
+          "quantity": 25,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Cadence Bud",
+          "quantity": 28,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Cadence Leaf",
+          "quantity": 55,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Cadence Blossom",
+          "quantity": 67,
+          "rarity": "skill_material"
+        }
+      ]
+    },
+    "voice_actors": {
+      "cn": "Liu BeiChen",
+      "eng": " Adam Diggle",
+      "jpn": "Shirokuma Hiroshi",
+      "kr": "Park Sung Tae"
+    }
+  },
+  "status": "success"
+}

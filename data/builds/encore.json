@@ -1,35 +1,337 @@
 {
-  "status": "success",
   "data": {
+    "base_stats_lvl_90": {
+      "atk": 34,
+      "crit_dmg": "150%",
+      "crit_rate": "5%",
+      "def": 102,
+      "elemental_dmg_bonus": "1.12%",
+      "healing_bonus": "0%",
+      "hp": 841,
+      "max_energy": 125
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Offers a 10% unconditional Fusion DMG% boost and an additional 30% Fusion DMG% after using a Resonance Skill for a grand total of 40% additional Fusion damage. On Encore, if using her standard rotation, make sure to cast a Resonance Skill right before casting Ultimate (you can cancel it instantly to save time while still activating the effect!)",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Offers an unconditional 12% Fusion DMG and 12% Resonance Skill DMG boost when placed in the Main Echo slot, making it a solid choice for Fusion focused resonators who emphasize Resonance Skill damage. While Resonance Skill damage isn't Encore's main damage type, it does provide a solid enough boost to warrant usage due to how easy it is to activate this Echo skill comparatively to the non-nightmare variant.",
+            "echo_name": "Nightmare: Inferno Rider"
+          },
+          {
+            "echo_commentary": "Gives a 12% Basic Attack DMG bonus and 12% Fusion DMG bonus after being transformed into and its last of 3 hits was dealt, for a duration of 15 seconds. This makes this Echo preferable for characters who prefer Basic DMG over Skill DMG, but this option is more difficult to incorporate in rotations than the Nightmare variant, often requiring Swap Cancelling to be smooth. Still Encore's best choice overall if you can manage it properly.",
+            "echo_name": "Inferno Rider"
+          }
+        ],
+        "percentage_performance": "100.00%",
+        "set_name": "Molten Rift"
+      },
+      {
+        "commentary": "Increases Fusion DMG Bonus by 10% unconditionally and gives all party members 15% Fusion DMG Bonus when casting Ultimate on top of giving the equipper 20% Liberation DMG Bonus, all of these effects lasting 35s (which means they can be permanently applicable if maintained). Note that this effect does not stack if running the set multiple times in the same team. Not optimal on Encore in her best teams, but definitely worth using in a Dual DPS team with Changli or Brant to also increase their damage. Note that this set forces Encore into using her Ultimate-enhanced Forte Heavy Attack due to boosting Liberation damage significantly.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Increases Liberation and Fusion damage by 12% when equipped in the Main Slot, a simple Summon Echo that deals damage and doesn't cost any time or have any condition on the cast. The best and only option that the Flaming Clawprint Echo set has.",
+            "echo_name": "Lioness of Glory"
+          }
+        ],
+        "percentage_performance": "96.60%",
+        "set_name": "Flaming Clawprint"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ],
+        "cost_3": [
+          "Fusion DMG",
+          "Fusion DMG > ATK%"
+        ],
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%",
+        "ATK",
+        "Basic DMG%",
+        "Skill DMG%"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "Calculations assume the passive is fully active at the start of the rotation. Yinlin's signature Rectifier is famous for its wide-spread use among all Rectifier damage dealers, Encore included. Thanks to its super high amount of CRIT Rate and generic damage boost on top of an easily activated ATK% boost, it stands above all other Rectifiers as the overall best weapon in the game.",
+        "dupe_rank": "R1",
+        "percentage_performance": "110.00%",
+        "weapon_base_info": {
+          "effect_description": "Increases the DMG Bonus by {0}. When dealing Resonance Skill DMG, increases ATK by {1}, stacking up to 2. This effect lasts for 5s. When the equipped Resonator is not on the field, increases their ATK by an additional {2}.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 36,
+          "source": "Limited"
+        },
+        "weapon_name": "Stringmaster"
+      },
+      {
+        "commentary_details": "Calculations assume an instantly-cancelled Skill after Intro before Ultimate. Zhezhi's Signature weapon doesn't compare in terms of wide-spread usage to Stringmaster but remains fantastic on Encore thanks to its great base stats and its ramp-up Basic DMG Bonus effect when casting multiple Skills (which Encore can do just fine, while not benefitting from the off-field effect).",
+        "dupe_rank": "R1",
+        "percentage_performance": "104.40%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Using Resonance Skill gives the equipped Resonator {0} Basic Attack DMG Bonus for 6s, stacking up to 3 times. When casting Outro Skill with 3 stacks, consume all stacks to give {1} DMG Bonus to the off-field Basic Attacks performed by the equipped Resonator, lasting for 27s.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 72,
+          "source": "Gacha"
+        },
+        "weapon_name": "Rime-Draped Sprouts"
+      },
+      {
+        "commentary_details": "Cantarella's Signature gives good base stats and a 40% Basic Attack DMG Bonus for most of Encore's rotation, but isn't as strong in comparison to the above options as they give a higher amount of stats (as the Havoc RES Shred effect of this weapon is not exploitable by Encore at all).",
+        "dupe_rank": "R1",
+        "percentage_performance": "103.80%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attacks grants 1 stacks of Gentle Dream. Echoes with the same name can only trigger this effect once, stacking up to 2 times, lasting for 10s. When reaching 2 stacks, casting Echo Skill no longer resets the duration of this effect. This effect activates up to once per 10s. Switching to another Resonator ends this effect early.<br />With 1 stacks: Grants {1} Basic Attack DMG Bonus.<br />With 2 stacks: Ignores {0} of the target's Havoc RES.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 72,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Whispers of Sirens"
+      },
+      {
+        "commentary_details": "Phrolova's Signature weapon has a high Base ATK and good CRIT Rate and ATK buffs on top of a Skill DMG Increase and DEF Ignore effect. While all of these effects are good, the values are on the lower end, and since the big Echo Skill DMG Amplify effect isn't fully taken advantage of by Encore, which makes this weapon rank lower than the above options.",
+        "dupe_rank": "R1",
+        "percentage_performance": "103.70%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. Within 12s after dealing Echo Skill DMG, gain {1} Resonance Skill DMG Bonus and {1} Echo Skill DMG Amplification, and ignore {2} of the target's DEF when dealing damage.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Lethean Elegy"
+      },
+      {
+        "commentary_details": "Simple ATK and CRIT Rate stat-stick for Encore who does not benefit from this weapon's Spectro Frazzle-focused effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "102.30%",
+        "weapon_base_info": {
+          "effect_description": "Increase ATK by {0}. Dealing DMG to targets with Spectro Frazzle grants the wielder {1} Basic Attack DMG Bonus and {1} Heavy Attack DMG Bonus, stacking up to 3 times for 6s. Casting Outro Skill Amplifies the Spectro Frazzle DMG on targets around the active Resonator by {2} for 30s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "Crit. Rate",
+          "secondary_stat_val": 36,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Luminous Hymn"
+      },
+      {
+        "commentary_details": "Encore's strongest permanently available option, which grants her a massive ATK stat as well as a ramp-up Basic Attack DMG Bonus effect.",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When hitting a target with Basic Attacks, increases Basic Attack DMG Bonus by {1}, stacking up to {2} time(s). This effect lasts for {3}s and can be triggered 1 time(s) every 0.5s.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 54,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Cosmic Ripples"
+      },
+      {
+        "commentary_details": "Calculations assume an instantly-cancelled Skill after Intro before Ultimate. The newest Battle Pass-exclusive provides a CRIT DMG secondary stat as well as an ATK and Basic Attack DMG Bonus increase when casting Skill, easily maintained throughout all of Encore's rotation, making it a great 4-star choice overall.",
+        "dupe_rank": "R5",
+        "percentage_performance": "94.40%",
+        "weapon_base_info": {
+          "effect_description": "Casting Resonance Skill increases ATK by {0} and grants {0} Basic Attack DMG Bonus for 10s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 40.5,
+          "source": "Battle Pass"
+        },
+        "weapon_name": "Radiant Dawn"
+      },
+      {
+        "commentary_details": "Battle Pass-exclusive weapon that gives lots of ATK and CRIT Rate. A simple yet effective choice.",
+        "dupe_rank": "R5",
+        "percentage_performance": "94.40%",
+        "weapon_base_info": {
+          "effect_description": "When Resonance Liberation is released, increases the caster's ATK by {0}, lasting for 15s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.2,
+          "source": "Pioneer Podcast"
+        },
+        "weapon_name": "Augment"
+      },
+      {
+        "commentary_details": "Calculations assume an instantly-cancelled Skill after Intro before Ultimate. Great weapon choice to ease Energy Requirements thanks to its good ATK increasing effects paired with a flat Energy restoration when casting Skill.",
+        "dupe_rank": "R5",
+        "percentage_performance": "87.70%",
+        "weapon_base_info": {
+          "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Gacha"
+        },
+        "weapon_name": "Fusion Accretion"
+      },
+      {
+        "commentary_details": "A permanently available choice obtained either at the start of the game via a selection box or via gacha. Overall Encore's best F2P option as it gives a good amount of ATK, which is further boosted when casting Intro skill. Pales in comparison to above options due to not doing much else.",
+        "dupe_rank": "R5",
+        "percentage_performance": "83.20%",
+        "weapon_base_info": {
+          "effect_description": "When Intro Skill is released, increases the caster's ATK by {0} and HP by {1}, lasting for {2}s.",
+          "primary_stat_val": 387,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": ""
+        },
+        "weapon_name": "Jinzhou Keeper"
+      },
+      {
+        "commentary_details": "",
+        "dupe_rank": "R5",
+        "percentage_performance": "78.90%",
+        "weapon_base_info": {
+          "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Crafting"
+        },
+        "weapon_name": "Waltz in Masquerade"
+      }
+    ],
     "character_metadata": {
-      "name": "Encore",
-      "slug": "encore",
-      "rarity_stars": 5,
-      "element": "Fusion",
-      "weapon_type": "Rectifier",
       "breadcrumb": [
         "Wuthering Waves",
         "Characters",
         "Encore"
       ],
+      "element": "Fusion",
+      "name": "Encore",
+      "rarity_stars": 5,
+      "slug": "encore",
       "updates": {
-        "last_updated": "10/July/2026",
-        "last_review_patch": "1.3",
         "last_major_build_patch": "2.6",
-        "last_profile_update": "10/July/2026"
+        "last_profile_update": "10/July/2026",
+        "last_review_patch": "1.3",
+        "last_updated": "10/July/2026"
+      },
+      "weapon_type": "Rectifier"
+    },
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "encore"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "lupa"
+        },
+        "slot_3": {
+          "alternatives": [
+            "the-shorekeeper",
+            "brant"
+          ],
+          "character_name": "mornye"
+        },
+        "team_name": "Best Team",
+        "team_notes": "If using Brant, put him in the second slot buffed by Lupa and have him buff Encore."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "encore"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "sanhua"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "With Sanhua",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "encore"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "changli"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Best Team (Dual DPS)",
+        "team_notes": ""
       }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/encore_full.webp",
+      "youtube_guide_embed_url": "https://www.youtube.com/embed/c4wPs708Pdw",
+      "youtube_guide_full_url": "https://www.youtube.com/watch?v=c4wPs708Pdw"
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+12%",
+        "stat_name": "Fusion DMG"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "ATK%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "Forte-charged Heavy Attacks have a small input window that can leave Encore vulnerable before having a chance to switch.",
+        "Has limited parrying potential during non-Ultimate form.",
+        "More challenging-to-use Echo options than other elements."
+      ],
+      "pros": [
+        "Can be played as a Hyper Carry or in Quick-Swap double damage teams.",
+        "Can be played in far more teams than many other characters in the game thanks to her flexibility.",
+        "Very easy character to pick up and play.",
+        "Incredible Resonance energy generation for herself and the team.",
+        "Has a pet sheep."
+      ]
     },
     "ratings": {
       "dps_ratings": {
         "tower_of_adversity": {
-          "tier": "T2",
           "tags": [
             "Expert +1"
-          ]
+          ],
+          "tier": "T2"
         },
         "whimpering_wastes": {
-          "tier": "T4",
-          "tags": []
+          "tags": [],
+          "tier": "T4"
         }
       },
       "value_tier_ratings": {
@@ -41,27 +343,48 @@
         }
       }
     },
-    "media": {
-      "youtube_guide_embed_url": "https://www.youtube.com/embed/c4wPs708Pdw",
-      "youtube_guide_full_url": "https://www.youtube.com/watch?v=c4wPs708Pdw",
-      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/encore_full.webp"
-    },
-    "pros_and_cons": {
-      "pros": [
-        "Can be played as a Hyper Carry or in Quick-Swap double damage teams.",
-        "Can be played in far more teams than many other characters in the game thanks to her flexibility.",
-        "Very easy character to pick up and play.",
-        "Incredible Resonance energy generation for herself and the team.",
-        "Has a pet sheep."
-      ],
-      "cons": [
-        "Forte-charged Heavy Attacks have a small input window that can leave Encore vulnerable before having a chance to switch.",
-        "Has limited parrying potential during non-Ultimate form.",
-        "More challenging-to-use Echo options than other elements."
-      ]
-    },
+    "recommended_endgame_stats_target": [
+      "HP: 15000+",
+      "DEF: 1200+",
+      "ATK: 2000-2400+",
+      "CRIT Rate: 60-75%+",
+      "CRIT DMG: 215-285%+",
+      "Energy Regen: 105-130% Lower end was estimated using the optimized rotation, Higher end was estimated using the simple rotation",
+      "Fusion DMG Bonus: 40-70%+"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "When Basic Attack hits a target, Encore's Fusion DMG Bonus is increased by 3%, stacking up to 4 times for 6s.",
+        "name": "Sequence Node 1",
+        "node": "S1"
+      },
+      {
+        "description": "Encore additionally restores 10 Resonance Energy when casting Basic Attack Woolies Attack or Resonance Skill Energetic Welcome. This can be triggered once every 10s.",
+        "name": "Sequence Node 2",
+        "node": "S2"
+      },
+      {
+        "description": "The DMG multiplier of Resonance Liberation Cloudy: Frenzy and Resonance Liberation Cosmos: Rupture is increased by 40%.",
+        "name": "Sequence Node 3",
+        "node": "S3"
+      },
+      {
+        "description": "Resonance Liberation Cosmos: Rupture increases the Fusion DMG Bonus of all team members by 20% for 30s.",
+        "name": "Sequence Node 4",
+        "node": "S4"
+      },
+      {
+        "description": "Resonance Skill DMG Bonus is increased by 35%.",
+        "name": "Sequence Node 5",
+        "node": "S5"
+      },
+      {
+        "description": "During Resonance Liberation Cosmos: Rave, Encore gains 1 stack(s) of \"Lost Lamb\" every time she deals damage, each stack increasing her ATK by 5% for 10s, stacking up to 6 time(s).",
+        "name": "Sequence Node 6",
+        "node": "S6"
+      }
+    ],
     "review": {
-      "summary": "Encore is a 5-star Fusion Rectifier wielder that can be played as a Hyper Carry in teams focused on powering her up as the sole damage dealer or in Quick-Swap teams where she's played alongside another damage dealer. Depending on the style you prefer, you can adjust accordingly - If playing Encore as a Hyper Carry you'll focus mostly on landing as many buffs onto her before she uses her Ultimate to empower her burst rotation. Alternatively, if playing Encore in a Quick-Swap double DPS team you'll instead focus on keeping her standard Resonance skill and Echo on cooldown as much as possible while also cycling through the rest of your team. While Encore's Ultimate is still considered powerful in these teams, it is mostly used to fill downtime between each character's cooldowns.",
       "sections": [
         {
           "heading": "Summary",
@@ -76,877 +399,8 @@
             "Overall, Encore is a solid DPS option in Hyper Carry teams in endgame, but even stronger in Quick-Swap teams, finding a place alongside many other damage dealers thanks to her flexible field time."
           ]
         }
-      ]
-    },
-    "skills": [
-      {
-        "name": "Wooly Attack",
-        "category": "Active",
-        "skill_type": "Basic Attack",
-        "description": "Basic AttackPerform up to 4 consecutive attacks, dealing Fusion DMG.Basic Attack: Wooly StrikeAfter the Basic Attack IV, press Basic Attack to attack the target, dealing Fusion DMG.Heavy AttackEncore consumes Stamina to attack the target, dealing Fusion DMG.Mid-air AttackEncore consumes Stamina to perform a Plunging Attack, dealing Fusion DMG.Dodge CounterUse Basic Attack after a successful Dodge to attack the target, dealing Fusion DMG.",
-        "multipliers": [
-          {
-            "Lv1": "28.00%",
-            "Lv2": "30.29%",
-            "Lv3": "32.59%",
-            "Lv4": "35.80%",
-            "Lv5": "38.10%",
-            "Lv6": "40.74%",
-            "Lv7": "44.41%",
-            "Lv8": "48.09%",
-            "Lv9": "51.76%",
-            "Lv10": "55.66%",
-            "Name": "Part 1 Damage"
-          },
-          {
-            "Lv1": "33.30%",
-            "Lv2": "36.03%",
-            "Lv3": "38.76%",
-            "Lv4": "42.58%",
-            "Lv5": "45.31%",
-            "Lv6": "48.45%",
-            "Lv7": "52.82%",
-            "Lv8": "57.19%",
-            "Lv9": "61.56%",
-            "Lv10": "66.20%",
-            "Name": "Part 2 Damage"
-          },
-          {
-            "Lv1": "33.35%*2",
-            "Lv2": "36.08%*2",
-            "Lv3": "38.81%*2",
-            "Lv4": "42.64%*2",
-            "Lv5": "45.38%*2",
-            "Lv6": "48.52%*2",
-            "Lv7": "52.90%*2",
-            "Lv8": "57.27%*2",
-            "Lv9": "61.65%*2",
-            "Lv10": "66.30%*2",
-            "Name": "Part 3 Damage"
-          },
-          {
-            "Lv1": "19.25%*4",
-            "Lv2": "20.82%*4",
-            "Lv3": "22.40%*4",
-            "Lv4": "24.61%*4",
-            "Lv5": "26.19%*4",
-            "Lv6": "28.01%*4",
-            "Lv7": "30.53%*4",
-            "Lv8": "33.06%*4",
-            "Lv9": "35.58%*4",
-            "Lv10": "38.27%*4",
-            "Name": "Part 4 Damage"
-          },
-          {
-            "Lv1": "120.00%",
-            "Lv2": "129.84%",
-            "Lv3": "139.67%",
-            "Lv4": "153.45%",
-            "Lv5": "163.29%",
-            "Lv6": "174.61%",
-            "Lv7": "190.35%",
-            "Lv8": "206.10%",
-            "Lv9": "221.84%",
-            "Lv10": "238.57%",
-            "Name": "Woolies Damage"
-          },
-          {
-            "Lv1": "94.10%",
-            "Lv2": "101.81%",
-            "Lv3": "109.53%",
-            "Lv4": "120.33%",
-            "Lv5": "128.05%",
-            "Lv6": "136.92%",
-            "Lv7": "149.27%",
-            "Lv8": "161.61%",
-            "Lv9": "173.96%",
-            "Lv10": "187.08%",
-            "Name": "Heavy Attack Damage"
-          },
-          {
-            "Lv1": "62.00%",
-            "Lv2": "67.08%",
-            "Lv3": "72.16%",
-            "Lv4": "79.28%",
-            "Lv5": "84.36%",
-            "Lv6": "90.21%",
-            "Lv7": "98.35%",
-            "Lv8": "106.48%",
-            "Lv9": "114.61%",
-            "Lv10": "123.26%",
-            "Name": "Mid-Air Attack"
-          },
-          {
-            "Lv1": "63.34%*2",
-            "Lv2": "68.54%*2",
-            "Lv3": "73.73%*2",
-            "Lv4": "81.01%*2",
-            "Lv5": "86.20%*2",
-            "Lv6": "92.18%*2",
-            "Lv7": "100.49%*2",
-            "Lv8": "108.80%*2",
-            "Lv9": "117.11%*2",
-            "Lv10": "125.94%*2",
-            "Name": "Dodge Counter Damage"
-          },
-          {
-            "Lv1": "25",
-            "Lv2": "25",
-            "Lv3": "25",
-            "Lv4": "25",
-            "Lv5": "25",
-            "Lv6": "25",
-            "Lv7": "25",
-            "Lv8": "25",
-            "Lv9": "25",
-            "Lv10": "25",
-            "Name": "Heavy Attack Stamina Consumption"
-          },
-          {
-            "Lv1": "30",
-            "Lv2": "30",
-            "Lv3": "30",
-            "Lv4": "30",
-            "Lv5": "30",
-            "Lv6": "30",
-            "Lv7": "30",
-            "Lv8": "30",
-            "Lv9": "30",
-            "Lv10": "30",
-            "Name": "Mid-Air Attack Stamina Consumption"
-          }
-        ]
-      },
-      {
-        "name": "Flaming Woolies",
-        "category": "Active",
-        "skill_type": "Resonance Skill",
-        "description": "Flaming WooliesSummon Cloudy and Cosmos to attack the target with high-temperature rays, dealing Fusion DMG.\n \nEnergetic WelcomeAfter casting Flaming Woolies, use Resonance Skill to launch Energetic Welcome to attack the target, dealing Fusion DMG.",
-        "multipliers": [
-          {
-            "Lv1": "38.53%*8",
-            "Lv2": "41.69%*8",
-            "Lv3": "44.85%*8",
-            "Lv4": "49.28%*8",
-            "Lv5": "52.44%*8",
-            "Lv6": "56.07%*8",
-            "Lv7": "61.13%*8",
-            "Lv8": "66.18%*8",
-            "Lv9": "71.24%*8",
-            "Lv10": "76.61%*8",
-            "Name": "Flaming Woolies Damage"
-          },
-          {
-            "Lv1": "170.60%",
-            "Lv2": "184.58%",
-            "Lv3": "198.57%",
-            "Lv4": "218.16%",
-            "Lv5": "232.15%",
-            "Lv6": "248.24%",
-            "Lv7": "270.62%",
-            "Lv8": "293.00%",
-            "Lv9": "315.38%",
-            "Lv10": "339.16%",
-            "Name": "Energetic Welcome Damage"
-          },
-          {
-            "Lv1": "10",
-            "Lv2": "10",
-            "Lv3": "10",
-            "Lv4": "10",
-            "Lv5": "10",
-            "Lv6": "10",
-            "Lv7": "10",
-            "Lv8": "10",
-            "Lv9": "10",
-            "Lv10": "10",
-            "Name": "Cooldown"
-          },
-          {
-            "Lv1": "15",
-            "Lv2": "15",
-            "Lv3": "15",
-            "Lv4": "15",
-            "Lv5": "15",
-            "Lv6": "15",
-            "Lv7": "15",
-            "Lv8": "15",
-            "Lv9": "15",
-            "Lv10": "15",
-            "Name": "Flaming Woolies Con. Energy Regen"
-          },
-          {
-            "Lv1": "5",
-            "Lv2": "5",
-            "Lv3": "5",
-            "Lv4": "5",
-            "Lv5": "5",
-            "Lv6": "5",
-            "Lv7": "5",
-            "Lv8": "5",
-            "Lv9": "5",
-            "Lv10": "5",
-            "Name": "Energetic Welcome Con. Energy Regen"
-          }
-        ]
-      },
-      {
-        "name": "Cosmos Rave",
-        "category": "Active",
-        "skill_type": "Resonance Liberation",
-        "description": "As Encore loses control, Cosmos breaks free and wreaks havoc on its surroundings. Basic Attack: Cosmos: FrolickingDuring Cosmos Rampage, the Basic Attack is replaced with Cosmos: Frolicking, which performs up to 4 consecutive attacks, dealing Fusion DMG, considered as Basic Attack damage.Cosmos: Heavy AttackDuring Cosmos Rampage, the Heavy Attack is replaced with Cosmos: Heavy Attack, consuming Stamina to attack the target, dealing Fusion DMG, considered as Heavy Attack damage.Resonance Skill: Cosmos: RampageDuring Cosmos Rampage, Flaming Woolies is replaced with Cosmos:Rampage, attacking the target with uncontrollable flames, dealing Fusion DMG, considered as Resonance Skill damage.Cosmos: Dodge CounterDuring Cosmos Rampage, use Basic Attack after a successful Dodge to attack the target, dealing Fusion DMG, considered as Basic Attack damage.",
-        "multipliers": [
-          {
-            "Lv1": "45.36%*2",
-            "Lv2": "49.08%*2",
-            "Lv3": "52.80%*2",
-            "Lv4": "58.01%*2",
-            "Lv5": "61.73%*2",
-            "Lv6": "66.01%*2",
-            "Lv7": "71.96%*2",
-            "Lv8": "77.91%*2",
-            "Lv9": "83.86%*2",
-            "Lv10": "90.18%*2",
-            "Name": "Cosmos: Frolicking Part 1 Damage"
-          },
-          {
-            "Lv1": "28.37%*3",
-            "Lv2": "30.70%*3",
-            "Lv3": "33.02%*3",
-            "Lv4": "36.28%*3",
-            "Lv5": "38.61%*3",
-            "Lv6": "41.28%*3",
-            "Lv7": "45.00%*3",
-            "Lv8": "48.72%*3",
-            "Lv9": "52.45%*3",
-            "Lv10": "56.40%*3",
-            "Name": "Cosmos: Frolicking Part 2 Damage"
-          },
-          {
-            "Lv1": "33.19%*4",
-            "Lv2": "35.92%*4",
-            "Lv3": "38.64%*4",
-            "Lv4": "42.45%*4",
-            "Lv5": "45.17%*4",
-            "Lv6": "48.30%*4",
-            "Lv7": "52.65%*4",
-            "Lv8": "57.01%*4",
-            "Lv9": "61.36%*4",
-            "Lv10": "65.99%*4",
-            "Name": "Cosmos: Frolicking Part 3 Damage"
-          },
-          {
-            "Lv1": "97.59%*3",
-            "Lv2": "105.59%*3",
-            "Lv3": "113.59%*3",
-            "Lv4": "124.79%*3",
-            "Lv5": "132.79%*3",
-            "Lv6": "142.00%*3",
-            "Lv7": "154.80%*3",
-            "Lv8": "167.60%*3",
-            "Lv9": "180.40%*3",
-            "Lv10": "194.01%*3",
-            "Name": "Cosmos: Frolicking Part 4 Damage"
-          },
-          {
-            "Lv1": "109.44%",
-            "Lv2": "118.42%",
-            "Lv3": "127.39%",
-            "Lv4": "139.96%",
-            "Lv5": "148.93%",
-            "Lv6": "159.25%",
-            "Lv7": "173.61%",
-            "Lv8": "187.97%",
-            "Lv9": "202.32%",
-            "Lv10": "217.58%",
-            "Name": "Cosmos: Heavy Attack Damage"
-          },
-          {
-            "Lv1": "31.85%*4",
-            "Lv2": "34.46%*4",
-            "Lv3": "37.07%*4",
-            "Lv4": "40.72%*4",
-            "Lv5": "43.34%*4",
-            "Lv6": "46.34%*4",
-            "Lv7": "50.52%*4",
-            "Lv8": "54.70%*4",
-            "Lv9": "58.88%*4",
-            "Lv10": "63.32%*4",
-            "Name": "Cosmos Rampage Damage"
-          },
-          {
-            "Lv1": "33.19%*4",
-            "Lv2": "35.92%*4",
-            "Lv3": "38.64%*4",
-            "Lv4": "42.45%*4",
-            "Lv5": "45.17%*4",
-            "Lv6": "48.30%*4",
-            "Lv7": "52.65%*4",
-            "Lv8": "57.01%*4",
-            "Lv9": "61.36%*4",
-            "Lv10": "65.99%*4",
-            "Name": "Cosmos: Dodge Counter Damage"
-          },
-          {
-            "Lv1": "25",
-            "Lv2": "25",
-            "Lv3": "25",
-            "Lv4": "25",
-            "Lv5": "25",
-            "Lv6": "25",
-            "Lv7": "25",
-            "Lv8": "25",
-            "Lv9": "25",
-            "Lv10": "25",
-            "Name": "Cosmos: Heavy Attack Stamina Consumption"
-          },
-          {
-            "Lv1": "10",
-            "Lv2": "10",
-            "Lv3": "10",
-            "Lv4": "10",
-            "Lv5": "10",
-            "Lv6": "10",
-            "Lv7": "10",
-            "Lv8": "10",
-            "Lv9": "10",
-            "Lv10": "10",
-            "Name": "Cosmos Rave Duration"
-          },
-          {
-            "Lv1": "16",
-            "Lv2": "16",
-            "Lv3": "16",
-            "Lv4": "16",
-            "Lv5": "16",
-            "Lv6": "16",
-            "Lv7": "16",
-            "Lv8": "16",
-            "Lv9": "16",
-            "Lv10": "16",
-            "Name": "Cooldown"
-          },
-          {
-            "Lv1": "4",
-            "Lv2": "4",
-            "Lv3": "4",
-            "Lv4": "4",
-            "Lv5": "4",
-            "Lv6": "4",
-            "Lv7": "4",
-            "Lv8": "4",
-            "Lv9": "4",
-            "Lv10": "4",
-            "Name": "Cosmos Rampage Cooldown"
-          },
-          {
-            "Lv1": "125",
-            "Lv2": "125",
-            "Lv3": "125",
-            "Lv4": "125",
-            "Lv5": "125",
-            "Lv6": "125",
-            "Lv7": "125",
-            "Lv8": "125",
-            "Lv9": "125",
-            "Lv10": "125",
-            "Name": "Res. Energy Cost"
-          },
-          {
-            "Lv1": "20",
-            "Lv2": "20",
-            "Lv3": "20",
-            "Lv4": "20",
-            "Lv5": "20",
-            "Lv6": "20",
-            "Lv7": "20",
-            "Lv8": "20",
-            "Lv9": "20",
-            "Lv10": "20",
-            "Name": "Con. Energy Regen"
-          }
-        ]
-      },
-      {
-        "name": "Black & White Woolies",
-        "category": "Forte Circuit",
-        "skill_type": "Forte Circuit",
-        "description": "Resonance Liberation: Cloudy FrenzyWhen Encore's \"Dissonance\" is full, after casting a Heavy Attack, Encore will consume all \"Dissonance\" to enter the Dissonance state, reducing damage taken by 70%. Switching Characters does not interrupt \"Dissonance\". After the Dissonance state ends, Encore will cast Cloudy Frenzy, dealing Fusion DMG, considered as Resonance Liberation damage.Resonance Liberation: Cosmos RuptureDuring Cosmos Rampage, when casting Heavy Attack, if \"Dissonance\" is full, Encore will consume all \"Dissonance\" to enter Cosmos' Dissonance state, reducing damage taken by 70%. Switching Characters does not interrupt \"Dissonance\".After Cosmos' Dissonance state ends, Encore will cast Cosmos Rupture, dealing Fusion DMG, considered as Resonance Liberation damage.DissonanceEncore can hold up to 100 \"Dissonance\". When Normal Attack Wooly Attack hits the target, Encore restores \"Dissonance\". When Resonance Skill Flaming Woolies hits the target, Encore restores \"Dissonance\". When Resonance Skill Energetic Welcome hits the target, Encore restores \"Dissonance\". When Intro Skill Woolies Helpers hits the target, Encore restores \"Dissonance\". During the duration of Resonance Liberation Cosmos Rampage, hitting targets will restore \"Dissonance\" to Encore.",
-        "multipliers": [
-          {
-            "Lv1": "168.00%",
-            "Lv2": "181.77%",
-            "Lv3": "195.55%",
-            "Lv4": "214.83%",
-            "Lv5": "228.61%",
-            "Lv6": "244.45%",
-            "Lv7": "266.49%",
-            "Lv8": "288.53%",
-            "Lv9": "310.58%",
-            "Lv10": "334.00%",
-            "Name": "Cloudy: Frenzy Damage"
-          },
-          {
-            "Lv1": "23.35%*6+249.08%",
-            "Lv2": "25.26%*6+269.51%",
-            "Lv3": "27.18%*6+289.93%",
-            "Lv4": "29.86%*6+318.53%",
-            "Lv5": "31.77%*6+338.95%",
-            "Lv6": "33.97%*6+362.44%",
-            "Lv7": "37.04%*6+395.12%",
-            "Lv8": "40.10%*6+427.80%",
-            "Lv9": "43.17%*6+460.48%",
-            "Lv10": "46.42%*6+495.21%",
-            "Name": "Cosmos: Rupture Damage"
-          },
-          {
-            "Lv1": "10",
-            "Lv2": "10",
-            "Lv3": "10",
-            "Lv4": "10",
-            "Lv5": "10",
-            "Lv6": "10",
-            "Lv7": "10",
-            "Lv8": "10",
-            "Lv9": "10",
-            "Lv10": "10",
-            "Name": "Cloudy: Frenzy Con. Energy Regen"
-          },
-          {
-            "Lv1": "10",
-            "Lv2": "10",
-            "Lv3": "10",
-            "Lv4": "10",
-            "Lv5": "10",
-            "Lv6": "10",
-            "Lv7": "10",
-            "Lv8": "10",
-            "Lv9": "10",
-            "Lv10": "10",
-            "Name": "Cosmos: Rupture Con. Energy Regen"
-          }
-        ]
-      },
-      {
-        "name": "Angry Cosmos",
-        "category": "Inherent",
-        "skill_type": "Inherent Skill",
-        "description": "During the Resonance Liberation Cosmos Rave, when Encore's HP is above 70%, DMG dealt is increased by 10%.",
-        "multipliers": []
-      },
-      {
-        "name": "Woolies Cheer Dance",
-        "category": "Inherent",
-        "skill_type": "Inherent Skill",
-        "description": "When Resonance Skill Flaming Woolies or Resonance Skill Cosmos: Rave is cast, Encore's Fusion DMG Bonus is increased by 10% for 10 seconds.",
-        "multipliers": []
-      },
-      {
-        "name": "Woolies Can Help!",
-        "category": "Transition",
-        "skill_type": "Intro Skill",
-        "description": "Encore pounces at the enemies with Cosmos, dealing Fusion DMG.",
-        "multipliers": [
-          {
-            "Lv1": "100.00%",
-            "Lv2": "108.20%",
-            "Lv3": "116.40%",
-            "Lv4": "127.88%",
-            "Lv5": "136.08%",
-            "Lv6": "145.51%",
-            "Lv7": "158.63%",
-            "Lv8": "171.75%",
-            "Lv9": "184.87%",
-            "Lv10": "198.81%",
-            "Name": "Skill Damage"
-          },
-          {
-            "Lv1": "10",
-            "Lv2": "10",
-            "Lv3": "10",
-            "Lv4": "10",
-            "Lv5": "10",
-            "Lv6": "10",
-            "Lv7": "10",
-            "Lv8": "10",
-            "Lv9": "10",
-            "Lv10": "10",
-            "Name": "Con. Energy Regen"
-          }
-        ]
-      },
-      {
-        "name": "Thermal Field",
-        "category": "Transition",
-        "skill_type": "Outro Skill",
-        "description": "Encore generates a Flame Zone centered around skill target, with a radius of 3m. Targets inside the Flame Zone are continuously burned, suffering Fusion DMG equal to 176.76% of Encore's ATK every 1.5s for 6s.",
-        "multipliers": []
-      }
-    ],
-    "resonance_chain_dupes": [
-      {
-        "node": "S1",
-        "name": "Sequence Node 1",
-        "description": "When Basic Attack hits a target, Encore's Fusion DMG Bonus is increased by 3%, stacking up to 4 times for 6s."
-      },
-      {
-        "node": "S2",
-        "name": "Sequence Node 2",
-        "description": "Encore additionally restores 10 Resonance Energy when casting Basic Attack Woolies Attack or Resonance Skill Energetic Welcome. This can be triggered once every 10s."
-      },
-      {
-        "node": "S3",
-        "name": "Sequence Node 3",
-        "description": "The DMG multiplier of Resonance Liberation Cloudy: Frenzy and Resonance Liberation Cosmos: Rupture is increased by 40%."
-      },
-      {
-        "node": "S4",
-        "name": "Sequence Node 4",
-        "description": "Resonance Liberation Cosmos: Rupture increases the Fusion DMG Bonus of all team members by 20% for 30s."
-      },
-      {
-        "node": "S5",
-        "name": "Sequence Node 5",
-        "description": "Resonance Skill DMG Bonus is increased by 35%."
-      },
-      {
-        "node": "S6",
-        "name": "Sequence Node 6",
-        "description": "During Resonance Liberation Cosmos: Rave, Encore gains 1 stack(s) of \"Lost Lamb\" every time she deals damage, each stack increasing her ATK by 5% for 10s, stacking up to 6 time(s)."
-      }
-    ],
-    "minor_fortes": [
-      {
-        "stat_name": "Fusion DMG",
-        "bonus_value": "+12%"
-      },
-      {
-        "stat_name": "ATK%",
-        "bonus_value": "+12%"
-      }
-    ],
-    "base_stats_lvl_90": {
-      "hp": 841,
-      "atk": 34,
-      "def": 102,
-      "max_energy": 125,
-      "crit_rate": "5%",
-      "crit_dmg": "150%",
-      "healing_bonus": "0%",
-      "elemental_dmg_bonus": "1.12%"
-    },
-    "upgrade_materials": {
-      "character_ascension": [
-        {
-          "material_name": "Pecok Flower",
-          "rarity": "boss",
-          "quantity": 60
-        },
-        {
-          "material_name": "Rage Tacet Core",
-          "rarity": "specialty",
-          "quantity": 46
-        },
-        {
-          "material_name": "LF Whisperin Core",
-          "rarity": "common",
-          "quantity": 4
-        },
-        {
-          "material_name": "MF Whisperin Core",
-          "rarity": "common",
-          "quantity": 12
-        },
-        {
-          "material_name": "HF Whisperin Core",
-          "rarity": "common",
-          "quantity": 12
-        },
-        {
-          "material_name": "FF Whisperin Core",
-          "rarity": "common",
-          "quantity": 4
-        }
       ],
-      "skill_upgrades": [
-        {
-          "material_name": "Unending Destruction",
-          "rarity": "weekly_boss",
-          "quantity": 26
-        },
-        {
-          "material_name": "LF Whisperin Core",
-          "rarity": "common",
-          "quantity": 25
-        },
-        {
-          "material_name": "MF Whisperin Core",
-          "rarity": "common",
-          "quantity": 28
-        },
-        {
-          "material_name": "HF Whisperin Core",
-          "rarity": "common",
-          "quantity": 40
-        },
-        {
-          "material_name": "FF Whisperin Core",
-          "rarity": "common",
-          "quantity": 57
-        },
-        {
-          "material_name": "Lento Helix",
-          "rarity": "skill_material",
-          "quantity": 25
-        },
-        {
-          "material_name": "Adagio Helix",
-          "rarity": "skill_material",
-          "quantity": 28
-        },
-        {
-          "material_name": "Andante Helix",
-          "rarity": "skill_material",
-          "quantity": 55
-        },
-        {
-          "material_name": "Presto Helix",
-          "rarity": "skill_material",
-          "quantity": 67
-        }
-      ]
-    },
-    "voice_actors": {
-      "eng": "Carina Reeves",
-      "jpn": "Chikano Ibuki",
-      "cn": "Hao Sibai",
-      "kr": "Lee Serena"
-    },
-    "best_weapons": [
-      {
-        "weapon_name": "Stringmaster",
-        "dupe_rank": "R1",
-        "percentage_performance": "110.00%",
-        "commentary_details": "Calculations assume the passive is fully active at the start of the rotation. Yinlin's signature Rectifier is famous for its wide-spread use among all Rectifier damage dealers, Encore included. Thanks to its super high amount of CRIT Rate and generic damage boost on top of an easily activated ATK% boost, it stands above all other Rectifiers as the overall best weapon in the game.",
-        "weapon_base_info": {
-          "rarity": 5,
-          "primary_stat_val": 500,
-          "secondary_stat_name": "CRIT Rate",
-          "secondary_stat_val": 36,
-          "source": "Limited",
-          "effect_description": "Increases the DMG Bonus by {0}. When dealing Resonance Skill DMG, increases ATK by {1}, stacking up to 2. This effect lasts for 5s. When the equipped Resonator is not on the field, increases their ATK by an additional {2}."
-        }
-      },
-      {
-        "weapon_name": "Rime-Draped Sprouts",
-        "dupe_rank": "R1",
-        "percentage_performance": "104.40%",
-        "commentary_details": "Calculations assume an instantly-cancelled Skill after Intro before Ultimate. Zhezhi's Signature weapon doesn't compare in terms of wide-spread usage to Stringmaster but remains fantastic on Encore thanks to its great base stats and its ramp-up Basic DMG Bonus effect when casting multiple Skills (which Encore can do just fine, while not benefitting from the off-field effect).",
-        "weapon_base_info": {
-          "rarity": 5,
-          "primary_stat_val": 500,
-          "secondary_stat_name": "CRIT DMG",
-          "secondary_stat_val": 72,
-          "source": "Gacha",
-          "effect_description": "Increases ATK by {0}. Using Resonance Skill gives the equipped Resonator {0} Basic Attack DMG Bonus for 6s, stacking up to 3 times. When casting Outro Skill with 3 stacks, consume all stacks to give {1} DMG Bonus to the off-field Basic Attacks performed by the equipped Resonator, lasting for 27s."
-        }
-      },
-      {
-        "weapon_name": "Whispers of Sirens",
-        "dupe_rank": "R1",
-        "percentage_performance": "103.80%",
-        "commentary_details": "Cantarella's Signature gives good base stats and a 40% Basic Attack DMG Bonus for most of Encore's rotation, but isn't as strong in comparison to the above options as they give a higher amount of stats (as the Havoc RES Shred effect of this weapon is not exploitable by Encore at all).",
-        "weapon_base_info": {
-          "rarity": 5,
-          "primary_stat_val": 500,
-          "secondary_stat_name": "CRIT DMG",
-          "secondary_stat_val": 72,
-          "source": "Rate-up",
-          "effect_description": "Increases ATK by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attacks grants 1 stacks of Gentle Dream. Echoes with the same name can only trigger this effect once, stacking up to 2 times, lasting for 10s. When reaching 2 stacks, casting Echo Skill no longer resets the duration of this effect. This effect activates up to once per 10s. Switching to another Resonator ends this effect early.<br />With 1 stacks: Grants {1} Basic Attack DMG Bonus.<br />With 2 stacks: Ignores {0} of the target's Havoc RES."
-        }
-      },
-      {
-        "weapon_name": "Lethean Elegy",
-        "dupe_rank": "R1",
-        "percentage_performance": "103.70%",
-        "commentary_details": "Phrolova's Signature weapon has a high Base ATK and good CRIT Rate and ATK buffs on top of a Skill DMG Increase and DEF Ignore effect. While all of these effects are good, the values are on the lower end, and since the big Echo Skill DMG Amplify effect isn't fully taken advantage of by Encore, which makes this weapon rank lower than the above options.",
-        "weapon_base_info": {
-          "rarity": 5,
-          "primary_stat_val": 587,
-          "secondary_stat_name": "CRIT Rate",
-          "secondary_stat_val": 24.3,
-          "source": "Rate-up",
-          "effect_description": "ATK is increased by {0}. Within 12s after dealing Echo Skill DMG, gain {1} Resonance Skill DMG Bonus and {1} Echo Skill DMG Amplification, and ignore {2} of the target's DEF when dealing damage."
-        }
-      },
-      {
-        "weapon_name": "Luminous Hymn",
-        "dupe_rank": "R1",
-        "percentage_performance": "102.30%",
-        "commentary_details": "Simple ATK and CRIT Rate stat-stick for Encore who does not benefit from this weapon's Spectro Frazzle-focused effects.",
-        "weapon_base_info": {
-          "rarity": 5,
-          "primary_stat_val": 500,
-          "secondary_stat_name": "Crit. Rate",
-          "secondary_stat_val": 36,
-          "source": "Rate-up",
-          "effect_description": "Increase ATK by {0}. Dealing DMG to targets with Spectro Frazzle grants the wielder {1} Basic Attack DMG Bonus and {1} Heavy Attack DMG Bonus, stacking up to 3 times for 6s. Casting Outro Skill Amplifies the Spectro Frazzle DMG on targets around the active Resonator by {2} for 30s. Effects of the same name cannot be stacked."
-        }
-      },
-      {
-        "weapon_name": "Cosmic Ripples",
-        "dupe_rank": "R1",
-        "percentage_performance": "100.00%",
-        "commentary_details": "Encore's strongest permanently available option, which grants her a massive ATK stat as well as a ramp-up Basic Attack DMG Bonus effect.",
-        "weapon_base_info": {
-          "rarity": 5,
-          "primary_stat_val": 500,
-          "secondary_stat_name": "ATK",
-          "secondary_stat_val": 54,
-          "source": "Permanent Convene",
-          "effect_description": "Increases Energy Regen by {0}. When hitting a target with Basic Attacks, increases Basic Attack DMG Bonus by {1}, stacking up to {2} time(s). This effect lasts for {3}s and can be triggered 1 time(s) every 0.5s."
-        }
-      },
-      {
-        "weapon_name": "Radiant Dawn",
-        "dupe_rank": "R5",
-        "percentage_performance": "94.40%",
-        "commentary_details": "Calculations assume an instantly-cancelled Skill after Intro before Ultimate. The newest Battle Pass-exclusive provides a CRIT DMG secondary stat as well as an ATK and Basic Attack DMG Bonus increase when casting Skill, easily maintained throughout all of Encore's rotation, making it a great 4-star choice overall.",
-        "weapon_base_info": {
-          "rarity": 4,
-          "primary_stat_val": 412,
-          "secondary_stat_name": "CRIT DMG",
-          "secondary_stat_val": 40.5,
-          "source": "Battle Pass",
-          "effect_description": "Casting Resonance Skill increases ATK by {0} and grants {0} Basic Attack DMG Bonus for 10s."
-        }
-      },
-      {
-        "weapon_name": "Augment",
-        "dupe_rank": "R5",
-        "percentage_performance": "94.40%",
-        "commentary_details": "Battle Pass-exclusive weapon that gives lots of ATK and CRIT Rate. A simple yet effective choice.",
-        "weapon_base_info": {
-          "rarity": 4,
-          "primary_stat_val": 412,
-          "secondary_stat_name": "CRIT Rate",
-          "secondary_stat_val": 20.2,
-          "source": "Pioneer Podcast",
-          "effect_description": "When Resonance Liberation is released, increases the caster's ATK by {0}, lasting for 15s."
-        }
-      },
-      {
-        "weapon_name": "Fusion Accretion",
-        "dupe_rank": "R5",
-        "percentage_performance": "87.70%",
-        "commentary_details": "Calculations assume an instantly-cancelled Skill after Intro before Ultimate. Great weapon choice to ease Energy Requirements thanks to its good ATK increasing effects paired with a flat Energy restoration when casting Skill.",
-        "weapon_base_info": {
-          "rarity": 4,
-          "primary_stat_val": 462,
-          "secondary_stat_name": "ATK",
-          "secondary_stat_val": 18.2,
-          "source": "Gacha",
-          "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s."
-        }
-      },
-      {
-        "weapon_name": "Jinzhou Keeper",
-        "dupe_rank": "R5",
-        "percentage_performance": "83.20%",
-        "commentary_details": "A permanently available choice obtained either at the start of the game via a selection box or via gacha. Overall Encore's best F2P option as it gives a good amount of ATK, which is further boosted when casting Intro skill. Pales in comparison to above options due to not doing much else.",
-        "weapon_base_info": {
-          "rarity": 4,
-          "primary_stat_val": 387,
-          "secondary_stat_name": "ATK",
-          "secondary_stat_val": 36.4,
-          "source": "",
-          "effect_description": "When Intro Skill is released, increases the caster's ATK by {0} and HP by {1}, lasting for {2}s."
-        }
-      },
-      {
-        "weapon_name": "Waltz in Masquerade",
-        "dupe_rank": "R5",
-        "percentage_performance": "78.90%",
-        "commentary_details": "",
-        "weapon_base_info": {
-          "rarity": 4,
-          "primary_stat_val": 462,
-          "secondary_stat_name": "ATK",
-          "secondary_stat_val": 18.2,
-          "source": "Crafting",
-          "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times."
-        }
-      }
-    ],
-    "best_echo_sets": [
-      {
-        "set_name": "Molten Rift",
-        "percentage_performance": "100.00%",
-        "commentary": "Offers a 10% unconditional Fusion DMG% boost and an additional 30% Fusion DMG% after using a Resonance Skill for a grand total of 40% additional Fusion damage. On Encore, if using her standard rotation, make sure to cast a Resonance Skill right before casting Ultimate (you can cancel it instantly to save time while still activating the effect!)",
-        "main_echo_options": [
-          {
-            "echo_name": "Nightmare: Inferno Rider",
-            "echo_commentary": "Offers an unconditional 12% Fusion DMG and 12% Resonance Skill DMG boost when placed in the Main Echo slot, making it a solid choice for Fusion focused resonators who emphasize Resonance Skill damage. While Resonance Skill damage isn't Encore's main damage type, it does provide a solid enough boost to warrant usage due to how easy it is to activate this Echo skill comparatively to the non-nightmare variant."
-          },
-          {
-            "echo_name": "Inferno Rider",
-            "echo_commentary": "Gives a 12% Basic Attack DMG bonus and 12% Fusion DMG bonus after being transformed into and its last of 3 hits was dealt, for a duration of 15 seconds. This makes this Echo preferable for characters who prefer Basic DMG over Skill DMG, but this option is more difficult to incorporate in rotations than the Nightmare variant, often requiring Swap Cancelling to be smooth. Still Encore's best choice overall if you can manage it properly."
-          }
-        ]
-      },
-      {
-        "set_name": "Flaming Clawprint",
-        "percentage_performance": "96.60%",
-        "commentary": "Increases Fusion DMG Bonus by 10% unconditionally and gives all party members 15% Fusion DMG Bonus when casting Ultimate on top of giving the equipper 20% Liberation DMG Bonus, all of these effects lasting 35s (which means they can be permanently applicable if maintained). Note that this effect does not stack if running the set multiple times in the same team. Not optimal on Encore in her best teams, but definitely worth using in a Dual DPS team with Changli or Brant to also increase their damage. Note that this set forces Encore into using her Ultimate-enhanced Forte Heavy Attack due to boosting Liberation damage significantly.",
-        "main_echo_options": [
-          {
-            "echo_name": "Lioness of Glory",
-            "echo_commentary": "Increases Liberation and Fusion damage by 12% when equipped in the Main Slot, a simple Summon Echo that deals damage and doesn't cost any time or have any condition on the cast. The best and only option that the Flaming Clawprint Echo set has."
-          }
-        ]
-      }
-    ],
-    "best_echo_stats": {
-      "main_stats": {
-        "cost_4": [
-          "CRIT Rate / CRIT DMG"
-        ],
-        "cost_3": [
-          "Fusion DMG",
-          "Fusion DMG > ATK%"
-        ],
-        "cost_1": [
-          "ATK%",
-          "ATK%"
-        ]
-      },
-      "substats_priority": [
-        "Energy Regen (Until Satisfied)",
-        "CRIT Rate  CRIT DMG",
-        "ATK%",
-        "ATK",
-        "Basic DMG%",
-        "Skill DMG%"
-      ]
-    },
-    "recommended_endgame_stats_target": [
-      "HP: 15000+",
-      "DEF: 1200+",
-      "ATK: 2000-2400+",
-      "CRIT Rate: 60-75%+",
-      "CRIT DMG: 215-285%+",
-      "Energy Regen: 105-130% Lower end was estimated using the optimized rotation, Higher end was estimated using the simple rotation",
-      "Fusion DMG Bonus: 40-70%+"
-    ],
-    "skill_upgrade_priority": {
-      "order": [
-        "Res. Liberation",
-        "Forte Circuit",
-        "Res. Skill",
-        "Intro Skill",
-        "Basic Attack"
-      ],
-      "commentary": ""
+      "summary": "Encore is a 5-star Fusion Rectifier wielder that can be played as a Hyper Carry in teams focused on powering her up as the sole damage dealer or in Quick-Swap teams where she's played alongside another damage dealer. Depending on the style you prefer, you can adjust accordingly - If playing Encore as a Hyper Carry you'll focus mostly on landing as many buffs onto her before she uses her Ultimate to empower her burst rotation. Alternatively, if playing Encore in a Quick-Swap double DPS team you'll instead focus on keeping her standard Resonance skill and Echo on cooldown as much as possible while also cycling through the rest of your team. While Encore's Ultimate is still considered powerful in these teams, it is mostly used to fill downtime between each character's cooldowns."
     },
     "rotations": [
       {
@@ -1034,6 +488,521 @@
         ]
       }
     ],
+    "skill_upgrade_priority": {
+      "commentary": "",
+      "order": [
+        "Res. Liberation",
+        "Forte Circuit",
+        "Res. Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic AttackPerform up to 4 consecutive attacks, dealing Fusion DMG.Basic Attack: Wooly StrikeAfter the Basic Attack IV, press Basic Attack to attack the target, dealing Fusion DMG.Heavy AttackEncore consumes Stamina to attack the target, dealing Fusion DMG.Mid-air AttackEncore consumes Stamina to perform a Plunging Attack, dealing Fusion DMG.Dodge CounterUse Basic Attack after a successful Dodge to attack the target, dealing Fusion DMG.",
+        "multipliers": [
+          {
+            "Lv1": "28.00%",
+            "Lv10": "55.66%",
+            "Lv2": "30.29%",
+            "Lv3": "32.59%",
+            "Lv4": "35.80%",
+            "Lv5": "38.10%",
+            "Lv6": "40.74%",
+            "Lv7": "44.41%",
+            "Lv8": "48.09%",
+            "Lv9": "51.76%",
+            "Name": "Part 1 Damage"
+          },
+          {
+            "Lv1": "33.30%",
+            "Lv10": "66.20%",
+            "Lv2": "36.03%",
+            "Lv3": "38.76%",
+            "Lv4": "42.58%",
+            "Lv5": "45.31%",
+            "Lv6": "48.45%",
+            "Lv7": "52.82%",
+            "Lv8": "57.19%",
+            "Lv9": "61.56%",
+            "Name": "Part 2 Damage"
+          },
+          {
+            "Lv1": "33.35%*2",
+            "Lv10": "66.30%*2",
+            "Lv2": "36.08%*2",
+            "Lv3": "38.81%*2",
+            "Lv4": "42.64%*2",
+            "Lv5": "45.38%*2",
+            "Lv6": "48.52%*2",
+            "Lv7": "52.90%*2",
+            "Lv8": "57.27%*2",
+            "Lv9": "61.65%*2",
+            "Name": "Part 3 Damage"
+          },
+          {
+            "Lv1": "19.25%*4",
+            "Lv10": "38.27%*4",
+            "Lv2": "20.82%*4",
+            "Lv3": "22.40%*4",
+            "Lv4": "24.61%*4",
+            "Lv5": "26.19%*4",
+            "Lv6": "28.01%*4",
+            "Lv7": "30.53%*4",
+            "Lv8": "33.06%*4",
+            "Lv9": "35.58%*4",
+            "Name": "Part 4 Damage"
+          },
+          {
+            "Lv1": "120.00%",
+            "Lv10": "238.57%",
+            "Lv2": "129.84%",
+            "Lv3": "139.67%",
+            "Lv4": "153.45%",
+            "Lv5": "163.29%",
+            "Lv6": "174.61%",
+            "Lv7": "190.35%",
+            "Lv8": "206.10%",
+            "Lv9": "221.84%",
+            "Name": "Woolies Damage"
+          },
+          {
+            "Lv1": "94.10%",
+            "Lv10": "187.08%",
+            "Lv2": "101.81%",
+            "Lv3": "109.53%",
+            "Lv4": "120.33%",
+            "Lv5": "128.05%",
+            "Lv6": "136.92%",
+            "Lv7": "149.27%",
+            "Lv8": "161.61%",
+            "Lv9": "173.96%",
+            "Name": "Heavy Attack Damage"
+          },
+          {
+            "Lv1": "62.00%",
+            "Lv10": "123.26%",
+            "Lv2": "67.08%",
+            "Lv3": "72.16%",
+            "Lv4": "79.28%",
+            "Lv5": "84.36%",
+            "Lv6": "90.21%",
+            "Lv7": "98.35%",
+            "Lv8": "106.48%",
+            "Lv9": "114.61%",
+            "Name": "Mid-Air Attack"
+          },
+          {
+            "Lv1": "63.34%*2",
+            "Lv10": "125.94%*2",
+            "Lv2": "68.54%*2",
+            "Lv3": "73.73%*2",
+            "Lv4": "81.01%*2",
+            "Lv5": "86.20%*2",
+            "Lv6": "92.18%*2",
+            "Lv7": "100.49%*2",
+            "Lv8": "108.80%*2",
+            "Lv9": "117.11%*2",
+            "Name": "Dodge Counter Damage"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Heavy Attack Stamina Consumption"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-Air Attack Stamina Consumption"
+          }
+        ],
+        "name": "Wooly Attack",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Flaming WooliesSummon Cloudy and Cosmos to attack the target with high-temperature rays, dealing Fusion DMG.\n \nEnergetic WelcomeAfter casting Flaming Woolies, use Resonance Skill to launch Energetic Welcome to attack the target, dealing Fusion DMG.",
+        "multipliers": [
+          {
+            "Lv1": "38.53%*8",
+            "Lv10": "76.61%*8",
+            "Lv2": "41.69%*8",
+            "Lv3": "44.85%*8",
+            "Lv4": "49.28%*8",
+            "Lv5": "52.44%*8",
+            "Lv6": "56.07%*8",
+            "Lv7": "61.13%*8",
+            "Lv8": "66.18%*8",
+            "Lv9": "71.24%*8",
+            "Name": "Flaming Woolies Damage"
+          },
+          {
+            "Lv1": "170.60%",
+            "Lv10": "339.16%",
+            "Lv2": "184.58%",
+            "Lv3": "198.57%",
+            "Lv4": "218.16%",
+            "Lv5": "232.15%",
+            "Lv6": "248.24%",
+            "Lv7": "270.62%",
+            "Lv8": "293.00%",
+            "Lv9": "315.38%",
+            "Name": "Energetic Welcome Damage"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "15",
+            "Lv10": "15",
+            "Lv2": "15",
+            "Lv3": "15",
+            "Lv4": "15",
+            "Lv5": "15",
+            "Lv6": "15",
+            "Lv7": "15",
+            "Lv8": "15",
+            "Lv9": "15",
+            "Name": "Flaming Woolies Con. Energy Regen"
+          },
+          {
+            "Lv1": "5",
+            "Lv10": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Name": "Energetic Welcome Con. Energy Regen"
+          }
+        ],
+        "name": "Flaming Woolies",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "As Encore loses control, Cosmos breaks free and wreaks havoc on its surroundings. Basic Attack: Cosmos: FrolickingDuring Cosmos Rampage, the Basic Attack is replaced with Cosmos: Frolicking, which performs up to 4 consecutive attacks, dealing Fusion DMG, considered as Basic Attack damage.Cosmos: Heavy AttackDuring Cosmos Rampage, the Heavy Attack is replaced with Cosmos: Heavy Attack, consuming Stamina to attack the target, dealing Fusion DMG, considered as Heavy Attack damage.Resonance Skill: Cosmos: RampageDuring Cosmos Rampage, Flaming Woolies is replaced with Cosmos:Rampage, attacking the target with uncontrollable flames, dealing Fusion DMG, considered as Resonance Skill damage.Cosmos: Dodge CounterDuring Cosmos Rampage, use Basic Attack after a successful Dodge to attack the target, dealing Fusion DMG, considered as Basic Attack damage.",
+        "multipliers": [
+          {
+            "Lv1": "45.36%*2",
+            "Lv10": "90.18%*2",
+            "Lv2": "49.08%*2",
+            "Lv3": "52.80%*2",
+            "Lv4": "58.01%*2",
+            "Lv5": "61.73%*2",
+            "Lv6": "66.01%*2",
+            "Lv7": "71.96%*2",
+            "Lv8": "77.91%*2",
+            "Lv9": "83.86%*2",
+            "Name": "Cosmos: Frolicking Part 1 Damage"
+          },
+          {
+            "Lv1": "28.37%*3",
+            "Lv10": "56.40%*3",
+            "Lv2": "30.70%*3",
+            "Lv3": "33.02%*3",
+            "Lv4": "36.28%*3",
+            "Lv5": "38.61%*3",
+            "Lv6": "41.28%*3",
+            "Lv7": "45.00%*3",
+            "Lv8": "48.72%*3",
+            "Lv9": "52.45%*3",
+            "Name": "Cosmos: Frolicking Part 2 Damage"
+          },
+          {
+            "Lv1": "33.19%*4",
+            "Lv10": "65.99%*4",
+            "Lv2": "35.92%*4",
+            "Lv3": "38.64%*4",
+            "Lv4": "42.45%*4",
+            "Lv5": "45.17%*4",
+            "Lv6": "48.30%*4",
+            "Lv7": "52.65%*4",
+            "Lv8": "57.01%*4",
+            "Lv9": "61.36%*4",
+            "Name": "Cosmos: Frolicking Part 3 Damage"
+          },
+          {
+            "Lv1": "97.59%*3",
+            "Lv10": "194.01%*3",
+            "Lv2": "105.59%*3",
+            "Lv3": "113.59%*3",
+            "Lv4": "124.79%*3",
+            "Lv5": "132.79%*3",
+            "Lv6": "142.00%*3",
+            "Lv7": "154.80%*3",
+            "Lv8": "167.60%*3",
+            "Lv9": "180.40%*3",
+            "Name": "Cosmos: Frolicking Part 4 Damage"
+          },
+          {
+            "Lv1": "109.44%",
+            "Lv10": "217.58%",
+            "Lv2": "118.42%",
+            "Lv3": "127.39%",
+            "Lv4": "139.96%",
+            "Lv5": "148.93%",
+            "Lv6": "159.25%",
+            "Lv7": "173.61%",
+            "Lv8": "187.97%",
+            "Lv9": "202.32%",
+            "Name": "Cosmos: Heavy Attack Damage"
+          },
+          {
+            "Lv1": "31.85%*4",
+            "Lv10": "63.32%*4",
+            "Lv2": "34.46%*4",
+            "Lv3": "37.07%*4",
+            "Lv4": "40.72%*4",
+            "Lv5": "43.34%*4",
+            "Lv6": "46.34%*4",
+            "Lv7": "50.52%*4",
+            "Lv8": "54.70%*4",
+            "Lv9": "58.88%*4",
+            "Name": "Cosmos Rampage Damage"
+          },
+          {
+            "Lv1": "33.19%*4",
+            "Lv10": "65.99%*4",
+            "Lv2": "35.92%*4",
+            "Lv3": "38.64%*4",
+            "Lv4": "42.45%*4",
+            "Lv5": "45.17%*4",
+            "Lv6": "48.30%*4",
+            "Lv7": "52.65%*4",
+            "Lv8": "57.01%*4",
+            "Lv9": "61.36%*4",
+            "Name": "Cosmos: Dodge Counter Damage"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Cosmos: Heavy Attack Stamina Consumption"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Cosmos Rave Duration"
+          },
+          {
+            "Lv1": "16",
+            "Lv10": "16",
+            "Lv2": "16",
+            "Lv3": "16",
+            "Lv4": "16",
+            "Lv5": "16",
+            "Lv6": "16",
+            "Lv7": "16",
+            "Lv8": "16",
+            "Lv9": "16",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "4",
+            "Lv10": "4",
+            "Lv2": "4",
+            "Lv3": "4",
+            "Lv4": "4",
+            "Lv5": "4",
+            "Lv6": "4",
+            "Lv7": "4",
+            "Lv8": "4",
+            "Lv9": "4",
+            "Name": "Cosmos Rampage Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv10": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Name": "Res. Energy Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Cosmos Rave",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Resonance Liberation: Cloudy FrenzyWhen Encore's \"Dissonance\" is full, after casting a Heavy Attack, Encore will consume all \"Dissonance\" to enter the Dissonance state, reducing damage taken by 70%. Switching Characters does not interrupt \"Dissonance\". After the Dissonance state ends, Encore will cast Cloudy Frenzy, dealing Fusion DMG, considered as Resonance Liberation damage.Resonance Liberation: Cosmos RuptureDuring Cosmos Rampage, when casting Heavy Attack, if \"Dissonance\" is full, Encore will consume all \"Dissonance\" to enter Cosmos' Dissonance state, reducing damage taken by 70%. Switching Characters does not interrupt \"Dissonance\".After Cosmos' Dissonance state ends, Encore will cast Cosmos Rupture, dealing Fusion DMG, considered as Resonance Liberation damage.DissonanceEncore can hold up to 100 \"Dissonance\". When Normal Attack Wooly Attack hits the target, Encore restores \"Dissonance\". When Resonance Skill Flaming Woolies hits the target, Encore restores \"Dissonance\". When Resonance Skill Energetic Welcome hits the target, Encore restores \"Dissonance\". When Intro Skill Woolies Helpers hits the target, Encore restores \"Dissonance\". During the duration of Resonance Liberation Cosmos Rampage, hitting targets will restore \"Dissonance\" to Encore.",
+        "multipliers": [
+          {
+            "Lv1": "168.00%",
+            "Lv10": "334.00%",
+            "Lv2": "181.77%",
+            "Lv3": "195.55%",
+            "Lv4": "214.83%",
+            "Lv5": "228.61%",
+            "Lv6": "244.45%",
+            "Lv7": "266.49%",
+            "Lv8": "288.53%",
+            "Lv9": "310.58%",
+            "Name": "Cloudy: Frenzy Damage"
+          },
+          {
+            "Lv1": "23.35%*6+249.08%",
+            "Lv10": "46.42%*6+495.21%",
+            "Lv2": "25.26%*6+269.51%",
+            "Lv3": "27.18%*6+289.93%",
+            "Lv4": "29.86%*6+318.53%",
+            "Lv5": "31.77%*6+338.95%",
+            "Lv6": "33.97%*6+362.44%",
+            "Lv7": "37.04%*6+395.12%",
+            "Lv8": "40.10%*6+427.80%",
+            "Lv9": "43.17%*6+460.48%",
+            "Name": "Cosmos: Rupture Damage"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Cloudy: Frenzy Con. Energy Regen"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Cosmos: Rupture Con. Energy Regen"
+          }
+        ],
+        "name": "Black & White Woolies",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "During the Resonance Liberation Cosmos Rave, when Encore's HP is above 70%, DMG dealt is increased by 10%.",
+        "multipliers": [],
+        "name": "Angry Cosmos",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "When Resonance Skill Flaming Woolies or Resonance Skill Cosmos: Rave is cast, Encore's Fusion DMG Bonus is increased by 10% for 10 seconds.",
+        "multipliers": [],
+        "name": "Woolies Cheer Dance",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Encore pounces at the enemies with Cosmos, dealing Fusion DMG.",
+        "multipliers": [
+          {
+            "Lv1": "100.00%",
+            "Lv10": "198.81%",
+            "Lv2": "108.20%",
+            "Lv3": "116.40%",
+            "Lv4": "127.88%",
+            "Lv5": "136.08%",
+            "Lv6": "145.51%",
+            "Lv7": "158.63%",
+            "Lv8": "171.75%",
+            "Lv9": "184.87%",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Woolies Can Help!",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Encore generates a Flame Zone centered around skill target, with a radius of 3m. Targets inside the Flame Zone are continuously burned, suffering Fusion DMG equal to 176.76% of Encore's ATK every 1.5s for 6s.",
+        "multipliers": [],
+        "name": "Thermal Field",
+        "skill_type": "Outro Skill"
+      }
+    ],
     "synergies": [
       {
         "characters": [
@@ -1068,62 +1037,93 @@
         "commentary": "These 3 are the best generalist Supports in the game. Mornye has a special synergy with Encore and Lupa because she enables Encore to work in a Hypercarry team while still sporting Lupa's full Mono Fusion buffs which makes her the best choice if that's available. Otherwise, Shorekeeper is amazing thanks to her massive CRIT buffs and other generalist buffs, then Verina is the most accessible and still very strong option if neither are available.."
       }
     ],
-    "example_teams": [
-      {
-        "team_name": "Best Team",
-        "slot_1": {
-          "character_name": "encore",
-          "alternatives": []
+    "upgrade_materials": {
+      "character_ascension": [
+        {
+          "material_name": "Pecok Flower",
+          "quantity": 60,
+          "rarity": "boss"
         },
-        "slot_2": {
-          "character_name": "lupa",
-          "alternatives": []
+        {
+          "material_name": "Rage Tacet Core",
+          "quantity": 46,
+          "rarity": "specialty"
         },
-        "slot_3": {
-          "character_name": "mornye",
-          "alternatives": [
-            "the-shorekeeper",
-            "brant"
-          ]
+        {
+          "material_name": "LF Whisperin Core",
+          "quantity": 4,
+          "rarity": "common"
         },
-        "team_notes": "If using Brant, put him in the second slot buffed by Lupa and have him buff Encore."
-      },
-      {
-        "team_name": "With Sanhua",
-        "slot_1": {
-          "character_name": "encore",
-          "alternatives": []
+        {
+          "material_name": "MF Whisperin Core",
+          "quantity": 12,
+          "rarity": "common"
         },
-        "slot_2": {
-          "character_name": "sanhua",
-          "alternatives": []
+        {
+          "material_name": "HF Whisperin Core",
+          "quantity": 12,
+          "rarity": "common"
         },
-        "slot_3": {
-          "character_name": "the-shorekeeper",
-          "alternatives": [
-            "verina"
-          ]
+        {
+          "material_name": "FF Whisperin Core",
+          "quantity": 4,
+          "rarity": "common"
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "Unending Destruction",
+          "quantity": 26,
+          "rarity": "weekly_boss"
         },
-        "team_notes": ""
-      },
-      {
-        "team_name": "Best Team (Dual DPS)",
-        "slot_1": {
-          "character_name": "encore",
-          "alternatives": []
+        {
+          "material_name": "LF Whisperin Core",
+          "quantity": 25,
+          "rarity": "common"
         },
-        "slot_2": {
-          "character_name": "changli",
-          "alternatives": []
+        {
+          "material_name": "MF Whisperin Core",
+          "quantity": 28,
+          "rarity": "common"
         },
-        "slot_3": {
-          "character_name": "the-shorekeeper",
-          "alternatives": [
-            "verina"
-          ]
+        {
+          "material_name": "HF Whisperin Core",
+          "quantity": 40,
+          "rarity": "common"
         },
-        "team_notes": ""
-      }
-    ]
-  }
+        {
+          "material_name": "FF Whisperin Core",
+          "quantity": 57,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Lento Helix",
+          "quantity": 25,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Adagio Helix",
+          "quantity": 28,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Andante Helix",
+          "quantity": 55,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Presto Helix",
+          "quantity": 67,
+          "rarity": "skill_material"
+        }
+      ]
+    },
+    "voice_actors": {
+      "cn": "Hao Sibai",
+      "eng": "Carina Reeves",
+      "jpn": "Chikano Ibuki",
+      "kr": "Lee Serena"
+    }
+  },
+  "status": "success"
 }

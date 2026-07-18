@@ -1,0 +1,903 @@
+{
+  "data": {
+    "base_stats_lvl_90": {
+      "atk": 35,
+      "crit_dmg": "150%",
+      "crit_rate": "5%",
+      "def": 93,
+      "elemental_dmg_bonus": "0%",
+      "healing_bonus": "12%",
+      "hp": 862,
+      "max_energy": 125
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Offers a 10% unconditional Healing% boost and an most importantly a 15% ATK% boost for the entire team, lasting 30 seconds whenever you heal yourself or any of your allies. This bonus can be triggered by character abilities and weapon effects, is easy to keep active 100% of the time and is a big help for all party members.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "While usually a worse option for the Rejuvenating Glow set for damage than the Fallacy of No Return due to a shorter buff uptime, only granting 10% DMG Bonus for 15 seconds, the Bell-Borne Geochelone is the best choice for Cartethyia teams as Cartethyia can't benefit from ATK% but can benefit from the DMG% this Echo provides. It also has increased survivability by blocking 50% of the damage from a max of 3 hits which makes playing the team extremely comfortable.",
+            "echo_name": "Bell-Borne Geochelone"
+          }
+        ],
+        "percentage_performance": "1",
+        "set_name": "Rejuvenating Glow"
+      },
+      {
+        "commentary": "Used only with Cartethyia + Ciaccona at high investments due to the nature of Cartethyia's kit. Best set for Aero Main DPS characters who can apply Aero Erosion or have an Aero Erosion applier on the team. Grants 10% Aero DMG Bonus and an extra 30% Aero DMG Bonus as well as 10% CRIT Rate for 10s when attacking targets inflicted with Aero Erosion. Offers an extra 10% CRIT Rate over the other Aero sets such as Gusts of Welkin or Sierra Gale, providing extra overall damage so long as Aero Erosion is present on the enemy. On Aero Rover, only slightly better than Rejuvenating Glow at high-end investment for 1 specific team, generally not recommended to build unless looking to fully maximize team DPS, even as far as going for very small differences.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Best Main Echo for Windward Pilgrimage, a Summon Echo that grants the assigned Resonator 10% unconditional Aero DMG Bonus if equipped in the Main Slot, with an extra 10% Aero DMG Bonus for Aero Rover, along with inflicting a small amount of Aero DMG on cast.",
+            "echo_name": "Reminiscence: Fleurdelys"
+          }
+        ],
+        "percentage_performance": "1",
+        "set_name": "Windward Pilgrimage"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ],
+        "cost_3": [
+          "Aero DMG",
+          "Aero DMG > ATK%"
+        ],
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%",
+        "Skill DMG%",
+        "ATK"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "Aero Rover's Signature weapon, with a unique passive that allows them to Amplify the Aero DMG of all members in the team for 30s after using their Forte enhanced Skill, giving them great buffing capability for Aero units, and also granting lots of Energy Regen that allows getting your Ultimate back much easier.",
+        "dupe_rank": "R5",
+        "percentage_performance": "121.12%",
+        "weapon_base_info": {
+          "effect_description": "Providing Healing increases Resonance Skill DMG by {0} for 6s. When Rover: Aero casts Resonance Skill Unbound Flow, Aero DMG dealt by nearby Resonators on the field is Amplified by {0} for 30s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "Energy Reg.",
+          "secondary_stat_val": 38.9,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Bloodpact's Pledge"
+      },
+      {
+        "commentary_details": "Aero Rover's Signature weapon, with a unique passive that allows them to Amplify the Aero DMG of all members in the team for 30s after using their Forte enhanced Skill, giving them great buffing capability for Aero units, and also granting lots of Energy Regen that allows getting your Ultimate back much easier.",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "Providing Healing increases Resonance Skill DMG by {0} for 6s. When Rover: Aero casts Resonance Skill Unbound Flow, Aero DMG dealt by nearby Resonators on the field is Amplified by {0} for 30s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "Energy Reg.",
+          "secondary_stat_val": 38.9,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Bloodpact's Pledge"
+      }
+    ],
+    "character_metadata": {
+      "breadcrumb": [
+        "Wuthering Waves",
+        "Characters",
+        "Rover (Aero)"
+      ],
+      "element": "Aero",
+      "name": "Rover (Aero)",
+      "rarity_stars": 5,
+      "slug": "rover-aero",
+      "updates": {
+        "last_major_build_patch": "2.6",
+        "last_profile_update": "10/July/2026",
+        "last_review_patch": "2.4",
+        "last_updated": "10/July/2026"
+      },
+      "weapon_type": "Sword"
+    },
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "cartethyia"
+        },
+        "slot_2": {
+          "alternatives": [
+            "changli",
+            "sanhua"
+          ],
+          "character_name": "ciaccona"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "rover-aero"
+        },
+        "team_name": "Best Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "iuno"
+        },
+        "slot_2": {
+          "alternatives": [
+            "jianxin"
+          ],
+          "character_name": "ciaccona"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "rover-aero"
+        },
+        "team_name": "Main DPS Iuno Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "jiyan"
+        },
+        "slot_2": {
+          "alternatives": [
+            "ciaccona"
+          ],
+          "character_name": "mortefi"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "rover-aero"
+        },
+        "team_name": "Jiyan Team",
+        "team_notes": ""
+      }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/rover-aero_full.webp",
+      "youtube_guide_embed_url": "",
+      "youtube_guide_full_url": ""
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+12%",
+        "stat_name": "Healing Bonus"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "ATK%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "Literally only functional in 1 team. Solely restricted to Cartethyia + Ciaccona where they're best, other suboptimal Aero teams exist but they're not stronger than general Support options there;",
+        "Their damage isn't high enough to justify their field time compared to other Support units who deal less damage but buff much faster which impacts DPS substantially;",
+        "Their signature weapon is a double-edged sword, as it takes away the option to use a higher damaging weapon and locks Aero Rover into using a \"bad\" option (purely in regards to their personal damage);",
+        "Their buffing potential isn't much higher than low-tier generalist Support competitors such as Baizhi;",
+        "Their mid-air attacks are inconsistent against small enemies and may not land altogether, severely impacting rotations;",
+        "No one currently applies debuffs effectively for them to convert (it's possible, just not worth it);",
+        "They take away the possibility of using other Rover elements in your teams when those forms have their cemented meta use cases;",
+        "Currently limited to S1 and R1 of their signature weapon, lowering their damage and buffing potential significantly."
+      ],
+      "pros": [
+        "Their personal damage stands out compared to most other Support units despite being able to comfortably heal the party;",
+        "Their best weapon option is a fully F2P-accessible 5-star signature sword, the character and their Sequence Nodes are given for free;",
+        "Has unique mechanics in the form of debuff conversion and increasing the limit of debuff stacks applicable;",
+        "Synergizes with the current best DPS Cartethyia in a team with Ciaccona, enabling Cartethyia's kit to be taken to new heights",
+        "Specializes in mid-air combat, allowing them to ignore certain enemy attacks."
+      ]
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [
+            "Erosion",
+            "Sustain"
+          ],
+          "tier": "T1"
+        },
+        "whimpering_wastes": {
+          "tags": [
+            "Erosion",
+            "Sustain"
+          ],
+          "tier": "T1.5"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T1"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T2"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 15000+",
+      "DEF: 1150+",
+      "ATK: 2100+",
+      "CRIT Rate: 65%+",
+      "CRIT DMG: 210%+",
+      "Energy Regen: 128%-138%Lower end estimated with Iuno+Ciaccona, higher end estimate with Cartethyia+Ciaccona. In any case, since Aero Rover always runs Bloodpact's Pledge which gives enough Energy Regen, no substats are needed.",
+      "Aero DMG Bonus: 30-60%+"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "Casting Mid-air Attack Cloudburst Dance enhances Rover's resistance to interruption for 3s.",
+        "name": "Sequence Node 1",
+        "node": "S1"
+      },
+      {
+        "description": "Casting Resonance Skill Unbound Flow continuously restores HP for the Resonator on the field by 20% of Rover's ATK every 3s for 30s. When the Resonator on the field has an HP lower than 35%, immediately restore 10% of their lost HP. This restoration effect can be triggered once every 10s and will not be affected by any Healing Bonus.",
+        "name": "Sequence Node 2",
+        "node": "S2"
+      },
+      {
+        "description": "Aero DMG Bonus is increased by 15%.",
+        "name": "Sequence Node 3",
+        "node": "S3"
+      },
+      {
+        "description": "Casting Mid-air Attack Cloudburst Dance increases Resonance Skill DMG Bonus by 15% for 5s.",
+        "name": "Sequence Node 4",
+        "node": "S4"
+      },
+      {
+        "description": "The DMG Multiplier of Resonance Liberation Omega Storm is increased by 20%.",
+        "name": "Sequence Node 5",
+        "node": "S5"
+      },
+      {
+        "description": "The DMG Multiplier of Resonance Skill Unbound Flow is increased by 30%.",
+        "name": "Sequence Node 6",
+        "node": "S6"
+      }
+    ],
+    "review": {
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Aero Rover is a free 5-star Aero Support character who primarily serves as an applier of Aero Erosion via debuff conversion and an amplifier of Aero DMG, but who also has access to healing and small amounts of personal damage. They rely on mid-air combat in order to charge up their Forte skill to get their buffs, bulk of damage, and Outro skill off all at once.",
+            "The core of their kit lies in their Forte circuit, as it contains 3 important parts of their kit: the Mid-Air attacks we will be using throughout their rotation, their big Forte skill that concentrates the biggest portion of their damage, and the Forte points they'll need to charge in order to access that skill.",
+            "Aero Rover's Forte points are called \"Windstring\" and they can stack up to 120 points that are obtained in the following ways:",
+            "By casting their Forte Mid-Air Attacks (25 points per attack);",
+            "By casting their Intro skill (20 points);",
+            "By casting Basic Attack 3, Basic Attack 4 or Dodge Counter (10 points).",
+            "The main method that will be used in optimal rotations as they need to charge up 120 Forte points is via 4 Forte Mid-Air Attacks and an Intro Skill, which perfectly adds up to the required amount. However, this can be shortened if Cartethyia is present on the team, as she funnels 25 Windstrings to Aero Rover when they cast their Ultimate via her Inherent Skill. With that being said, it is worth noting that in an optimal rotation, this will not generate the required Concerto Energy to complete a rotation with their Outro. As a result, to make use of this effect, it is necessary to weave in any one attack in the middle of Cartethyia's rotation, typically along with a Fleurdelys Skill 2, during which she will switch out to Aero Rover who can perform a Mid-Air Plunging Attack and switch back to Fleurdelys so that she can complete her rotation normally. Doing so will shorten the rotation by a small amount as one less Forte Mid-Air Attack is necessary to complete their rotation, overall improving Team DPS. Otherwise, doing all 4 Forte Mid-Air Attacks as normal is perfectly functional as well.",
+            "These special Forte Mid-Air Attacks, called \"Cloudburst Dance\" can be cast 2 at a time when accessed and heal your whole party a small amount. This is only done by using Basic Attack in the air through certain means being:",
+            "Using their default grounded Resonance Skill \"Awakening Gale\";",
+            "Using their Intro skill;",
+            "Using their \"Razor Wind\" Heavy Attack (unused).",
+            "We won't dwell on \"Razor Wind\" since it's slow and impractical to perform in optimal rotations so it'll never be realistically used on Aero Rover.",
+            "Other than that, \"Awakening Gale\" is a simple skill that sends Aero Rover in the air with a very short cooldown of 3 seconds so they will never run into any problems when it comes to casting it, and their Intro skill is a small burst of Aero DMG that sends them in the air as well. This means typically, your Mid-Air Attacks will be cast twice after an Intro skill, then twice after an \"Awakening Gale\" skill.",
+            "Another important tool to their arsenal is their Ultimate, which does a solid portion of damage but also provides all of Aero Rover's healing abilities, concentrated in one big burst of healing for your whole party. It additionally has the property of being able to be cast in mid-air which has the effect of instantly placing them on the ground — this means it's most practical to use it after you're done with your Forte Mid-Air Attacks to place yourself on the ground instantaneously (plunges tend to be rather slow, so saving your Ultimate for this purpose is way better).",
+            "Their Forte Enhanced Skill, which is Aero Rover's main action to work towards performing, is in two parts. Both parts generate 20 Concerto Energy (a huge amount!), it deals a big amount of damage (multipliers higher than Danjin's Ultimate for example), it triggers their signature weapon's Aero DMG Amplify passive, and has two properties:",
+            "Both parts can only be cast on the ground;",
+            "Swapping out after the first part instantly causes the second part to happen (with a delayed Concerto gain).",
+            "This means the ability has a Swap Cancel window if you want to exploit it, after which the second part will happen off-field and generate 20 Concerto Energy for them to begin their next rotation, allowing these Swap Cancels to be utilized every time. This is systematically performed in optimal Aero Rover rotations as it saves a big amount of time at no damage cost, significantly improving team DPS.",
+            "Their Outro currently has one use case, it increases the maximum capacity of Aero Erosion stacks by 3 (up to 6 in total) which can enable Cartethyia to fully utilize her kit's additional effects, such as her damage amplification on her second Ultimate. Other than that, it is only barely useful.",
+            "With all of that in mind, to access Aero Rover's Forte Enhanced Skills as quickly as possible, we first use their Intro Skill or a few basics into a Resonance Skill if an Intro isn't available, then we use their Mid-Air attacks twice before using their Ultimate to place them on the ground where they can go up in the air again via their Resonance Skill, then we can perform their Mid-Air attacks once more to fully fill our Forte Gauge. We get back to the ground via our plunge or Ultimate to cast our Forte skills, switching out of the first one, ending the rotation due to the huge Concerto gain they give. Certain Basic Attacks are also necessary to complete Aero Rover's rotation without an Intro Skill available — for more information, refer to our Gameplay & Teams page for the character.",
+            "Aero Rover unfortunately has problems, though. The main one being that they're only used in a single team. No one but Cartethyia currently exploits their Aero Erosion stack increase mechanics, there's no character that can apply debuffs for them to convert other than Phoebe, most effectively in her Confession state which is currently not worth exploiting for team damage, and the damage Aero Erosion provides is low by itself comparably to Spectro Frazzle. While it is a bit better, it's nothing impressive, which means Aero Rover relies on teammates like Ciaccona and Cartethyia to perform, which is their only truly viable team. However, it is one of the best teams in the game for all contents.",
+            "Therefore this means Aero Rover already isn't an Amplifier-type unit like Mortefi and instead wants to act as a healing Support like the top tier Verina and Shorekeeper. This sounds good on paper, but unfortunately the buffing potential of these two is so high that Aero Rover can't compete with them in that niche — especially right now when their signature weapon is locked at R1 which only gives 10% Aero DMG Amplify, a very small amount compared to the 15% all-type DMG amplify all generalist Supports get (Baizhi, Verina, Shorekeeper); not to mention the other buffs these characters get whether it's DMG Bonus, ATK%, or CRIT Rate/CRIT DMG. This makes it really difficult for Aero Rover to find a use case in the current meta outside of Cartethyia teams where only their Outro buff is desired.",
+            "Not only that, but their rotation time is lengthy, their damage isn't as high as you'd expect, this is because their signature weapon doesn't have big damage stats such as CRIT which you'd see on other 5-star options, their multipliers are good but not insane either so it can't compensate, they take away the option to use Spectro Rover or Havoc Rover in other teams when those Rover variants are very strong in their best teams, and to top it all off they only have access to their S1 right now when a lot of their damage potential is locked behind the higher Sequence nodes such as S5 and S6.",
+            "Finally, their Mid-Air Attacks face some issues against smaller, common targets and they'll tend to miss or not activate altogether, preventing you from generating the necessary Forte points and having to extend the rotation further, which severely impacts DPS. While this isn't much of a problem against most boss enemies, in content like Whimpering Wastes where small enemies are all you get, it's especially problematic. While Aero Rover can work with Jiyan in that gamemode, they are way below other general Supports like Verina and Shorekeeper for all the reasons listed above, except this time around their Outro skill brings nothing of value.",
+            "To summarize, Aero Rover is a character who is restricted to a single team. Judging by their kit and Cartethyia's, they are clearly tailored for each other, and if you don't own Cartethyia you can give up on Aero Rover's utility. We can expect higher ranks for their signature weapon and the rest of their Sequence nodes to be released at a later point, all of which will drastically boost their performance. But as things stand, they have very little use cases and aren't a recommendable option outside of Cartethyia teams, where they are only worth using alongside Ciaccona currently. However, this may change in the future when higher Sequence nodes and Weapon ranks are unlocked, so stay tuned for that. Until then, if you don't own both Cartethyia and Ciaccona, Aero Rover is not recommended, but if you do own both, by all means use the 3 together, they're insanely strong."
+          ]
+        }
+      ],
+      "summary": "Aero Rover is a free 5-star Aero Support character who primarily serves as an applier of Aero Erosion via debuff conversion and an amplifier of Aero DMG, but who also has access to healing and small amounts of personal damage. They rely on mid-air combat in order to charge up their Forte skill to get their buffs, bulk of damage, and Outro skill off all at once."
+    },
+    "rotations": [
+      {
+        "rotation_name": "STANDARD ROTATION",
+        "steps": [
+          "Intro",
+          "Forte: Cloudburst Dance P1",
+          "Forte: Cloudburst Dance P2",
+          "Ultimate",
+          "Skill: Awakening Gale",
+          "Forte: Cloudburst Dance P1",
+          "Forte: Cloudburst Dance P2",
+          "Skill: Skyfall Severance (Optional)",
+          "Mid-Air Atk (Plunge)",
+          "Forte: Unbound Flow P1 (switch out)",
+          "Outro",
+          "Forte: Unbound Flow P2 (happens automatically off-field)"
+        ]
+      },
+      {
+        "rotation_name": "OPENER ROTATION",
+        "steps": [
+          "(Swap-in) Basic P2",
+          "Basic P3",
+          "Skill: Awakening Gale",
+          "Forte: Cloudburst Dance P1",
+          "Forte: Cloudburst Dance P2",
+          "Mid-Air Attack (Plunge)",
+          "Basic P4",
+          "Skill: Awakening Gale",
+          "Forte: Cloudburst Dance P1",
+          "Forte: Cloudburst Dance P2",
+          "Ultimate",
+          "Forte: Unbound Flow P1",
+          "Outro",
+          "Forte: Unbound Flow P2 (happens automatically off-field)"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "",
+      "order": [
+        "Forte Circuit",
+        "Res. Liberation",
+        "Res. Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic AttackPerform up to 4 consecutive attacks, dealing Aero DMG.Heavy AttackConsume STA to attack the target, dealing Aero DMG.Press Normal Attack right after casting the skill to perform Basic Attack Stage 3 directly.Heavy Attack - Razor WindHold Normal Attack after casting Basic Attack Stage 3, Dodge Counter, or Heavy Attack to cast Heavy Attack Razor Wind. Consume STA to attack the target, dealing Aero DMG.Mid-air AttackConsume STA to perform Plunging Attack, dealing Aero DMG.Press Normal Attack shortly after landing to cast Basic Attack Stage 4.At max Windstrings, press Normal Attack shortly after landing to cast Resonance Skill Unbound Flow.Dodge CounterPress Normal Attack right after a successful Dodge to attack the target, dealing Aero DMG.",
+        "multipliers": [
+          {
+            "Lv1": "17.76%",
+            "Lv10": "35.31%",
+            "Lv2": "19.22%",
+            "Lv3": "20.68%",
+            "Lv4": "22.72%",
+            "Lv5": "24.17%",
+            "Lv6": "25.85%",
+            "Lv7": "28.18%",
+            "Lv8": "30.51%",
+            "Lv9": "32.84%",
+            "Name": "Stage 1 DMG"
+          },
+          {
+            "Lv1": "21.66%*2",
+            "Lv10": "43.05%*2",
+            "Lv2": "23.43%*2",
+            "Lv3": "25.21%*2",
+            "Lv4": "27.69%*2",
+            "Lv5": "29.47%*2",
+            "Lv6": "31.51%*2",
+            "Lv7": "34.35%*2",
+            "Lv8": "37.19%*2",
+            "Lv9": "40.03%*2",
+            "Name": "Stage 2 DMG"
+          },
+          {
+            "Lv1": "38.59%",
+            "Lv10": "76.72%",
+            "Lv2": "41.76%",
+            "Lv3": "44.92%",
+            "Lv4": "49.35%",
+            "Lv5": "52.51%",
+            "Lv6": "56.15%",
+            "Lv7": "61.21%",
+            "Lv8": "66.28%",
+            "Lv9": "71.34%",
+            "Name": "Stage 4 DMG"
+          },
+          {
+            "Lv1": "9.01%*3",
+            "Lv10": "17.91%*3",
+            "Lv2": "9.75%*3",
+            "Lv3": "10.49%*3",
+            "Lv4": "11.52%*3",
+            "Lv5": "12.26%*3",
+            "Lv6": "13.11%*3",
+            "Lv7": "14.29%*3",
+            "Lv8": "15.48%*3",
+            "Lv9": "16.66%*3",
+            "Name": "Heavy Attack DMG"
+          },
+          {
+            "Lv1": "18.30% + 22.36%",
+            "Lv10": "36.37% + 44.46%",
+            "Lv2": "19.80% + 24.20%",
+            "Lv3": "21.30% + 26.03%",
+            "Lv4": "23.40% + 28.60%",
+            "Lv5": "24.90% + 30.43%",
+            "Lv6": "26.62% + 32.54%",
+            "Lv7": "29.02% + 35.47%",
+            "Lv8": "31.42% + 38.40%",
+            "Lv9": "33.82% + 41.34%",
+            "Name": "Razor Wind DMG"
+          },
+          {
+            "Lv1": "70.80%",
+            "Lv10": "140.76%",
+            "Lv2": "76.61%",
+            "Lv3": "82.42%",
+            "Lv4": "90.54%",
+            "Lv5": "96.35%",
+            "Lv6": "103.03%",
+            "Lv7": "112.32%",
+            "Lv8": "121.60%",
+            "Lv9": "130.89%",
+            "Name": "Mid-air Attack DMG"
+          },
+          {
+            "Lv1": "63.09% + 1.00%*25",
+            "Lv10": "125.43% + 1.99%*25",
+            "Lv2": "68.27% + 1.09%*25",
+            "Lv3": "73.44% + 1.17%*25",
+            "Lv4": "80.68% + 1.28%*25",
+            "Lv5": "85.85% + 1.37%*25",
+            "Lv6": "91.80% + 1.46%*25",
+            "Lv7": "100.08% + 1.59%*25",
+            "Lv8": "108.36% + 1.72%*25",
+            "Lv9": "116.63% + 1.85%*25",
+            "Name": "Dodge Counter DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Heavy Attack STA Cost"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Razor Wind STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-air Attack STA Cost"
+          }
+        ],
+        "name": "Wind Cutter",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Awakening GaleJump up into the mid-air and slash the target, dealing Aero DMG.\n\nSkyfall SeveranceWhile in mid-air, press Resonance Skill to deal Aero DMG, which removes all stacks of Spectro Frazzle, Havoc Bane, Fusion Burst, Glacio Chafe, and Electro Flare from the target hit and inflicts 1 stack of Aero Erosion for each stack removed.",
+        "multipliers": [
+          {
+            "Lv1": "33.42% + 50.13%",
+            "Lv10": "66.44% + 99.66%",
+            "Lv2": "36.16% + 54.24%",
+            "Lv3": "38.90% + 58.35%",
+            "Lv4": "42.74% + 64.11%",
+            "Lv5": "45.48% + 68.22%",
+            "Lv6": "48.63% + 72.94%",
+            "Lv7": "53.02% + 79.52%",
+            "Lv8": "57.40% + 86.10%",
+            "Lv9": "61.78% + 92.67%",
+            "Name": "Awakening Gale DMG"
+          },
+          {
+            "Lv1": "11.76%*3 + 52.89%",
+            "Lv10": "23.37%*3 + 105.15%",
+            "Lv2": "12.72%*3 + 57.23%",
+            "Lv3": "13.69%*3 + 61.57%",
+            "Lv4": "15.03%*3 + 67.64%",
+            "Lv5": "16.00%*3 + 71.97%",
+            "Lv6": "17.11%*3 + 76.96%",
+            "Lv7": "18.65%*3 + 83.90%",
+            "Lv8": "20.19%*3 + 90.84%",
+            "Lv9": "21.73%*3 + 97.78%",
+            "Name": "Skyfall Severance DMG"
+          },
+          {
+            "Lv1": "3",
+            "Lv10": "3",
+            "Lv2": "3",
+            "Lv3": "3",
+            "Lv4": "3",
+            "Lv5": "3",
+            "Lv6": "3",
+            "Lv7": "3",
+            "Lv8": "3",
+            "Lv9": "3",
+            "Name": "Awakening Gale Cooldown"
+          },
+          {
+            "Lv1": "12",
+            "Lv10": "12",
+            "Lv2": "12",
+            "Lv3": "12",
+            "Lv4": "12",
+            "Lv5": "12",
+            "Lv6": "12",
+            "Lv7": "12",
+            "Lv8": "12",
+            "Lv9": "12",
+            "Name": "Skyfall Severance Cooldown"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Awakening Gale Concerto Regen"
+          },
+          {
+            "Lv1": "5",
+            "Lv10": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Name": "Skyfall Severance Concerto Regen"
+          }
+        ],
+        "name": "Illusion Breaker",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Unleash the power of the Eye of Tempest, dealing Aero DMG and healing all nearby Resonators in the team.Can be cast in mid-air close to the ground.",
+        "multipliers": [
+          {
+            "Lv1": "270.00%",
+            "Lv10": "536.79%",
+            "Lv2": "292.14%",
+            "Lv3": "314.28%",
+            "Lv4": "345.28%",
+            "Lv5": "367.42%",
+            "Lv6": "392.88%",
+            "Lv7": "428.31%",
+            "Lv8": "463.73%",
+            "Lv9": "499.15%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "1100 + 36.67%",
+            "Lv10": "2090 + 77.00%",
+            "Lv2": "1232 + 38.13%",
+            "Lv3": "1375 + 39.60%",
+            "Lv4": "1540 + 41.80%",
+            "Lv5": "1738 + 44.73%",
+            "Lv6": "1925 + 47.67%",
+            "Lv7": "1958 + 53.17%",
+            "Lv8": "2002 + 59.40%",
+            "Lv9": "2035 + 66.00%",
+            "Name": "Healing"
+          },
+          {
+            "Lv1": "24",
+            "Lv10": "24",
+            "Lv2": "24",
+            "Lv3": "24",
+            "Lv4": "24",
+            "Lv5": "24",
+            "Lv6": "24",
+            "Lv7": "24",
+            "Lv8": "24",
+            "Lv9": "24",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "150",
+            "Lv10": "150",
+            "Lv2": "150",
+            "Lv3": "150",
+            "Lv4": "150",
+            "Lv5": "150",
+            "Lv6": "150",
+            "Lv7": "150",
+            "Lv8": "150",
+            "Lv9": "150",
+            "Name": "Resonance Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Omega Storm",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Mid-air Attack - Cloudburst DancePerform up to 2 consecutive attacks, dealing Aero DMG (considered Resonance Skill DMG) and healing all nearby Resonators in the team. Cast through the following 3 ways:Press Normal Attack right after casting Resonance Skill Awakening Gale.Press Normal Attack right after casting Intro Skill.Press Normal Attack right after casting Heavy Attack Razor Wind.When casting Mid-air Attack Cloudburst Dance, hold Normal Attack to perform Mid-air Attack.Resonance Skill - Unbound FlowAt max Windstrings, Resonance Skill Awakening Gale becomes Resonance Skill Unbound Flow: Perform up to 2 consecutive attacks. Each attack consumes 60 Windstrings, dealing Aero DMG, considered Resonance Skill DMG.Switching to another Resonator after Stage 1 automatically triggers Stage 2 of this skill.WindstringRover can hold up to 120 Windstrings.Each stage of Mid-air Attack Cloudburst Dance restores 25 Windstrings on hit.Casting Intro Skill restores 20 Windstrings.Hitting a target with Basic Attack Stage 3 or 4 or Dodge Counter restores 10 Windstrings.",
+        "multipliers": [
+          {
+            "Lv1": "64.79%",
+            "Lv10": "128.80%",
+            "Lv2": "70.10%",
+            "Lv3": "75.41%",
+            "Lv4": "82.85%",
+            "Lv5": "88.16%",
+            "Lv6": "94.27%",
+            "Lv7": "102.77%",
+            "Lv8": "111.27%",
+            "Lv9": "119.77%",
+            "Name": "Cloudburst Dance Stage 1 DMG"
+          },
+          {
+            "Lv1": "71.16%",
+            "Lv10": "141.47%",
+            "Lv2": "76.99%",
+            "Lv3": "82.83%",
+            "Lv4": "91.00%",
+            "Lv5": "96.83%",
+            "Lv6": "103.54%",
+            "Lv7": "112.88%",
+            "Lv8": "122.21%",
+            "Lv9": "131.55%",
+            "Name": "Cloudburst Dance Stage 2 DMG"
+          },
+          {
+            "Lv1": "330 + 11.00%",
+            "Lv10": "627 + 23.10%",
+            "Lv2": "369 + 11.44%",
+            "Lv3": "412 + 11.88%",
+            "Lv4": "462 + 12.54%",
+            "Lv5": "521 + 13.42%",
+            "Lv6": "577 + 14.30%",
+            "Lv7": "587 + 15.95%",
+            "Lv8": "600 + 17.82%",
+            "Lv9": "610 + 19.80%",
+            "Name": "Cloudburst Dance Healing"
+          },
+          {
+            "Lv1": "17.26%*5",
+            "Lv10": "34.30%*5",
+            "Lv2": "18.67%*5",
+            "Lv3": "20.09%*5",
+            "Lv4": "22.07%*5",
+            "Lv5": "23.48%*5",
+            "Lv6": "25.11%*5",
+            "Lv7": "27.37%*5",
+            "Lv8": "29.63%*5",
+            "Lv9": "31.90%*5",
+            "Name": "Unbound Flow Stage 1 DMG"
+          },
+          {
+            "Lv1": "363.68%",
+            "Lv10": "723.03%",
+            "Lv2": "393.50%",
+            "Lv3": "423.32%",
+            "Lv4": "465.07%",
+            "Lv5": "494.90%",
+            "Lv6": "529.19%",
+            "Lv7": "576.90%",
+            "Lv8": "624.62%",
+            "Lv9": "672.33%",
+            "Name": "Unbound Flow Stage 2 DMG"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Unbound Flow Concerto Regen per Stage"
+          }
+        ],
+        "name": "Cycle of Wind",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "Casting Intro Skill Relentless Squall increases ATK by 20% for 10s.",
+        "multipliers": [],
+        "name": "Sand in the Storm",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "Increase Healing from Resonance Liberation Omega Storm by 20%.",
+        "multipliers": [],
+        "name": "Boundless Winds",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Deal Aero DMG.",
+        "multipliers": [
+          {
+            "Lv1": "40.00% + 60.00%",
+            "Lv10": "79.53% + 119.29%",
+            "Lv2": "43.28% + 64.92%",
+            "Lv3": "46.56% + 69.84%",
+            "Lv4": "51.16% + 76.73%",
+            "Lv5": "54.44% + 81.65%",
+            "Lv6": "58.21% + 87.31%",
+            "Lv7": "63.46% + 95.18%",
+            "Lv8": "68.70% + 103.05%",
+            "Lv9": "73.95% + 110.93%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Relentless Squall",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Grant Aeolian Realm to all nearby Resonators in the team for 30s. Aeolian Realm effect:Upon hitting a target, increase the maximum stack of Aero Erosion the target can receive by 3 for 10s. This effect is not stackable.",
+        "multipliers": [],
+        "name": "Storm's Echo",
+        "skill_type": "Outro Skill"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "cartethyia"
+        ],
+        "commentary": "Aero Rover does a number of things for Cartethyia: From amplifying Aero DMG to increasing the number of Aero Erosion stacks that can be present on targets, Aero Rover is a major help towards making full leverage out of Cartethyia's kit. However, unless paired with Ciaccona, Cartethyia will still have trouble fully stacking up Aero Erosion, in which case Shorekeeper or Verina will be preferred until Ciaccona can join the team as they provide stronger buffs for Cartethyia."
+      },
+      {
+        "characters": [
+          "iuno"
+        ],
+        "commentary": "Aero Rover is the best buffer for a Main DPS Iuno thanks to their weapon providing the team with a massive, easily upkept 26% Aero DMG Amplify when finishing their rotation; they also boost Ciaccona's damage if she's on the team by increasing the cap of Aero Erosion stacks applicable to enemies, and finally they can also be considered alongside Jiyan and Iuno for a good mix of plenty of buffing, healing, and some personal damage."
+      },
+      {
+        "characters": [
+          "jiyan"
+        ],
+        "commentary": "Aero Rover amplifies Jiyan's Aero DMG via their free signature weapon Bloodpact's Pledge Passive, and the healing they provide means they can effortlessly trigger the Rejuvenating Glow Echo set. While Jiyan is unable to exploit Aero Erosion himself, other buffers such as Ciaccona can, making for a solid and functional alternative team in spite of Aero Rover's clunkiness."
+      },
+      {
+        "characters": [
+          "ciaccona"
+        ],
+        "commentary": "Ciaccona is the best Aero Erosion applier and amplifier in the game. Naturally, Aero Rover pairs best with her to take her damage to new heights, via the Rejuvenating Glow set, their Outro skill to increase the amount of Aero Erosion DMG Ciaccona can inflict and the Aero DMG Amplification their weapon provides."
+      }
+    ],
+    "upgrade_materials": {
+      "character_ascension": [
+        {
+          "material_name": "Pecok Flower",
+          "quantity": 60,
+          "rarity": "boss"
+        },
+        {
+          "material_name": "Mysterious Code",
+          "quantity": 5,
+          "rarity": "specialty"
+        },
+        {
+          "material_name": "LF Whisperin Core",
+          "quantity": 4,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Whisperin Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Whisperin Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Whisperin Core",
+          "quantity": 4,
+          "rarity": "common"
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "Unwarranted Feather",
+          "quantity": 26,
+          "rarity": "weekly_boss"
+        },
+        {
+          "material_name": "LF Whisperin Core",
+          "quantity": 25,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Whisperin Core",
+          "quantity": 28,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Whisperin Core",
+          "quantity": 40,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Whisperin Core",
+          "quantity": 57,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Inert Metallic Drip",
+          "quantity": 25,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Reactive Metallic Drip",
+          "quantity": 28,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Polarized Metallic Drip",
+          "quantity": 55,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Heterized Metallic Drip",
+          "quantity": 67,
+          "rarity": "skill_material"
+        }
+      ]
+    },
+    "voice_actors": {
+      "cn": "Du QingQing / Ma Yang",
+      "eng": "Jane Jackson / Chase Brown",
+      "jpn": "Tanaka Minami / Toshiki Masuda",
+      "kr": "Song Ha Rim / Kim Sin Woo"
+    }
+  },
+  "status": "success"
+}

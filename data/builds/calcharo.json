@@ -1,35 +1,292 @@
 {
-  "status": "success",
   "data": {
+    "base_stats_lvl_90": {
+      "atk": 35,
+      "crit_dmg": "166%",
+      "crit_rate": "5%",
+      "def": 97,
+      "elemental_dmg_bonus": "0%",
+      "healing_bonus": "0%",
+      "hp": 840,
+      "max_energy": 125
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Offers a 10% unconditional Electro DMG% boost and up to an additional 30% Electro DMG% after you land a combination of 2 Heavy Attacks or Resonance Skills for a grand total of 40% additional Electro damage after fully ramped.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Offers an unconditional 12% Electro DMG and 12% Liberation DMG boost when placed in the main Main Echo slot, making it a solid choice for Electro focused resonators who emphasize Liberation damage and are looking to use the 5P Void Thunder set bonus.",
+            "echo_name": "Nightmare: Thundering Mephis"
+          },
+          {
+            "echo_commentary": "Offers an unconditional 12% Electro DMG and 12% Resonance Skill DMG boost when placed in the Main Echo slot, making it a solid choice for Electro focused resonators who emphasize Resonance Skill damage and are looking to use either the 5P Empyrean Anthem Echo or 5P Void Thunder set bonus.",
+            "echo_name": "Nightmare: Tempest Mephis"
+          }
+        ],
+        "percentage_performance": "100.00%",
+        "set_name": "Void Thunder"
+      },
+      {
+        "commentary": "Offers a 10% unconditional ATK% boost and an additional 5% ATK% for every 1.5 seconds the equipped character has been in combat - up to 20% after 6 seconds, totalling 30% additional ATK% after fully ramped. This set almost almost loses out to most characters signature elemental sets, but is generically usable across all damage characters regardless of their element.\nThe calculations for this set assume you're not swaping during the combo. If you will swap, the set performance drops (to 88.81%).",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Very easy echo to use that should be used at the very beginning of the burst window right after the Intro. Thanks to its instant cast there is no thinking required and you can enjoy your ATK% boost and some nice burst damage.",
+            "echo_name": "Mech Abomination"
+          }
+        ],
+        "percentage_performance": "93.04%",
+        "set_name": "Endless Resonance"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ],
+        "cost_3": [
+          "Electro DMG",
+          "Electro DMG > ATK%"
+        ],
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%",
+        "ATK  Liberation DMG%"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "Lupa's Signature weapon is an increase in damage for Calcharo, albeit a very small one. As it buffs Resonance Liberation DMG, it's able to buff Calcharo's Death Messengers which concentrate the majority of his damage, however it will not buff more than 2 Death Messengers due to the short nature of its buff (Calcharo cannot extend this effect without reducing the number of Death Messengers he can perform per rotation). As a result, the increase this weapon provides for him definitely exists, it's simply very small.",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.72%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Performing Intro Skill or Resonance Liberation increases Resonance Liberation DMG by {1} for 6s. Dealing Heavy Attack DMG extends this effect by 4s, up to 1 time. Each successful extension gives {1} Fusion DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Wildfire Mark"
+      },
+      {
+        "commentary_details": "Top Broadblade option only in competition with some 4â weapons with multiple copies invested or limited 5â weapons. Offers high base ATK, ATK%, a good amount of Energy Regen to save at least 1 sub-stat on gear to be reallocated to better uses and a stackable Resonance Liberation ATK DMG% bonus that ramps up as you use Resonance Skills.",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases Resonance Liberation DMG by {1}, stacking up to {2} times. This effect lasts for {3}s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Lustrous Razor"
+      },
+      {
+        "commentary_details": "A very competitive option to his best in slot if you didn't pull it on the standard banner. The high base ATK, as well as the 24% crit rate and 12% DMG bonus substats are very nice, especially if you need your weapon to even out your crit ratios, in which builds it might outdo Lustrous Razor; and while barely used on Calcharo at all, the Resonance Skill DMG boost is always a small damage increase. ",
+        "dupe_rank": "R1",
+        "percentage_performance": "98.37%",
+        "weapon_base_info": {
+          "effect_description": "Grants {0} Attribute DMG Bonus. Casting Intro Skill gives the equipper Ageless Marking, which grants {1} Resonance Skill DMG Bonus for 12s. Casting Resonance Skill gives the equipper Ethereal Endowment, which grants {1} Resonance Skill DMG Bonus for 12s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Gacha"
+        },
+        "weapon_name": "Ages of Harvest"
+      },
+      {
+        "commentary_details": "Jiyan's signature weapon that's not only fantastic for him but also usable on all damage-focused Broadblade users. Offers a huge main stat of CRIT DMG% granting excellent scaling, 12% permanent generic DMG% and up to 48% increased Heavy ATK DMG% after using 1/2 skills and or a Resonance Liberation.",
+        "dupe_rank": "R1",
+        "percentage_performance": "96.69%",
+        "weapon_base_info": {
+          "effect_description": "Increases the DMG Bonus of all Resonance Attributes by {0}. Every time Intro Skill or Resonance Liberation is cast, increases Heavy Attack DMG Bonus by {1}, stacking up to 2 time(s). This effect lasts for 14s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Limited"
+        },
+        "weapon_name": "Verdant Summit"
+      },
+      {
+        "commentary_details": "Strongest 4â Broadsword option, granting main stat CRIT RATE for excellent scaling and an incredibly easy to access bonus ability which grants a stacking ATK% buff that only requires you to use Basic or Heavy attacks during your rotation.",
+        "dupe_rank": "R5",
+        "percentage_performance": "94.25%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0} upon dealing Basic Attack DMG or Heavy Attack DMG, stacking up to 5 time(s). This effect lasts for 7s and can be triggered 1 time(s) every 1s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.2,
+          "source": "Pioneer Podcast"
+        },
+        "weapon_name": "Autumntrace"
+      },
+      {
+        "commentary_details": "Gives solid base stats of ATK and CRIT DMG while also providing increased ATK and Heavy Attack DMG bonus when casting Ultimate. Particularly strong on Broadblade damage dealers who benefit from this attack type, but generally usable in any case.",
+        "dupe_rank": "R5",
+        "percentage_performance": "84.06%",
+        "weapon_base_info": {
+          "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Heavy Attack DMG Bonus for 15s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 40.5,
+          "source": "Battle Pass"
+        },
+        "weapon_name": "Aureate Zenith"
+      },
+      {
+        "commentary_details": "A solid F2P 4* broadblade option for any DPS character scaling off of ATK. The ATK% boost it provides when casting your Resonance Skill is great on most characters, and while the small energy generation it provides at the same time is more situational, it can be handy as well. ",
+        "dupe_rank": "R5",
+        "percentage_performance": "83.29%",
+        "weapon_base_info": {
+          "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Gacha"
+        },
+        "weapon_name": "Waning Redshift"
+      },
+      {
+        "commentary_details": "A generic option, granting a stacking ATK% buff after using your Resonance Skill that starts at 0 and grants 1 stack every 2 seconds up to 4 stacks - reaching a maximum after 8 seconds. Buff resets shortly after the stack cap limit is reached after which you'll have to repeat the cycle anew. Falls behind other options due to it's buff being inconsistent but still a viable option if you don't have better.",
+        "dupe_rank": "R5",
+        "percentage_performance": "82.39%",
+        "weapon_base_info": {
+          "effect_description": "Within {0}s after Resonance Skill is cast, increases ATK by {2} every 2s, stacking up to 4 time(s). This effect can be triggered 1 time(s) every 12s. When the number of stacks reaches 4, all stacks will be reset within 6s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 30.3,
+          "source": ""
+        },
+        "weapon_name": "Helios Cleaver"
+      },
+      {
+        "commentary_details": "Another generic Broadblade option with a mix of utility and offense, granting a large amount of Energy Regen as a main stat. Also a reasonably strong and easy to maintain bonus ability that offers an ATK% buff as long as you remain above 80% HP. Our calculations assume you'll stay above 80% for the whole fight, if you can't you can lower this weapons performance.",
+        "dupe_rank": "R5",
+        "percentage_performance": "80.62%",
+        "weapon_base_info": {
+          "effect_description": "When the Resonator's HP is above 80%, increases ATK by {0}. When the Resonator's HP is below {1}, restores their HP by {2}, for dealing Basic Attack DMG or Heavy Attack DMG. This effect can be triggered 1 time(s) every 8s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "Energy Reg.",
+          "secondary_stat_val": 32.3,
+          "source": "Synthesis"
+        },
+        "weapon_name": "Broadblade#41"
+      }
+    ],
     "character_metadata": {
-      "name": "Calcharo",
-      "slug": "calcharo",
-      "rarity_stars": 5,
-      "element": "Electro",
-      "weapon_type": "Broadblade",
       "breadcrumb": [
         "Wuthering Waves",
         "Characters",
         "Calcharo"
       ],
+      "element": "Electro",
+      "name": "Calcharo",
+      "rarity_stars": 5,
+      "slug": "calcharo",
       "updates": {
-        "last_updated": "10/July/2026",
-        "last_review_patch": "2.1",
         "last_major_build_patch": "2.6",
-        "last_profile_update": "10/July/2026"
+        "last_profile_update": "10/July/2026",
+        "last_review_patch": "2.1",
+        "last_updated": "10/July/2026"
+      },
+      "weapon_type": "Broadblade"
+    },
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "calcharo"
+        },
+        "slot_2": {
+          "alternatives": [
+            "yinlin"
+          ],
+          "character_name": "lynae"
+        },
+        "slot_3": {
+          "alternatives": [
+            "the-shorekeeper",
+            "verina"
+          ],
+          "character_name": "mornye"
+        },
+        "team_name": "Best Team",
+        "team_notes": "Mornye is only best with Lynae on the team."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "calcharo"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "jianxin"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Budget Team",
+        "team_notes": "This team is entirely incompatible with Swap Cancels."
       }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/calcharo_full.webp",
+      "youtube_guide_embed_url": "https://www.youtube.com/embed/_DEtN5owkWc",
+      "youtube_guide_full_url": "https://www.youtube.com/watch?v=_DEtN5owkWc"
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+16%",
+        "stat_name": "CRIT DMG"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "ATK%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "The most inconsistent character in the game, who suffers the most from interruption, enemy movement and having to dodge;",
+        "Making mistakes in his rotation will cause a lot of damage loss;",
+        "Hardest rotation to execute in the game, costing him a fair amount of his damage potential when not performed;",
+        "Realistically close to no AoE capability;",
+        "Swap cancelling makes him lose damage potential despite giving more consistency;",
+        "Only realistically works in a team with Yinlin, a limited 5 star;",
+        "His Intro Skill costs a lot of time on Tower of Adversity runs due to a long wind-up animation."
+      ],
+      "pros": [
+        "Good damage ceiling when played perfectly (especially with his hardest rotation, which makes him competitive with high tiers);",
+        "More consistent with players willing to learn swap cancelling."
+      ]
     },
     "ratings": {
       "dps_ratings": {
         "tower_of_adversity": {
-          "tier": "T4",
           "tags": [
             "Expert +1"
-          ]
+          ],
+          "tier": "T4"
         },
         "whimpering_wastes": {
-          "tier": "T4",
-          "tags": []
+          "tags": [],
+          "tier": "T4"
         }
       },
       "value_tier_ratings": {
@@ -41,28 +298,48 @@
         }
       }
     },
-    "media": {
-      "youtube_guide_embed_url": "https://www.youtube.com/embed/_DEtN5owkWc",
-      "youtube_guide_full_url": "https://www.youtube.com/watch?v=_DEtN5owkWc",
-      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/calcharo_full.webp"
-    },
-    "pros_and_cons": {
-      "pros": [
-        "Good damage ceiling when played perfectly (especially with his hardest rotation, which makes him competitive with high tiers);",
-        "More consistent with players willing to learn swap cancelling."
-      ],
-      "cons": [
-        "The most inconsistent character in the game, who suffers the most from interruption, enemy movement and having to dodge;",
-        "Making mistakes in his rotation will cause a lot of damage loss;",
-        "Hardest rotation to execute in the game, costing him a fair amount of his damage potential when not performed;",
-        "Realistically close to no AoE capability;",
-        "Swap cancelling makes him lose damage potential despite giving more consistency;",
-        "Only realistically works in a team with Yinlin, a limited 5 star;",
-        "His Intro Skill costs a lot of time on Tower of Adversity runs due to a long wind-up animation."
-      ]
-    },
+    "recommended_endgame_stats_target": [
+      "HP: 15000+",
+      "DEF: 1150+",
+      "ATK: 1800-2300+",
+      "CRIT Rate: 60%-80%+",
+      "CRIT DMG: 215-280%+",
+      "Energy Regen: 120%-160%+Lower end estimated in a Lynae+Shorekeeper team, Higher end estimated in a Xiangli Yao+Shorekeeper quickswap team. S1 decreases ER requirements by ~20%.",
+      "Electro DMG Bonus: 40-70%+"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "When Resonance Skill Extermination Order hits a target, it additionally recovers 10 Resonance Energy. This can be triggered once every 20 seconds.",
+        "name": "Sequence Node 1",
+        "node": "S1"
+      },
+      {
+        "description": "After Calcharo casts Intro Skill Wanted Criminal or Intro Skill \"Necessary Means\", his Resonance Skill DMG Bonus is increased by 30% for 15s.",
+        "name": "Sequence Node 2",
+        "node": "S2"
+      },
+      {
+        "description": "During the Resonance Liberation Deathblade Gear state, Calcharo's Electro DMG Bonus is increased by 25%.",
+        "name": "Sequence Node 3",
+        "node": "S3"
+      },
+      {
+        "description": "After casting Outro Skill Shadowy Raid, Electro DMG Bonus of all team members is increased by 20% for 30s.",
+        "name": "Sequence Node 4",
+        "node": "S4"
+      },
+      {
+        "description": "Intro Skill Wanted Criminal and Intro Skill \"Necessary Means: deal 50% more damage.",
+        "name": "Sequence Node 5",
+        "node": "S5"
+      },
+      {
+        "description": "When casting Resonance Liberation \"Death Messenger\", Calcharo will summon 2 Phantoms to perform Coordinated Attacks. Each Phantom deals Electro DMG equal to 100.00% of Calcharo's ATK, which is considered Resonance Liberation damage.",
+        "name": "Sequence Node 6",
+        "node": "S6"
+      }
+    ],
     "review": {
-      "summary": "Let's address the elephant in the room first: Calcharo is the hardest character to play at an optimized level. But don't let that scare you too much. As an Electro Broadblade 5-star Main DPS from the standard banner pool, he shines the brightest in Hypercarry team archetypes where he has the potential to deal large bursts of damage during the state provided by his Ultimate.",
       "sections": [
         {
           "heading": "Summary",
@@ -74,873 +351,8 @@
             "As a result, to summarize, Calcharo is a very underwhelming Main DPS character. Previously thought to be extremely strong in beta, he was revealed to do extremely underwhelming damage at a casual level, rivaling some of the worst DPS characters in the game, and at best can dish out mid-high tier damage when played absolutely perfectly. Even then, the best players in the world will find his optimal rotations very inconsistent and pretty much as impossible as can be to execute every rotation, at which point he loses out on a significant portion of his damage ceiling. It is not recommended to invest into him unless you really like the character and/or are willing to go down the rabbit hole of some of the most inconsistent rotations in the world."
           ]
         }
-      ]
-    },
-    "skills": [
-      {
-        "name": "Gnawing Fangs",
-        "category": "Active",
-        "skill_type": "Basic Attack",
-        "description": "Basic AttackPerform up to 4 attacks, dealing Electro DMG.Heavy AttackConsume Stamina to attack the target, dealing Electro DMG.Mid-air AttackConsume Stamina to perform a Mid-Air Plunging Attack, dealing Electro DMG.Dodge CounterUsing Basic Attack after a successful Dodge to attack the target, dealing Electro DMG.",
-        "multipliers": [
-          {
-            "Lv1": "23.00%*2",
-            "Lv2": "24.89%*2",
-            "Lv3": "26.78%*2",
-            "Lv4": "29.42%*2",
-            "Lv5": "31.30%*2",
-            "Lv6": "33.47%*2",
-            "Lv7": "36.49%*2",
-            "Lv8": "39.51%*2",
-            "Lv9": "42.53%*2",
-            "Lv10": "45.73%*2",
-            "Name": "Part 1 Damage"
-          },
-          {
-            "Lv1": "50.00%",
-            "Lv2": "54.10%",
-            "Lv3": "58.20%",
-            "Lv4": "63.94%",
-            "Lv5": "68.04%",
-            "Lv6": "72.76%",
-            "Lv7": "79.32%",
-            "Lv8": "85.88%",
-            "Lv9": "92.44%",
-            "Lv10": "99.41%",
-            "Name": "Part 2 Damage"
-          },
-          {
-            "Lv1": "42.84%+21.42%*3",
-            "Lv2": "46.36%+23.18%*3",
-            "Lv3": "49.87%+24.94%*3",
-            "Lv4": "54.79%+27.40%*3",
-            "Lv5": "58.30%+29.15%*3",
-            "Lv6": "62.34%+31.17%*3",
-            "Lv7": "67.96%+33.98%*3",
-            "Lv8": "73.58%+36.79%*3",
-            "Lv9": "79.20%+39.60%*3",
-            "Lv10": "85.18%+42.59%*3",
-            "Name": "Part 3 Damage"
-          },
-          {
-            "Lv1": "39.99%*2+53.32%",
-            "Lv2": "43.27%*2+57.70%",
-            "Lv3": "46.55%*2+62.07%",
-            "Lv4": "51.14%*2+68.19%",
-            "Lv5": "54.42%*2+72.56%",
-            "Lv6": "58.19%*2+77.59%",
-            "Lv7": "63.44%*2+84.59%",
-            "Lv8": "68.69%*2+91.58%",
-            "Lv9": "73.93%*2+98.58%",
-            "Lv10": "79.51%*2+106.01%",
-            "Name": "Part 4 Damage"
-          },
-          {
-            "Lv1": "20.80%*5",
-            "Lv2": "22.51%*5",
-            "Lv3": "24.22%*5",
-            "Lv4": "26.60%*5",
-            "Lv5": "28.31%*5",
-            "Lv6": "30.27%*5",
-            "Lv7": "33.00%*5",
-            "Lv8": "35.73%*5",
-            "Lv9": "38.46%*5",
-            "Lv10": "41.36%*5",
-            "Name": "Heavy Attack Damage"
-          },
-          {
-            "Lv1": "62.00%",
-            "Lv2": "67.09%",
-            "Lv3": "72.17%",
-            "Lv4": "79.29%",
-            "Lv5": "84.37%",
-            "Lv6": "90.22%",
-            "Lv7": "98.36%",
-            "Lv8": "106.49%",
-            "Lv9": "114.62%",
-            "Lv10": "123.27%",
-            "Name": "Mid-Air Attack Damage"
-          },
-          {
-            "Lv1": "33.44%*3+42.99%",
-            "Lv2": "36.18%*3+46.52%",
-            "Lv3": "38.93%*3+50.05%",
-            "Lv4": "42.76%*3+54.98%",
-            "Lv5": "45.51%*3+58.51%",
-            "Lv6": "48.66%*3+62.56%",
-            "Lv7": "53.05%*3+68.20%",
-            "Lv8": "57.43%*3+73.84%",
-            "Lv9": "61.82%*3+79.48%",
-            "Lv10": "66.48%*3+85.47%",
-            "Name": "Dodge Counter Damage"
-          },
-          {
-            "Lv1": "30",
-            "Lv2": "30",
-            "Lv3": "30",
-            "Lv4": "30",
-            "Lv5": "30",
-            "Lv6": "30",
-            "Lv7": "30",
-            "Lv8": "30",
-            "Lv9": "30",
-            "Lv10": "30",
-            "Name": "Heavy Attack Stamina Consumption"
-          },
-          {
-            "Lv1": "30",
-            "Lv2": "30",
-            "Lv3": "30",
-            "Lv4": "30",
-            "Lv5": "30",
-            "Lv6": "30",
-            "Lv7": "30",
-            "Lv8": "30",
-            "Lv9": "30",
-            "Lv10": "30",
-            "Name": "Mid-Air Attack Stamina Consumption"
-          }
-        ]
-      },
-      {
-        "name": "Extermination Order",
-        "category": "Active",
-        "skill_type": "Resonance Skill",
-        "description": "Cast up to 3 attacks. Deal Electro DMG.If this Character is switched or Resonance Skill Extermination Order is not repeated in a while, it will be put on a Cooldown. Resonance Skill Extermination Order does not reset your Basic Attack stage.",
-        "multipliers": [
-          {
-            "Lv1": "25.94%*2+34.59%",
-            "Lv2": "28.07%*2+37.42%",
-            "Lv3": "30.20%*2+40.26%",
-            "Lv4": "33.17%*2+44.23%",
-            "Lv5": "35.30%*2+47.07%",
-            "Lv6": "37.75%*2+50.33%",
-            "Lv7": "41.15%*2+54.87%",
-            "Lv8": "44.55%*2+59.40%",
-            "Lv9": "47.96%*2+63.94%",
-            "Lv10": "51.57%*2+68.76%",
-            "Name": "Extermination Order Part 1 Damage"
-          },
-          {
-            "Lv1": "38.91%*2+51.88%",
-            "Lv2": "42.10%*2+56.13%",
-            "Lv3": "45.29%*2+60.39%",
-            "Lv4": "49.76%*2+66.34%",
-            "Lv5": "52.95%*2+70.60%",
-            "Lv6": "56.62%*2+75.49%",
-            "Lv7": "61.72%*2+82.30%",
-            "Lv8": "66.83%*2+89.10%",
-            "Lv9": "71.93%*2+95.91%",
-            "Lv10": "77.36%*2+103.14%",
-            "Name": "Extermination Order Part 2 Damage"
-          },
-          {
-            "Lv1": "108.08%*2",
-            "Lv2": "116.94%*2",
-            "Lv3": "125.80%*2",
-            "Lv4": "138.21%*2",
-            "Lv5": "147.07%*2",
-            "Lv6": "157.26%*2",
-            "Lv7": "171.44%*2",
-            "Lv8": "185.62%*2",
-            "Lv9": "199.80%*2",
-            "Lv10": "214.87%*2",
-            "Name": "Extermination Order Part 3 Damage"
-          },
-          {
-            "Lv1": "10",
-            "Lv2": "10",
-            "Lv3": "10",
-            "Lv4": "10",
-            "Lv5": "10",
-            "Lv6": "10",
-            "Lv7": "10",
-            "Lv8": "10",
-            "Lv9": "10",
-            "Lv10": "10",
-            "Name": "Cooldown"
-          },
-          {
-            "Lv1": "4",
-            "Lv2": "4",
-            "Lv3": "4",
-            "Lv4": "4",
-            "Lv5": "4",
-            "Lv6": "4",
-            "Lv7": "4",
-            "Lv8": "4",
-            "Lv9": "4",
-            "Lv10": "4",
-            "Name": "Extermination Order Con. Energy Regen"
-          }
-        ]
-      },
-      {
-        "name": "Phantom Etching",
-        "category": "Active",
-        "skill_type": "Resonance Liberation",
-        "description": "Calcharo attacks the target, dealing Electro DMG and enters Deathblade Gear state. After Resonance Liberation Deathblade Gear state ends, Calcharo's next Intro Skill is replaced with Intro Skill \"Necessary Means\", which deals Electro DMG, considered as Intro Skill damage.Deathblade GearBasic Attack is replaced with Basic Attack Hounds Roar. Dodge Counter deals increased damage, considered as Resonance Liberation damage.Hounds RoarPerform up to 5 consecutive attacks, dealing Electro DMG, considered as Basic Attack Damage.",
-        "multipliers": [
-          {
-            "Lv1": "300.00%",
-            "Lv2": "324.60%",
-            "Lv3": "349.20%",
-            "Lv4": "383.64%",
-            "Lv5": "408.24%",
-            "Lv6": "436.53%",
-            "Lv7": "475.89%",
-            "Lv8": "515.25%",
-            "Lv9": "554.61%",
-            "Lv10": "596.43%",
-            "Name": "Skill Damage"
-          },
-          {
-            "Lv1": "100.00%*2",
-            "Lv2": "108.20%*2",
-            "Lv3": "116.40%*2",
-            "Lv4": "127.88%*2",
-            "Lv5": "136.08%*2",
-            "Lv6": "145.51%*2",
-            "Lv7": "158.63%*2",
-            "Lv8": "171.75%*2",
-            "Lv9": "184.87%*2",
-            "Lv10": "198.81%*2",
-            "Name": "Necessary Means Damage"
-          },
-          {
-            "Lv1": "44.30%",
-            "Lv2": "47.93%",
-            "Lv3": "51.56%",
-            "Lv4": "56.65%",
-            "Lv5": "60.28%",
-            "Lv6": "64.46%",
-            "Lv7": "70.27%",
-            "Lv8": "76.08%",
-            "Lv9": "81.89%",
-            "Lv10": "88.07%",
-            "Name": "Hounds Roar Part 1"
-          },
-          {
-            "Lv1": "17.72%*2+26.58%*2",
-            "Lv2": "19.18%*2+28.76%*2",
-            "Lv3": "20.63%*2+30.94%*2",
-            "Lv4": "22.66%*2+33.99%*2",
-            "Lv5": "24.11%*2+36.17%*2",
-            "Lv6": "25.79%*2+38.68%*2",
-            "Lv7": "28.11%*2+42.16%*2",
-            "Lv8": "30.43%*2+45.65%*2",
-            "Lv9": "32.76%*2+49.14%*2",
-            "Lv10": "35.23%*2+52.84%*2",
-            "Name": "Hounds Roar Part 2"
-          },
-          {
-            "Lv1": "82.41%",
-            "Lv2": "89.17%",
-            "Lv3": "95.93%",
-            "Lv4": "105.39%",
-            "Lv5": "112.14%",
-            "Lv6": "119.92%",
-            "Lv7": "130.73%",
-            "Lv8": "141.54%",
-            "Lv9": "152.35%",
-            "Lv10": "163.84%",
-            "Name": "Hounds Roar Part 3"
-          },
-          {
-            "Lv1": "17.52%*6",
-            "Lv2": "18.95%*6",
-            "Lv3": "20.39%*6",
-            "Lv4": "22.40%*6",
-            "Lv5": "23.83%*6",
-            "Lv6": "25.49%*6",
-            "Lv7": "27.78%*6",
-            "Lv8": "30.08%*6",
-            "Lv9": "32.38%*6",
-            "Lv10": "34.82%*6",
-            "Name": "Hounds Roar Part 4"
-          },
-          {
-            "Lv1": "75.54%*2",
-            "Lv2": "81.74%*2",
-            "Lv3": "87.93%*2",
-            "Lv4": "96.61%*2",
-            "Lv5": "102.80%*2",
-            "Lv6": "109.92%*2",
-            "Lv7": "119.83%*2",
-            "Lv8": "129.74%*2",
-            "Lv9": "139.66%*2",
-            "Lv10": "150.19%*2",
-            "Name": "Hounds Roar Part 5"
-          },
-          {
-            "Lv1": "31.20%*5",
-            "Lv2": "33.76%*5",
-            "Lv3": "36.32%*5",
-            "Lv4": "39.90%*5",
-            "Lv5": "42.46%*5",
-            "Lv6": "45.40%*5",
-            "Lv7": "49.50%*5",
-            "Lv8": "53.59%*5",
-            "Lv9": "57.68%*5",
-            "Lv10": "62.03%*5",
-            "Name": "Heavy Attack Damage"
-          },
-          {
-            "Lv1": "28.67%*6",
-            "Lv2": "31.02%*6",
-            "Lv3": "33.37%*6",
-            "Lv4": "36.66%*6",
-            "Lv5": "39.01%*6",
-            "Lv6": "41.72%*6",
-            "Lv7": "45.48%*6",
-            "Lv8": "49.24%*6",
-            "Lv9": "53.00%*6",
-            "Lv10": "56.99%*6",
-            "Name": "Dodge Counter Damage"
-          },
-          {
-            "Lv1": "30",
-            "Lv2": "30",
-            "Lv3": "30",
-            "Lv4": "30",
-            "Lv5": "30",
-            "Lv6": "30",
-            "Lv7": "30",
-            "Lv8": "30",
-            "Lv9": "30",
-            "Lv10": "30",
-            "Name": "Heavy Attack Stamina Consumption"
-          },
-          {
-            "Lv1": "11",
-            "Lv2": "11",
-            "Lv3": "11",
-            "Lv4": "11",
-            "Lv5": "11",
-            "Lv6": "11",
-            "Lv7": "11",
-            "Lv8": "11",
-            "Lv9": "11",
-            "Lv10": "11",
-            "Name": "Deathblade Gear Duration"
-          },
-          {
-            "Lv1": "20",
-            "Lv2": "20",
-            "Lv3": "20",
-            "Lv4": "20",
-            "Lv5": "20",
-            "Lv6": "20",
-            "Lv7": "20",
-            "Lv8": "20",
-            "Lv9": "20",
-            "Lv10": "20",
-            "Name": "Cooldown Time"
-          },
-          {
-            "Lv1": "125",
-            "Lv2": "125",
-            "Lv3": "125",
-            "Lv4": "125",
-            "Lv5": "125",
-            "Lv6": "125",
-            "Lv7": "125",
-            "Lv8": "125",
-            "Lv9": "125",
-            "Lv10": "125",
-            "Name": "Res. Energy Cost"
-          },
-          {
-            "Lv1": "20",
-            "Lv2": "20",
-            "Lv3": "20",
-            "Lv4": "20",
-            "Lv5": "20",
-            "Lv6": "20",
-            "Lv7": "20",
-            "Lv8": "20",
-            "Lv9": "20",
-            "Lv10": "20",
-            "Name": "Con. Energy Regen"
-          }
-        ]
-      },
-      {
-        "name": "Hunting Mission",
-        "category": "Forte Circuit",
-        "skill_type": "Forte Circuit",
-        "description": "Heavy Attack: \"Mercy\"When Calcharo has 3 \"Cruelty\", his Heavy Attack is replaced with Heavy Attack \"Mercy\". When casting Heavy Attack \"Mercy\", Calcharo consumes 3 \"Cruelty\" to deal Electro DMG, considered as Heavy Attack damage, and recovers Resonance Energy and Concerto Energy.\"Cruelty\"Calcharo can hold up to 3 \"Cruelty\". Under Resonance Liberation Deathblade Gear state, \"Cruelty\" cannot be acquired. When Resonance Skill Extermination Order hits the target, gain 1 \"Cruelty\".Heavy Attack: \"Death Messenger\"When Calcharo has 5 \"Killing Intent\", his Basic Attack is replaced with Heavy Attack \"Death Messenger\". When casting Heavy Attack \"Death Messenger\", Calcharo consumes 5 \"Killing Intent\" to deal Electro DMG, considered as Resonance Liberation damage, and recovers Resonance Energy and Concerto Energy.\"Killing Intent\"Under Resonance Liberation Deathblade Gear state, Calcharo's Forte Gauge is replaced with \"Killing Intent\", stacking up to 5. When Basic Attack Hounds Roar hits the target, Calcharo gains 1 \"Killing Intent\".",
-        "multipliers": [
-          {
-            "Lv1": "19.67%*8+39.34%",
-            "Lv2": "21.29%*8+42.57%",
-            "Lv3": "22.90%*8+45.80%",
-            "Lv4": "25.16%*8+50.31%",
-            "Lv5": "26.77%*8+53.54%",
-            "Lv6": "28.63%*8+57.25%",
-            "Lv7": "31.21%*8+62.41%",
-            "Lv8": "33.79%*8+67.57%",
-            "Lv9": "36.37%*8+72.73%",
-            "Lv10": "39.11%*8+78.22%",
-            "Name": "Mercy Damage"
-          },
-          {
-            "Lv1": "49.18%*8+98.35%",
-            "Lv2": "53.21%*8+106.42%",
-            "Lv3": "57.24%*8+114.48%",
-            "Lv4": "62.89%*8+125.77%",
-            "Lv5": "66.92%*8+133.84%",
-            "Lv6": "71.56%*8+143.11%",
-            "Lv7": "78.01%*8+156.02%",
-            "Lv8": "84.46%*8+168.92%",
-            "Lv9": "90.91%*8+181.82%",
-            "Lv10": "97.77%*8+195.53%",
-            "Name": "Death Messenger Damage"
-          },
-          {
-            "Lv1": "6",
-            "Lv2": "6",
-            "Lv3": "6",
-            "Lv4": "6",
-            "Lv5": "6",
-            "Lv6": "6",
-            "Lv7": "6",
-            "Lv8": "6",
-            "Lv9": "6",
-            "Lv10": "6",
-            "Name": "Mercy Con. Energy Regen"
-          },
-          {
-            "Lv1": "10",
-            "Lv2": "10",
-            "Lv3": "10",
-            "Lv4": "10",
-            "Lv5": "10",
-            "Lv6": "10",
-            "Lv7": "10",
-            "Lv8": "10",
-            "Lv9": "10",
-            "Lv10": "10",
-            "Name": "Death Messenger Con. Energy Regen"
-          },
-          {
-            "Lv1": "6",
-            "Lv2": "6",
-            "Lv3": "6",
-            "Lv4": "6",
-            "Lv5": "6",
-            "Lv6": "6",
-            "Lv7": "6",
-            "Lv8": "6",
-            "Lv9": "6",
-            "Lv10": "6",
-            "Name": "Mercy Con. Energy Regen"
-          },
-          {
-            "Lv1": "5",
-            "Lv2": "5",
-            "Lv3": "5",
-            "Lv4": "5",
-            "Lv5": "5",
-            "Lv6": "5",
-            "Lv7": "5",
-            "Lv8": "5",
-            "Lv9": "5",
-            "Lv10": "5",
-            "Name": "Death Messenger Resonance Energy Regen"
-          }
-        ]
-      },
-      {
-        "name": "Bloodshed Awaken",
-        "category": "Inherent",
-        "skill_type": "Inherent Skill",
-        "description": "When casting Heavy Attack \"Mercy\", Calcharo's Resonance Liberation DMG Bonus is increased by 10% for 15s.",
-        "multipliers": []
-      },
-      {
-        "name": "Revenant Rush",
-        "category": "Inherent",
-        "skill_type": "Inherent Skill",
-        "description": "When Heavy Attack \"Death Messenger\" hits the target, the damage taken by Calcharo is reduced by 15% for 5s.",
-        "multipliers": []
-      },
-      {
-        "name": "Wanted Outlaw",
-        "category": "Transition",
-        "skill_type": "Intro Skill",
-        "description": "Attack the target, dealing Electro DMG.",
-        "multipliers": [
-          {
-            "Lv1": "20.00%*2+30.00%*2",
-            "Lv2": "21.64%*2+32.46%*2",
-            "Lv3": "23.28%*2+34.92%*2",
-            "Lv4": "25.58%*2+38.37%*2",
-            "Lv5": "27.22%*2+40.83%*2",
-            "Lv6": "29.11%*2+43.66%*2",
-            "Lv7": "31.73%*2+47.59%*2",
-            "Lv8": "34.35%*2+51.53%*2",
-            "Lv9": "36.98%*2+55.47%*2",
-            "Lv10": "39.77%*2+59.65%*2",
-            "Name": "Skill Damage"
-          },
-          {
-            "Lv1": "10",
-            "Lv2": "10",
-            "Lv3": "10",
-            "Lv4": "10",
-            "Lv5": "10",
-            "Lv6": "10",
-            "Lv7": "10",
-            "Lv8": "10",
-            "Lv9": "10",
-            "Lv10": "10",
-            "Name": "Con. Energy Regen"
-          }
-        ]
-      },
-      {
-        "name": "Shadowy Raid",
-        "category": "Transition",
-        "skill_type": "Outro Skill",
-        "description": "Calcharo summons Phantom to support the Resonator, clearing the targets in front with a slash. The Phantom's attack deals Electro DMG equal to 195.98%+391.96% of Calcharo's ATK.",
-        "multipliers": []
-      }
-    ],
-    "resonance_chain_dupes": [
-      {
-        "node": "S1",
-        "name": "Sequence Node 1",
-        "description": "When Resonance Skill Extermination Order hits a target, it additionally recovers 10 Resonance Energy. This can be triggered once every 20 seconds."
-      },
-      {
-        "node": "S2",
-        "name": "Sequence Node 2",
-        "description": "After Calcharo casts Intro Skill Wanted Criminal or Intro Skill \"Necessary Means\", his Resonance Skill DMG Bonus is increased by 30% for 15s."
-      },
-      {
-        "node": "S3",
-        "name": "Sequence Node 3",
-        "description": "During the Resonance Liberation Deathblade Gear state, Calcharo's Electro DMG Bonus is increased by 25%."
-      },
-      {
-        "node": "S4",
-        "name": "Sequence Node 4",
-        "description": "After casting Outro Skill Shadowy Raid, Electro DMG Bonus of all team members is increased by 20% for 30s."
-      },
-      {
-        "node": "S5",
-        "name": "Sequence Node 5",
-        "description": "Intro Skill Wanted Criminal and Intro Skill \"Necessary Means: deal 50% more damage."
-      },
-      {
-        "node": "S6",
-        "name": "Sequence Node 6",
-        "description": "When casting Resonance Liberation \"Death Messenger\", Calcharo will summon 2 Phantoms to perform Coordinated Attacks. Each Phantom deals Electro DMG equal to 100.00% of Calcharo's ATK, which is considered Resonance Liberation damage."
-      }
-    ],
-    "minor_fortes": [
-      {
-        "stat_name": "CRIT DMG",
-        "bonus_value": "+16%"
-      },
-      {
-        "stat_name": "ATK%",
-        "bonus_value": "+12%"
-      }
-    ],
-    "base_stats_lvl_90": {
-      "hp": 840,
-      "atk": 35,
-      "def": 97,
-      "max_energy": 125,
-      "crit_rate": "5%",
-      "crit_dmg": "166%",
-      "healing_bonus": "0%",
-      "elemental_dmg_bonus": "0%"
-    },
-    "upgrade_materials": {
-      "character_ascension": [
-        {
-          "material_name": "Iris",
-          "rarity": "boss",
-          "quantity": 60
-        },
-        {
-          "material_name": "Thundering Tacet Core",
-          "rarity": "specialty",
-          "quantity": 46
-        },
-        {
-          "material_name": "Crude Ring",
-          "rarity": "common",
-          "quantity": 4
-        },
-        {
-          "material_name": "Basic Ring",
-          "rarity": "common",
-          "quantity": 12
-        },
-        {
-          "material_name": "Improved Ring",
-          "rarity": "common",
-          "quantity": 12
-        },
-        {
-          "material_name": "Tailored Ring",
-          "rarity": "common",
-          "quantity": 4
-        }
       ],
-      "skill_upgrades": [
-        {
-          "material_name": "Monument Bell",
-          "rarity": "weekly_boss",
-          "quantity": 26
-        },
-        {
-          "material_name": "Crude Ring",
-          "rarity": "common",
-          "quantity": 25
-        },
-        {
-          "material_name": "Basic Ring",
-          "rarity": "common",
-          "quantity": 28
-        },
-        {
-          "material_name": "Improved Ring",
-          "rarity": "common",
-          "quantity": 40
-        },
-        {
-          "material_name": "Tailored Ring",
-          "rarity": "common",
-          "quantity": 57
-        },
-        {
-          "material_name": "Waveworn Residue 210",
-          "rarity": "skill_material",
-          "quantity": 25
-        },
-        {
-          "material_name": "Waveworn Residue 226",
-          "rarity": "skill_material",
-          "quantity": 28
-        },
-        {
-          "material_name": "Waveworn Residue 235",
-          "rarity": "skill_material",
-          "quantity": 55
-        },
-        {
-          "material_name": "Waveworn Residue 239",
-          "rarity": "skill_material",
-          "quantity": 67
-        }
-      ]
-    },
-    "voice_actors": {
-      "eng": "Ben Cura",
-      "jpn": "Morikawa Toshiyuki",
-      "cn": "Xu Xiang",
-      "kr": "Park Min Gi"
-    },
-    "best_weapons": [
-      {
-        "weapon_name": "Wildfire Mark",
-        "dupe_rank": "R1",
-        "percentage_performance": "100.72%",
-        "commentary_details": "Lupa's Signature weapon is an increase in damage for Calcharo, albeit a very small one. As it buffs Resonance Liberation DMG, it's able to buff Calcharo's Death Messengers which concentrate the majority of his damage, however it will not buff more than 2 Death Messengers due to the short nature of its buff (Calcharo cannot extend this effect without reducing the number of Death Messengers he can perform per rotation). As a result, the increase this weapon provides for him definitely exists, it's simply very small.",
-        "weapon_base_info": {
-          "rarity": 5,
-          "primary_stat_val": 587,
-          "secondary_stat_name": "CRIT DMG",
-          "secondary_stat_val": 48.6,
-          "source": "Rate-up",
-          "effect_description": "Increases ATK by {0}. Performing Intro Skill or Resonance Liberation increases Resonance Liberation DMG by {1} for 6s. Dealing Heavy Attack DMG extends this effect by 4s, up to 1 time. Each successful extension gives {1} Fusion DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked."
-        }
-      },
-      {
-        "weapon_name": "Lustrous Razor",
-        "dupe_rank": "R1",
-        "percentage_performance": "100.00%",
-        "commentary_details": "Top Broadblade option only in competition with some 4â weapons with multiple copies invested or limited 5â weapons. Offers high base ATK, ATK%, a good amount of Energy Regen to save at least 1 sub-stat on gear to be reallocated to better uses and a stackable Resonance Liberation ATK DMG% bonus that ramps up as you use Resonance Skills.",
-        "weapon_base_info": {
-          "rarity": 5,
-          "primary_stat_val": 587,
-          "secondary_stat_name": "ATK",
-          "secondary_stat_val": 36.4,
-          "source": "Permanent Convene",
-          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases Resonance Liberation DMG by {1}, stacking up to {2} times. This effect lasts for {3}s."
-        }
-      },
-      {
-        "weapon_name": "Ages of Harvest",
-        "dupe_rank": "R1",
-        "percentage_performance": "98.37%",
-        "commentary_details": "A very competitive option to his best in slot if you didn't pull it on the standard banner. The high base ATK, as well as the 24% crit rate and 12% DMG bonus substats are very nice, especially if you need your weapon to even out your crit ratios, in which builds it might outdo Lustrous Razor; and while barely used on Calcharo at all, the Resonance Skill DMG boost is always a small damage increase. ",
-        "weapon_base_info": {
-          "rarity": 5,
-          "primary_stat_val": 587,
-          "secondary_stat_name": "CRIT Rate",
-          "secondary_stat_val": 24.3,
-          "source": "Gacha",
-          "effect_description": "Grants {0} Attribute DMG Bonus. Casting Intro Skill gives the equipper Ageless Marking, which grants {1} Resonance Skill DMG Bonus for 12s. Casting Resonance Skill gives the equipper Ethereal Endowment, which grants {1} Resonance Skill DMG Bonus for 12s."
-        }
-      },
-      {
-        "weapon_name": "Verdant Summit",
-        "dupe_rank": "R1",
-        "percentage_performance": "96.69%",
-        "commentary_details": "Jiyan's signature weapon that's not only fantastic for him but also usable on all damage-focused Broadblade users. Offers a huge main stat of CRIT DMG% granting excellent scaling, 12% permanent generic DMG% and up to 48% increased Heavy ATK DMG% after using 1/2 skills and or a Resonance Liberation.",
-        "weapon_base_info": {
-          "rarity": 5,
-          "primary_stat_val": 587,
-          "secondary_stat_name": "CRIT DMG",
-          "secondary_stat_val": 48.6,
-          "source": "Limited",
-          "effect_description": "Increases the DMG Bonus of all Resonance Attributes by {0}. Every time Intro Skill or Resonance Liberation is cast, increases Heavy Attack DMG Bonus by {1}, stacking up to 2 time(s). This effect lasts for 14s."
-        }
-      },
-      {
-        "weapon_name": "Autumntrace",
-        "dupe_rank": "R5",
-        "percentage_performance": "94.25%",
-        "commentary_details": "Strongest 4â Broadsword option, granting main stat CRIT RATE for excellent scaling and an incredibly easy to access bonus ability which grants a stacking ATK% buff that only requires you to use Basic or Heavy attacks during your rotation.",
-        "weapon_base_info": {
-          "rarity": 4,
-          "primary_stat_val": 412,
-          "secondary_stat_name": "CRIT Rate",
-          "secondary_stat_val": 20.2,
-          "source": "Pioneer Podcast",
-          "effect_description": "Increases ATK by {0} upon dealing Basic Attack DMG or Heavy Attack DMG, stacking up to 5 time(s). This effect lasts for 7s and can be triggered 1 time(s) every 1s."
-        }
-      },
-      {
-        "weapon_name": "Aureate Zenith",
-        "dupe_rank": "R5",
-        "percentage_performance": "84.06%",
-        "commentary_details": "Gives solid base stats of ATK and CRIT DMG while also providing increased ATK and Heavy Attack DMG bonus when casting Ultimate. Particularly strong on Broadblade damage dealers who benefit from this attack type, but generally usable in any case.",
-        "weapon_base_info": {
-          "rarity": 4,
-          "primary_stat_val": 412,
-          "secondary_stat_name": "CRIT DMG",
-          "secondary_stat_val": 40.5,
-          "source": "Battle Pass",
-          "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Heavy Attack DMG Bonus for 15s."
-        }
-      },
-      {
-        "weapon_name": "Waning Redshift",
-        "dupe_rank": "R5",
-        "percentage_performance": "83.29%",
-        "commentary_details": "A solid F2P 4* broadblade option for any DPS character scaling off of ATK. The ATK% boost it provides when casting your Resonance Skill is great on most characters, and while the small energy generation it provides at the same time is more situational, it can be handy as well. ",
-        "weapon_base_info": {
-          "rarity": 4,
-          "primary_stat_val": 462,
-          "secondary_stat_name": "ATK",
-          "secondary_stat_val": 18.2,
-          "source": "Gacha",
-          "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s."
-        }
-      },
-      {
-        "weapon_name": "Helios Cleaver",
-        "dupe_rank": "R5",
-        "percentage_performance": "82.39%",
-        "commentary_details": "A generic option, granting a stacking ATK% buff after using your Resonance Skill that starts at 0 and grants 1 stack every 2 seconds up to 4 stacks - reaching a maximum after 8 seconds. Buff resets shortly after the stack cap limit is reached after which you'll have to repeat the cycle anew. Falls behind other options due to it's buff being inconsistent but still a viable option if you don't have better.",
-        "weapon_base_info": {
-          "rarity": 4,
-          "primary_stat_val": 412,
-          "secondary_stat_name": "ATK",
-          "secondary_stat_val": 30.3,
-          "source": "",
-          "effect_description": "Within {0}s after Resonance Skill is cast, increases ATK by {2} every 2s, stacking up to 4 time(s). This effect can be triggered 1 time(s) every 12s. When the number of stacks reaches 4, all stacks will be reset within 6s."
-        }
-      },
-      {
-        "weapon_name": "Broadblade#41",
-        "dupe_rank": "R5",
-        "percentage_performance": "80.62%",
-        "commentary_details": "Another generic Broadblade option with a mix of utility and offense, granting a large amount of Energy Regen as a main stat. Also a reasonably strong and easy to maintain bonus ability that offers an ATK% buff as long as you remain above 80% HP. Our calculations assume you'll stay above 80% for the whole fight, if you can't you can lower this weapons performance.",
-        "weapon_base_info": {
-          "rarity": 4,
-          "primary_stat_val": 412,
-          "secondary_stat_name": "Energy Reg.",
-          "secondary_stat_val": 32.3,
-          "source": "Synthesis",
-          "effect_description": "When the Resonator's HP is above 80%, increases ATK by {0}. When the Resonator's HP is below {1}, restores their HP by {2}, for dealing Basic Attack DMG or Heavy Attack DMG. This effect can be triggered 1 time(s) every 8s."
-        }
-      }
-    ],
-    "best_echo_sets": [
-      {
-        "set_name": "Void Thunder",
-        "percentage_performance": "100.00%",
-        "commentary": "Offers a 10% unconditional Electro DMG% boost and up to an additional 30% Electro DMG% after you land a combination of 2 Heavy Attacks or Resonance Skills for a grand total of 40% additional Electro damage after fully ramped.",
-        "main_echo_options": [
-          {
-            "echo_name": "Nightmare: Thundering Mephis",
-            "echo_commentary": "Offers an unconditional 12% Electro DMG and 12% Liberation DMG boost when placed in the main Main Echo slot, making it a solid choice for Electro focused resonators who emphasize Liberation damage and are looking to use the 5P Void Thunder set bonus."
-          },
-          {
-            "echo_name": "Nightmare: Tempest Mephis",
-            "echo_commentary": "Offers an unconditional 12% Electro DMG and 12% Resonance Skill DMG boost when placed in the Main Echo slot, making it a solid choice for Electro focused resonators who emphasize Resonance Skill damage and are looking to use either the 5P Empyrean Anthem Echo or 5P Void Thunder set bonus."
-          }
-        ]
-      },
-      {
-        "set_name": "Endless Resonance",
-        "percentage_performance": "93.04%",
-        "commentary": "Offers a 10% unconditional ATK% boost and an additional 5% ATK% for every 1.5 seconds the equipped character has been in combat - up to 20% after 6 seconds, totalling 30% additional ATK% after fully ramped. This set almost almost loses out to most characters signature elemental sets, but is generically usable across all damage characters regardless of their element.\nThe calculations for this set assume you're not swaping during the combo. If you will swap, the set performance drops (to 88.81%).",
-        "main_echo_options": [
-          {
-            "echo_name": "Mech Abomination",
-            "echo_commentary": "Very easy echo to use that should be used at the very beginning of the burst window right after the Intro. Thanks to its instant cast there is no thinking required and you can enjoy your ATK% boost and some nice burst damage."
-          }
-        ]
-      }
-    ],
-    "best_echo_stats": {
-      "main_stats": {
-        "cost_4": [
-          "CRIT Rate / CRIT DMG"
-        ],
-        "cost_3": [
-          "Electro DMG",
-          "Electro DMG > ATK%"
-        ],
-        "cost_1": [
-          "ATK%",
-          "ATK%"
-        ]
-      },
-      "substats_priority": [
-        "Energy Regen (Until Satisfied)",
-        "CRIT Rate  CRIT DMG",
-        "ATK%",
-        "ATK  Liberation DMG%"
-      ]
-    },
-    "recommended_endgame_stats_target": [
-      "HP: 15000+",
-      "DEF: 1150+",
-      "ATK: 1800-2300+",
-      "CRIT Rate: 60%-80%+",
-      "CRIT DMG: 215-280%+",
-      "Energy Regen: 120%-160%+Lower end estimated in a Lynae+Shorekeeper team, Higher end estimated in a Xiangli Yao+Shorekeeper quickswap team. S1 decreases ER requirements by ~20%.",
-      "Electro DMG Bonus: 40-70%+"
-    ],
-    "skill_upgrade_priority": {
-      "order": [
-        "Forte Circuit",
-        "Res. Liberation",
-        "Res. Skill",
-        "Intro Skill",
-        "Basic Attack"
-      ],
-      "commentary": ""
+      "summary": "Let's address the elephant in the room first: Calcharo is the hardest character to play at an optimized level. But don't let that scare you too much. As an Electro Broadblade 5-star Main DPS from the standard banner pool, he shines the brightest in Hypercarry team archetypes where he has the potential to deal large bursts of damage during the state provided by his Ultimate."
     },
     "rotations": [
       {
@@ -1033,6 +445,547 @@
         ]
       }
     ],
+    "skill_upgrade_priority": {
+      "commentary": "",
+      "order": [
+        "Forte Circuit",
+        "Res. Liberation",
+        "Res. Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic AttackPerform up to 4 attacks, dealing Electro DMG.Heavy AttackConsume Stamina to attack the target, dealing Electro DMG.Mid-air AttackConsume Stamina to perform a Mid-Air Plunging Attack, dealing Electro DMG.Dodge CounterUsing Basic Attack after a successful Dodge to attack the target, dealing Electro DMG.",
+        "multipliers": [
+          {
+            "Lv1": "23.00%*2",
+            "Lv10": "45.73%*2",
+            "Lv2": "24.89%*2",
+            "Lv3": "26.78%*2",
+            "Lv4": "29.42%*2",
+            "Lv5": "31.30%*2",
+            "Lv6": "33.47%*2",
+            "Lv7": "36.49%*2",
+            "Lv8": "39.51%*2",
+            "Lv9": "42.53%*2",
+            "Name": "Part 1 Damage"
+          },
+          {
+            "Lv1": "50.00%",
+            "Lv10": "99.41%",
+            "Lv2": "54.10%",
+            "Lv3": "58.20%",
+            "Lv4": "63.94%",
+            "Lv5": "68.04%",
+            "Lv6": "72.76%",
+            "Lv7": "79.32%",
+            "Lv8": "85.88%",
+            "Lv9": "92.44%",
+            "Name": "Part 2 Damage"
+          },
+          {
+            "Lv1": "42.84%+21.42%*3",
+            "Lv10": "85.18%+42.59%*3",
+            "Lv2": "46.36%+23.18%*3",
+            "Lv3": "49.87%+24.94%*3",
+            "Lv4": "54.79%+27.40%*3",
+            "Lv5": "58.30%+29.15%*3",
+            "Lv6": "62.34%+31.17%*3",
+            "Lv7": "67.96%+33.98%*3",
+            "Lv8": "73.58%+36.79%*3",
+            "Lv9": "79.20%+39.60%*3",
+            "Name": "Part 3 Damage"
+          },
+          {
+            "Lv1": "39.99%*2+53.32%",
+            "Lv10": "79.51%*2+106.01%",
+            "Lv2": "43.27%*2+57.70%",
+            "Lv3": "46.55%*2+62.07%",
+            "Lv4": "51.14%*2+68.19%",
+            "Lv5": "54.42%*2+72.56%",
+            "Lv6": "58.19%*2+77.59%",
+            "Lv7": "63.44%*2+84.59%",
+            "Lv8": "68.69%*2+91.58%",
+            "Lv9": "73.93%*2+98.58%",
+            "Name": "Part 4 Damage"
+          },
+          {
+            "Lv1": "20.80%*5",
+            "Lv10": "41.36%*5",
+            "Lv2": "22.51%*5",
+            "Lv3": "24.22%*5",
+            "Lv4": "26.60%*5",
+            "Lv5": "28.31%*5",
+            "Lv6": "30.27%*5",
+            "Lv7": "33.00%*5",
+            "Lv8": "35.73%*5",
+            "Lv9": "38.46%*5",
+            "Name": "Heavy Attack Damage"
+          },
+          {
+            "Lv1": "62.00%",
+            "Lv10": "123.27%",
+            "Lv2": "67.09%",
+            "Lv3": "72.17%",
+            "Lv4": "79.29%",
+            "Lv5": "84.37%",
+            "Lv6": "90.22%",
+            "Lv7": "98.36%",
+            "Lv8": "106.49%",
+            "Lv9": "114.62%",
+            "Name": "Mid-Air Attack Damage"
+          },
+          {
+            "Lv1": "33.44%*3+42.99%",
+            "Lv10": "66.48%*3+85.47%",
+            "Lv2": "36.18%*3+46.52%",
+            "Lv3": "38.93%*3+50.05%",
+            "Lv4": "42.76%*3+54.98%",
+            "Lv5": "45.51%*3+58.51%",
+            "Lv6": "48.66%*3+62.56%",
+            "Lv7": "53.05%*3+68.20%",
+            "Lv8": "57.43%*3+73.84%",
+            "Lv9": "61.82%*3+79.48%",
+            "Name": "Dodge Counter Damage"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Heavy Attack Stamina Consumption"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-Air Attack Stamina Consumption"
+          }
+        ],
+        "name": "Gnawing Fangs",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Cast up to 3 attacks. Deal Electro DMG.If this Character is switched or Resonance Skill Extermination Order is not repeated in a while, it will be put on a Cooldown. Resonance Skill Extermination Order does not reset your Basic Attack stage.",
+        "multipliers": [
+          {
+            "Lv1": "25.94%*2+34.59%",
+            "Lv10": "51.57%*2+68.76%",
+            "Lv2": "28.07%*2+37.42%",
+            "Lv3": "30.20%*2+40.26%",
+            "Lv4": "33.17%*2+44.23%",
+            "Lv5": "35.30%*2+47.07%",
+            "Lv6": "37.75%*2+50.33%",
+            "Lv7": "41.15%*2+54.87%",
+            "Lv8": "44.55%*2+59.40%",
+            "Lv9": "47.96%*2+63.94%",
+            "Name": "Extermination Order Part 1 Damage"
+          },
+          {
+            "Lv1": "38.91%*2+51.88%",
+            "Lv10": "77.36%*2+103.14%",
+            "Lv2": "42.10%*2+56.13%",
+            "Lv3": "45.29%*2+60.39%",
+            "Lv4": "49.76%*2+66.34%",
+            "Lv5": "52.95%*2+70.60%",
+            "Lv6": "56.62%*2+75.49%",
+            "Lv7": "61.72%*2+82.30%",
+            "Lv8": "66.83%*2+89.10%",
+            "Lv9": "71.93%*2+95.91%",
+            "Name": "Extermination Order Part 2 Damage"
+          },
+          {
+            "Lv1": "108.08%*2",
+            "Lv10": "214.87%*2",
+            "Lv2": "116.94%*2",
+            "Lv3": "125.80%*2",
+            "Lv4": "138.21%*2",
+            "Lv5": "147.07%*2",
+            "Lv6": "157.26%*2",
+            "Lv7": "171.44%*2",
+            "Lv8": "185.62%*2",
+            "Lv9": "199.80%*2",
+            "Name": "Extermination Order Part 3 Damage"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "4",
+            "Lv10": "4",
+            "Lv2": "4",
+            "Lv3": "4",
+            "Lv4": "4",
+            "Lv5": "4",
+            "Lv6": "4",
+            "Lv7": "4",
+            "Lv8": "4",
+            "Lv9": "4",
+            "Name": "Extermination Order Con. Energy Regen"
+          }
+        ],
+        "name": "Extermination Order",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Calcharo attacks the target, dealing Electro DMG and enters Deathblade Gear state. After Resonance Liberation Deathblade Gear state ends, Calcharo's next Intro Skill is replaced with Intro Skill \"Necessary Means\", which deals Electro DMG, considered as Intro Skill damage.Deathblade GearBasic Attack is replaced with Basic Attack Hounds Roar. Dodge Counter deals increased damage, considered as Resonance Liberation damage.Hounds RoarPerform up to 5 consecutive attacks, dealing Electro DMG, considered as Basic Attack Damage.",
+        "multipliers": [
+          {
+            "Lv1": "300.00%",
+            "Lv10": "596.43%",
+            "Lv2": "324.60%",
+            "Lv3": "349.20%",
+            "Lv4": "383.64%",
+            "Lv5": "408.24%",
+            "Lv6": "436.53%",
+            "Lv7": "475.89%",
+            "Lv8": "515.25%",
+            "Lv9": "554.61%",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "100.00%*2",
+            "Lv10": "198.81%*2",
+            "Lv2": "108.20%*2",
+            "Lv3": "116.40%*2",
+            "Lv4": "127.88%*2",
+            "Lv5": "136.08%*2",
+            "Lv6": "145.51%*2",
+            "Lv7": "158.63%*2",
+            "Lv8": "171.75%*2",
+            "Lv9": "184.87%*2",
+            "Name": "Necessary Means Damage"
+          },
+          {
+            "Lv1": "44.30%",
+            "Lv10": "88.07%",
+            "Lv2": "47.93%",
+            "Lv3": "51.56%",
+            "Lv4": "56.65%",
+            "Lv5": "60.28%",
+            "Lv6": "64.46%",
+            "Lv7": "70.27%",
+            "Lv8": "76.08%",
+            "Lv9": "81.89%",
+            "Name": "Hounds Roar Part 1"
+          },
+          {
+            "Lv1": "17.72%*2+26.58%*2",
+            "Lv10": "35.23%*2+52.84%*2",
+            "Lv2": "19.18%*2+28.76%*2",
+            "Lv3": "20.63%*2+30.94%*2",
+            "Lv4": "22.66%*2+33.99%*2",
+            "Lv5": "24.11%*2+36.17%*2",
+            "Lv6": "25.79%*2+38.68%*2",
+            "Lv7": "28.11%*2+42.16%*2",
+            "Lv8": "30.43%*2+45.65%*2",
+            "Lv9": "32.76%*2+49.14%*2",
+            "Name": "Hounds Roar Part 2"
+          },
+          {
+            "Lv1": "82.41%",
+            "Lv10": "163.84%",
+            "Lv2": "89.17%",
+            "Lv3": "95.93%",
+            "Lv4": "105.39%",
+            "Lv5": "112.14%",
+            "Lv6": "119.92%",
+            "Lv7": "130.73%",
+            "Lv8": "141.54%",
+            "Lv9": "152.35%",
+            "Name": "Hounds Roar Part 3"
+          },
+          {
+            "Lv1": "17.52%*6",
+            "Lv10": "34.82%*6",
+            "Lv2": "18.95%*6",
+            "Lv3": "20.39%*6",
+            "Lv4": "22.40%*6",
+            "Lv5": "23.83%*6",
+            "Lv6": "25.49%*6",
+            "Lv7": "27.78%*6",
+            "Lv8": "30.08%*6",
+            "Lv9": "32.38%*6",
+            "Name": "Hounds Roar Part 4"
+          },
+          {
+            "Lv1": "75.54%*2",
+            "Lv10": "150.19%*2",
+            "Lv2": "81.74%*2",
+            "Lv3": "87.93%*2",
+            "Lv4": "96.61%*2",
+            "Lv5": "102.80%*2",
+            "Lv6": "109.92%*2",
+            "Lv7": "119.83%*2",
+            "Lv8": "129.74%*2",
+            "Lv9": "139.66%*2",
+            "Name": "Hounds Roar Part 5"
+          },
+          {
+            "Lv1": "31.20%*5",
+            "Lv10": "62.03%*5",
+            "Lv2": "33.76%*5",
+            "Lv3": "36.32%*5",
+            "Lv4": "39.90%*5",
+            "Lv5": "42.46%*5",
+            "Lv6": "45.40%*5",
+            "Lv7": "49.50%*5",
+            "Lv8": "53.59%*5",
+            "Lv9": "57.68%*5",
+            "Name": "Heavy Attack Damage"
+          },
+          {
+            "Lv1": "28.67%*6",
+            "Lv10": "56.99%*6",
+            "Lv2": "31.02%*6",
+            "Lv3": "33.37%*6",
+            "Lv4": "36.66%*6",
+            "Lv5": "39.01%*6",
+            "Lv6": "41.72%*6",
+            "Lv7": "45.48%*6",
+            "Lv8": "49.24%*6",
+            "Lv9": "53.00%*6",
+            "Name": "Dodge Counter Damage"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Heavy Attack Stamina Consumption"
+          },
+          {
+            "Lv1": "11",
+            "Lv10": "11",
+            "Lv2": "11",
+            "Lv3": "11",
+            "Lv4": "11",
+            "Lv5": "11",
+            "Lv6": "11",
+            "Lv7": "11",
+            "Lv8": "11",
+            "Lv9": "11",
+            "Name": "Deathblade Gear Duration"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Cooldown Time"
+          },
+          {
+            "Lv1": "125",
+            "Lv10": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Name": "Res. Energy Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Phantom Etching",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Heavy Attack: \"Mercy\"When Calcharo has 3 \"Cruelty\", his Heavy Attack is replaced with Heavy Attack \"Mercy\". When casting Heavy Attack \"Mercy\", Calcharo consumes 3 \"Cruelty\" to deal Electro DMG, considered as Heavy Attack damage, and recovers Resonance Energy and Concerto Energy.\"Cruelty\"Calcharo can hold up to 3 \"Cruelty\". Under Resonance Liberation Deathblade Gear state, \"Cruelty\" cannot be acquired. When Resonance Skill Extermination Order hits the target, gain 1 \"Cruelty\".Heavy Attack: \"Death Messenger\"When Calcharo has 5 \"Killing Intent\", his Basic Attack is replaced with Heavy Attack \"Death Messenger\". When casting Heavy Attack \"Death Messenger\", Calcharo consumes 5 \"Killing Intent\" to deal Electro DMG, considered as Resonance Liberation damage, and recovers Resonance Energy and Concerto Energy.\"Killing Intent\"Under Resonance Liberation Deathblade Gear state, Calcharo's Forte Gauge is replaced with \"Killing Intent\", stacking up to 5. When Basic Attack Hounds Roar hits the target, Calcharo gains 1 \"Killing Intent\".",
+        "multipliers": [
+          {
+            "Lv1": "19.67%*8+39.34%",
+            "Lv10": "39.11%*8+78.22%",
+            "Lv2": "21.29%*8+42.57%",
+            "Lv3": "22.90%*8+45.80%",
+            "Lv4": "25.16%*8+50.31%",
+            "Lv5": "26.77%*8+53.54%",
+            "Lv6": "28.63%*8+57.25%",
+            "Lv7": "31.21%*8+62.41%",
+            "Lv8": "33.79%*8+67.57%",
+            "Lv9": "36.37%*8+72.73%",
+            "Name": "Mercy Damage"
+          },
+          {
+            "Lv1": "49.18%*8+98.35%",
+            "Lv10": "97.77%*8+195.53%",
+            "Lv2": "53.21%*8+106.42%",
+            "Lv3": "57.24%*8+114.48%",
+            "Lv4": "62.89%*8+125.77%",
+            "Lv5": "66.92%*8+133.84%",
+            "Lv6": "71.56%*8+143.11%",
+            "Lv7": "78.01%*8+156.02%",
+            "Lv8": "84.46%*8+168.92%",
+            "Lv9": "90.91%*8+181.82%",
+            "Name": "Death Messenger Damage"
+          },
+          {
+            "Lv1": "6",
+            "Lv10": "6",
+            "Lv2": "6",
+            "Lv3": "6",
+            "Lv4": "6",
+            "Lv5": "6",
+            "Lv6": "6",
+            "Lv7": "6",
+            "Lv8": "6",
+            "Lv9": "6",
+            "Name": "Mercy Con. Energy Regen"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Death Messenger Con. Energy Regen"
+          },
+          {
+            "Lv1": "6",
+            "Lv10": "6",
+            "Lv2": "6",
+            "Lv3": "6",
+            "Lv4": "6",
+            "Lv5": "6",
+            "Lv6": "6",
+            "Lv7": "6",
+            "Lv8": "6",
+            "Lv9": "6",
+            "Name": "Mercy Con. Energy Regen"
+          },
+          {
+            "Lv1": "5",
+            "Lv10": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Name": "Death Messenger Resonance Energy Regen"
+          }
+        ],
+        "name": "Hunting Mission",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "When casting Heavy Attack \"Mercy\", Calcharo's Resonance Liberation DMG Bonus is increased by 10% for 15s.",
+        "multipliers": [],
+        "name": "Bloodshed Awaken",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "When Heavy Attack \"Death Messenger\" hits the target, the damage taken by Calcharo is reduced by 15% for 5s.",
+        "multipliers": [],
+        "name": "Revenant Rush",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Attack the target, dealing Electro DMG.",
+        "multipliers": [
+          {
+            "Lv1": "20.00%*2+30.00%*2",
+            "Lv10": "39.77%*2+59.65%*2",
+            "Lv2": "21.64%*2+32.46%*2",
+            "Lv3": "23.28%*2+34.92%*2",
+            "Lv4": "25.58%*2+38.37%*2",
+            "Lv5": "27.22%*2+40.83%*2",
+            "Lv6": "29.11%*2+43.66%*2",
+            "Lv7": "31.73%*2+47.59%*2",
+            "Lv8": "34.35%*2+51.53%*2",
+            "Lv9": "36.98%*2+55.47%*2",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Wanted Outlaw",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Calcharo summons Phantom to support the Resonator, clearing the targets in front with a slash. The Phantom's attack deals Electro DMG equal to 195.98%+391.96% of Calcharo's ATK.",
+        "multipliers": [],
+        "name": "Shadowy Raid",
+        "skill_type": "Outro Skill"
+      }
+    ],
     "synergies": [
       {
         "characters": [
@@ -1061,46 +1014,93 @@
         "commentary": "Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game."
       }
     ],
-    "example_teams": [
-      {
-        "team_name": "Best Team",
-        "slot_1": {
-          "character_name": "calcharo",
-          "alternatives": []
+    "upgrade_materials": {
+      "character_ascension": [
+        {
+          "material_name": "Iris",
+          "quantity": 60,
+          "rarity": "boss"
         },
-        "slot_2": {
-          "character_name": "lynae",
-          "alternatives": [
-            "yinlin"
-          ]
+        {
+          "material_name": "Thundering Tacet Core",
+          "quantity": 46,
+          "rarity": "specialty"
         },
-        "slot_3": {
-          "character_name": "mornye",
-          "alternatives": [
-            "the-shorekeeper",
-            "verina"
-          ]
+        {
+          "material_name": "Crude Ring",
+          "quantity": 4,
+          "rarity": "common"
         },
-        "team_notes": "Mornye is only best with Lynae on the team."
-      },
-      {
-        "team_name": "Budget Team",
-        "slot_1": {
-          "character_name": "calcharo",
-          "alternatives": []
+        {
+          "material_name": "Basic Ring",
+          "quantity": 12,
+          "rarity": "common"
         },
-        "slot_2": {
-          "character_name": "jianxin",
-          "alternatives": []
+        {
+          "material_name": "Improved Ring",
+          "quantity": 12,
+          "rarity": "common"
         },
-        "slot_3": {
-          "character_name": "the-shorekeeper",
-          "alternatives": [
-            "verina"
-          ]
+        {
+          "material_name": "Tailored Ring",
+          "quantity": 4,
+          "rarity": "common"
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "Monument Bell",
+          "quantity": 26,
+          "rarity": "weekly_boss"
         },
-        "team_notes": "This team is entirely incompatible with Swap Cancels."
-      }
-    ]
-  }
+        {
+          "material_name": "Crude Ring",
+          "quantity": 25,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Basic Ring",
+          "quantity": 28,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Improved Ring",
+          "quantity": 40,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Tailored Ring",
+          "quantity": 57,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Waveworn Residue 210",
+          "quantity": 25,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Waveworn Residue 226",
+          "quantity": 28,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Waveworn Residue 235",
+          "quantity": 55,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Waveworn Residue 239",
+          "quantity": 67,
+          "rarity": "skill_material"
+        }
+      ]
+    },
+    "voice_actors": {
+      "cn": "Xu Xiang",
+      "eng": "Ben Cura",
+      "jpn": "Morikawa Toshiyuki",
+      "kr": "Park Min Gi"
+    }
+  },
+  "status": "success"
 }
