@@ -1,0 +1,75 @@
+{
+  "data": {
+    "base_stats_lvl_90": {
+      "atk": 0,
+      "crit_dmg": "150%",
+      "crit_rate": "5%",
+      "def": 0,
+      "elemental_dmg_bonus": "0%",
+      "healing_bonus": "0%",
+      "hp": 0,
+      "max_energy": 0
+    },
+    "best_echo_sets": [],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [],
+        "cost_3": [],
+        "cost_4": []
+      },
+      "substats_priority": []
+    },
+    "best_weapons": [],
+    "character_metadata": {
+      "breadcrumb": [
+        "Wuthering Waves",
+        "Characters",
+        "Hsin"
+      ],
+      "element": "Unknown",
+      "name": "Hsin",
+      "rarity_stars": 5,
+      "slug": "hsin",
+      "updates": {
+        "last_major_build_patch": "",
+        "last_profile_update": "15/June/2026",
+        "last_review_patch": "",
+        "last_updated": "15/June/2026"
+      },
+      "weapon_type": "Unknown"
+    },
+    "example_teams": [],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/hsin_full.webp",
+      "youtube_guide_embed_url": "",
+      "youtube_guide_full_url": ""
+    },
+    "minor_fortes": [],
+    "pros_and_cons": {
+      "cons": [],
+      "pros": []
+    },
+    "ratings": null,
+    "recommended_endgame_stats_target": [],
+    "resonance_chain_dupes": [],
+    "review": {
+      "sections": [],
+      "summary": ""
+    },
+    "rotations": [],
+    "skill_upgrade_priority": null,
+    "skills": [],
+    "synergies": [],
+    "upgrade_materials": {
+      "character_ascension": [],
+      "skill_upgrades": []
+    },
+    "voice_actors": {
+      "cn": "",
+      "eng": "",
+      "jpn": "",
+      "kr": ""
+    }
+  },
+  "status": "success"
+}

@@ -1,0 +1,1064 @@
+{
+  "data": {
+    "base_stats_lvl_90": {
+      "atk": 37,
+      "crit_dmg": "150%",
+      "crit_rate": "13%",
+      "def": 91,
+      "elemental_dmg_bonus": "0%",
+      "healing_bonus": "0%",
+      "hp": 824,
+      "max_energy": 125
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "This Glacio Chafe DPS and Support focused set provides Hiyuki with a huge 25% CRIT Rate boost on top of 20% total Glacio DMG Bonus. This set is the best choice bar none due to its very high stat gains for Hiyuki specifically.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Simple Summon Echo, can be used at any point in the rotation and grants 12% Glacio DMG Bonus as well as 12% Liberation DMG Bonus when equipped in the Main Slot. No-brainer Main Echo choice for Hiyuki.",
+            "echo_name": "Reminiscence: Threnodian - Voidborne Construct"
+          }
+        ],
+        "percentage_performance": "100.00%",
+        "set_name": "Wishes of Quiet Snowfall"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ],
+        "cost_3": [
+          "Glacio DMG",
+          "Glacio DMG ≥ ATK%"
+        ],
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT DMG  CRIT Rate (until 75%)",
+        "ATK%",
+        "Liberation DMG%",
+        "ATK"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "Hiyuki's Signature is largely superior to other options thanks to its big stat boosts related to Glacio Chafe and Liberation DMG that only she can utilize to their fullest potential. Other weapons don't provide stat boosts anywhere near as effective, making this weapon a very worthwhile investment to increase Hiyuki's damage ceiling.",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. When the wielder applies Glacio Chafe, Glacio DMG is Amplified by {1}, and Resonance Liberation DMG ignores {2} of the target's DEF. If the wielder is the active Resonator in the team, Glacio Chafe DMG dealt to all targets within a certain range is Amplified by {3} for 6s. This effect can be triggered up to 1 time every 0.1s. Only the strongest effect of the same name applies.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Frostburn"
+      },
+      {
+        "commentary_details": "Changli's Signature matches Emerald of Genesis in performance, slightly surpassing it since CRIT DMG and Skill DMG are acceptable stats for Hiyuki and the 12% ATK does not require Hiyuki to cast her Skills in order to acquire it (it's permanent). Despite needing 1 more Energy Regen roll than the permanent option, the slightly better damaging stats this weapon offers makes it Hiyuki's 2nd best in slot, although quite far behind her Signature.",
+        "dupe_rank": "R1",
+        "percentage_performance": "80.80%",
+        "weapon_base_info": {
+          "effect_description": "ATK increased by {0}. The equipper gains 1 stack of Searing Feather upon dealing damage, which can be triggered once every 0.5s, and gains 5 stacks of the same effect upon casting Resonance Skill. Each stack of Searing Feather gives {1} additional Resonance Skill DMG Bonus for up to 14 stacks. All stacks will be removed within 12s after reaching the max stack.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Gacha"
+        },
+        "weapon_name": "Blazing Brilliance"
+      },
+      {
+        "commentary_details": "The Standard Banner Sword that's often the best F2P choice on almost all Sword damage dealers, Hiyuki being no exception. Provides her some Energy Regen and ATK% when casting Skills as well as CRIT Rate and good Base ATK, making it one of her best alternatives since few other Swords give her desirable stats.",
+        "dupe_rank": "R1",
+        "percentage_performance": "80.10%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases ATK by {1}, stacking up to 2 time(s). This effect lasts for 10s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Emerald of Genesis"
+      },
+      {
+        "commentary_details": "Qiuyuan's Signature can buff the Echo Skill DMG of the team making it very slightly more than a stat-stick on Hiyuki, but it really doesn't have much of an effect for her teams so overall it's practically the same as an ATK and CRIT Rate stat-stick for Hiyuki.",
+        "dupe_rank": "R1",
+        "percentage_performance": "79.20%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attack grants 1 stack of Bamboo Cleaver, which grants {1} Heavy Attack DMG Bonus to the wielder. This effect can be triggered by Echoes of the same name once only, stacking up to 2 times, lasting for 12s. Casting Echo Skill at max stacks does not reset the duration. This effect can be triggered once every 10s and ends early if the wielder is switched off the field. Casting Intro Skill grants {2} Echo Skill DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Emerald Sentence"
+      },
+      {
+        "commentary_details": "Simple ATK and CRIT Rate stat-stick for Hiyuki, who barely benefits from this weapon's Basic DMG-focused effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "79.00%",
+        "weapon_base_info": {
+          "effect_description": "Increase ATK by {0}. When dealing Basic Attack DMG, the wielder gains {1} Basic Attack DMG Bonus for 14s. This effect can be triggered once per second, stacking up to 3 times. When the wielder's Concerto Energy is consumed, gain {2} Basic DMG Bonus for 10s. This effect can be triggered once per second and ends when the wielder is switched off the field.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Gacha"
+        },
+        "weapon_name": "Red Spring"
+      },
+      {
+        "commentary_details": "Simple ATK, DMG Bonus and CRIT Rate stat-stick for Hiyuki, who does not benefit from this weapon's Tune Rupture and Fusion Burst-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "78.80%",
+        "weapon_base_info": {
+          "effect_description": "Increases All-Attribute DMG Bonus by {0}. When inflicting Tune Rupture - Shifting or Fusion Burst, the wielder's Resonance Liberation DMG ignores {1} DEF and {2} Fusion RES on targets for 8s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Everbright Polestar"
+      },
+      {
+        "commentary_details": "Best 4-star weapon for Hiyuki, this Battle Pass exclusive provides CRIT Rate, and an ATK and Liberation DMG Bonus on its passive which in spite of its low Base ATK makes it competitive with low-ranking 5-star options.",
+        "dupe_rank": "R5",
+        "percentage_performance": "76.90%",
+        "weapon_base_info": {
+          "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Resonance Liberation DMG Bonus for 15s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.3,
+          "source": "Battle Pass"
+        },
+        "weapon_name": "Feather Edge"
+      },
+      {
+        "commentary_details": "Best fully F2P, no-gacha weapon for Hiyuki, simple ATK stat-stick with decent Base ATK. Upgrade to a better weapon when possible.",
+        "dupe_rank": "R5",
+        "percentage_performance": "71.80%",
+        "weapon_base_info": {
+          "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Crafting"
+        },
+        "weapon_name": "Fables of Wisdom"
+      }
+    ],
+    "character_metadata": {
+      "breadcrumb": [
+        "Wuthering Waves",
+        "Characters",
+        "Hiyuki"
+      ],
+      "element": "Glacio",
+      "name": "Hiyuki",
+      "rarity_stars": 5,
+      "slug": "hiyuki",
+      "updates": {
+        "last_major_build_patch": "3.5",
+        "last_profile_update": "10/July/2026",
+        "last_review_patch": "3.3",
+        "last_updated": "10/July/2026"
+      },
+      "weapon_type": "Sword"
+    },
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "hiyuki"
+        },
+        "slot_2": {
+          "alternatives": [
+            "lynae"
+          ],
+          "character_name": "lucilla"
+        },
+        "slot_3": {
+          "alternatives": [
+            "mornye",
+            "the-shorekeeper",
+            "verina"
+          ],
+          "character_name": "chisa"
+        },
+        "team_name": "Best Team",
+        "team_notes": "Only consider Mornye with Lynae (unless stranded for better options)."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "hiyuki"
+        },
+        "slot_2": {
+          "alternatives": [
+            "zhezhi",
+            "changli",
+            "jianxin"
+          ],
+          "character_name": "yinlin"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "chisa"
+        },
+        "team_name": "Alternative Teams",
+        "team_notes": "Other Support options listed above are possible to use in this team but will provide very subpar results. Not recommended, try to get Chisa for a strong backing in terms of Support."
+      }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/hiyuki_full.webp",
+      "youtube_guide_embed_url": "https://www.youtube.com/embed/JygB1TcL4uI",
+      "youtube_guide_full_url": "https://www.youtube.com/watch?v=JygB1TcL4uI"
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+8%",
+        "stat_name": "CRIT Rate"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "ATK%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "Very few alternatives in teammates - Lucilla/Lynae and Chisa are huge power-ups that lock Hiyuki's full potential (although Chisa is replaceable by Mornye if Lynae is present, that's the only replacement comparable to her best team by a lot). Overall not the most F2P-friendly damage dealer ever released."
+      ],
+      "pros": [
+        "The best Glacio DPS by a huge margin in her best team (literally no competition since Carlotta).",
+        "Big AoE hits spread across her rotation alongside grouping give her pretty good multi-wave capabilities despite being a Negative Status character.",
+        "All of her long animations pause in-game timers or at least grant invulnerability, meaning she doesn't have windows where she's especially vulnerable (dodging is almost always an option in the worst-case scenario)."
+      ]
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [
+            "Chafe",
+            "Control",
+            "Gather"
+          ],
+          "tier": "T0"
+        },
+        "whimpering_wastes": {
+          "tags": [
+            "Chafe",
+            "Control",
+            "Gather",
+            "Expert +1"
+          ],
+          "tier": "T0.5"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T1"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T1"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 15000+",
+      "DEF: 1150+",
+      "ATK: 1800-2200+",
+      "Crit Rate: 65%+ (Before Set)",
+      "Crit DMG: 210%-260%+",
+      "Energy Regen: 120%",
+      "Glacio DMG%: 40%-70%+"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "The DMG Multipliers of Basic Attack - Foreclaimed Self, Heavy Attack - Foreclaimed Self, Mid-air Attack - Foreclaimed Self, Mid-air Plunging Attack - Foreclaimed Self, Dodge Counter - Foreclaimed Self are increased by 120%.Basic Attack - Foreclaimed Self Stage 3 now has an increased range and pulls enemies within range toward the center. Hiyuki is immune to interruptions while casting Basic Attack - Foreclaimed Self Stage 4 & 5.Casting Foreclaiming: Inward Vision enhances the next Basic Attack - Foreclaimed Self Stage 1 & 2, which now inflict 1 stack of Glacio Chafe on hit.",
+        "name": "Sequence Node 1",
+        "node": "S1"
+      },
+      {
+        "description": "Basic Attack - Iai's DMG Multiplier is increased by 125%.Inherent Skill Ephemeral Realm's effect becomes the following one:Once Hiyuki leaves the combat state or recovers from being knocked out, after staying out of combat for 4s, restore 3 points of Snowforged Blade.Once Hiyuki leaves the combat state or recovers from being knocked out, after staying out of combat for 4s, the following effects are triggered once:Restore 3 points of Frostharden Iai.Reset the Cooldown of 2 charges of Frostblight: Jade Cleave.Restore an additional 50 points of Frostheart for the next 2 casts of Frostblight: Jade Cleave or Frostblight: Petalfall.",
+        "name": "Sequence Node 2",
+        "node": "S2"
+      },
+      {
+        "description": "Inherent Skill Fine Snow gains the following effect: Every 2s after a Resonator joins the team or Hiyuki is revived, Hiyuki gains 1 stack of Snow Rust. Hiyuki can obtain up to 1 stack of Snow Rust in this way.The DMG Multipliers of Heavy Attack - Frost Splinter: Present Self and Heavy Attack - Bitterfrost: Foreclaimed Self are increased by 160%.At 2 stacks of Snow Rust, while Hiyuki is the active Resonator in the team, the DMG Multiplier of the additionally applied Glacio Bite DMG each time she inflicts Glacio Chafe is increased by 488%.",
+        "name": "Sequence Node 3",
+        "node": "S3"
+      },
+      {
+        "description": "Casting Resonance Skill: Present Self, Frostblight: Jade Cleave, or Frostblight: Petalfall increases the damage dealt by all nearby Resonators in the team by 20% for 30s.Restore 18% of Max HP while casting Frostblight: Jade Cleave or Frostblight: Petalfall.",
+        "name": "Sequence Node 4",
+        "node": "S4"
+      },
+      {
+        "description": "The DMG Multipliers of Resonance Skill - Present Self, Frostblight: Jade Cleave, and Frostblight: Petalfall are increased by 80%.",
+        "name": "Sequence Node 5",
+        "node": "S5"
+      },
+      {
+        "description": "The Crit. DMG of Foreclaiming: Inward Vision and Foreclaiming: Blade Liberation are increased by 500%.At 2 stacks of Snow Rust, the effect \"While Hiyuki is the active Resonator in the team, each time she applies Glacio Chafe, she additionally deals an instance of Glacio Bite DMG with a fixed DMG Multiplier\" changes to \"While Hiyuki is the active Resonator in the team, each time a Resonator in the team applies Glacio Chafe, she additionally deals an instance of Glacio Bite DMG with a fixed DMG Multiplier.\"At 2 stacks of Snow Rust, Hiyuki's Crit. DMG is increased by 40%.At 3 stacks of Snow Rust, the total Glacio Bite DMG taken by targets within a certain range of the active Resonator in the team is increased by 25%.",
+        "name": "Sequence Node 6",
+        "node": "S6"
+      }
+    ],
+    "review": {
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Hiyuki is a 5-star Glacio Sword DPS character whose mechanics revolve around Glacio Chafe and Liberation DMG. Featuring several big hits across her rotation, built-in grouping capabilities, and a huge damage potential, Hiyuki's rotation revolves around building her Forte resources efficiently in order to unleash all of her powerful moves in quick succession to dispatch enemies quickly with overwhelming force. Let's look into how to achieve this exact goal."
+          ]
+        },
+        {
+          "heading": "Rotation & Related Mechanics",
+          "paragraphs": [
+            "Hiyuki has several Forte resources she wants to build up in order to enter her Ultimate stance to deal the majority of her damage, then end it and finish it off with a big AoE-damaging second Ultimate attack (similarly to Zani, just packing more of a punch).",
+            "First, she wants to build up Dedication. This can be done via her Intro and her Basic 3 (either accessed directly after her Intro or after her base Skill). This is pretty quick to do, and lets her cast a Heavy Attack that then allows her to enter her Ultimate stance.",
+            "Once she enters her Ultimate stance, she can then build up Frostheart via Skills and Basic Attacks (2 skills and a full Basic chain will do the trick). This allows her to cast a special Basic Attack called Iai after a dodge, which then converts her Forte into 3 points of Whiteout Bitterfrost. This allows her to cast a special Heavy Attack, to then finally empower her Ultimate with yet another Heavy Attack to finally cast her second Ultimate automatically. At this point, her rotation is finished and she is ready to Outro. That's her rotation covered and done."
+          ]
+        },
+        {
+          "heading": "Glacio Chafe & Passives",
+          "paragraphs": [
+            "Hiyuki is a Glacio Chafe damage dealer, meaning that she applies Glacio Chafe stacks with several attacks throughout her rotation, stacking up to 10 times by default, being the following:",
+            "1 stack via her Intro;",
+            "1 stack via her Basic 3;",
+            "1 stack via her enhanced Heavy Attack;",
+            "4 stacks via her first Ultimate;",
+            "1 stack each with her Basic 3, 4, and 5 in Ultimate stance;",
+            "3 stacks for each Iai cast;",
+            "1 stack for her enhanced Heavy Attack in her Ultimate stance.",
+            "That's 20 stacks applied per rotation, which covers more than the max possible stack count on her own. However, Hiyuki has a particular interaction with Glacio Chafe.",
+            "Indeed, she will convert all Glacio Chafe applied on enemies instantly into Glacio Bite, similarly to Zani with Spectro Frazzle and Heliacal Embers (except it's actually considered Glacio Chafe, so it's a proper Negative Status, unlike Zani's case). Glacio Bite works very similarly to Glacio Chafe except it can deal significantly more damage via one of Hiyuki's passives, and it also stuns enemies for 2 seconds instead of freezing them as Glacio Chafe would.",
+            "Finally, let's cover the passive (Inherent Skill) in question, called \"Fine Snow\". This shapes Hiyuki's teambuilding. This passive can stack up to 3 times, 1 per application of Havoc Bane or Glacio Chafe in the team. Each stack enhances her Glacio Bite damage. Hiyuki will get 1 stack by herself; however, she will need teammates to get 2 and 3 stacks; this means characters like Chisa and Lucilla are strongly recommended on her team to stack up this passive. Getting 2 stacks is particularly significant as it makes Hiyuki's Glacio Bite DMG skyrocket, representing a significant damage boost. This is intended to make Glacio Chafe and Havoc Bane supports stronger for her teams, and sure enough it makes characters like Chisa and Lucilla a major upgrade in Hiyuki teams. The third stack isn't a significant damage increase, however, so it can be disregarded in the future with minimal consequences."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Hiyuki's a super strong Glacio main damage dealer, to no one's surprise. However, she's quite restricted in teammate options. Due to the way her kit and passives work, Hiyuki seriously lacks a variety of options in terms of teammates. She is quite reliant on having a fully constituted limited team around her to perform at her desired level. A character like Aemeath, on the other hand, can reach a similar ceiling in all areas currently, yet has a much wider variety of teammate options and similar weapon options, and depends less on having a full team to function. They also both depend on at least having one strong teammate, both being strong Liberation Sword damage dealers, which is a class of characters that lacks F2P-accessible buffers, Jianxin being quite a subpar choice in this aspect and the only available one.",
+            "Overall, Hiyuki's very strong performance-wise but is stranded for good permanent teammates, needing to lean into very specific team compositions to reach peak performance. Nonetheless, provided she's surrounded by the right teammates, she's going to tear through any content the game has to offer effortlessly, making her an amazing pickup for players looking to lean into her full premium team."
+          ]
+        }
+      ],
+      "summary": "Hiyuki is a 5-star Glacio Sword DPS character whose mechanics revolve around Glacio Chafe and Liberation DMG. Featuring several big hits across her rotation, built-in grouping capabilities, and a huge damage potential, Hiyuki's rotation revolves around building her Forte resources efficiently in order to unleash all of her powerful moves in quick succession to dispatch enemies quickly with overwhelming force. Let's look into how to achieve this exact goal."
+    },
+    "rotations": [
+      {
+        "rotation_name": "Standard Rotation:",
+        "steps": [
+          "Intro",
+          "Basic 3",
+          "Heavy: Frost Splinter (Cancel animation as soon as possible via Ultimate)",
+          "Ultimate: Inward Vision",
+          "Basic: Foreclaimed Self 1",
+          "Basic: Foreclaimed Self 2",
+          "Basic: Foreclaimed Self 3 (Cancel animation on cast via Skill)",
+          "Skill: Jade Cleave",
+          "Skill: Petalfall",
+          "Basic: Foreclaimed Self 1",
+          "Basic: Foreclaimed Self 2",
+          "Basic: Foreclaimed Self 3 (Cancel animation on cast via Dodge)",
+          "Dodge (Enter Iai Stance)",
+          "Basic: Iai (3 times)",
+          "Heavy: Bitterfrost",
+          "Hold Ultimate: Blade Liberation",
+          "Skill (Swap)",
+          "Outro"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "Intro can be skipped when levelling to save on resources at a minimal damage loss, with Skill also being semi-skippable but worth investing if resources are available.",
+      "order": [
+        "Res. Liberation",
+        "Basic Attack",
+        "Forte Circuit",
+        "Res. Skill",
+        "Intro Skill"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic Attack - Present SelfPress Normal Attack consecutively or hold it down to perform up to 3 consecutive attacks, dealing Glacio DMG.Basic Attack - Present Self Stage 3 applies 1 stack of Glacio Chafe on hit.Heavy Attack - Frost Splinter: Present SelfWhen Dedication reaches 300 points, Heavy Attack - Frost Splinter: Present Self becomes available.Hold Normal Attack to shoot out 3 arrows one by one at the cost of STA, dealing Glacio DMG, considered Resonance Liberation DMG. Hiyuki is immune to interruptions in the duration.When the last arrow is shot, 300 points of Dedication is consumed and Foreclaiming: Inward Vision becomes available. The arrow applies 1 stack of Glacio Chafe on hit.Mid-air Attack - Present SelfConsume STA to perform a Plunging Attack from Mid-air, dealing Glacio DMG.Dodge Counter - Present SelfPress Normal Attack within a certain period after a successful Dodge to attack the target, dealing Glacio DMG.Press Normal Attack within a certain period after casting this skill to perform Basic Attack - Present Self Stage 3.Basic Attack - Foreclaimed SelfWhile in Foreclaimed Self, Basic Attack - Present Self is replaced by Basic Attack - Foreclaimed Self.Perform up to 5 consecutive attacks, dealing Glacio DMG, considered Resonance Liberation DMG.Basic Attack - Foreclaimed Self Stage 3, 4, and 5 each applies 1 stack of Glacio Chafe on hit.Heavy Attack - Foreclaimed SelfIn Foreclaimed Self, hold Normal Attack to enter Hold Breath, continuously consuming STA. When Normal Attack is released or STA is depleted, Hiyuki leaves the Hold Breath state and thrusts forward, dealing Glacio DMG, considered Resonance Liberation DMG. Press Normal Attack within a certain period after casting this skill to perform Basic Attack - Foreclaimed Self Stage 2.If Hiyuki is attacked by an enemy within a certain period during the thrust, neutralize that instance of damage, Stagnate nearby targets, and become immune to interruptions for a certain period afterward while reducing all incoming damage by 100%. Press Normal Attack within a certain period after casting this skill to chain into Basic Attack - Foreclaimed Self Stage 4 instead.Heavy Attack - Bitterfrost: Foreclaimed SelfWhen Whiteout Bitterfrost is full, Heavy Attack - Foreclaimed Self is replaced with Heavy Attack - Bitterfrost: Foreclaimed Self.Hold Normal Attack and consume STA and 3 stacks of Whiteout Bitterfrost to gain 1 point of Snowforged Blade, dealing Glacio DMG, considered Resonance Liberation DMG.Heavy Attack - Bitterfrost: Foreclaimed Self applies 1 stack of Glacio Chafe on hit.If Hiyuki is airborne while casting this skill, she'll land on the ground first.Mid-air Attack - Foreclaimed SelfWhile in Foreclaimed Self, Mid-air Attack - Present Self is replaced by Mid-air Attack - Foreclaimed Self.Consume STA to perform up to 3 consecutive attacks in Mid-air, dealing Glacio DMG, considered Resonance Liberation DMG. Stage 3 is a Plunging Attack.Mid-air Attack - Foreclaimed Self Stage 2 & 3 apply 1 stack of Glacio Chafe on hit.The Mid-air Attack - Foreclaimed Self combo will not be reset by casting skills other than Basic Attack - Iai within a short period.Hold Normal Attack while airborne to perform a Plunging Attack at the cost of STA.Dodge Counter - Foreclaimed SelfWhile in Foreclaimed Self, Dodge Counter - Present Self is replaced by Dodge Counter - Foreclaimed Self.Press Normal Attack within a certain period after a successful Dodge to attack the target, dealing Glacio DMG, considered Resonance Liberation DMG.Press Normal Attack within a certain period after casting this skill to perform Basic Attack - Foreclaimed Self Stage 3.",
+        "multipliers": [
+          {
+            "Lv1": "18.97%+18.97%",
+            "Lv10": "37.72%+37.72%",
+            "Lv2": "20.53%+20.53%",
+            "Lv3": "22.09%+22.09%",
+            "Lv4": "24.26%+24.26%",
+            "Lv5": "25.82%+25.82%",
+            "Lv6": "27.61%+27.61%",
+            "Lv7": "30.10%+30.10%",
+            "Lv8": "32.59%+32.59%",
+            "Lv9": "35.07%+35.07%",
+            "Name": "Basic Attack - Present Self Stage 1 DMG"
+          },
+          {
+            "Lv1": "45.40%",
+            "Lv10": "90.25%",
+            "Lv2": "49.12%",
+            "Lv3": "52.84%",
+            "Lv4": "58.06%",
+            "Lv5": "61.78%",
+            "Lv6": "66.06%",
+            "Lv7": "72.02%",
+            "Lv8": "77.97%",
+            "Lv9": "83.93%",
+            "Name": "Basic Attack - Present Self Stage 2 DMG"
+          },
+          {
+            "Lv1": "2.48%*5+49.48%",
+            "Lv10": "4.92%*5+98.37%",
+            "Lv2": "2.68%*5+53.54%",
+            "Lv3": "2.88%*5+57.60%",
+            "Lv4": "3.17%*5+63.27%",
+            "Lv5": "3.37%*5+67.33%",
+            "Lv6": "3.60%*5+72.00%",
+            "Lv7": "3.93%*5+78.49%",
+            "Lv8": "4.25%*5+84.98%",
+            "Lv9": "4.58%*5+91.47%",
+            "Name": "Basic Attack - Present Self Stage 3 DMG"
+          },
+          {
+            "Lv1": "39.89%*2+79.78%",
+            "Lv10": "79.31%*2+158.61%",
+            "Lv2": "43.16%*2+86.32%",
+            "Lv3": "46.43%*2+92.86%",
+            "Lv4": "51.01%*2+102.02%",
+            "Lv5": "54.28%*2+108.56%",
+            "Lv6": "58.05%*2+116.09%",
+            "Lv7": "63.28%*2+126.55%",
+            "Lv8": "68.51%*2+137.02%",
+            "Lv9": "73.75%*2+147.49%",
+            "Name": "Heavy Attack - Frost Splinter: Present Self DMG"
+          },
+          {
+            "Lv1": "64.47%",
+            "Lv10": "128.18%",
+            "Lv2": "69.76%",
+            "Lv3": "75.05%",
+            "Lv4": "82.45%",
+            "Lv5": "87.74%",
+            "Lv6": "93.82%",
+            "Lv7": "102.27%",
+            "Lv8": "110.73%",
+            "Lv9": "119.19%",
+            "Name": "Mid-air Attack - Present Self DMG"
+          },
+          {
+            "Lv1": "87.40%",
+            "Lv10": "173.75%",
+            "Lv2": "94.57%",
+            "Lv3": "101.73%",
+            "Lv4": "111.77%",
+            "Lv5": "118.93%",
+            "Lv6": "127.17%",
+            "Lv7": "138.64%",
+            "Lv8": "150.11%",
+            "Lv9": "161.57%",
+            "Name": "Dodge Counter - Present Self DMG"
+          },
+          {
+            "Lv1": "24.78%",
+            "Lv10": "49.27%",
+            "Lv2": "26.82%",
+            "Lv3": "28.85%",
+            "Lv4": "31.69%",
+            "Lv5": "33.73%",
+            "Lv6": "36.06%",
+            "Lv7": "39.31%",
+            "Lv8": "42.56%",
+            "Lv9": "45.82%",
+            "Name": "Basic Attack - Foreclaimed Self Stage 1 DMG"
+          },
+          {
+            "Lv1": "20.13%+20.13%",
+            "Lv10": "40.02%+40.02%",
+            "Lv2": "21.78%+21.78%",
+            "Lv3": "23.43%+23.43%",
+            "Lv4": "25.74%+25.74%",
+            "Lv5": "27.39%+27.39%",
+            "Lv6": "29.29%+29.29%",
+            "Lv7": "31.93%+31.93%",
+            "Lv8": "34.57%+34.57%",
+            "Lv9": "37.21%+37.21%",
+            "Name": "Basic Attack - Foreclaimed Self Stage 2 DMG"
+          },
+          {
+            "Lv1": "12.66%*4+33.74%",
+            "Lv10": "25.16%*4+67.08%",
+            "Lv2": "13.70%*4+36.51%",
+            "Lv3": "14.73%*4+39.28%",
+            "Lv4": "16.19%*4+43.15%",
+            "Lv5": "17.22%*4+45.92%",
+            "Lv6": "18.42%*4+49.10%",
+            "Lv7": "20.08%*4+53.53%",
+            "Lv8": "21.74%*4+57.95%",
+            "Lv9": "23.40%*4+62.38%",
+            "Name": "Basic Attack - Foreclaimed Self Stage 3 DMG"
+          },
+          {
+            "Lv1": "15.05%+15.05%+15.05%+15.05%+15.05%",
+            "Lv10": "29.93%+29.93%+29.93%+29.93%+29.93%",
+            "Lv2": "16.29%+16.29%+16.29%+16.29%+16.29%",
+            "Lv3": "17.52%+17.52%+17.52%+17.52%+17.52%",
+            "Lv4": "19.25%+19.25%+19.25%+19.25%+19.25%",
+            "Lv5": "20.49%+20.49%+20.49%+20.49%+20.49%",
+            "Lv6": "21.90%+21.90%+21.90%+21.90%+21.90%",
+            "Lv7": "23.88%+23.88%+23.88%+23.88%+23.88%",
+            "Lv8": "25.85%+25.85%+25.85%+25.85%+25.85%",
+            "Lv9": "27.83%+27.83%+27.83%+27.83%+27.83%",
+            "Name": "Basic Attack - Foreclaimed Self Stage 4 DMG"
+          },
+          {
+            "Lv1": "6.12%+55.07%",
+            "Lv10": "12.17%+109.47%",
+            "Lv2": "6.62%+59.58%",
+            "Lv3": "7.13%+64.10%",
+            "Lv4": "7.83%+70.42%",
+            "Lv5": "8.33%+74.93%",
+            "Lv6": "8.91%+80.13%",
+            "Lv7": "9.71%+87.35%",
+            "Lv8": "10.51%+94.57%",
+            "Lv9": "11.32%+101.80%",
+            "Name": "Basic Attack - Foreclaimed Self Stage 5 DMG"
+          },
+          {
+            "Lv1": "53.90%",
+            "Lv10": "107.16%",
+            "Lv2": "58.32%",
+            "Lv3": "62.74%",
+            "Lv4": "68.93%",
+            "Lv5": "73.35%",
+            "Lv6": "78.43%",
+            "Lv7": "85.51%",
+            "Lv8": "92.58%",
+            "Lv9": "99.65%",
+            "Name": "Heavy Attack - Foreclaimed Self DMG"
+          },
+          {
+            "Lv1": "7.75%*8+248.00%",
+            "Lv10": "15.41%*8+493.05%",
+            "Lv2": "8.39%*8+268.34%",
+            "Lv3": "9.03%*8+288.68%",
+            "Lv4": "9.92%*8+317.15%",
+            "Lv5": "10.55%*8+337.48%",
+            "Lv6": "11.28%*8+360.87%",
+            "Lv7": "12.30%*8+393.41%",
+            "Lv8": "13.32%*8+425.94%",
+            "Lv9": "14.33%*8+458.48%",
+            "Name": "Heavy Attack - Bitterfrost: Foreclaimed Self DMG"
+          },
+          {
+            "Lv1": "14.50%+14.50%+19.33%",
+            "Lv10": "28.83%+28.83%+38.43%",
+            "Lv2": "15.69%+15.69%+20.92%",
+            "Lv3": "16.88%+16.88%+22.50%",
+            "Lv4": "18.54%+18.54%+24.72%",
+            "Lv5": "19.73%+19.73%+26.31%",
+            "Lv6": "21.10%+21.10%+28.13%",
+            "Lv7": "23.00%+23.00%+30.67%",
+            "Lv8": "24.90%+24.90%+33.20%",
+            "Lv9": "26.80%+26.80%+35.74%",
+            "Name": "Mid-air Attack - Foreclaimed Self Stage 1 DMG"
+          },
+          {
+            "Lv1": "13.12%+13.12%+13.12%+13.12%",
+            "Lv10": "26.09%+26.09%+26.09%+26.09%",
+            "Lv2": "14.20%+14.20%+14.20%+14.20%",
+            "Lv3": "15.28%+15.28%+15.28%+15.28%",
+            "Lv4": "16.78%+16.78%+16.78%+16.78%",
+            "Lv5": "17.86%+17.86%+17.86%+17.86%",
+            "Lv6": "19.10%+19.10%+19.10%+19.10%",
+            "Lv7": "20.82%+20.82%+20.82%+20.82%",
+            "Lv8": "22.54%+22.54%+22.54%+22.54%",
+            "Lv9": "24.26%+24.26%+24.26%+24.26%",
+            "Name": "Mid-air Attack - Foreclaimed Self Stage 2 DMG"
+          },
+          {
+            "Lv1": "56.14%",
+            "Lv10": "111.60%",
+            "Lv2": "60.74%",
+            "Lv3": "65.34%",
+            "Lv4": "71.79%",
+            "Lv5": "76.39%",
+            "Lv6": "81.68%",
+            "Lv7": "89.05%",
+            "Lv8": "96.41%",
+            "Lv9": "103.78%",
+            "Name": "Mid-air Plunging Attack - Foreclaimed Self DMG"
+          },
+          {
+            "Lv1": "41.13%+41.13%",
+            "Lv10": "81.77%+81.77%",
+            "Lv2": "44.50%+44.50%",
+            "Lv3": "47.87%+47.87%",
+            "Lv4": "52.60%+52.60%",
+            "Lv5": "55.97%+55.97%",
+            "Lv6": "59.85%+59.85%",
+            "Lv7": "65.24%+65.24%",
+            "Lv8": "70.64%+70.64%",
+            "Lv9": "76.03%+76.03%",
+            "Name": "Dodge Counter - Foreclaimed Self DMG"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Heavy Attack - Frost Splinter: Present Self STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-air Attack - Present Self STA Cost"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Hold Breath STA Cost per second"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Heavy Attack - Foreclaimed Self STA Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Heavy Attack - Bitterfrost: Foreclaimed Self STA Cost"
+          },
+          {
+            "Lv1": "5",
+            "Lv10": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Name": "Mid-air Attack - Foreclaimed Self Stage 1 STA Cost"
+          },
+          {
+            "Lv1": "5",
+            "Lv10": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Name": "Mid-air Attack - Foreclaimed Self Stage 2 STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-air Plunging Attack - Foreclaimed Self STA Cost"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Heavy Attack - Bitterfrost: Foreclaimed Self Concerto Regen"
+          }
+        ],
+        "name": "Flaming Sakura Blade Art",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Resonance Skill - Present SelfDeal Glacio DMG.Casting this skill enhances the next Basic Attack - Present Self Stage 3, which now restores 100 points of Dedication when cast. Switching to another Resonator ends this effect.Press Normal Attack within a certain period after casting this skill to perform Basic Attack - Present Self Stage 3.If Dedication is below 300 points, hold Normal Attack within a certain period after casting this skill to perform Basic Attack - Present Self Stage 3.While in Foreclaimed Self, Resonance Skill - Present Self is replaced by Frostblight: Jade Cleave and Frostblight: Petalfall:Frostblight: Jade CleaveWhile on the ground, press Resonance Skill to pull in nearby targets and deal Glacio DMG, removing the targets' Frostbind.This skill shares a Cooldown with Frostblight: Petalfall.Frostblight: PetalfallWhile in mid-air, press Resonance Skill to pull in nearby targets and deal Glacio DMG, removing the targets' Frostbind.This skill shares a Cooldown with Frostblight: Jade Cleave.",
+        "multipliers": [
+          {
+            "Lv1": "12.32%*4+49.28%",
+            "Lv10": "24.50%*4+97.98%",
+            "Lv2": "13.34%*4+53.33%",
+            "Lv3": "14.35%*4+57.37%",
+            "Lv4": "15.76%*4+63.02%",
+            "Lv5": "16.77%*4+67.07%",
+            "Lv6": "17.93%*4+71.71%",
+            "Lv7": "19.55%*4+78.18%",
+            "Lv8": "21.16%*4+84.64%",
+            "Lv9": "21.16%*4+84.64%",
+            "Name": "Resonance Skill - Present Self DMG"
+          },
+          {
+            "Lv1": "33.20%*4",
+            "Lv10": "66.01%*4",
+            "Lv2": "35.93%*4",
+            "Lv3": "38.65%*4",
+            "Lv4": "42.46%*4",
+            "Lv5": "45.18%*4",
+            "Lv6": "48.31%*4",
+            "Lv7": "52.67%*4",
+            "Lv8": "57.03%*4",
+            "Lv9": "57.03%*4",
+            "Name": "Frostblight: Jade Cleave DMG"
+          },
+          {
+            "Lv1": "32.20%*4+32.20%",
+            "Lv10": "64.02%*4+64.02%",
+            "Lv2": "34.85%*4+34.85%",
+            "Lv3": "37.49%*4+37.49%",
+            "Lv4": "41.18%*4+41.18%",
+            "Lv5": "43.82%*4+43.82%",
+            "Lv6": "46.86%*4+46.86%",
+            "Lv7": "51.08%*4+51.08%",
+            "Lv8": "55.31%*4+55.31%",
+            "Lv9": "55.31%*4+55.31%",
+            "Name": "Frostblight: Petalfall DMG"
+          },
+          {
+            "Lv1": "20s",
+            "Lv10": "20s",
+            "Lv2": "20s",
+            "Lv3": "20s",
+            "Lv4": "20s",
+            "Lv5": "20s",
+            "Lv6": "20s",
+            "Lv7": "20s",
+            "Lv8": "20s",
+            "Lv9": "20s",
+            "Name": "Resonance Skill - Present Self Cooldown"
+          },
+          {
+            "Lv1": "12s",
+            "Lv10": "12s",
+            "Lv2": "12s",
+            "Lv3": "12s",
+            "Lv4": "12s",
+            "Lv5": "12s",
+            "Lv6": "12s",
+            "Lv7": "12s",
+            "Lv8": "12s",
+            "Lv9": "12s",
+            "Name": "Frostblight: Jade Cleave/Petalfall Cooldown"
+          }
+        ],
+        "name": "Frostblight",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Foreclaiming: Inward VisionHeavy Attack - Foreclaiming: Inward Vision becomes available after casting Frost Splinter: Present Self.While in Present Self, press Resonance Liberation to cast this skill, dealing Glacio DMG. Upon casting this skill, gain 3 points of Frostharden Iai, remove 300 points of Dedication and Frostheart. Then, enter Foreclaimed Self and restore 50 points of Frostheart.Foreclaiming: Inward Vision applies 4 stacks of Glacio Chafe on hit.\nCasting Foreclaiming: Inward Vision does not consume Resonance Energy, and restores 50 points of Frostheart.Foreclaiming: Blade LiberationWhile in Foreclaimed Self, Foreclaiming: Blade Liberation can be cast via the following ways:Press Resonance Liberation and release to cast Foreclaiming: Blade Liberation. If Hiyuki has 3 points of Snowforged Blade, consume all Snowforged Blade. Otherwise, this cast does not consume Snowforged Blade.Hold Resonance Liberation to enter a charging state. During this state, consume 1 point of Snowforged Blade periodically. Release Resonance Liberation to cast Foreclaiming: Blade Liberation. If no Snowforged Blade is consumed when Resonance Liberation is released, Hiyuki will continue to charge the attack and cast the skill automatically after certain time. Foreclaiming: Blade Liberation will also be cast automatically when Snowforged Blade depletes.Hiyuki deals Glacio DMG. Each point of Snowforged Blade consumed increases the DMG Multiplier of this attack.Casting the skill consumes 300 points of Dedication and Frostheart, and ends Foreclaimed Self.",
+        "multipliers": [
+          {
+            "Lv1": "200.00%",
+            "Lv10": "397.62%",
+            "Lv2": "216.40%",
+            "Lv3": "232.80%",
+            "Lv4": "255.76%",
+            "Lv5": "272.16%",
+            "Lv6": "291.02%",
+            "Lv7": "317.26%",
+            "Lv8": "343.50%",
+            "Lv9": "369.74%",
+            "Name": "Foreclaiming: Inward Vision DMG"
+          },
+          {
+            "Lv1": "100.00%+400.00%",
+            "Lv10": "198.81%+795.24%",
+            "Lv2": "108.20%+432.80%",
+            "Lv3": "116.40%+465.60%",
+            "Lv4": "127.88%+511.52%",
+            "Lv5": "136.08%+544.32%",
+            "Lv6": "145.51%+582.04%",
+            "Lv7": "158.63%+634.52%",
+            "Lv8": "171.75%+687.00%",
+            "Lv9": "184.87%+739.48%",
+            "Name": "Foreclaiming: Blade Liberation Base DMG"
+          },
+          {
+            "Lv1": "400.00%",
+            "Lv10": "795.24%",
+            "Lv2": "432.80%",
+            "Lv3": "465.60%",
+            "Lv4": "511.52%",
+            "Lv5": "544.32%",
+            "Lv6": "582.04%",
+            "Lv7": "634.52%",
+            "Lv8": "687.00%",
+            "Lv9": "739.48%",
+            "Name": "Total Foreclaiming: Blade Liberation DMG Increase per Snowforged Blade"
+          },
+          {
+            "Lv1": "25s",
+            "Lv10": "25s",
+            "Lv2": "25s",
+            "Lv3": "25s",
+            "Lv4": "25s",
+            "Lv5": "25s",
+            "Lv6": "25s",
+            "Lv7": "25s",
+            "Lv8": "25s",
+            "Lv9": "25s",
+            "Name": "Foreclaiming: Inward Vision Cooldown"
+          },
+          {
+            "Lv1": "25s",
+            "Lv10": "25s",
+            "Lv2": "25s",
+            "Lv3": "25s",
+            "Lv4": "25s",
+            "Lv5": "25s",
+            "Lv6": "25s",
+            "Lv7": "25s",
+            "Lv8": "25s",
+            "Lv9": "25s",
+            "Name": "Foreclaiming: Blade Liberation Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv10": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Name": "Foreclaiming: Blade Liberation Resonance Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Foreclaiming: Inward Vision Concerto Regen"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Foreclaiming: Blade Liberation Concerto Regen"
+          }
+        ],
+        "name": "Foreclaiming",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Glacio BiteWhile Hiyuki is in the team, Glacio Chafe inflicted by nearby Resonators in the team is converted to Glacio Bite. Every time a new stack of Glacio Bite is inflicted on a target, an instance of Glacio Bite DMG is triggered based on that enemy's current Glacio Bite stack limit. Glacio Bite can be inflicted on frozen targets. Glacio Bite is also considered Glacio Chafe and Glacio Bite DMG is also considered Glacio Chafe DMG.When Foreclaiming: Inward Vision or Basic Attack - Iai hits a target, if the target has no fewer than 10 stacks of Glacio Chafe, consume 10 stacks and trigger Frostbind once.When Hiyuki joins the team, remove all stacks Glacio Chafe from the targets. When Hiyuki leaves the team, if there is no other Resonator in the team who can convert Glacio Chafe into Glacio Chafe, all enemies' Glacio Bite stacks are cleared.Present SelfHiyuki starts in Present Self. While in Present Self, casting certain skills restores Dedication.Foreclaimed SelfHiyuki enters Foreclaimed Self after casting Foreclaiming: Inward Vision. While in Foreclaimed Self, Hiyuki unlocks a new form and restores Frostheart by casting certain skills.Iai StanceIf Hiyuki has at least 100 points of Frostheart, performing any of the following actions causes her to flash backward at the cost of STA and enter Iai Stance:Press Dodge after casting any Normal Attacks - Foreclaimed Self other than Heavy Attack - Bitterfrost: Foreclaimed Self, Frostblight: Jade Cleave, Frostblight: Petalfall, Basic Attack - Iai, or Intro Skill - Frostedge.Hold Resonance Skill within a certain period after casting Frostblight: Jade Cleave or Frostblight: Petalfall.While performing the actions above, if there is a valid target within the range and the forward input is held down, Hiyuki instead flashes behind the enemy at the cost of STA and enters Iai Stance.Hiyuki may enter Iai Stance while airborne. Upon entering the Iai Stance, Hiyuki's mid-air Dodge charges are reset. Iai Stance ends if Hiyuki is switched out.Basic Attack - IaiWithin a certain period upon after entering Iai Stance, press Normal Attack and consume 100 points of Frostheart to cast Basic Attack - Iai, dealing Glacio DMG, considered Resonance Liberation DMG.If Frostheart remains at 100 points or above after casting this skill, press Normal Attack within a certian period to cast Basic Attack - Iai again.If Hiyuki is attacked by an enemy within a certain period during Basic Attack - Iai, neutralize this instance of damage and become immune to interruptions for a certain duration afterwards while reducing all incoming DMG by 100%.Each time Basic Attack - Iai is cast, if Hiyuki has Frostharden Iai, consume 1 stack of Frostharden Iai to inflict 3 stacks of Glacio Chafe on hit, and gain 1 stack of Whiteout Bitterfrost.DedicationHiyuki holds up to 300 points of Dedication.While in Present Self, casting Basic Attack - Present Self Stage 3 restores 100 points of Dedication and casting Resonance Skill - Present Self enhances the next Basic Attack - Present Self Stage 3, which now additionally restores 100 points of Dedication. This effect ends when Hiyuki is switched out.FrostheartHiyuki holds up to 300 points of Frostheart.Frostheart is restored while casting Frostblight: Jade Cleave and Frostblight: Petalfall, or when Normal Attacks - Foreclaimed Self other than Heavy Attack - Bitterfrost: Foreclaimed Self hits the target.Frostharden IaiFrostharden Iai has a maximum of 3 points.Casting Foreclaiming: Inward Vision grants 3 points of Frostharden Iai.Whiteout BitterfrostWhiteout Bitterfrost stacks up to 3 times.Each time Frostharden Iai is consumed through Basic Attack - Iai, gain 1 stack of Whiteout Bitterfrost.Snowforged BladeSnowforged Blade stacks up to 3 times.Each time Heavy Attack - Frost Splinter: Foreclaimed Self is cast, gain 1 stack of Snowforged Blade.",
+        "multipliers": [
+          {
+            "Lv1": "142.76%+23.80%*4",
+            "Lv10": "283.82%+47.31%*4",
+            "Lv2": "154.47%+25.75%*4",
+            "Lv3": "166.18%+27.70%*4",
+            "Lv4": "182.56%+30.43%*4",
+            "Lv5": "194.27%+32.38%*4",
+            "Lv6": "207.73%+34.63%*4",
+            "Lv7": "226.46%+37.75%*4",
+            "Lv8": "245.19%+40.87%*4",
+            "Lv9": "263.92%+43.99%*4",
+            "Name": "Basic Attack - Iai DMG"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Iai Stance STA Cost"
+          }
+        ],
+        "name": "Everfrost Dominion",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "When a Resonator in the team applies Glacio Chafe or Havoc Bane, Hiyuki gains 1 stack of Snow Rust. Snow Rust stacks up to 3 times. Each Resonator can trigger this effect only once in this way.Based on Hiyuki's current stacks of Snow Rust, the following bonuses are unlocked:1 stack of Snow Rust: When Hiyuki is the active Resonator in the team, Glacio Bite DMG is Amplified by 30% against targets within a certain range. Hiyuki's Crit. DMG is increased by 40%.2 stacks of Snow Rust: When Hiyuki is the active Resonator in the team, each time she applies Glacio Chafe, she additionally deals 102% Glacio Bite DMG once.3 stacks of Snow Rust: When Hiyuki is the active Resonator in the team, Glacio Bite DMG is additionally Amplified by 30% against targets within a certain range.This effect resets when new Resonators are added to the team.",
+        "multipliers": [],
+        "name": "Fine Snow",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "Once Hiyuki leaves the combat state or recovers after being knocked out, when she stays out of combat for 4s with has fewer than 1 point of Snowforged Blade, restore 1 point.",
+        "multipliers": [],
+        "name": "Ephemeral Realm",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Deal Glacio DMG, considered Resonance Liberation DMG, and apply 1 stack of Glacio Chafe on hit.In Present Self, casting this skill restores 200 points of Dedication. Press or hold Normal Attack within a certain period after casting this skill to cast Basic Attack - Foreclaimed Self Stage 3.In Foreclaimed Self, press Normal Attack within a certain period after casting this skill to cast Basic Attack - Foreclaimed Self Stage 2.",
+        "multipliers": [
+          {
+            "Lv1": "78.54%",
+            "Lv10": "156.15%",
+            "Lv2": "84.99%",
+            "Lv3": "91.43%",
+            "Lv4": "100.44%",
+            "Lv5": "106.88%",
+            "Lv6": "114.29%",
+            "Lv7": "124.59%",
+            "Lv8": "134.90%",
+            "Lv9": "145.20%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Frostedge",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Glacio DMG dealt by nearby Resonators other than Hiyuki in the team is Amplified by 20% against targets affected by Glacio Chafe for 20s.",
+        "multipliers": [],
+        "name": "Snowlight Blessing",
+        "skill_type": "Outro Skill"
+      },
+      {
+        "category": "",
+        "description": "When the target's Off-Tune Level is full, Hiyuki can cast Tune Break on the target.While in Present Self, press or hold Normal Attack shortly after casting Tune Break to cast Basic Attack - Present Self Stage 3.While in Foreclaimed Self, press Normal Attack shortly after casting Tune Break to cast Basic Attack - Foreclaimed Self Stage 3.",
+        "multipliers": [],
+        "name": "Tune Break: Sword",
+        "skill_type": "Forte Circuit"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "lucilla",
+          "lynae"
+        ],
+        "commentary": "Best and only competitive buffers for Hiyuki. Lucilla leans a lot into Hiyuki's Glacio Chafe DMG, while Lynae will have Hiyuki doing bigger numbers on her Ultimates due to her higher raw Liberation DMG buffing. Overall, Lucilla wins out because she can stack up Hiyuki's passive that requires allies to apply Glacio Chafe/Havoc Bane, fully leans into the Glacio Chafe archetype and has an easy rotation. Lynae is a bit worse due to no Glacio Chafe synergy, but still has strong enough general buffs that she remains one of the top picks for the Hiyuki team's 2nd slot."
+      },
+      {
+        "characters": [
+          "chisa",
+          "mornye",
+          "the-shorekeeper",
+          "verina"
+        ],
+        "commentary": "These are the Support choices Hiyuki has ranked in order. Anyone other than Chisa and Mornye (with Lynae specifically for the latter) will experience significant drop-offs in performance. This is because Chisa's ability to apply Havoc Bane makes her synergize with Hiyuki's passive, giving her a second stack to deal a ton of additional Glacio Bite DMG. Mornye on the other hand has a synergy with Lynae more than Hiyuki, but she has very general buffs that Hiyuki can exploit too; Shorekeeper and Verina serve as alternative options if neither are available."
+      },
+      {
+        "characters": [
+          "yinlin",
+          "zhezhi",
+          "changli",
+          "jianxin"
+        ],
+        "commentary": "These are potential \"last resort\" buffing/secondary damage dealing options for Hiyuki if Lynae isn't available. Due to lower overall buffs, or an excessive rotation time, or simply lower overall personal damage, these Support options can work for Hiyuki, but Chisa is strongly recommended to back her up as a Support if you want to use any of these with her."
+      }
+    ],
+    "upgrade_materials": {
+      "character_ascension": [],
+      "skill_upgrades": []
+    },
+    "voice_actors": {
+      "cn": "",
+      "eng": "",
+      "jpn": "",
+      "kr": ""
+    }
+  },
+  "status": "success"
+}
