@@ -196,9 +196,9 @@
       "slug": "chisa",
       "updates": {
         "last_major_build_patch": "3.5",
-        "last_profile_update": "10/July/2026",
+        "last_profile_update": "30/July/2026",
         "last_review_patch": "2.8",
-        "last_updated": "10/July/2026"
+        "last_updated": "30/July/2026"
       },
       "weapon_type": "Broadblade"
     },
@@ -210,17 +210,18 @@
         },
         "slot_2": {
           "alternatives": [
+            "lynae",
             "rebecca",
             "phrolova"
           ],
-          "character_name": "lynae"
+          "character_name": "suisui"
         },
         "slot_3": {
           "alternatives": [],
           "character_name": "chisa"
         },
         "team_name": "Team #1: Best Team",
-        "team_notes": ""
+        "team_notes": "Have Chisa on Moonlit Clouds in the 2nd slot with Suisui on the team for optimal buffing, else leave her as a Rejuvenating Glow 3rd slot Support."
       },
       {
         "slot_1": {

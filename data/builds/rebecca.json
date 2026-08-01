@@ -239,9 +239,9 @@
       "slug": "rebecca",
       "updates": {
         "last_major_build_patch": "3.4",
-        "last_profile_update": "10/July/2026",
+        "last_profile_update": "30/July/2026",
         "last_review_patch": "3.4",
-        "last_updated": "10/July/2026"
+        "last_updated": "30/July/2026"
       },
       "weapon_type": "Pistols"
     },
@@ -256,8 +256,10 @@
           "character_name": "rebecca"
         },
         "slot_3": {
-          "alternatives": [],
-          "character_name": "chisa"
+          "alternatives": [
+            "chisa"
+          ],
+          "character_name": "suisui"
         },
         "team_name": "Best Team",
         "team_notes": ""
@@ -1062,7 +1064,7 @@
       },
       {
         "category": "Transition",
-        "description": "Summon a turret that continuously attacks enemies for 14s, dealing 2.5% Electro DMG each hit.The incoming Resonator gains Edgerunner Bonds, granting 15% All DMG Amplification for 14s. Resonators with Edgerunner Bonds gain 1 stack of Overlimit every 0.2s, each stack granting 0.5% Heavy Attack DMG Amplification, up to 35% (Lucy automatically receives max stacks when her Edgerunner Bonds is active). Switching to another Resonator ends Edgerunner Bonds and Overlimit early.Lucy can enhance the turret, increasing its DMG Multiplier by 250%, but its on-field duration will be lowered to 4s.Lucy can enhance the turret, increasing its DMG Multiplier by 250%, but its on-field duration will be lowered to 4s.",
+        "description": "Summon a turret that continuously attacks enemies for 14s, dealing 2.5% Electro DMG each hit.The incoming Resonator gains Edgerunner Bonds, granting 15% All DMG Amplification for 14s. Resonators with Edgerunner Bonds gain 1 stack of Overlimit every 0.2s, each stack granting 0.5% Heavy Attack DMG Amplification, up to 35% (Lucy automatically receives max stacks when her Edgerunner Bonds is active). Switching to another Resonator ends Edgerunner Bonds and Overlimit early.Lucy can enhance the turret, increasing its DMG Multiplier by 250%, but its on-field duration will be lowered to 4s.",
         "multipliers": [],
         "name": "Preem Choom",
         "skill_type": "Outro Skill"

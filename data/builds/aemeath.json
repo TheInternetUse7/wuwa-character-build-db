@@ -185,9 +185,9 @@
       "slug": "aemeath",
       "updates": {
         "last_major_build_patch": "3.1",
-        "last_profile_update": "10/July/2026",
+        "last_profile_update": "30/July/2026",
         "last_review_patch": "3.1",
-        "last_updated": "10/July/2026"
+        "last_updated": "30/July/2026"
       },
       "weapon_type": "Sword"
     },
@@ -203,6 +203,7 @@
         },
         "slot_3": {
           "alternatives": [
+            "suisui",
             "lupa"
           ],
           "character_name": "chisa"
@@ -1066,10 +1067,11 @@
         "characters": [
           "mornye",
           "chisa",
+          "suisui",
           "the-shorekeeper",
           "verina"
         ],
-        "commentary": "The best general Supports for Aemeath. Mornye is always the strongest since Aemeath applies her own Tune Rupture for Mornye to bounce off of and buff her to the max of her abilities, even at S0. She is also an excellent Fusion support with Lupa as she enables her full Mono Fusion buffs. However, in full-fledged Fusion Burst teams, Chisa remains ideal above Lupa when alongside Denia. Shorekeeper and Verina are however always strong alternatives that should not be underestimated if you don't have access to either team."
+        "commentary": "The best general Supports for Aemeath. Mornye is always the strongest since Aemeath applies her own Tune Rupture for Mornye to bounce off of and buff her to the max of her abilities, even at S0. She is also an excellent Fusion support with Lupa as she enables her full Mono Fusion buffs. However, in full-fledged Fusion Burst teams, Chisa remains ideal above Suisui and Lupa when alongside Denia, while the latter two remain close contenders. Shorekeeper and Verina are however always strong alternatives that should not be underestimated if you don't have access to either team."
       }
     ],
     "upgrade_materials": {

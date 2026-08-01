@@ -237,9 +237,9 @@
       "slug": "lucilla",
       "updates": {
         "last_major_build_patch": "3.4",
-        "last_profile_update": "10/July/2026",
+        "last_profile_update": "30/July/2026",
         "last_review_patch": "3.4",
-        "last_updated": "10/July/2026"
+        "last_updated": "30/July/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -254,11 +254,13 @@
           "character_name": "lucilla"
         },
         "slot_3": {
-          "alternatives": [],
-          "character_name": "chisa"
+          "alternatives": [
+            "chisa"
+          ],
+          "character_name": "suisui"
         },
         "team_name": "Glacio Chafe Team",
-        "team_notes": "Shorekeeper and Verina can also work in the 3rd slot but will provide much less effective buffs for Hiyuki's team than Chisa."
+        "team_notes": "Shorekeeper and Verina can also work in the 3rd slot but will provide much less effective buffs for Hiyuki's team than Suisui/Chisa."
       },
       {
         "slot_1": {

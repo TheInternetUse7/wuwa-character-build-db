@@ -10,16 +10,111 @@
       "hp": 0,
       "max_energy": 0
     },
-    "best_echo_sets": [],
+    "best_echo_sets": [
+      {
+        "commentary": "Allows Suisui to buff the whole team's ATK by 25% constantly thanks to her Glacio Chafe application and Energy Regen scaling. Best overall set as it gives the best uptime on the ATK buff.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Gives Suisui 10% Healing Bonus when equipped in the main slot. Simple Summon Echo that deals a tiny bit of damage in spite of its lackluster stat increase (provides a tiny bit more healing but generally not important).",
+            "echo_name": "Forbidden Bastion"
+          }
+        ],
+        "percentage_performance": "1",
+        "set_name": "Song of Feathered Trace"
+      },
+      {
+        "commentary": "Offers a 10% unconditional Healing% boost and an most importantly a 15% ATK% boost for the entire team, lasting 30 seconds whenever you heal yourself or any of your allies. This bonus is easy to keep active 100% of the time and is a good party-wide damage increase.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Allows Rejuvenating Glow to provide as many total buffs as Song of Feathered Trace on cast, giving an extra 10% ATK to the team and an extra 10% Energy Regen to the wearer. It can easily be summoned before Suisui's Outro to have roughly the same effects as Suisui's Signature set, however the buffs will have lower uptime in longer team rotations which can make this set situationally worse (but by very small margins). ",
+            "echo_name": "Fallacy of No Return"
+          }
+        ],
+        "percentage_performance": "2",
+        "set_name": "Rejuvenating Glow"
+      }
+    ],
     "best_echo_stats": {
       "main_stats": {
-        "cost_1": [],
-        "cost_3": [],
-        "cost_4": []
+        "cost_1": [
+          "HP%",
+          "HP%"
+        ],
+        "cost_3": [
+          "Energy Regen",
+          "Energy Regen / HP%"
+        ],
+        "cost_4": [
+          "CRIT DMG"
+        ]
       },
-      "substats_priority": []
+      "substats_priority": [
+        "Energy Regen (Until 260%)",
+        "CRIT DMG",
+        "HP%",
+        "CRIT Rate",
+        "Basic DMG%",
+        "HP"
+      ]
     },
-    "best_weapons": [],
+    "best_weapons": [
+      {
+        "commentary_details": "Suisui's best in slot Signature weapon grants the whole team a 20% ATK buff, decent increase to the party's overall damage output, as well as a lot of Energy Regen which she needs to access her full buffs.",
+        "dupe_rank": "R1",
+        "percentage_performance": "1",
+        "weapon_base_info": {
+          "effect_description": "Coming Soon!",
+          "primary_stat_val": 0,
+          "rarity": 5,
+          "secondary_stat_name": "",
+          "secondary_stat_val": 0,
+          "source": ""
+        },
+        "weapon_name": "Firstlight's Herald"
+      },
+      {
+        "commentary_details": "Shorekeeper's Signature weapon provides Suisui with enough Energy Regen to easily max out her passives, but otherwise is quite redundant on her since the team-wide ATK-increasing passive doesn't get activated.",
+        "dupe_rank": "R1",
+        "percentage_performance": "2",
+        "weapon_base_info": {
+          "effect_description": "Increase HP by {0}. Restore {1} Concerto Energy when casting Resonance Liberation. This effect can be triggered 1 time(s) every 20s. When casting Resonance Skill that heals, increase nearby party members' ATK by {2} for 30s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 412,
+          "rarity": 5,
+          "secondary_stat_name": "Energy Regen",
+          "secondary_stat_val": 77,
+          "source": "Gacha"
+        },
+        "weapon_name": "Stellar Symphony"
+      },
+      {
+        "commentary_details": "Best overall weapon in terms of cost-efficiency, provides Suisui with the Concerto and Energy Regen needed to have her operate at a baseline while sacrificing minimal team damage and remaining accessible at a low cost.",
+        "dupe_rank": "R5",
+        "percentage_performance": "3",
+        "weapon_base_info": {
+          "effect_description": "When Resonance Skill is released, restores Concerto Energy by {0}. This effect can be triggered 1 time every 20s.",
+          "primary_stat_val": 337,
+          "rarity": 4,
+          "secondary_stat_name": "Energy Reg.",
+          "secondary_stat_val": 51.8,
+          "source": ""
+        },
+        "weapon_name": "Variation"
+      },
+      {
+        "commentary_details": "Last resort option if Suisui has none of the options above available to her. Grants the same Energy Regen stats with a bit of Healing Bonus instead of Concerto Energy - not ideal as it slows down her rotations significantly, but acceptable until one of the options above can be accessed.",
+        "dupe_rank": "R5",
+        "percentage_performance": "4",
+        "weapon_base_info": {
+          "effect_description": "Casting Resonance Liberation increases the Resonator's Healing Bonus by {0} for 15s.",
+          "primary_stat_val": 338,
+          "rarity": 4,
+          "secondary_stat_name": "Energy Regen",
+          "secondary_stat_val": 51.8,
+          "source": "Event"
+        },
+        "weapon_name": "Call of the Abyss"
+      }
+    ],
     "character_metadata": {
       "breadcrumb": [
         "Wuthering Waves",
@@ -31,35 +126,706 @@
       "rarity_stars": 5,
       "slug": "suisui",
       "updates": {
-        "last_major_build_patch": "",
-        "last_profile_update": "18/June/2026",
-        "last_review_patch": "",
-        "last_updated": "18/June/2026"
+        "last_major_build_patch": "3.5",
+        "last_profile_update": "30/July/2026",
+        "last_review_patch": "3.5",
+        "last_updated": "30/July/2026"
       },
       "weapon_type": "Rectifier"
     },
-    "example_teams": [],
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "yangyang-xuanling"
+        },
+        "slot_2": {
+          "alternatives": [
+            "rebecca",
+            "phrolova"
+          ],
+          "character_name": "chisa"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "suisui"
+        },
+        "team_name": "Best Team",
+        "team_notes": "Phrolova may display the strongest results in Whimpering Wastes."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "hiyuki"
+        },
+        "slot_2": {
+          "alternatives": [
+            "lynae"
+          ],
+          "character_name": "lucilla"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "suisui"
+        },
+        "team_name": "Hiyuki Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "aemeath"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "denia"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "suisui"
+        },
+        "team_name": "Aemeath Team",
+        "team_notes": ""
+      }
+    ],
     "media": {
       "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/suisui_full.webp",
       "youtube_guide_embed_url": "",
-      "youtube_guide_full_url": ""
+      "youtube_guide_full_url": "vMn2bYf7zTU"
     },
-    "minor_fortes": [],
+    "minor_fortes": [
+      {
+        "bonus_value": "+12%",
+        "stat_name": "Healing Bonus%"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "HP%"
+      }
+    ],
     "pros_and_cons": {
-      "cons": [],
-      "pros": []
+      "cons": [
+        "Full buffs only activate under the extremely specific condition of direct Negative Status consumption, making it difficult to increase her team flexibility, as even if her S1 tries to accomplish that, it doesn't really help her in practice;",
+        "Very low headroom for Quickswap if not nonexistent. Needs an Intro to get her rotation started quickly, wants to stay on field to do full attack chains, some of her buffs expire on swap and take a while to be able to take effect;",
+        "Low sequence value in general, one of the lowest in the modern era, basically no room for vertical investment."
+      ],
+      "pros": [
+        "The best Support for a ton of Negative Status characters, a currently really strong meta archetype;",
+        "Easy rotation, almost no complexity to it;",
+        "Built-in grouping for multi-wave content;",
+        "F2P-friendly, fully operational at S0R0 (Variation is a perfectly fine replacement for her Signature Rectifier, like a lot of other supports)."
+      ]
     },
-    "ratings": null,
-    "recommended_endgame_stats_target": [],
-    "resonance_chain_dupes": [],
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [
+            "Chafe",
+            "Gather",
+            "Sustain"
+          ],
+          "tier": "T0"
+        },
+        "whimpering_wastes": {
+          "tags": [
+            "Chafe",
+            "Gather",
+            "Sustain"
+          ],
+          "tier": "T0.5"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T0"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T0.5"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 35000-40000+",
+      "DEF: 1100+",
+      "ATK: 1100-1200+",
+      "CRIT Rate: 20%+",
+      "CRIT DMG: 250%+",
+      "Energy Regen: 260%This is the amount of Energy Regen that is required to get the maximum potential out of Suisui's buffs.",
+      "Glacio DMG Bonus: 0%+"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "Resonators with Undulating Mist also gain ATK increase after inflicting Negative Status or dealing Negative Status DMG.The duration of Reflecting Shadows obtained through the third Plume Step is extended by 100%.Basic Attack - Drizzle Stance, Heavy Attack - Drizzle Stance, Plunging Attack - Illuminating Dew and Plunging Attack - Swallow's Cut are immune to interruption.",
+        "name": "Mountains Washed Into Paintings",
+        "node": "S1"
+      },
+      {
+        "description": "All nearby Resonators in the team within the Ceaseless Landscape have their Crit. DMG increased by 50% for 30s after performing the following actions:Inflicting Spectro Frazzle, Fusion Burst, Glacio Chafe, Aero Erosion, and Electro Flare, or dealing the corresponding Negative Status DMG.Consuming Havoc Bane stacks on the target.When the active Resonator is not in the Ceaseless Landscape, this Crit. DMG bonus effect is disabled.",
+        "name": "Clouds Pour Like Molten Gold",
+        "node": "S2"
+      },
+      {
+        "description": "Press Normal Attack shortly after casting Resonance Skill - Drizzle Stance to cast Basic Attack - Drizzle Stance Stage 4.Casting Resonance Skill - Drizzle Stance grants Kingfisher. Switching to another Resonator ends this effect. Casting Basic Attack - Drizzle Stance Stage 4 consumes Kingfisher to restore 20 points of Concerto Energy and 350 points of Floral Epistle. Kingfisher can be consumed up to once every 25s.",
+        "name": "Sparse Curtains Invite Evening Glow",
+        "node": "S3"
+      },
+      {
+        "description": "Healing provided by Enrichment and  Spring's Birth are increased by 50%.",
+        "name": "Autumn Mountains in Choir Sing",
+        "node": "S4"
+      },
+      {
+        "description": "The DMG Multipliers of Basic Attack - Drizzle Stance and Heavy Attack - Drizzle Stance are increased by 100%.",
+        "name": "I Long To Ride The Eastern Wind ",
+        "node": "S5"
+      },
+      {
+        "description": "The Crit. DMG of Intro Skill - Tinkling Jade and Resonance Skill - Awakening Spring is increased by 500%.",
+        "name": "Staying True To This Splendid Realm ",
+        "node": "S6"
+      }
+    ],
     "review": {
-      "sections": [],
-      "summary": ""
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Review",
+            "Suisui is a 5-star Glacio Rectifier Support whose primary role is to buff Negative Status consumers in various ways (currently, that scope extends to a few fairly obvious synergies that characterize her meta niche). She's akin to a Mornye-type healer/buffer Support with low personal damage and a decently fast rotation with specific use cases for certain team archetypes.",
+            "Key Mechanics",
+            "Suisui has 2 stances she can alternate between throughout her rotation: Zephyr and Drizzle. However, the Zephyr stance will only really be used in her Opener rotation, since Intro makes her immediately start in Drizzle.",
+            "Each stance has its own unique set of attacks and Forte gauges. The Zephyr stance, when full, allows you to cast a special Skill to switch to Drizzle stance (useful without an Intro available). Meanwhile, the Drizzle stance allows you to build up several buffs by filling up Suisui's Forte bar with Floral Epistle points that she consumes upon casting her Outro.",
+            "Suisui's typical rotation has you hence entering Drizzle stance as quickly as possible (either via Zephyr form basics into Skill or via her Intro directly), to then fill up her Floral Epistle gauge to deploy her full buffs upon casting her Outro. However, her Ultimate serves as an additional buffing tool that she will definitely want to deploy every rotation, considering it allows her to increase the stack cap of all Negative Statuses but Havoc Bane by 3 (almost exactly like Chisa), while consuming Havoc Bane gives a small DEF Ignore and Havoc RES Shred boost.",
+            "Who Does She Buff & How?",
+            "Suisui's buffs are largely concentrated in her Outro and Ultimate. However, her Echo Set and Signature weapon all contribute to the buffing total as well for the following array of buffs:",
+            "For any Negative Status but Havoc Bane: Stack cap increased by 3;",
+            "For Havoc Bane consumers: 6% DEF Ignore, 12% Havoc RES Shred;",
+            "12% general DMG Bonus and 25% general DMG Amplification on Outro;",
+            "50% ATK for Negative Status-consuming Hypercarries via her Outro effects (this expires on swap);",
+            "Throughout attacks in her kit: 5 total stacks of Glacio Chafe application per rotation;",
+            "25% ATK and an extra 20% via her Echo Set and Signature weapon if owned.",
+            "As you can tell, that makes for some pretty massive buffs for Negative Status consumers, and right now we have two such characters: Hiyuki and Yangyang: Xuanling.",
+            "Meta Position & Conclusion",
+            "Suisui is quite the restrictive buffer in the sense that she requires characters on her team to consume Negative Statuses to use the full extent of her buffs; particularly a Hypercarry DPS is ideal for this. However, only a 50% ATK buff is specifically locked behind Negative Status consumption, and overall this buff can be forfeited in the one other team Suisui is a good replacement for: Aemeath Fusion Burst.",
+            "Suisui is generally quite a good pull for Negative Status characters, particularly Hiyuki and Yangyang: Xuanling since she applies Glacio Chafe for Hiyuki and she gives specialized Havoc Bane buffs for Yangyang. While she can generally be used for Negative Status teams, her 2 niches are carved out for her, and she's best in slot in 2 of the strongest meta teams right now, making her quite the strong meta contender.",
+            "In conclusion, Suisui's buff conditions may be quite strict, but in spite of them she proves quite generally useful for Negative Status teams at large and serves as a much-needed replacement to Chisa in 2 important meta teams as well as the final touch needed to complete Yangyang: Xuanling's best team, earning her a top meta spot as of her release."
+          ]
+        }
+      ],
+      "summary": "Review"
     },
-    "rotations": [],
-    "skill_upgrade_priority": null,
-    "skills": [],
-    "synergies": [],
+    "rotations": [
+      {
+        "rotation_name": "Opener Rotation",
+        "steps": [
+          "Basic: Zephyr 1",
+          "Basic: Zephyr 2",
+          "Basic: Zephyr 3",
+          "Skill: Awakening Spring",
+          "Basic: Swallow's Cut",
+          "Basic: Drizzle 1",
+          "Basic: Drizzle 2",
+          "Basic: Drizzle 3",
+          "Basic: Drizzle 4 (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Loop Rotation",
+        "steps": [
+          "Intro",
+          "Skill: Drizzle (Cancel animation via Dash on 1st hit)",
+          "Dash",
+          "Basic: Drizzle 1",
+          "Basic: Drizzle 2",
+          "Basic: Drizzle 3",
+          "Basic: Drizzle 4 (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Outro"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "Anything but Intro can be skipped when levelling to save out on resources at a minimal damage loss.",
+      "order": [
+        "Intro Skill",
+        "Forte Circuit",
+        "Res. Skill",
+        "Res. Liberation",
+        "Basic Attack"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic Attack - Zephyr StancePress repeatedly or hold Normal Attack to perform up to 4 consecutive attacks, dealing Glacio DMG and restoring Cloud Breath on hit.Mid-air Attack - Zephyr StanceConsume STA to perform Plunging Attack, dealing Glacio DMG.Dodge Counter - Zephyr StancePress Normal Attack shortly after a successful Dodge to attack the target, dealing Glacio DMG and restoring Cloud Breath on hit.Press Normal Attack shortly after casting this skill to perform Basic Attack - Zephyr Stance Stage 4.",
+        "multipliers": [
+          {
+            "Lv1": "31.76%",
+            "Lv10": "63.15%",
+            "Lv2": "34.37%",
+            "Lv3": "36.97%",
+            "Lv4": "40.62%",
+            "Lv5": "43.22%",
+            "Lv6": "46.22%",
+            "Lv7": "50.39%",
+            "Lv8": "54.55%",
+            "Lv9": "58.72%",
+            "Name": "Basic Attack - Zephyr Stance Stage 1 DMG"
+          },
+          {
+            "Lv1": "30.68%+30.68%",
+            "Lv10": "61.00%+61.00%",
+            "Lv2": "33.20%+33.20%",
+            "Lv3": "35.72%+35.72%",
+            "Lv4": "39.24%+39.24%",
+            "Lv5": "41.75%+41.75%",
+            "Lv6": "44.65%+44.65%",
+            "Lv7": "48.67%+48.67%",
+            "Lv8": "52.70%+52.70%",
+            "Lv9": "56.72%+56.72%",
+            "Name": "Basic Attack - Zephyr Stance Stage 2 DMG"
+          },
+          {
+            "Lv1": "21.03%+21.03%+28.04%",
+            "Lv10": "41.80%+41.80%+55.74%",
+            "Lv2": "22.75%+22.75%+30.34%",
+            "Lv3": "24.48%+24.48%+32.63%",
+            "Lv4": "26.89%+26.89%+35.85%",
+            "Lv5": "28.61%+28.61%+38.15%",
+            "Lv6": "30.60%+30.60%+40.79%",
+            "Lv7": "33.36%+33.36%+44.47%",
+            "Lv8": "36.11%+36.11%+48.15%",
+            "Lv9": "38.87%+38.87%+51.83%",
+            "Name": "Basic Attack - Zephyr Stance Stage 3 DMG"
+          },
+          {
+            "Lv1": "40.00%+8.00%*5",
+            "Lv10": "79.53%+15.91%*5",
+            "Lv2": "43.28%+8.66%*5",
+            "Lv3": "46.56%+9.32%*5",
+            "Lv4": "51.16%+10.24%*5",
+            "Lv5": "54.44%+10.89%*5",
+            "Lv6": "58.21%+11.65%*5",
+            "Lv7": "63.46%+12.70%*5",
+            "Lv8": "68.70%+13.74%*5",
+            "Lv9": "73.95%+14.79%*5",
+            "Name": "Basic Attack - Zephyr Stance Stage 4 DMG"
+          },
+          {
+            "Lv1": "35.57%",
+            "Lv10": "70.72%",
+            "Lv2": "38.49%",
+            "Lv3": "41.41%",
+            "Lv4": "45.49%",
+            "Lv5": "48.41%",
+            "Lv6": "51.76%",
+            "Lv7": "56.43%",
+            "Lv8": "61.09%",
+            "Lv9": "65.76%",
+            "Name": "Mid-air Attack - Zephyr Stance DMG"
+          },
+          {
+            "Lv1": "25.76%+25.76%+34.34%",
+            "Lv10": "51.20%+51.20%+68.27%",
+            "Lv2": "27.87%+27.87%+37.16%",
+            "Lv3": "29.98%+29.98%+39.97%",
+            "Lv4": "32.94%+32.94%+43.91%",
+            "Lv5": "35.05%+35.05%+46.73%",
+            "Lv6": "37.48%+37.48%+49.97%",
+            "Lv7": "40.86%+40.86%+54.47%",
+            "Lv8": "44.23%+44.23%+58.98%",
+            "Lv9": "47.61%+47.61%+63.48%",
+            "Name": "Dodge Counter - Zephyr Stance DMG"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-air Attack - Zephyr Stance STA Cost"
+          }
+        ],
+        "name": "Unraveled Spring ",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Resonance Skill - Zephyr StanceWhile in Zephyr Stance and Cloud Breath is not full, press Resonance Skill to have Suisui thrust forward, dealing Glacio DMG. If Suisui is the active Resonator while casting the skill, restore Cloud Breath.Can be cast in mid-air close to the ground.This skill shares a Cooldown with Resonance Skill - Drizzle Stance.Awakening SpringWhile in Zephyr Stance and at full Cloud Breath, Resonance Skill - Zephyr Stance is replaced with Awakening Spring. Casting this skill consumes all Cloud Breath, pulls in nearby targets, and sends Suisui into Drizzle Stance, dealing Glacio DMG and inflicting Glacio Chafe on the target 1 time on hit.EnrichmentCasting Awakening Spring or Intro Skill - Tinkling Jade grants all nearby Resonators in the team 1 stack of Enrichment. This effect can be triggered once every 25s. Incoming Resonators receive healing from Suisui at the cost of Enrichment.Resonance Skill - Drizzle StanceWhile in Drizzle Stance, Resonance Skill - Zephyr Stance is replaced with Resonance Skill - Drizzle Stance.Press Resonance Skill to have Suisui thrust forward, dealing Glacio DMG. If Suisui is the active Resonator while casting the skill, restore Floral Epistle.Can be cast in mid-air close to the ground.This skill shares a Cooldown with Resonance Skill - Zephyr Stance.",
+        "multipliers": [
+          {
+            "Lv1": "12.00%*6",
+            "Lv10": "23.86%*6",
+            "Lv2": "12.99%*6",
+            "Lv3": "13.97%*6",
+            "Lv4": "15.35%*6",
+            "Lv5": "16.33%*6",
+            "Lv6": "17.47%*6",
+            "Lv7": "19.04%*6",
+            "Lv8": "20.61%*6",
+            "Lv9": "22.19%*6",
+            "Name": "Resonance Skill - Zephyr Stance DMG"
+          },
+          {
+            "Lv1": "14.40%",
+            "Lv10": "28.63%",
+            "Lv2": "15.59%",
+            "Lv3": "16.77%",
+            "Lv4": "18.42%",
+            "Lv5": "19.60%",
+            "Lv6": "20.96%",
+            "Lv7": "22.85%",
+            "Lv8": "24.74%",
+            "Lv9": "26.63%",
+            "Name": "Awakening Spring DMG"
+          },
+          {
+            "Lv1": "6.00%*6+36.00%",
+            "Lv10": "11.93%*6+71.58%",
+            "Lv2": "6.50%*6+38.96%",
+            "Lv3": "6.99%*6+41.91%",
+            "Lv4": "7.68%*6+46.04%",
+            "Lv5": "8.17%*6+48.99%",
+            "Lv6": "8.74%*6+52.39%",
+            "Lv7": "9.52%*6+57.11%",
+            "Lv8": "10.31%*6+61.83%",
+            "Lv9": "11.10%*6+66.56%",
+            "Name": "Resonance Skill - Drizzle Stance DMG"
+          },
+          {
+            "Lv1": "330+1.62%",
+            "Lv10": "627+3.42%",
+            "Lv2": "369+1.69%",
+            "Lv3": "412+1.75%",
+            "Lv4": "462+1.85%",
+            "Lv5": "521+1.98%",
+            "Lv6": "577+2.11%",
+            "Lv7": "587+2.36%",
+            "Lv8": "600+2.63%",
+            "Lv9": "610+2.93%",
+            "Name": "Enrichment Healing"
+          },
+          {
+            "Lv1": "6",
+            "Lv10": "6",
+            "Lv2": "6",
+            "Lv3": "6",
+            "Lv4": "6",
+            "Lv5": "6",
+            "Lv6": "6",
+            "Lv7": "6",
+            "Lv8": "6",
+            "Lv9": "6",
+            "Name": "Resonance Skill - Zephyr Stance/Resonance Skill - Drizzle Stance Cooldown"
+          },
+          {
+            "Lv1": "15",
+            "Lv10": "15",
+            "Lv2": "15",
+            "Lv3": "15",
+            "Lv4": "15",
+            "Lv5": "15",
+            "Lv6": "15",
+            "Lv7": "15",
+            "Lv8": "15",
+            "Lv9": "15",
+            "Name": "Awakening Spring Cooldown"
+          }
+        ],
+        "name": "Vernal Screen",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Casting the skill deploys Ceaseless Landscape that lasts for 30s. When Ceaseless Landscape is active, Suisui enters the Roaming Transcendent state when casting Outro Skill - Rippling Waters.Ceaseless Landscape grants all nearby Resonators in the team the following enhancements:Inflicting a target with Spectro Frazzle, Fusion Burst, Glacio Chafe, and Aero Erosion, or dealing the corresponding Negative Status DMG increases the max stack limit of the corresponding Negative Status the target can receive by 3 for 15s. This effect does not stack.Inflicting a target with Electro Flare or dealing the corresponding Negative Status DMG increases the max stack limits of Electro Flare and Electro Rage the target can receive by 3 for 15s. This effect does not stack.Consuming Havoc Bane stacks on the target after landing a skill allows the Resonator's Havoc DMG to ignore the target's DEF by 6% and Havoc RES by 12% for 30s. This effect does not stack.Can be cast in mid-air close to the ground.",
+        "multipliers": [
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "175",
+            "Lv10": "175",
+            "Lv2": "175",
+            "Lv3": "175",
+            "Lv4": "175",
+            "Lv5": "175",
+            "Lv6": "175",
+            "Lv7": "175",
+            "Lv8": "175",
+            "Lv9": "175",
+            "Name": "Resonance Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Concerto Regen"
+          },
+          {
+            "Lv1": "550+2.71%",
+            "Lv10": "1045+5.70%",
+            "Lv2": "616+2.82%",
+            "Lv3": "687+2.93%",
+            "Lv4": "770+3.09%",
+            "Lv5": "869+3.31%",
+            "Lv6": "962+3.53%",
+            "Lv7": "979+3.93%",
+            "Lv8": "1001+4.39%",
+            "Lv9": "1017+4.88%",
+            "Name": "Healing per Plume Step"
+          }
+        ],
+        "name": "Song of Thoroughfare ",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit ",
+        "description": "Zephyr StanceSuisui is in Zephyr Stance by default. When in Zephyr Stance, Suisui can obtain Cloud Breath through certain skills.Drizzle StanceEntering Drizzle Stance clears all Floral Epistle.During Drizzle Stance:Suisui unlocks new combat moves and restores Floral Epistle through certain skills.Suisui gains increased resistance to interruption.Press Normal Attack within a certain time after triggering a successful Dodge via Dodge skills to cast Basic Attack - Drizzle Stance Stage 1.After entering Drizzle Stance for 15s, Suisui ends Drizzle Stance and clears all Floral Epistle upon exiting the state.Dodge - Parting MistWhile performing attacks on the ground, press Dodge to cast Dodge - Parting Mist at the cost of STA.When in Zephyr Stance, triggering a successful Dodge while casting Dodge - Parting Mist restores Cloud Breath. Press Normal Attack shortly after triggering the Dodge to cast Dodge Counter - Zephyr Stance.When in Drizzle Stance, triggering a successful Dodge while casting Dodge - Parting Mist restores Floral Epistle, and does not reset the cycle of Basic Attack - Drizzle Stance within a certain period.Basic Attack - Drizzle StanceWhen in Drizzle Stance, Basic Attack - Zephyr Stance is replaced with Basic Attack - Drizzle Stance.Press Normal Attack repeatedly to perform up to 4 consecutive attacks, dealing Glacio DMG and restoring Floral Epistle on hit.When casting Basic Attack - Drizzle Stance Stage 3,  continuously pull in nearby targets.Basic Attack - Drizzle Stance Stage 4 inflicts Glacio Chafe 1 time on the target on hit.Heavy Attack - Drizzle StanceConsume STA to attack the target, dealing Glacio DMG and restoring Floral Epistle on hit.Illuminating DewWhen in Drizzle Stance, keep holding Normal Attack after casting Heavy Attack - Drizzle Stance to cast this skill.Consume STA to perform Plunging Attack, dealing Glacio DMG.Swallow's CutWhen in Drizzle Stance, cast this skill in one of the following ways:Release the Normal Attack button while casting Heavy Attack - Drizzle Stance.Press Normal Attack while Suisui is mid-air.Consume STA to perform Plunging Attack, dealing Glacio DMG.Cloud BreathMax 120 points.When in Zephyr Stance: Basic Attack - Zephyr Stance and Dodge Counter - Zephyr Stance restore Cloud Breath on hit.Casting Resonance Skill - Zephyr Stance restores 40 points of Cloud Breath when Suisui is the active Resonator in the team.Triggering a successful Dodge while casting Dodge - Parting Mist restores 35 points of Cloud Breath.Floral EpistleMax 600 points.When in Drizzle Stance:Basic Attack - Drizzle Stance and Heavy Attack - Drizzle Stance restore Floral Epistle on hit.Casting Resonance Skill - Drizzle Stance restores 100 points of Floral Epistle when Suisui is the active Resonator in the team.Triggering a successful Dodge while casting Dodge - Parting Mist restores 102 points of Floral Epistle.",
+        "multipliers": [
+          {
+            "Lv1": "9.84%*2+9.84%*2",
+            "Lv10": "19.57%*2+19.57%*2",
+            "Lv2": "10.65%*2+10.65%*2",
+            "Lv3": "11.46%*2+11.46%*2",
+            "Lv4": "12.59%*2+12.59%*2",
+            "Lv5": "13.40%*2+13.40%*2",
+            "Lv6": "14.32%*2+14.32%*2",
+            "Lv7": "15.61%*2+15.61%*2",
+            "Lv8": "16.91%*2+16.91%*2",
+            "Lv9": "18.20%*2+18.20%*2",
+            "Name": "Basic Attack - Drizzle Stance Stage 1 DMG"
+          },
+          {
+            "Lv1": "16.00%+8.00%*2+8.00%*2+16.00%+16.00%",
+            "Lv10": "31.81%+15.91%*2+15.91%*2+31.81%+31.81%",
+            "Lv2": "17.32%+8.66%*2+8.66%*2+17.32%+17.32%",
+            "Lv3": "18.63%+9.32%*2+9.32%*2+18.63%+18.63%",
+            "Lv4": "20.47%+10.24%*2+10.24%*2+20.47%+20.47%",
+            "Lv5": "21.78%+10.89%*2+10.89%*2+21.78%+21.78%",
+            "Lv6": "23.29%+11.65%*2+11.65%*2+23.29%+23.29%",
+            "Lv7": "25.39%+12.70%*2+12.70%*2+25.39%+25.39%",
+            "Lv8": "27.48%+13.74%*2+13.74%*2+27.48%+27.48%",
+            "Lv9": "29.58%+14.79%*2+14.79%*2+29.58%+29.58%",
+            "Name": "Basic Attack - Drizzle Stance Stage 2 DMG"
+          },
+          {
+            "Lv1": "6.92%*3+6.92%*3+6.92%*3+6.92%*3",
+            "Lv10": "13.76%*3+13.76%*3+13.76%*3+13.76%*3",
+            "Lv2": "7.49%*3+7.49%*3+7.49%*3+7.49%*3",
+            "Lv3": "8.06%*3+8.06%*3+8.06%*3+8.06%*3",
+            "Lv4": "8.85%*3+8.85%*3+8.85%*3+8.85%*3",
+            "Lv5": "9.42%*3+9.42%*3+9.42%*3+9.42%*3",
+            "Lv6": "10.07%*3+10.07%*3+10.07%*3+10.07%*3",
+            "Lv7": "10.98%*3+10.98%*3+10.98%*3+10.98%*3",
+            "Lv8": "11.89%*3+11.89%*3+11.89%*3+11.89%*3",
+            "Lv9": "12.80%*3+12.80%*3+12.80%*3+12.80%*3",
+            "Name": "Basic Attack - Drizzle Stance Stage 3 DMG"
+          },
+          {
+            "Lv1": "80.00%",
+            "Lv10": "159.05%",
+            "Lv2": "86.56%",
+            "Lv3": "93.12%",
+            "Lv4": "102.31%",
+            "Lv5": "108.87%",
+            "Lv6": "116.41%",
+            "Lv7": "126.91%",
+            "Lv8": "137.40%",
+            "Lv9": "147.90%",
+            "Name": "Basic Attack - Drizzle Stance Stage 4 DMG"
+          },
+          {
+            "Lv1": "6.00%*10+60.00%",
+            "Lv10": "11.93%*10+119.29%",
+            "Lv2": "6.50%*10+64.92%",
+            "Lv3": "6.99%*10+69.84%",
+            "Lv4": "7.68%*10+76.73%",
+            "Lv5": "8.17%*10+81.65%",
+            "Lv6": "8.74%*10+87.31%",
+            "Lv7": "9.52%*10+95.18%",
+            "Lv8": "10.31%*10+103.05%",
+            "Lv9": "11.10%*10+110.93%",
+            "Name": "Heavy Attack - Drizzle Stance"
+          },
+          {
+            "Lv1": "52.80%",
+            "Lv10": "104.98%",
+            "Lv2": "57.13%",
+            "Lv3": "61.46%",
+            "Lv4": "67.53%",
+            "Lv5": "71.86%",
+            "Lv6": "76.83%",
+            "Lv7": "83.76%",
+            "Lv8": "90.69%",
+            "Lv9": "97.62%",
+            "Name": "Illuminating Dew DMG"
+          },
+          {
+            "Lv1": "54.15%",
+            "Lv10": "107.65%",
+            "Lv2": "58.59%",
+            "Lv3": "63.03%",
+            "Lv4": "69.24%",
+            "Lv5": "73.68%",
+            "Lv6": "78.79%",
+            "Lv7": "85.89%",
+            "Lv8": "93.00%",
+            "Lv9": "100.10%",
+            "Name": "Swallow's Cut DMG"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Heavy Attack - Drizzle Stance STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Illuminating Dew STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Swallow's Cut STA Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Dodge - Parting Mist STA Cost"
+          }
+        ],
+        "name": "Lambent Gold ",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "Consuming Enrichment grants the Resonator 10 stacks of Spring's Birth, up to 10 stacks. When the Resonator with Spring's Birth is not at full HP, restore their HP by 62 + 0.34% of Suisui's Max HP at the cost of 1 stack of Spring's Birth every 2s.When Resonance Skill - Awakening Spring and Intro Skill - Tinkling Jade hit a target, they additionally restore 18 points of Concerto Energy and 13 points of Resonance Energy, and increase the attack's Crit. Rate by 80% and Glacio DMG by 240%. This effect can be triggered up to once every 25s.",
+        "multipliers": [],
+        "name": "Sky Over Water ",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "When a Resonator other than Suisui takes a fatal blow, they will not be knocked out but will instead regain 50% of Suisui's current HP, while Suisui herself loses the same amount of HP. Suisui's HP will not go below 1 from this effect. This effect can be triggered once every 10 minutes.",
+        "multipliers": [],
+        "name": "Glimmering Gold",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Attack the target, dealing Glacio DMG, and inflict Glacio Chafe 1 time on the target.While casting this skill, consume all Cloud Breath to pull in nearby targets and enter Drizzle Stance.",
+        "multipliers": [
+          {
+            "Lv1": "14.40%",
+            "Lv10": "26.63%",
+            "Lv2": "15.59%",
+            "Lv3": "16.77%",
+            "Lv4": "18.42%",
+            "Lv5": "19.60%",
+            "Lv6": "20.96%",
+            "Lv7": "22.85%",
+            "Lv8": "24.74%",
+            "Lv9": "26.63%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Tinkling Jade ",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Resonators in the team gain 25% All DMG Amplification for 30s.Suisui enters Roaming Transcendent when Ceaseless Landscape is active.Suisui exits Drizzle Stance and consumes all Floral Epistle and unlocks the following effects based on the amount of Floral Epistle consumed:0 Floral Epistle consumed:All nearby Resonators in the team gain Reflecting Shadows for 6s. Resonators with Reflecting Shadows have increased resistance to interruption.At least 200 Floral Epistle consumed:If Ceaseless Landscape is active, Suisui may perform Plume Step for the first time within a certain time into her Transcendent Dance while in Roaming Transcendent.At least 400 Floral Epistle consumed:During this Roaming Transcendent state, the active Resonator within the Ceaseless Landscape deals more DMG if they have Reflecting Shadows. For every 1% of Suisui's Energy Regen over 200%, the Resonator deals 0.2% more DMG, up to 12%.If Ceaseless Landscape is active, Suisui may perform the second Plume Step within a certain time into her Transcendent Dance while in Roaming Transcendent.At least 600 Floral Epistle consumed:When Suisui performs the first Plume Step, all nearby active Resonators in the team within the Ceaseless Landscape gain the following effects for the duration of this Roaming Transcendent:When they cast Outro Skill, Suisui grants the incoming Resonator Undulating Mist. When Resonators with Undulating Mist consume Negative Status or Electro Rage stacks on the target, they gain an ATK increase: For every 0.12% of Suisui's Energy Regen over 200%, the Resonator's ATK is increased by 0.1% for 6s, up to 50%. Undulating Mist lasts for 14s or until the Resonator is switched off the field. When Undulating Mist is removed, the ATK increase effect is also removed.If Ceaseless Landscape is active, Suisui may perform the third Plume Step within a certain time into her Transcendent Dance while in Roaming Transcendent.Roaming TranscendentLasts for 30s.During Roaming Transcendent, Suisui will merge with Ceaseless Landscape and start a Transcendent Dance, during which she will perform Plume Steps at intervals based on the amount of Floral Epistle consumed when Outro Skill - Rippling Waters is cast.When Suisui is the active Resonator in the team, she stops the Transcendent Dance.When Ceaseless Landscape isn't active, she will exit the Roaming Transcendent state.Plume StepPerforming Plume Step grants Reflecting Shadows to all nearby Resonators in the team for 6s, inflicts 1 stack of Glacio Chafe on all enemies within the Ceaseless Landscape, and heals the nearby active Resonators in the team within the Ceaseless Landscape.",
+        "multipliers": [],
+        "name": "Rippling Waters",
+        "skill_type": "Outro Skill"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.",
+        "multipliers": [],
+        "name": "Tune Break: Rectifier ",
+        "skill_type": "Forte Circuit"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "yangyang-xuanling",
+          "hiyuki",
+          "aemeath"
+        ],
+        "commentary": "Suisui is the best Support for 2 of the best Negative Status damage dealers in the game right now, Yangyang: Xuanling and Hiyuki, as they are the only 2 capable of taking full advantage of her buffs. Still, Aemeath in her Fusion Burst team can take good leverage out of the majority of her buffs, making Suisui a viable alternative to another one of the strongest Negative Status teams in the game."
+      }
+    ],
     "upgrade_materials": {
       "character_ascension": [],
       "skill_upgrades": []

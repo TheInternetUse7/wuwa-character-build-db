@@ -198,9 +198,9 @@
       "slug": "phrolova",
       "updates": {
         "last_major_build_patch": "3",
-        "last_profile_update": "10/July/2026",
+        "last_profile_update": "30/July/2026",
         "last_review_patch": "2.5",
-        "last_updated": "10/July/2026"
+        "last_updated": "30/July/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -260,12 +260,13 @@
         },
         "slot_3": {
           "alternatives": [
+            "chisa",
             "the-shorekeeper"
           ],
-          "character_name": "chisa"
+          "character_name": "suisui"
         },
-        "team_name": "Team #3; Dual DPS",
-        "team_notes": "Chisa is only best in slot with yangyang-xuanling - else, prioritize Shorekeeper."
+        "team_name": "Team #3: Dual DPS",
+        "team_notes": "Suisui and Chisa are only best with Yangyang: Xuanling - else, prioritize Shorekeeper."
       },
       {
         "slot_1": {

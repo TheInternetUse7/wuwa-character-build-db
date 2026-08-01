@@ -171,9 +171,9 @@
       "slug": "hiyuki",
       "updates": {
         "last_major_build_patch": "3.5",
-        "last_profile_update": "10/July/2026",
+        "last_profile_update": "30/July/2026",
         "last_review_patch": "3.3",
-        "last_updated": "10/July/2026"
+        "last_updated": "30/July/2026"
       },
       "weapon_type": "Sword"
     },
@@ -191,11 +191,11 @@
         },
         "slot_3": {
           "alternatives": [
+            "chisa",
             "mornye",
-            "the-shorekeeper",
             "verina"
           ],
-          "character_name": "chisa"
+          "character_name": "suisui"
         },
         "team_name": "Best Team",
         "team_notes": "Only consider Mornye with Lynae (unless stranded for better options)."
@@ -214,11 +214,13 @@
           "character_name": "yinlin"
         },
         "slot_3": {
-          "alternatives": [],
-          "character_name": "chisa"
+          "alternatives": [
+            "chisa"
+          ],
+          "character_name": "suisui"
         },
         "team_name": "Alternative Teams",
-        "team_notes": "Other Support options listed above are possible to use in this team but will provide very subpar results. Not recommended, try to get Chisa for a strong backing in terms of Support."
+        "team_notes": "Other Support options listed above are possible to use in this team but will provide very subpar results. Not recommended, try to get Suisui or Chisa for a strong backing in terms of Support."
       }
     ],
     "media": {
@@ -1032,12 +1034,12 @@
       },
       {
         "characters": [
+          "suisui",
           "chisa",
           "mornye",
-          "the-shorekeeper",
           "verina"
         ],
-        "commentary": "These are the Support choices Hiyuki has ranked in order. Anyone other than Chisa and Mornye (with Lynae specifically for the latter) will experience significant drop-offs in performance. This is because Chisa's ability to apply Havoc Bane makes her synergize with Hiyuki's passive, giving her a second stack to deal a ton of additional Glacio Bite DMG. Mornye on the other hand has a synergy with Lynae more than Hiyuki, but she has very general buffs that Hiyuki can exploit too; Shorekeeper and Verina serve as alternative options if neither are available."
+        "commentary": "These are the Support choices Hiyuki has ranked in order. Anyone other than Suisui, Chisa and Mornye (with Lynae specifically for the latter) will experience significant drop-offs in performance. This is because Suisui's and Chisa's abilities to apply Glacio Chafe and Havoc Bane respectively make them synergize with Hiyuki's passive, giving Hiyuki the ability to deal a ton of additional Glacio Bite DMG. Mornye on the other hand has a synergy with Lynae more than Hiyuki, but she has very general buffs that Hiyuki can exploit too; Verina serves as an alternative option if neither are available."
       },
       {
         "characters": [
