@@ -248,9 +248,9 @@
       "slug": "denia",
       "updates": {
         "last_major_build_patch": "3.5",
-        "last_profile_update": "30/July/2026",
+        "last_profile_update": "20/August/2026",
         "last_review_patch": "3.3",
-        "last_updated": "30/July/2026"
+        "last_updated": "20/August/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -277,21 +277,18 @@
       {
         "slot_1": {
           "alternatives": [],
-          "character_name": "luuk-herssen"
+          "character_name": "qingxiao, luuk-herssen"
         },
         "slot_2": {
           "alternatives": [],
           "character_name": "denia"
         },
         "slot_3": {
-          "alternatives": [
-            "the-shorekeeper",
-            "verina"
-          ],
+          "alternatives": [],
           "character_name": "mornye"
         },
         "team_name": "Tune Strain Team",
-        "team_notes": ""
+        "team_notes": "Teammate alternatives to Mornye are not listed as you will experience very significant team DPS drop-offs when trying to replace her, making it not recommended to use Denia in Tune Strain mode without Mornye."
       }
     ],
     "media": {
@@ -1115,9 +1112,10 @@
       },
       {
         "characters": [
+          "qingxiao",
           "luuk-herssen"
         ],
-        "commentary": "If Aemeath already has a strong team, but Luuk doesn't and needs a stronger fallback than Sanhua, then Denia in Tune Strain mode is his best in slot. Due to her capability to provide a stupidly strong general DMG Amplification to Luuk on her Outro, as well as ATK and Tune Break Boost buffs via her Signature and Echo set, and strong personal damage, all in a short amount of time with added constant off-field grouping to cover Luuk's AoE flaws, Denia is the ideal partner for him."
+        "commentary": "Denia in Tune Strain mode is the best in slot partner for both Qingxiao and Luuk if Mornye is available to use alongside the 2 of them, making their mid-air single-target oriented combat less clunky in Whimpering Wastes thanks to Denia's constant off-field grouping, as well as overall just being their highest-damaging team composition for all situations. Note however that Denia experiences significant team DPS drop-offs without Mornye available as a Support and is overall not recommended for Tune Strain without Mornye involved."
       },
       {
         "characters": [
@@ -1125,7 +1123,7 @@
           "mornye",
           "lupa"
         ],
-        "commentary": "3rd slot options for Denia teams depending on what team she's ran in. Chisa is ideal with Aemeath but Lupa is an excellent fallback with alternative Echo set choices which will draw just about the same performance as Chisa. Mornye on the other hand is best for Luuk on Tune Strain Denia teams while providing nothing of value to Aemeath."
+        "commentary": "3rd slot options for Denia teams depending on what team she's ran in. Chisa is ideal with Aemeath but Lupa is an excellent fallback with alternative Echo set choices which will draw just about the same performance as Chisa. Mornye on the other hand is best for Tune Strain Denia teams while providing nothing of value to Aemeath."
       }
     ],
     "upgrade_materials": {

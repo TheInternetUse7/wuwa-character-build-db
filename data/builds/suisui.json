@@ -63,11 +63,11 @@
         "dupe_rank": "R1",
         "percentage_performance": "1",
         "weapon_base_info": {
-          "effect_description": "Coming Soon!",
-          "primary_stat_val": 0,
+          "effect_description": "Increases Max HP by {0}. Casting Resonance Liberation restores {1} points of Concerto Energy, triggered once every 20s. Inflicting Glacio Chafe grants Snow Taint for 6s. Applying healing grants Ripples for 6s. If the wielder has done both while on the field, the next Outro Skill grants both effects for 6s. When the wielder has both Snow Taint and Ripples, the ATK of all nearby Resonators in the team is increased by {2}. Effects of the same name do not stack.",
+          "primary_stat_val": 413,
           "rarity": 5,
-          "secondary_stat_name": "",
-          "secondary_stat_val": 0,
+          "secondary_stat_name": "Energy Regen",
+          "secondary_stat_val": 77.04,
           "source": ""
         },
         "weapon_name": "Firstlight's Herald"
@@ -127,9 +127,9 @@
       "slug": "suisui",
       "updates": {
         "last_major_build_patch": "3.5",
-        "last_profile_update": "30/July/2026",
+        "last_profile_update": "20/August/2026",
         "last_review_patch": "3.5",
-        "last_updated": "30/July/2026"
+        "last_updated": "20/August/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -240,7 +240,7 @@
           "tier": "T0"
         },
         "whimpering_wastes_value": {
-          "tier": "T0.5"
+          "tier": "T1"
         }
       }
     },
@@ -773,7 +773,7 @@
         "multipliers": [
           {
             "Lv1": "14.40%",
-            "Lv10": "26.63%",
+            "Lv10": "28.63%",
             "Lv2": "15.59%",
             "Lv3": "16.77%",
             "Lv4": "18.42%",

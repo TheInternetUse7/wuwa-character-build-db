@@ -183,13 +183,29 @@
       "slug": "yangyang-xuanling",
       "updates": {
         "last_major_build_patch": "3.5",
-        "last_profile_update": "10/July/2026",
+        "last_profile_update": "20/August/2026",
         "last_review_patch": "3.5",
-        "last_updated": "10/July/2026"
+        "last_updated": "20/August/2026"
       },
       "weapon_type": "Sword"
     },
     "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "yangyang-xuanling"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "chisa"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "suisui"
+        },
+        "team_name": "Best Team",
+        "team_notes": "Have Chisa on Moonlit Clouds for the strongest possible buffing."
+      },
       {
         "slot_1": {
           "alternatives": [],
@@ -205,12 +221,13 @@
         },
         "slot_3": {
           "alternatives": [
+            "chisa",
             "mornye"
           ],
-          "character_name": "chisa"
+          "character_name": "suisui"
         },
-        "team_name": "Best Team",
-        "team_notes": "Ideally only run Mornye with Lynae on the team, as an alternative to Chisa."
+        "team_name": "Alternative Premium Teams",
+        "team_notes": "Ideally only run Mornye with Lynae on the team, as an alternative to Suisui/Chisa."
       },
       {
         "slot_1": {
@@ -270,7 +287,7 @@
           "tags": [
             "Bane"
           ],
-          "tier": "T0"
+          "tier": "T1"
         }
       },
       "value_tier_ratings": {
@@ -278,7 +295,7 @@
           "tier": "T0"
         },
         "whimpering_wastes_value": {
-          "tier": "T0"
+          "tier": "T1.5"
         }
       }
     },
@@ -951,21 +968,27 @@
     "synergies": [
       {
         "characters": [
-          "lynae",
+          "chisa",
+          "suisui"
+        ],
+        "commentary": "Yangyang's best partners are Chisa for general Negative Status buffing, the ability to apply Havoc Bane, and increase its max stacks, providing a ton of buffs; and Suisui who has some of the best buffs for Havoc Bane consumers like Yangyang: Xuanling in the game as well. Chisa is great either as a 2nd slot with both Suisui and Yangyang, making for the best possible team Yangyang has, or as a 3rd slot with Heavy Attack Outro buffers for example. Meanwhile, Suisui always acts as the strongest 3rd slot available to Yangyang by sheer buffing amount."
+      },
+      {
+        "characters": [
           "rebecca",
+          "lynae",
           "phrolova",
           "iuno",
           "mortefi"
         ],
-        "commentary": "Yangyang's best partners currently are general or Heavy Attack buffers. Lynae provides a very strong mix of good personal damage, decent rotation time and strong general buffs. Generally, she's the best pick by a small margin. Rebecca is however nearly equal to her thanks to her many buffs, some more tailored towards Heavy Attacks, in spite of her longer rotation; Phrolova has access to the best Crowd Control utility in the game in the form of Hecate as well as 45% DMG Amplification on her Outro, making her excellent for Whimpering Wastes; finally, Iuno and Mortefi serve as replacement Heavy Attack buffers if those 3 aren't available (although Iuno can prove slightly better than Phrolova in single-target)."
+        "commentary": "Heavy Attack Outro buffers work well with Yangyang: Xuanling, and Lynae also has a rotation with strong general buffs and high personal damage which makes for a great choice as well. Overall, these picks are not far off Yangyang's best teams, as a matter of fact Phrolova is a fantastic Dual DPS pick making for Yangyang's best Whimpering Wastes teams, while Rebecca+Suisui is shockingly close to Chisa+Suisui in strength, and the other buffers make for good alternatives if other teammates aren't available."
       },
       {
         "characters": [
-          "chisa",
           "mornye",
           "verina"
         ],
-        "commentary": "Yangyang is quite limited in viable 3rd slot options, since Shorekeeper doesn't interact well with her due to a saturation of CRIT stats. As such, Chisa is the best pick generally thanks to her ability to apply additional Havoc Bane for Yangyang as well as good buffs to Negative Status characters; Mornye works well, but at S0 this is exclusively on a team with Lynae where her full buffs can be activated; finally, Verina is the last resort option for players who have access to neither. Upgrading from Verina is recommended, but she is serviceable still."
+        "commentary": "Decent 3rd slot options if Chisa or Suisui aren't available. Verina is the generalist go-to when in a pinch for good Support picks while Mornye works great with Lynae."
       }
     ],
     "upgrade_materials": {

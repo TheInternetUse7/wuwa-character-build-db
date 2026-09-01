@@ -214,9 +214,9 @@
       "slug": "phoebe",
       "updates": {
         "last_major_build_patch": "3.2",
-        "last_profile_update": "30/July/2026",
+        "last_profile_update": "20/August/2026",
         "last_review_patch": "3.2",
-        "last_updated": "30/July/2026"
+        "last_updated": "20/August/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -351,19 +351,16 @@
           "tags": [
             "Control",
             "Frazzle",
-            "Gather",
-            "Partner (Zani)",
-            "Expert +1"
+            "Gather"
           ],
-          "tier": "T2"
+          "tier": "T1.5"
         },
         "whimpering_wastes": {
           "tags": [
             "Control",
             "Frazzle",
             "Gather",
-            "Partner (Zani)",
-            "Expert +1"
+            "Partner (Ciaccona)"
           ],
           "tier": "T3"
         }

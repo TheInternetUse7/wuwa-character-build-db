@@ -119,7 +119,7 @@
       {
         "commentary_details": "The best permanently available option for Lupa which acts as a nice ATK and CRIT DMG stat-stick for her.",
         "dupe_rank": "R1",
-        "percentage_performance": "84.40%",
+        "percentage_performance": "mmon Echo",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Dealing damage to targets under Tune Strain: Interfered grants {1} Resonance Liberation Bonus for 3s. Retriggering the effect resets its duration.",
           "primary_stat_val": 587,
@@ -227,9 +227,9 @@
       "slug": "lupa",
       "updates": {
         "last_major_build_patch": "3",
-        "last_profile_update": "30/July/2026",
+        "last_profile_update": "20/August/2026",
         "last_review_patch": "2.4",
-        "last_updated": "30/July/2026"
+        "last_updated": "20/August/2026"
       },
       "weapon_type": "Broadblade"
     },

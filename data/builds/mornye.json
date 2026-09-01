@@ -115,9 +115,9 @@
       "slug": "mornye",
       "updates": {
         "last_major_build_patch": "3",
-        "last_profile_update": "30/July/2026",
+        "last_profile_update": "20/August/2026",
         "last_review_patch": "3",
-        "last_updated": "30/July/2026"
+        "last_updated": "20/August/2026"
       },
       "weapon_type": "Broadblade"
     },
@@ -136,12 +136,12 @@
           "character_name": "mornye"
         },
         "team_name": "Lynae + Mornye",
-        "team_notes": "Realistically, any non-Negative Status DPS (and Hiyuki) can be used here. The above are only examples and are fully interchangeable, even if Lynae and Mornye benefit Liberation damage teams slightly more than others."
+        "team_notes": "Realistically, any non-Negative Status DPS (and Hiyuki) can be used here. The above are only examples and are fully interchangeable, even if Lynae and Mornye benefit Liberation damage teams slightly more than others. Tune Strain DPS characters also fit perfectly here."
       },
       {
         "slot_1": {
           "alternatives": [],
-          "character_name": "luuk-herssen"
+          "character_name": "qingxiao, luuk-herssen"
         },
         "slot_2": {
           "alternatives": [],
@@ -151,7 +151,7 @@
           "alternatives": [],
           "character_name": "mornye"
         },
-        "team_name": "Luuk Best Team",
+        "team_name": "Tune Strain Team",
         "team_notes": ""
       },
       {
@@ -365,13 +365,13 @@
       }
     ],
     "skill_upgrade_priority": {
-      "commentary": "Ultimate, Basic Attack and Intro can be skipped when levelling to save on resources at no healing loss (though levelling Ultimate is still highly recommended).",
+      "commentary": "Anything except Ultimate can be skipped when levelling to save on resources at a minimal damage loss.",
       "order": [
         "Res. Liberation",
         "Forte Circuit",
-        "Res. Skill",
         "Basic Attack",
-        "Intro Skill"
+        "Intro Skill",
+        "Res. Skill"
       ]
     },
     "skills": [
@@ -864,11 +864,13 @@
       {
         "characters": [
           "aemeath",
+          "qingxiao",
           "luuk-herssen",
           "lynae",
+          "denia",
           "lupa"
         ],
-        "commentary": "Mornye's 2 best niches currently are in Mono Fusion and in teams featuring a Tune Rupture/Strain applier. This is because in Mono Fusion, she is able to activate Lupa's full buffs as a generalist Support, which makes Lupa fully operational in Hypercarry team compositions. Additionally, alongside a Tune Rupture/Strain applier like Lynae, Luuk or Aemeath, she is able to respond to it and provide additional DMG% buffs to the team via her Interfered Marker, making them her strongest synergies."
+        "commentary": "Mornye's 2 best niches currently are in Mono Fusion and in teams featuring a Tune Rupture/Strain applier. This is because in Mono Fusion, she is able to activate Lupa's full buffs as a generalist Support, which makes Lupa fully operational in Hypercarry team compositions. Additionally, alongside a Tune Rupture/Strain applier like Lynae, Denia, Qingxiao, Luuk or Aemeath, she is able to respond to it and provide additional DMG% buffs to the team via her Interfered Marker, making them her strongest synergies."
       }
     ],
     "upgrade_materials": {

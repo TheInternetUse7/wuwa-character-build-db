@@ -26,17 +26,17 @@
         "Characters",
         "Hsin"
       ],
-      "element": "Unknown",
+      "element": "Electro",
       "name": "Hsin",
       "rarity_stars": 5,
       "slug": "hsin",
       "updates": {
         "last_major_build_patch": "",
-        "last_profile_update": "15/June/2026",
+        "last_profile_update": "28/August/2026",
         "last_review_patch": "",
-        "last_updated": "15/June/2026"
+        "last_updated": "28/August/2026"
       },
-      "weapon_type": "Unknown"
+      "weapon_type": "Rectifier"
     },
     "example_teams": [],
     "media": {

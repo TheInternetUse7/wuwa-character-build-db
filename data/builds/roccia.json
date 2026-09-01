@@ -73,7 +73,7 @@
         "weapon_name": "Tragicomedy"
       },
       {
-        "commentary_details": "",
+        "commentary_details": "Sigrika's Signature gives high ATK and CRIT DMG base stats and also amplifies Echo Skill DMG which represents more of Roccia's total damage than you'd expect, making it a decent alternative to her Signature, although her CRIT Rate requirements will prove harder to hit.",
         "dupe_rank": "R1",
         "percentage_performance": "90.00%",
         "weapon_base_info": {
@@ -87,7 +87,7 @@
         "weapon_name": "Solsworn Ciphers"
       },
       {
-        "commentary_details": "",
+        "commentary_details": "Similarly to Solsworn Ciphers, ATK and CRIT DMG stat-stick with a little extra 8% DEF Ignore throughout Roccia's rotation to add to its value slightly.",
         "dupe_rank": "R1",
         "percentage_performance": "88.20%",
         "weapon_base_info": {
@@ -101,7 +101,7 @@
         "weapon_name": "Blazing Justice"
       },
       {
-        "commentary_details": "",
+        "commentary_details": "ATK, CRIT Rate and DMG Bonus stat-stick for Roccia, who does not benefit from this weapon's Liberation DMG-related effects.",
         "dupe_rank": "R1",
         "percentage_performance": "88.10%",
         "weapon_base_info": {
@@ -115,7 +115,7 @@
         "weapon_name": "Verity's Handle"
       },
       {
-        "commentary_details": "",
+        "commentary_details": "Best permanent banner option, grants Roccia some much-desired 24% CRIT Rate and a strong Base ATK to work with. Good stat-stick without any extra effects.",
         "dupe_rank": "R1",
         "percentage_performance": "86.60%",
         "weapon_base_info": {
@@ -129,7 +129,7 @@
         "weapon_name": "Pulsation Bracer"
       },
       {
-        "commentary_details": "",
+        "commentary_details": "Massive CRIT Rate stat-stick at the cost of lower Base ATK, Roccia does not benefit from this weapon's Liberation DMG-related effects though.",
         "dupe_rank": "R1",
         "percentage_performance": "84.70%",
         "weapon_base_info": {
@@ -143,7 +143,7 @@
         "weapon_name": "Moongazer's Sigil"
       },
       {
-        "commentary_details": "",
+        "commentary_details": "Second best permanent weapon option, grants Roccia some Energy Regen and a lot of ATK%, but CRIT Rate requirements will be difficult to hit and the DMG Bonus effects are practically useless on her.",
         "dupe_rank": "R1",
         "percentage_performance": "81.20%",
         "weapon_base_info": {
@@ -157,7 +157,7 @@
         "weapon_name": "Abyss Surges"
       },
       {
-        "commentary_details": "",
+        "commentary_details": "This Battle Pass exclusive grants Roccia some CRIT DMG and easily accessed ATK bonuses, making it the overall best 4-star choice theoretically. Still, meeting CRIT Rate requirements will prove difficult and this weapon is overall not recommended over Pulsation Bracer or her Signature, like any other 4-star, due to their lower Base ATK.",
         "dupe_rank": "R5",
         "percentage_performance": "72.90%",
         "weapon_base_info": {
@@ -171,7 +171,7 @@
         "weapon_name": "Aether Strike"
       },
       {
-        "commentary_details": "",
+        "commentary_details": "Grants Roccia some flat Energy to alleviate Energy requirements and a decent Base ATK, but is just an ATK stat-stick beyond this with nothing much to provide Roccia with.",
         "dupe_rank": "R5",
         "percentage_performance": "72.60%",
         "weapon_base_info": {
@@ -185,7 +185,7 @@
         "weapon_name": "Celestial Spiral"
       },
       {
-        "commentary_details": "",
+        "commentary_details": "This Battle Pass exclusive has a useless Liberation DMG-boosting passive for Roccia, but provides her with some CRIT Rate to alleviate her requirements there. Still not recommended though, due to low Base ATK and generally bad stats.",
         "dupe_rank": "R5",
         "percentage_performance": "69.50%",
         "weapon_base_info": {
@@ -199,7 +199,7 @@
         "weapon_name": "Stonard"
       },
       {
-        "commentary_details": "",
+        "commentary_details": "Simple ATK stat-stick that relies on you not getting hit to leverage its ATK-boosting passive stacks fully. Not recommended on Roccia, like any other 4-star weapon.",
         "dupe_rank": "R5",
         "percentage_performance": "69.20%",
         "weapon_base_info": {
@@ -213,7 +213,7 @@
         "weapon_name": "Hollow Mirage"
       },
       {
-        "commentary_details": "",
+        "commentary_details": "Best no-gacha option for Roccia, simple ATK stat-stick with no passive to take advantage of whatsoever since it's Negative Status-related and Roccia plays in no such teams. This can be a temporary weapon choice, but to move away from this weapon and equip her with at least Pulsation Bracer as soon as possible, if you can.",
         "dupe_rank": "R5",
         "percentage_performance": "66.60%",
         "weapon_base_info": {
@@ -239,13 +239,29 @@
       "slug": "roccia",
       "updates": {
         "last_major_build_patch": "3.5",
-        "last_profile_update": "30/July/2026",
-        "last_review_patch": "2.1",
-        "last_updated": "30/July/2026"
+        "last_profile_update": "20/August/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "20/August/2026"
       },
       "weapon_type": "Gauntlets"
     },
     "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "phrolova"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "cantarella"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "roccia"
+        },
+        "team_name": "Best Team",
+        "team_notes": ""
+      },
       {
         "slot_1": {
           "alternatives": [],
@@ -281,24 +297,6 @@
         },
         "team_name": "Havoc Rover Team",
         "team_notes": ""
-      },
-      {
-        "slot_1": {
-          "alternatives": [],
-          "character_name": "danjin"
-        },
-        "slot_2": {
-          "alternatives": [],
-          "character_name": "roccia"
-        },
-        "slot_3": {
-          "alternatives": [
-            "verina"
-          ],
-          "character_name": "the-shorekeeper"
-        },
-        "team_name": "Danjin Team",
-        "team_notes": ""
       }
     ],
     "media": {
@@ -318,16 +316,14 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Competes with two amazing Hybrids, Sanhua and Danjin, the former not only being top tier but also accessible to F2P.",
-        "Requires more stat investment than most other Hybrids to unlock her full potential.",
-        "Her pet somehow isn't a playable character."
+        "Outclassed in every team she's a part of (by Lynae, Qiuyuan or Lucilla), and easily replaced by 4-stars in every team she's a part of (either by Danjin or Sanhua), particularly without her Signature weapon, where she's just worse than 4-stars outright.",
+        "Low headroom for Swap Cancels due to a short rotation that relies on 3 mid-air moves that need to be chained one after the other following a specific attack (similar to Qiuyuan).",
+        "Signature is theoretically skippable, but she's so close in value to 4-star characters that she needs it to stand out from them.",
+        "Very inconsistent rotations before S1; again, a similar problem to Qiuyuan where if one of her mid-airs gets interrupted, her rotation slows down massively and this only stops happening at S1 or higher."
       ],
       "pros": [
-        "Powerful buffing potential for Havoc Basic ATK DPS characters thanks to her Outro Amplification and Flat ATK buff.",
-        "Great personal damage for a Hybrid buffer.",
-        "Super easy to play and get the hang of.",
-        "Has the best grouping abilities in the game thanks to her Resonance Skill and unique Inherent Skill utility that she can transfer to other characters, making her tremendously helpful in AoE content.",
-        "Has the cutest pet known to mankind."
+        "Has a grouping utility that counts as an extra Echo Skill cast.",
+        "Has one of the best JP VAs and the cutest pet known to mankind."
       ]
     },
     "ratings": {
@@ -357,10 +353,10 @@
     "recommended_endgame_stats_target": [
       "HP: 16500+",
       "DEF: 1150+",
-      "ATK: 1800-2400+",
-      "CRIT Rate: 70-80%+",
+      "ATK: 1900-2600+",
+      "CRIT Rate: 70%+",
       "CRIT DMG: 210-260%+",
-      "Energy Regen: 115-125%+Lower end was estimated in a team with Phrolova+Cantarella, higher end was estimated in a team with Camellya+Shorekeeper.",
+      "Energy Regen: 120-130%+Lower end was estimated in a team with Phrolova+Cantarella, higher end was estimated in a team with Camellya+Shorekeeper.",
       "Havoc DMG Bonus: 40-70%+"
     ],
     "resonance_chain_dupes": [
@@ -400,69 +396,82 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Roccia is a 5-star Havoc Gauntlet character whose main utility is empowering Basic ATK focused Havoc DPS. Whether it's her amazing buffing potential, or her uniquely powerful grouping abilities, the little Italian Jester Girl stands out as a unique, fun and easy character to play, who will find a home in your Havoc-focused teams when AoE content is on the menu.",
-            "Each element of Roccia's kit is important and is used at some point in her rotation (discussed in detail later), but without a doubt the center of it all is, like many characters, her Forte Circuit which allows her to hold up to 300 stacks of \"Imagination\".",
-            "After using her Resonance Skill, she enters a state called \"Beyond Imagination\" during which she can cast up to 3 consecutive Mid-Air Basic Attacks called \"Real Fantasy\" (which are her bouncing attacks) by consuming batches of 100 \"Imagination\" per Fantasy bounce. They're referred to as Basic Attacks, but count as Heavy Attack DMG. This is the central element of her rotation, which is actually really easy to understand and work around, as long as you don't let yourself get confused by the terminology.",
-            "Before we take a look at how to work around her Forte mechanics, let's take a look at her Ultimate, which is a simple AoE Heavy Attack DMG Nuke that surprisingly boasts a higher total multiplier than Yinlin's Ultimate (for comparison purposes). However, that's not all as for every 0.1% of Roccia's Crit Rate over 50%, Roccia buffs the ATK of every character in your team by 1 for 30s, up to 200 ATK maximum (the first Flat ATK buff of the game). All you need to remember is that if Roccia has 70% Crit Rate or above, you'll be guaranteed the maximum 200 ATK when she uses it. Her Ultimate has a moderate Energy cost, a mid-long cooldown and the standard 20 Concerto Regen. All in all this makes it a very strong mix of nuke and buff.",
-            "Her Resonance Skill, on the other hand, allows her to access her \"Beyond Imagination\" state which in turn, allows her to perform her Fantasy bounce attacks. Prior to entering that state, she summons a tornado which pulls enemies into its center and deals a solid amount of Havoc DMG, making it a strong grouping tool.",
-            "Now, for how to work around her Forte mechanics. She gains 100 \"Imagination\" via her Intro and Resonance Skill, thus she's missing 100 \"Imagination\" to cast her third Fantasy bounce, which is what we're trying to achieve. This is very simply done by casting a Basic Attack right after her Intro Skill (which makes her immediately start from Stage 4 of her Basic Attack chain). So to put it in an order you'll use:",
-            "Intro skill",
-            "A Basic Attack",
-            "Resonance Skill",
-            "3x Fantasy bounces",
-            "Ultimate",
-            "Echo Skill",
-            "Outro Skill.",
-            "And that's it! Super simple gameplay.",
-            "It should be noted her S1 allows her to skip Basic Attack 4 entirely as it generates the extra \"Imagination\" stacks needed via her Resonance Skill, the result of this is lower field time at the cost of a little total damage.",
-            "Her Outro skill is a simple but effective 25% Basic Attack and 20% Havoc DMG Amplification to the incoming character, which is very desirable for two of the best Havoc DPS characters in the game currently, Havoc Rover and Camellya, making her a strong Hybrid buffer.",
-            "But even after you access her Outro skill, Roccia's tricks aren't over; through her second Inherent Skill, she provides a completely unique mechanic that replaces the Utility button of the next character you Outro into by her Super Attractive Magic Box! Using this magic box (the same way you would use your grapple, flight or camera for example) summons a mini-version of her Resonance Skill's tornado in front of your character which - while not as strong as her Resonance Skill - is surprisingly effective for grouping small enemies. This ability can be transferred over to your Main DPS character as it's usable by the next character you Outro into; this makes it one of the strongest grouping tools in the game and, paired with her Resonance Skill, makes Roccia arguably the best grouper in the game, allowing you to strike groups of smaller enemies all at once instead of dealing with them one at a time, making her especially effective in those situations.",
-            "However even with all this, Roccia faces stiff competition in her role and optimal teams despite her ease of use, personal damage, big buffing potential, and grouping. That competition comes in the form of the accessible and generic Hybrid juggernaut Sanhua - a top-tier character who fills the same niche she does (both have a Basic Attack DMG Amplify). While it's true that Roccia's buffs come out slightly ahead of her and she certainly does more damage than Sanhua, she loses out due to higher field time requirements and the fact that Sanhua is free and Roccia is not. Another competitor is Danjin who again serves a similar niche to Roccia but isn't quite as formidable an opponent as Sanhua. Roccia sets herself apart from her competitors with her strong AoE grouping utility and higher personal damage but might not be enough of an upgrade in the total team damage department for those who aren't interested in her specialties.",
-            "In conclusion, as things stand, while Roccia literally owns Pero, none other than the cutest pet in existence, pulling her on your account is a matter of specialisation. If you feel her AoE grouping and higher personal damage compared to her competitors warrant her higher field time and investment she's a fine choice, but for those without the pulls to spare Roccia may not currently be worth it. In the event we see more AoE content, Roccia's position within the meta is sure to improve, but until then even though she's one of, if not the strongest Havoc supporting unit in the game she's definitely a specialty pick compared to more generic options like Sanhua."
+            "Roccia is a 5-star Havoc Gauntlets buffer who specializes in buffing Basic/Havoc DMG-dealing characters, with a focus on AoE grouping and the nice feature of having 1 extra Echo Skill cast compared to regular characters. Her rotation is quite fast and features a lot of mid-air action with some decent personal damage and buffing, similar to other characters of the 1.x-early 2.x era."
+          ]
+        },
+        {
+          "heading": "Key Mechanics & Rotation",
+          "paragraphs": [
+            "Roccia rotates on the principle of getting her Outro off as quickly as possible, like most supports and buffer-type characters. It provides 20% Havoc and 25% Basic DMG Amplification to the next character for 14s or until they are switched out, like most Hybrid Outros. To charge it up quickly, she needs to access some mid-air bouncing Heavy Attacks called \"Real Fantasy\", as all stages give a ton of Concerto upon landing, increasing as the chain goes on.",
+            "To cast them, she needs to use (and hence build up) Imagination, her Forte gauge split in 3 bars. Roccia can achieve this either by charging a Heavy Attack on the ground, which is rather slow (but at least not slower than most of her Basics), or rotate with an Intro (which chains into a Basic 4) and a Skill, each restoring one of the thirds, which is much faster. Her Skill and ground Heavy Attack are in fact the only ways Roccia has of casting her Real Fantasy bounces, so in case she gets interrupted, her Heavy Attack is your best bet. This will however, slow Roccia's rotation down significantly and is often grounds for resetting an endgame content run.",
+            "Her Ultimate also buffs the whole party's ATK by up to 200 for 30s based on her CRIT Rate (maxxing out at 70%) upon casting. And upon casting Outro, Roccia unlocks a special Utility called Magic Box (like the Grapple, Flight or Motorbike utilities, for example), which counts as an extra Echo Skill cast. It deals a flat 100 damage but can group small enemies with your incoming character while Roccia is off-field."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "As you can see, we're already done explaining all of Roccia's buffs and essential rotation moves; she's an extremely simple character. But that's unfortunately not to her benefit. In the short rotation, Basic DMG buffing department, Sanhua is an extremely obvious pick that at S6 is already rivaling Roccia for her one use in Basic DMG buffing: Camellya. She already had a fully constituted team with Sanhua, and unfortunately for Roccia - who takes longer to rotate than the fastest Hybrid character in the entire game - her higher personal damage does not justify the rotation time increase, not to mention her buffs are barely better than Sanhua's for Camellya specifically (and in terms of Basic DMG buffing, that's all Roccia's good at). To make matters worse, her grouping is not necessary since Camellya already has some of the widest AoE attacks in the entire game with her spin, Ultimate and Forte Skill. Overall, regarding her Outro and grouping, Roccia only exists as a sidegrade to a completely free character. Not looking good there.",
+            "So let's shift the focus over to her personal damage and extra Echo Skill cast. She's a perfect fit for the Phrolova team: an ideal recipient for Phrolova's Outro, a party-wide ATK buff with her Ultimate, an extra Echo Skill cast to trigger an enhanced Hecate attack. Sure, her grouping is again not needed, since Hecate is the best crowd control utility in the entire game to date, but surely this makes Roccia good, right? Again, a missed opportunity. She's barely better than Danjin, not better than Shorekeeper, and definitely way worse than Qiuyuan and Lucilla.",
+            "And this unfortunately already exhausted Roccia's 2 \"best\" meta niches, if you can even call them that. Even with her Signature weapon equipped, Roccia's personal damage increases barely make her better than her 4-star competition. In conclusion, Roccia, since her release, has always been destined to fail. She never stood out, even in 2 teams that were built with her in mind, due to a lack of significant buffs and not enough unique features compared to the free alternatives Sanhua and Danjin, and stronger premium alternatives like Lynae (for Camellya) and Qiuyuan/Lucilla (for Phrolova). Overall, unless you're willing to pull Sequences for Roccia (which in itself is not even an optimal choice since you rather get Sequences on the DPS characters she supports or universal 3rd slots instead), unfortunately she's either a sidegrade to free characters at best, or a bad premium alternative at worst, making her one of the least valuable limited 5-stars in Wuthering Waves. Here's to hoping for a Roccia kit buff, because she needs one."
           ]
         }
       ],
-      "summary": "Roccia is a 5-star Havoc Gauntlet character whose main utility is empowering Basic ATK focused Havoc DPS. Whether it's her amazing buffing potential, or her uniquely powerful grouping abilities, the little Italian Jester Girl stands out as a unique, fun and easy character to play, who will find a home in your Havoc-focused teams when AoE content is on the menu."
+      "summary": "Roccia is a 5-star Havoc Gauntlets buffer who specializes in buffing Basic/Havoc DMG-dealing characters, with a focus on AoE grouping and the nice feature of having 1 extra Echo Skill cast compared to regular characters. Her rotation is quite fast and features a lot of mid-air action with some decent personal damage and buffing, similar to other characters of the 1.x-early 2.x era."
     },
     "rotations": [
       {
         "rotation_name": "Standard Rotation",
         "steps": [
-          "To save time, use your skill to cancel the extremely long animation of Basic ATK P4 right after you generate the 100 Fantasy from it,",
-          "To save even more time you can activate your Ultimate right after the damage of the third bounce of Real Fantasy lands to cut out the end of the animation.",
           "Intro",
-          "Basic P4 (Cancel animation after 100 Fantasy is gained using skill)",
-          "Skill: Acrobatic Trick",
-          "Forte: Basic: Real Fantasy P1",
-          "Forte: Basic: Real Fantasy P2",
-          "Forte: Basic: Real Fantasy P3 (Cancel animation after the bounce lands with Ultimate)",
-          "Ultimate: Commedia Improvviso!",
-          "Echo (Swap Cancel)",
+          "Basic 4 (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Skill (Interrupt animation via Dash on 1st hit)",
+          "Dash",
+          "Basic: Real Fantasy 1",
+          "Basic: Real Fantasy 2",
+          "Basic: Real Fantasy 3 (Cancel animation endlag via Echo)",
+          "Echo (Swap)",
           "Outro"
         ]
       },
       {
-        "rotation_name": "S1 SHORTENED ROTATION",
+        "rotation_name": "S1+ Hybrid Rotation",
         "steps": [
           "Intro",
-          "Skill: Acrobatic Trick",
-          "Forte: Basic: Real Fantasy P1",
-          "Forte: Basic: Real Fantasy P2",
-          "Forte: Basic: Real Fantasy P3 (Cancel animation after the bounce lands with Ultimate)",
-          "Ultimate: Commedia Improvviso!",
-          "Echo (Swap Cancel)",
+          "Skill (Interrupt animation via Dash on 1st hit)",
+          "Dash",
+          "Basic: Real Fantasy 1",
+          "Basic: Real Fantasy 2",
+          "Basic: Real Fantasy 3 (Cancel animation endlag via Echo)",
+          "Ultimate",
+          "Echo (Swap)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "S6 Main DPS Rotation",
+        "steps": [
+          "Intro",
+          "Basic 4 (Interrupt animation instantly via Ultimate to activate Signature passive)",
+          "Ultimate",
+          "Skill (Interrupt animation via Dash on 1st hit)",
+          "Dash",
+          "Basic: Real Fantasy 1",
+          "Basic: Real Fantasy 2",
+          "Basic: Real Fantasy 3",
+          "Basic: Fantasy Recreation (Until Outro buffs run out, should be up to 9 times) (Swap)",
           "Outro"
         ]
       }
     ],
     "skill_upgrade_priority": {
-      "commentary": "",
+      "commentary": "Basic, Intro and Skill can be skipped when levelling to save on resources at a minimal damage loss.",
       "order": [
         "Forte Circuit",
         "Res. Liberation",
-        "Res. Skill",
+        "Basic Attack",
         "Intro Skill",
-        "Basic Attack"
+        "Res. Skill"
       ]
     },
     "skills": [
@@ -864,19 +873,13 @@
         "characters": [
           "phrolova"
         ],
-        "commentary": "Roccia is the best third slot teammate to the Phrolova-Cantarella trio as she is the best recipient of Phrolova's Outro Skill which amplifies Havoc DMG and Heavy Attack DMG by 20% and 25% respectively, lining up with Roccia's damage types and allowing a trio with Cantarella to always upkeep high damage, making for Phrolova's best in slot team."
+        "commentary": "Roccia is one of the best third slot teammate to the Phrolova-Cantarella trio as she is the best recipient of Phrolova's Outro Skill which amplifies Havoc DMG and Heavy Attack DMG by 20% and 25% respectively, lining up with Roccia's damage types and allowing a trio with Cantarella to always upkeep high damage, making for a strong Phrolova team."
       },
       {
         "characters": [
           "rover-havoc"
         ],
         "commentary": "Roccia's 20% Havoc and 25% Basic Attack DMG Amplify on Outro are some of the best buffs Havoc Rover can receive, but additionally Roccia's grouping are very much appreciated with Havoc Rover's small AoE attacks that do big damage. Easily Havoc Rover's best buffer."
-      },
-      {
-        "characters": [
-          "danjin"
-        ],
-        "commentary": "Roccia is easily Main DPS Danjin's best buffing option if you want to play her in that style. The team is actually decent enough to clear endgame content."
       },
       {
         "characters": [

@@ -184,9 +184,9 @@
       "slug": "lynae",
       "updates": {
         "last_major_build_patch": "3",
-        "last_profile_update": "30/July/2026",
+        "last_profile_update": "20/August/2026",
         "last_review_patch": "3",
-        "last_updated": "30/July/2026"
+        "last_updated": "20/August/2026"
       },
       "weapon_type": "Pistols"
     },
@@ -194,7 +194,7 @@
       {
         "slot_1": {
           "alternatives": [],
-          "character_name": "aemeath"
+          "character_name": "aemeath, qingxiao, luuk-herssen"
         },
         "slot_2": {
           "alternatives": [],
@@ -205,7 +205,7 @@
           "character_name": "mornye"
         },
         "team_name": "Best Team",
-        "team_notes": "Lynae & Mornye can go with close to any damage dealer, only exceptions being Zani & Cartethyia."
+        "team_notes": "Lynae & Mornye can go with close to any damage dealer, only exceptions being Zani & Cartethyia. Lynae should be on Rupture mode with Aemeath, and on Tune Strain mode with Qingxiao/Luuk."
       },
       {
         "slot_1": {
@@ -1075,10 +1075,11 @@
         "characters": [
           "aemeath",
           "hiyuki",
-          "iuno",
-          "yangyang-xuanling"
+          "qingxiao",
+          "luuk-herssen",
+          "iuno"
         ],
-        "commentary": "Lynae pairs best with Liberation damage dealers who can make full use of her Outro. Aemeath is by far the best choice, she perfectly synergizes with every element of Lynae's kit and makes for an overwhelmingly strong team composition. While Hiyuki doesn't have full synergy with Lynae, paired with Chisa the team can match Aemeath in power. Iuno is also a really strong character in this role too, dealing a ton of Liberation damage. In fact, Lynae buffs Iuno so well that it's enough to make her one of the best singletarget DPS characters in the game; however Lynae is also one of the premium choices for yangyang-xuanling even if her Outro isn't fully taken advantage of, by virtue of her generalist buffs alone."
+        "commentary": "Lynae pairs best with Liberation damage dealers who can make full use of her Outro, or exploit her Tune Rupture/Tune Strain mechanics. Aemeath is by far the best choice, she perfectly synergizes with every element of Lynae's kit and makes for an overwhelmingly strong team composition. While Hiyuki doesn't have full synergy with Lynae, paired with Chisa the team can match Aemeath in power. Iuno is also a really strong character in this role too, dealing a ton of Liberation damage. Lastly, Luuk and Qingxiao can take advantage of Lynae's Tune Strain mode and general buffs."
       },
       {
         "characters": [

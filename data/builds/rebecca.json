@@ -239,9 +239,9 @@
       "slug": "rebecca",
       "updates": {
         "last_major_build_patch": "3.4",
-        "last_profile_update": "30/July/2026",
+        "last_profile_update": "20/August/2026",
         "last_review_patch": "3.4",
-        "last_updated": "30/July/2026"
+        "last_updated": "20/August/2026"
       },
       "weapon_type": "Pistols"
     },
@@ -362,7 +362,7 @@
             "Break",
             "Gather"
           ],
-          "tier": "T1"
+          "tier": "T1.5"
         }
       },
       "value_tier_ratings": {
@@ -370,7 +370,7 @@
           "tier": "T0.5"
         },
         "whimpering_wastes_value": {
-          "tier": "T0.5"
+          "tier": "T1.5"
         }
       }
     },

@@ -26,17 +26,17 @@
         "Characters",
         "Suoming"
       ],
-      "element": "Unknown",
+      "element": "Electro",
       "name": "Suoming",
       "rarity_stars": 5,
       "slug": "suoming",
       "updates": {
         "last_major_build_patch": "",
-        "last_profile_update": "15/June/2026",
+        "last_profile_update": "28/August/2026",
         "last_review_patch": "",
-        "last_updated": "15/June/2026"
+        "last_updated": "28/August/2026"
       },
-      "weapon_type": "Unknown"
+      "weapon_type": "Sword"
     },
     "example_teams": [],
     "media": {
