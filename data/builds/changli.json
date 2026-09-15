@@ -171,9 +171,9 @@
       "slug": "changli",
       "updates": {
         "last_major_build_patch": "2.1",
-        "last_profile_update": "20/August/2026",
+        "last_profile_update": "10/September/2026",
         "last_review_patch": "2.1",
-        "last_updated": "20/August/2026"
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Sword"
     },
@@ -311,9 +311,7 @@
           "tier": "T2"
         },
         "whimpering_wastes": {
-          "tags": [
-            "Expert +1"
-          ],
+          "tags": [],
           "tier": "T3"
         }
       },
@@ -322,7 +320,7 @@
           "tier": "T3"
         },
         "whimpering_wastes_value": {
-          "tier": "T3"
+          "tier": "T4"
         }
       }
     },

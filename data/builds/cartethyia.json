@@ -156,10 +156,10 @@
       "rarity_stars": 5,
       "slug": "cartethyia",
       "updates": {
-        "last_major_build_patch": "3",
-        "last_profile_update": "20/August/2026",
-        "last_review_patch": "2.4",
-        "last_updated": "20/August/2026"
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "10/September/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Sword"
     },
@@ -220,19 +220,15 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Very expensive: teammate reliant, signature weapon reliant, even buffed by teammate signature weapons, requires your other characters to adopt unconventional builds, herself being built unconventionally as she scales off of HP. Be prepared to dump a LOT of resources into this character to unleash her full potential, without the possibility to share her build with anyone else;",
-        "Can have difficulties keeping Aero Erosion stacked up in AoE scenarios if she kills all enemies at once (particularly important in Whimpering Wastes). This effect is further amplified without Ciaccona on the team, even in single-target situations;",
-        "In-game kit descriptions are 3 times longer to read than our in-depth review. It's time to make proper use of the shortened description feature you implemented, Kuro..."
+        "HP scaling means alternative weapon options to her Signature really fall behind. Overall one of the most Signature weapon-reliant characters in the game;",
+        "In multi-wave content, non-negotiably requires her ideal teammate Ciaccona in order to function correctly - not even ideal in gamemodes like Whimpering Wastes, but to use her there Ciaccona is not skippable;",
+        "Requires a lot of optimization in her rotations to function without Ciaccona in any gamemode in general, Ciaccona being a character who is very difficult to acquire nowadays due to a lack of reruns."
       ],
       "pros": [
-        "Best DPS in the game in her best team with optimal conditions. Period.",
-        "Built-in interruption resistance: once inputs are learnt, her rotation is near-impossible to fail;",
-        "Self-sufficient: heals herself, applies and amplifies Aero Erosion, making her able to exploit her kit by herself (albeit not to its full potential);",
-        "Difficult to hit as a good chunk of her rotation is spent in the air;",
-        "Able to stagnate AND group enemies in Fleurdelys form;",
-        "Lots of swap cancel windows: room for optimization & quickswap;",
-        "DPS is so good at a baseline that even without her best team or best weapon, she'll still slap anything in her way with good Echoes;",
-        "Increases teammate interruption resistance & healing, funnels Forte points to Aero Rover if present — makes team rotations much smoother;",
+        "Self-sufficient: heals herself, applies and amplifies Aero Erosion, making her able to exploit her kit by herself (albeit not to its fullest potential);",
+        "Massive room for optimization through quickswap - none of her teammates have any issues when it comes to utilizing the mechanic to its fullest potential, meaning her ceiling is much higher than her baseline performance;",
+        "High sequence scaling, particularly her S2 and S3 offer great benefits that alleviate her otherwise somewhat strict teambuilding conditions;",
+        "Possesses interruption resistance, grouping and stagnating, Increases teammate interruption resistance & healing, funnels Forte points to Aero Rover if present — makes team rotations much smoother;",
         "INSANE second Ultimate animation."
       ]
     },
@@ -240,17 +236,13 @@
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
-            "Control",
-            "Gather",
             "Erosion",
             "Expert +1"
           ],
-          "tier": "T0.5"
+          "tier": "T1"
         },
         "whimpering_wastes": {
           "tags": [
-            "Control",
-            "Gather",
             "Erosion",
             "Partner (Ciaccona)",
             "Expert +1"
@@ -260,10 +252,10 @@
       },
       "value_tier_ratings": {
         "tower_of_adversity_value": {
-          "tier": "T1"
+          "tier": "T1.5"
         },
         "whimpering_wastes_value": {
-          "tier": "T2"
+          "tier": "T3"
         }
       }
     },
@@ -312,81 +304,99 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "At long last, the highly-anticipated Cartethyia is available to play in Wuthering Waves 2.4, and she does not mess around. Cartethyia is a 5-star Aero Sword DPS character whose primary role is to deal massive damage to enemies in a wide Area of Effect after she's been fully buffed by the 2 other characters in your team. Best in a Hypercarry playstyle, but also functional in Quickswap team compositions, Cartethyia relies on the Aero Erosion mechanic to take her damage a step ahead of the competition.",
-            "As Cartethyia's kit description is, to REALLY say the least, a long read... we'll spare you all of the unnecessary details and instead exclusively tackle what we use in her rotation.",
-            "Something to note to start with, is that the entirety of Cartethyia's damage is based on her HP. This makes building her certainly original, but also way more restrictive, as most Swords and Echo sets revolve around buffing ATK. This makes her a very selective DPS in general and is one of her main flaws — but we're getting ahead of ourselves, so let's start with her kit in the order of her rotation:",
+            "Cartethyia is a 5-star Aero Sword DPS character who relies on the Aero Erosion mechanic to take her damage to the next level. Defined by a very Quickswap-friendly kit and a very flexible rotation with many tools at her disposal, breaking her kit down requires some much needed simplification. We'll try to provide as concise and clear of an explanation as we can throughout this review.Key Mechanics",
+            "Something to note to start with, is that the entirety of Cartethyia's damage is based on her HP. This makes building her certainly original, but also way more restrictive, as most Swords and Echo sets revolve around buffing ATK. This makes her a very selective DPS in general and is one of her main flaws - but we're getting ahead of ourselves, so let's start with her kit in the order of her rotation:",
             "First of all, Cartethyia has two forms. Her Ultimate allows her to transform into Fleurdelys to gain a new kit, but before that, she needs to accumulate what's known as \"Sword Shadows\". There are 3 types of Sword Shadows, all of which enhance her kit in her Fleurdelys form where she will deal the overwhelming majority of her damage. All Sword Shadows acquired are visible on her Forte bar in her Cartethyia form. Their effects to Fleurdelys are as follows:",
-            "Sword of Discord: Gained after using Cartethyia's Resonance Intro, it raises the Aero Erosion stacks on all nearby enemies to whatever count is highest among the currently remaining enemies after using most of Fleurdelys's important abilities. This has two effects: the first is keeping all enemies in range at the same amount of Aero Erosion, the second is refreshing the duration of Aero Erosion (so the stacks will never expire mid-rotation);",
+            "Sword of Discord: Gained after using Cartethyia's Intro Skill or Heavy Attack, it raises the Aero Erosion stacks on all nearby enemies to whatever count is highest among the currently remaining enemies after using most of Fleurdelys's important abilities. This has two effects: the first is keeping all enemies in range at the same amount of Aero Erosion, the second is refreshing the duration of Aero Erosion (so the stacks will never expire mid-rotation). However, it's worth noting this does not help her in multi-wave content;",
             "Sword of Divinity: Gained after using Cartethyia's Basic Attack 4, it amplifies Aero Erosion DMG by 50% and reduces the damage interval by 50% for enemies near Fleurdelys (meaning the damage is applied twice as fast effectively doubling the damage on top of 50% Amplification);",
             "Sword of Virtue: Gained after using Cartethyia's Skill, it allows her to gain increased Interruption Resistance and generate a stagnation field after using her Basic Attack 4 in Fleurdelys form.",
-            "All of these Sword Shadows (aside from Sword of Discord in single-target scenarios, but it is really easy to acquire) are really important to obtain. However, another effect stacking up each Sword will have is enhancing Cartethyia's Mid-Air Attack. Using this Mid-Air Attack summons all Sword Shadows to attack the enemy, inflicting higher damage and granting their effects to Fleurdelys. Hence, it is mandatory to cast this Mid-Air Attack every rotation to ensure Fleurdelys is as buffed as can be to deal the highest amount of damage possible. Besides, the damage on this ability isn't bad, so increasing it further isn't a bad idea in any context.",
-            "This means, to start with, we will do the following abilities:",
-            "Intro Skill (This acquires Sword of Virtue);",
-            "Basic 2, 3, 4 (Using Intro skill allows Cartethyia to start at Basic 2, this acquires Sword of Divinity);",
-            "Resonance Skill (This acquires Sword of Discord);",
-            "Mid-Air Attack (This consumes all Swords to grant their effects to Fleurdelys);",
-            "Ultimate (This transforms Cartethyia into Fleurdelys).",
-            "It should be noted that Intro Skill and Resonance Skill each apply 2 stacks of Aero Erosion on the targets hit, while Basic Attack 4 applies 1 stack, for a total of 5 Aero Erosion stacks per rotation. The limit is naturally 3 stacks, however this can be increased via Aero Rover's Outro skill and via Cartethyia's Sequence 2 (each increasing the limit by 3). At most, Fleurdelys benefits from 6 Aero Erosion stacks being present on her targets. Via Cartethyia's Inherent Skill, all damage dealt by Cartethyia and Fleurdelys on targets affected by Aero Erosion increases by 30% regardless of their stack count. For every stack above 3, she also gains an extra 10% Aero Erosion up to 30% at 6 stacks (for a total of 60% DMG Bonus). This gives her a tremendous amount of DMG Bonus, further adding on to the necessity to apply Aero Erosion on her targets.",
-            "Her other Inherent Skill increases healing to all characters in the team aside from herself by 20%, along with increasing their interruption resistance. She additionally gives 25 Forte points to Aero Rover if they are present in the team and cast their Ultimate - this however only sees real use if Aero Rover is swapped in the middle of Fleurdelys's rotation (as otherwise, they will face Concerto Energy problems when trying to take advantage of this ability. However, if the player is able to manage that, it is a nice time save).",
-            "With that out of the way, let's finally tackle her Fleurdelys form, called \"Manifest\" and establish the essentials:",
+            "Another effect stacking up each Sword will have is enhancing Cartethyia's Mid-Air Attack. Using this Mid-Air Attack summons all Sword Shadows to attack the enemy, inflicting high damage and granting their effects to Fleurdelys. Hence, it is mandatory to cast this Mid-Air Attack every rotation to ensure Fleurdelys is as buffed as can be to deal the highest amount of damage possible. Besides, the damage on this ability is high, so increasing it further isn't a bad idea in any context."
+          ]
+        },
+        {
+          "heading": "Aero Erosion and its effects",
+          "paragraphs": [
+            "Cartethyia's Intro Skill and Resonance Skill each apply 2 stacks of Aero Erosion on the targets hit, while Basic Attack 4 applies 1 stack, for a total of 5 Aero Erosion stacks per rotation. The limit is naturally 3 stacks, however this can be increased via Aero Rover or Chisa's Outro skills and via Cartethyia's Sequence 2 (each increasing the limit by 3). At most, Fleurdelys benefits from 6 Aero Erosion stacks being present on her targets. Via Cartethyia's Inherent Skill, all damage dealt by Cartethyia and Fleurdelys on targets affected by Aero Erosion increases by 30% regardless of their stack count. For every stack above 3, she also gains an extra 10% Aero Erosion up to 30% at 6 stacks (for a total of 60% DMG Bonus). This gives her a tremendous amount of DMG Bonus, further adding on to the necessity to apply Aero Erosion on her targets.",
+            "Aero Erosion will periodically deal some decent damage to your enemies throughout your team's rotation, and will also be directly consumed by Cartethyia once she transforms into Fleurdelys to enhance her attacks."
+          ]
+        },
+        {
+          "heading": "Cartethyia's Ultimate: Fleurdelys form",
+          "paragraphs": [
+            "Upon using her Ultimate, Cartethyia transforms into Fleurdelys. This makes her gain the \"Manifest\" state which grants the following effects:",
             "When transforming into Fleurdelys, Cartethyia immediately reduces her Max HP to 50% of its original value (unless her current HP is already equal to or below 50%). The Manifest state lasts for 12s.",
             "Fleurdelys gains a brand new kit with new Basic Attacks, 2 new Heavy Attacks, 2 new Resonance Skills, a new Forte bar called \"Conviction\" which allows her to cast her second Ultimate (the hardest-hitting ability she has), a brand new Intro Skill and certain attacks make her consume Aero Erosion instead of applying it.",
             "When using several key abilities, Fleurdelys will consume 1 stack of Aero Erosion to instantly deal the instance of damage it normally would've done.",
-            "When using any ability, Fleurdelys restores a portion of Conviction, stackable up to 120. At 120 points, she is able to cast her second Ultimate, deal MASSIVE damage in this process, and end her rotation.",
+            "When using any ability, Fleurdelys restores a portion of Conviction, stackable up to 120. At 120 points, she is able to cast her second Ultimate, deal massive damage in this process, and end her rotation.",
             "The damage of this second Ultimate is influenced by how much Aero Erosion is present on the targets, up to 5 stacks. Each of these 5 potential stacks get removed on cast and amplify the damage of the attack by 20% each (up to 100%).",
             "The second Ultimate restores 50% of Cartethyia's (not Fleurdelys's) max HP.",
-            "Ending the state does not cost any Resonance Energy.",
-            "Here is the most efficient way to stack up Conviction, along with what abilities consume Aero Erosion:",
-            "Skill 1",
-            "Mid-Air Attack 3",
-            "Skill 2 (this consumes 1 Aero Erosion)",
-            "Basic 3 (her Basic chain starts from stage 3 after Skill 2)",
-            "Basic 4",
-            "Basic 5 (this consumes 1 Aero Erosion)",
-            "Heavy Attack",
-            "Enhanced Heavy Attack (press Basic Attack shortly after Heavy Attack)",
-            "After all of these abilities have been performed, Fleurdelys is free to perform her second Ultimate, nuke enemies down, and end her rotation. Her Outro amplifies Aero DMG dealt to targets with Negative Status applied by 17.5% for 20s, which is an acceptable boost but nothing impressive.",
-            "All of Cartethyia's kit mechanics tied to Aero Erosion consumption aren't utilizable to their fullest on her own. Unfortunately, to fully utilize her Ultimate's DMG Amplification effect and to fully utilize her Inherent Skill's DMG Bonus, she will need to be paired with specifically Ciaccona, and before her S2 Aero Rover as well. They are non-negotiably her best teammates, however Cartethyia's S2 does allow her to throw out Aero Rover as a teammate as she can get 6 stacks of Aero Erosion thanks to it. This removes the need to have a clunky teammate on the team and only further adds to her value (not to mention the insane damage boosts S1 & S2 provide, basically makes clearing any content completely free).",
-            "Nonetheless, at S0, Cartethyia's teams do get restricted by the nature of her kit's mechanics, as they tie her down to specific Aero Erosion teammates. However, even without both Ciaccona and Aero Rover (all 3 must non-negotiably be used together for optimal synergy), Cartethyia does get fantastic damage on her own as her kit is mostly self-sufficient. Add that to a solid amount of swap cancel windows (check her Gameplay page for more information on this) and you have a character who is more than enough on her own, and a massive destructive force in her best team. It's very easy to see Cartethyia deals the most damage of any character currently and as a result is the best damage dealer in the game, making her a staple of the game's meta.",
-            "In conclusion, Cartethyia is an excellent all-around damage dealer. She is capable of handling all kinds of situations, from single-target to AoE, although she does have some issues re-applying Aero Erosion, particularly in Whimpering Wastes, when a full wave of enemies dies at once. She has the highest damage potential in the game and is able to work with several teammates to a great degree, even her F2P team is good enough to make for a top tier team composition. Note however that her main flaw is in her lack of a good weapon due to her HP scaling & she lacks Aero Erosion teammate options, which can make her expensive or underperform if you don't invest enough pulls into getting her other upgrades to make full leverage of her kit. However, in her best conditions, Cartethyia will perform as the best DPS in the game, making her one of the most valuable characters in Wuthering Waves."
+            "Lastly, her Outro amplifies Aero DMG dealt to targets with Negative Status applied by 17.5% for 20s by allies other than herself, which is an acceptable boost but nothing impressive."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "All of Cartethyia's kit mechanics tied to Aero Erosion consumption aren't utilizable to their fullest on her own. She lacks enough Aero Erosion application to do so before S3, and before S2 she cannot naturally increase the stack cap of Aero Erosion on the targets. This makes someone who has that ability, either Chisa or Aero Rover, ideal. She will need to slow her rotation down, or be paired with extra sources of Aero Erosion application (ideally Ciaccona) to take full advantage of her kit.",
+            "At S0, Cartethyia's teams do get restricted by the nature of her kit's mechanics, as they tie her down to specific Aero Erosion teammates. However, even without Ciaccona available, considering Aero Rover is a free character who can increase the stack cap of Aero Erosion on targets, Cartethyia does get fantastic damage on her own, as her kit is mostly self-sufficient. Add that to an insane affinity for Quickswap (more than basically any other character in the game), and overall you are left with a pretty complete character, although her damage ceiling is expectedly not up to the standard of her most modern DPS peers. However, using her fullest quickswap potential, she can get very close, and that's a testament to her affinity for the mechanic.",
+            "In conclusion, Cartethyia is a good all-around damage dealer to this day. Her affinity for quickswap provides her a long standing in the upcoming meta for people who wish to optimize her to the fullest. In the hands of the average person, she remains a decent choice for a DPS, particularly if her Sequence nodes are unlocked, although she wouldn't be a recommended pull for new players today. Having inevitably fallen behind the most modern DPS characters of Wuthering Waves, Cartethyia nonetheless remains a capable damage dealer who can provide some good results under the right conditions, and some amazing results in the right quickswappy hands."
           ]
         }
       ],
-      "summary": "At long last, the highly-anticipated Cartethyia is available to play in Wuthering Waves 2.4, and she does not mess around. Cartethyia is a 5-star Aero Sword DPS character whose primary role is to deal massive damage to enemies in a wide Area of Effect after she's been fully buffed by the 2 other characters in your team. Best in a Hypercarry playstyle, but also functional in Quickswap team compositions, Cartethyia relies on the Aero Erosion mechanic to take her damage a step ahead of the competition."
+      "summary": "Cartethyia is a 5-star Aero Sword DPS character who relies on the Aero Erosion mechanic to take her damage to the next level. Defined by a very Quickswap-friendly kit and a very flexible rotation with many tools at her disposal, breaking her kit down requires some much needed simplification. We'll try to provide as concise and clear of an explanation as we can throughout this review.Key Mechanics"
     },
     "rotations": [
       {
-        "rotation_name": "Basic Rotation",
+        "rotation_name": "Standard Rotation",
         "steps": [
           "Intro - Cartethyia",
-          "Basic P2",
-          "Basic P3",
-          "Basic P4",
-          "Skill: Sword to Bear Their Names",
-          "Mid-air Attack - Cartethyia",
-          "Ultimate: A Knight's Heartfelt Prayers",
-          "(Skill 1) Forte: Sword to Answer Waves' Call",
-          "Forte: Fleurdelys Mid-air Attack P3 (Hold Basic during Resonance Skill)",
-          "Forte: Fleurdelys Basic P3",
-          "Forte: Fleurdelys Basic P4",
-          "Forte: Fleurdelys Basic P5",
-          "(Skill 2) Forte: May Tempest Break the Tides",
-          "Forte: Fleurdelys Basic P3",
-          "Forte: Fleurdelys Basic P4",
-          "Forte: Fleurdelys Basic P5",
+          "Basic 2 - Cartethyia",
+          "Basic 3 - Cartethyia",
+          "Basic 4 - Cartethyia (Cancel animation endlag via Skill)",
+          "Skill - Cartethyia",
+          "Basic: Mid-air Attack - Cartethyia (Cancel when she hits the ground via Ultimate)",
+          "Ultimate (Transform to Fleurdelys)",
+          "Skill - Fleurdelys 1",
+          "Heavy - Mid-Air Attack 3 - Fleurdelys",
+          "Basic 3 - Fleurdelys",
+          "Basic 4 - Fleurdelys",
+          "Basic 5 - Fleurdelys (Cancel animation endlag via Skill)",
+          "Skill: Fleurdelys 2",
+          "Basic 3 - Fleurdelys",
+          "Basic 4 - Fleurdelys",
+          "Basic 5 - Fleurdelys (Cancel animation endlag via Ultimate)",
           "Ultimate: Blade of Howling Squall",
-          "Outro",
-          "In most situations, the rotation we suggested is the best one, as it has the best compromise of damage for time spent on the field. It is fully functional with 14s Outro buffs and reduces Aero Erosion by the least amount of stacks, which makes it best for teams where Aero Erosion stack maintenance matters more.",
-          "However, with Ciaccona present on the team, or with an S3 Cartethyia, Aero Erosion will always be at max stacks. As a result, spending 1 more Aero Erosion and slightly extending the rotation by doing Mid-Air Attack 1 & 2 instead of Mid-Air Attack 3 will lead to slightly higher DPS. This is however mostly impractical as it depends on the HP threshold of the enemy you face – if the faster rotation can kill them, it'll save more time. Remember to adjust your rotations accordingly to the situation if you want to optimize!",
-          "During her base Cartethyia form, Cartethyia is able to weave in her Resonance Skill in the middle of your other characters' rotations. A good example of this is with Sanhua in a Cartethyia-Sanhua team. As Sanhua performs her Forte: Detonate Heavy Attack, it's possible to switch out of Sanhua onto Cartethyia, perform her Resonance Skill, switch back to Sanhua when her animation is finished, then Outro into Cartethyia and skip out on doing this attack in the middle of her own rotation, saving a small bit of time. However, keep in mind that doing this process will require you to execute a Jump after her Basic Attack 4 in order to execute her Mid-Air Attack so that she can activate her Sword Shadow buffs. It is still faster to do so however.",
-          "During her Fleurdelys form, Fleurdelys can swap out of the following abilities: Mid-Air Attack 3, Skill 2, Basic P5, Enhanced Heavy Attack.",
-          "All of these abilities can be swapped out of (so long as an Outro buff which expires on swap isn't present) and come back without delaying your Fleurdelys rotation by almost any time, as a result allowing you to weave in some extra attacks with your other characters for added damage & Concerto generation. This enables teams with Quickswap playstyles with characters like Changli.",
-          "Doing this with Aero Rover enables them to make full use of Cartethyia's Additional Ability which grants an extra 25 Windstrings for them when casting their Ultimate. Usually, they run into Concerto Energy problems, but if you Swap Cancel some of Fleurdelys's abilities and weave in even a single Aero Rover attack, in most situations it's enough to skip out on 1 Cloudburst Dance which speeds up your rotation and improves Team DPS!",
-          "It is common for several characters to act out of certain actions quicker by interrupting them with certain abilities. Note to only do this when the damage from the abilities have fully come out (or will fully come out). In Cartethyia's case, she makes use of this all throughout her rotation, as she is able to act out of certain abilities quicker via certain methods than if she were to follow up with a Basic Attack for example. This small delay where she is unable to perform any actions is called \"endlag\" and this endlag, lasting for a few tenths of a second in most cases, can be interrupted early via certain abilities. This is a strict improvement to her rotation time without forfeiting any damage, thus increasing DPS. Here are all the examples used in practice throughout her rotation:",
-          "In Cartethyia form: Cancelling her Basic Attack 4's endlag into her Resonance Skill or a Jump into a Mid-Air Attack.",
-          "In Cartethyia form: Cancelling her Mid-Air Attack's endlag with her Ultimate (this can be done really early while still activating Sword Shadow buffs, however you lose out on a good chunk of damage which is not worth it in almost every scenario. Make sure to do this with a bit of timing).",
-          "In Fleurdelys form: Cancelling her Mid-Air Attack 3's endlag with her Skill 2.",
-          "In Fleurdelys form: Cancelling her Enhanced Heavy Attack's endlag into her second Ultimate."
+          "(OPTIONAL) Heavy: Cartethyia (Swap)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Low Aero Erosion Rotation:",
+        "steps": [
+          "Intro - Cartethyia",
+          "Skill - Cartethyia",
+          "Basic: Mid-air Attack - Cartethyia (Cancel when she hits the ground via Ultimate)",
+          "Ultimate (Transform to Fleurdelys)",
+          "Skill - Fleurdelys 1",
+          "Skill - Fleurdelys 2",
+          "Basic 3 - Fleurdelys",
+          "Basic 4 - Fleurdelys",
+          "Basic 5 - Fleurdelys (Cancel animation endlag via Ultimate)",
+          "Ultimate (Transform to Cartethyia)",
+          "Basic 2 - Cartethyia",
+          "Basic 3 - Cartethyia",
+          "Basic 4 - Cartethyia (Cancel animation endlag via Ultimate)",
+          "Ultimate (Transform to Fleurdelys)",
+          "Basic 2 - Fleurdelys",
+          "Basic 3 - Fleurdelys",
+          "Basic 4 - Fleurdelys",
+          "Basic 5 - Fleurdelys (Cancel animation endlag via Ultimate)",
+          "Ultimate: Blade of Howling Squall",
+          "Basic 1 - Cartethyia",
+          "Basic 2 - Cartethyia",
+          "Basic 3 - Cartethyia",
+          "Basic 4 - Cartethyia (Cancel animation endlag via Heavy)",
+          "Heavy - Cartethyia (Swap)",
+          "Outro"
         ]
       }
     ],

@@ -27,15 +27,15 @@
         "set_name": "Rejuvenating Glow"
       },
       {
-        "commentary": "Offers a 10% unconditional Energy Regen% boost taking some pressure off your gear when aiming at ER breakpoints. Also upon using Outro, grants the next character switching in a 22.5% ATK boost, amplifying any of your main damage dealers burst windows.",
+        "commentary": "Niche set for Verina in Jingran teams that don't feature a natural Shielld applier. Ran in favour of Rejuvenating Glow since this set grants a base 20% ATK permanently to all characters in the team as long as the healer can apply Healing constantly off-field, something Shorekeeper is capable of. 5% better than Rejuvenating Glow's 15% ATK and less clunky to use thanks to having a Summon Echo instead of a Transform one on Rejuvenating Glow (which would be Stonewall Bracer).",
         "main_echo_options": [
           {
-            "echo_commentary": "Supportive Echo that can be run at the cost of a sizeable chunk of damage for the character who equips, trading personal gain for team benefits. Should always be used and immediately switch cancelled right before performing an Outro, leading to another DPS. When done so will grant the next character switching in 12% increased DMG% which when combined with the 5P Moonlit set which also grants 22.5% ATK% under the same conditions makes for a sizeable boost. While the echo does lower the damage of whoever wears it, it grants a massive chunk of energy on use usually saving 1 or sometimes even 2 Energy Regen sub stats that may otherwise be needed by the wearer allowing for some damage to be recovered.",
-            "echo_name": "Impermanence Heron"
+            "echo_commentary": "Grants a Shield when summoned on cast, provides Jingran with a massive Fusion DMG Bonus boost if a Shielding teammate like Iuno isn't there to generate Shields without the need for this Echo.",
+            "echo_name": "Spacetrek Explorer"
           }
         ],
         "percentage_performance": "",
-        "set_name": "Moonlit Clouds"
+        "set_name": "Halo of Starry Radiance"
       }
     ],
     "best_echo_stats": {
@@ -143,9 +143,9 @@
       "slug": "verina",
       "updates": {
         "last_major_build_patch": "2.2",
-        "last_profile_update": "20/August/2026",
+        "last_profile_update": "10/September/2026",
         "last_review_patch": "2.1",
-        "last_updated": "20/August/2026"
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -183,15 +183,13 @@
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
-            "Coord",
-            "Sustain"
+            "Coord"
           ],
           "tier": "T0.5"
         },
         "whimpering_wastes": {
           "tags": [
-            "Coord",
-            "Sustain"
+            "Coord"
           ],
           "tier": "T1"
         }

@@ -213,9 +213,9 @@
       "slug": "qingxiao",
       "updates": {
         "last_major_build_patch": "3.6",
-        "last_profile_update": "25/August/2026",
+        "last_profile_update": "10/September/2026",
         "last_review_patch": "3.6",
-        "last_updated": "25/August/2026"
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Sword"
     },
@@ -273,14 +273,13 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "One of the most restrictive modern characters when it comes to teambuilding. Needs either Denia+Mornye specifically, or Lynae + a strong premium support. Otherwise, will fall behind significantly compared to all modern DPS characters in the game;",
-        "Faces issues in multiwave/AoE content because of gameplay revolving around Tune Strain and mid-air attacks, much like Luuk;",
-        "Low sequence value compared to modern standards; sequence nodes give lower increases than even Carlotta and Lucy across the board;",
+        "One of the more restrictive modern characters when it comes to teambuilding. Needs either Denia+Mornye specifically, or Lynae + a strong premium support. Otherwise, will fall behind significantly compared to all modern DPS characters in the game;",
+        "Low sequence value compared to modern standards; for comparison purposes, sequence nodes give lower increases than Carlotta across the board;",
         "\"Here at Wuthering Waves, we strive to deliver an interactive gameplay experience to all players.\""
       ],
       "pros": [
-        "High single-target damage output, up to par with the rest of modern 3.x characters;",
-        "Has the ability to chase down airborne enemies with relative ease - rotation can stay consistent across boss encounters;",
+        "High single-target and AoE damage output, up to par with the rest of modern 3.x characters;",
+        "Has the ability to chase down airborne enemies with relative ease - rotation can stay consistent across a wide variety of boss encounters;",
         "Easiest DPS rotation in the game's history - just hold left click for the majority of the time; the rotation practically completes itself."
       ]
     },
@@ -288,16 +287,16 @@
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
-            "Break"
+            "Strain"
           ],
           "tier": "T0"
         },
         "whimpering_wastes": {
           "tags": [
-            "Break",
+            "Strain",
             "Partner (Denia)"
           ],
-          "tier": "T1"
+          "tier": "T0.5"
         }
       },
       "value_tier_ratings": {
@@ -305,7 +304,7 @@
           "tier": "T1"
         },
         "whimpering_wastes_value": {
-          "tier": "T2"
+          "tier": "T1"
         }
       }
     },
@@ -370,11 +369,15 @@
           "paragraphs": [
             "Qingxiao's main mechanic is Tune Strain. Whenever she deals damage to an enemy once, she applies 1 stack of Tune Strain, which is converted into extra total damage to that target based on the amount of stacks when Tune Break Skills are cast. Having teammates that can apply extra stacks and cause faster Tune Break Skill casts to actually benefit from the stacks of Tune Strain applied on the enemy will prove key to increasing her overall damage output, particularly considering her Mindlock mechanic that amplifies damage of the overwhelming majority of her attacks based on the amount of Tune Strain applied on targets (7% for the first 7 stacks, 2% for the next 8, for a total of 65% possible DMG amplification).",
             "Additionally, she gains Interruption Immunity and 60% DMG taken reduction for 1 attack after her Intro or her base Heavy Attack, inflicts additional Mindlock on every base Heavy Attack (3 stacks) and when other characters apply Tune Strain (1 stack), and can apply Mindlock stats in multi-wave content.",
-            "Lastly, in terms of Quickswap restrictions, Qingxiao should be free to build her Forte resources to cast her initial Heavy Attack before entering her Enhanced State, at which point the enhancements on her Heaven's Reckoning Heavy Attack (extremely significant damage increases) get removed if you swap, so switching characters upon entering her enhanced state is discouraged. So building up to the initial Heavy Attack quicker by pre-building Forte resources is as optimized as you can go.",
-            "Meta Position & Conclusion",
-            "Overall, Qingxiao is at the top of the single-target metagame on her release, and it seems her Denia+Mornye team, which is her on-release best in slot, is there to stay as her intended best team. This means Qingxiao and Luuk share ideal teammates, so you have to privilege one or the other. And it's a no-brainer who to pick if you have a Tune Strain team - Qingxiao's base damage is simply higher, so she's a stronger character overall. In the Aero department, however, Luuk has been known to face issues in Whimpering Wastes and he shares a playstyle with Qingxiao, being mid-air combat and Tune Strain. Sigrika on the other hand, Qingxiao's rival in the Aero Main DPS department, has the best results of any character in Whimpering Wastes as of Qingxiao's release. This calls into question Qingxiao's value across endgame modes.",
-            "Additionally, Qingxiao has a pretty significant reliance on either owning Denia and Mornye together specifically (trying to use Denia without Mornye results in major team DPS drop-offs, so there are no alternatives), or owning Lynae (at which point you can make do with ideally Mornye, but Ciaccona and Shorekeeper are fine enough alternatives as well). This, paired with a strong desire for her Signature weapon, makes Qingxiao quite the expensive character to get up and running. All this for a DPS who cannot cover all 3 endgame modes Wuthering Waves offers that efficiently, as remember she falls behind in Whimpering Wastes compared to her competition.",
-            "In conclusion, Qingxiao is an extremely strong single-target pick, but we don't lack those in the current Wuthering Waves meta. For how expensive Qingxiao is, she fails to deliver top-level performance across all 3 endgame modes, and requests particularly desirable teammates across other meta teams (mostly Aemeath and Luuk). She is without a doubt one of the strongest single-target damage dealer picks, but be mindful of her investment requirements as well as her performance in Whimpering Wastes before deciding whether to get her or not."
+            "Lastly, in terms of Quickswap restrictions, Qingxiao should be free to build her Forte resources to cast her initial Stringblade Heavy Attack before entering her Enhanced State, at which point the enhancements on her Heaven's Reckoning Heavy Attack (extremely significant damage increases) get removed if you swap, so switching characters upon entering her enhanced state is discouraged. So building up to the initial Heavy Attack quicker by pre-building Forte resources is as optimized as you can go."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Overall, Qingxiao is at the top of the single-target metagame on her release, and it seems her Denia+Mornye team, which is her on-release best in slot, is there to stay as her intended best team. This means Qingxiao and Luuk share ideal teammates, so you have to privilege one or the other. And it's a no-brainer who to pick if you have a Tune Strain team - Qingxiao's base damage is simply higher, so she's a stronger character overall. In the Aero department however, Luuk has been known to face issues in Whimpering Wastes and he shares a playstyle with Qingxiao, being mid-air combat and Tune Strain. Sigrika on the other hand, Qingxiao's rival in the Aero Main DPS department, has some of the best results of any DPS in Whimpering Wastes as of Qingxiao's release. This calls into question Qingxiao's value across endgame modes, although she remains generally more than usable in Whimpering Wastes and has higher performance in single-target modes like ToA and Matrix overall.",
+            "Additionally, Qingxiao has a pretty significant reliance on either owning Denia and Mornye together specifically (trying to use Denia without Mornye results in major team DPS drop-offs, so there are no alternatives), or owning Lynae (at which point you can make do with ideally Mornye, but Ciaccona and Shorekeeper are fine enough alternatives as well). This, paired with a decent desire for her Signature weapon, makes Qingxiao quite the expensive character to get up and running.",
+            "In conclusion, Qingxiao is an extremely strong pick provided you have enough invested in her and her team. While she does face some subpar performance in multi-wave content compared to some of her peers, she is not hindered too hard and still manages to perform enough to clear easily with Denia's help for grouping in Whimpering Wastes, for example. She is without a doubt up to par in terms of damage ceiling with her late-3.x version peers and is hence one of the best DPS characters currently."
           ]
         }
       ],

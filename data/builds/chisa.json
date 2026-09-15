@@ -23,14 +23,25 @@
         "set_name": "Rejuvenating Glow"
       },
       {
-        "commentary": "Chisa's best set to maximize her personal damage, which grants her 20% ATK and 30% Liberation DMG Bonus for 5s when applying Havoc Bane. Considering she applies Havoc Bane every 2s all the time and primarily deals Liberation DMG, this set is meant for her.",
+        "commentary": "Best set for Chisa in the Yangyang: Xuanling + Suisui team. A niche set for her that is optimal in one of her best teams, as it gives the incoming character 22.5% ATK and 12% DMG Bonus via Impermanence Heron, allowing for the strongest possible buffs to go to Yangyang as Suisui operates in the 3rd slot (where Chisa usually is otherwise).",
+        "main_echo_options": [
+          {
+            "echo_commentary": "The best and only real option 5P Moonlit Clouds has, as it grants an extra 12% DMG Bonus on top of the ATK boost to the next character that Moonlit Clouds would usually give. Additionally restores a lot of Energy to the caster when it deals damage. On Cantarella, this Echo should either be used before her rotation starts or it can be instantly interrupted via her Ultimate - this way, no Energy or damage is generated but the buff will still apply to the incoming ally.",
+            "echo_name": "Impermanence Heron"
+          }
+        ],
+        "percentage_performance": "2",
+        "set_name": "Moonlit Clouds"
+      },
+      {
+        "commentary": "Chisa's best set to maximize her personal damage, which grants her 20% ATK and 30% Liberation DMG Bonus for 5s when applying Havoc Bane. Considering she applies Havoc Bane every 2s all the time and primarily deals Liberation DMG, this set is meant for her. ",
         "main_echo_options": [
           {
             "echo_commentary": "Increases Havoc DMG and Liberation DMG Bonus by 12% each in the main slot (Chisa's 2 damage types) while also dealing a good amount of cast damage over 4s after casting which is increased if the target has Havoc Bane applied onto them. Ideally animation cancelled by her Ultimate to not lose on time.",
             "echo_name": "Reminiscence: Threnodian - Leviathan"
           }
         ],
-        "percentage_performance": "2",
+        "percentage_performance": "3",
         "set_name": "Thread of Severed Fate"
       }
     ],
@@ -195,10 +206,10 @@
       "rarity_stars": 5,
       "slug": "chisa",
       "updates": {
-        "last_major_build_patch": "3.5",
-        "last_profile_update": "20/August/2026",
-        "last_review_patch": "2.8",
-        "last_updated": "20/August/2026"
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "10/September/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Broadblade"
     },
@@ -310,12 +321,12 @@
     "pros_and_cons": {
       "cons": [
         "Needs her Signature weapon to stand out from Aero Rover in the Cartethyia team;",
-        "The majority of her buffs exist in the form of Negative Status (weak effects in multi-wave content) or only function on Negative Status appliers (Signature) and/or damage dealers (DEF Ignore). This restricts Chisa's use-case to Negative Status teams and she has no reason to be used outside of them;",
-        "Her rotation is really long for a Support and doesn't justify her personal damage, even if on the higher-end for Supports. This is, however, negated in Quickswap."
+        "Outside of Quickswap, has a decently lengthy rotation time for a Support, matching or exceeding some of the commonly used Hybrids;",
+        "The majority of her buffs exist in the form of Negative Status (weak effects in multi-wave content) or only function on Negative Status appliers (Signature) and/or damage dealers (DEF Ignore). This restricts Chisa's use-case to Negative Status teams and she has no reason to be used outside of them."
       ],
       "pros": [
         "Is a top-tier Support for a ton of teams since the Negative Status archetype is currently extremely prominent within the meta;",
-        "Extremely quickswap-friendly, has lots of animations that can put her personal damage to use since its usual cost of high rotation time is negated;",
+        "Extremely quickswap-friendly, has lots of animations that can put her personal damage to great use;",
         "Has grouping, healing and shielding capabilities greatly facilitating her use;",
         "Provides a very unique form of damage increase via DEF Shred/DEF Ignore which works well for all types of damage in the game, including Negative Status."
       ]
@@ -324,17 +335,13 @@
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
-            "Bane",
-            "Sustain",
-            "Gather"
+            "Bane"
           ],
           "tier": "T0"
         },
         "whimpering_wastes": {
           "tags": [
-            "Bane",
-            "Sustain",
-            "Gather"
+            "Bane"
           ],
           "tier": "T0"
         }
@@ -407,9 +414,9 @@
             "Signature Weapon (Kumokiri): Provides 24% general DMG Bonus to any character who inflicts a Negative Status on the enemy. Provides nothing to any character who does not fulfill this condition.",
             "Outro: Allows any character who damages any enemy to increase the maximum applicable stacks of any Negative Status and Electro Rage by 3.",
             "All of these buffs will be permanently active in battle, assuming any given character in the team can fulfill all activation conditions and the rotation lasts 30s or less (which is over the standard for any viable team in the game, generally around 25 to 28s). Also, all of her buffs and debuffs have mechanics intended to make them still applicable across several waves of enemies on Negative Status characters (but the ramp-up time across several waves of enemies still does make it less effective than in single-target encounters).",
-            "What's important to note here is that almost all of these buffs either only pertain to Negative Status or only apply to characters who can inflict their own Negative Status/deal Negative Status type damage during their own rotation. Buffs will NOT apply if the character who wants to receive the majority of Chisa's buffs is not able to fulfill these conditions by themselves. This makes most of Chisa's kit not functional in any non-Negative Status teams. Ideally, the whole team has to apply their own Negative Status for Chisa to function at her maximum potential.",
+            "—> What's important to note here is that almost all of these buffs either only pertain to Negative Status or only apply to characters who can inflict their own Negative Status/deal Negative Status type damage during their own rotation. Buffs will NOT apply if the character who wants to receive the majority of Chisa's buffs is not able to fulfill these conditions by themselves. This makes most of Chisa's kit not functional in any non-Negative Status teams. Ideally, the whole team has to apply their own Negative Status for Chisa to function at her maximum potential.",
             "In other words, Chisa only functions in Negative Status-focused teams, and her use case as a generalist Support for non-Negative Status teams is nonexistent since even free characters like Baizhi can fulfill that role better. Additionally, her personal damage is too low to allow her to function effectively as a DPS.",
-            "It's also worth noting her kit provides DEF Ignore (18%) and DEF Shred (12% at max Havoc Bane). Aside from the difference that Ignore is character-applied and Shred is enemy-applied, they function as different parts of the enemy DEF calculation. In the case of DEF reduction, it becomes more effective the more of it is reduced (similarly to RES reduction), so this actually works against Chisa since 30% Ignore or 30% Shred would actually shred more of the enemy's DEF than the 18% Ignore and 12% Shred that she has.",
+            "—> It's also worth noting her kit provides DEF Ignore (18%) and DEF Shred (12% at max Havoc Bane). Aside from the difference that Ignore is character-applied and Shred is enemy-applied, they function as different parts of the enemy DEF calculation. In the case of DEF reduction, it becomes more effective the more of it is reduced (similarly to RES reduction), so this actually works against Chisa since 30% Ignore or 30% Shred would actually shred more of the enemy's DEF than the 18% Ignore and 12% Shred that she has.",
             "However, enemy DEF is one of the few parameters that influence direct Negative Status damage (damage from ticks of Spectro Frazzle/Aero Erosion for example). Chisa's unique ability to provide this DEF reduction suggests that she works with direct Negative Status damage dealers much more effectively than other Supports.",
             "Lastly, her Forte Gauge called Ring of Chainsaw is the core of her own rotation. When her Forte Gauge is filled, she gains access to an Enhanced Skill where she gains access to Enhanced Chainsaw Basic Attacks, which will conclude her rotation once the final attack has been cast, called Eradication. There are several ways to achieve this, but simply tapping Basic Attack during this state and then Swap Cancelling the last attack has proven to be most efficient to minimize rotation time costs."
           ]
@@ -428,16 +435,16 @@
         {
           "heading": "Unused attacks in her rotations",
           "paragraphs": [
-            "Outside of her Opener, Chisa will never make use of her Base Skill as it generates too little Forte and Concerto Energy to be worthwhile in those scenarios relative to the time spent casting it. Any mid-air Attacks, Heavy Attacks, and her second Forte Gauge called Jetstream are all entirely useless to her rotation and are not worth discussing due to their inefficiency in the context of battle."
+            "Outside of her Opener/Quickswap, Chisa will never make use of her Base Skill as it generates too little Forte and Concerto Energy to be worthwhile in loops relative to the time spent casting it. Any mid-air Attacks, Heavy Attacks, and her second Forte Gauge called Jetstream are all entirely useless to her rotation and are not worth discussing due to their inefficiency in the context of battle."
           ]
         },
         {
           "heading": "Meta position & Conclusion",
           "paragraphs": [
-            "Chisa has settled herself in the meta very well over the past few patches. The Negative Status meta is only growing bigger with Glacio Chafe and Fusion Burst providing two extremely strong synergies for Chisa where Shorekeeper and Verina can't just replace her. She has the issue of being less valuable for Cartethyia's team as she requires her Signature to stand out from Aero Rover, but with that being said, she does provide a higher ceiling to the team, particularly in quickswap. Her slots in the Glacio Chafe and Fusion Burst teams are also not contested.",
+            "Chisa has settled herself in the meta very well over the past few patches. The Negative Status meta has kept on developing with Havoc Bane, Glacio Chafe and Fusion Burst providing three extremely strong synergies for Chisa where Shorekeeper and Verina can't just replace her. She has the issue of being less valuable for Cartethyia's team as she requires her Signature to stand out from Aero Rover, but with that being said, she does provide a higher ceiling to the team, particularly in quickswap. Even though Suisui arrived as one of her best replacements, exceeding her performance in Hiyuki teams, this doesn't replace her slot on the Yangyang: Xuanling, Cartethyia, and Aemeath Fusion Burst teams, where she remains ideal.",
             "Even still, Chisa's value is partially hindered in Whimpering Wastes where enemies are defeated quicker than her Havoc Bane can fully apply, whereas comparatively, other Supports like Aero Rover do not struggle with this as they do not apply any Negative Status of their own and are intended to work just as well whether in multiwave or single-target content, which hinders Chisa's pull value outside of Tower of Adversity/Endstate Matrix by a small margin. However, her ability to increase any Negative Status team's damage ceiling substantially via her unique properties like Stack Cap Increase and DEF Shred/Ignore tends to compensate for this flaw.",
             "In the third slot to Spectro Frazzle teams, Chisa is worse than other options (Shorekeeper or Spectro Rover in a Zani+Phoebe team; Lynae in an Absolution Phoebe team outside of Quickswap). In non-Negative Status teams, as discussed earlier, Chisa does not have access to the majority of her buffs that could give her a modicum of generalist use case, so even characters like Baizhi end up outclassing her as a generalist.",
-            "In conclusion, Chisa has super high performance in a large quantity of teams that dominate the WuWa meta: Hiyuki with Glacio Chafe, Aemeath with Fusion Burst, Cartethyia with Aero Erosion, Absolution Phoebe with Spectro Frazzle in quickswap. In spite of Chisa having no viable meta niche outside of these compositions, she carved out a strong position for herself as the third slot to many Negative Status compositions as of recent, making her one of the top picks in the current WuWa meta."
+            "In conclusion, Chisa has super high performance in a large quantity of teams that dominate the WuWa meta: Yangyang: Xuanling with Havoc Bane, Hiyuki with Glacio Chafe, Aemeath with Fusion Burst, Cartethyia with Aero Erosion, Absolution Phoebe with Spectro Frazzle in quickswap. In spite of Chisa having no viable meta niche outside of these compositions, she carved out a strong position for herself as the third slot to many Negative Status compositions as of recent, making her one of the top picks in the current WuWa meta."
           ]
         }
       ],
@@ -1100,7 +1107,7 @@
           "cartethyia",
           "phoebe"
         ],
-        "commentary": "Chisa is always at her best when buffing Negative Status main damage dealers, due to the way her Outro and Weapon buffs require teammates to apply Negative Statuses in order to use them. By order of current strength, yangyang-xuanling has the highest damage ceiling in the game as of her release. Aemeath is very close when in a full-fledged Fusion Burst team with Denia, but Cartethyia and Hiyuki are also amazing and can get close when team rotations are fully optimized. Phoebe is fine as a fallback option if nothing else is available."
+        "commentary": "Chisa is always at her best when buffing Negative Status main damage dealers, due to the way her Outro and Weapon buffs require teammates to apply Negative Statuses in order to use them. By order of current strength, Yangyang: Xuanling has the highest damage ceiling in the game as of her release. Aemeath is very close when in a full-fledged Fusion Burst team with Denia, but Cartethyia and Hiyuki are also amazing and can get close when team rotations are fully optimized. Phoebe is fine as a fallback option if nothing else is available."
       }
     ],
     "upgrade_materials": {

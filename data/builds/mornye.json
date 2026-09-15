@@ -17,6 +17,10 @@
           {
             "echo_commentary": "A Transform Echo that gives 10% Energy Regen when equipped in the main slot to help with Mornye's build requirements, making it the de facto best choice in the main slot. Must be cast before Outro at the end of her rotation and Swap Cancelled for optimized uptime.",
             "echo_name": "Reactor Husk"
+          },
+          {
+            "echo_commentary": "Niche option in Jingran teams that don't feature a natural Shield generator. Grants a Shield when summoned on cast, provides Jingran with a massive Fusion DMG Bonus boost if a Shielding teammate like Brant isn't there to generate Shields without the need for this Echo.",
+            "echo_name": "Spacetrek Explorer"
           }
         ],
         "percentage_performance": "1",
@@ -114,10 +118,10 @@
       "rarity_stars": 5,
       "slug": "mornye",
       "updates": {
-        "last_major_build_patch": "3",
-        "last_profile_update": "20/August/2026",
-        "last_review_patch": "3",
-        "last_updated": "20/August/2026"
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "10/September/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Broadblade"
     },
@@ -190,13 +194,13 @@
       "cons": [
         "Really ideally wants a Concerto weapon. If one isn't readily available, then her rotations will be slower and feel much clunkier. Even with one, her Opener is generally slow and can be restricting to maneuver around;",
         "Tune Break-related buffs are widely enemy-dependent since Tune Break damage and buildup vary based on enemy class and some bosses have Tune Break Buildup immunity phases which can cause her damage/buffing potential to fluctuate substantially;",
-        "Is completely quickswap-unfriendly because her enhanced state instantly expires upon switching - when you start her rotation after her Opener, you have to finish it;",
+        "Very difficult to use in quickswap, although possible, because her enhanced state instantly expires upon switching - when you start her rotation in her enhanced state, you have to finish it;",
         "Is \"only\" a sidegrade to Verina if she isn't on a team explicitly synergistic with her at S0 - this is worth keeping in mind since if you can't get any of Mornye's relevant teammates or her S1, she will likely be too niche to be worth the investment (since her competitors Verina and Shorekeeper are widely owned and free or better for general use)."
       ],
       "pros": [
         "Mostly universal buffer & healer who gets even stronger in her meta niches;",
         "Super cheap to invest into - just get Energy Regen requirements and she's fully functional;",
-        "Part of the universal buffing core with Lynae and Mornye, part of the universal Fusion core with Lupa;",
+        "Part of the best Tune Strain teams with Denia, the universal buffing core with Lynae, and the universal Fusion core with Lupa;",
         "Party-wide DEF boost, Interruption Resistance, 3 oneshot resistances and death resistance make her the best Holograms Support in the game, making it very accessible for casual players;",
         "Her S1 is fairly accessible and makes her very universally strong without any other partners needed."
       ]
@@ -205,15 +209,15 @@
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
-            "Break",
-            "Sustain"
+            "Rupture",
+            "Strain"
           ],
           "tier": "T0"
         },
         "whimpering_wastes": {
           "tags": [
-            "Break",
-            "Sustain"
+            "Rupture",
+            "Strain"
           ],
           "tier": "T1"
         }
@@ -223,7 +227,7 @@
           "tier": "T0"
         },
         "whimpering_wastes_value": {
-          "tier": "T1.5"
+          "tier": "T1"
         }
       }
     },
@@ -305,10 +309,10 @@
           "heading": "Meta Position & Conclusion",
           "paragraphs": [
             "As we've said just earlier, Mornye is a very cheap character who does not need her Signature to get herself up and running. While her rotation's Concerto does require a Concerto weapon of some kind to be used, the accessible 4-star Discord Broadblade does the job just fine and the team damage loss compared to her Signature is minimal, making it rather skippable unless you really care about high score/low time clears in endgame (or simply if you really like Mornye).",
-            "Even S0, Mornye has several meta niches: she is the best 3rd slot teammate in a lot of Mono Fusion teams featuring Lupa, and in basically every team featuring Lynae (barring very few exceptions, such as Hiyuki with Chisa and Absolution Phoebe who requires Spectro Frazzle application). She is also the best Support generally in all Aemeath Rupture, Luuk, and Lucy compositions. Lynae or Lupa and Mornye together make for some very universal buffing cores that are capable of taking Fusion characters to their fullest potential (in the case of Lupa) or supporting any DPS, with an extra boost to Liberation/Rupture/Strain DPS when alongside Lynae.",
+            "Even at S0, Mornye has several meta niches: she is the best 3rd slot teammate in a lot of Mono Fusion teams featuring Lupa, and in basically every team featuring Lynae (barring very few exceptions, such as Hiyuki/Yangyang: Xuanling with Chisa or Suisui). She is also the best Support generally in all Aemeath Rupture, Luuk, Qingxiao, and Lucy compositions. Lynae or Lupa and Mornye together make for some very universal buffing cores that are capable of taking Fusion characters to their fullest potential (in the case of Lupa) or supporting any DPS, with an extra boost to Liberation/Rupture/Strain DPS when alongside Lynae, getting even better for Tune Strain alongside Denia.",
             "However, until S1 is acquired, Mornye's buffing capabilities are more restricted since teammates cannot benefit from her Interfered Marker damage buffs without Tune Rupture/Strain applied by another character, making her significantly worse in most scenarios outside of her usual scope when compared to Shorekeeper, being about equivalent to Verina (the two main competitors in her niche as a universal Support). In fact, Mornye, despite having a large amount of universal buffs, is probably the most niche of those three (until S1 is acquired anyway).",
-            "In all situations however, Mornye remains largely usable in all endgame modes in almost every team and in spite of her restrictions (like not being able to quickswap due to it ending her enhanced state on the spot, as well as some of her buffs requiring certain conditions to be applied), she is overall rather balanced since with her key teammates and/or key upgrades, she can become the best Support in a wide variety of teams.",
-            "In conclusion, Mornye is a very strong Support who rivals the likes of Shorekeeper in terms of meta presence and, while not generally outclassing her, can be stronger in her niches. Her several generalist buffs give her a strong use case in almost every team, while her specialized buffs allow her to truly shine in the right scenarios. In spite of having a few shortcomings, in the right situations, Mornye will be one of the strongest characters in the Wuthering Waves meta."
+            "In all situations however, Mornye remains largely usable in all endgame modes in almost every team and in spite of her restrictions (like not being able to quickswap in her enhanced state due to it ending on the spot, as well as some of her buffs requiring certain conditions to be applied), she is overall rather balanced since with her key teammates and/or key upgrades, she can become the best Support in a wide variety of teams.",
+            "In conclusion, Mornye is a very strong Support who rivals the likes of Shorekeeper or Chisa in terms of meta presence. Several generalist buffs give her a strong use case in almost every team, while her specialized buffs allow her to truly shine in the right scenarios. In spite of having a few shortcomings, in the right situations, Mornye will be one of the strongest characters in the Wuthering Waves meta."
           ]
         }
       ],

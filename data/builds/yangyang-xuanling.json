@@ -61,7 +61,7 @@
       {
         "commentary_details": "Provides the same base stats as her Signature, however replaces the passive by a boost to team-wide Echo DMG and Heavy DMG, making it her second best in slot (still behind her Signature even with Phrolova being buffable with this weapon on her team).",
         "dupe_rank": "R1",
-        "percentage_performance": "87.80%",
+        "percentage_performance": "88.00%",
         "weapon_base_info": {
           "effect_description": "ATK is increased by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attack grants 1 stack of Bamboo Cleaver, which grants {1} Heavy Attack DMG Bonus to the wielder. This effect can be triggered by Echoes of the same name once only, stacking up to 2 times, lasting for 12s. Casting Echo Skill at max stacks does not reset the duration. This effect can be triggered once every 10s and ends early if the wielder is switched off the field. Casting Intro Skill grants {2} Echo Skill DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked.",
           "primary_stat_val": 587,
@@ -73,23 +73,9 @@
         "weapon_name": "Emerald Sentence"
       },
       {
-        "commentary_details": "Mostly an ATK and CRIT Rate stat-stick for Yangyang, granting her a negligible Basic DMG Bonus increase.",
-        "dupe_rank": "R1",
-        "percentage_performance": "80.80%",
-        "weapon_base_info": {
-          "effect_description": "Increase ATK by {0}. When dealing Basic Attack DMG, the wielder gains {1} Basic Attack DMG Bonus for 14s. This effect can be triggered once per second, stacking up to 3 times. When the wielder's Concerto Energy is consumed, gain {2} Basic DMG Bonus for 10s. This effect can be triggered once per second and ends when the wielder is switched off the field.",
-          "primary_stat_val": 587,
-          "rarity": 5,
-          "secondary_stat_name": "CRIT Rate",
-          "secondary_stat_val": 24.3,
-          "source": "Gacha"
-        },
-        "weapon_name": "Red Spring"
-      },
-      {
         "commentary_details": "ATK, DMG Bonus and CRIT Rate stat-stick for Yangyang, who does not benefit from this weapon's Tune Rupture/Fusion Burst-oriented effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "80.50%",
+        "percentage_performance": "80.70%",
         "weapon_base_info": {
           "effect_description": "Increases All-Attribute DMG Bonus by {0}. When inflicting Tune Rupture - Shifting or Fusion Burst, the wielder's Resonance Liberation DMG ignores {1} DEF and {2} Fusion RES on targets for 8s.",
           "primary_stat_val": 587,
@@ -99,6 +85,20 @@
           "source": "Rate-up"
         },
         "weapon_name": "Everbright Polestar"
+      },
+      {
+        "commentary_details": "Mostly an ATK and CRIT Rate stat-stick for Yangyang, granting her a negligible Basic DMG Bonus increase.",
+        "dupe_rank": "R1",
+        "percentage_performance": "80.60%",
+        "weapon_base_info": {
+          "effect_description": "Increase ATK by {0}. When dealing Basic Attack DMG, the wielder gains {1} Basic Attack DMG Bonus for 14s. This effect can be triggered once per second, stacking up to 3 times. When the wielder's Concerto Energy is consumed, gain {2} Basic DMG Bonus for 10s. This effect can be triggered once per second and ends when the wielder is switched off the field.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Gacha"
+        },
+        "weapon_name": "Red Spring"
       },
       {
         "commentary_details": "ATK and CRIT Rate stat-stick for Yangyang, who does not benefit from this weapon's Glacio Chafe-oriented effects.",
@@ -115,21 +115,7 @@
         "weapon_name": "Frostburn"
       },
       {
-        "commentary_details": "Mostly an ATK and CRIT Rate stat-stick for Yangyang, best permanent option that grants a negligible Energy Regen increase (as Yangyang already gets 10% from her Echo set) and a ramp-up ATK bonus when casting Skills. ",
-        "dupe_rank": "R1",
-        "percentage_performance": "80.30%",
-        "weapon_base_info": {
-          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases ATK by {1}, stacking up to 2 time(s). This effect lasts for 10s.",
-          "primary_stat_val": 587,
-          "rarity": 5,
-          "secondary_stat_name": "CRIT Rate",
-          "secondary_stat_val": 24.3,
-          "source": "Permanent Convene"
-        },
-        "weapon_name": "Emerald of Genesis"
-      },
-      {
-        "commentary_details": "ATK and CRIT DMG stat-stick for Yangyang, who does not benefit from this weapon's Skill DMG-oriented effects (CRIT DMG scales noticeably worse on her than CRIT Rate).",
+        "commentary_details": "ATK and CRIT DMG stat-stick for Yangyang, who does not benefit from this weapon's Skill DMG-oriented effects.",
         "dupe_rank": "R1",
         "percentage_performance": "79.90%",
         "weapon_base_info": {
@@ -143,9 +129,23 @@
         "weapon_name": "Blazing Brilliance"
       },
       {
+        "commentary_details": "Mostly an ATK and CRIT Rate stat-stick for Yangyang, best permanent option that grants a negligible Energy Regen increase (as Yangyang already gets 10% from her Echo set) and a ramp-up ATK bonus when casting Skills. ",
+        "dupe_rank": "R1",
+        "percentage_performance": "79.10%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases ATK by {1}, stacking up to 2 time(s). This effect lasts for 10s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Emerald of Genesis"
+      },
+      {
         "commentary_details": "Best 4-star option, this Battle Pass exclusive grants Yangyang some Heavy DMG Bonus and a good amount of ATK. Still pales in comparison to any 5-star though.",
         "dupe_rank": "R5",
-        "percentage_performance": "73.70%",
+        "percentage_performance": "74.30%",
         "weapon_base_info": {
           "effect_description": "When Resonance Skill is released, increases Basic Attack DMG and Heavy Attack DMG by {0}, stacking up to 1 time(s). This effect lasts for 10s and can be triggered 1 time(s) every 1s.",
           "primary_stat_val": 387,
@@ -159,7 +159,7 @@
       {
         "commentary_details": "Best no-gacha option, granting a lot of ATK to Yangyang but no other stats to speak of.",
         "dupe_rank": "R5",
-        "percentage_performance": "70.40%",
+        "percentage_performance": "69.30%",
         "weapon_base_info": {
           "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
           "primary_stat_val": 462,
@@ -182,10 +182,10 @@
       "rarity_stars": 5,
       "slug": "yangyang-xuanling",
       "updates": {
-        "last_major_build_patch": "3.5",
-        "last_profile_update": "20/August/2026",
-        "last_review_patch": "3.5",
-        "last_updated": "20/August/2026"
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "10/September/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Sword"
     },
@@ -263,16 +263,14 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Self-buffs CRIT stats by so much that Shorekeeper is rendered practically useless; she is hence more limited in premium 3rd slot options than most (Mornye only with Lynae, or Chisa are your only upgrade paths from Verina).",
-        "Somewhat limited in Swap Cancelling; currently plays best with Outro buffers, her damage is spread evenly across her rotation, preventing buffing key abilities, and a lot of her self-buffs only apply if she's the active character on the field."
+        "Self-buffs CRIT stats by so much that Shorekeeper is rendered practically useless, she is hence more limited in premium 3rd slot options than most (Chisa/Suisui, and Mornye specifically with Lynae, are your only upgrade paths from Verina);",
+        "Her performance in Whimpering Wastes is vastly inferior to that of her peers, making her largely a ToA/Matrix-focused DPS instead of an all-rounder, even when optimized through Quickswap."
       ],
       "pros": [
-        "Top-tier damage ceiling with a focus on mid-air combat and animations that are generally hard to interrupt.",
-        "Excels in all endgame content, not just single-target bossing - Havoc Bane is applied by herself very often and constantly spreads across multiple waves.",
-        "Energy Regen requirements are super easy to meet.",
-        "Has a ton of accessible team compositions, F2P and Premium alike. F2P-friendly while also being improvable for cheap, likely some of her premium characters are already present on your account as well.",
-        "Has a short rotation compared to most Main DPS while still dealing ludicrous damage.",
-        "Looks like Selena from Punishing: Gray Raven (we like Selena from Punishing: Gray Raven)."
+        "Top-tier damage ceiling with a focus on mid-air combat and animations that are generally hard to interrupt;",
+        "Energy Regen requirements are super easy to meet thanks to her set effects and teams with high base Energy generation;",
+        "Has a ton of accessible team compositions, F2P and Premium alike. F2P-friendly while also being improvable for cheap;",
+        "Looks like Selena: Pianissimo from Punishing: Gray Raven (we like Selena: Pianissimo from Punishing: Gray Raven)."
       ]
     },
     "ratings": {
@@ -295,7 +293,7 @@
           "tier": "T0"
         },
         "whimpering_wastes_value": {
-          "tier": "T1.5"
+          "tier": "T2"
         }
       }
     },
@@ -345,7 +343,7 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Yangyang: Xuanling (who we will just shorten to YY:XL throughout this review) is a 5-star Havoc Sword Main DPS character who relies on Havoc Bane and Heavy Attack damage to execute pretty fast & most importantly really strong rotations that will, with enough investment, decimate her enemies, as she is one of the top DPS characters in the game by a landslide."
+            "Yangyang: Xuanling (who we will just shorten to YY:XL throughout this review) is a 5-star Havoc Sword Main DPS character who relies on Havoc Bane and Heavy Attack damage to execute pretty fast & most importantly really strong rotations that will, with enough investment, decimate her enemies, as you'll see she is one of the top DPS characters in the game."
           ]
         },
         {
@@ -361,13 +359,14 @@
         {
           "heading": "Meta Position & Conclusion",
           "paragraphs": [
-            "In the meta, YY:XL is a pretty imposing presence, to say the least. The nature of her kit makes her excel in all situations - AoE, single-target, single-wave, multi-wave, F2P or premium; you name it - she does it. In spite of her Signature weapon granting her a good increase over Emerald of Genesis, she still winds up one of the most F2P-friendly characters in the game, thanks to one of her best supports, Rebecca, being free, as well as her base damage simply being super high.",
-            "Her ability to work with proven AoE powerhouses like Phrolova, and generally applicable as well as accessible Supports like Lynae, Rebecca or even Mortefi, makes her a powerhouse with extremely few flaws, that we honestly had trouble coming up with during this review (finding cons to YY:XL's pros is genuinely a difficult task). Overall, she is one of the most meta releases, if not the most meta DPS to ever release. F2P-friendly, and one of the highest ceilings for scoring across all endgames. Those 2 combined traits are simply things we have never seen before. Luuk got close, but struggles hard in Whimpering Wastes. YY:XL doesn't.",
-            "In conclusion, YY:XL is one of the best DPS characters in Wuthering Waves overall. She only has room to grow post-release thanks to her ability to benefit from a wide variety of buffs paired alongside a ridiculously high base level of damage. Definitely one of the most imposing meta releases to date, YY:XL basically cannot disappoint on practically any Wuthering Waves account. If you were hesitant to pick her up and the determining factor was her meta position, rest assured - she's top tier, no doubt."
+            "In the meta, YY:XL is a pretty imposing presence, to say the least. The nature of her kit makes her excel in single-target situations - against any boss, you name it, she does it. In spite of her Signature weapon granting her a good increase over Emerald of Genesis, she still winds up one of the most F2P-friendly characters in the game, thanks to one of her best supports, Rebecca, being free, as well as her base damage simply being super high.",
+            "However, YY:XL faces very noticeable issues in multi-wave and AoE content. A lot of her key attacks lack the AoE they would need to deal damage to all enemies in her biggest attacks' range, and a lot of her rotation happening mid-air means she is prone to missing key hits of damage that would be a great help to her multi-wave clearing. Her ability to work with proven AoE powerhouses like Phrolova does not remedy this, but she has access to generally applicable Supports like Lynae, Rebecca or even Mortefi. This makes her a powerhouse with a major flaw. Perfection in one gamemode comes at a cost in the other.",
+            "Overall, she is one of the most meta releases, but won't help you too much in Whimpering Wastes. While she still clears the content, is F2P-friendly, and has one of the highest ceilings for scoring in bossing content, her AoE abilities inevitably fall behind, particularly in multi-wave where she is prone to overkilling enemies or lacking the AoE to deal with everybody at once.",
+            "In conclusion, YY:XL is one of the best DPS characters in Wuthering Waves overall. While she lacks the tools to deal with multi-wave content as well as her peers, it is beyond the shadow of a doubt that she is one of the most meta DPS for bossing content currently, being the best by a long shot when fully optimized too. No matter how you put it, as one of the most meta releases to date, YY:XL basically cannot disappoint on practically any Wuthering Waves account. As long as you're wary of her shortcomings and can work around them, she will be an excellent pickup for your account."
           ]
         }
       ],
-      "summary": "Yangyang: Xuanling (who we will just shorten to YY:XL throughout this review) is a 5-star Havoc Sword Main DPS character who relies on Havoc Bane and Heavy Attack damage to execute pretty fast & most importantly really strong rotations that will, with enough investment, decimate her enemies, as she is one of the top DPS characters in the game by a landslide."
+      "summary": "Yangyang: Xuanling (who we will just shorten to YY:XL throughout this review) is a 5-star Havoc Sword Main DPS character who relies on Havoc Bane and Heavy Attack damage to execute pretty fast & most importantly really strong rotations that will, with enough investment, decimate her enemies, as you'll see she is one of the top DPS characters in the game."
     },
     "rotations": [
       {

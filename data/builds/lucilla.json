@@ -87,7 +87,7 @@
       {
         "commentary_details": "Grants Lucilla a 40% Basic DMG Bonus buff when casting Echo Skill, which she can do immediately in Glacio Chafe mode making it her second best choice in that mode, but otherwise is useless for her in Echo Skill mode as she almost completely stops dealing Basic DMG.",
         "dupe_rank": "R1",
-        "percentage_performance": "95.70%",
+        "percentage_performance": "95.50%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attacks grants 1 stacks of Gentle Dream. Echoes with the same name can only trigger this effect once, stacking up to 2 times, lasting for 10s. When reaching 2 stacks, casting Echo Skill no longer resets the duration of this effect. This effect activates up to once per 10s. Switching to another Resonator ends this effect early.<br />With 1 stacks: Grants {1} Basic Attack DMG Bonus.<br />With 2 stacks: Ignores {0} of the target's Havoc RES.",
           "primary_stat_val": 500,
@@ -101,7 +101,7 @@
       {
         "commentary_details": "Generic strong choice for all Rectifier damage dealers, Lucilla being no exception. Gives strong general buffs ranging from ATK to general DMG Bonus to very high CRIT Rate. A strong blend of stats for a strong general use rectifier.",
         "dupe_rank": "R1",
-        "percentage_performance": "95.60%",
+        "percentage_performance": "95.40%",
         "weapon_base_info": {
           "effect_description": "Increases the DMG Bonus by {0}. When dealing Resonance Skill DMG, increases ATK by {1}, stacking up to 2. This effect lasts for 5s. When the equipped Resonator is not on the field, increases their ATK by an additional {2}.",
           "primary_stat_val": 500,
@@ -115,7 +115,7 @@
       {
         "commentary_details": "Phrolova's Signature is one of the few rectifiers in the game to have a higher Base ATK of 587, and its easy-to-activate DEF Ignore make it a good generalist weapon, however its power on Lucilla goes way higher if she's in Echo mode as she can fully benefit from all of its effects as she turns into an Echo Skill DMG dealer, making it the only viable alternative to her Signature in Echo mode.",
         "dupe_rank": "R1",
-        "percentage_performance": "93.10%",
+        "percentage_performance": "93.90%",
         "weapon_base_info": {
           "effect_description": "ATK is increased by {0}. Within 12s after dealing Echo Skill DMG, gain {1} Resonance Skill DMG Bonus and {1} Echo Skill DMG Amplification, and ignore {2} of the target's DEF when dealing damage.",
           "primary_stat_val": 587,
@@ -129,7 +129,7 @@
       {
         "commentary_details": "Zhezhi's Signature gives a small Basic DMG Bonus to Lucila upon using her Skill, but as she can only benefit from 1 stack, it mostly remains an ATK and CRIT DMG stat-stick for her.",
         "dupe_rank": "R1",
-        "percentage_performance": "93.10%",
+        "percentage_performance": "92.70%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Using Resonance Skill gives the equipped Resonator {0} Basic Attack DMG Bonus for 6s, stacking up to 3 times. When casting Outro Skill with 3 stacks, consume all stacks to give {1} DMG Bonus to the off-field Basic Attacks performed by the equipped Resonator, lasting for 27s.",
           "primary_stat_val": 500,
@@ -143,7 +143,7 @@
       {
         "commentary_details": "SImple ATK and CRIT Rate stat-stick for Lucilla, who does not benefit from this weapon's Fusion Burst/Tune Strain-related effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "92.40%",
+        "percentage_performance": "91.90%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. After the wielder inflicts Fusion Burst or Tune Strain - Shifting on the target, their Resonance Liberation DMG Bonus is increased by {1} for 5s. While this effect lasts, after Resonators in the team inflict Fusion Burst or Tune Strain - Shifting, their ATK is increased by {2} for 15s. Effects of the same name cannot be stacked.",
           "primary_stat_val": 500,
@@ -157,7 +157,7 @@
       {
         "commentary_details": "SImple ATK and CRIT Rate stat-stick for Lucilla, who does not benefit from this weapon's Spectro Frazzle-related effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "92.40%",
+        "percentage_performance": "91.90%",
         "weapon_base_info": {
           "effect_description": "Increase ATK by {0}. Dealing DMG to targets with Spectro Frazzle grants the wielder {1} Basic Attack DMG Bonus and {1} Heavy Attack DMG Bonus, stacking up to 3 times for 6s. Casting Outro Skill Amplifies the Spectro Frazzle DMG on targets around the active Resonator by {2} for 30s. Effects of the same name cannot be stacked.",
           "primary_stat_val": 500,
@@ -171,7 +171,7 @@
       {
         "commentary_details": "This Battle Pass Exclusive is Lucilla's best option in Glacio Chafe mode, giving her a CRIT DMG secondary stat, and an ATK and Basic DMG-boosting passive right at the start of her rotation. Due to Cosmic Ripples not being ideal in terms of the stats it provides, this weapon can prove a good replacement in Chafe mode where Lucilla deals Basic DMG, in spite of its lower Base ATK. However, this weapon is not advised in Echo mode as Lucilla doesn't deal close to as much Basic DMG there.",
         "dupe_rank": "R5",
-        "percentage_performance": "90.40%",
+        "percentage_performance": "90.10%",
         "weapon_base_info": {
           "effect_description": "Casting Resonance Skill increases ATK by {0} and grants {0} Basic Attack DMG Bonus for 10s.",
           "primary_stat_val": 412,
@@ -185,7 +185,7 @@
       {
         "commentary_details": "Best permanent option although not ideal for almost every Rectifier user. Gives a lot of ATK but has no CRIT secondary stat which makes it worse than other similar weapons. The Energy Regen-increasing passive it has is useless on Lucilla, and while it does give her Basic DMG for Glacio Chafe mode, it's overall not ideal, particularly for Echo mode where it's just an ATK stat-stick for her. Signature highly recommended for Echo teams if this is your 2nd best option.",
         "dupe_rank": "R1",
-        "percentage_performance": "90.30%",
+        "percentage_performance": "89.80%",
         "weapon_base_info": {
           "effect_description": "Increases Energy Regen by {0}. When hitting a target with Basic Attacks, increases Basic Attack DMG Bonus by {1}, stacking up to {2} time(s). This effect lasts for {3}s and can be triggered 1 time(s) every 0.5s.",
           "primary_stat_val": 500,
@@ -199,7 +199,7 @@
       {
         "commentary_details": "This Battle Pass exclusive is a close contender to Radiant Dawn in Chafe mode as its passive is activated quickly, and overall it provides better stats for Lucilla in Echo mode, making it the best 4-star choice in that mode.",
         "dupe_rank": "R5",
-        "percentage_performance": "89.10%",
+        "percentage_performance": "88.60%",
         "weapon_base_info": {
           "effect_description": "When Resonance Liberation is released, increases the caster's ATK by {0}, lasting for 15s.",
           "primary_stat_val": 412,
@@ -213,7 +213,7 @@
       {
         "commentary_details": "Best no-gacha option available, strong ATK-boosting passive available for Chafe mode but otherwise useless for Echo mode. If this is your best option in Echo mode, try to get Lucilla's Signature weapon for a much needed performance boost - but this weapon can work fine enough in Chafe mode even if the Signature is still recommended.",
         "dupe_rank": "R5",
-        "percentage_performance": "87.00%",
+        "percentage_performance": "86.40%",
         "weapon_base_info": {
           "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
           "primary_stat_val": 462,
@@ -236,10 +236,10 @@
       "rarity_stars": 5,
       "slug": "lucilla",
       "updates": {
-        "last_major_build_patch": "3.4",
-        "last_profile_update": "20/August/2026",
-        "last_review_patch": "3.4",
-        "last_updated": "20/August/2026"
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "10/September/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -317,11 +317,11 @@
     "pros_and_cons": {
       "cons": [
         "Her rotation restricts her quickswap potential by design, placing a large emphasis on animations that require her to stay actively on-field to perform or block any input (including swaps) from happening;",
-        "Common to all Rectifier characters, she has no good permanent alternatives to her Signature (Cosmic Ripples is never ideal) and due to a higher reliance on personal stats in Echo Mode, the limited alternatives become worse in that case as well;",
-        "Has the same problem as Denia, of 2 different sets for 2 different Resonance Modes, + 1 additional set for a specific team (so 3 different sets to build total to access her full flexibility), which may not be viable in terms of Echo materials for most."
+        "Due to a higher reliance on personal stats in Echo Mode, weapon alternatives become exponentially worse than in Chafe mode where Signature is quite skippable;",
+        "Has the same problem as Denia, of 2 different sets for 2 different Resonance Modes, + 1 additional set for a specific team (so 3 different sets to build total to access her full flexibility), which may not be viable in terms of Echo leveling materials for most."
       ],
       "pros": [
-        "Best pick for Glacio Chafe, one of the best picks for Echo Damage, two of the strongest archetypes in the game right now - very meta pick as of her release;",
+        "Best pick for Glacio Chafe, one of the best picks for Echo Damage, two of the strongest archetypes in the game right now;",
         "Has no Energy requirements and a rotation that only requires 5 inputs, making her super easy to use and flexible;",
         "Can focus more on personal damage or buffing depending on her role in the team, making her able to play into all possible Echo and Chafe teams as effectively as possible."
       ]
@@ -330,23 +330,25 @@
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
-            "Chafe"
+            "Chafe",
+            "Echo"
           ],
           "tier": "T0"
         },
         "whimpering_wastes": {
           "tags": [
-            "Chafe"
+            "Chafe",
+            "Echo"
           ],
           "tier": "T0"
         }
       },
       "value_tier_ratings": {
         "tower_of_adversity_value": {
-          "tier": "T1"
+          "tier": "T0.5"
         },
         "whimpering_wastes_value": {
-          "tier": "T0.5"
+          "tier": "T0"
         }
       }
     },
@@ -436,7 +438,7 @@
     },
     "rotations": [
       {
-        "rotation_name": "Rotation & How to Play",
+        "rotation_name": "Standard Rotation",
         "steps": [
           "Intro",
           "Skill: Spotlight (Perfect Release)",
@@ -452,7 +454,8 @@
         "rotation_name": "Additional Tips & Tricks",
         "steps": [
           "To release Spotlight perfectly within its timing window, try releasing around a quarter of a second after the Skill has started casting. During the Skill cast, the lens that forms around Lucilla has 2 grey areas, on which the arrows that circle around the lens need to land, for the Skill to be released at the perfect timing. At that point in time, the areas' colour changes from grey to golden - you want to release the Skill button there.",
-          "Additionally, since Lucilla's Ultimate will not come up before Skill has fully landed, you're free to spam Ultimate until it casts and - if on Glacio Chafe mode - you may do the same for Outro by spamming swap during Letting It Go as well."
+          "Additionally, since Lucilla's Ultimate will not come up before Skill has fully landed, you're free to spam Ultimate until it casts and - if on Glacio Chafe mode - you may do the same for Outro by spamming swap during the ending part of Letting It Go as well.",
+          "Lucilla's Basic 2 during Letting it Go can serve as her one and only decent swap cancel window for quickswap teams."
         ]
       }
     ],

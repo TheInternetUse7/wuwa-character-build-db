@@ -98,9 +98,9 @@
       "slug": "rover-aero",
       "updates": {
         "last_major_build_patch": "2.6",
-        "last_profile_update": "20/August/2026",
+        "last_profile_update": "10/September/2026",
         "last_review_patch": "2.4",
-        "last_updated": "20/August/2026"
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Sword"
     },
@@ -200,24 +200,23 @@
         "tower_of_adversity": {
           "tags": [
             "Erosion",
-            "Sustain"
+            "Expert +1"
           ],
-          "tier": "T1"
+          "tier": "T1.5"
         },
         "whimpering_wastes": {
           "tags": [
-            "Erosion",
-            "Sustain"
+            "Erosion"
           ],
-          "tier": "T1.5"
+          "tier": "T2"
         }
       },
       "value_tier_ratings": {
         "tower_of_adversity_value": {
-          "tier": "T1"
+          "tier": "T1.5"
         },
         "whimpering_wastes_value": {
-          "tier": "T2"
+          "tier": "T3"
         }
       }
     },

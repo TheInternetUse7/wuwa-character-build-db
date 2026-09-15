@@ -78,7 +78,7 @@
       {
         "commentary_details": "Phrolova's Signature is really good on Phoebe because it provides much higher Base ATK than both Stringmaster and her own Signature as well as 8% DEF Ignore permanently simply after casting Echo Skill which she can do immediately. As a result, this weapon's high ATK scaling means she never overcaps on CRIT Rate (which she can do on other weapons) and it makes this weapon a fantastic choice for her.",
         "dupe_rank": "R1",
-        "percentage_performance": "98.10%",
+        "percentage_performance": "98.20%",
         "weapon_base_info": {
           "effect_description": "ATK is increased by {0}. Within 12s after dealing Echo Skill DMG, gain {1} Resonance Skill DMG Bonus and {1} Echo Skill DMG Amplification, and ignore {2} of the target's DEF when dealing damage.",
           "primary_stat_val": 587,
@@ -92,7 +92,7 @@
       {
         "commentary_details": "The classic best generalist Rectifier DPS weapon in the game provides a ton of CRIT Rate, DMG Bonus, and ATK when dealing Skill damage which Phoebe takes great advantage of, making for one of her best weapon choices by far.",
         "dupe_rank": "R1",
-        "percentage_performance": "97.50%",
+        "percentage_performance": "97.60%",
         "weapon_base_info": {
           "effect_description": "Increases the DMG Bonus by {0}. When dealing Resonance Skill DMG, increases ATK by {1}, stacking up to 2. This effect lasts for 5s. When the equipped Resonator is not on the field, increases their ATK by an additional {2}.",
           "primary_stat_val": 500,
@@ -106,7 +106,7 @@
       {
         "commentary_details": "Cantarella's Signature gives Phoebe a lot of CRIT DMG and Basic DMG Bonus when casting Echo Skill after Intro which she can do immediately, bringing some solid damage boosts to the table.",
         "dupe_rank": "R1",
-        "percentage_performance": "94.20%",
+        "percentage_performance": "94.40%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attacks grants 1 stacks of Gentle Dream. Echoes with the same name can only trigger this effect once, stacking up to 2 times, lasting for 10s. When reaching 2 stacks, casting Echo Skill no longer resets the duration of this effect. This effect activates up to once per 10s. Switching to another Resonator ends this effect early.<br />With 1 stacks: Grants {1} Basic Attack DMG Bonus.<br />With 2 stacks: Ignores {0} of the target's Havoc RES.",
           "primary_stat_val": 500,
@@ -120,7 +120,7 @@
       {
         "commentary_details": "Slightly worse version of Whispers of Sirens, providing less Basic DMG for the same base stats.",
         "dupe_rank": "R1",
-        "percentage_performance": "93.00%",
+        "percentage_performance": "93.10%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Using Resonance Skill gives the equipped Resonator {0} Basic Attack DMG Bonus for 6s, stacking up to 3 times. When casting Outro Skill with 3 stacks, consume all stacks to give {1} DMG Bonus to the off-field Basic Attacks performed by the equipped Resonator, lasting for 27s.",
           "primary_stat_val": 500,
@@ -134,7 +134,7 @@
       {
         "commentary_details": "Best 4-star option for Phoebe, this Battle Pass exclusive provides lower Base ATK than 5-star options but it makes back for it with its CRIT secondary stat and an easily activated passive effect, making for a strong weapon choice.",
         "dupe_rank": "R5",
-        "percentage_performance": "86.10%",
+        "percentage_performance": "86.40%",
         "weapon_base_info": {
           "effect_description": "When Resonance Liberation is released, increases the caster's ATK by {0}, lasting for 15s.",
           "primary_stat_val": 412,
@@ -148,7 +148,7 @@
       {
         "commentary_details": "Best permanently accessible option for Phoebe, providing Energy Regen and a scaling Basic DMG Bonus buff which are good stats for Phoebe, however it lacks a CRIT stat and makes Phoebe's ATK oversaturate which is less than ideal compared to the above options. Still, it works well enough to clear endgame contents with.",
         "dupe_rank": "R1",
-        "percentage_performance": "84.90%",
+        "percentage_performance": "85.20%",
         "weapon_base_info": {
           "effect_description": "Increases Energy Regen by {0}. When hitting a target with Basic Attacks, increases Basic Attack DMG Bonus by {1}, stacking up to {2} time(s). This effect lasts for {3}s and can be triggered 1 time(s) every 0.5s.",
           "primary_stat_val": 500,
@@ -160,9 +160,9 @@
         "weapon_name": "Cosmic Ripples"
       },
       {
-        "commentary_details": "If you happened to get this weapon during its original event in version 2.1, it's a solid choice for Phoebe as it gives her a lot of Spectro DMG Bonus when applying Spectro Frazzle. It additionally has higher-end Base ATK for 4-star weapons but provides a low secondary ATK% stat in exchange which makes it pale in comparison to the above options while still remainning viable.",
+        "commentary_details": "If you happened to get this weapon during its original event in version 2.1, it's a solid choice for DPS Phoebe as it gives her a lot of Spectro DMG Bonus when attacking enemies inflicted with Spectro Frazzle. This weapon however doesn't work at all for Confession Phoebe as she cannot hit enemies with Spectro Frazzle due to Zani converting all stacks to Heliacal Ember. It additionally has higher-end Base ATK for 4-star weapons but provides a low secondary ATK% stat in exchange which makes it pale in comparison to the above options while still remainning viable.",
         "dupe_rank": "R5",
-        "percentage_performance": "78.80%",
+        "percentage_performance": "79.30%",
         "weapon_base_info": {
           "effect_description": "Dealing DMG to enemies with Spectro Frazzle increases the wielder's Spectro DMG by {0}, gaining 1 stack per second for 6s, stacking up to 4 times.",
           "primary_stat_val": 462,
@@ -176,7 +176,7 @@
       {
         "commentary_details": "Simple ATK, CRIT DMG and Basic DMG Bonus stat-stick for Phoebe who can easily take full advantage of this weapon's passive during her rotation.",
         "dupe_rank": "R5",
-        "percentage_performance": "77.70%",
+        "percentage_performance": "78.20%",
         "weapon_base_info": {
           "effect_description": "Casting Resonance Skill increases ATK by {0} and grants {0} Basic Attack DMG Bonus for 10s.",
           "primary_stat_val": 412,
@@ -190,7 +190,7 @@
       {
         "commentary_details": "Best no-gacha option available for Phoebe who can take full advantage of its passive in non-Zani teams using her and another teammate's Spectro Frazzle application to get good ATK buffs if nothing else is available.",
         "dupe_rank": "R5",
-        "percentage_performance": "76.80%",
+        "percentage_performance": "77.30%",
         "weapon_base_info": {
           "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
           "primary_stat_val": 462,
@@ -213,10 +213,10 @@
       "rarity_stars": 5,
       "slug": "phoebe",
       "updates": {
-        "last_major_build_patch": "3.2",
-        "last_profile_update": "20/August/2026",
-        "last_review_patch": "3.2",
-        "last_updated": "20/August/2026"
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "10/September/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -349,28 +349,24 @@
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
-            "Control",
-            "Frazzle",
-            "Gather"
+            "Frazzle"
           ],
-          "tier": "T1.5"
+          "tier": "T2"
         },
         "whimpering_wastes": {
           "tags": [
-            "Control",
             "Frazzle",
-            "Gather",
             "Partner (Ciaccona)"
           ],
-          "tier": "T3"
+          "tier": "T4"
         }
       },
       "value_tier_ratings": {
         "tower_of_adversity_value": {
-          "tier": "T1.5"
+          "tier": "T3"
         },
         "whimpering_wastes_value": {
-          "tier": "T3"
+          "tier": "T4"
         }
       }
     },
@@ -420,117 +416,88 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Phoebe is a 5-star Spectro Rectifier DPS and Hybrid character who relies upon or applies Spectro Frazzle in order to deal damage or enable/boost the damage of teammates. She's characterized by her two different modes allowing for two different playstyles: \"Absolution\" and \"Confession\". In Absolution mode, Phoebe acts as the Main DPS of the team, able to dish out lots of damage on her own as long as Spectro Frazzle is applied on enemies. In Confession mode, Phoebe is instead a secondary character much like Sanhua or Mortefi who will amplify the Spectro Frazzle DMG of other characters on your team. She also applies the most Spectro Frazzle of any character in the game, and can reduce the Spectro RES of enemies to further increase Spectro damage of your Main DPS. Generally speaking, her attacks feature good AoE and even grouping, making her suited to handling several enemies at once if required.",
-            "Accessing either Absolution or Confession state is done via consuming one of her Forte bars called \"Prayer\". Entering either state gives Phoebe 12% Spectro DMG Bonus. 120 Prayer which restores in 24 seconds total at a rate of 5 per second - all of Phoebe's rotations will operate on this cooldown. Absolution is entered via casting a Heavy Attack with full Prayer, called \"Absolution Litany\". Confession is entered via holding down Resonance Skill with full Prayer which performs a Resonance Skill called \"Utter Confession\". Casting either of these attacks restore Phoebe's second Forte bar, called \"Divine Voice\" which she restores the full 60 points of. These points will be consumed to cast her special Heavy Attacks, called \"Starflash\", which can only be executed after Basic Attack 3 or a Dodge Counter, and have different effects depending on Phoebe's state:",
+            "Phoebe is a 5-star Spectro Rectifier DPS and Hybrid character who relies upon or applies Spectro Frazzle in order to deal damage or enable/boost the damage of teammates. She's characterized by her two different modes allowing for two different playstyles: \"Absolution\" and \"Confession\". In Absolution mode, Phoebe acts as the Main DPS of the team, being the focus of your team's damage as long as Spectro Frazzle is applied on enemies. In Confession mode, Phoebe is instead a secondary character who will amplify the Spectro Frazzle DMG of other characters on your team (in other words, Zani)."
+          ]
+        },
+        {
+          "heading": "Key Mechanic: Absolution & Confession",
+          "paragraphs": [
+            "Accessing either Absolution or Confession state is done via consuming one of her Forte bars called \"Prayer\". Entering either state gives Phoebe 12% Spectro DMG Bonus. 120 Prayer which restores in 24 seconds total at a rate of 5 per second - all of Phoebe's rotations will operate on this cooldown. Absolution is entered via casting a Heavy Attack with full Prayer, called \"Absolution Litany\". Confession is entered via holding down Resonance Skill with full Prayer which performs a Resonance Skill called \"Utter Confession\". Casting either of these attacks fully restores Phoebe's second Forte bar, called \"Divine Voice\".",
+            "This bar will be consumed to cast her special Heavy Attacks, called \"Starflash\", which can only be executed after Basic Attack 3 or a Dodge Counter, and have different effects depending on Phoebe's state:",
             "In Absolution mode, Phoebe deals gains 256% Heavy ATK DMG Amplify on Starflash and they consume 15 Divine Voice (4 per rotation);",
             "In Confession mode, Phoebe applies 5 stacks of Spectro Frazzle to any enemies hit by Starflash and they consume 30 Divine Voice (2 per rotation).",
+            "Other abilities affected by whether Phoebe is in Absolution or Confession include her Ultimate, which has a 255% multiplier increase in Absolution and applies 8 stacks of Spectro Frazzle to targets hit in Confession. Lastly, her Outro also gets a 255% multiplier increase in Absolution mode, and in Confession mode it gives the on-field character an effect called \"Silent Prayer\" for 30s, during which the Spectro RES of nearby targets is reduced by 10% and all team members gain 100% Spectro Frazzle DMG Amplification."
+          ]
+        },
+        {
+          "heading": "Rotation Mechanics",
+          "paragraphs": [
             "Phoebe's regular Basic Attacks can be ignored, however they get enhanced once her base Resonance Skill is activated: it summons a special zone called \"Ring of Mirrors\" at the skill's target location for 30 seconds. Summoning this ring freezes any targets hit in place for 2 seconds, and allows her to cast her Resonance Skill again shortly after to teleport in its center. While standing outside of this Ring of Mirrors, her Basic Attacks will group enemies in its center along with a small extra attack. While standing inside of it, her Basic Attacks deal much more significant damage, roughly double the typical amount. This is unchanged whether Phoebe is in Absolution or Confession mode.",
-            "Other abilities affected by whether Phoebe is in Absolution or Confession include her Ultimate, which has a 255% multiplier increase in Absolution and applies 8 stacks of Spectro Frazzle to targets hit in Confession. Lastly, her Outro also gets a 255% multiplier increase in Absolution mode, and in Confession mode it gives the on-field character an effect called \"Silent Prayer\" for 30s, during which the Spectro RES of nearby targets is reduced by 10% and the character gets 100% Spectro Frazzle DMG Amplify.",
-            "With all of this explained, we can conclude that typically Phoebe's rotation will have you execute her Resonance Skill to summon the Ring of Mirrors, then enter either state depending on your team before casting your Ultimate (you can also cancel the animation of Absolution Litany or Utter Confession using this Ultimate for lower field time), after which you should enter the Ring of Mirrors to either do 3 Basic Attacks then Starflash, or a Dodge Counter then Starflash a total of 2 to 4 times depending on your state. After all of these actions are performed, Phoebe is ready to cast her Outro to either deal the rest of her damage or apply all of her buffs.",
-            "It should be easy to tell by the fact that Phoebe has 2 completely different modes of operation that she's a very flexible character. You'd be correct to assume this — however Phoebe does have the restriction of being tied to Spectro Frazzle team compositions, whether that's because she buffs that type of damage or because she relies on Spectro Frazzle to deal damage. But beyond that restriction, Phoebe slots in any Spectro Frazzle team very well, whether that's as a Spectro Frazzle Main DPS or a Hybrid Spectro Frazzle buffer. Generally speaking, Phoebe has lots of teammates to work with featuring two different playstyles, so feel free to play whatever's most comfortable or available for you.",
-            "Phoebe has a few weaknesses to take note of, beyond being simply tied to Spectro Frazzle. In Absolution mode, she needs Spectro Frazzle to be present on the enemies themselves — you'd be correct to assume you need to re-apply Spectro Frazzle to any new enemies than spawn in, otherwise Phoebe will deal very little damage (as her Starflash damage will be equivalent to her Confession state). This causes problems in content such as Whimpering Wastes. In Confession Mode, her team options are very scarce; right now she's exclusively tied to Zani, as that is the only Main DPS who can take advantage of Confession Phoebe's Spectro Frazzle buffs.",
-            "Outside of that however, Phoebe is first of all a very potent, flexible character who's able to act both as a potent Main DPS with high and consistent damage output, but also as a buffer to Spectro Frazzle damage if you own a character who benefits from that (only Zani currently). This gives her a lot of value as even though her Confession Hybrid teams are very restrictive, her Absolution DPS team compositions are flexible and F2P-friendly, as they function just fine with a character like Spectro Rover to take her damage as high as can be.",
-            "In conclusion, Phoebe is a character who's not only able to act as two different roles, filling two different meta niches and having two different playstyles, but she's also able to act very effectively at both of these roles. Overall, Phoebe can be exploited well by every player, and yield good results as her performance in either Absolution or Confession mode is felt on every team she's functional in. This gives her a very unique but also solid presence in the Wuthering Waves meta."
+            "With this and her Forte explained, we can conclude that typically Phoebe's rotation will have you execute her Resonance Skill to summon the Ring of Mirrors, then enter either state depending on your team before casting your Ultimate (you can also cancel the animation of Absolution Litany or Utter Confession using this Ultimate for lower field time), after which you should enter the Ring of Mirrors to either do 3 Basic Attacks then Starflash, or a Dodge Counter then Starflash a total of 2 to 4 times depending on your state. After all of these actions are performed, Phoebe is ready to cast her Outro to either deal the rest of her damage or apply all of her buffs."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "In the current meta, Phoebe is in quite a difficult position. It may be easy to assume that she's flexible based on her ability to switch between two different modes to fit two different roles. In this way, Phoebe was a sort of early precursor of the much later introduced Resonance Mode mechanic. You would be correct in assuming this if we were around her release period.",
+            "However, the restriction of being tied to Spectro Frazzle team compositions, to either deal or buff damage, restricts her to two very specific team archetypes with very specific teammates she non-negotiably needs to perform. Zani is needed in Confession mode, with no way around it. Spectro Rover is needed in Absolution mode, with no way around it (Ciaccona is really not an ideal replacement, and this is shown by her Whimpering Wastes performance in spite of her good AoE, Phoebe just does not have the numbers required to compete with Ciaccona by her side).",
+            "Being tied to Zani and other low-damage Absolution compositions really isn't ideal from a meta perspective, not to mention that she lacks good permanent weapon options. Phoebe does not work on her own anymore, as her power budget just isn't sufficient for that. She needs Lynae or Chisa alongside Spectro Rover to back her up in Absolution mode (and that's considered an off-meta team), she needs Zani and Spectro Rover with some very advanced Quickswap to really even be considered close to being \"meta\" anymore.",
+            "In conclusion, Phoebe is a character who has the ability to still perform today in the hands of the right player, but she non-negotiably needs Zani, Spectro Rover, and Quickswap in order to get there. In the hands of the average person, Phoebe is outclassed by many, more modern releases as a DPS or a Support, older Supports who withstood the test of time like Shorekeeper, Mortefi, or Sanhua are a better investment, as they have adapted themselves by way of their general buffs to more modern teams than her. Phoebe is, as it stands, too specialized to stand out."
           ]
         }
       ],
-      "summary": "Phoebe is a 5-star Spectro Rectifier DPS and Hybrid character who relies upon or applies Spectro Frazzle in order to deal damage or enable/boost the damage of teammates. She's characterized by her two different modes allowing for two different playstyles: \"Absolution\" and \"Confession\". In Absolution mode, Phoebe acts as the Main DPS of the team, able to dish out lots of damage on her own as long as Spectro Frazzle is applied on enemies. In Confession mode, Phoebe is instead a secondary character much like Sanhua or Mortefi who will amplify the Spectro Frazzle DMG of other characters on your team. She also applies the most Spectro Frazzle of any character in the game, and can reduce the Spectro RES of enemies to further increase Spectro damage of your Main DPS. Generally speaking, her attacks feature good AoE and even grouping, making her suited to handling several enemies at once if required."
+      "summary": "Phoebe is a 5-star Spectro Rectifier DPS and Hybrid character who relies upon or applies Spectro Frazzle in order to deal damage or enable/boost the damage of teammates. She's characterized by her two different modes allowing for two different playstyles: \"Absolution\" and \"Confession\". In Absolution mode, Phoebe acts as the Main DPS of the team, being the focus of your team's damage as long as Spectro Frazzle is applied on enemies. In Confession mode, Phoebe is instead a secondary character who will amplify the Spectro Frazzle DMG of other characters on your team (in other words, Zani)."
     },
     "rotations": [
       {
-        "rotation_name": "STANDARD ABSOLUTION DPS ROTATION",
+        "rotation_name": "Standard Rotation: Absolution",
         "steps": [
-          "Intro Skill",
-          "Skill: Mirror Summon",
-          "Skill: Mirror Teleport (Optional)",
-          "Forte: Absolution Litany",
-          "Ultimate: Dawn of Enlightenment",
-          "Skill: Basic: Chamuel's Star P1",
-          "Skill: Basic: Chamuel's Star P2",
-          "Skill: Basic: Chamuel's Star P3",
-          "Forte: Heavy Atk: Starflash",
-          "Skill: Basic: Chamuel's Star P1",
-          "Skill: Basic: Chamuel's Star P2",
-          "Skill: Basic: Chamuel's Star P3",
-          "Forte: Heavy Atk: Starflash",
-          "Skill: Basic: Chamuel's Star P1",
-          "Skill: Basic: Chamuel's Star P2",
-          "Skill: Basic: Chamuel's Star P3",
-          "Forte: Heavy Atk: Starflash",
-          "Skill: Basic: Chamuel's Star P1",
-          "Skill: Basic: Chamuel's Star P2",
-          "Skill: Basic: Chamuel's Star P3",
-          "Forte: Heavy Atk: Starflash",
-          "Outro Skill"
+          "Intro",
+          "Skill: Mirror Summon (Cancel animation endlag via Dash)",
+          "Dash (Make sure to Dash into the Ring of Mirrors)",
+          "Heavy: Absolution Litany (Cancel animation on cast via Ultimate)",
+          "Ultimate",
+          "Basic: Chamuel's Star 1",
+          "Basic: Chamuel's Star 2",
+          "Basic: Chamuel's Star 3 (Cancel animation on cast via Dash)",
+          "Dash",
+          "Heavy: Starflash",
+          "Basic: Chamuel's Star 1",
+          "Basic: Chamuel's Star 2",
+          "Basic: Chamuel's Star 3 (Cancel animation on cast via Dash)",
+          "Dash",
+          "Heavy: Starflash",
+          "Basic: Chamuel's Star 1",
+          "Basic: Chamuel's Star 2",
+          "Basic: Chamuel's Star 3 (Cancel animation on cast via Dash)",
+          "Dash",
+          "Heavy: Starflash",
+          "Basic: Chamuel's Star 1",
+          "Basic: Chamuel's Star 2",
+          "Basic: Chamuel's Star 3 (Cancel animation on cast via Dash)",
+          "Dash",
+          "Heavy: Starflash (Cancel animation endlag via Outro)",
+          "Outro"
         ]
       },
       {
-        "rotation_name": "STANDARD CONFESSION DPS ROTATION",
+        "rotation_name": "Standard Rotation: Confession",
         "steps": [
-          "Intro Skill",
-          "Skill: Mirror Summon",
-          "Skill: Mirror Teleport (Optional)",
-          "Forte: Utter Confession",
-          "Ultimate: Dawn of Enlightenment",
-          "Skill: Basic: Chamuel's Star P1",
-          "Skill: Basic: Chamuel's Star P2",
-          "Skill: Basic: Chamuel's Star P3",
-          "Forte: Heavy Atk: Starflash",
-          "Skill: Basic: Chamuel's Star P1",
-          "Skill: Basic: Chamuel's Star P2",
-          "Skill: Basic: Chamuel's Star P3",
-          "Forte: Heavy Atk: Starflash",
-          "Outro Skill",
-          "The first optimization is to implement Dash Cancels during Chamuel's Star P3 in order to cancel the end lag that comes with the ability. Doing this doesn't cost Phoebe any damage and will allow her to get to her next ability faster.",
-          "The second optimization is to implement Swap Cancels during Phoebe's Star Flash Heavy Attacks. This allows you to weave in the abilities of other resonators without costing Phoebe any field time.",
-          "The third optimization is to use Phoebe's ultimate to cancel the animation of Absolution Litany right after you use it. Doing this will retain all the damage and effects of both ability but save significant time.",
-          "The rotation above remains the same but here are all the places you can implement the above optimizations to save time:"
-        ]
-      },
-      {
-        "rotation_name": "Absolution Optimized",
-        "steps": [
-          "Intro Skill",
-          "Skill: Mirror Summon",
-          "Skill: Mirror Teleport (Optional)",
-          "Forte: Absolution Litany (Cancel With Ultimate)",
-          "Ultimate: Dawn of Enlightenment",
-          "Skill: Basic: Chamuel's Star P1",
-          "Skill: Basic: Chamuel's Star P2",
-          "Skill: Basic: Chamuel's Star P3 (Instantly Dash Cancel)",
-          "Forte: Heavy Atk: Starflash (Optionally Swap Cancel)",
-          "Skill: Basic: Chamuel's Star P1",
-          "Skill: Basic: Chamuel's Star P2",
-          "Skill: Basic: Chamuel's Star P3 (Instantly Dash Cancel)",
-          "Forte: Heavy Atk: Starflash (Optionally Swap Cancel)",
-          "Skill: Basic: Chamuel's Star P1",
-          "Skill: Basic: Chamuel's Star P2",
-          "Skill: Basic: Chamuel's Star P3 (Instantly Dash Cancel)",
-          "Forte: Heavy Atk: Starflash (Optionally Swap Cancel)",
-          "Skill: Basic: Chamuel's Star P1",
-          "Skill: Basic: Chamuel's Star P2",
-          "Skill: Basic: Chamuel's Star P3 (Instantly Dash Cancel)",
-          "Forte: Heavy Atk: Starflash",
-          "Outro Skill"
-        ]
-      },
-      {
-        "rotation_name": "Confession Optimized",
-        "steps": [
-          "Intro Skill",
-          "Skill: Mirror Summon",
-          "Skill: Mirror Teleport (Optional)",
-          "Forte: Utter Confession (Cancel With Ultimate)",
-          "Ultimate: Dawn of Enlightenment",
-          "Skill: Basic: Chamuel's Star P1",
-          "Skill: Basic: Chamuel's Star P2",
-          "Skill: Basic: Chamuel's Star P3 (Instantly Dash Cancel)",
-          "Forte: Heavy Atk: Starflash (Optionally Swap Cancel)",
-          "Skill: Basic: Chamuel's Star P1",
-          "Skill: Basic: Chamuel's Star P2",
-          "Skill: Basic: Chamuel's Star P3 (Instantly Dash Cancel)",
-          "Forte: Heavy Atk: Starflash (Optionally Swap Cancel)",
-          "Outro Skill"
+          "Intro (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Skill: Mirror Summon (Cancel animation on cast via Dash)",
+          "Dash (Make sure to dash inside of the Ring of Mirrors)",
+          "Basic: Chamuel's Star 1",
+          "Basic: Chamuel's Star 2",
+          "Basic: Chamuel's Star 3 (Cancel animation on cast via Dash)",
+          "Dash",
+          "Heavy: Starflash",
+          "Basic: Chamuel's Star 1",
+          "Basic: Chamuel's Star 2",
+          "Basic: Chamuel's Star 3 (Cancel animation on cast via Dash)",
+          "Dash",
+          "Heavy: Starflash (Cancel animation endlag via Outro)",
+          "Outro"
         ]
       }
     ],

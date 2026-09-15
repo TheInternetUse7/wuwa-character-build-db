@@ -17,6 +17,10 @@
           {
             "echo_commentary": "Supportive Echo that can be run at the cost of a sizeable chunk of damage for the character who equips, trading personal gain for team benefits. Should always be used and immediately switch cancelled right before performing an Outro, leading to another DPS. When done so will grant the next character switching in 12% increased DMG% which when combined with the 5P Moonlit set which also grants 22.5% ATK% under the same conditions makes for a sizeable boost. While the echo does lower the damage of whoever wears it, it grants a massive chunk of energy on use usually saving 1 or sometimes even 2 Energy Regen sub stats that may otherwise be needed by the wearer allowing for some damage to be recovered.",
             "echo_name": "Impermanence Heron"
+          },
+          {
+            "echo_commentary": "Niche option used in tthe Jingran/Mortefi/Lupa team. Grants a Shield on cast which can activate Jingran's passive for a lot of Fusion DMG Bonus gained upon casting his Intro. Usually Swap Cancelled at the end of Mortefi's rotation.",
+            "echo_name": "Stonewall Bracer"
           }
         ],
         "percentage_performance": "1",
@@ -167,9 +171,9 @@
       "slug": "mortefi",
       "updates": {
         "last_major_build_patch": "2.3",
-        "last_profile_update": "20/August/2026",
+        "last_profile_update": "10/September/2026",
         "last_review_patch": "1.3",
-        "last_updated": "20/August/2026"
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Pistols"
     },
@@ -293,7 +297,7 @@
             "Coord",
             "S0 -1"
           ],
-          "tier": "T1.5"
+          "tier": "T1"
         },
         "whimpering_wastes": {
           "tags": [
@@ -305,7 +309,7 @@
       },
       "value_tier_ratings": {
         "tower_of_adversity_value": {
-          "tier": "T1.5"
+          "tier": "T1"
         },
         "whimpering_wastes_value": {
           "tier": "T2"

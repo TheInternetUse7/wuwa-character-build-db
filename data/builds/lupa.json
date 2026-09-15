@@ -227,9 +227,9 @@
       "slug": "lupa",
       "updates": {
         "last_major_build_patch": "3",
-        "last_profile_update": "20/August/2026",
+        "last_profile_update": "10/September/2026",
         "last_review_patch": "2.4",
-        "last_updated": "20/August/2026"
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Broadblade"
     },
@@ -237,7 +237,7 @@
       {
         "slot_1": {
           "alternatives": [],
-          "character_name": "aemeath, galbrena, brant, encore"
+          "character_name": "jingran, aemeath, galbrena"
         },
         "slot_2": {
           "alternatives": [],
@@ -245,13 +245,13 @@
         },
         "slot_3": {
           "alternatives": [
-            "mornye",
-            "changli"
+            "denia",
+            "mornye"
           ],
-          "character_name": "denia"
+          "character_name": "mortefi"
         },
         "team_name": "Team #1: Best Team",
-        "team_notes": "Denia is only viable with Aemeath in Fusion Burst mode but is otherwise the strongest team available. Changli is only rivaling Mornye in certain Quickswap team compositions and is generally worse for the overwhelming majority of players. Make sure to use Outro buffs correctly with Changli on the team since it's not as straight-forward."
+        "team_notes": "Jingran should be Outro buffed by Mortefi using the Stonewall Bracer main Echo on Moonlit Clouds to make his best team, while Lupa should Outro buff both Aemeath and Galbrena for their best teams. All work with Lupa and Mornye (who can run the Spacetrek Explorer main Echo in Jingran teams), while Denia is exclusive to Aemeath in Fusion Burst mode, with Lupa running a Moonlit Clouds 5P set and Denia running a 5P Flaming Clawprint instead."
       },
       {
         "slot_1": {
@@ -338,14 +338,12 @@
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
-            "Gather",
             "Expert +1"
           ],
           "tier": "T0.5"
         },
         "whimpering_wastes": {
           "tags": [
-            "Gather",
             "Expert +1"
           ],
           "tier": "T1"
@@ -356,7 +354,7 @@
           "tier": "T1"
         },
         "whimpering_wastes_value": {
-          "tier": "T1"
+          "tier": "T1.5"
         }
       }
     },
@@ -1044,6 +1042,7 @@
     "synergies": [
       {
         "characters": [
+          "jingran",
           "aemeath",
           "mornye",
           "galbrena",
@@ -1051,7 +1050,7 @@
           "changli",
           "encore"
         ],
-        "commentary": "Lupa's best team members are all Fusion damage dealers since she is a dedicated Fusion buffer, however she works well with all of them. Lupa and Mornye are both generalist Fusion buffers that when paired together can buff any Fusion DPS in the entire game and elevate them to the highest level if they have good baseline damage. Aemeath and Galbrena have the highest baseline damage of all Fusion damage dealers, making them ideal with Lupa and Mornye (or in the case of Aemeath, with Denia for Fusion Burst). However Lupa doesn't limit herself to that; Brant and Encore are able to fully leverage her Outro buffs, and Changli can buff Lupa or Aemeath with her own Outro buff which makes a lot of Mono Fusion teams work very well, Lupa being the enabler and centrepiece to all of them."
+        "commentary": "Lupa's best team members are all Fusion damage dealers since she is a dedicated Fusion buffer, however she works well with all of them. Lupa and Mornye are both generalist Fusion buffers that when paired together can buff any Fusion DPS in the entire game and elevate them to the highest level if they have good baseline damage. Jingran and Aemeath have the highest baseline damage of all Fusion damage dealers, Galbrena not being too far behind. However Lupa doesn't limit herself to that; Brant and Encore are able to fully leverage her Outro buffs, and Changli can buff Lupa or Aemeath with her own Outro buff which makes a lot of Mono Fusion teams work very well, Lupa being the enabler and centrepiece to all of them."
       }
     ],
     "upgrade_materials": {

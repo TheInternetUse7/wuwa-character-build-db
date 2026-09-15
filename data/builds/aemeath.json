@@ -63,7 +63,7 @@
       {
         "commentary_details": "Assumes 1 less Energy Regen roll, distributed into damaging stats instead. Aemeath's second best and permanently accessible option which gives her the same Base ATK and CRIT Rate as her Signature while giving extra Energy Regen and ATK%. Overall a super strong choice that she can perform greatly with, in spite of her Signature being a good upgrade.",
         "dupe_rank": "R1",
-        "percentage_performance": "83.50%",
+        "percentage_performance": "86.80%",
         "weapon_base_info": {
           "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases ATK by {1}, stacking up to 2 time(s). This effect lasts for 10s.",
           "primary_stat_val": 587,
@@ -77,7 +77,7 @@
       {
         "commentary_details": "This weapon, much like other CRIT 5-stars below it, can provide slightly better performance than Emerald of Genesis if its extra Energy Regen is not needed. Camellya's Signature is the most favoured of them because Aemeath does a bit of Basic Attack DMG that this weapon can buff, giving it a marginal edge over other 5-star options below it.",
         "dupe_rank": "R1",
-        "percentage_performance": "83.50%",
+        "percentage_performance": "84.70%",
         "weapon_base_info": {
           "effect_description": "Increase ATK by {0}. When dealing Basic Attack DMG, the wielder gains {1} Basic Attack DMG Bonus for 14s. This effect can be triggered once per second, stacking up to 3 times. When the wielder's Concerto Energy is consumed, gain {2} Basic DMG Bonus for 10s. This effect can be triggered once per second and ends when the wielder is switched off the field.",
           "primary_stat_val": 587,
@@ -91,7 +91,7 @@
       {
         "commentary_details": "Qiuyuan's Signature is mostly an ATK and CRIT Rate stat-stick for Aemeath as she does not deal any Heavy Attack type damage, but it does provide a very marginal increase to Echo damage team-wide.",
         "dupe_rank": "R1",
-        "percentage_performance": "83.20%",
+        "percentage_performance": "84.50%",
         "weapon_base_info": {
           "effect_description": "ATK is increased by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attack grants 1 stack of Bamboo Cleaver, which grants {1} Heavy Attack DMG Bonus to the wielder. This effect can be triggered by Echoes of the same name once only, stacking up to 2 times, lasting for 12s. Casting Echo Skill at max stacks does not reset the duration. This effect can be triggered once every 10s and ends early if the wielder is switched off the field. Casting Intro Skill grants {2} Echo Skill DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked.",
           "primary_stat_val": 587,
@@ -105,7 +105,7 @@
       {
         "commentary_details": "ATK and CRIT DMG stat-stick for Aemeath, who does not benefit from this weapon's Skill DMG-focused effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "82.90%",
+        "percentage_performance": "84.20%",
         "weapon_base_info": {
           "effect_description": "ATK increased by {0}. The equipper gains 1 stack of Searing Feather upon dealing damage, which can be triggered once every 0.5s, and gains 5 stacks of the same effect upon casting Resonance Skill. Each stack of Searing Feather gives {1} additional Resonance Skill DMG Bonus for up to 14 stacks. All stacks will be removed within 12s after reaching the max stack.",
           "primary_stat_val": 587,
@@ -119,7 +119,7 @@
       {
         "commentary_details": "This Battle Pass exclusive is the best 4-star choice for Aemeath as she fully takes advantage of this weapon's ATK and Liberation damage-increasing effects while having a nice CRIT stat to boot. However, its low base ATK makes it pale in comparison to 5-stars.",
         "dupe_rank": "R5",
-        "percentage_performance": "78.10%",
+        "percentage_performance": "79.30%",
         "weapon_base_info": {
           "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Resonance Liberation DMG Bonus for 15s.",
           "primary_stat_val": 412,
@@ -133,7 +133,7 @@
       {
         "commentary_details": "An event exclusive that gives some ramp-up ATK and CRIT Rate buffs. A good 4-star choice while not comparable to any 5-star.",
         "dupe_rank": "R5",
-        "percentage_performance": "74.80%",
+        "percentage_performance": "76.00%",
         "weapon_base_info": {
           "effect_description": "Gain 1 stack of Hiss when dealing damage to the target, with 1 stack generated every 1s. Hiss: each stack increases the wielder's ATK by {0} for 3s, stacking up to 10 times. Switching off the wielder clears all stacks. Gaining 10 stacks increases the wielder's Crit. Rate by {1}.",
           "primary_stat_val": 462,
@@ -145,9 +145,9 @@
         "weapon_name": "Somnoire Anchor"
       },
       {
-        "commentary_details": "This 4-star weapon has the main advantage of completely erasing any Energy Regen needs for Aemeath and gives a good amount of ATK, but it doesn't do much else which makes it preferable to upgrade to a 5-star option if possible.",
+        "commentary_details": "This 4-star weapon has the main advantage of completely erasing any Energy Regen needs for Aemeath (though this barely matters in Fusion Burst due to high team-wide Energy generation to begin with) and gives a good amount of ATK, but it doesn't do much else which makes it preferable to upgrade to a 5-star option if possible.",
         "dupe_rank": "R5",
-        "percentage_performance": "74.10%",
+        "percentage_performance": "75.60%",
         "weapon_base_info": {
           "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
           "primary_stat_val": 462,
@@ -161,7 +161,7 @@
       {
         "commentary_details": "Best No Gacha option for Aemeath, accessible for free at the start of the game. Gives a solid amount of ATK which makes it fine to use for beginners, but try to upgrade to any 5-star as soon as possible.",
         "dupe_rank": "R5",
-        "percentage_performance": "73.90%",
+        "percentage_performance": "75.30%",
         "weapon_base_info": {
           "effect_description": "When Intro Skill is released, increases ATK by {0}, lasting for {1}.",
           "primary_stat_val": 412,
@@ -184,10 +184,10 @@
       "rarity_stars": 5,
       "slug": "aemeath",
       "updates": {
-        "last_major_build_patch": "3.1",
-        "last_profile_update": "20/August/2026",
-        "last_review_patch": "3.1",
-        "last_updated": "20/August/2026"
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "10/September/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Sword"
     },
@@ -265,11 +265,11 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Ideally depends on having at least one premium teammate that leans into one of her team archetypes to function at a high level. While this isn't uncommon for a good amount of recent Main DPS, Aemeath lacks good, permanently accessible options (unlike Phrolova or Augusta, for example). Her power ceiling makes it worth the investment, but that investment in itself is worth noting, particularly for beginners;",
-        "Forte generation is largely dependent on her short-range melee Basic Attacks actually hitting enemies for damage. Enemies that go airborne or run away from close-quarters combat will lengthen Aemeath's rotations significantly (and buffs may expire before her biggest nuke as a result)."
+        "Forte generation is largely dependent on her short-range melee Basic Attacks actually hitting enemies for damage. Enemies that go airborne or run away from close-quarters combat will lengthen Aemeath's rotations significantly (and buffs may expire before her biggest nuke as a result);",
+        "Rupture is best for bossing content damage, Fusion Burst is best for multi-wave and against smaller enemies. To fully harness her meta strength, you need to build 2 full premium teams, which is very expensive. This weakness is only compensated in quickswap where Fusion Burst catches up to Tune Rupture in every situation."
       ],
       "pros": [
-        "The strongest Fusion DPS currently. Ridiculous damage and scoring potential across all endgames;",
+        "Amazing Fusion DPS, with very high scoring potential in all gamemodes, and full quickswap compatibility in Fusion Burst mode;",
         "Different modes of operation allow her to play into a variety of team compositions and battle scenarios: Tune Rupture, Fusion Burst, Mono Fusion - Aemeath does all of it well;",
         "Doesn't mind not having her Signature (at least not as much as other recent DPS). Can still perform using standard banner options to a high degree, given the right environment;",
         "Nanami from Punishing Gray Raven. Must pull for that reason alone. Not biased, by the way."
@@ -279,14 +279,14 @@
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
-            "Break",
+            "Rupture",
             "Burst"
           ],
           "tier": "T0"
         },
         "whimpering_wastes": {
           "tags": [
-            "Break",
+            "Rupture",
             "Burst",
             "Expert +1",
             "Partner (Denia)"
@@ -296,7 +296,7 @@
       },
       "value_tier_ratings": {
         "tower_of_adversity_value": {
-          "tier": "T0"
+          "tier": "T0.5"
         },
         "whimpering_wastes_value": {
           "tier": "T0.5"
@@ -349,7 +349,7 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Nanami from Punishing Gray Raven- sorry, Aemeath is a 5-star Fusion Sword Main DPS, whose core gameplay has her casting several high-damaging AoE attacks with special animations throughout her rotation, finishing it off with a characteristic second Ultimate that wipes almost any non-boss enemy on the screen instantly. Her Resonance Mode feature, similar to Lynae's, allows her to play into Tune Rupture or Fusion Burst depending on your teammates; and to top it all off, she can also play into Mono Fusion enabled by Lupa. This all makes Aemeath a DPS characterized by team flexibility... and a lot of really big damage numbers on your screen. However, such a wide variety of playstyles requires a lot of explaining to do - because her kit is very complex to understand. So we'll do our best to recap her kit in an understandable, practically applicable way!"
+            "Nanami from Punishing Gray Raven- sorry, Aemeath is a 5-star Fusion Sword Main DPS, whose core gameplay has her casting several high-damaging AoE attacks with special animations throughout her rotation, finishing it off with a characteristic second Ultimate that makes a huge damage number pop up. Her Resonance Mode feature allows her to play into Tune Rupture or Fusion Burst depending on your teammates; and to top it all off, she can also play into Mono Fusion enabled by Lupa. This all makes Aemeath a DPS characterized by team flexibility... and a lot of big damage numbers on your screen. However, such a wide variety of playstyles requires a lot of explaining to do - because her kit is very complex to understand. So we'll do our best to recap her kit in an understandable, practically applicable way!"
           ]
         },
         {
@@ -373,7 +373,7 @@
             "Before we discuss her Forte skills further, it should be specified that at any point in the battle, Aemeath can switch freely in-between her Aemeath form and her Mech form via her Skill. This allows her to access 2 unique strings of Basic Attacks and have access to new Heavy Attacks as well as different Forte Skills and Intro Skills based on her form. In all of her rotations however, she will switch in-between the two forms throughout the battle, since:",
             "Her first Ultimate ALWAYS switches her to Mech form;",
             "Her Forte Skills ALWAYS switch her to the opposite form that she is currently in.",
-            "Additionally, special skills called Sync Strikes can be executed if Aemeath switches between the two forms via her Skill at later points of her Basic Attack string, but we will not be using this property for her rotations outside of quickswap.",
+            "Additionally, special skills called Sync Strikes can be executed if Aemeath switches between the two forms via her Skill at later points of her Basic Attack string.",
             "With that being said, her Forte Skills MUST have had either of her Basic Attack 4's performed within 5s of casting them, and Aemeath MUST repeat this in between her 2 Forte Skill casts. Lastly, her first Ultimate provides significant enhancements to her Forte Skills, which means they must be cast afterwards. So with all of this in mind, let's recap her gameplay loop."
           ]
         },
@@ -385,7 +385,7 @@
             "Tune Rupture or Fusion Burst, depending on her Resonance Mode;",
             "Her 2 Ultimates.",
             "This means the only abilities that Aemeath should cast outside of a window where Outro buffs are present are 2 Basic Attack strings at maximum. Her Ultimate must be cast before her Forte Skills to get enhancements, so this means to actually gain the required Resonance Rate to cast her second Ultimate, one Basic Attack string has to be cast after her Intro at minimum. The maximum Forte worth replenishing before her Intro is hence 2 full Basic Attack strings at most. That is her limit to quickswap (that is worth executing anyway). Other than that, her skills flow very naturally into each other, which makes for a really easy rotation.",
-            "Aemeaty's mid-air attack, regular Heavy Attacks, and Sync Strike Skills won't be used in her practical rotation (except Sync Strikes in quickswap). We only make use of one Heavy Attack to replenish her Synchronization Rate after max Resonance Rate has been acquired. Ideally, this Heavy Attack should be cast in Mech form, since the Aemeath form Heavy Attack is much slower to execute (and Aemeath is already on a fairly tight timer to benefit from Outro buffs on her second Ultimate in the first place, particularly one like Changli's)."
+            "Aemeaty's mid-air attack and regular Heavy Attacks won't be used in her practical rotations. We only make use of one Heavy Attack to replenish her Synchronization Rate after max Resonance Rate has been acquired. Ideally, this Heavy Attack should be cast in Mech form, since the Aemeath form Heavy Attack is much slower to execute (and Aemeath is already on a fairly tight timer to benefit from Outro buffs on her second Ultimate in the first place, particularly one like Changli's)."
           ]
         },
         {
@@ -393,26 +393,48 @@
           "paragraphs": [
             "Aemeath is without a doubt a DPS powerhouse who can lean into 3 different team compositions where she is meta: Tune Rupture, Fusion Burst, Mono Fusion. Each will be enabled by their own dedicated secondary. Respectively, Tune Rupture is mostly enabled by Lynae (though Mornye is also a big contributor; she's not as important as an enabler to that archetype), Fusion Burst is enabled by Denia, and Mono Fusion is enabled by Lupa.",
             "Alongside those characters, Aemeath can slot in with a variety of others, new and old alike. Lynae and Mornye are ideal for Tune Rupture, but Shorekeeper is a completely okay replacement for Mornye; Lupa and Mornye are ideal in a Mono Fusion team, but Brant or even Changli can appear instead of Mornye. Denia is a necessity for Fusion Burst, but Chisa or Lupa work fine in the third slot.",
-            "While the primary intent of Aemeath is for her Resonance Mode to be adapted to both single-target (Tune Rupture) and AoE (Fusion Burst), in truth, Fusion Burst blows Tune Rupture out of the water in quickswap. For most casual players, Fusion Burst and Tune Rupture are almost evenly matched in single-target, and Fusion Burst will significantly outperform Tune Rupture in AoE. Overall, if you had to pick a team for Aemeath right now, Fusion Burst makes the most sense to have her be top tier across all endgame modes, but Tune Rupture and Mono Fusion also serve just fine in Whimpering Wastes provided the compositions are played fully correctly.",
+            "While the primary intent of Aemeath is for her Resonance Mode to be adapted to both single-target (Tune Rupture) and AoE (Fusion Burst), in truth, Fusion Burst exceeds Tune Rupture in quickswap. For most casual players, Fusion Burst and Tune Rupture are closely matched in single-target, and Fusion Burst will significantly outperform Tune Rupture in AoE. Overall, if you had to pick a team for Aemeath right now, Fusion Burst makes the most sense to have her be top tier across all endgame modes, as Tune Rupture and Mono Fusion fall behind in Whimpering Wastes significantly.",
             "In conclusion, Aemeath is one of the strongest characters in the Wuthering Waves meta. While she has some flaws that are worth considering, and she may not be worth picking up on certain accounts as a result of them (particularly beginners who don't have many pulls to spare), she is without question one of the strongest and most flexible DPS characters we've seen released for a long while. Most players should be more than happy with their pickup would they decide to get her (but of course, test her for yourself to see if her playstyle feels good to you)!"
           ]
         }
       ],
-      "summary": "Nanami from Punishing Gray Raven- sorry, Aemeath is a 5-star Fusion Sword Main DPS, whose core gameplay has her casting several high-damaging AoE attacks with special animations throughout her rotation, finishing it off with a characteristic second Ultimate that wipes almost any non-boss enemy on the screen instantly. Her Resonance Mode feature, similar to Lynae's, allows her to play into Tune Rupture or Fusion Burst depending on your teammates; and to top it all off, she can also play into Mono Fusion enabled by Lupa. This all makes Aemeath a DPS characterized by team flexibility... and a lot of really big damage numbers on your screen. However, such a wide variety of playstyles requires a lot of explaining to do - because her kit is very complex to understand. So we'll do our best to recap her kit in an understandable, practically applicable way!"
+      "summary": "Nanami from Punishing Gray Raven- sorry, Aemeath is a 5-star Fusion Sword Main DPS, whose core gameplay has her casting several high-damaging AoE attacks with special animations throughout her rotation, finishing it off with a characteristic second Ultimate that makes a huge damage number pop up. Her Resonance Mode feature allows her to play into Tune Rupture or Fusion Burst depending on your teammates; and to top it all off, she can also play into Mono Fusion enabled by Lupa. This all makes Aemeath a DPS characterized by team flexibility... and a lot of big damage numbers on your screen. However, such a wide variety of playstyles requires a lot of explaining to do - because her kit is very complex to understand. So we'll do our best to recap her kit in an understandable, practically applicable way!"
     },
     "rotations": [
       {
+        "rotation_name": "Easy Rotation",
+        "steps": [
+          "Intro",
+          "Basic: Aemeath 3",
+          "Basic: Aemeath 4",
+          "Ultimate: Overdrive",
+          "Basic: Mech 2",
+          "Basic: Mech 3",
+          "Basic Mech 4 (Cancel animation on first slash via Skill)",
+          "Skill: Duet Encore",
+          "Basic: Aemeath 2",
+          "Basic: Aemeath 3",
+          "Basic: Aemeath 4",
+          "Skill: Duet Overture",
+          "Heavy: Mech II (Cancel animation endlag via Ultimate)",
+          "Ultimate: Finale",
+          "Outro"
+        ]
+      },
+      {
         "rotation_name": "Opener \"Rotation\"",
         "steps": [
-          "Skill: Mech Basic 1 (Switch to Mech form)"
+          "Basic: Aemeath 1",
+          "Basic: Aemeath 2",
+          "Basic: Aemeath 3",
+          "Skill: Sync Strike (Switch to Mech form)"
         ]
       },
       {
         "rotation_name": "Standard Rotation",
         "steps": [
-          "Intro (Mech)",
-          "Basic: Mech 3",
-          "Basic: Mech 4 Cancel animation on first slash via Ultimate)",
+          "Intro (Mech) (Instantly interrupt via Jump)",
+          "Jump (Enter flight mode) (Instantly interrupt via Ultimate)",
           "Ultimate: Overdrive",
           "Basic: Mech 2",
           "Basic: Mech 3",
@@ -424,7 +446,10 @@
           "Skill: Duet Overture",
           "Heavy: Mech II (Cancel animation endlag via Ultimate)",
           "Ultimate: Finale",
-          "Skill: Mech Basic 1 (Switch to Mech Form)",
+          "Basic: Aemeath 1",
+          "Basic: Aemeath 2",
+          "Basic: Aemeath 3",
+          "Skill: Sync Strike (Switch to Mech Form)",
           "Outro"
         ]
       },
@@ -449,14 +474,16 @@
         ]
       },
       {
-        "rotation_name": "S1 Opener Rotation",
+        "rotation_name": "S1+ Opener Rotation",
         "steps": [
-          "Skill: Mech Basic 1 (Switch to Mech form) (Swap)",
-          "Intro (Mech)",
-          "Basic: Mech 3",
-          "Basic: Mech 4 (Instantly interrupt via Ultimate)",
+          "Skill: Mech Basic 1 (Switch to Mech form)",
+          "Intro (Interrupt as soon as possible via Jump)",
+          "Jump (Enter flight mode) (Instantly interrupt via Ultimate)",
           "Ultimate: Overdrive",
           "Skill: Aemeath Basic 1 (Switch to Aemeath form)",
+          "Basic: Aemeath 2",
+          "Basic: Aemeath 3",
+          "Basic: Aemeath 4 (Instantly interrupt via Skill)",
           "Skill: Duet Overture",
           "Heavy: Mech II",
           "Basic: Mech 3",
@@ -468,7 +495,10 @@
           "Skill: Duet Overture",
           "Heavy: Mech II (Cancel animation endlag via Ultimate)",
           "Ultimate: Finale",
-          "Skill: Mech Basic 1 (Swap)",
+          "Basic: Aemeath 1",
+          "Basic: Aemeath 2",
+          "Basic: Aemeath 3",
+          "Skill: Sync Strike (Switch to Mech form) (Swap)",
           "Outro"
         ]
       }

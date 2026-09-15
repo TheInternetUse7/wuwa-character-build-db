@@ -198,9 +198,9 @@
       "slug": "phrolova",
       "updates": {
         "last_major_build_patch": "3",
-        "last_profile_update": "20/August/2026",
+        "last_profile_update": "10/September/2026",
         "last_review_patch": "2.5",
-        "last_updated": "20/August/2026"
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -340,22 +340,20 @@
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
-            "Control",
-            "Gather"
+            "Echo"
           ],
-          "tier": "T0.5"
+          "tier": "T1"
         },
         "whimpering_wastes": {
           "tags": [
-            "Control",
-            "Gather"
+            "Echo"
           ],
-          "tier": "T0.5"
+          "tier": "T0"
         }
       },
       "value_tier_ratings": {
         "tower_of_adversity_value": {
-          "tier": "T1"
+          "tier": "T1.5"
         },
         "whimpering_wastes_value": {
           "tier": "T0"
@@ -974,7 +972,7 @@
           "phoebe",
           "jiyan"
         ],
-        "commentary": "yangyang-xuanling, Galbrena, Jiyan and Phoebe are Heavy Attack damage dealers and Phrolova is a Heavy Attack damage amplifier (in the case of Yangyang, she also amplifies her Havoc DMG). While Phrolova would traditionally not be relegated to the role of a buffer for a DPS, and indeed she is built like a DPS no matter what, Phrolova has the ability to buff the damage of these characters while dealing her own big amounts of damage off-field,  and also provide the best Crowd Control utility in the game in the form of Hecate, making these pairings quite strong, particularly with yangyang-xuanling who takes full advantage of her Outro!"
+        "commentary": "Yangyang: Xuanling, Galbrena, Jiyan and Phoebe are Heavy Attack damage dealers and Phrolova is a Heavy Attack damage amplifier (in the case of Yangyang, she also amplifies her Havoc DMG). While Phrolova would traditionally not be relegated to the role of a buffer for a DPS, and indeed she is built like a DPS no matter what, Phrolova has the ability to buff the damage of these characters while dealing her own big amounts of damage off-field,  and also provide the best Crowd Control utility in the game in the form of Hecate, making these pairings quite strong, particularly with Yangyang: Xuanling who takes full advantage of her Outro!"
       },
       {
         "characters": [

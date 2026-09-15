@@ -225,10 +225,10 @@
       "rarity_stars": 5,
       "slug": "luuk-herssen",
       "updates": {
-        "last_major_build_patch": "3.1",
-        "last_profile_update": "20/August/2026",
-        "last_review_patch": "3.1",
-        "last_updated": "20/August/2026"
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "10/September/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Gauntlets"
     },
@@ -274,13 +274,13 @@
     "pros_and_cons": {
       "cons": [
         "A focus on mid-air combat means enemies hitting Luuk out of the air can be especially bad. Make sure to be careful when engaging and dodge so you don't plummet down;",
-        "If Luuk swaps out of his rotation at any point, his kit completely stops functioning - quickswap is a strict impossibility as a playstyle;",
-        "Outro buffs will almost certainly expire (if you don't use Dash Cancels on his Golden Impale attacks to shorten his rotation - while it's not a strict necessity with Lynae or Denia, it's vital to keep in mind with Sanhua and is always good to learn regardless of team used;",
-        "If you wish to use him in his best team, he's in direct competition with Aemeath, who overall has a higher ceiling. His best teammates can easily be stolen away from him, so consider that carefully when pulling (although it is worth noting he is easily the best Sanhua user in the entire game)."
+        "If Luuk swaps out of his rotation after Intro at any point, his kit completely stops functioning - quickswap is essentially a strict impossibility as a playstyle once his Intro is cast, which is required eventually;",
+        "Outro buffs will almost certainly expire if you don't use Dash Cancels on his Golden Impale attacks to shorten his rotation - while it's not a strict necessity with Lynae or Denia, it's vital to keep in mind with Sanhua and is always good to learn regardless of team used;",
+        "If you wish to use him in his best team, he's in direct competition with Aemeath and particularly Qingxiao, who overall have a higher ceiling. His best teammates can easily be stolen away from him, so consider that carefully when pulling (although it is worth noting he is easily the best Sanhua user in the entire game)."
       ],
       "pros": [
         "Strong damage in a mid-air combat style, which makes it fairly easy to avoid a good amount of enemy attacks;",
-        "One of the most accessible DPS in the game by far, able to function very well with a permanently obtainable weapon and teammates;",
+        "One of the most accessible DPS in the game by far, able to function well with a permanently obtainable weapon and teammates;",
         "Super easy to understand, pick up, and optimize. Has one of the lowest barriers to entry in terms of optimization ceiling in the game."
       ]
     },
@@ -288,22 +288,21 @@
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
-            "Break",
-            "Watchlist (Down)"
+            "Strain"
           ],
-          "tier": "T0"
+          "tier": "T0.5"
         },
         "whimpering_wastes": {
           "tags": [
-            "Break",
+            "Strain",
             "Partner (Denia)"
           ],
-          "tier": "T1.5"
+          "tier": "T1"
         }
       },
       "value_tier_ratings": {
         "tower_of_adversity_value": {
-          "tier": "T0"
+          "tier": "T0.5"
         },
         "whimpering_wastes_value": {
           "tier": "T2"
@@ -377,10 +376,10 @@
         {
           "heading": "Meta Position & Conclusion",
           "paragraphs": [
-            "Luuk is overall a very budget-friendly character. While he relies on Tune Strain to activate a lot of his kit's mechanics and enhance his damage, he can apply it and stack it up fully on his own to a good degree, which makes him very self-sufficient. Other teammates that can play around Tune Strain, such as Denia or Lynae with Mornye, are very strong support choices for him due to these mechanics; however, they're not strictly necessary for Luuk to operate well. Indeed, Luuk is one of the most accessible characters in the game, since the permanently accessible 5-star weapon Pulsation Bracer plays into his Basic Attack DMG and Tune Strain-focused playstyle, and the free character Sanhua accessed just via logging in for a few days via a beginner event is a perfectly suitable damage booster for him.",
+            "Luuk is overall a very budget-friendly character. While he relies on Tune Strain to activate a lot of his kit's mechanics and enhance his damage, he can apply it and stack it up fully on his own to a good degree, which makes him quite self-sufficient. Other teammates that can play around Tune Strain, such as Denia or Lynae with Mornye, are very strong support choices for him due to these mechanics; however, they're not strictly necessary for Luuk to operate well. Indeed, Luuk is one of the most accessible characters in the game, since the permanently accessible 5-star weapon Pulsation Bracer plays into his Basic Attack DMG and Tune Strain-focused playstyle, and the free character Sanhua accessed just via logging in for a few days via a beginner event is a perfectly suitable damage booster for him.",
             "Luuk harbours one of the most accessible playstyles, and while he has limited built-in Interruption Resistance, learning his rotation is not very difficult and he can serve new players as a way to not only get comfortable with team rotations, but his playstyle also heavily incentivizes learning how to dodge out of the way of enemies.",
-            "When it comes to the performance granted by players who pick him up and build a team around him, he doesn't disappoint, rising up to the standard of other modern DPS just below Aemeath, Hiyuki or Sigrika in his full premium team with Denia and Mornye, and in his more accessible teams he rivals even Carlotta or Zani in their own full premium compositions. However, this is only in single-target scenarios. Luuk's biggest weakness as a mid-air single-target-oriented damage dealer is multi-wave content, and while Denia helps him by providing constant AoE off-field grouping, without her he is almost completely helpless in AoE-centric content like Whimpering Wastes and even with her he remains barely at the average of most 2.x characters.",
-            "In conclusion, while his multi-wave and AoE capabilities aren't off the charts, they remain usable (with Denia) and his performance against boss enemies is amazing, so he definitely appears on the list of the strongest DPS characters in the game that you can acquire and perform well with, whether you're more experienced or more casual. Luuk's accessibility in both investment and playstyle makes him worth considering for a lot of players, beginners and veterans alike, and his performance results definitely make him worth the investment while not overshadowing other modern DPS releases."
+            "When it comes to the performance granted by players who pick him up and build a team around him, he doesn't disappoint, rising up to the standard of other modern DPS just below Aemeath, Hiyuki or Sigrika in his full premium team with Denia and Mornye, and in his more accessible teams he rivals even Carlotta or Zani in their own full premium compositions. However, this is only in single-target scenarios. Luuk's biggest weakness as a mid-air single-target-oriented damage dealer is multi-wave content, and while Denia helps him by providing constant AoE off-field grouping, without her he is almost completely helpless in AoE-centric content like Whimpering Wastes and even with her he remains barely at the average of most 2.x characters. Most important of all though, Qingxiao is a direct upgrade to him in all gamemodes, as she also plays into the Tune Strain archetype, only she has higher damage numbers and a noticeably stronger performance in Whimpering Wastes.",
+            "In conclusion, while his multi-wave and AoE capabilities aren't off the charts, they remain usable (with Denia) and his performance against boss enemies is great, so he is one of the stronger DPS characters in the game that you can acquire and perform well with, whether you're more experienced or more casual. Luuk's accessibility in both investment and playstyle makes him worth considering for a lot of players, beginners and veterans, while not overshadowing other modern DPS releases."
           ]
         }
       ],

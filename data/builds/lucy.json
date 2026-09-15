@@ -212,10 +212,10 @@
       "rarity_stars": 5,
       "slug": "lucy",
       "updates": {
-        "last_major_build_patch": "3.4",
-        "last_profile_update": "20/August/2026",
-        "last_review_patch": "3.4",
-        "last_updated": "20/August/2026"
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "10/September/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Pistols"
     },
@@ -259,9 +259,9 @@
       "cons": [
         "Has a lower damage ceiling than every modern release before her (about equivalent to a late 2.x character).",
         "Pretty Signature weapon-dependent to perform at a standard modern level.",
-        "Second Inherent Skill (which can boost her damage a lot) will almost never activate aside from very specific conditions (early Matrix rounds, Tower 2-4).",
-        "The Hack mechanic is exclusive to the collab characters, and is a variation of Tune Rupture unable to benefit from standard Tune Rupture temporary buffs in endgame content, impacting long-term use in such scenarios.",
-        "Collab character - will likely never rerun beyond her first banner. Grab her now or miss out (most likely) forever."
+        "Second Inherent Skill (which can boost her damage a decent amount) will almost never activate aside from very specific conditions (Killing an almost-dead Matrix boss, Tower of Adversity 2-4).",
+        "The Hack mechanic is exclusive to the Edgerunners collab characters, and is a variation of Tune Rupture unable to benefit from standard Tune Rupture temporary buffs in endgame content, impacting long-term use in such scenarios.",
+        "Collab character - will likely never rerun beyond her first banner. If you don't have her right now, you've most likely missed out forever."
       ],
       "pros": [
         "Accessible - has a free best-in-slot buffer and can use multiple generalist Supports to great effect, all of them not needing their Signature to perform near maximum level.",
@@ -272,14 +272,14 @@
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
-            "Break",
+            "Hack",
             "Partner (Rebecca)"
           ],
           "tier": "T1"
         },
         "whimpering_wastes": {
           "tags": [
-            "Break",
+            "Hack",
             "Partner (Rebecca)"
           ],
           "tier": "T2"
@@ -287,10 +287,10 @@
       },
       "value_tier_ratings": {
         "tower_of_adversity_value": {
-          "tier": "T0.5"
+          "tier": "T1.5"
         },
         "whimpering_wastes_value": {
-          "tier": "T2"
+          "tier": "T3"
         }
       }
     },
@@ -340,15 +340,27 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Lucy is a 5-star Spectro Pistols DPS from the Cyberpunk: Edgerunners collab who relies on a mechanic called Hack (a variant of Tune Rupture) and a special Ultimate that applies various debuffs and damage to enemies. Lucy's rotation goal will be to empower that Ultimate to deal as much damage and apply as many debuffs as possible, while also dealing some Hack damage to her targets. Her kit is intrinsically tied to her best Support, Rebecca, from the same collab, as they rely on each other to enhance their damage and make for the best team they can get.",
-            "Key Mechanics",
+            "Lucy is a 5-star Spectro Pistols DPS from the Cyberpunk: Edgerunners collab who relies on a mechanic called Hack (a variant of Tune Rupture) and a special Ultimate that applies various debuffs and damage to enemies. Lucy's rotation goal will be to empower that Ultimate to deal as much damage and apply as many debuffs as possible, while also dealing some Hack damage to her targets. Her kit is intrinsically tied to her best Support, Rebecca, from the same collab, as they rely on each other to enhance their damage and make for the best team they can get."
+          ]
+        },
+        {
+          "heading": "Key Mechanics",
+          "paragraphs": [
             "Lucy's main rotation focus lies in her Forte resources, being TCP and Root Access. First, she wants to charge up TCP to cast an enhanced Skill called \"Deadlock\" that then enables her to accumulate Root Access via newly acquired Basic Attacks. At full Root Access, she can then cast a special Heavy Attack called Dual Threading, automatically followed by Multi-threading. At this point, her Ultimate is enhanced, and she is free to cast it and switch out.",
             "Lucy's Ultimate is, however, very unique. It freezes all enemies in time for its duration and allows you to select 7 different programs that will debuff or deal damage to enemies depending on the program. Until S2,  where all programs are always selectable, the first 5 programs are always the best ones to pick for a mix of damage and damage enhancements.",
-            "Lastly, Lucy has a unique Tune Break response, called Hack. This is functionally the same thing as Tune Rupture; the damage multipliers function in the exact same way; they're just under a different name. Lucy will apply Hack - Shifting through various attacks on targets that, upon casting a Tune Break Skill, will receive additional Hack damage, empowering your overall damage per Tune Break Skill cast.",
-            "Rotation & Passives",
+            "Lastly, Lucy has a unique Tune Break response, called Hack. This is functionally the same thing as Tune Rupture; the damage multipliers function in the exact same way; they're just under a different name. Lucy will apply Hack - Shifting through various attacks on targets that, upon casting a Tune Break Skill, will receive additional Hack damage, empowering your overall damage per Tune Break Skill cast."
+          ]
+        },
+        {
+          "heading": "Rotation & Passives",
+          "paragraphs": [
             "Lucy's rotation has her casting her Skills 1 and 2 (\"Payload\" and \"Pulse Interference\") following her Intro in order to regenerate TCP passively while she is on-field after the casts and immediately activating her Signature Weapon's passives. Afterwards, Lucy has enough TCP to cast her enhanced Skill with the help of 3 Basic Attacks. Finally, a full Basic Attack chain is enough to restore her Root Access fully, at which point she can cast her full Forte Heavy Attack, Ultimate, and swap out. No other attacks are useful in her rotation, and dodging isn't ideal as it'll lose time overall, so overall Lucy is unfortunately quite prone to interruption.",
-            "When it comes to her passives, they only help her consistency slightly in the case of her Inherent Skill 1 (even still, it's quite useless), and her Inherent Skill 2 grants a nichely accessed damage-increasing mark debuff to enemies that can be granted to her and Rebecca when a boss enemy is defeated. This is particularly useful in early Matrix rounds, but may also see small benefits in Tower of Adversity 2-4, giving Lucy's team a small extra advantage in those areas.",
-            "Meta Position & Conclusion",
+            "When it comes to her passives, they only help her consistency slightly in the case of her Inherent Skill 1 (even still, it's quite useless), and her Inherent Skill 2 grants a nichely accessed damage-increasing mark debuff to enemies that can be granted to her and Rebecca when a boss enemy is defeated. This is particularly useful in early Matrix rounds, but may also see small benefits in Tower of Adversity 2-4, giving Lucy's team a small extra advantage in those areas."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
             "As a stand-alone modern mid-3.x DPS release, Lucy's own damage ceiling isn't impressive compared to all the DPS powerhouses released before her. Aemeath, Luuk, Sigrika, Hiyuki all significantly outperform her, as her own damage ceiling can be compared to that of Augusta or Phrolova, even in her best team with Rebecca and Mornye/Shorekeeper. All in all, while Lucy is easy to access teams-wise since she's using a free buffer and generalist Supports, her damage ceiling is unimpressive for a modern release, but still usable. Those who enjoy Lucy as a character from Cyberpunk: Edgerunners may be satisfied with how she turned out, as she is easily serviceable, but as a modern release, for meta-only players with no attachment to Lucy, she is forgettable. Targeting the other modern 3.x teams instead may prove to be a stronger choice if meta performance is your only deciding factor.",
             "In conclusion, while Lucy doesn't bring much that's new meta-wise to the table, and her long-term use cases don't look great at S0 due to Hack being different from Tune Rupture, she is still quite a serviceable DPS character up to the late 2.x versions' standard which can help fill out your roster, or let you play a really cool Cyberpunk: Edgerunners character. And we think that's awesome."
           ]
@@ -358,9 +370,14 @@
     },
     "rotations": [
       {
-        "rotation_name": "Echo Timing",
+        "rotation_name": "Opener \"Rotation\"",
         "steps": [
-          "Ultimate (First 5 Programs) (Swap)",
+          "Ultimate (First 5 Programs) (Swap)"
+        ]
+      },
+      {
+        "rotation_name": "Loop Rotation",
+        "steps": [
           "Intro",
           "Skill: Payload",
           "Skill: Pulse Interference",

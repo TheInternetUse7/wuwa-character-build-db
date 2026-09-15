@@ -239,9 +239,9 @@
       "slug": "roccia",
       "updates": {
         "last_major_build_patch": "3.5",
-        "last_profile_update": "20/August/2026",
+        "last_profile_update": "10/September/2026",
         "last_review_patch": "3.6",
-        "last_updated": "20/August/2026"
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Gauntlets"
     },
@@ -330,15 +330,16 @@
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
-            "Gather"
+            "Echo"
           ],
           "tier": "T3"
         },
         "whimpering_wastes": {
           "tags": [
-            "Gather"
+            "Echo",
+            "Partner (Phrolova)"
           ],
-          "tier": "T3"
+          "tier": "T2"
         }
       },
       "value_tier_ratings": {

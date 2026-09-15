@@ -215,10 +215,10 @@
       "rarity_stars": 5,
       "slug": "zani",
       "updates": {
-        "last_major_build_patch": "3",
-        "last_profile_update": "20/August/2026",
-        "last_review_patch": "2.3",
-        "last_updated": "20/August/2026"
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "10/September/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Gauntlets"
     },
@@ -294,15 +294,14 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Expensive to access her maximum damage potential: really likes being paired with Phoebe due to massive DMG Amplification boosts, RES Shred etc, with Zani and Phoebe's signatures both contributing to that Amplification among other things - in short, without Phoebe lots of potential damage is lost;",
-        "Her full combos are inaccessible without enough Spectro Frazzle applied to get the maximum amount of Blaze Forte points (currently only Confession Phoebe allows for this). This joins an issue of team flexibility — Zani is locked into one team archetype to maximize damage."
+        "Without Quickswap, her damage ceiling is the lowest of any 2.x character, her teams have seen no improvements since release and are very unlikely to receive any upgrades in the future;",
+        "So overly reliant on Phoebe to perform it's comical, baseline damage without Phoebe is lower than any limited 1.x DPS, Signature weapons for both her and Phoebe are also good damage increases that she nowadays needs to compete with the rest of the cast in Quickswap (even still modern teams played at a baseline level outperform the best Zani Quickswap you can do);",
+        "In order to truly draw out her full potential, she needs to take away Rover from more modern teams to use as a Support. Her overly restrictive teambuilding restricts other characters' on your account, too."
       ],
       "pros": [
-        "Very high baseline Cleave damage with potential for improvement, thanks to lots of optional Swap Cancel windows during her Ultimate;",
-        "Easy to use thanks to a good ability to tank damage as well as simple combos;",
-        "Deals both Spectro Frazzle and Heavy Attack DMG at once, allowing for several options to buff her damage;",
-        "Able to parry enemy attacks to enhance her combos and stun them faster by depleting their Vibration bar quicker;",
-        "Looks REALLY cool in her Ultimate stance (factually speaking)."
+        "Much higher damage ceiling than her baseline performance, thanks to her very high affinity for Quickswap;",
+        "Looks REALLY cool in her Ultimate stance (factually speaking);",
+        "Has some of the most resistant shirt buttons known to mankind. I want to know who made that shirt, might be THE brand to buy from."
       ]
     },
     "ratings": {
@@ -313,7 +312,7 @@
             "Partner (Phoebe)",
             "Expert +2"
           ],
-          "tier": "T1.5"
+          "tier": "T2"
         },
         "whimpering_wastes": {
           "tags": [
@@ -321,15 +320,15 @@
             "Partner (Phoebe)",
             "Expert +2"
           ],
-          "tier": "T2"
+          "tier": "T3"
         }
       },
       "value_tier_ratings": {
         "tower_of_adversity_value": {
-          "tier": "T2"
+          "tier": "T3"
         },
         "whimpering_wastes_value": {
-          "tier": "T2"
+          "tier": "T3"
         }
       }
     },
@@ -379,65 +378,85 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Zani is a 5-star Spectro Gauntlets DPS who specializes in dealing high damage during the stance she enters in her Ultimate called \"Inferno Mode\". Her kit is centered around certain key elements, the most important one being Spectro Frazzle which she passively and instantly converts into \"Heliacal Ember\" in order to charge her Ultimate Forte points, called \"Blaze\" which she needs in order to execute her combos to access her damage. Generally speaking, Zani has attacks that have a good Cleave range, meaning she's able to handle clumps of enemies well, and she has increased damage resistance as well as parries built into her kit, all of this making her tanky while able to deal lots of damage.",
-            "When put this way, this type of character sounds a lot like a tank, slow and tanky but hits hard — however, worry not as while Zani has some animations that are pretty lengthy, she actually ends up rotating pretty smoothly. With that being said, Zani has a very complex kit packed with details, so we'll focus on explaining what's being used in her actual rotations in detail (we'll only mention other elements briefly).",
+            "Zani is a 5-star Spectro Gauntlets DPS who specializes in dealing high damage during the stance she enters in her Ultimate called \"Inferno Mode\". Her kit is centered around certain key elements, the most important one being Spectro Frazzle which she passively and instantly converts into \"Heliacal Ember\" in order to charge her Ultimate Forte points, called \"Blaze\" which she needs in order to execute her combos to access her damage."
+          ]
+        },
+        {
+          "heading": "Key Mechanics",
+          "paragraphs": [
             "As said earlier, Zani's main focus will be to build up Blaze for her to use during her Inferno Mode stance. It stacks up to 150 points, so the goal with Zani will be to reach that threshold. There are a few ways to do this:",
             "Entering Inferno Mode (via her Ultimate, 50 points);",
             "Using her Enhanced Skill \"Crisis Response Protocol\" (10 points);",
             "Converting Spectro Frazzle into Heliacal Ember (5 points per stack).",
-            "Heliacal Ember works as a variant to Spectro Frazzle which stacks up to 60 times, but any Spectro Frazzle-related buffs don't apply (for things such as Spectro Rover's Shimmer effect, Confession Phoebe's Spectro Frazzle depletion extension rate, Absolution Phoebe's DMG Amplification on Heavy Attack Starflash etc). The only exception is they serve as a way to activate the Eternal Radiance set effects. However, the damage granted by Heliacal Ember is instantaneous and equivalent to the damage Spectro Frazzle would've normally dealt.",
-            "As Zani cannot apply any Spectro Frazzle by herself and this is dependent on the gameplay of her teammates, the main point of interest is casting this Enhanced Skill. To do this, she needs to build 100 points of \"Redundant Energy\" which is her Forte bar outside of her Ultimate stance. Additionally, it gives her an extra Heliacal Ember to activate Eternal Radiance Echo bonuses and a 20% Spectro Frazzle DMG Amplify effect for 14s to further increase her Inferno Mode damage potential, making it especially important to build before using her Ultimate. There are a few ways to do this:",
+            "Heliacal Ember works as a variant to Spectro Frazzle which stacks up to 60 times, but it does not count as Spectro Frazzle, so it does not benefit from any buffs related to it, and as a matter of fact it does not even count as a Negative Status. The only exception is they serve as a way to activate the Eternal Radiance set effects. However, the damage granted by Heliacal Ember is instantaneous and equivalent to the damage Spectro Frazzle would've normally dealt.",
+            "Zani has another Forte Gauge called \"Redundant Energy\" that allows her to cast an Enhanced Skill when fully replenished, which restores some Blaze. As Zani cannot apply any Spectro Frazzle by herself, it is important to restore some blaze, and give Zani an extra Heliacal Ember to activate Eternal Radiance Echo bonuses as well as a 20% Spectro Frazzle DMG Amplify effect for 14s to further increase her Inferno Mode damage potential, making it especially important to build before using her Ultimate. There are a few ways to do this:",
             "Using her Basic Attacks;",
             "Using her skill \"Standard Defense Protocol\" and its parry variant \"Pinpoint Strike\";",
             "Using her Intro Skill.",
-            "Zani's Resonance Skill indeed allows her to first do a small hit of damage (Standard Defense Protocol) and then enter a parry stance that she can hold for up to 2 seconds, during which she takes no damage for 1 attack (and 30% reduced DMG in the 2 seconds that follow). If an attack is successfully parried, she will execute Pinpoint Strike for extra damage and Redundant Energy, which is enough to cast her Enhanced Skill after an Intro. To get all 100 Redundant Energy points without a parry, following an Intro Skill with Standard Defense Protocol into Basic Attack 3 should be all that's needed for quick access to her Enhanced Skill. However, in the case that all hits don't connect, Basic Attack 4 may also be necessary (which is still fine to do). Regardless, once this is achieved, Zani is ready to activate her Ultimate and enter Inferno Mode.",
-            "During Inferno Mode, Zani gets a new kit featuring new Basic Attacks, a new parry Skill with a new counter (which also doubles as a Dodge Counter), and she utilizes her other Forte bar to execute all of these actions. She gets 50 Blaze points which she'll consume to execute her combos in Inferno Mode (with the cap extended from 100 to 150 and her Ultimate filling those missing 50 points). All of the damage she can deal during this stance is considered Heavy Attack DMG and Spectro Frazzle DMG simultaneously, so all related buffs apply. In total, factoring in the Enhanced Skill's 10 and the Ultimate's 50 Blaze, 90 points need to be filled via Spectro Frazzle application which requires 18 Spectro Frazzle to be converted into Heliacal Ember in total. Luckily, for her main Ultimate combo, only 140 points are needed which lowers the total down to 16 Spectro Frazzle. She also gets a 25% multiplier increase to her Basic Attacks, but this doesn't apply to the new ones she acquires so it can be ignored (it only applies to her regular Basics that only occur if Forte points aren't available to consume).",
-            "Now to get into the details, Zani's new Basic Attacks are called \"Daybreak\", \"Dawning\", and \"Nightfall\". These are the center of her Inferno Mode kit. The simplest possible rotation only requires you to perform her Basic Attack string 2 times, which casts each of these skills twice. Simple and effective. Daybreak consumes 10 Blaze, Dawning consumes 20 Blaze and Nightfall consumes up to 40 Blaze, with each Blaze consumed giving an extra multiplier increase to Nightfall specifically (other attacks do not benefit from this). So as said earlier, her standard combo consumes 140 Blaze.",
-            "However, other options are available. Her Skill allows you to immediately enter a parry stance for up to 2 seconds during which she will take up to 70% reduced damage. Parrying any attack triggers an equivalent to Dawning called \"Lightsmash\" which consumes 20 Blaze, after which Zani can immediately follow with Nightfall. This combo therefore only costs 60 Blaze. The exact same thing occurs if a Dodge Counter is executed. This can be important to factor in if your team can't generate the full 150 Blaze consistently for Zani.",
-            "Finally, once Zani has consumed enough Blaze and has 30 left or less (the threshold is indicated above her Forte bar), then she can cast another Ultimate called \"The Last Stand\" which deals noteworthy damage, stops ingame timers and prevents you from switching out during it like any regular Ultimate would, and this also ends her rotation as it ends Inferno Mode at the same time. Note that this may not deal more damage than a fully powered Nightfall as Spectro Frazzle and Heavy Attack DMG buffs do not apply to The Last Stand. Once she has performed all of these actions, she's ready to switch out and cast her Outro which is considered Spectro Frazzle DMG as it deals a final burst of damage dependent on the stacks of Heliacal Ember present on enemies, consumes all Heliacal Ember stacks present on targets, and also amplifies the Spectro DMG of all characters except Zani by 20% if they have Heliacal Ember applied, which is typically a small DMG boost for your Supports but has little usage beyond that.",
-            "This explains Zani's kit, so let's further detail her potential as a character. She deals a lot of damage, this much is undeniable, however it comes at a cost. Confession Phoebe is currently the only character able to quickly and consistently apply all of the Spectro Frazzle Zani needs by herself; this makes her especially desirable in Zani teams as without her it's difficult to fully execute Zani's Ultimate combos. But on top of this, Confession mode Phoebe also gives 100% Spectro Frazzle DMG Amplify on her Outro and an extra 30% with her Signature weapon, making her a necessity in Zani teams to reach her maximum potential. Zani can still easily function as a character when separated from Phoebe due to really high baseline damage but it does undeniably strip away a lot of her potential. Additionally, Zani's weapon is an especially important grab as it gives an extra 50% Spectro Frazzle DMG Amplify effect and an 8% DEF reduction on enemies with pretty much permanent uptime. In other words: she's expensive, as all of those upgrades contribute loads to her potential. We will reiterate this does not strip away your possibilities of using Zani without any of these upgrades involved, but her damage will tank a significant amount. This is her biggest weakness.",
-            "Beyond this, her team comps are pretty restrictive as a Spectro Frazzle applier needs to be present in some form on your team. Finally, as Zani will end up dealing a lot of the team's damage potential, buffing her own damage as heavily as possible is highly recommended, so she'll pretty much always end up in a core of Zani herself, a Spectro Frazzle applier, and a generalist Support. It's difficult to justify other team comps in the current meta and makes her playstyle much more restrictive than other characters we've previously seen — while teambuilding freedom exists around Zani, her performance will take a hit as a result of attempting that.",
-            "However, it's absolutely undeniable that as things currently stand, Zani's damage potential is very high and under the right conditions, she can carry your account across all forms of currently available endgame content. She's an amazing DPS that has all the tools she needs for all kinds of players, whether competitive or casual, to enjoy playing the game.",
-            "In conclusion, while Zani has a couple of weaknesses in regards to her restrictiveness, it is undeniable that her strengths far outweigh those weaknesses. Her damage potential is high enough to justify her being a top tier DPS character without a doubt, and as she has no issues with receiving damage, or dealing damage in both AoE and single-target situations, she's suited to all kinds of enemy encounters and is likely to make your gameplay experience smooth and easy!"
+            "Zani's Resonance Skill indeed allows her to first do a small hit of damage (Standard Defense Protocol) and then enter a parry stance that she can hold for up to 2 seconds, during which she takes no damage for 1 attack (and 30% reduced DMG in the 2 seconds that follow). If an attack is successfully parried, she will execute Pinpoint Strike for extra damage and Redundant Energy, which is enough to cast her Enhanced Skill after an Intro. To get all 100 Redundant Energy points without a parry, following or preceding an Intro Skill with Standard Defense Protocol into Basic Attack 3 should be all that's needed for quick access to her Enhanced Skill. Once this is achieved, Zani is ready to activate her Ultimate and enter Inferno Mode.",
+            "During Inferno Mode, Zani gets a new kit featuring new Basic Attacks, a new parry Skill with a new counter (which also doubles as a Dodge Counter), and she utilizes her other Forte bar to execute all of these actions. She gets 50 Blaze points which she'll consume to execute her combos in Inferno Mode (with the cap extended from 100 to 150 and her Ultimate filling those missing 50 points). All of the damage she can deal during this stance is considered Heavy Attack DMG and Spectro Frazzle DMG simultaneously, so all related buffs apply."
+          ]
+        },
+        {
+          "heading": "Inferno Mode & How it Works",
+          "paragraphs": [
+            "To get into the details of her Ultimate, once Zani enters Inferno Mode, she gains new Basic Attacks called \"Daybreak\", \"Dawning\", and \"Nightfall\". These are the center of her kit in general. The simplest possible rotation only requires you to perform her Basic Attack string 2 times, which casts each of these skills twice. Simple and effective. Daybreak consumes 10 Blaze, Dawning consumes 20 Blaze and Nightfall consumes up to 40 Blaze, with each Blaze consumed giving an extra multiplier increase to Nightfall specifically (other attacks do not benefit from this). That's 140 Blaze consumed at maximum in total.",
+            "However, other options are available. Her Skill allows you to immediately enter a parry stance for up to 2 seconds during which she will take up to 70% reduced damage. Parrying any attack triggers an equivalent to Dawning called \"Lightsmash\" which consumes 20 Blaze, after which Zani can immediately follow with Nightfall. This combo therefore only costs 60 Blaze. The exact same thing occurs if a Dodge Counter is executed. This can be important to factor in to preserve Blaze for lengthier rotations.",
+            "Finally, once Zani has consumed enough Blaze and has 30 left or less (the threshold is indicated on her Forte bar), then she can cast another Ultimate called \"The Last Stand\" which deals some damage, stops in-game timers and prevents you from switching out during it like any regular Ultimate would. This also ends her rotation as it ends Inferno Mode at the same time.",
+            "Once all of this is done, she may cast her Outro. It deals a final burst of damage dependent on the stacks of Heliacal Ember present on enemies, consumes all Heliacal Ember stacks present on targets, and also amplifies the Spectro DMG of all characters except Zani by 20% if they have Heliacal Ember applied, which is a small DMG boost for your Supports."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Zani's position in the meta is... interesting, to say the least. Her and her teammates are fully compatible with Quickswap, and her damage can be taken to a much higher ceiling than her baseline performance. The issues arise when discussing her teammates, and her baseline performance.",
+            "Without a doubt, for a character as old as Zani, her ceiling in Quickswap is satisfactory and has withstood the test of time as she is still considered meta-viable when fully optimized. However, this performance is completely dependent on 2 very specific characters: Phoebe and Spectro Rover.",
+            "Phoebe is a necessary inclusion to her teams, no matter how you put it. Spectro Rover is not sufficient as a Frazzle applier and a buffer. Phoebe doubles Zani's damage, simply put, and that's not something Rover alone can compensate for. She applies more Frazzle, her buffs are so much better and tailored towards Zani specifically. Zani was simply balanced around Phoebe, a fact that makes Zani's teambuilding restrictive, and her team options have indeed stagnated so badly that they have not changed at all since her release. Without Phoebe, Zani is quite literally worse than any Limited DPS that came out before her.",
+            "Zani, Phoebe and Spectro Rover are the prime Spectro Frazzle team, and it hasn't changed since version 2.3, Zani's own release date. The Frazzle application of all of these team members together is high enough that, since none of their buffs expire upon swapping, Zani can utilize her excellent Swap Cancel windows on her Nightfall attacks and preserve some Blaze in order to cast 3 or even 4 Nightfalls per full team rotation. This leads to huge DPS increases if it can be pulled off fast enough via Quickswap.",
+            "Without Quickswap, Zani and Phoebe are best used with Shorekeeper, and the performance of that team is... questionable at best. The lowest of any 2.x team, falling behind Carlotta by a noticeable margin. Not to mention, the Energy Regen requirements on that team are huge and near-impossible to meet which makes building the team very difficult, and to rub salt into the wound, that's a full premium team, so it's crazy expensive to pull together.",
+            "In conclusion, Zani is in one of the most unfortunate meta positions in Wuthering Waves. Only functional in a single team using Quickswap, for casual players she'll be a struggle to get any noticeable results with, her teams are expensive to get up and running, and they take a lot of effort to pull off. Calling Zani one of the worst current investments you could make in Wuthering Waves, particularly as a new player, is a safe claim to make."
           ]
         }
       ],
-      "summary": "Zani is a 5-star Spectro Gauntlets DPS who specializes in dealing high damage during the stance she enters in her Ultimate called \"Inferno Mode\". Her kit is centered around certain key elements, the most important one being Spectro Frazzle which she passively and instantly converts into \"Heliacal Ember\" in order to charge her Ultimate Forte points, called \"Blaze\" which she needs in order to execute her combos to access her damage. Generally speaking, Zani has attacks that have a good Cleave range, meaning she's able to handle clumps of enemies well, and she has increased damage resistance as well as parries built into her kit, all of this making her tanky while able to deal lots of damage."
+      "summary": "Zani is a 5-star Spectro Gauntlets DPS who specializes in dealing high damage during the stance she enters in her Ultimate called \"Inferno Mode\". Her kit is centered around certain key elements, the most important one being Spectro Frazzle which she passively and instantly converts into \"Heliacal Ember\" in order to charge her Ultimate Forte points, called \"Blaze\" which she needs in order to execute her combos to access her damage."
     },
     "rotations": [
       {
-        "rotation_name": "Standard DPS Rotation",
+        "rotation_name": "Standard Rotation (2 Nightfall)",
         "steps": [
           "Intro",
-          "Skill: Standard Def Protocol",
-          "Basic P3",
           "Skill: Targeted Action",
           "Ultimate: Rekindle",
-          "Forte: Heavy Slash - Daybreak",
-          "Forte: Heavy Slash - Dawning",
-          "Forte: Heavy Slash - Nightfall",
-          "Forte: Heavy Slash - Daybreak",
-          "Forte: Heavy Slash - Dawning",
-          "Forte: Heavy Slash - Nightfall",
+          "Basic: Daybreak",
+          "Basic: Dawning",
+          "Basic: Nightfall",
+          "Basic: Daybreak",
+          "Basic: Dawning",
+          "Basic: Nightfall (Cancel animation endlag via Ultimate)",
           "Ultimate: The Last Stand",
+          "Skill",
+          "Basic 3 (Swap)",
           "Outro"
         ]
       },
       {
-        "rotation_name": "Double Intro DPS Rotation",
+        "rotation_name": "3 Nightfall Rotation (S6/Quickswap)",
         "steps": [
           "Intro",
-          "<-- Swap -->",
-          "Intro",
-          "Skill: Targeted Action",
+          "Skill: Targeted Action (Cancel animation endlag via Ultimate)",
           "Ultimate: Rekindle",
-          "Forte: Heavy Slash - Daybreak",
-          "Forte: Heavy Slash - Dawning",
-          "Forte: Heavy Slash - Nightfall",
-          "Forte: Heavy Slash - Daybreak",
-          "Forte: Heavy Slash - Dawning",
-          "Forte: Heavy Slash - Nightfall",
+          "Basic: Daybreak",
+          "Basic: Dawning",
+          "Basic: Nightfall (Swap)",
+          "Basic: Daybreak",
+          "Basic: Dawning",
+          "Basic: Nightfall (Swap)",
+          "Basic: Daybreak",
+          "Basic: Dawning",
+          "Basic: Nightfall (Cancel animation endlag via Ultimate)",
           "Ultimate: The Last Stand",
+          "Skill",
+          "Basic 3 (Swap)",
           "Outro"
         ]
       }

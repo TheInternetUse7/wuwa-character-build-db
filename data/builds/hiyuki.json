@@ -63,7 +63,7 @@
       {
         "commentary_details": "Changli's Signature matches Emerald of Genesis in performance, slightly surpassing it since CRIT DMG and Skill DMG are acceptable stats for Hiyuki and the 12% ATK does not require Hiyuki to cast her Skills in order to acquire it (it's permanent). Despite needing 1 more Energy Regen roll than the permanent option, the slightly better damaging stats this weapon offers makes it Hiyuki's 2nd best in slot, although quite far behind her Signature.",
         "dupe_rank": "R1",
-        "percentage_performance": "80.80%",
+        "percentage_performance": "83.10%",
         "weapon_base_info": {
           "effect_description": "ATK increased by {0}. The equipper gains 1 stack of Searing Feather upon dealing damage, which can be triggered once every 0.5s, and gains 5 stacks of the same effect upon casting Resonance Skill. Each stack of Searing Feather gives {1} additional Resonance Skill DMG Bonus for up to 14 stacks. All stacks will be removed within 12s after reaching the max stack.",
           "primary_stat_val": 587,
@@ -77,7 +77,7 @@
       {
         "commentary_details": "The Standard Banner Sword that's often the best F2P choice on almost all Sword damage dealers, Hiyuki being no exception. Provides her some Energy Regen and ATK% when casting Skills as well as CRIT Rate and good Base ATK, making it one of her best alternatives since few other Swords give her desirable stats.",
         "dupe_rank": "R1",
-        "percentage_performance": "80.10%",
+        "percentage_performance": "82.40%",
         "weapon_base_info": {
           "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases ATK by {1}, stacking up to 2 time(s). This effect lasts for 10s.",
           "primary_stat_val": 587,
@@ -91,7 +91,7 @@
       {
         "commentary_details": "Qiuyuan's Signature can buff the Echo Skill DMG of the team making it very slightly more than a stat-stick on Hiyuki, but it really doesn't have much of an effect for her teams so overall it's practically the same as an ATK and CRIT Rate stat-stick for Hiyuki.",
         "dupe_rank": "R1",
-        "percentage_performance": "79.20%",
+        "percentage_performance": "81.40%",
         "weapon_base_info": {
           "effect_description": "ATK is increased by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attack grants 1 stack of Bamboo Cleaver, which grants {1} Heavy Attack DMG Bonus to the wielder. This effect can be triggered by Echoes of the same name once only, stacking up to 2 times, lasting for 12s. Casting Echo Skill at max stacks does not reset the duration. This effect can be triggered once every 10s and ends early if the wielder is switched off the field. Casting Intro Skill grants {2} Echo Skill DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked.",
           "primary_stat_val": 587,
@@ -105,7 +105,7 @@
       {
         "commentary_details": "Simple ATK and CRIT Rate stat-stick for Hiyuki, who barely benefits from this weapon's Basic DMG-focused effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "79.00%",
+        "percentage_performance": "81.20%",
         "weapon_base_info": {
           "effect_description": "Increase ATK by {0}. When dealing Basic Attack DMG, the wielder gains {1} Basic Attack DMG Bonus for 14s. This effect can be triggered once per second, stacking up to 3 times. When the wielder's Concerto Energy is consumed, gain {2} Basic DMG Bonus for 10s. This effect can be triggered once per second and ends when the wielder is switched off the field.",
           "primary_stat_val": 587,
@@ -119,7 +119,7 @@
       {
         "commentary_details": "Simple ATK, DMG Bonus and CRIT Rate stat-stick for Hiyuki, who does not benefit from this weapon's Tune Rupture and Fusion Burst-related effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "78.80%",
+        "percentage_performance": "80.20%",
         "weapon_base_info": {
           "effect_description": "Increases All-Attribute DMG Bonus by {0}. When inflicting Tune Rupture - Shifting or Fusion Burst, the wielder's Resonance Liberation DMG ignores {1} DEF and {2} Fusion RES on targets for 8s.",
           "primary_stat_val": 587,
@@ -133,7 +133,7 @@
       {
         "commentary_details": "Best 4-star weapon for Hiyuki, this Battle Pass exclusive provides CRIT Rate, and an ATK and Liberation DMG Bonus on its passive which in spite of its low Base ATK makes it competitive with low-ranking 5-star options.",
         "dupe_rank": "R5",
-        "percentage_performance": "76.90%",
+        "percentage_performance": "78.50%",
         "weapon_base_info": {
           "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Resonance Liberation DMG Bonus for 15s.",
           "primary_stat_val": 412,
@@ -147,7 +147,7 @@
       {
         "commentary_details": "Best fully F2P, no-gacha weapon for Hiyuki, simple ATK stat-stick with decent Base ATK. Upgrade to a better weapon when possible.",
         "dupe_rank": "R5",
-        "percentage_performance": "71.80%",
+        "percentage_performance": "72.20%",
         "weapon_base_info": {
           "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
           "primary_stat_val": 462,
@@ -170,10 +170,10 @@
       "rarity_stars": 5,
       "slug": "hiyuki",
       "updates": {
-        "last_major_build_patch": "3.5",
-        "last_profile_update": "20/August/2026",
-        "last_review_patch": "3.3",
-        "last_updated": "20/August/2026"
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "10/September/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Sword"
     },
@@ -240,40 +240,36 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Very few alternatives in teammates - Lucilla/Lynae and Chisa are huge power-ups that lock Hiyuki's full potential (although Chisa is replaceable by Mornye if Lynae is present, that's the only replacement comparable to her best team by a lot). Overall not the most F2P-friendly damage dealer ever released."
+        "Budget teams require more careful rotation planning and effort to not significantly fall behind other DPS characters in the game."
       ],
       "pros": [
-        "The best Glacio DPS by a huge margin in her best team (literally no competition since Carlotta).",
-        "Big AoE hits spread across her rotation alongside grouping give her pretty good multi-wave capabilities despite being a Negative Status character.",
-        "All of her long animations pause in-game timers or at least grant invulnerability, meaning she doesn't have windows where she's especially vulnerable (dodging is almost always an option in the worst-case scenario)."
+        "The best Glacio DPS by a huge margin in her best team (literally no competition since Carlotta);",
+        "Big AoE hits spread across her rotation alongside grouping give her amazing multi-wave capabilities despite being a Negative Status character;",
+        "Flexible rotations that can either be among the quickest of all Main DPS characters or be extended for significant damage increases;",
+        "All of her long animations pause in-game timers or at least grant invulnerability, plus she can freeze enemies in place, meaning she has very few windows where she's vulnerable."
       ]
     },
     "ratings": {
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
-            "Chafe",
-            "Control",
-            "Gather"
+            "Chafe"
           ],
           "tier": "T0"
         },
         "whimpering_wastes": {
           "tags": [
-            "Chafe",
-            "Control",
-            "Gather",
-            "Expert +1"
+            "Chafe"
           ],
-          "tier": "T0.5"
+          "tier": "T0"
         }
       },
       "value_tier_ratings": {
         "tower_of_adversity_value": {
-          "tier": "T1"
+          "tier": "T0.5"
         },
         "whimpering_wastes_value": {
-          "tier": "T1"
+          "tier": "T0"
         }
       }
     },
@@ -345,16 +341,16 @@
             "1 stack each with her Basic 3, 4, and 5 in Ultimate stance;",
             "3 stacks for each Iai cast;",
             "1 stack for her enhanced Heavy Attack in her Ultimate stance.",
-            "That's 20 stacks applied per rotation, which covers more than the max possible stack count on her own. However, Hiyuki has a particular interaction with Glacio Chafe.",
+            "That's an intended 20 stacks applied per rotation, running optimal rotations she may apply a bit more or less depending on how fast you want her to rotate. No matter what, this covers more than the max possible stack count on her own. However, Hiyuki has a particular interaction with Glacio Chafe.",
             "Indeed, she will convert all Glacio Chafe applied on enemies instantly into Glacio Bite, similarly to Zani with Spectro Frazzle and Heliacal Embers (except it's actually considered Glacio Chafe, so it's a proper Negative Status, unlike Zani's case). Glacio Bite works very similarly to Glacio Chafe except it can deal significantly more damage via one of Hiyuki's passives, and it also stuns enemies for 2 seconds instead of freezing them as Glacio Chafe would.",
-            "Finally, let's cover the passive (Inherent Skill) in question, called \"Fine Snow\". This shapes Hiyuki's teambuilding. This passive can stack up to 3 times, 1 per application of Havoc Bane or Glacio Chafe in the team. Each stack enhances her Glacio Bite damage. Hiyuki will get 1 stack by herself; however, she will need teammates to get 2 and 3 stacks; this means characters like Chisa and Lucilla are strongly recommended on her team to stack up this passive. Getting 2 stacks is particularly significant as it makes Hiyuki's Glacio Bite DMG skyrocket, representing a significant damage boost. This is intended to make Glacio Chafe and Havoc Bane supports stronger for her teams, and sure enough it makes characters like Chisa and Lucilla a major upgrade in Hiyuki teams. The third stack isn't a significant damage increase, however, so it can be disregarded in the future with minimal consequences."
+            "Finally, let's cover the passive (Inherent Skill) in question, called \"Fine Snow\". This shapes Hiyuki's teambuilding. This passive can stack up to 3 times, 1 per application of Havoc Bane or Glacio Chafe in the team. Each stack enhances her Glacio Bite damage. Hiyuki will get 1 stack by herself; however, she will need teammates to get 2 and 3 stacks; this means characters like Chisa, Suisui and Lucilla are strongly recommended on her team to stack up this passive. Getting 2 stacks is particularly significant as it makes Hiyuki's Glacio Bite DMG skyrocket, representing a significant damage boost. This is intended to make Glacio Chafe and Havoc Bane supports stronger for her teams, and sure enough it makes characters like Suisui, Chisa and Lucilla a major upgrade in Hiyuki teams. The third stack isn't a significant damage increase, however, so it can be disregarded in the future with minimal consequences."
           ]
         },
         {
           "heading": "Meta Position & Conclusion",
           "paragraphs": [
-            "Hiyuki's a super strong Glacio main damage dealer, to no one's surprise. However, she's quite restricted in teammate options. Due to the way her kit and passives work, Hiyuki seriously lacks a variety of options in terms of teammates. She is quite reliant on having a fully constituted limited team around her to perform at her desired level. A character like Aemeath, on the other hand, can reach a similar ceiling in all areas currently, yet has a much wider variety of teammate options and similar weapon options, and depends less on having a full team to function. They also both depend on at least having one strong teammate, both being strong Liberation Sword damage dealers, which is a class of characters that lacks F2P-accessible buffers, Jianxin being quite a subpar choice in this aspect and the only available one.",
-            "Overall, Hiyuki's very strong performance-wise but is stranded for good permanent teammates, needing to lean into very specific team compositions to reach peak performance. Nonetheless, provided she's surrounded by the right teammates, she's going to tear through any content the game has to offer effortlessly, making her an amazing pickup for players looking to lean into her full premium team."
+            "Hiyuki's a super strong Glacio main damage dealer, to no one's surprise. Although she lacks good permanently available teammates due to her niches being Glacio Chafe and Liberation damage, both of which have no strong permanent teammate options available, with enough effort and some generalist teammates (even going as low as using Sanhua and Verina), Hiyuki can still perform. Simply, the rotations will require more effort on the player's part, but since Hiyuki is so optimizable, for the most dedicated, her base performance will actually not disappoint.",
+            "Overall, Hiyuki's very strong performance-wise but is stranded for good permanent teammates, needing to lean into very specific team compositions and/or rotations to reach peak performance. Nonetheless, provided she's surrounded by the right teammates or in the hands of the right player, she's going to tear through any content the game has to offer effortlessly, making her an amazing pickup for players looking for an all-rounder DPS to clear all forms of endgame content."
           ]
         }
       ],
@@ -362,22 +358,132 @@
     },
     "rotations": [
       {
-        "rotation_name": "Standard Rotation:",
+        "rotation_name": "Easy Rotation",
         "steps": [
           "Intro",
           "Basic 3",
+          "Heavy: Frost splinter (Cancel animation as soon as possible via Ultimate)",
+          "Ultimate: Inward Vision",
+          "Skill: Jade Cleave",
+          "Skill: Petalfall",
+          "Basic: Foreclaimed Self 3",
+          "Basic: Foreclaimed Self 4",
+          "Basic: Foreclaimed Self 5",
+          "Dash (Enter Iai Stance)",
+          "Basic: Iai (3 times)",
+          "Heavy: Bitterfrost",
+          "Hold Ultimate: Blade Liberation",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Standard Rotation:",
+        "steps": [
+          "Intro",
+          "Basic 3 (Optionally instantly interrupt via Dash)",
           "Heavy: Frost Splinter (Cancel animation as soon as possible via Ultimate)",
           "Ultimate: Inward Vision",
           "Basic: Foreclaimed Self 1",
           "Basic: Foreclaimed Self 2",
-          "Basic: Foreclaimed Self 3 (Cancel animation on cast via Skill)",
+          "Basic: Foreclaimed Self 3 (Cancel animation near-instantly via Skill)",
           "Skill: Jade Cleave",
           "Skill: Petalfall",
           "Basic: Foreclaimed Self 1",
           "Basic: Foreclaimed Self 2",
-          "Basic: Foreclaimed Self 3 (Cancel animation on cast via Dodge)",
+          "Basic: Foreclaimed Self 3 (Cancel animation near-instantly via Dodge)",
           "Dodge (Enter Iai Stance)",
-          "Basic: Iai (3 times)",
+          "Basic: Iai (3 times) (Cancel last Iai animation endlag via Dash)",
+          "Dash",
+          "Heavy: Bitterfrost",
+          "Hold Ultimate: Blade Liberation",
+          "Skill (Swap)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "4 Iai Rotation:",
+        "steps": [
+          "Intro",
+          "Basic 3 (Interrupt instantly via Dash)",
+          "Dash",
+          "Heavy: Frost Splinter",
+          "Ultimate: Inward Vision",
+          "Basic: Foreclaimed Self 1",
+          "Basic: Foreclaimed Self 2",
+          "Basic: Foreclaimed Self 3 (Cancel animation near-instantly via Dash)",
+          "Dash",
+          "Basic: Foreclaimed Self 1",
+          "Basic: Foreclaimed Self 2",
+          "Basic: Foreclaimed Self 3 (Cancel animation near-instantly via Jump)",
+          "Jump",
+          "Skill: Petalfall (Cancel animation endlag via Dash)",
+          "Dash (Enter Iai Stance)",
+          "Basic: Iai (2 times) (Cancel 2nd animation endlag via Tune Break)",
+          "Tune Break",
+          "Basic: Foreclaimed Self 3 (Cancel animation near-instantly via Dash)",
+          "Basic: Foreclaimed Self 1",
+          "Basic: Foreclaimed Self 2",
+          "Basic: Foreclaimed Self 3 (Cancel animation endlag near-instantly via Jump)",
+          "Jump",
+          "Skill: Petalfall (Cancel animation endlag via Dash)",
+          "Dash (Enter Iai Stance)",
+          "Basic: Iai (2 times) (Cancel 2nd animation endlag via Dash)",
+          "Dash",
+          "Heavy: Bitterfrost",
+          "Hold Ultimate: Blade Liberation",
+          "Skill (Swap)",
+          "Outro",
+          "Intro",
+          "Basic 3 (Interrupt instantly via Dash)",
+          "Dash",
+          "Heavy: Frost Splinter",
+          "Ultimate: Inward Vision",
+          "Basic: Foreclaimed Self 1",
+          "Basic: Foreclaimed Self 2",
+          "Basic: Foreclaimed Self 3 (Cancel animation near-instantly via Dash)",
+          "Dash",
+          "Basic: Foreclaimed Self 1",
+          "Basic: Foreclaimed Self 2",
+          "Basic: Foreclaimed Self 3 (Cancel animation near-instantly via Skill)",
+          "Skill: Jade Cleave",
+          "Heavy: Plunge",
+          "Dash (Enter Iai Stance)",
+          "Basic: Iai (2 times) (Cancel 2nd animation endlag via Dash)",
+          "Dash",
+          "Basic: Foreclaimed Self 1",
+          "Basic: Foreclaimed Self 2",
+          "Basic: Foreclaimed Self 3 (Cancel animation endlag near-instantly via Skill)",
+          "Skill: Jade Cleave",
+          "Heavy: Plunge (Cancel animation endlag via Dash)",
+          "Dash (Enter Iai Stance)",
+          "Basic: Iai (2 times) (Cancel 2nd animation endlag via Dash)",
+          "Dash",
+          "Heavy: Bitterfrost",
+          "Hold Ultimate: Blade Liberation",
+          "Skill (Swap)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "S2+ Opener:",
+        "steps": [
+          "Intro",
+          "Basic 3",
+          "Heavy: Frost Splinter",
+          "Ultimate: Inward Vision",
+          "Basic: Foreclaimed Self 1",
+          "Basic: Foreclaimed Self 2",
+          "Basic: Foreclaimed Self 3 (Cancel animation instantly via Skill)",
+          "Skill: Jade Cleave (Cancel animation endlag via Dash)",
+          "Dash (Enter Iai Stance)",
+          "Basic: Iai (2 times) (Cancel 2nd animation endlag via Skill)",
+          "Skill: Petalfall",
+          "Basic: Foreclaimed Self 1",
+          "Basic: Foreclaimed Self 2",
+          "Basic: Foreclaimed Self 3 (Cancel animation instantly via Dash)",
+          "Dash (Enter Iai Stance)",
+          "Basic: Iai (2 times) (Cancel 2nd animation endlag via Dash)",
+          "Dash",
           "Heavy: Bitterfrost",
           "Hold Ultimate: Blade Liberation",
           "Skill (Swap)",

@@ -143,9 +143,9 @@
       "slug": "carlotta",
       "updates": {
         "last_major_build_patch": "3",
-        "last_profile_update": "20/August/2026",
+        "last_profile_update": "10/September/2026",
         "last_review_patch": "2.1",
-        "last_updated": "20/August/2026"
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Pistols"
     },
@@ -224,25 +224,20 @@
     "ratings": {
       "dps_ratings": {
         "tower_of_adversity": {
-          "tags": [
-            "Control"
-          ],
-          "tier": "T1"
+          "tags": [],
+          "tier": "T1.5"
         },
         "whimpering_wastes": {
-          "tags": [
-            "Control",
-            "Expert +1"
-          ],
+          "tags": [],
           "tier": "T4"
         }
       },
       "value_tier_ratings": {
         "tower_of_adversity_value": {
-          "tier": "T1.5"
+          "tier": "T2"
         },
         "whimpering_wastes_value": {
-          "tier": "T3"
+          "tier": "T4"
         }
       }
     },

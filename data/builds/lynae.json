@@ -183,10 +183,10 @@
       "rarity_stars": 5,
       "slug": "lynae",
       "updates": {
-        "last_major_build_patch": "3",
-        "last_profile_update": "20/August/2026",
-        "last_review_patch": "3",
-        "last_updated": "20/August/2026"
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "10/September/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Pistols"
     },
@@ -307,13 +307,15 @@
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
-            "Break"
+            "Rupture",
+            "Strain"
           ],
           "tier": "T0"
         },
         "whimpering_wastes": {
           "tags": [
-            "Break"
+            "Rupture",
+            "Strain"
           ],
           "tier": "T1"
         }
@@ -400,49 +402,22 @@
           "heading": "Resonance Mode: What does it do? What to use in what teams?",
           "paragraphs": [
             "Lynae has 2 modes that she can switch between freely in her Forte page out of combat. This means in combat, only 1 of the 2 modes will be available. They are each related to Tune Break: Lynae is indeed capable, via most of her essential attacks, of applying Tune Rupture or Tune Strain, which are her 2 modes. Tune Rupture acts as an extra instance of damage on every Tune Break skill cast, while Tune Strain is an extra DMG Taken increase to characters who can respond to it. Mornye is one such character, as she can deal Tune Rupture damage of her own and benefit from the damage increase of Tune Strain, depending on which one Lynae applies for her.",
-            "As for which one to use: If a direct Tune Strain synergy is in the team (as in, the Main DPS relies on it e.g Luuk), then use Tune Strain. Otherwise, always go for Tune Rupture. The overall raw damage increase Lynae gets from Tune Rupture damage is huge, so it's always best if Tune Strain response isn't on the Main DPS, and if the Main DPS interacts with Tune Rupture directly (e.g Aemeath), then you should be using Tune Rupture mode anyways."
+            "As for which one to use: If a direct Tune Strain synergy is in the team (as in, the Main DPS relies on it e.g Qingxiao/Luuk), then use Tune Strain. Otherwise, always go for Tune Rupture. The overall raw damage increase Lynae gets from Tune Rupture damage is huge, so it's always best if Tune Strain response isn't on the Main DPS, and if the Main DPS interacts with Tune Rupture directly (e.g Aemeath), then you should be using Tune Rupture mode anyways."
           ]
         },
         {
           "heading": "Meta Position & Conclusion",
           "paragraphs": [
-            "If it wasn't obvious by everything we've stated in this review so far, Lynae is one of the strongest meta presences that we've ever seen. As the queen of team flexibility in the Hybrid role while still being even stronger in her specialized Liberation, Tune Rupture and Tune Strain buffing capabilities, even without a specific DPS to associate with Lynae, remains a top-tier meta contender, and it's by a landslide too. This level of flexibility and general strength in Hybrids is, to put it bluntly, never before seen. Her specific synergies are with some of the strongest meta contenders as well, including but not limited to Aemeath, Luuk, Hiyuki and Iuno.",
+            "If it wasn't obvious by everything we've stated in this review so far, Lynae is one of the strongest meta presences that we've ever seen. As the queen of team flexibility in the Hybrid role while still being even stronger in her specialized Liberation, Tune Rupture and Tune Strain buffing capabilities, even without a specific DPS to associate with Lynae, remains a top-tier meta contender, and it's by a landslide too. This level of flexibility and general strength in Hybrids is, to put it bluntly, never before seen. Her specific synergies are with some of the strongest meta contenders as well, including but not limited to Aemeath, Qingxiao, Luuk, Hiyuki and Iuno.",
             "To mention her top team, alongside Aemeath and Mornye, she makes for one of the strongest single-target focused teams in the game, on the level of all the most recent DPS. And that's only one of her many teams.",
-            "But that's not all: Lynae functions very well with a myriad of already successful DPS characters like Carlotta, Phoebe, and Camellya, as well as serving as a perfectly viable replacement to the already established partners to DPS powerhouses like Augusta and even Phrolova, the current best DPS in the game when factoring in all endgame content.",
+            "But that's not all: Lynae functions very well with a myriad of older DPS characters like Carlotta, Phoebe, and Camellya, as well as serving as a perfectly viable replacement to the already established partners to DPS powerhouses like Yangyang: Xuanling and Phrolova.",
             "In conclusion, Lynae is one of the strongest characters Wuthering Waves has ever seen. As we said in the intro to this review, it's difficult to overstate her team flexibility, and she appears as one of the strongest contenders in the meta, capable of working exceptionally well with practically any DPS out there with some specialized modern synergies that only accentuate her value further. Reminiscent of Shorekeeper in universality, but as a Hybrid buffer instead, Lynae is easily one of the best Hybrid buffers in the game, with only a bright future to come as more Liberation damage dealers, or Tune Rupture/Tune Strain-related characters release in the future."
           ]
         }
       ],
       "summary": "Lynae is a 5-star Spectro Pistol Hybrid buffer who specializes in... not much, actually. Well, that's only partially true, but if you're familiar at all with Lynae, you should know she is quite the generalist buffer, and she's super good in that role. It's difficult to overstate her team flexibility and efficiency, as aside from certain characters who are overly reliant on one specific partner (Lupa for most Fusion characters, Ciaccona for Cartethyia, Phoebe for Zani for example), Lynae quite literally buffs everybody and does a fantastic job at it, having a solid amount of personal damage on top. She has specialties in Tune Rupture, Tune Strain, and Liberation DMG that can provide even better synergies than her standard generalist use cases. While all this won't make her the best Main DPS, in her role of a secondary buffer, she can provide a lot of value to most accounts, as long as she's played properly, and there's no better way to make sure of that than understanding her kit in full, which we will cover below:"
     },
-    "rotations": [
-      {
-        "rotation_name": "Standard Rotation",
-        "steps": [
-          "Intro (Cancel animation endlag via Ultimate)",
-          "Ultimate",
-          "Skill: Lynae-Style Palettes",
-          "Heavy: Spark Collision (Full Charge) (Cancel animation endlag via Jump)",
-          "Jump: Polychrome Leap (3 Times)",
-          "Basic: Mid-air Attack: Visual Impact",
-          "Outro"
-        ]
-      },
-      {
-        "rotation_name": "S6 Rotation",
-        "steps": [
-          "Intro",
-          "Heavy: Ground Heavy Attack (2 Times)",
-          "(Release) Graffiti Blast",
-          "Skill: Additive Color",
-          "Jump: Polychrome Leap (3 Times)",
-          "Heavy: Mid-air Heavy Attack (Interrupt via Mid-air Attack around 5 hits)",
-          "Basic: Mid-air Attack: Visual Impact",
-          "Ultimate",
-          "Outro"
-        ]
-      }
-    ],
+    "rotations": [],
     "skill_upgrade_priority": {
       "commentary": "Skill and Intro can be skipped when levelling to save on resources at a minimal damage loss.",
       "order": [

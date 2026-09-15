@@ -199,9 +199,9 @@
       "slug": "jinhsi",
       "updates": {
         "last_major_build_patch": "3.2",
-        "last_profile_update": "20/August/2026",
+        "last_profile_update": "10/September/2026",
         "last_review_patch": "3.2",
-        "last_updated": "20/August/2026"
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Broadblade"
     },
@@ -299,22 +299,20 @@
         "tower_of_adversity": {
           "tags": [
             "Coord",
-            "Gather",
             "Expert +1"
           ],
-          "tier": "T2"
+          "tier": "T3"
         },
         "whimpering_wastes": {
           "tags": [
-            "Coord",
-            "Gather"
+            "Coord"
           ],
           "tier": "T4"
         }
       },
       "value_tier_ratings": {
         "tower_of_adversity_value": {
-          "tier": "T2"
+          "tier": "T3"
         },
         "whimpering_wastes_value": {
           "tier": "T4"

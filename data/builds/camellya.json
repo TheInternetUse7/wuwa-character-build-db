@@ -210,9 +210,9 @@
       "slug": "camellya",
       "updates": {
         "last_major_build_patch": "2.2",
-        "last_profile_update": "20/August/2026",
+        "last_profile_update": "10/September/2026",
         "last_review_patch": "1.4",
-        "last_updated": "20/August/2026"
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Sword"
     },
@@ -293,7 +293,7 @@
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [],
-          "tier": "T2"
+          "tier": "T3"
         },
         "whimpering_wastes": {
           "tags": [],
@@ -305,7 +305,7 @@
           "tier": "T3"
         },
         "whimpering_wastes_value": {
-          "tier": "T2"
+          "tier": "T3"
         }
       }
     },

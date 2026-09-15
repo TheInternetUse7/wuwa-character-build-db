@@ -247,10 +247,10 @@
       "rarity_stars": 5,
       "slug": "denia",
       "updates": {
-        "last_major_build_patch": "3.5",
-        "last_profile_update": "20/August/2026",
-        "last_review_patch": "3.3",
-        "last_updated": "20/August/2026"
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "10/September/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -308,14 +308,14 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Only plays into 2 team compositions, both limited in Support options. If you don't have either team, she has no flexibility to speak of;",
-        "Significantly more Signature weapon-dependent if used in Tune Strain mode; becomes a pretty recommended pick-up;",
-        "Uses 3 different Echo Sets in her 3 most important team options. Even her own flexibility is limited by needing multiple builds in each."
+        "Only plays into 2 team archetypes, both limited in Support options. If you don't have either team, she has no flexibility to speak of;",
+        "Significantly more Signature weapon-dependent if used in Tune Strain mode, becomes a pretty recommended pick-up. Additionally non-negotiably needs Mornye in that mode;",
+        "Uses 3 different Echo Sets based on her team. Even her own flexibility is limited by needing multiple builds in each, however this is mitigated if you only plan to use her for one team archetype."
       ],
       "pros": [
-        "Part of 2 of the best non-QuickSwap teams in the game and the best QuickSwap team in the game (plays into both Fusion Burst and Tune Strain);",
+        "Integral part of several meta teams, the uncontested best in slot for Fusion Burst and Tune Strain teams;",
         "Has lots of viable weapon alternatives in Fusion Burst mode;",
-        "Constant off-field grouping making single-target oriented DPSes excel in AoE scenarios;",
+        "Constant off-field grouping making even single-target oriented DPSes excel in AoE scenarios;",
         "Fast rotation, high damage, strong buffs and utility. Has all the markings of a top-tier secondary buffer/damage dealer."
       ]
     },
@@ -323,17 +323,15 @@
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
-            "Break",
-            "Burst",
-            "Gather"
+            "Strain",
+            "Burst"
           ],
           "tier": "T0"
         },
         "whimpering_wastes": {
           "tags": [
-            "Break",
+            "Strain",
             "Burst",
-            "Gather",
             "Expert +1"
           ],
           "tier": "T0.5"
@@ -405,7 +403,7 @@
             "Most of the attacks in her kit will either apply 1 stack of Fusion Burst or Tune Strain - Shifting and reset the duration of Tune Strain - Interfered;",
             "In Tune Strain mode, she may fill each target's Tune Break gauge by 50% of the max once per enemy per battle;",
             "Her Outro skill changes to either amplify party-wide Fusion Burst DMG or general DMG Amplification (15 to 40% depending on whether the buffed character can apply Tune Strain or not);",
-            "In Tune Strain mode, she obtains standard Tune Strain - Interfered response like Lynae, Mornye or Luuk.",
+            "In Tune Strain mode, she obtains standard Tune Strain - Interfered response like Qingxiao, Lynae, Mornye or Luuk.",
             "Some Sequences are also impacted, but we will only cover her S0 kit here."
           ]
         },
@@ -428,7 +426,7 @@
           "paragraphs": [
             "Denia has significant personal damage, a very specialized and equally capable buffing profile, and a fast rotation. All of these factors undeniably make her the prime Secondary choice for the teams that she plays in. However, this comes at a cost: specialization.",
             "Denia is highly specialized towards Tune Strain and Fusion Burst teams, since most of her buffs are tailored to characters of only that archetype. While her personal DMG, general DMG Amplification capability on Outro (even if weakened) and her generalist buffs via Echo sets like Moonlit Clouds and her Signature weapon definitely exist and could make you think she has a strong general use case, she's nowhere near comparable to a proper generalist character like Lynae, or a less specialized support like Iuno for Heavy Attacks. This is her main (and realistically, only) flaw, aside from needing to change Echo sets in between each team, which can definitely cause build complications if you want to lean into her (albeit small) team flexibility.",
-            "As of her release, all Denia has access to is Fusion Burst teams with Aemeath and Tune Strain teams with Luuk Herssen, only giving her a total of 2 teams that she can play in with no certainty of additional teams coming in the future. However, the 2 teams that she does play in are stupidly strong in the current meta, work well in both single-target and AoE thanks to her, and overall, if you wish to have either DPS but they lack a proper premium team, and you wish to pick up a strong power upgrade to either your Aemeath or Luuk, Denia is the perfect opportunity to do this.",
+            "As of her release, all Denia has access to is Fusion Burst teams with Aemeath and Tune Strain teams with Qingxiao or Luuk Herssen, only giving her a total of 2 teams that she can play in with no certainty of additional teams coming in the future. However, the 2 team archetypes that she does play in are very strong in the current meta, work well in both single-target and AoE thanks to her, and overall, if you wish to have any of her DPS but they lack a proper premium team, and you wish to pick up a strong power upgrade to either your Aemeath, Qingxiao or Luuk, Denia is the perfect opportunity to do this. It's however worth noting that Mornye in specific is a particular necessity as a support to her Tune Strain teams, and without her she has a hard time performing at the expected top level performance Denia and a Tune Strain DPS are supposed to give (Lynae is better when used with alternative supports, but Denia is the best Tune Strain specialist we have).",
             "In conclusion, while Denia is un\"denia\"bly (I swear I'm funny) a highly specialized secondary buffer and damage dealer character, in the teams that she is specialized for, she's by all accounts ideal and will make your premium Fusion Burst and Tune Strain DPS characters unleash their full potential and be top tier provided you have the correct teammates to surround them."
           ]
         }
@@ -437,7 +435,7 @@
     },
     "rotations": [
       {
-        "rotation_name": "Echo Timing",
+        "rotation_name": "Standard Rotation",
         "steps": [
           "Intro",
           "Basic: Stagecraft 4 (Cancel animation endlag via Skill)",
@@ -451,12 +449,7 @@
           "Skill: Banish 1",
           "Skill: Banish 2 (Cancel animation instantly via Ultimate)",
           "Ultimate: Breakdown",
-          "Outro"
-        ]
-      },
-      {
-        "rotation_name": "Opener Rotation",
-        "steps": [
+          "Outro",
           "Basic: Stagecraft 1 (Cancel animation endlag via Skill)",
           "Skill: Phantom Bubble (Cancel animation instantly via Dash)",
           "Dash",

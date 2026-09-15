@@ -146,9 +146,9 @@
       "slug": "buling",
       "updates": {
         "last_major_build_patch": "2.8",
-        "last_profile_update": "20/August/2026",
+        "last_profile_update": "10/September/2026",
         "last_review_patch": "2.8",
-        "last_updated": "20/August/2026"
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -224,17 +224,13 @@
         "tower_of_adversity": {
           "tags": [
             "Flare",
-            "Sustain",
-            "Gather",
             "S0 -1"
           ],
           "tier": "T2"
         },
         "whimpering_wastes": {
           "tags": [
-            "Flare",
-            "Sustain",
-            "Gather"
+            "Flare"
           ],
           "tier": "T3"
         }
@@ -244,7 +240,7 @@
           "tier": "T2"
         },
         "whimpering_wastes_value": {
-          "tier": "T3"
+          "tier": "T2"
         }
       }
     },

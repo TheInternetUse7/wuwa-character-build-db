@@ -10,16 +10,226 @@
       "hp": 0,
       "max_energy": 0
     },
-    "best_echo_sets": [],
+    "best_echo_sets": [
+      {
+        "commentary": "Jingran's Signature set gives a total of 10% HP, 20% CRIT Rate and 15% Fusion DMG Bonus to Jingran when fully ramped due to his ability to generate multiple shields throughout his rotation, making it his best set.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Simple Summon Echo, scales off HP and grants 12% Fusion and 12% Heavy DMG Bonus when equipped in the main slot, making it easily Jingran's best choice.",
+            "echo_name": "Myriad Snare: Rustfire Chassis"
+          }
+        ],
+        "percentage_performance": "100.00%",
+        "set_name": "Lamp of Nether Road"
+      }
+    ],
     "best_echo_stats": {
       "main_stats": {
-        "cost_1": [],
-        "cost_3": [],
-        "cost_4": []
+        "cost_1": [
+          "HP%",
+          "HP%"
+        ],
+        "cost_3": [
+          "CRIT DMG / HP%",
+          "HP%"
+        ],
+        "cost_4": [
+          "CRIT DMG / HP%"
+        ]
       },
-      "substats_priority": []
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "HP (Until 50000)",
+        "CRIT Rate  CRIT DMG",
+        "Heavy DMG%",
+        "ATK%",
+        "ATK"
+      ]
     },
-    "best_weapons": [],
+    "best_weapons": [
+      {
+        "commentary_details": "Jingran's best weapon by a very large amount, his Signature is the only weapon in the game to grant him such a massive 72% HP stat. This allows him to run a 44111 build while still capping his HP-related self-buffs at 50000, all this topped by CRIT Rate, CRIT DMG and DEF Ignore stats make his weapon much better than any other option he has.",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.0%",
+        "weapon_base_info": {
+          "effect_description": "Grants {0} All-Attribute DMG Bonus. Casting Intro Skill or gaining a Shield as the active Resonator grants 1 stack of Nature's Order and 1 stack of Cradle of Life. This effect can be triggered via gaining a Shield once every 0.5s, stacking up to 6 times, lasting for 7s. Switching to another Resonator ends both Nature's Order and Cradle of Life immediately.\nNature's Order: Crit. DMG is increased by {1}, up to {2}. When Nature's Order reaches 6 stacks, the Crit. Rate of Heavy Attack DMG is increased by {0}.\nCradle of Life: Casting Heavy Attack consumes up to 2 stacks of Cradle of Life. For every 1 stack of Cradle of Life consumed, Heavy Attack DMG ignores {3} of the target's DEF, up to {4}. The effect lasts for 2s.",
+          "primary_stat_val": 413,
+          "rarity": 5,
+          "secondary_stat_name": "HP%",
+          "secondary_stat_val": 72.2,
+          "source": ""
+        },
+        "weapon_name": "Thousandfold Deliverance"
+      },
+      {
+        "commentary_details": "While Jingran can fully benefit from Augusta's Signature weapon buffs, the stats it provides are, much like any other weapon he could access, overall much lower than his own Signature, so overall it ends up performing as a decent alternative if you can get up to 50000 total HP, but on our calculations this isn't feasible which makes it rank quite a bit lower even though it's his second best choice.",
+        "dupe_rank": "R1",
+        "percentage_performance": "85.1%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Casting Intro Skill or Resonance Skill increases Heavy Attack DMG by {1} for 15s. Obtaining Shield allows Heavy Attack DMG to ignore {2} of the target's DEF for 7s, stacking up to 5 times. This effect is triggered once every 0.5s",
+          "primary_stat_val": 675,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 12.1,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Thunderflare Dominion"
+      },
+      {
+        "commentary_details": "Essentially a slightly worse version of Thunderflare Dominion as it provides general DMG Bonus and Heavy DMG Bonus, but has a worse overall stat spread for Jingran.",
+        "dupe_rank": "R1",
+        "percentage_performance": "82.0%",
+        "weapon_base_info": {
+          "effect_description": "Increases the DMG Bonus of all Resonance Attributes by {0}. Every time Intro Skill or Resonance Liberation is cast, increases Heavy Attack DMG Bonus by {1}, stacking up to 2 time(s). This effect lasts for 14s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Limited"
+        },
+        "weapon_name": "Verdant Summit"
+      },
+      {
+        "commentary_details": "CRIT DMG, ATK and Fusion DMG Bonus stat-stick for Jingran. Provides the whole team with 24% Fusion DMG Bonus nearly instantly in Jingran's rotation, a buff that can then be upkept permanently easily. Not quite his best option but a decent one nonetheless.",
+        "dupe_rank": "R1",
+        "percentage_performance": "78.8%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Performing Intro Skill or Resonance Liberation increases Resonance Liberation DMG by {1} for 6s. Dealing Heavy Attack DMG extends this effect by 4s, up to 1 time. Each successful extension gives {1} Fusion DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Wildfire Mark"
+      },
+      {
+        "commentary_details": "Best permanently available option. ATK and CRIT DMG stat-stick for Jingran, who does not benefit from this weapon's Tune Strain-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "73.7%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Dealing damage to targets under Tune Strain: Interfered grants {1} Resonance Liberation Bonus for 3s. Retriggering the effect resets its duration.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Radiance Cleaver"
+      },
+      {
+        "commentary_details": "Best 4-star weapon, this Battle Pass exclusive grants solid ATK, Heavy DMG Bonus and CRIT DMG stats at the cost of a low Base ATK.",
+        "dupe_rank": "R5",
+        "percentage_performance": "73.1%",
+        "weapon_base_info": {
+          "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Heavy Attack DMG Bonus for 15s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 40.5,
+          "source": "Battle Pass"
+        },
+        "weapon_name": "Aureate Zenith"
+      },
+      {
+        "commentary_details": "CRIT Rate and DMG Bonus stat-stick for Jingran, who barely benefits from this weapon's Skill DMG-increasing effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "70.9%",
+        "weapon_base_info": {
+          "effect_description": "Grants {0} Attribute DMG Bonus. Casting Intro Skill gives the equipper Ageless Marking, which grants {1} Resonance Skill DMG Bonus for 12s. Casting Resonance Skill gives the equipper Ethereal Endowment, which grants {1} Resonance Skill DMG Bonus for 12s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Gacha"
+        },
+        "weapon_name": "Ages of Harvest"
+      },
+      {
+        "commentary_details": "Grants a massive amount of CRIT Rate without giving Jingran much else. One of his worse stat-sticks due to excess CRIT Rate.",
+        "dupe_rank": "R1",
+        "percentage_performance": "69.1%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. When the wielder casts Intro Skill or inflicts Negative Statuses, they gain {1} Resonance Liberation DMG Bonus, stacking up to 3 times for 15s. At max stacks, when Resonators in the team inflict Negative Statuses, they gain  {2} All-Attribute DMG Bonus for 15s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 36,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Kumokiri"
+      },
+      {
+        "commentary_details": "This Battle Pass exclusive grants decent ATK and CRIT Rate boosts for Jingran, but its low-end Base ATK makes it worse than almost any 5-star weapon.",
+        "dupe_rank": "R5",
+        "percentage_performance": "68.7%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0} upon dealing Basic Attack DMG or Heavy Attack DMG, stacking up to 5 time(s). This effect lasts for 7s and can be triggered 1 time(s) every 1s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.2,
+          "source": "Pioneer Podcast"
+        },
+        "weapon_name": "Autumntrace"
+      },
+      {
+        "commentary_details": "The old standard banner 5-star is frankly not recommended on Jingran. He wants CRIT and HP stats, neither of which this weapon gives, so overall the only good stat you get out of using this weapon is Energy Regen. Upgrade to Signature ASAP if this is your best choice.",
+        "dupe_rank": "R1",
+        "percentage_performance": "67.6%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases Resonance Liberation DMG by {1}, stacking up to {2} times. This effect lasts for {3}s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Lustrous Razor"
+      },
+      {
+        "commentary_details": "Similarly to Lustrous Razor, purely an ATK stat-stick for Jingran that offers nothing else. Not recommended.",
+        "dupe_rank": "R5",
+        "percentage_performance": "62.8%",
+        "weapon_base_info": {
+          "effect_description": "Within {0}s after Resonance Skill is cast, increases ATK by {2} every 2s, stacking up to 4 time(s). This effect can be triggered 1 time(s) every 12s. When the number of stacks reaches 4, all stacks will be reset within 6s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 30.3,
+          "source": ""
+        },
+        "weapon_name": "Helios Cleaver"
+      },
+      {
+        "commentary_details": "Provides some flat Energy which can help with meeting Energy requirements. This weapon does nothing special otherwise.",
+        "dupe_rank": "R5",
+        "percentage_performance": "62.4%",
+        "weapon_base_info": {
+          "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Gacha"
+        },
+        "weapon_name": "Waning Redshift"
+      },
+      {
+        "commentary_details": "Best no-gacha option, just an ATK stat-stick with no other effects. If you can't afford Jingran's Signature and this is your best weapon option for him, we strongly recommend skipping Jingran altogether (try to farm for his Signature to make him as powerful as he's meant to be).",
+        "dupe_rank": "R5",
+        "percentage_performance": "59.9%",
+        "weapon_base_info": {
+          "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Crafting"
+        },
+        "weapon_name": "Meditations on Mercy"
+      }
+    ],
     "character_metadata": {
       "breadcrumb": [
         "Wuthering Waves",
@@ -31,35 +241,737 @@
       "rarity_stars": 5,
       "slug": "jingran",
       "updates": {
-        "last_major_build_patch": "",
-        "last_profile_update": "17/July/2026",
-        "last_review_patch": "",
-        "last_updated": "17/July/2026"
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "10/September/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Broadblade"
     },
-    "example_teams": [],
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "jingran"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "iuno"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Best Team",
+        "team_notes": "Though Shorekeeper is ideal, Iuno+Verina should be stronger than any Mono Fusion/F2P team alternatives by a slight margin (excluding quickswap)."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "jingran"
+        },
+        "slot_2": {
+          "alternatives": [
+            "mornye"
+          ],
+          "character_name": "mortefi"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "lupa"
+        },
+        "team_name": "Mono Fusion",
+        "team_notes": "Use Mortefi on Moonlit Clouds with the Stonewall Bracer main Echo in the 2nd slot, or use Mornye on Halo of Starry Radiance with the Spacetrek Explorer main Echo in the 3rd slot so Lupa can Outro buff Jingran, based on your team."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "jingran"
+        },
+        "slot_2": {
+          "alternatives": [
+            "mortefi"
+          ],
+          "character_name": "rebecca"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "F2P Team",
+        "team_notes": "In these teams, your Support character should run the Halo of Starry Radiance set with the Spacetrek Explorer main Echo."
+      }
+    ],
     "media": {
       "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/jingran_full.webp",
       "youtube_guide_embed_url": "",
-      "youtube_guide_full_url": ""
+      "youtube_guide_full_url": "https://youtu.be/Z2NuJlYMeIg"
     },
-    "minor_fortes": [],
+    "minor_fortes": [
+      {
+        "bonus_value": "+8%",
+        "stat_name": "CRIT Rate"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "HP%"
+      }
+    ],
     "pros_and_cons": {
-      "cons": [],
-      "pros": []
+      "cons": [
+        "One of the most Signature weapon-reliant characters in the game. Limited weapon alternatives seem good on paper, but don't compensate for the big increase in power and build accessibility his weapon provides, not to mention how much worse the permanent options are;",
+        "Possesses no good purple tokens in Whimpering Wastes, so he will be more difficult to use there once his dedicated gold token is gone;",
+        "Very low quickswap potential in his ideal teams, much like a good chunk of the modern DPS cast."
+      ],
+      "pros": [
+        "One of the strongest and most accessible DPS releases in a while. Only requires his Signature weapon to perform at a very high level;",
+        "Strong sequence value, particularly in his S2 and S6;",
+        "Damage is spread out very evenly across his rotation in pretty good AoE - good for multi-wave content;",
+        "Has access to a multitude of team options, bringing older characters back into the meta while utilizing new ones to great effect as well, getting a team up and running for him is easy overall;",
+        "Found on some social media under the alias XxX_D4rkS4suk3_XxX. He's so dark and edgy like me fr."
+      ]
     },
-    "ratings": null,
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [],
+          "tier": "T0"
+        },
+        "whimpering_wastes": {
+          "tags": [],
+          "tier": "T1"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T0"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T1"
+        }
+      }
+    },
     "recommended_endgame_stats_target": [],
-    "resonance_chain_dupes": [],
+    "resonance_chain_dupes": [
+      {
+        "description": "The DMG Multipliers of Resonance Skill - Encroaching Yin, Resonance Skill - Netherworld Traverse, Resonance Skill - Scorching Yang, and Resonance Skill - Afterlife's Guide are increased by 80%.Resonance Skill - Encroaching Yin, Resonance Skill - Netherworld Traverse, Resonance Skill - Scorching Yang, and Resonance Skill - Afterlife's Guide are now immune to interruption.",
+        "name": "Yin and Yang in Harmony, the Ultimate Law of Being ",
+        "node": "S1"
+      },
+      {
+        "description": "The DMG Multipliers of Heavy Attack - Soul Raid and Heavy Attack - Stardome Meander are increased by 46%. While in the Yinghuo state, the DMG Multiplier increase effect via Fire of Life on Heavy Attack - Soul Raid and Heavy Attack - Stardome Meander is increased by 46%.Upon entering combat, Jingran gains the following effects, triggered once every 4s:Gains 300 points of Qi.Gains Netherworld's Boon.Netherworld's BoonCasting Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander restores 25% of Max Resonance Energy and grants Heavy Attack - Soul Raid and Heavy Attack - Stardome Meander 180% DMG Amplification for 4s.",
+        "name": "A Solitary Lantern, Across Lands Shade-Trodden",
+        "node": "S2"
+      },
+      {
+        "description": "When Jingran casts Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander, gain 5 points of Ghost Shroud.When Jingran casts Resonance Liberation - Burial of Thousand Souls, Yang Changes, Yin Unites is replaced by Yin-Yang Everflow for 15s.Yin-Yang EverflowJingran gains additional ATK based on Max HP: For every 1000 points of Jingran's Max HP, gain 50 additional ATK, up to 2500.",
+        "name": "World's Course Shifts, Each to Their Rightful Paths ",
+        "node": "S3"
+      },
+      {
+        "description": "When a Resonator in the team gains a Shield, all Resonators in the team gain 20% All-Attribute DMG Bonus for 30s.",
+        "name": "Where Reality Meets Illusion, Where Living Meet Dead ",
+        "node": "S4"
+      },
+      {
+        "description": "When Jingran takes a fatal blow, he will not fall and will instead gain a Shield equal to 50% of Max HP for 15s. This effect can be triggered once every 10 min. This Shield will not be passed on to the incoming Resonator.",
+        "name": "Ends Return to Beginnings, Truth of Life Laid Bare ",
+        "node": "S5"
+      },
+      {
+        "description": "Targets take 40% more Heavy Attack DMG from Jingran.The DMG Multiplier of Chimei Wangliang is increased by 80%.Upon entering the Yinghuo state, Jingran gains the Parade of Thousand Souls effect for 15s. During this effect, if Jingran is the active Resonator in the team, upon dealing damage, Jingran summons Chimei Wangliang to attack the targets, dealing Fusion DMG, considered Heavy Attack DMG.Chimei Wangliang can be summoned this way at an interval of 1s for up to 8 times. Parade of Thousand Souls ends and the available summon charges of Chimei Wangliang reset when either of the following conditions is met:Cast Resonance Liberation - Burial of Thousand Souls.Yinghuo ends or is removed.",
+        "name": "As Favors and Feuds Fade, New Stories Await ",
+        "node": "S6"
+      }
+    ],
     "review": {
-      "sections": [],
-      "summary": ""
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Jingran is a 5-star Fusion Heavy Attack DPS character who relies on the Shield generation mechanic, exactly like Augusta & Iuno, in order to gain great buffs to his damage. The bulk of his damage will be concentrated in several Forte Heavy attacks that he needs to build up throughout his rotation."
+          ]
+        },
+        {
+          "heading": "Key Mechanics",
+          "paragraphs": [
+            "Jingran has 2 stances, Yin Vessel and Yang Font. He starts in Yang Font stance by default, and switches between them upon casting his Forte Heavy attacks. Each mode has its unique set of attacks, including Basic Attacks, Skills, and Forte Heavies.",
+            "Much of Jingran's stat increases are based on his Max HP, which should be built up to 50000 to gain a massive amount of ATK, DMG Bonus, Incoming Healing Bonus, and multiplier increase on the Forte Heavies from a resource called Fire of Life, acquired via his Ultimate. The stat increases are such a huge help that they are valued over CRIT stats for him.",
+            "Finally, Jingran can get this extra DMG Bonus based on his HP and the amount of Shields he and his teammates can apply throughout their rotation. Once per rotation, having a teammate apply another Shield grants a lot of stacks of Ghost Shroud, this resource is consumed upon using his Intro and grants him a massive amount of Fusion DMG Bonus. So having Shields applied by teammates is quite important. Jingran also applies small Shields to himself every time he deals damage up to once every 0.5s, and has 0 DEF to compensate for his desire to build a very high HP stat and the Incoming Healing increases that result from it."
+          ]
+        },
+        {
+          "heading": "Rotation Mechanics & Explanation",
+          "paragraphs": [
+            "Jingran builds up his Forte resource, called Qi, by casting Basic Attack stage 3&4 (50), Dodge Counters, Skills, Intros (100), Ultimates and Forte Heavies (200). The resource stacks up to 300, at which point he can cast a Forte Heavy Attack, switching his stances and dealing lots of damage if his Ultimate was cast prior. Without his Ultimate available, Jingran deals much lower damage from his Forte Heavies as he cannot generate any Fire of Life without it. This also means the Ultimate should be used before any Forte Heavies for the Fire of Life buff to actually affect the Forte Heavies in question.",
+            "His Intro is also important to gain a massive amount of Fusion DMG Bonus, and only casting a maximum of 4 Forte Heavies is intended, as he cannot generate any more Forte from his Forte Heavies after the 3rd cast (so you can get up to 4 casts total including the initial build-up from Intro and Ultimate).",
+            "Lastly, his Skills don't share cooldowns in between stances, so that means he gains access to 1 Skill chain per Yin and Yang stance per rotation. As a lot of his damage is gated behind his Intro and Ultimate and he can only cast a maximum of 4 Forte Heavies without his rotation becoming extremely slow, his quickswap potential is quite restricted, and a quickswap rotation loop that generates even one extra Forte Heavy per rotation won't happen in his best team without being too slow to be worth it.",
+            "So overall, his rotation is forced into using his Ultimate right after his Intro, at which point one Forte Heavy may be cast, then per Forte Heavy: a Basic chain, and 2 chains of Skills, 1 per stance, without much room for doing anything extra beyond some extra Basic Attacks, provided you have some rotation time to spare."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Jingran is a very strong meta contender on his release, even though his ceiling doesn't get much higher than his baseline performance. That baseline performance is so strong and accessible, that Jingran possesses a good variety of strong teams, and a lot of inherent value to your account. Even if Jingran is one of the most Signature weapon-reliant characters in the game, as a Heavy Attack damage dealer he can easily go into F2P teams like Rebecca/Mortefi+Verina, by using a clever workaround to his Shield teammate restriction. Indeed, it's possible to use Main Echoes that generate Shields on his Supports for him to generate his Ghost Shroud nearly as efficiently as he would with Iuno on the team, providing nearly as much Fusion DMG Bonus as in his ideal team, though not quite matching its power.",
+            "Indeed, Jingran is best used alongside Iuno and Shorekeeper, but that should make most realize he has a lot of success to be found in running general Heavy Attack-buffing Hybrids and general Supports. Being second best used in a Mono Fusion setup with Mortefi and Lupa, he can also find success by just running Rebecca or Mortefi alongside Shorekeeper or Verina, those teams being largely on par with the Cartethyia to Galbrena generation of DPS characters, thanks to the Shield teammate bypass trick we mentioned earlier, as well as the fact that Jingran isn't HP-scaling like Cartethyia, but rather HP-converting, like Brant is with Energy Regen. Possessing good AoE and a top tier modern damage ceiling, Jingran is undeniably a very strong all-rounder DPS.",
+            "In conclusion, Jingran is a top tier Fusion Heavy Attack DPS who works amazingly well if you want to consider getting him alongside his Signature weapon. Past this point, he'll deliver satisfactory performance to be up to clearing some of the easier endgames effortlessly, with plenty of room for teammate upgrades to easily handle the hardest content the game currently has to offer, all the while the more optimizing players will find enjoyment in clearing hard content with him on budget teams, making him a versatile and strong DPS character at once."
+          ]
+        }
+      ],
+      "summary": "Jingran is a 5-star Fusion Heavy Attack DPS character who relies on the Shield generation mechanic, exactly like Augusta & Iuno, in order to gain great buffs to his damage. The bulk of his damage will be concentrated in several Forte Heavy attacks that he needs to build up throughout his rotation."
     },
-    "rotations": [],
-    "skill_upgrade_priority": null,
-    "skills": [],
-    "synergies": [],
+    "rotations": [
+      {
+        "rotation_name": "Standard Rotation",
+        "steps": [
+          "Intro",
+          "Ultimate",
+          "Heavy: Stardome Meander",
+          "Basic: Yin 2",
+          "Basic: Yin 3",
+          "Basic: Yin 4",
+          "Heavy: Soul Raid",
+          "Skill: Scorching Yang",
+          "Basic: Afterlife's Guide",
+          "Heavy: Stardome Meander",
+          "Skill: Encroaching Yin",
+          "Basic: Netherworld Traverse",
+          "Heavy: Soul Raid",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "S2+ Rotation:",
+        "steps": [
+          "Opener only: Heavy: Stardome Meander (Swap)",
+          "Intro",
+          "Ultimate",
+          "Heavy: Soul Raid",
+          "Basic: Yang 2",
+          "Basic: Yang 3",
+          "Basic: Yang 4",
+          "Heavy: Stardome Meander",
+          "Skill: Encroaching Yin",
+          "Basic: Netherworld Traverse",
+          "Heavy: Soul Raid",
+          "Skill: Scorching Yang",
+          "Basic: Afterlife Guide",
+          "Heavy: Stardome Meander",
+          "Outro"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "Intro can be safely skipped when levelling to save on resources at a minimal damage loss. Basic is also not a huge loss if skipped.",
+      "order": [
+        "Forte Circuit",
+        "Res. Liberation",
+        "Res. Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic Attack - Drink SoulWhile in the Yin Vessel state, perform up to 4 consecutive attacks, dealing Fusion DMG.Casting Basic Attack - Drink Soul Stage 3 restores 50 points of Qi, dealing Heavy Attack DMG.Casting Basic Attack - Drink Soul Stage 4 restores 50 points of Qi, dealing Heavy Attack DMG.Basic Attack - Devil's BaneWhile in the Yang Font state, perform up to 4 consecutive attacks, dealing Fusion DMG.Casting Basic Attack - Devil's Bane Stage 3 restores 50 points of Qi, dealing Heavy Attack DMG.Casting Basic Attack - Devil's Bane Stage 4 restores 50 points of Qi, dealing Heavy Attack DMG.Mid-air AttackConsume STA to perform a Plunging Attack in the air, dealing Fusion DMG.While in the Yin Vessel state, press or hold Normal Attack shortly after casting this skill to cast Basic Attack - Drink Soul Stage 2.While in the Yang Font state, press or hold Normal Attack shortly after casting this skill to cast Basic Attack - Devil's Bane Stage 2.Dodge Counter - Nether DiveWhile in the Yin Vessel state, press or hold Normal Attack shortly after a successful Dodge to attack the target, dealing Fusion DMG.Casting Dodge Counter - Nether Dive restores 100 points of Qi, dealing Heavy Attack DMG.Press or hold Normal Attack shortly after casting this skill to cast Basic Attack - Drink Soul Stage 4.Dodge Counter - Light WatchWhile in the Yang Font state, press or hold Normal Attack shortly after a successful Dodge to attack the target, dealing Fusion DMG.Casting Dodge Counter - Light Watch restores 100 points of Qi, dealing Heavy Attack DMG.Press or hold Normal Attack shortly after casting this skill to cast Basic Attack - Devil's Bane Stage 4.Shadow StepWhile in combat and on the ground, press Dodge with directional input to cast Shadow Step, dealing a fixed amount of Fusion DMG, considered Basic Attack DMG. This instance of damage is not affected by any DMG Bonus effects. A successful Dodge may be triggered within a certain time during the action of this skill.While in the Yin Vessel state, press or hold Normal Attack shortly after casting this skill to cast Basic Attack - Drink Soul Stage 2.While in the Yang Font state, press or hold Normal Attack shortly after casting this skill to cast Basic Attack - Devil's Bane Stage 2.",
+        "multipliers": [
+          {
+            "Lv1": "22.50%",
+            "Lv10": "44.74%",
+            "Lv2": "24.35%",
+            "Lv3": "26.19%",
+            "Lv4": "28.78%",
+            "Lv5": "30.62%",
+            "Lv6": "32.74%",
+            "Lv7": "35.70%",
+            "Lv8": "38.65%",
+            "Lv9": "41.60%",
+            "Name": "Basic Attack - Drink Soul Stage 1 DMG"
+          },
+          {
+            "Lv1": "18.75%+18.75%",
+            "Lv10": "37.28%+37.28%",
+            "Lv2": "20.29%+20.29%",
+            "Lv3": "21.83%+21.83%",
+            "Lv4": "23.98%+23.98%",
+            "Lv5": "25.52%+25.52%",
+            "Lv6": "27.29%+27.29%",
+            "Lv7": "29.75%+29.75%",
+            "Lv8": "32.21%+32.21%",
+            "Lv9": "34.67%+34.67%",
+            "Name": "Basic Attack - Drink Soul Stage 2 DMG"
+          },
+          {
+            "Lv1": "13.75%*4",
+            "Lv10": "27.33%*4",
+            "Lv2": "14.88%*4",
+            "Lv3": "16.00%*4",
+            "Lv4": "17.58%*4",
+            "Lv5": "18.71%*4",
+            "Lv6": "20.00%*4",
+            "Lv7": "21.81%*4",
+            "Lv8": "23.61%*4",
+            "Lv9": "25.41%*4",
+            "Name": "Basic Attack - Drink Soul Stage 3 DMG"
+          },
+          {
+            "Lv1": "23.11%+23.11%+15.41%+15.41%",
+            "Lv10": "45.95%+45.95%+30.63%+30.63%",
+            "Lv2": "25.01%+25.01%+16.67%+16.67%",
+            "Lv3": "26.90%+26.90%+17.94%+17.94%",
+            "Lv4": "29.55%+29.55%+19.70%+19.70%",
+            "Lv5": "31.45%+31.45%+20.97%+20.97%",
+            "Lv6": "33.63%+33.63%+22.42%+22.42%",
+            "Lv7": "36.66%+36.66%+24.44%+24.44%",
+            "Lv8": "39.69%+39.69%+26.46%+26.46%",
+            "Lv9": "42.72%+42.72%+28.48%+28.48%",
+            "Name": "Basic Attack - Drink Soul Stage 4 DMG"
+          },
+          {
+            "Lv1": "20.03%",
+            "Lv10": "39.82%",
+            "Lv2": "21.67%",
+            "Lv3": "23.31%",
+            "Lv4": "25.61%",
+            "Lv5": "27.26%",
+            "Lv6": "29.14%",
+            "Lv7": "31.77%",
+            "Lv8": "34.40%",
+            "Lv9": "37.03%",
+            "Name": "Basic Attack - Devil's Bane Stage 1 DMG"
+          },
+          {
+            "Lv1": "30.02%+20.01%",
+            "Lv10": "59.68%+39.79%",
+            "Lv2": "32.48%+21.66%",
+            "Lv3": "34.94%+23.30%",
+            "Lv4": "38.39%+25.59%",
+            "Lv5": "40.85%+27.23%",
+            "Lv6": "43.68%+29.12%",
+            "Lv7": "47.62%+31.75%",
+            "Lv8": "51.56%+34.37%",
+            "Lv9": "55.49%+37.00%",
+            "Name": "Basic Attack - Devil's Bane Stage 2 DMG"
+          },
+          {
+            "Lv1": "24.01%+24.01%+32.01%",
+            "Lv10": "47.73%+47.73%+63.64%",
+            "Lv2": "25.98%+25.98%+34.64%",
+            "Lv3": "27.95%+27.95%+37.26%",
+            "Lv4": "30.71%+30.71%+40.94%",
+            "Lv5": "32.67%+32.67%+43.56%",
+            "Lv6": "34.94%+34.94%+46.58%",
+            "Lv7": "38.09%+38.09%+50.78%",
+            "Lv8": "41.24%+41.24%+54.98%",
+            "Lv9": "44.39%+44.39%+59.18%",
+            "Name": "Basic Attack - Devil's Bane Stage 3 DMG"
+          },
+          {
+            "Lv1": "43.74%+6.25%*3",
+            "Lv10": "86.95%+12.43%*3",
+            "Lv2": "47.32%+6.76%*3",
+            "Lv3": "50.91%+7.28%*3",
+            "Lv4": "55.93%+7.99%*3",
+            "Lv5": "59.52%+8.51%*3",
+            "Lv6": "63.64%+9.10%*3",
+            "Lv7": "69.38%+9.92%*3",
+            "Lv8": "75.12%+10.74%*3",
+            "Lv9": "80.85%+11.55%*3",
+            "Name": "Basic Attack - Devil's Bane Stage 4 DMG"
+          },
+          {
+            "Lv1": "46.50%",
+            "Lv10": "92.45%",
+            "Lv2": "50.32%",
+            "Lv3": "54.13%",
+            "Lv4": "59.47%",
+            "Lv5": "63.28%",
+            "Lv6": "67.67%",
+            "Lv7": "73.77%",
+            "Lv8": "79.87%",
+            "Lv9": "85.97%",
+            "Name": "Mid-air Attack DMG"
+          },
+          {
+            "Lv1": "25.00%*4",
+            "Lv10": "49.70%*4",
+            "Lv2": "27.05%*4",
+            "Lv3": "29.10%*4",
+            "Lv4": "31.97%*4",
+            "Lv5": "34.02%*4",
+            "Lv6": "36.37%*4",
+            "Lv7": "39.65%*4",
+            "Lv8": "42.93%*4",
+            "Lv9": "46.21%*4",
+            "Name": "Dodge Counter - Nether Dive DMG"
+          },
+          {
+            "Lv1": "37.51%+37.51%+50.01%",
+            "Lv10": "74.57%+74.57%+99.43%",
+            "Lv2": "40.59%+40.59%+54.12%",
+            "Lv3": "43.66%+43.66%+58.22%",
+            "Lv4": "47.97%+47.97%+63.96%",
+            "Lv5": "51.05%+51.05%+68.06%",
+            "Lv6": "54.58%+54.58%+72.77%",
+            "Lv7": "59.50%+59.50%+79.34%",
+            "Lv8": "64.42%+64.42%+85.90%",
+            "Lv9": "69.35%+69.35%+92.46%",
+            "Name": "Dodge Counter - Light Watch DMG"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-air Attack STA Cost"
+          },
+          {
+            "Lv1": "30+25",
+            "Lv10": "30+25",
+            "Lv2": "30+25",
+            "Lv3": "30+25",
+            "Lv4": "30+25",
+            "Lv5": "30+25",
+            "Lv6": "30+25",
+            "Lv7": "30+25",
+            "Lv8": "30+25",
+            "Lv9": "30+25",
+            "Name": "Shadow Step DMG"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Shadow Step STA Cost"
+          }
+        ],
+        "name": "Edge of Life and Death ",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Resonance Skill - Encroaching YinWhile in the Yin Vessel state, Resonance Skill - Encroaching Yin is available, which deals Fusion DMG.Resonance Skill - Encroaching Yin can be cast in mid-air.Resonance Skill - Scorching YangWhile in the Yang Font state, Resonance Skill - Scorching Yang is available, which deals Fusion DMG.Resonance Skill - Scorching Yang can be cast in mid-air.Cleanse of ImpurityCasting Resonance Skill - Encroaching Yin or Resonance Skill - Scorching Yang grants Cleanse of Impurity for 4s or until one of the following conditions is met:Switching to another Resonator.Switching to the Yin Vessel or Yang Font state.Casting Resonance Skill - Netherworld Traverse or Resonance Skill - Afterlife's Guide.Resonance Skill - Netherworld TraverseWhile in the Yin Vessel state with Cleanse of Impurity, press or hold Normal Attack in mid-air to cast Resonance Skill - Netherworld Traverse, dealing Fusion DMG, considered Heavy Attack DMG.Casting Resonance Skill - Netherworld Traverse restores 100 points of Qi.Press or hold Normal Attack shortly after casting this skill to cast Basic Attack - Drink Soul Stage 2.Resonance Skill - Afterlife's GuideWhile in the Yang Font state with Cleanse of Impurity, press or hold Normal Attack in mid-air to cast Resonance Skill - Afterlife's Guide, dealing Fusion DMG, considered Heavy Attack DMG.Casting Resonance Skill - Afterlife's Guide restores 100 points of Qi.Press or hold Normal Attack shortly after casting this skill to cast Basic Attack - Devil's Bane Stage 2.",
+        "multipliers": [
+          {
+            "Lv1": "33.00%+16.50%*3",
+            "Lv10": "65.61%+32.81%*3",
+            "Lv2": "35.71%+17.86%*3",
+            "Lv3": "38.42%+19.21%*3",
+            "Lv4": "42.21%+21.11%*3",
+            "Lv5": "44.91%+22.46%*3",
+            "Lv6": "48.02%+24.01%*3",
+            "Lv7": "52.35%+26.18%*3",
+            "Lv8": "56.68%+28.34%*3",
+            "Lv9": "61.01%+30.51%*3",
+            "Name": "Encroaching Yin DMG"
+          },
+          {
+            "Lv1": "26.00%+13.00%*2+19.50%*4",
+            "Lv10": "51.69%+25.85%*2+38.77%*4",
+            "Lv2": "28.13%+14.07%*2+21.10%*4",
+            "Lv3": "30.26%+15.13%*2+22.70%*4",
+            "Lv4": "33.25%+16.63%*2+24.94%*4",
+            "Lv5": "35.38%+17.69%*2+26.54%*4",
+            "Lv6": "37.83%+18.92%*2+28.37%*4",
+            "Lv7": "41.24%+20.62%*2+30.93%*4",
+            "Lv8": "44.65%+22.33%*2+33.49%*4",
+            "Lv9": "48.06%+24.03%*2+36.05%*4",
+            "Name": "Netherworld Traverse DMG"
+          },
+          {
+            "Lv1": "33.00%+16.50%*3",
+            "Lv10": "65.61%+32.81%*3",
+            "Lv2": "35.71%+17.86%*3",
+            "Lv3": "38.42%+19.21%*3",
+            "Lv4": "42.21%+21.11%*3",
+            "Lv5": "44.91%+22.46%*3",
+            "Lv6": "48.02%+24.01%*3",
+            "Lv7": "52.35%+26.18%*3",
+            "Lv8": "56.68%+28.34%*3",
+            "Lv9": "61.01%+30.51%*3",
+            "Name": "Scorching Yang DMG"
+          },
+          {
+            "Lv1": "33.14%+33.14%+66.27%",
+            "Lv10": "65.87%+65.87%+131.74%",
+            "Lv2": "35.85%+35.85%+71.70%",
+            "Lv3": "38.57%+38.57%+77.13%",
+            "Lv4": "42.37%+42.37%+84.74%",
+            "Lv5": "45.09%+45.09%+90.18%",
+            "Lv6": "48.21%+48.21%+96.42%",
+            "Lv7": "52.56%+52.56%+105.12%",
+            "Lv8": "56.91%+56.91%+113.81%",
+            "Lv9": "61.25%+61.25%+122.50%",
+            "Name": "Afterlife's Guide DMG"
+          },
+          {
+            "Lv1": "15",
+            "Lv10": "15",
+            "Lv2": "15",
+            "Lv3": "15",
+            "Lv4": "15",
+            "Lv5": "15",
+            "Lv6": "15",
+            "Lv7": "15",
+            "Lv8": "15",
+            "Lv9": "15",
+            "Name": "Encroaching Yin Cooldown"
+          },
+          {
+            "Lv1": "15",
+            "Lv10": "15",
+            "Lv2": "15",
+            "Lv3": "15",
+            "Lv4": "15",
+            "Lv5": "15",
+            "Lv6": "15",
+            "Lv7": "15",
+            "Lv8": "15",
+            "Lv9": "15",
+            "Name": "Scorching Yang Cooldown"
+          }
+        ],
+        "name": "Malevolent Encounter ",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Resonance Liberation - Burial of Thousand Souls can be cast in mid-air close to the ground.Attack the target, dealing Fusion DMG, considered Heavy Attack DMG, and granting 100 points of Fire of Life.Gain the following effects after casting this skill:If Jingran's current HP is above 50% of the Max HP, reduce his current HP to 50% of the Max HP.Gain 200 points of Qi.Gain 3 stacks of Wayfarer's Mark.Enter the Yinghuo state for 15s.Wayfarer's MarkMax 3 stacks.Casting Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander restores 200 points of Qi and reduces 1 stack of Wayfarer's Mark. This effect lasts for 15s.YinghuoDealing damage with Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander summons Chimei Wangliang to attack the targets, which deals Fusion DMG, considered Heavy Attack DMG. This effect can be triggered once per Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander.All Fire of Life will be removed as Yinghuo ends.",
+        "multipliers": [
+          {
+            "Lv1": "46.86%*8",
+            "Lv10": "93.15%*8",
+            "Lv2": "50.70%*8",
+            "Lv3": "54.54%*8",
+            "Lv4": "59.92%*8",
+            "Lv5": "63.76%*8",
+            "Lv6": "68.18%*8",
+            "Lv7": "74.33%*8",
+            "Lv8": "80.47%*8",
+            "Lv9": "86.62%*8",
+            "Name": "Burial of Thousand Souls DMG"
+          },
+          {
+            "Lv1": "42.00%",
+            "Lv10": "83.51%",
+            "Lv2": "45.45%",
+            "Lv3": "48.89%",
+            "Lv4": "53.71%",
+            "Lv5": "57.16%",
+            "Lv6": "61.12%",
+            "Lv7": "66.63%",
+            "Lv8": "72.14%",
+            "Lv9": "77.65%",
+            "Name": "Chimei Wangliang DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv10": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Name": "Resonance Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Burial of Thousand Souls ",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Qi ModulationJingran switches between the Yin Vessel and Yang Font states by casting Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander. Jingran is in the Yang Font state by default.Heavy Attack - Soul RaidWhen Jingran holds 300 points of Qi while in the Yin Vessel state, hold Normal Attack to consume 300 points of Qi to cast Heavy Attack - Soul Raid, dealing Fusion DMG.After casting Heavy Attack - Soul Raid, Jingran switches to the Yang Font state.Press or hold Normal Attack shortly after casting this skill to cast Basic Attack - Devil's Bane Stage 2.Heavy Attack - Stardome MeanderWhen Jingran holds 300 points of Qi while in the Yang Font state, hold Normal Attack to consume 300 points of Qi to cast Heavy Attack - Stardome Meander, dealing Fusion DMG.After casting Heavy Attack - Stardome Meander, Jingran switches to the Yin Vessel state.Press or hold Normal Attack shortly after casting this skill to cast Basic Attack - Drink Soul Stage 2.Heavy Attack - Stardome Meander can be cast in mid-air.QiMax 300 points.Casting Basic Attack - Drink Soul Stage 3, Basic Attack - Drink Soul Stage 4, Basic Attack - Devil's Bane Stage 3, or Basic Attack - Devil's Bane Stage 4 restores 50 points of Qi.Casting Dodge Counter - Nether Dive, Dodge Counter - Light Watch, Resonance Skill - Netherworld Traverse, Resonance Skill - Afterlife's Guide, or Intro Skill - Question the Tombs restores 100 points of Qi.Casting Resonance Liberation - Burial of Thousand Souls or casting Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander with Wayfarer's Mark restores 200 points of Qi.Fire of LifeMax 100 points.Casting Resonance Liberation - Burial of Thousand Souls grants 100 points of Fire of Life.All Fire of Life is cleared when Yinghuo ends.While in Yinghuo, if Fire of Life is not at 0 points, casting Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander consumes 25 points of Fire of Life, and the DMG Multiplier of this Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander is increased based on Jingran's Max HP: The DMG Multiplier of this Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander is increased for every 1000 points of Jingran's Max HP over 25000. Up to 25000 points of Jingran's Max HP count towards this effect.Nether to LightJingran's DEF is fixed at 0.Jingran gains Incoming Healing Bonus based on Max HP: For every 1000 points of Max HP, Jingran receives 6.2% Incoming Healing Bonus, up to 310%.Jingran gains Fusion DMG Bonus based on Max HP: For every 1000 points of Max HP, Jingran receives 1.5% Fusion DMG Bonus, up to 75%.Yang Changes, Yin UnitesJingran gains additional ATK based on Max HP: For every 1000 points of Max HP, Jingran gains 36 additional ATK, up to 1800.",
+        "multipliers": [
+          {
+            "Lv1": "8.25%*2+10.61%*3+69.53%",
+            "Lv10": "16.40%*2+21.09%*3+138.22%",
+            "Lv2": "8.93%*2+11.48%*3+75.23%",
+            "Lv3": "9.61%*2+12.35%*3+80.93%",
+            "Lv4": "10.55%*2+13.57%*3+88.91%",
+            "Lv5": "11.23%*2+14.44%*3+94.61%",
+            "Lv6": "12.01%*2+15.44%*3+101.16%",
+            "Lv7": "13.09%*2+16.83%*3+110.29%",
+            "Lv8": "14.17%*2+18.22%*3+119.41%",
+            "Lv9": "15.25%*2+19.61%*3+128.53%",
+            "Name": "Heavy Attack - Soul Raid DMG"
+          },
+          {
+            "Lv1": "12.09%+12.09%+24.18%+72.54%",
+            "Lv10": "24.04%+24.04%+48.08%+144.22%",
+            "Lv2": "13.09%+13.09%+26.17%+78.49%",
+            "Lv3": "14.08%+14.08%+28.15%+84.44%",
+            "Lv4": "15.47%+15.47%+30.93%+92.77%",
+            "Lv5": "16.46%+16.46%+32.91%+98.72%",
+            "Lv6": "17.60%+17.60%+35.19%+105.56%",
+            "Lv7": "19.18%+19.18%+38.36%+115.08%",
+            "Lv8": "20.77%+20.77%+41.53%+124.59%",
+            "Lv9": "22.36%+22.36%+44.71%+134.11%",
+            "Name": "Heavy Attack - Stardome Meander DMG"
+          },
+          {
+            "Lv1": "0.75%*2+0.96%*3+6.26%",
+            "Lv10": "1.48%*2+1.90%*3+12.44%",
+            "Lv2": "0.81%*2+1.04%*3+6.77%",
+            "Lv3": "0.87%*2+1.12%*3+7.29%",
+            "Lv4": "0.95%*2+1.23%*3+8.01%",
+            "Lv5": "1.02%*2+1.30%*3+8.52%",
+            "Lv6": "1.09%*2+1.39%*3+9.11%",
+            "Lv7": "1.18%*2+1.52%*3+9.93%",
+            "Lv8": "1.28%*2+1.64%*3+10.75%",
+            "Lv9": "1.38%*2+1.77%*3+11.57%",
+            "Name": "Heavy Attack - Soul Raid DMG Increase per 1,000 Max HP"
+          },
+          {
+            "Lv1": "1.09%+1.09%+2.18%+6.53%",
+            "Lv10": "2.17%+2.17%+4.33%+12.98%",
+            "Lv2": "1.18%+1.18%+2.36%+7.07%",
+            "Lv3": "1.27%+1.27%+2.54%+7.60%",
+            "Lv4": "1.40%+1.40%+2.79%+8.35%",
+            "Lv5": "1.49%+1.49%+2.97%+8.89%",
+            "Lv6": "1.59%+1.59%+3.17%+9.50%",
+            "Lv7": "1.73%+1.73%+3.46%+10.36%",
+            "Lv8": "1.87%+1.87%+3.74%+11.22%",
+            "Lv9": "2.02%+2.02%+4.03%+12.07%",
+            "Name": "Heavy Attack - Stardome Meander DMG Increase per 1,000 Max HP"
+          }
+        ],
+        "name": "Upstream Along Santu ",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "Casting Intro Skill - Question the Tombs, Resonance Skill - Encroaching Yin, or Resonance Skill - Scorching Yang grants Earth Charm.Earth CharmFor 15s, if Jingran is the active Resonator in the team, gain an unstackable Shield equal to 1.6% of Max HP + 700 that lasts for 5s when dealing damage. This effect can be triggered once every 0.5s. This Shield will not be passed on to the incoming Resonator.While Jingran is in the Yinghuo state, if he is the active Resonator in the team, he gains an unstackable Shield equal to 0.8% of Max HP + 350 that lasts for 5s when dealing damage. This effect can be triggered once every 0.5s. This Shield will not be passed on to the incoming Resonator.",
+        "multipliers": [],
+        "name": "Hark the Dust ",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "Upon entering combat, if Jingran's Ghost Shroud is below 25 points, restore it to 25 points. This effect can be triggered once every 4s.When nearby Resonators in the team other than Jingran gain a Shield, Jingran gains 2 points of Ghost Shroud. This effect can be triggered once every 0.5s.FixationUpon entering combat, Jingran gains Fixation. This effect can be triggered once every 4s.Casting Outro Skill - Rising Fortune and Ebbing Evil grants Fixation.When nearby Resonators in the team other than Jingran gain a Shield, Jingran gains 15 points of Ghost Shroud and removes Fixation.",
+        "multipliers": [],
+        "name": "Trace the Vestige ",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Attack the target, dealing Fusion DMG. Consume and convert all Ghost Shroud to equal stacks of Fortune in Disguise.Casting Question the Tombs restores 100 points of Qi.While in the Yin Vessel state, press or hold Normal Attack shortly after casting this skill to cast Basic Attack - Drink Soul Stage 2.While in the Yang Font state, press or hold Normal Attack shortly after casting this skill to cast Basic Attack - Devil's Bane Stage 2.Fortune in DisguiseMax 50 stacks. Each stack of Fortune in Disguise grants additional Fusion DMG Bonus based on Jingran's Max HP: For every 1000 points of Max HP, Jingran gains 0.05% additional Fusion DMG Bonus for 15s, up to 2.5% for each stack of Fortune in Disguise.Switching to another Resonator ends the effect.Ghost ShroudMax 50 points.When Jingran gains a Shield, he gains 1 point of Ghost Shroud. This effect can be triggered once every 0.5s.",
+        "multipliers": [
+          {
+            "Lv1": "100.00%",
+            "Lv10": "198.81%",
+            "Lv2": "108.20%",
+            "Lv3": "116.40%",
+            "Lv4": "127.88%",
+            "Lv5": "136.08%",
+            "Lv6": "145.51%",
+            "Lv7": "158.63%",
+            "Lv8": "171.75%",
+            "Lv9": "184.87%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Question the Tombs ",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Deal Fusion DMG equal to 795% of Jingran's ATK.",
+        "multipliers": [],
+        "name": "Rising Fortune and Ebbing Evil ",
+        "skill_type": "Outro Skill"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.While in Yin Vessel, press or hold Normal Attack shortly after casting this skill to Basic Attack - Drink Soul Stage 2.While in Yang Font, press or hold Normal Attack shortly after casting this skill to Basic Attack - Devil's Bane Stage 2.",
+        "multipliers": [],
+        "name": "Tune Break: Broadblade ",
+        "skill_type": "Forte Circuit"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "iuno",
+          "lupa"
+        ],
+        "commentary": "Jingran's best 2 team archetypes are with the one buffer built towards Heavy Attack damage dealers that use shields and Mono Fusion. Iuno is the former and Lupa enables the latter, making them Jingran's 2 best synergies at the moment, though using them on the same team isn't recommended as Lupa wants to use a full team of Fusion characters."
+      },
+      {
+        "characters": [
+          "mortefi",
+          "rebecca"
+        ],
+        "commentary": "Lupa's best partner in a Jingran team is Mortefi. He's a Fusion buffer for Heavy Attack damage dealers, so he enables Lupa while buffing Jingran by default. He can do so without Lupa on the team in a pinch, however Rebecca is generally a stronger Heavy Attack buffer if available (she just can't enable Lupa due to her being of the Electro element, so in Mono Fusion teams she will necessarily be worse)."
+      },
+      {
+        "characters": [
+          "the-shorekeeper",
+          "mornye",
+          "verina"
+        ],
+        "commentary": "Jingran scales with any general Support since there's no Support that's dedicated towards HP scalers or the Shield archetype. Generally, Shorekeeper is the most flexible and almost always the best idea. However, Mornye can be considered as a generally safe Support choice to enable Mono Fusion teams with Lupa. Verina is the permanently accessible Support option of choice if a replacement to Shorekeeper is needed."
+      }
+    ],
     "upgrade_materials": {
       "character_ascension": [],
       "skill_upgrades": []

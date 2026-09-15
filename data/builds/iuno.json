@@ -73,7 +73,7 @@
       {
         "commentary_details": "Has lower value for Main DPS Iuno due to a delayed Ultimate cast. Xiangli Yao's Signature Weapon is a perfectly acceptable alternative to Iuno â similarly to Jiyan's Signature on Augusta, it's an amazing second option thanks to the easily accessed 48% Resonance Liberation DMG Bonus that this weapon's effect provides on top of its high Base ATK and CRIT Rate stats.",
         "dupe_rank": "R1",
-        "percentage_performance": "84.10%",
+        "percentage_performance": "98.70%",
         "weapon_base_info": {
           "effect_description": "Gain {0} Attribute DMG Bonus. When using Resonance Liberation, the wielder gains {1} Resonance Liberation DMG Bonus for 8s. This effect can be extended by 5 seconds each time Resonance Skills are cast, up to 3 times.",
           "primary_stat_val": 587,
@@ -87,7 +87,7 @@
       {
         "commentary_details": "The best generalist Gauntlets option, providing an easily maintained 8% DEF Ignore, high Base ATK and CRIT DMG as well as ATK%. Unfortunately for anyone but Zani, the Spectro Frazzle DMG Amplify effect on this weapon is wasted, making it rank lower for Iuno than the above options.",
         "dupe_rank": "R1",
-        "percentage_performance": "80.40%",
+        "percentage_performance": "81.50%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Casting Basic Attack grants the following effects: Dealing damage ignores {1} of the target's DEF and Amplifies Spectro Frazzle DMG dealt by {2} for 6s. Retriggering the effect resets its duration.",
           "primary_stat_val": 587,
@@ -99,9 +99,37 @@
         "weapon_name": "Blazing Justice"
       },
       {
+        "commentary_details": "Significantly worse than Abyss Surges at R1. This Battle Pass exclusive provides CRIT Rate and a Resonance Liberation DMG increase. In spite of its low Base ATK (like all 4-stars), Stonard is a fantastic weapon to equip on Iuno, rivaling some of the lower-ranked 5-star choices.",
+        "dupe_rank": "R5",
+        "percentage_performance": "81.00%",
+        "weapon_base_info": {
+          "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Resonance Liberation DMG Bonus for 15s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 40.5,
+          "source": "Battle Pass"
+        },
+        "weapon_name": "Aether Strike"
+      },
+      {
+        "commentary_details": "Has significantly lower value for Main DPS Iuno due to a delayed Ultimate cast. Significantly worse than Abyss Surges at R1. This Battle Pass exclusive offers a big boost to ATK and Resonance Liberation DMG when casting Ultimate, all the while having a nice CRIT DMG secondary stat, making it one of the best options for Iuno in spite of the low Base ATK.",
+        "dupe_rank": "R5",
+        "percentage_performance": "80.30%",
+        "weapon_base_info": {
+          "effect_description": "When Resonance Skill is released, increases the caster's Resonance Liberation DMG Bonus by {0}, lasting for 15s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.2,
+          "source": "Pioneer Podcast"
+        },
+        "weapon_name": "Stonard"
+      },
+      {
         "commentary_details": "Simple ATK and CRIT Rate stat-stick for Iuno, who does not benefit from this weapon's Heavy Attack DMG-focused effect.",
         "dupe_rank": "R1",
-        "percentage_performance": "77.90%",
+        "percentage_performance": "79.00%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Every time Basic Attack or Intro Skill is cast, Heavy Attack DMG Bonus increases by {1} for 3s.",
           "primary_stat_val": 587,
@@ -113,9 +141,9 @@
         "weapon_name": "Tragicomedy"
       },
       {
-        "commentary_details": "Strongest permanently available option for Iuno that acts as a simple ATK and CRIT Rate stat-stick.",
+        "commentary_details": "Strongest permanently available option for Iuno that acts as a simple ATK and CRIT Rate stat-stick.\n",
         "dupe_rank": "R1",
-        "percentage_performance": "77.90%",
+        "percentage_performance": "79.00%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Dealing damage to targets under Tune Strain: Interfered grants {1} Basic Attack DMG Bonus for 3s, stacking up to 4 times. This effect can be triggered once every 0.5s. Retriggering the effect resets its duration.",
           "primary_stat_val": 587,
@@ -129,7 +157,7 @@
       {
         "commentary_details": "This permanent banner 5-star provides some Basic and Skill DMG increases that are completely wasted on Iuno â  but fret not as its massive Base ATK and ATK% stats make it rank above the majority of 4-star weapons.",
         "dupe_rank": "R1",
-        "percentage_performance": "72.00%",
+        "percentage_performance": "74.70%",
         "weapon_base_info": {
           "effect_description": "Increases Energy Regen by {0}. When hitting a target with Resonance Skill, increases Basic Attack DMG Bonus by {1}, lasting for {2}. When hitting a target with Basic Attacks, increases Resonance Skill DMG Bonus by {3}, lasting for {4}s.",
           "primary_stat_val": 587,
@@ -141,37 +169,9 @@
         "weapon_name": "Abyss Surges"
       },
       {
-        "commentary_details": "Has significantly lower value for Main DPS Iuno due to a delayed Ultimate cast. Significantly worse than Abyss Surges at R1. This Battle Pass exclusive offers a big boost to ATK and Resonance Liberation DMG when casting Ultimate, all the while having a nice CRIT DMG secondary stat, making it one of the best options for Iuno in spite of the low Base ATK.",
+        "commentary_details": "Provides some extra Energy and ATK when casting a Skill, negating any Energy requirements on Iuno. Overall one of the better 4-star options that doesn't require the Battle Pass, but ranks below every 5-star due to low base stats.",
         "dupe_rank": "R5",
-        "percentage_performance": "69.40%",
-        "weapon_base_info": {
-          "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Resonance Liberation DMG Bonus for 15s.",
-          "primary_stat_val": 412,
-          "rarity": 4,
-          "secondary_stat_name": "CRIT DMG",
-          "secondary_stat_val": 40.5,
-          "source": "Battle Pass"
-        },
-        "weapon_name": "Aether Strike"
-      },
-      {
-        "commentary_details": "Significantly worse than Abyss Surges at R1. Calculations assume Closing Refrain is used. This Battle Pass exclusive provides CRIT Rate and a Resonance Liberation DMG increase. In spite of its low Base ATK (like all 4-stars), Stonard is a fantastic weapon to equip on Iuno, rivaling some of the lower-ranked 5-star choices.",
-        "dupe_rank": "R5",
-        "percentage_performance": "66.40%",
-        "weapon_base_info": {
-          "effect_description": "When Resonance Skill is released, increases the caster's Resonance Liberation DMG Bonus by {0}, lasting for 15s.",
-          "primary_stat_val": 412,
-          "rarity": 4,
-          "secondary_stat_name": "CRIT Rate",
-          "secondary_stat_val": 20.2,
-          "source": "Pioneer Podcast"
-        },
-        "weapon_name": "Stonard"
-      },
-      {
-        "commentary_details": "Calculations assume Closing Refrain is used. Provides some extra Energy and ATK when casting a Skill, negating any Energy requirements on Iuno. Overall one of the better 4-star options that doesn't require the Battle Pass, but ranks below every 5-star due to low base stats.",
-        "dupe_rank": "R5",
-        "percentage_performance": "-",
+        "percentage_performance": "67.40%",
         "weapon_base_info": {
           "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
           "primary_stat_val": 462,
@@ -185,7 +185,7 @@
       {
         "commentary_details": "Provides some extra ATK increase over Legend of Drunken Hero which is dependent on not getting hit to upkeep. Even in the best conditions for this weapon, it's only slightly higher than the craftable, making it not recommended if better options are available.",
         "dupe_rank": "R5",
-        "percentage_performance": "-",
+        "percentage_performance": "64.00%",
         "weapon_base_info": {
           "effect_description": "When Resonance Liberation is released, grants 3 stack(s) of Iron Armor. Each stack increases ATK and DEF by {0}, stacking up to 3 time(s). When the Resonator takes damage, reduces the number of stacks by 1.",
           "primary_stat_val": 412,
@@ -197,9 +197,9 @@
         "weapon_name": "Hollow Mirage"
       },
       {
-        "commentary_details": "Significantly stronger in a Main DPS team featuring Ciaccona, ranking above all non-BP & 5-star options. Best 4-star choice that doesn't require a single pull to acquire â simply requires weekly boss materials to craft and increases ATK by a good amount, especially when attacking enemies with Negative Statuses inflicted on them for an even higher ATK boost. Falls behind any above options due to not giving good stats (just ATK%).",
+        "commentary_details": "Significantly stronger in a Main DPS team featuring Ciaccona. Best 4-star choice that doesn't require a single pull to acquire â simply requires weekly boss materials to craft and increases ATK by a good amount, especially when attacking enemies with Negative Statuses inflicted on them for an even higher ATK boost. Falls behind any above options due to not giving good stats (just ATK%).",
         "dupe_rank": "R5",
-        "percentage_performance": "66.40%",
+        "percentage_performance": "60.80%",
         "weapon_base_info": {
           "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
           "primary_stat_val": 462,
@@ -222,10 +222,10 @@
       "rarity_stars": 5,
       "slug": "iuno",
       "updates": {
-        "last_major_build_patch": "3",
-        "last_profile_update": "20/August/2026",
-        "last_review_patch": "2.6",
-        "last_updated": "20/August/2026"
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "10/September/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Gauntlets"
     },
@@ -233,7 +233,7 @@
       {
         "slot_1": {
           "alternatives": [],
-          "character_name": "yangyang-xuanling, augusta"
+          "character_name": "jingran, augusta"
         },
         "slot_2": {
           "alternatives": [],
@@ -241,12 +241,12 @@
         },
         "slot_3": {
           "alternatives": [
-            "the-shorekeeper"
+            "verina"
           ],
-          "character_name": "chisa"
+          "character_name": "the-shorekeeper"
         },
         "team_name": "Team #1: Best Team",
-        "team_notes": "Chisa is only best in slot with yangyang-xuanling - prioritize Shorekeeper with Augusta."
+        "team_notes": ""
       },
       {
         "slot_1": {
@@ -342,37 +342,34 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Damage-focused character, implying she really wants a properly strong weapon equipped to justify her presence on the team over already established options (most importantly Mortefi);",
-        "Gives up DMG Amplification effects to herself when swapping out, not just the incoming character — hence she is quite quickswap-unfriendly;",
+        "Damage-focused character, implying she really wants a properly strong weapon equipped to justify her presence as a Main DPS/over other Heavy Attack buffing options like Rebecca or Mortefi in a certain amount of her possible teams;",
+        "A ton of her damage is very single-target-oriented, meaning most of her attacks aside from her Ultimate are pretty ineffective in AoE/multi-wave content;",
+        "Gives up DMG Amplification effects to herself when swapping out, not just the incoming character, also is mid-air for a lot of her rotation which makes quickswap awkward generally;",
         "Prone to interruption mid-air, which can slow down her rotations a lot — watch out for enemy attacks and make sure to dodge;",
         "That Ultimate animation will be a pro to some of you. Not to the ones who wrote this, sorry not sorry."
       ],
       "pros": [
-        "Jack of all trades, master of all. Main DPS, Sub-DPS, buffing, healing, stamina restoration — Iuno does everything;",
-        "Gives shields to herself while constantly healing on most of her attacks, difficult to die from consecutive small hits;",
-        "Very flexible team-wise thanks to her ability to fill many roles, extend or shorten her rotation to whatever's necessary, and sheds some light on less-used characters who will find a purpose with her on the team;",
-        "Wait... Kuro ACTUALLY provided a proper shortened description feature this time?!",
+        "Many supportive perks with high damage, including Heavy Attack-related buffs, Healing, Stamina restoration and more;",
+        "The best Support for Jingran at the moment, even though she's relatively old she has plenty of reason to be used as a top-performing Hybrid for a modern team;",
+        "At the top of the late 2.x generation in terms of Main DPS as well, alternative rotation options and the help of Lynae allow her to work as both a Main DPS and buffing character;",
+        "Very flexible team-wise thanks to her ability to fill many roles, extend or shorten her rotation to whatever's necessary;",
         "One of her Ultimate voicelines (\"Answer my call\") kind of sounds like an angry mother, and honestly, that's really funny."
       ]
     },
     "ratings": {
       "dps_ratings": {
         "tower_of_adversity": {
-          "tags": [
-            "Sustain"
-          ],
+          "tags": [],
           "tier": "T1"
         },
         "whimpering_wastes": {
-          "tags": [
-            "Sustain"
-          ],
-          "tier": "T1.5"
+          "tags": [],
+          "tier": "T4"
         }
       },
       "value_tier_ratings": {
         "tower_of_adversity_value": {
-          "tier": "T1.5"
+          "tier": "T2"
         },
         "whimpering_wastes_value": {
           "tier": "T4"
@@ -423,7 +420,7 @@
     "review": {
       "sections": [
         {
-          "heading": "Review",
+          "heading": "Summary",
           "paragraphs": [
             "Iuno is a 5-star Aero Gauntlets character who can accomplish a wide array of goals on the team. She functions as an effective mix of support and damage, as she is able to heal the team, provide shields to herself, but also deal a ton of damage by herself and even buff the incoming character's Heavy Attack damage. Iuno is a character of many facets, so let's quickly explain her kit before going into the intricacies of her position in the meta."
           ]
@@ -440,26 +437,24 @@
             "Moonbow Basic Attacks (50 points for the whole 3-chain);",
             "Moonbow Skills, called Arc Beyond The Edge (25 points per skill, 2 charges).",
             "Every enhanced attack gives lots of extra Concerto Energy and also deal higher damage, making them a key component of her rotations.",
-            "As you can see, we already can tell a full Basic Attack string and 2 skills consuming the full Sentience bar — that's right, that's basically what Iuno's rotation is all about.",
-            "It is however worth noting that her attacks will be enhanced so long as any amount of Sentience is available — the attack gets enhanced all the same whether there's 1 or 25 Sentience available per skill, for example. It only consumes up to that maximum. We abuse this in her Main DPS rotation to take her damage to new heights.",
-            "But before we get too detailed here — how do we access the Full Moon stance? We first need to enter Lunar Cycle (as detailed prior) then cast a jump attack, called Flux. This makes Iuno enter Full Moon Stance and she's ready to begin the main part of her rotation at that point."
+            "It is however worth noting that her attacks will be enhanced so long as any amount of Sentience is available - the attack gets enhanced all the same whether there's 1 or 25 Sentience available per skill, for example. It only consumes up to that maximum. We abuse this in almost all of her rotations to take her damage and Concerto Energy generation to new heights.",
+            "But before we get too detailed here - how do we access the Full Moon stance? We first need to enter Lunar Cycle (as detailed prior) then cast a jump attack, called Flux. This makes Iuno enter Full Moon Stance and she's ready to begin the main part of her rotation at that point."
           ]
         },
         {
           "heading": "Basic Attacks",
           "paragraphs": [
-            "Iuno's standard Basic Attacks and Moonring Basic Attacks are all unused in her rotations. So they're actually pretty skippable. However, her Moonbow Basic Attacks are used plenty, particularly in her Main DPS rotations. They deal a lot of damage, generate a lot of Concerto Energy and consume a lot of Sentience. The third Moonbow Basic Attack is a particularly lengthy 2-parter and makes for a great Swap Cancel window.",
-            "Do note that Iuno's Moonbow Basic 3 deals much more damage than the first two, so it's heavily recommended to go for the full chain. On the instance that an incoming attack has to be dodged though, worry not as Iuno's Moonbow Dodge Counter packs just as much of a punch."
+            "Iuno's standard Basic Attacks and Moonring Basic Attacks are all unused in her rotations. So they're actually pretty skippable. However, her Moonbow Basic Attacks are used plenty, particularly in her Main DPS rotations. They deal a lot of damage, generate a lot of Concerto Energy and consume a lot of Sentience, so we will make extensive use of them for DPS Iuno."
           ]
         },
         {
           "heading": "Skill & Ultimate",
           "paragraphs": [
             "Iuno has a lot of skills, but she only really ever wants to use two.",
-            "The first of which is Closing Refrain: It is accessed after her Intro, plain and simple. It deals a lot of damage but is not necessary to her Concerto rotation — nonetheless, it's great to use as an extension to her rotation if it's necessary for her to take up more field time to align with your team's cooldowns, and it's also completely worth using as a Main DPS thanks to the Sentience generation it provides.",
+            "The first of which is Closing Refrain: It generates extra Sentience and Concerto on cast. It can either be interrupted instantly by her Ultimate in her Hybrid rotations to give her a bit of a Concerto boost to skip out on some lengthier attacks while still getting her Outro off, or be used fully in her DPS rotation to deal a bit of extra damage and enter Lunar Cycle without immediately making use of the Ultimate.",
             "It can also be mandatory to use as a means to activate certain weapon effects; keep this in mind depending on your build!",
-            "The second skill is Arc Beyond The Edge: This is her Moonbow stance Skill and it has up to 2 charges, which we always use in her rotation. They can be animation-cancelled by her Ultimate, similarly to Ciaccona's Forte Heavy Attack (where we use the Ultimate right after the projectiles have been shot). It also makes for a good rotation finisher due to its Concerto Energy being instantly generated, and the animation being fully Swap Cancellable.",
-            "Lastly, Iuno's Ultimate makes her enter Lunar Cycle, and can instantly cancel any ability that is used before it. It also generates a ton of Sentience and is one of the 2 contributors to stacking up a big chunk of DMG Amplification via one of her Inherent Skills. And of course, it deals a ton of damage on hit."
+            "The second skill is Arc Beyond The Edge: This is her Moonbow stance Skill and it has up to 2 charges, which we always use in her rotation. They can be animation-cancelled, similarly to Ciaccona's Forte Heavy Attack (where we use the Ultimate right after the projectiles have been shot).",
+            "Lastly, Iuno's Ultimate makes her enter Lunar Cycle, and can instantly cancel any ability that is used before it. It also generates a ton of Sentience and is one of the 2 contributors to stacking up a big chunk of DMG Amplification via one of her Inherent Skills. And of course, it deals a ton of damage in a wide AoE on hit."
           ]
         },
         {
@@ -467,20 +462,19 @@
           "paragraphs": [
             "Iuno has buffs that she gives herself and buffs that she provides to the whole team. Let's detail the buffs she gives herself first:",
             "Blessing of the Wan Light (Inherent Skill): Iuno gets 4% DMG Amplification per stack of Blessing for 10s, up to 10 times. She gains 5 stacks by using an Intro, and 5 by using her Ultimate. This effect ends if she is switched off the field.",
-            "Waxing Ascent (Inherent Skill): Whenever Iuno casts any skill at all, she grants 1 very small Shield to herself (this only serves as a means to trigger the Crown of Valor Echo set and her dedicated Signature weapon effect, the Shield itself will not protect you from any attack except a flick of a finger).",
+            "Waxing Ascent (Inherent Skill): Whenever Iuno casts any attack, she grants 1 very small Shield to herself (this only serves as a means to trigger the Crown of Valor Echo set and her dedicated Signature weapon effect, the Shield itself will not protect you from any attack except a flick of a finger).",
             "Now for the buffs she gives to the team:",
             "Outro: Grants 50% Heavy Attack DMG to the next character switched in for 14s, expires on swap. Super strong, generically applicable buff. Also deals a small hit of damage.",
-            "Full Moon Domain: Accessed via a special Heavy Attack which can only be cast at full Concerto Energy and deals a small amount of damage, Iuno can generate this domain which can grant stacks of Blessing (the same ones she gives herself) in the same manner, being if the incoming character can apply Shields to themselves multiple times. This is only usable by Augusta and will ideally only be used if Augusta is in the team.",
-            "Healing: It is worth noting the Full Moon domain mentioned earlier, as well as the special Heavy Attack, both generate great amounts of healing, the domain granting healing as well as Stamina restoration over time. Additionally, all of Iuno's Sentience-Enhanced attacks all give a small amount of healing to the team. If healing is particularly desired by the player, casting the Full Moon Domain can be considered."
+            "Full Moon Domain: Accessed via a special Heavy Attack which can only be cast at full Concerto Energy and deals a small amount of damage, Iuno can generate this domain which can grant stacks of Blessing (the same ones she gives herself) in the same manner, being if the incoming character can apply Shields to themselves multiple times. This is only usable by Augusta and Jingran.",
+            "Healing: The Full Moon domain mentioned earlier, as well as the special Heavy Attack, both generate great amounts of healing, the domain granting healing as well as Stamina restoration over time. Additionally, all of Iuno's Sentience-Enhanced attacks all give a small amount of healing to the team."
           ]
         },
         {
           "heading": "Meta Position & Conclusion",
           "paragraphs": [
-            "Iuno is strong. Quite strong, but don't be fooled as she is not quite as meta-defining as a Shorekeeper, a Cartethyia, or even an Augusta. The truth of the matter is, while Iuno fulfills many roles and is excellent at all of them, the characters she wants to buff work completely fine on their own with the F2P-accessible teammate Mortefi. Mortefi gives Heavy Attack DMG Bonus, can provide lots of buffs via the Moonlit Clouds or Empyrean Anthem sets and the Static Mist weapon buff being a pistol user. Additionally, his rotation is shorter than Iuno's and he still holds a good chunk of personal damage in his own right.",
-            "However, we'll repeat ourselves here — in the meta, Iuno is REALLY strong and competes with some of the best Main DPS in the game even though she's intended as a buffer, which is a really good surprise and it adds to her solo pull value a lot. With that being said, as a Support who also wants to deal damage, getting a limited weapon becomes all the more important for her to really separate herself from Mortefi, and while she is a step above him in any situation, Iuno could be a redundant pull for many. In fact, Augusta and Jiyan don't need Iuno.",
-            "But that's not saying everything — while Augusta and Jiyan don't need Iuno, Iuno doesn't need neither Jiyan nor Augusta all the same. In fact, playing alongside Ciaccona, or even Jianxin, as well as Aero Rover, she'll be able to take down bosses all on her own; even though she was intended as a buffing character. She truly is a force to be reckoned with, particularly considering she gets extra team utility in the form of healing and stamina restoration — if the player desires more of it on their team, that is.",
-            "In conclusion, Iuno is a great character who definitely separates herself from Mortefi by dealing higher personal damage, and having a higher buffing potential; but please keep in mind the characters she wants to buff can work completely fine without her on the team — their ceiling only gets raised even higher, but they retain a good floor nonetheless. On the other hand, Iuno herself is a great single-value pull by virtue of her Main DPS potential, and we completely think you should pull Iuno if you like her. She slots in a lot of teams, using different playstyles, and she's effective at all of them!"
+            "Iuno is a very strong meta contender who just recently got a huge buff to her meta viability in the form of Jingran. Jingran is a modern Heavy Attack DPS who uses the same type of Shield generation mechanic that Augusta relies on, and as we already know from Augusta, Iuno is a big upgrade to this kind of team's damage ceiling. Sure enough, Iuno is a strong Hybrid buffer for Jingran, Augusta, but also Heavy Attack damage dealers at large, thanks to her great amount of personal damage and great Heavy Attack-focused buffs.",
+            "Additionally, Iuno doesn't just limit herself to this. Lynae was a huge upgrade to her damage ceiling as a Main DPS, and while she only had Ciaccona as a general Aero Support before then, Lynae's massive Liberation DMG-focused buffing profile makes her a very underrated Main DPS capable of rivaling with the rest of her late 2.x peers in their best modern teams.",
+            "In conclusion, Iuno is a meta contender who's here to stay, both as a Main DPS and a Hybrid buffer. The multi-roled Moon Priestess can prove to be a worthwhile pickup to many accounts looking to flesh out the teams of their Heavy Attack damage dealers, with room to grow in the future alongside future Heavy Attack DPS releases."
           ]
         }
       ],
@@ -488,89 +482,83 @@
     },
     "rotations": [
       {
-        "rotation_name": "Standard Sub DPS Rotation",
+        "rotation_name": "Standard Hybrid Rotation:",
         "steps": [
           "Intro",
+          "Skill: Closing Refrain (Instantly interrupt via Echo/Ultimate)",
+          "If on Moonlit Clouds: Echo (Instantly interrupt via Ultimate)",
           "Ultimate",
-          "Jump Attack: Flux - Moonbow",
-          "Enhanced Moonbow Basic P1",
-          "Enhanced Moonbow Basic P2",
-          "Enhanced Moonbow Basic P3",
-          "Enhanced Skill: Arc Beyond The Edge",
-          "Enhanced Skill: Arc Beyond The Edge",
-          "Forte: Heavy Attack: Absolute Fullness (Swap)",
+          "Jump: Flux - Moonbow (Instantly interrupt via Dash)",
+          "Dash",
+          "Basic: Moonbow Basic 1",
+          "Basic: Moonbow Basic 2 (Interrupt on 1st hit via Skill)",
+          "Skill: Arc Beyond The Edge (Animation cancel after projectiles were fired by Dash)",
+          "Dash",
+          "Basic: Moonbow Basic 1",
+          "Basic: Moonbow Basic 2 (Interrupt on 1st hit via Skill)",
+          "Skill: Arc Beyond The Edge (Animation cancel after projectiles were fired by Heavy)",
+          "Heavy: Absolute Fullness (Swap)",
           "Outro"
         ]
       },
       {
-        "rotation_name": "Standard Sub DPS Rotation — without Augusta",
+        "rotation_name": "Semi-DPS Rotation:",
         "steps": [
           "Intro",
+          "Skill: Closing Refrain (Cancel animation endlag via Ultimate)",
           "Ultimate",
-          "Jump Attack: Flux - Moonbow",
-          "Enhanced Moonbow Basic P1",
-          "Enhanced Moonbow Basic P2",
-          "Enhanced Moonbow Basic P3",
-          "Enhanced Skill: Arc Beyond The Edge",
-          "Enhanced Skill: Arc Beyond The Edge (Swap)",
+          "Jump: Flux: Moonbow (Interrupt animation via Dash)",
+          "Dash",
+          "Basic: Moonbow Basic 1 (Cancel animation endlag via Skill)",
+          "Skill: Arc Beyond The Edge (Cancel animation after projectiles were fired by Dash)",
+          "Basic: Moonbow Basic 1",
+          "Basic: Moonbow Basic 2",
+          "Basic: Moonbow Basic 3 (Cancel animation endlag via Skill)",
+          "Skill: Arc Beyond The Edge (Cancel animation after projectiles were fired by Heavy)",
+          "Heavy: Absolute Fullness (Swap)",
           "Outro"
         ]
       },
       {
-        "rotation_name": "Extended Sub DPS Rotation",
+        "rotation_name": "Main DPS Rotation:",
         "steps": [
           "Intro",
           "Skill: Closing Refrain",
-          "Jump Attack: Flux - Moonbow",
-          "Enhanced Skill: Arc Beyond The Edge (cancel this attack using Ultimate once Iuno shot her projectiles)",
+          "Jump: Flux - Moonbow",
+          "Basic: Moonbow Basic 1",
+          "Basic: Moonbow Basic 2",
+          "Basic: Moonbow Basic 3 (Cancel animation endlag by Skill)",
+          "Skill: Arc Beyond The Edge (Animation cancel after projectiles were fired by Ultimate)",
           "Ultimate",
-          "Enhanced Moonbow Basic P1",
-          "Enhanced Moonbow Basic P2",
-          "Enhanced Moonbow Basic P3",
-          "Enhanced Skill: Arc Beyond The Edge (Swap here if not casting Absolute Fullness)",
-          "(OPTIONAL) Heavy Attack: Absolute Fullness (Swap)",
+          "Basic: Moonbow Basic 1",
+          "Basic: Moonbow Basic 2",
+          "Basic: Moonbow Basic 3 (Cancel animation endlag by Skill)",
+          "Skill: Arc Beyond The Edge (Animation cancel after projectiles were fired by Heavy)",
+          "Heavy: Absolute Fullness (Swap)",
           "Outro"
         ]
       },
       {
-        "rotation_name": "Main DPS Rotation",
+        "rotation_name": "S6 DPS Rotation:",
         "steps": [
           "Intro",
-          "Skill: Closing Refrain",
-          "Jump Attack: Flux - Moonbow",
-          "Enhanced Moonbow Basic P1",
-          "Enhanced Moonbow Basic P2",
-          "Enhanced Moonbow Basic P3",
-          "Enhanced Skill: Arc Beyond The Edge (cancel this attack using Ultimate once Iuno shot her projectiles)",
+          "Skill: Closing Refrain (Instantly interrupt via Ultimate)",
           "Ultimate",
-          "Enhanced Moonbow Basic P1",
-          "Enhanced Moonbow Basic P2",
-          "Enhanced Moonbow Basic P3",
-          "Enhanced Skill: Arc Beyond The Edge",
-          "Moonbow Basic P1",
-          "Moonbow Basic P2",
-          "Moonbow Basic P3 (Swap)",
-          "Outro"
-        ]
-      },
-      {
-        "rotation_name": "S6-Only Main DPS Rotation",
-        "steps": [
-          "Intro",
-          "Skill: Closing Refrain",
-          "Jump Attack: Flux - Moonbow",
-          "Enhanced Skill: Arc Beyond The Edge (cancel this attack using Ultimate once Iuno shot her projectiles)",
-          "Ultimate",
-          "Enhanced Moonbow Basic P1",
-          "Enhanced Moonbow Basic P2",
-          "Enhanced Moonbow Basic P3",
-          "Enhanced Skill: Arc Beyond The Edge",
-          "Heavy Attack: Absolute Fullness",
-          "Enhanced Moonbow Basic P1",
-          "Enhanced Moonbow Basic P2",
-          "Enhanced Moonbow Basic P3",
-          "Enhanced Skill: Arc Beyond The Edge",
-          "Enhanced Skill: Arc Beyond The Edge (Swap)",
+          "Jump: Flux - Moonbow (Instantly interrupt via Dash)",
+          "Dash",
+          "Basic: Moonbow Basic 1",
+          "Basic: Moonbow Basic 2",
+          "Basic: Moonbow Basic 3",
+          "Skill: Arc Beyond The Edge (Animation cancel after projectiles were fired by Dash)",
+          "Dash",
+          "Skill: Arc Beyond The Edge (Animation cancel after projectiles were fired by Heavy)",
+          "Heavy: Absolute Fullness",
+          "Basic: Moonbow Basic 1",
+          "Basic: Moonbow Basic 2",
+          "Basic: Moonbow Basic 3",
+          "Skill: Arc Beyond The Edge (Animation cancel after projectiles were fired by Dash)",
+          "Dash",
+          "Skill: Arc Beyond The Edge (Swap when projectiles were fired)",
           "Outro"
         ]
       }
@@ -1340,11 +1328,11 @@
     "synergies": [
       {
         "characters": [
+          "jingran",
           "augusta",
-          "yangyang-xuanling",
           "jiyan"
         ],
-        "commentary": "As the best teammates for Hybrid Iuno, it's no surprise the Sun & Moon duo is still a very strong team because Iuno is able to provide a whopping 90% total DMG Amplification to Augusta thanks to her taking advantage of her Full Moon Domain. yangyang-xuanling is however stronger than this pairing despite only using 50% Heavy DMG Amplification from her Outro, by virtue of her insane base damage alone. Jiyan isn't a bad choice at all though, since he can also use Iuno's Outro while being able to pair with Ciaccona to form a good Mono Aero team."
+        "commentary": "As the best teammates for Hybrid Iuno, it's no surprise that our 2 Shield Heavy Attack damage dealers Jingran and Augusta are her best options, being able to fully benefit from her 90% Heavy DMG Amplification when fully ramped up. Jiyan isn't a bad choice, since he can also use Iuno's Outro while being able to pair with Ciaccona to form a decent Mono Aero team."
       },
       {
         "characters": [

@@ -170,10 +170,10 @@
       "rarity_stars": 5,
       "slug": "sigrika",
       "updates": {
-        "last_major_build_patch": "3.5",
-        "last_profile_update": "20/August/2026",
-        "last_review_patch": "3.2",
-        "last_updated": "20/August/2026"
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "10/September/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Gauntlets"
     },
@@ -243,7 +243,7 @@
         "Lacks good F2P teammates and F2P weapons. Basically a necessity to at least have Qiuyuan or Lucilla as a readily available teammate, and her Signature is a desirable upgrade as well to get her up to the top-level performance she can output."
       ],
       "pros": [
-        "One of the best overall DPS performances in the game within her best team, given the right amount of investment. Arguably the strongest WhiWa DPS and an insane ToA/Matrix DPS too;",
+        "One of the best overall DPS performances in the game within her best team, given the right amount of investment. One of the strongest WhiWa DPS by a big margin and an insane ToA/Matrix DPS too;",
         "Can buff the team's Aero and Echo skill damage, providing extra synergies;",
         "Has built-in Stun mechanics that teammates can exploit via her Outro, making full team rotations easier. Can also group and stun enemies in her own rotation to handle different battle situations."
       ]
@@ -252,22 +252,20 @@
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
-            "Control",
-            "Gather"
+            "Echo"
           ],
-          "tier": "T0"
+          "tier": "T0.5"
         },
         "whimpering_wastes": {
           "tags": [
-            "Control",
-            "Gather"
+            "Echo"
           ],
           "tier": "T0"
         }
       },
       "value_tier_ratings": {
         "tower_of_adversity_value": {
-          "tier": "T0.5"
+          "tier": "T1"
         },
         "whimpering_wastes_value": {
           "tier": "T0"
@@ -344,9 +342,9 @@
         {
           "heading": "Meta Position & Conclusion",
           "paragraphs": [
-            "Sigrika is a very, very strong DPS, but this comes at a cost. Almost all of her damage is Echo Skill DMG, which basically no character can buff aside from Qiuyuan or Lucilla. To make matters worse, Sigrika has 3 different layers of built-in mechanics that depend on the amount of Echo Skills cast in the team, built into her Forte and Inherent Skills. They each give significant amounts of DMG Bonus and DMG Amplification on her highest-damaging abilities. This makes her performance very reliant on Qiuyuan or Lucilla, as her strongest alternatives come in the form of characters like Lynae and Mornye who really pale in comparison.",
+            "Sigrika is a strong DPS, but this comes at a cost. Almost all of her damage is Echo Skill DMG, which basically no character can buff aside from Qiuyuan or Lucilla. To make matters worse, Sigrika has 3 different layers of built-in mechanics that depend on the amount of Echo Skills cast in the team, built into her Forte and Inherent Skills. They each give significant amounts of DMG Bonus and DMG Amplification on her highest-damaging abilities. This makes her performance very reliant on Qiuyuan or Lucilla, as her strongest alternatives come in the form of characters like Lynae and Mornye who really pale in comparison.",
             "Overall, Sigrika's reliance on Qiuyuan or Lucilla as teammates is very much felt, and she is stranded for other teammate options currently due to the amount of mechanics she has that are tied to having a higher amount of Echo Skill casts than normal in the team, as well as her more exclusive damage type which has no viable permanently accessible options. While she definitely has strong potential, her opportunity cost should definitely be kept in mind, especially considering she also lacks strong F2P weapon alternatives unlike her predecessors Luuk Herssen and Aemeath.",
-            "In conclusion, while Sigrika is a super strong DPS, she has a major flaw in regards to opportunity cost, which makes her pull value worth questioning depending on your account. But if you give Sigrika the conditions she needs to shine, she'll absolutely serve you as one of the strongest DPS in the game. Her modern damage numbers are nothing to scoff at, as she is probably the strongest WhiWa DPS thanks to her ridiculous AoE and fast rotation. Plus, she is one of the strongest in ToA/Matrix too,  all this so long as she is provided with the sufficient amount of investment and surrounded by the proper teammates."
+            "In conclusion, while Sigrika is a super strong DPS, she has a major flaw in regards to opportunity cost, which makes her pull value worth questioning depending on your account. But if you give Sigrika the conditions she needs to shine, she'll absolutely serve you as one of the strongest DPS in the game. Her modern damage numbers are nothing to scoff at, as she is easily one of the strongest WhiWa DPS thanks to her ridiculous AoE and fast rotation. Plus, she is one of the strongest in ToA/Matrix too,  all this so long as she is provided with the sufficient amount of investment and surrounded by the proper teammates."
           ]
         }
       ],
@@ -373,13 +371,18 @@
         ]
       },
       {
-        "rotation_name": "Double Outburst",
+        "rotation_name": "Double Outburst Opener",
         "steps": [
           "Ultimate",
           "Skill",
           "Basic 3",
           "Basic 4",
-          "Basic: Elucidated (Swap)",
+          "Basic: Elucidated (Swap)"
+        ]
+      },
+      {
+        "rotation_name": "Double Outburst Loop",
+        "steps": [
           "Intro",
           "Heavy: Outburst",
           "Basic 2",

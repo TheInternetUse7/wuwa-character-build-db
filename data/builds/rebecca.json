@@ -89,7 +89,7 @@
       {
         "commentary_details": "Lynae's Signature provides Rebecca with a constant Basic DMG Bonus self-buff as well as significant ATK and CRIT Rate bonuses. While it doesn't offer the team-wide DMG Bonus buff as Rebecca can't apply Tune Rupture, it comes out on top of other options below it by sheer personal damage increase alone, making it a very strong alternative to her Signature.",
         "dupe_rank": "R1",
-        "percentage_performance": "96.30%",
+        "percentage_performance": "92.70%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Casting Intro Skill or hitting the target with Basic Attack increases the wielder's Basic Attack DMG by {1} for 4s. Each time the wielder inflicts Tune Rupture - Shifting or Tune Strain - Shifting during Basic Attacks, all DMG dealt by Resonators in the team is increased by {2} for 30s, up to 3 stacks. Effects of the same name cannot be stacked.",
           "primary_stat_val": 587,
@@ -103,7 +103,7 @@
       {
         "commentary_details": "Best permanent option when privileging Team DPS. While this weapon offers lower personal damage than a lot of others below it, the ATK% buff it offers to the next incoming character via Outro makes it a very strong weapon for any Pistols 2nd slot buffer, and Rebecca is no exception, as this weapon constitutes a perfect permanent option and alternative to her Signature.",
         "dupe_rank": "R1",
-        "percentage_performance": "86.00%",
+        "percentage_performance": "83.20%",
         "weapon_base_info": {
           "effect_description": "Increases Energy Regen by {0}. When Outro Skill is released, increases the switched-in Resonator's ATK by {1}, stacking up to 1 time(s). This effect lasts for 14s.",
           "primary_stat_val": 587,
@@ -117,7 +117,7 @@
       {
         "commentary_details": "This weapon hones in on Rebecca's personal damage more than Static Mist, and it sacrifices team DPS to increase her own damage instead. Generally, this trade-off is not worth it in a full team context, but it's almost as good as Static Mist still and a good alternative to her Signature as well.",
         "dupe_rank": "R1",
-        "percentage_performance": "93.30%",
+        "percentage_performance": "90.60%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. When a Resonator in the team casts a Tune Break skill, it grants {1} All-Attribute DMG Bonus to the wielder for 14s.",
           "primary_stat_val": 587,
@@ -131,7 +131,7 @@
       {
         "commentary_details": "Simple ATK and CRIT Rate stat-stick for Rebecca, who does not benefit from this weapon's Aero Erosion-related effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "88.70%",
+        "percentage_performance": "86.30%",
         "weapon_base_info": {
           "effect_description": "ATK is increased by {0}. Inflicting Aero Erosion on the target gives {1} Aero DMG Bonus for 10s. Hitting targets with Aero Erosion reduces their Aero RES by {2} for 20s. Effects of the same name cannot be stacked.",
           "primary_stat_val": 500,
@@ -145,7 +145,7 @@
       {
         "commentary_details": "Simple ATK and CRIT DMG stat-stick for Rebecca, who barely benefits from this weapon's Skill DMG-related effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "88.30%",
+        "percentage_performance": "85.90%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Every time Intro Skill or Resonance Liberation is cast, Resonance Skill DMG Bonus increases by {1} for 5s.",
           "primary_stat_val": 500,
@@ -159,7 +159,7 @@
       {
         "commentary_details": "Simple ATK and CRIT DMG stat-stick for Rebecca, who does not benefit from this weapon's Spectro and Heavy DMG-related effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "87.90%",
+        "percentage_performance": "85.40%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Casting Resonance Skill grants 20% Spectro DMG Bonus to the wielder for 14s, stacking up to 2 times. Inflicting Hack - Shifting grants {1} Heavy Attack DMG Amplification to the wielder for 14s, during which Heavy Attack DMG ignores {2} of the target's DEF.",
           "primary_stat_val": 587,
@@ -173,7 +173,7 @@
       {
         "commentary_details": "Simple ATK and CRIT DMG stat-stick for Rebecca, who does not benefit from this weapon's Heavy and Echo DMG-related effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "87.90%",
+        "percentage_performance": "85.40%",
         "weapon_base_info": {
           "effect_description": "ATK is increased by {0}. Upon dealing Echo Skill DMG, gain {1} Heavy Attack DMG Amplification for 6s. Upon dealing Heavy Attack DMG, gain {1} Echo Skill DMG Amplification for 6s. DMG Amplification on each attack is capped at {1}. While both effects are active, dealing damage ignores {2} of the target's DEF.",
           "primary_stat_val": 587,
@@ -187,7 +187,7 @@
       {
         "commentary_details": "This Battle Pass exclusive is the best 4-star choice Rebecca has access to, it grants her with some ATK and CRIT Rate but falls behind any 5-star significantly due to a low Base ATK.",
         "dupe_rank": "R5",
-        "percentage_performance": "80.60%",
+        "percentage_performance": "78.10%",
         "weapon_base_info": {
           "effect_description": "Dealing Basic Attack or Heavy Attack DMG increases ATK by {0} and grants {0} Heavy Attack DMG Bonus for 7s, stacking up to 4 times. This effect can be triggered 1 time every 1s.",
           "primary_stat_val": 412,
@@ -199,23 +199,9 @@
         "weapon_name": "Solar Flame"
       },
       {
-        "commentary_details": "Similar to Solar Flame, sacrifices some CRIT for some extra Energy upon casting Skill. Pales in comparison to 5-stars for the same Base ATK reason.",
-        "dupe_rank": "R5",
-        "percentage_performance": "79.10%",
-        "weapon_base_info": {
-          "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
-          "primary_stat_val": 462,
-          "rarity": 4,
-          "secondary_stat_name": "ATK",
-          "secondary_stat_val": 18.2,
-          "source": "Gacha"
-        },
-        "weapon_name": "Relativistic Jet"
-      },
-      {
         "commentary_details": "Best no-gacha option if necessary, granting some extra ATK when no damage is taken by the character equipping it. Upgrade to 5-star options as soon as possible though.",
         "dupe_rank": "R5",
-        "percentage_performance": "79.00%",
+        "percentage_performance": "76.60%",
         "weapon_base_info": {
           "effect_description": "When the Resonator takes no damage, increases ATK by {0} every 5s, stacking up to 2 time(s). This effect lasts for 8s. When the Resonator takes damage, reduces the number of stacks by 1 and restores their HP by {1}.",
           "primary_stat_val": 387,
@@ -238,10 +224,10 @@
       "rarity_stars": 5,
       "slug": "rebecca",
       "updates": {
-        "last_major_build_patch": "3.4",
-        "last_profile_update": "20/August/2026",
-        "last_review_patch": "3.4",
-        "last_updated": "20/August/2026"
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "10/September/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Pistols"
     },
@@ -336,15 +322,13 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Very long rotations compared to the average secondary buffer. Deals more damage than most Hybrids to compensate, but still extends team rotations a good amount.",
-        "Good for a free character, but still a free character. Don't expect her to shatter the meta; she only brings a good alternative for Heavy Attackers and is only best in slot for an average DPS.",
-        "Ultimate voiceline gets very annoying after a few uses. Kuro Games, please allow us to disable it like Ciaccona's Ultimate song."
+        "A lot of her attacks in her best loop rotations are prone to interruption, even if she's supposed to benefit from Perfect Dodges, she often never ends up taking advantage of the mechanic;",
+        "Collab character. If you don't have her right now, you likely missed out forever, quite unfortunately."
       ],
       "pros": [
-        "Doesn't need her Signature weapon to perform and easy to build Echoes-wise (good Energy generation).",
-        "Has easy gameplay that benefits from Perfect Dodges (so interruption isn't a big issue).",
-        "Has access to multiple Echo sets that all work on her to similar effect, making finding Echoes for her really easy.",
-        "Fits into several teams beyond her intended DPS Lucy, can act as a slightly stronger or equal version of Mortefi (an already proven strong 4-star in the meta).",
+        "Doesn't need her Signature weapon to perform and easy to build Echoes-wise (good Energy generation);",
+        "Yet another Moonlit Clouds user, great to find new use in older character Echoes or build her from scratch without needing to spare many resources;",
+        "Fits into several teams beyond her intended DPS Lucy, can act as a stronger version of Mortefi (an already proven strong 4-star in the meta);",
         "She's free!"
       ]
     },
@@ -352,15 +336,13 @@
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
-            "Break",
-            "Gather"
+            "Hack"
           ],
           "tier": "T0.5"
         },
         "whimpering_wastes": {
           "tags": [
-            "Break",
-            "Gather"
+            "Hack"
           ],
           "tier": "T1.5"
         }
@@ -420,18 +402,26 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Rebecca is a 5-star Electro Pistols buffer who specializes in dealing Basic Attack damage and buffing Heavy Attacks. She has access to the Hack mechanic, a variant of Tune Rupture, and provides a secondary source of damage as well as Heavy Attack-related buffs to enhance your Main DPS's firepower as much as possible.",
-            "Key Mechanics & Rotation",
-            "Rebecca has 2 states she can switch between freely in order to complete her rotations: Huntress and Guts. She swaps between them on every Intro and Skill cast, starting in Huntress state. Practically, she will use Guts state to generate most of her Forte gauge, then cast her Forte Heavy Attack in Huntress state and Outro, creating a loop since every rotation starts in Huntress state, switching to Guts upon Intro, then back to Huntress via one Skill, leaving her in Huntress state for the start of every rotation.",
+            "Rebecca is a 5-star Electro Pistols buffer who specializes in dealing Basic Attack damage and buffing Heavy Attacks. She has access to the Hack mechanic, a variant of Tune Rupture, and provides a secondary source of damage as well as Heavy Attack-related buffs to enhance your Main DPS's firepower as much as possible."
+          ]
+        },
+        {
+          "heading": "Key Mechanics & Rotation",
+          "paragraphs": [
+            "Rebecca has 2 states she can switch between freely in order to complete her rotations: Huntress and Guts. She swaps between them on every Intro and Skill cast, starting in Huntress state. Practically, she will use Guts state to generate most of her Forte gauge, trying to take advantage of its quick attacks throughout the majority of her rotaion, creating a loop since every rotation starts in Huntress state, switching to Guts upon a Skill use, leaving her in Huntress state for the start of every rotation (a state from which she will switch off quickly).",
             "Each state brings small self-buffs to Rebecca, being 30% CRIT DMG and 15% DEF Ignore buffs, where she activates both at once upon casting Intro thanks to her automatically replenished Forte resource, Hot Hand.",
-            "Her manually replenished resource, called Fervor, is charged via her Intro, Basic Attacks and Skill. When fully replenished, she casts a special Forte Heavy Attack, dealing a good amount of damage and restoring a lot of Concerto.",
+            "Her manually replenished resource, called Fervor, is charged via her Intro, Dodge, Basic Attacks and Skill. When fully replenished, she casts a special Forte Heavy Attack, dealing a good amount of damage and restoring a lot of Concerto.",
             "Rebecca's Ultimate restores a ton of Concerto and deals a lot of damage as well. It occurs in 3 stages where Rebecca shoots 15 bullets total, progressively getting enhanced as the Basic Attack or Ultimate button is pressed every 5 shots (indicated on her Forte gauge). She then finishes off with a big blast of additional damage and Concerto that can be Swap-cancelled in optimal rotations. It also grants a small 20% ATK buff to the team upon casting.",
             "Finally, her Outro amplifies All-type DMG and summons a turret that progressively increases the Heavy Attack DMG of the on-field character, the turret dealing constant damage as well. This totals up to 15% General Amplification and 35% Heavy Attack DMG Amplification, giving a maximum of 50% Amplification to Heavy Attackers when the full buffs are acquired  (this is instant for Lucy, but takes the full 14s for other characters).",
             "Additionally, similarly to Lucy, Rebecca has access to a unique Tune Break response called Hack. It functions the same as Tune Rupture, just under a different name, but uses the same scalings and general mechanics otherwise, overall enhancing the damage of your Tune Break Skill casts when applied by several of Rebecca's attacks.",
-            "As a result, Rebecca's rotation will have her progressively work up towards her Forte Heavy Attack via 3 Basic Attacks and a Skill before finally casting the Heavy, followed by her Ultimate, and swapping out of her finisher attack (provided enough Concerto has been built ahead of time).",
-            "Meta Position & Conclusion",
-            "Rebecca deals good damage and has good Heavy Attack buffing potential. Functionally, in spite of a quite lengthy rotation (over 7 seconds in all situations), she is still an alternative to the already proven meta Heavy Attack buffer, being Mortefi. As they are both free to acquire and have strong Heavy ATK buffing potential and a reliance on the same weapon and Echo set, being Static Mist and Moonlit Clouds, they fulfill the same niche. Disregarding different elements, which may give the advantage to one or the other depending on elemental resistance, Rebecca is generally slightly stronger in all Heavy Attack teams, with characters like Jiyan, Augusta and Phoebe, especially considering when her Signature Weapon is acquired. Obviously, Rebecca is also best used alongside Lucy, with whom she attains very solid performance although not meta-shaping.",
-            "In conclusion, for a free character, Rebecca is quite serviceable, being a \"second Mortefi\" of sorts who can strongly contribute to your Heavy Attack main damage dealers, having a particularly strong synergy with Lucy for several use cases in all Heavy Attack-based teams in the game. She is strongly recommended to build if you have a valid use case for her on one of your Heavy Attack-based teams, as she works well even without her Signature weapon or extra Sequence nodes, making her accessible and viable, particularly when paired with Lucy if you own her (although that's not necessary to have her perform well)!"
+            "As a result, Rebecca's rotation will have her progressively work up towards her Forte Heavy Attack, followed by her Ultimate, and swapping out of her finisher attack (provided enough Concerto has been built ahead of time)."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Rebecca deals good damage and has good Heavy Attack buffing potential. Functionally, in spite of a quite lengthy rotation at first glance, when optimized she is a straight upgrade to the already proven meta Heavy Attack buffer, being Mortefi (outside of some Mono Fusion teams with Lupa). As they are both free to acquire and have strong Heavy ATK buffing potential and a reliance on the same weapon and Echo set, being Static Mist and Moonlit Clouds, they fulfill the same niche, Rebecca overall performing a bit better thanks to a similar rotation speed, higher personal damage, and a better buffing profile. Disregarding different elements, which may give the advantage to one or the other depending on elemental resistance or Mono Fusion team compositions, Rebecca is generally slightly stronger in all Heavy Attack teams, with characters like Yangyang: Xuanling - Rebecca's most important non-Lucy synergy that performs at top meta level -, Jingran, Jiyan, Augusta and Phoebe, especially considering when her Signature Weapon is acquired. Obviously, Rebecca is also used alongside Lucy, with whom she attains very solid performance although not meta-shaping.",
+            "In conclusion, for a free character, Rebecca is surprisingly very strong, being a \"second Mortefi\" of sorts who can strongly contribute to your Heavy Attack main damage dealers, having a particularly strong synergy with Yangyang: Xuanling, Lucy, and realistically all Heavy Attack-based teams in the game. She is strongly recommended to build if you have a valid use case for her on one of your Heavy Attack-based teams, as she works well even without her Signature weapon or extra Sequence nodes, making her accessible and generally quite strong!"
           ]
         }
       ],
@@ -439,25 +429,32 @@
     },
     "rotations": [
       {
-        "rotation_name": "Echo Timing",
+        "rotation_name": "Opener Rotation",
         "steps": [
           "Intro: Huntress",
-          "Basic: Guts 1",
+          "Basic: Guts 1 (Cancel animation endlag via Dash)",
+          "Dash: Tactical Dodge",
           "Basic: Guts 2",
           "Basic: Guts 3",
-          "Skill (Switch to Huntress form)",
-          "Basic: Huntress 1",
-          "Basic: Huntress 2 (Cancel animation endlag via Heavy)",
-          "Forte Heavy: Huntress (Cancel animation endlag via Ultimate)",
+          "Heavy: Guts",
+          "Heavy (Forte): Guts",
+          "Heavy: Guts (Cancel animation endlag via Echo or Ultimate)",
           "Ultimate",
           "Boom! Fireworks (Cast automatically) (Swap)",
-          "Outro",
-          "Intro: Huntress",
-          "Basic: Guts 1",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Loop Rotation",
+        "steps": [
+          "Intro: Huntress (Cancel animation endlag via Jump)",
+          "Jump",
+          "Basic: Plunging Attack (Cancel animation endlag via Skill)",
+          "Skill (Switch to Guts form) (Cancel animation endlag via Dash)",
+          "Dash: Tactical Dodge",
           "Basic: Guts 2",
-          "Basic: Guts 3",
-          "Skill (Switch to Huntress form)",
-          "Forte Heavy: Huntress (Cancel animation endlag via Ultimate)",
+          "Heavy (Forte): Guts",
+          "Heavy: Guts (Cancel animation endlag via Echo/Ultimate)",
           "Ultimate",
           "Boom! Fireworks (Cast automatically) (Swap)",
           "Outro"
@@ -1083,7 +1080,7 @@
           "yangyang-xuanling",
           "lucy"
         ],
-        "commentary": "yangyang-xuanling is the highest Heavy Attack damage dealer in the game. It's no surprise that Rebecca's best team is alongside her as she is her best Heavy Attack DMG buffer, on par with the generalist top tier Lynae. Finally, while Rebecca can detach from Lucy, Lucy definitely can't detach from Rebecca; both characters are capable of increasing each other's damage substantially and interact together via the Hack mechanic, making it Rebecca's second best pairing."
+        "commentary": "Yangyang, Xuanling is the highest Heavy Attack damage dealer in the game. It's no surprise that Rebecca's best team is alongside her as she is her best Heavy Attack DMG buffer, on par with the generalist top tier Lynae. Finally, while Rebecca can detach from Lucy, Lucy definitely can't detach from Rebecca; both characters are capable of increasing each other's damage substantially and interact together via the Hack mechanic, making it Rebecca's second best pairing."
       },
       {
         "characters": [

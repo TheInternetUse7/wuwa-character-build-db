@@ -126,10 +126,10 @@
       "rarity_stars": 5,
       "slug": "suisui",
       "updates": {
-        "last_major_build_patch": "3.5",
-        "last_profile_update": "20/August/2026",
-        "last_review_patch": "3.5",
-        "last_updated": "20/August/2026"
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "10/September/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -205,32 +205,29 @@
     ],
     "pros_and_cons": {
       "cons": [
+        "Needs a Concerto weapon for her rotation to not be slow and clunky;",
         "Full buffs only activate under the extremely specific condition of direct Negative Status consumption, making it difficult to increase her team flexibility, as even if her S1 tries to accomplish that, it doesn't really help her in practice;",
-        "Very low headroom for Quickswap if not nonexistent. Needs an Intro to get her rotation started quickly, wants to stay on field to do full attack chains, some of her buffs expire on swap and take a while to be able to take effect;",
+        "Very low headroom for Quickswap, while not impossible. Needs an Intro to get her rotation started quickly, wants to stay on field to do full attack chains (with few swap windows in them), some of her buffs expire on swap and take a while to be able to take effect;",
         "Low sequence value in general, one of the lowest in the modern era, basically no room for vertical investment."
       ],
       "pros": [
         "The best Support for a ton of Negative Status characters, a currently really strong meta archetype;",
         "Easy rotation, almost no complexity to it;",
         "Built-in grouping for multi-wave content;",
-        "F2P-friendly, fully operational at S0R0 (Variation is a perfectly fine replacement for her Signature Rectifier, like a lot of other supports)."
+        "F2P-friendly, fully operational at S0R0 with a low-end build that only meets her Energy Regen requirements (Variation is a perfectly fine replacement for her Signature Rectifier, like a lot of other supports)."
       ]
     },
     "ratings": {
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
-            "Chafe",
-            "Gather",
-            "Sustain"
+            "Chafe"
           ],
           "tier": "T0"
         },
         "whimpering_wastes": {
           "tags": [
-            "Chafe",
-            "Gather",
-            "Sustain"
+            "Chafe"
           ],
           "tier": "T0.5"
         }
@@ -240,7 +237,7 @@
           "tier": "T0"
         },
         "whimpering_wastes_value": {
-          "tier": "T1"
+          "tier": "T0.5"
         }
       }
     },
@@ -290,13 +287,20 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Review",
-            "Suisui is a 5-star Glacio Rectifier Support whose primary role is to buff Negative Status consumers in various ways (currently, that scope extends to a few fairly obvious synergies that characterize her meta niche). She's akin to a Mornye-type healer/buffer Support with low personal damage and a decently fast rotation with specific use cases for certain team archetypes.",
-            "Key Mechanics",
+            "Suisui is a 5-star Glacio Rectifier Support whose primary role is to buff Negative Status consumers in various ways (currently, that scope extends to a few fairly obvious synergies that characterize her meta niche). She's akin to a Mornye-type healer/buffer Support with low personal damage and a decently fast rotation with specific use cases for certain team archetypes."
+          ]
+        },
+        {
+          "heading": "Key Mechanics",
+          "paragraphs": [
             "Suisui has 2 stances she can alternate between throughout her rotation: Zephyr and Drizzle. However, the Zephyr stance will only really be used in her Opener rotation, since Intro makes her immediately start in Drizzle.",
             "Each stance has its own unique set of attacks and Forte gauges. The Zephyr stance, when full, allows you to cast a special Skill to switch to Drizzle stance (useful without an Intro available). Meanwhile, the Drizzle stance allows you to build up several buffs by filling up Suisui's Forte bar with Floral Epistle points that she consumes upon casting her Outro.",
-            "Suisui's typical rotation has you hence entering Drizzle stance as quickly as possible (either via Zephyr form basics into Skill or via her Intro directly), to then fill up her Floral Epistle gauge to deploy her full buffs upon casting her Outro. However, her Ultimate serves as an additional buffing tool that she will definitely want to deploy every rotation, considering it allows her to increase the stack cap of all Negative Statuses but Havoc Bane by 3 (almost exactly like Chisa), while consuming Havoc Bane gives a small DEF Ignore and Havoc RES Shred boost.",
-            "Who Does She Buff & How?",
+            "Suisui's typical rotation has you hence entering Drizzle stance as quickly as possible (either via Zephyr form basics into Skill or via her Intro directly), to then fill up her Floral Epistle gauge to deploy her full buffs upon casting her Outro. However, her Ultimate serves as an additional buffing tool that she will definitely want to deploy every rotation, considering it allows her to increase the stack cap of all Negative Statuses but Havoc Bane by 3 (almost exactly like Chisa), while consuming Havoc Bane gives a small DEF Ignore and Havoc RES Shred boost."
+          ]
+        },
+        {
+          "heading": "Who Does She Buff & How?",
+          "paragraphs": [
             "Suisui's buffs are largely concentrated in her Outro and Ultimate. However, her Echo Set and Signature weapon all contribute to the buffing total as well for the following array of buffs:",
             "For any Negative Status but Havoc Bane: Stack cap increased by 3;",
             "For Havoc Bane consumers: 6% DEF Ignore, 12% Havoc RES Shred;",
@@ -304,15 +308,19 @@
             "50% ATK for Negative Status-consuming Hypercarries via her Outro effects (this expires on swap);",
             "Throughout attacks in her kit: 5 total stacks of Glacio Chafe application per rotation;",
             "25% ATK and an extra 20% via her Echo Set and Signature weapon if owned.",
-            "As you can tell, that makes for some pretty massive buffs for Negative Status consumers, and right now we have two such characters: Hiyuki and Yangyang: Xuanling.",
-            "Meta Position & Conclusion",
+            "As you can tell, that makes for some pretty massive buffs for Negative Status consumers, and right now we have two such characters: Hiyuki and Yangyang: Xuanling."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
             "Suisui is quite the restrictive buffer in the sense that she requires characters on her team to consume Negative Statuses to use the full extent of her buffs; particularly a Hypercarry DPS is ideal for this. However, only a 50% ATK buff is specifically locked behind Negative Status consumption, and overall this buff can be forfeited in the one other team Suisui is a good replacement for: Aemeath Fusion Burst.",
             "Suisui is generally quite a good pull for Negative Status characters, particularly Hiyuki and Yangyang: Xuanling since she applies Glacio Chafe for Hiyuki and she gives specialized Havoc Bane buffs for Yangyang. While she can generally be used for Negative Status teams, her 2 niches are carved out for her, and she's best in slot in 2 of the strongest meta teams right now, making her quite the strong meta contender.",
             "In conclusion, Suisui's buff conditions may be quite strict, but in spite of them she proves quite generally useful for Negative Status teams at large and serves as a much-needed replacement to Chisa in 2 important meta teams as well as the final touch needed to complete Yangyang: Xuanling's best team, earning her a top meta spot as of her release."
           ]
         }
       ],
-      "summary": "Review"
+      "summary": "Suisui is a 5-star Glacio Rectifier Support whose primary role is to buff Negative Status consumers in various ways (currently, that scope extends to a few fairly obvious synergies that characterize her meta niche). She's akin to a Mornye-type healer/buffer Support with low personal damage and a decently fast rotation with specific use cases for certain team archetypes."
     },
     "rotations": [
       {
@@ -335,12 +343,20 @@
         "rotation_name": "Loop Rotation",
         "steps": [
           "Intro",
-          "Skill: Drizzle (Cancel animation via Dash on 1st hit)",
-          "Dash",
+          "Skill: Drizzle",
           "Basic: Drizzle 1",
           "Basic: Drizzle 2",
           "Basic: Drizzle 3",
           "Basic: Drizzle 4 (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "S3+ Rotation",
+        "steps": [
+          "Skill: Drizzle",
+          "Basic 4 (Cancel animation endlag via Ultimate)",
           "Ultimate",
           "Outro"
         ]

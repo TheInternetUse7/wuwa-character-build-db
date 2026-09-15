@@ -63,7 +63,7 @@
       {
         "commentary_details": "Jiyan's Signature weapon is fantastic on Augusta and has similar performance to even her Signature weapon thanks to its easy to acquire 48% Heavy Attack DMG Bonus increase, as well as 12% general DMG Bonus, good Base ATK and CRIT DMG stats.",
         "dupe_rank": "R1",
-        "percentage_performance": "90.30%",
+        "percentage_performance": "93.50%",
         "weapon_base_info": {
           "effect_description": "Increases the DMG Bonus of all Resonance Attributes by {0}. Every time Intro Skill or Resonance Liberation is cast, increases Heavy Attack DMG Bonus by {1}, stacking up to 2 time(s). This effect lasts for 14s.",
           "primary_stat_val": 587,
@@ -77,7 +77,7 @@
       {
         "commentary_details": "While this weapon focuses on boosting Resonance Skill damage, Jinhsi's Signature is still great on Augusta as she does deal some amount of Skill damage and benefits from its good Base ATK, as well as its DMG Bonus and CRIT Rate increasing effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "80.40%",
+        "percentage_performance": "81.90%",
         "weapon_base_info": {
           "effect_description": "Grants {0} Attribute DMG Bonus. Casting Intro Skill gives the equipper Ageless Marking, which grants {1} Resonance Skill DMG Bonus for 12s. Casting Resonance Skill gives the equipper Ethereal Endowment, which grants {1} Resonance Skill DMG Bonus for 12s.",
           "primary_stat_val": 587,
@@ -91,7 +91,7 @@
       {
         "commentary_details": "This Broadblade lacks the extra punch that the above options do as its passive effect is entirely useless on Augusta. It does buff Mortefi's DMG if he is present on the team, however he is far from dealing most of the damage in the team and Augusta only uses this Broadblade for its ATK and CRIT DMG stats, which makes it rank lower than above options.",
         "dupe_rank": "R1",
-        "percentage_performance": "77.30%",
+        "percentage_performance": "78.60%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Performing Intro Skill or Resonance Liberation increases Resonance Liberation DMG by {1} for 6s. Dealing Heavy Attack DMG extends this effect by 4s, up to 1 time. Each successful extension gives {1} Fusion DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked.",
           "primary_stat_val": 587,
@@ -105,7 +105,7 @@
       {
         "commentary_details": "Simple ATK and CRIT DMG stat-stick for Augusta, the strongest permanently available choice for her.",
         "dupe_rank": "R1",
-        "percentage_performance": "77.30%",
+        "percentage_performance": "78.60%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Dealing damage to targets under Tune Strain: Interfered grants {1} Resonance Liberation Bonus for 3s. Retriggering the effect resets its duration.",
           "primary_stat_val": 587,
@@ -119,7 +119,7 @@
       {
         "commentary_details": "Simple ATK and CRIT Rate stat-stick for Augusta, who does not benefit from this weapon's Liberation DMG-increasing effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "77.20%",
+        "percentage_performance": "78.40%",
         "weapon_base_info": {
           "effect_description": "ATK is increased by {0}. When the wielder casts Intro Skill or inflicts Negative Statuses, they gain {1} Resonance Liberation DMG Bonus, stacking up to 3 times for 15s. At max stacks, when Resonators in the team inflict Negative Statuses, they gain  {2} All-Attribute DMG Bonus for 15s. Effects of the same name cannot be stacked.",
           "primary_stat_val": 500,
@@ -131,23 +131,9 @@
         "weapon_name": "Kumokiri"
       },
       {
-        "commentary_details": "One of the best permanent choices for Augusta who benefits from its Energy Regen boosting effect but its Resonance Liberation DMG increase is useless on her, which makes it rank below all limited options. Nonetheless very much usable on Augusta who performs fantastically even with this weapon equipped.",
-        "dupe_rank": "R1",
-        "percentage_performance": "74.30%",
-        "weapon_base_info": {
-          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases Resonance Liberation DMG by {1}, stacking up to {2} times. This effect lasts for {3}s.",
-          "primary_stat_val": 587,
-          "rarity": 5,
-          "secondary_stat_name": "ATK",
-          "secondary_stat_val": 36.4,
-          "source": "Permanent Convene"
-        },
-        "weapon_name": "Lustrous Razor"
-      },
-      {
-        "commentary_details": "The new Battle Pass Broadblade is amazing on Augusta and is her best 4* option bar none as it increases ATK, Heavy Attack DMG Bonus and CRIT DMG by massive amounts especially at Rank 5. Unfortunately, its lower-end Base ATK makes it rank below all 5-star options, but it remains a good choice if you don't wish to invest any pulls into Augusta and rather spend for this weapon instead.",
+        "commentary_details": "The new Battle Pass Broadblade is amazing on Augusta and is her best 4* option bar none as it increases ATK, Heavy Attack DMG Bonus and CRIT DMG by massive amounts especially at Rank 5. Unfortunately, its lower-end Base ATK makes it rank below almost all 5-star options, but it remains a good choice if you don't wish to invest any pulls into Augusta and rather spend for this weapon instead.",
         "dupe_rank": "R5",
-        "percentage_performance": "73.20%",
+        "percentage_performance": "75.60%",
         "weapon_base_info": {
           "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Heavy Attack DMG Bonus for 15s.",
           "primary_stat_val": 412,
@@ -159,9 +145,23 @@
         "weapon_name": "Aureate Zenith"
       },
       {
+        "commentary_details": "One of the best permanent choices for Augusta who benefits from its Energy Regen boosting effect but its Resonance Liberation DMG increase is useless on her, which makes it rank below all limited options. Nonetheless very much usable on Augusta who performs fantastically even with this weapon equipped.",
+        "dupe_rank": "R1",
+        "percentage_performance": "75.10%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases Resonance Liberation DMG by {1}, stacking up to {2} times. This effect lasts for {3}s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Lustrous Razor"
+      },
+      {
         "commentary_details": "This Battle Pass weapon also gives Augusta good stats, particularly ATK and CRIT Rate, but suffers like all other 4-star weapons from low Base ATK which causes it to perform lower than all 5-star options. However it remains very much usable on Augusta.",
         "dupe_rank": "R5",
-        "percentage_performance": "71.00%",
+        "percentage_performance": "71.40%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0} upon dealing Basic Attack DMG or Heavy Attack DMG, stacking up to 5 time(s). This effect lasts for 7s and can be triggered 1 time(s) every 1s.",
           "primary_stat_val": 412,
@@ -175,7 +175,7 @@
       {
         "commentary_details": "The best non-Battle Pass 4-star for Augusta as it gives her some flat Resonance Energy which means she doesn't need any Energy Regen on her build to work, however only increasing ATK isn't enough to make it stand out above other options.",
         "dupe_rank": "R5",
-        "percentage_performance": "66.50%",
+        "percentage_performance": "67.20%",
         "weapon_base_info": {
           "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
           "primary_stat_val": 462,
@@ -189,7 +189,7 @@
       {
         "commentary_details": "Similar to Waning Redshift but focuses even more on increasing ATK after using multiple Resonance Skills, which Augusta isn't able to fully stack, making it lag behind other choices in terms of performance.",
         "dupe_rank": "R5",
-        "percentage_performance": "63.90%",
+        "percentage_performance": "64.30%",
         "weapon_base_info": {
           "effect_description": "Within {0}s after Resonance Skill is cast, increases ATK by {2} every 2s, stacking up to 4 time(s). This effect can be triggered 1 time(s) every 12s. When the number of stacks reaches 4, all stacks will be reset within 6s.",
           "primary_stat_val": 412,
@@ -203,7 +203,7 @@
       {
         "commentary_details": "Last resort option if none of the above weapons are owned. Solely used as an ATK stat-stick as its passive is entirely unused on Augusta, but accessible as a guarantee thanks to being craftable.",
         "dupe_rank": "R5",
-        "percentage_performance": "60.70%",
+        "percentage_performance": "61.50%",
         "weapon_base_info": {
           "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
           "primary_stat_val": 462,
@@ -226,10 +226,10 @@
       "rarity_stars": 5,
       "slug": "augusta",
       "updates": {
-        "last_major_build_patch": "3",
-        "last_profile_update": "20/August/2026",
-        "last_review_patch": "2.6",
-        "last_updated": "20/August/2026"
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "10/September/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "10/September/2026"
       },
       "weapon_type": "Broadblade"
     },
@@ -275,14 +275,14 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "About half of her damage is concentrated in her second Ultimate — backloaded damage isn't optimal for killing several groups of small enemies like in Whimpering Wastes, not to mention the timestop effect prevents the next wave from spawning leading to lots of wasted damage without proper timing;",
+        "Powercrept in all situations by Jingran (except against Fusion RES enemies) due to them fulfilling the same niche, using the same teammates, and having the same damage and weapon types;",
         "Her Shields have next to no strength whatsoever, they only serve as a means to activate her Signature Weapon and Echo Set buffs and won't actually protect from any meaningful damage;",
-        "Very difficult to use in quickswap compositions due to Outro mechanics. While not impossible, definitely difficult to force;",
-        "Shields don't leave you immune to interruption, be wary to dodge enemy attacks so your rotation doesn't get slowed down."
+        "Has no good Whimpering Wastes purple tokens available for her to use as a Shield character;",
+        "Outro is difficult to maneuver around in quickswap and poses a lot of restrictions, and while not impossible, forcing quickswap is quite tedious;"
       ],
       "pros": [
-        "Very high single-target and AoE damage alike;",
-        "Able to function with premium teammates and without — has amazing F2P options which allow her to perform even without high vertical investment;",
+        "Able to function with premium teammates and without - has amazing F2P options which allow her to perform even without high vertical investment;",
+        "Functions well in both single-target and AoE situations;",
         "Completely stops time during her second Ultimate, meaning you're fully invulnerable during the cast;",
         "Summons a REALLY cool blazing sun in the sky when casting her second Ultimate. How was that necessary??"
       ]
@@ -300,10 +300,10 @@
       },
       "value_tier_ratings": {
         "tower_of_adversity_value": {
-          "tier": "T1"
+          "tier": "T1.5"
         },
         "whimpering_wastes_value": {
-          "tier": "T1"
+          "tier": "T1.5"
         }
       }
     },
@@ -364,41 +364,37 @@
             "The second is Ascendancy: this is her second Forte gauge restored via Basic Attacks, Intro skill, her first Ultimate and her base Resonance Skill. It allows her to cast an enhanced Resonance Skill to gain her final resource, Majesty.",
             "Majesty has 2 points, 1 of which is acquired via her Outro and the other is acquired via an enhanced Resonance Skill with full Ascendancy. When 2 points are obtained, Augusta can unleash her second Ultimate for massive damage, ending her rotation.",
             "Therefore, Augusta's goal will be to maximize Prowess and Ascendancy generation in order to gain her Majesty stacks and finish it off with her second Ultimate.",
-            "Additionally, Augusta starts combat with 1 Majesty thanks to her second Inherent Skill which means she won't have ramp-up issues due to lacking an Outro initially. Finally, her first Inherent Skill makes it so Augusta gains a shield for 5s every 0.5s every time she deals damage, which means she will always have extra HP in that form. Even though the shield value is rather small and it doesn't stack, it does add to her sustainability."
-          ]
-        },
-        {
-          "heading": "Intro Skill",
-          "paragraphs": [
+            "Additionally, Augusta starts combat with 1 Majesty thanks to her second Inherent Skill which means she won't have ramp-up issues due to lacking an Outro initially. Finally, her first Inherent Skill makes it so Augusta gains a shield for 5s every 0.5s every time she deals damage, to trigger her Echo set, Signature weapon buffs, and other shield generation-related effects.",
+            "Intro Skill",
             "Augusta's Intro makes her restore 20% Ascendancy and full Prowess so it's definitely a must in her rotation. Aside from that, it simply deals damage and restores Concerto Energy like all other Intros."
           ]
         },
         {
           "heading": "How to use Prowess and restore Ascendancy",
           "paragraphs": [
-            "Augusta's Prowess mechanic allows her to use different Enhanced Heavy Attacks, triggered with different inputs. However, Uppercut, triggered by jumping with full Prowess, is not good as it sends her up into the air and Augusta rather be on the ground at all times to maximize her damage, so make sure not to accidentally use it.",
-            "More importantly however, she has a standard Heavy Attack variant which is called Backstep which she can follow with Spinslash by pressing Basic Attack shortly after, which is her standard combo. It can be done all the same by performing a Dodge Counter with full Prowess instead of a Heavy Attack.",
-            "Other than this, her base Resonance Skill restores full Prowess and her Intro Skill does also, which should be plenty in order to restore Ascendancy fully, provided her base Ultimate is used also — as it gives the 10% Ascendancy she'd be missing. It only requires using Ultimate with enough Resonance Energy, so make sure that condition is fulfilled by having enough Energy Regen. Depending on the team, anywhere between 110% and 120% Energy Regen should be enough for Augusta to function."
+            "Augusta's Prowess mechanic allows her to use different Enhanced Heavy Attacks, triggered with different inputs. The most standard of both is the Backstep and Spinslash combo, which can either be performed by Heavy Attacking on the ground with full Prowess or executing a Dodge Counter with full Prowess. It deals good damage, but is slower than Uppercut, which is triggered by a jump with full Prowess. However, since it sends Augusta into the air, she will only use it if it can be cancelled by a Tune Break, her Forte Skill 3-part chain, or before swapping out.",
+            "Other than this, her base Resonance Skill restores full Prowess and her Intro Skill does also, which should be plenty in order to restore Ascendancy fully, provided her base Ultimate is used also - as it gives the 10% Ascendancy she'd be missing. It only requires using Ultimate with enough Resonance Energy, so make sure that condition is fulfilled by having enough Energy Regen. Additional Forte Heavies may be used in her combos through the use of regular Heavy Attacks, which generate about 60% of her Prowess gauge each and can be quickly cancelled by other inputs for quick Prowess generation. This may be utilized to extend her rotations and have her deal higher damage if your team can spare the rotation time."
           ]
         },
         {
           "heading": "How to use Ascendancy",
           "paragraphs": [
-            "Ascendancy is used in order to perform 3 different Enhanced Resonance Skills — which are in reality all part of the same sequence. Simply press Resonance Skill with full Ascendancy then press Basic Attack or Resonance Skill 2 more times to leap into the air and plunge to restore Majesty to full. When this is performed, Augusta is ready to cast her second Ultimate. Also, don't worry about getting interrupted; if that happens, Augusta can re-cast her Enhanced Skill sequence, no problem."
+            "Ascendancy is used in order to perform 3 Skills in quick succession, all being part of the same sequence. With full Ascendancy, Augusta may cast her 3-part Skill chain and restore her second Majesty stack needed for her final Ultimate."
           ]
         },
         {
           "heading": "Second Ultimate and Outro",
           "paragraphs": [
             "By holding Ultimate with 2 stacks of Majesty, Augusta enters her Second Ultimate stance for 7s. Within this duration, time is stopped and she cannot switch out or do anything except walk, dodge, and finish her rotation with 9 swift Heavy Attacks (simply performed by spamming or holding Basic Attack), then use a finishing move by pressing Basic Attack again.",
-            "Additionally, performing this sequence of attacks gives an effect for 30s to all characters in the team called Ruler's Realm, which grants a stronger Shield to all characters who cast Intro Skill, further contributing to sustainability.",
-            "Finally, Augusta's Outro Skill allows her to give 15% DMG Amplify to any character that she outros into, which lasts the usual 14s. It also restores 1 Majesty if that character performs their own Outro skill, and gives Augusta 15% Electro DMG Bonus for her next rotation, but be careful as all of these effects expire on swap — because of this mechanic, Augusta is much less compatible with quickswapping than most other characters as the character Augusta Outros into cannot be switched out of until they can cast their own Outro skill, since it would ruin Augusta's Majesty stack generation, thus significantly slowing down her subsequent rotation."
+            "Finally, Augusta's Outro Skill allows her to give 15% DMG Amplify to any character that she outros into, which lasts the usual 14s. It also restores 1 Majesty if that character performs their own Outro skill, and gives Augusta 15% Electro DMG Bonus for her next rotation, but be careful as all of these effects expire on swap - because of this mechanic, Augusta is much less compatible with quickswapping than most other characters as the character Augusta Outros into cannot be switched out of until they can cast their own Outro skill, since it would ruin Augusta's Majesty stack generation, thus significantly slowing down her subsequent rotation."
           ]
         },
         {
           "heading": "Meta position & Conclusion",
           "paragraphs": [
-            "Augusta's primary selling point is her damage output. Ranking among some of the highest damaging characters in the game, Augusta is a tried-and-true DPS not unlike the current meta damage dealers. Working brilliantly with a free unit in the form of Mortefi as well as the flexible Shorekeeper, Augusta is easily accessible and performs at the level of the greatest DPS characters. If that wasn't enough, she can reach an even higher ceiling alongside her best buffer Iuno, and alongside her she's guaranteed to make clearing endgame content a breeze (if her baseline with Mortefi wasn't already more than enough anyway)."
+            "In the current meta, Augusta is to say the least, powercrept. In terms of a Shielding, Heavy Attack damage dealer, the new best answer in that category is Jingran. Sure enough, Augusta uses all of Jingran's teammates, just... worse than him. The only difference between the two is their element, which can make Augusta a slightly better idea if JIngran's Fusion element is resisted by the enemies you're trying to face. Even still, you can just choose to use Jingran against non-Fusion enemies and it barely ever becomes an issue.",
+            "Due to her lack of damage output and no other outstanding features compared to her competition, Augusta only serves as a niche DPS you'll use in Endstate Matrix if you already own her, or if you skipped Jingran and have teammates available for her, or if she's your best Electro DPS and endgame content currently favours her element. However, this doesn't make her a good pull anymore - it just gives her decent use cases if you already own her.",
+            "In conclusion, Augusta's direct competition with Jingran makes her questionable to pull from a meta standpoint as a new player, and we definitely don't recommend her to beginners, since Jingran is a direct upgrade in her exact niche, particularly considering they share the same weapon type. Finally, she does remain viable and is still able to clear endgame contents, hence why she can be used if you already own her, however from a meta perspective, she is currently not a recommended pull."
           ]
         }
       ],
@@ -406,33 +402,74 @@
     },
     "rotations": [
       {
-        "rotation_name": "Core Rotation",
+        "rotation_name": "Fastest Rotation",
         "steps": [
           "Intro",
-          "Heavy Attack: Backstep",
-          "Heavy Attack: Spinslash",
+          "Heavy: Backstep",
+          "Basic: Spinslash",
           "Skill",
-          "Heavy Attack: Backstep",
-          "Heavy Attack: Spinslash",
+          "Heavy: Backstep",
+          "Basic: Spinslash (Cancel animation endlag via Ultimate)",
           "Ultimate: Sword of Eternal Oath",
-          "Forte: Skill: Undying Sunlight: Strike",
-          "Forte: Skill: Undying Sunlight: Leap",
-          "Forte: Skill: Undying Sunlight: Plunge",
-          "Ultimate: Sublime is the Sun",
-          "Ultimate: Sunborne (9 times)",
+          "Skill: Undying Sunlight: Strike",
+          "Skill: Undying Sunlight: Leap",
+          "Skill: Undying Sunlight: Plunge (Cancel animation endlag via Hold Ultimate)",
+          "Hold Ultimate: Sublime is the Sun",
+          "Basic: Sunborne (9x)",
           "Ultimate: Everbright Protector",
+          "Echo (Swap)",
           "Outro"
         ]
       },
       {
-        "rotation_name": "Additional Tips & Tricks",
+        "rotation_name": "3 Forte Rotation",
         "steps": [
-          "After your third character (the one Augusta has switched into) has cast their own Outro, try to cast one The False Sovereign active Echo Skill where it makes sense to do so (try to Swap Cancel an ability of your secondary character). If this isn't possible to do without losing rotation time, then do not consider doing this.",
-          "When Augusta finishes her second Ultimate attack sequence, make sure to cast one The False Sovereign active Echo Skill before immediately switching out to cast her Outro.",
-          "Augusta can cancel the endlag on the Spinslashes in her rotation. What we mean is when the damage of Spinslash has fully come out, she can immediately follow with abilities that can chain together quicker than simply letting the animation fully play out, as follows:The first Spinslash's endlag can be cancelled by her base Resonance Skill;",
-          "The second Spinslash's endlag can be cancelled by her base Ultimate.",
-          "Augusta can cancel the endlag on one of the Spinslashes in her rotation. What we mean is when the damage of the second Spinslash has fully come out, she can immediately follow with her Ultimate which can chain together quicker than simply letting the animation fully play out: hence, the second Spinslash's endlag can be cancelled by her base Ultimate.",
-          "If needed, since Augusta and her teammates have quick rotations, when playing optimally some filler attacks may need to be added depending on the team. In Augusta's case, this isn't a problem: simply go for a few normal attacks into an extra Backstep + Spinslash combo, or go for a Heavy Attack, cancel the endlag with a dash (else you would follow up with the undesirable Uppercut Heavy Attack) and then do the Backstep + Spinslash combo as normal (this second variant will be quicker)."
+          "Intro",
+          "Heavy: Backstep",
+          "Basic: Spinslash",
+          "Skill",
+          "Heavy: Backstep",
+          "Basic: Spinslash",
+          "Heavy (Cancel animation endlag Ultimate)",
+          "Ultimate: Sword of Eternal Oath",
+          "Heavy (Cancel animation endlag via Skill)",
+          "Skill: Undying Sunlight: Strike",
+          "Skill: Undying Sunlight: Leap",
+          "Skill: Undying Sunlight: Plunge (Cancel animation endlag via Hold Ultimate)",
+          "Hold Ultimate: Sublime is the Sun",
+          "Basic: Sunborne (9x)",
+          "Ultimate: Everbright Protector",
+          "Jump: Uppercut (Swap on final hit to keep Outro buffs)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "4 Forte Single Intro Rotation:",
+        "steps": [
+          "Intro",
+          "Heavy: Backstep",
+          "Basic: Spinslash",
+          "Skill",
+          "Heavy: Backstep",
+          "Heavy (Cancel animation endlag via Basic)",
+          "Basic: Spinslash",
+          "Heavy (Cancel animation endlag via Ultimate)",
+          "Ultimate: Sword of Eternal Oath",
+          "Jump: Uppercut (Cancel animation endlag via Skill)",
+          "Skill: Undying Sunlight: Strike",
+          "Skill: Undying Sunlight: Leap",
+          "Skill: Undying Sunlight: Plunge (Cancel animation endlag via Hold Ultimate)",
+          "Hold Ultimate: Sublime is the Sun",
+          "Basic: Sunborne (9x)",
+          "Ultimate: Everbright Protector",
+          "Heavy",
+          "Heavy",
+          "Jump: Uppercut (Swap)",
+          "Outro",
+          "Intro",
+          "Jump: Uppercut (Cancel animation endlag via Tune Break Skill)",
+          "Tune Break Skill",
+          "Skill"
         ]
       }
     ],
