@@ -1,44 +1,1337 @@
 {
   "data": {
-    "base_stats_lvl_90": null,
-    "best_echo_sets": [],
-    "best_echo_stats": null,
-    "best_weapons": [],
+    "base_stats_lvl_90": {
+      "atk": 0,
+      "crit_dmg": "150%",
+      "crit_rate": "5%",
+      "def": 0,
+      "elemental_dmg_bonus": "0%",
+      "healing_bonus": "0%",
+      "hp": 0,
+      "max_energy": 0
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Hsin's Signature set gives her access to 15% CRIT Rate and 32.5% Electro DMG Bonus in total, making it the best blend of stats she has access to.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Simple Summon Echo, gives Hsin 20% Electro DMG Bonus when equipped in the main slot, making it her best by default for that reason alone.",
+            "echo_name": "Reminiscence: Suhsin the Inevitable"
+          }
+        ],
+        "percentage_performance": "100.00%",
+        "set_name": "Heart of Sworn Vigil"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ],
+        "cost_3": [
+          "Electro DMG",
+          "Electro DMG ≥ ATK%"
+        ],
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%  Skill DMG%",
+        "ATK"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "Hsin's Signature and best weapon, has the standard Base ATK, DMG Bonus and CRIT Rate stats, but also Skill DMG Amplification, Electro RES Ignore and Electro Flare DMG Amplification. Overall a big deal in terms of stats for her, far outclasses permanent options.",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.0%",
+        "weapon_base_info": {
+          "effect_description": "Grants {0} All-Attribute DMG Bonus. After the wielder inflicts Electro Flare or triggers Unison Response, Resonance Skill DMG is Amplified by {1} and ignores {2} of the target's Electro RES. While the wielder is on the field, Electro Flare DMG taken by targets within a certain range is Amplified by {3} for 30s, triggered 1 time every 0.1s. Only the strongest effect of the same name applies.",
+          "primary_stat_val": 588,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": ""
+        },
+        "weapon_name": "Blooming Jadehaven"
+      },
+      {
+        "commentary_details": "Solid alternative to Hsin's Signature in Flare teams, provides Hsin with Skill DMG and DEF Ignore as well as good base stats. Still far outclassed in Unison teams though for buff uptime reasons, which is an issue across all weapons but her Signature.",
+        "dupe_rank": "R1",
+        "percentage_performance": "79.70%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. Within 12s after dealing Echo Skill DMG, gain {1} Resonance Skill DMG Bonus and {1} Echo Skill DMG Amplification, and ignore {2} of the target's DEF when dealing damage.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Lethean Elegy"
+      },
+      {
+        "commentary_details": "One of the best generalist Rectifiers, with high ATK and CRIT Rate stats but still has significant losses compared to Hsin's Signature regardless of the team.",
+        "dupe_rank": "R1",
+        "percentage_performance": "76.20%",
+        "weapon_base_info": {
+          "effect_description": "Increases the DMG Bonus by {0}. When dealing Resonance Skill DMG, increases ATK by {1}, stacking up to 2. This effect lasts for 5s. When the equipped Resonator is not on the field, increases their ATK by an additional {2}.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 36,
+          "source": "Limited"
+        },
+        "weapon_name": "Stringmaster"
+      },
+      {
+        "commentary_details": "Mostly an ATK and CRIT DMG stat-stick for Hsin, barely benefits from this weapon's Basic Attack DMG-increasing effect but overall a negligible boost.",
+        "dupe_rank": "R1",
+        "percentage_performance": "72.8%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attacks grants 1 stacks of Gentle Dream. Echoes with the same name can only trigger this effect once, stacking up to 2 times, lasting for 10s. When reaching 2 stacks, casting Echo Skill no longer resets the duration of this effect. This effect activates up to once per 10s. Switching to another Resonator ends this effect early.<br />With 1 stacks: Grants {1} Basic Attack DMG Bonus.<br />With 2 stacks: Ignores {0} of the target's Havoc RES.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 72,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Whispers of Sirens"
+      },
+      {
+        "commentary_details": "ATK and CRIT Rate stat-stick for Hsin, who does not benefit from this weapon's Glacio Chafe-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "71.00%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. After inflicting Glacio Chafe on the target, the wielder gains {1} Glacio DMG Bonus for 12s, and all Resonators in the team gain {2} ATK increase for 30s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.2,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Freeze Frame"
+      },
+      {
+        "commentary_details": "ATK and CRIT Rate stat-stick for Hsin, who does not benefit from this weapon's Spectro Frazzle-related effects. Overall worse than Freeze Frame due to a lower Base ATK (higher CRIT Rate isn't too beneficial due to a tendency to overcap on it).",
+        "dupe_rank": "R1",
+        "percentage_performance": "69.80%",
+        "weapon_base_info": {
+          "effect_description": "Increase ATK by {0}. Dealing DMG to targets with Spectro Frazzle grants the wielder {1} Basic Attack DMG Bonus and {1} Heavy Attack DMG Bonus, stacking up to 3 times for 6s. Casting Outro Skill Amplifies the Spectro Frazzle DMG on targets around the active Resonator by {2} for 30s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "Crit. Rate",
+          "secondary_stat_val": 36,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Luminous Hymn"
+      },
+      {
+        "commentary_details": "Same as Luminous Hymn.",
+        "dupe_rank": "R1",
+        "percentage_performance": "69.80%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. After the wielder inflicts Fusion Burst or Tune Strain - Shifting on the target, their Resonance Liberation DMG Bonus is increased by {1} for 5s. While this effect lasts, after Resonators in the team inflict Fusion Burst or Tune Strain - Shifting, their ATK is increased by {2} for 15s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 36,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Forged Dwarf Star"
+      },
+      {
+        "commentary_details": "Best permanent weapon option for almost all Rectifier damage dealers, but its lack of CRIT-related stats and its Basic DMG-increasing effects are not that useful on Hsin. Generally recommended to go for her Signature if this is your 2nd option.",
+        "dupe_rank": "R1",
+        "percentage_performance": "66.00%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When hitting a target with Basic Attacks, increases Basic Attack DMG Bonus by {1}, stacking up to {2} time(s). This effect lasts for {3}s and can be triggered 1 time(s) every 0.5s.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 54,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Cosmic Ripples"
+      },
+      {
+        "commentary_details": "ATK and CRIT Rate stat-stick, this Battle Pass exclusive provides some decent stats for Hsin but they're generally lower and worse than 5-star weapons.",
+        "dupe_rank": "R5",
+        "percentage_performance": "64.60%",
+        "weapon_base_info": {
+          "effect_description": "When Resonance Liberation is released, increases the caster's ATK by {0}, lasting for 15s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.2,
+          "source": "Pioneer Podcast"
+        },
+        "weapon_name": "Augment"
+      },
+      {
+        "commentary_details": "Provides some extra Energy and ATK when casting Skill, has decent Base ATK compared to other 4-stars, but generally provides a much worse blend of stats than almost any 5-star weapon.",
+        "dupe_rank": "R5",
+        "percentage_performance": "58.70%",
+        "weapon_base_info": {
+          "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Gacha"
+        },
+        "weapon_name": "Fusion Accretion"
+      },
+      {
+        "commentary_details": "This Battle Pass exclusive increases ATK and CRIT DMG and benefits Flare mode more than Unison mode, as multiple Skills are cast in Flare mode to ensure uptime on its ATK and Basic DMG% increasing buff. However, even still it's not recommended over any other 5-star due to low Base ATK issues.",
+        "dupe_rank": "R5",
+        "percentage_performance": "57.60%",
+        "weapon_base_info": {
+          "effect_description": "Casting Resonance Skill increases ATK by {0} and grants {0} Basic Attack DMG Bonus for 10s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 40.5,
+          "source": "Battle Pass"
+        },
+        "weapon_name": "Radiant Dawn"
+      },
+      {
+        "commentary_details": "Best permanently accessible weapon option for Unison Hsin, generally not sufficient and would replace with her Signature weapon as quickly as possible as it simply gives way better stats for her.",
+        "dupe_rank": "R5",
+        "percentage_performance": "56.70%",
+        "weapon_base_info": {
+          "effect_description": "When Intro Skill is released, increases the caster's ATK by {0} and HP by {1}, lasting for {2}s.",
+          "primary_stat_val": 387,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": ""
+        },
+        "weapon_name": "Jinzhou Keeper"
+      }
+    ],
     "character_metadata": {
       "breadcrumb": [
         "Wuthering Waves",
         "Characters",
         "Hsin"
       ],
-      "element": null,
+      "element": "Electro",
       "name": "Hsin",
-      "rarity_stars": null,
+      "rarity_stars": 5,
       "slug": "hsin",
       "updates": {
-        "last_major_build_patch": "",
-        "last_profile_update": "",
-        "last_review_patch": "",
-        "last_updated": ""
+        "last_major_build_patch": "3.7",
+        "last_profile_update": "01/October/2026",
+        "last_review_patch": "3.7",
+        "last_updated": "01/October/2026"
       },
-      "weapon_type": null
+      "weapon_type": "Rectifier"
     },
-    "example_teams": [],
-    "media": null,
-    "minor_fortes": [],
-    "pros_and_cons": null,
-    "ratings": null,
-    "recommended_endgame_stats_target": [],
-    "resonance_chain_dupes": [],
-    "review": null,
-    "rotations": [],
-    "skill_upgrade_priority": null,
-    "skills": [],
-    "synergies": [],
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "hsin"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "rover-electro"
+        },
+        "slot_3": {
+          "alternatives": [
+            "chisa",
+            "buling"
+          ],
+          "character_name": "suisui"
+        },
+        "team_name": "Best Team (Flare)",
+        "team_notes": "By way of more flexibility in quickswap, Chisa could prove stronger for more experienced players willing to take advantage of the mechanic."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "hsin"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "jinhsi"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Best Team (Unison)",
+        "team_notes": "Generally never recommended unless you really want to make use of Unison Hsin or Jinhsi, delivers very similar performance to Electro Rover + Buling in a Flare team."
+      }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/hsin_full.webp",
+      "youtube_guide_embed_url": "",
+      "youtube_guide_full_url": "https://youtu.be/5y0V5t-HYSo "
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+8%",
+        "stat_name": "CRIT Rate"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "ATK%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "Pretty underwhelming Sequences in Flare mode aside from her S6 - has standard sequence values in Unison mode though;",
+        "Permanent banner weapon options are underwhelming; generally try to go for her Signature if you're pulling her;",
+        "\"Brings Jinhsi back into the meta via Unison mode\" is what we'd like to say, but in truth, Hsin's full F2P Electro Flare team is just as good as her full premium Unison team with Jinhsi. No reason to bring Jinhsi back despite Hsin's access to Coordinated Attacks and Unison-related synergies."
+      ],
+      "pros": [
+        "The new best Electro DPS (pretty rare thing to say as Electro damage dealers are hard to come by);",
+        "Has access to very F2P-friendly team compositions in Flare mode - will essentially never be stranded for teammates, even for beginners;",
+        "Has significant room to grow as a DPS as Unison becomes a more developed character archetype."
+      ]
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [
+            "Flare",
+            "Unison",
+            "Coord",
+            "Watchlist (Up)"
+          ],
+          "tier": "T0.5"
+        },
+        "whimpering_wastes": {
+          "tags": [
+            "Flare",
+            "Unison",
+            "Coord",
+            "Watchlist (Up)"
+          ],
+          "tier": "T1"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T0.5"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T1"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 14500+",
+      "DEF: 1100+",
+      "ATK: 2100-2500+",
+      "CRIT Rate: 65%+ (before Echo set bonuses)",
+      "CRIT DMG: 230-270%+",
+      "Energy Regen: 110-115% Lower end was estimated in a Electro Rover/Suisui Flare team, higher end was estimated in a Jinhsi/Shorekeeper Unison team.",
+      "Electro DMG Bonus: 50-80%+"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "Casting Resonance Liberation - Formshift grants Hsin 2 stacks of Radiance Ward, stacking up to 2 times. Switching to Answering Form clears all stacks. When Hsin takes DMG from an enemy target's attack, 1 stack of Radiance Ward can be consumed to make Her immune to interruption and reduce DMG taken by 60% for 1s. This effect can be triggered once every 1s.While in Resonance Mode - Unison:The DMG Multipliers of Intro Skill - Answering Form: Manifold Unison and Intro Skill - Illumining Form: Manifold Unison are increased by 15%, and each stack of Unison Boon additionally increases the DMG Multipliers of Intro Skill - Answering Form: Manifold Unison and Intro Skill - Illumining Form: Manifold Unison by 10%, up to a total 4 stacks.While in Resonance Mode - Electro Flare:When Hsin enters combat, if Heart of Thunder is below 50 stacks, it is increased to 50 stacks, triggered once every 12s.The DMG Multiplier of Electro Flare DMG dealt when Forte Circuit - Resonance Skill: Illumining Form hits a target and consumes 5 stacks of Heart of Thunder is increased to 210%. The DMG Multiplier of Electro Flare DMG dealt when Forte Circuit - Resonance Skill: Heartward by Moon consumes all remaining Heart of Thunder at once is increased to 42%.",
+        "name": "A Boat to Cross the Rising Tide",
+        "node": "S1"
+      },
+      {
+        "description": "The DMG Multipliers of Heavy Attack - Answering Form: Realm Wanderer and Heavy Attack - Answering Form: Realm Protector are increased by 60%.The DMG Multipliers of Heavy Attack - Illumining Form: Beholding All Horizons and Heravy Attack - Illumining Form: Stilling All Horizons are increased by 60%.When Hsin enters combat, the Cooldowns for Hsin to gain Resolution of Wishes and Law of Heaven are reset. If Hsin is in Answering Form, 100 additional points of Answering Heart are also restored. This effect can be triggered once every 12s.",
+        "name": "To Wake Is to Wonder What I Am",
+        "node": "S2"
+      },
+      {
+        "description": "The DMG Multiplier of Resonance Liberation - Pillars Across Heaven is increased by 70%.While in Resonance Mode - Unison:The Crit. DMG of Resonance Liberation - Pillars Across Heaven is increased by 20%, and each stack of Unison Boon additionally increases its Crit. DMG by 15%, stacking up to 4 times.While in Resonance Mode - Electro Flare:When the last stage of Resonance Liberation - Pillars Across Heaven hits a target inflicted with Electro Flare, it triggers 1 instance of Electro Flare DMG, with its DMG Multiplier equal to 1500% times the Electro Flare DMG Multiplier corresponding to the current Electro Flare stacks on the target.",
+        "name": "A Dream of Return Among the Hills",
+        "node": "S3"
+      },
+      {
+        "description": "When Resonators in the team inflict Electro Flare or Electro Rage to a target, or when Resonators in the team gain Unison or trigger Unison Response, all Resonators in the team gain 20% All-Attribute DMG Bonus for 30s.",
+        "name": "A River of Lanterns, a River of Wishes",
+        "node": "S4"
+      },
+      {
+        "description": "While in Illumining Form, DMG taken by Hsin is reduced by 20%.When Hsin takes a fatal blow, She will not be knocked out, but instead restores 100% of Max HP and becomes immune to DMG and interruption for 1s. This effect can be triggered once every 10 minute.",
+        "name": "Forms Turn as the Heart Wills",
+        "node": "S5"
+      },
+      {
+        "description": "Targets take 40% more Resonance Skill DMG from Hsin.Resonance Skill DMG dealt by Hsin ignores 20% of the target's DEF.While in Resonance Mode - Unison:The maximum stacks of the Unison Boon effect on Resonators in the team are increased by 1. When a Resonator in the team triggers Unison Response, all Resonators in the team gain 1 stack of Unison Boon for 30s. This effect does not stack.While in Resonance Mode - Electro Flare:While in combat, Electro Flare DMG taken by targets within a certain range around Hsin can be Critical, with Crit. Rate fixed at 80% and Crit. DMG fixed at 230%.",
+        "name": "The Moon Owes Its Light to the Living",
+        "node": "S6"
+      }
+    ],
+    "review": {
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Hsin is a 5-star Electro Rectifier Main DPS who plays into the Electro Flare archetype and a (sort of) brand new one, Unison. Electro Flare is one of the many Negative Statuses, and all of them have received significant attention meta-wise recently. However, Unison is a previously forgotten mechanic only Jinhsi possessed up until now, that involves your character doing 2 Outros per rotation: Unison gives one for free, and your Concerto gauge gives you the other. In the same vein as how Jinhsi plays, this creates more unique team rotations compared to the usual. With that being said, Hsin's kit has many complex elements based on her Resonance Mode, so we'll have to go in-depth to fully understand it.",
+            "Key Mechanics & Rotation Concepts",
+            "Hsin has 3 states that she will switch between during battle throughout her rotation: Answering Form, Illumining Form, and Mechanism Dominion. In Answering Form, you build up the Forte required to switch to Illumining Form, then in that form, you build up the Forte that is required to enter Mechanism Dominion, at which point you consume said Forte to then unleash Hsin's final Ultimate. Pretty straightforward idea.",
+            "However, we can go a bit more in-depth on the details here, based on Hsin's resonance mode. They fundamentally change how she will rotate and what kinds of synergies she will get.",
+            "In Electro Flare mode, Hsin will perform a standard 1-2-3 team rotation like in any classic team you've previously played, so she'll do her on-field rotation fully until her Outro is ready and all her key abilities have been cast. Flare mechanics work in this way:",
+            "Electro Flare stacks normally get consumed every time the instance of periodic damage it should deal is triggered. When Hsin is on the team, this is not the case. Instead, Hsin will have any extra Electro Flare stacks over the stack limit (10 at base) converted into Heart of Thunder instead of Electro Rage, to then unleash a detonation of its damage in one Skill.",
+            "Electro Flare is applied by: Her first Ultimate, Forte Skill, her Basics after her Forte Skill, and her second Forte Heavy (5 stacks each), as well as her Intro (1 stack).",
+            "Once Hsin casts her first Ultimate, she will apply 1 stack of Electro Flare to enemies who have none. If another teammate applies at least 10 Flare, Hsin stores this information and raises the Flare count up to the max instead. These effects apply to all nearby enemies until her rotation ends.",
+            "Hsin gains extra Electro DMG Bonus when another character in the team applies Electro Flare onto enemies, with an extra boost if that character is Electro Rover.",
+            "In Unison mode, Hsin rotates quite differently. Unison provides her with a free Outro once every 25s when her first Ultimate is cast, at the cost of no Concerto energy. Other mechanics include:",
+            "Hsin increases the DMG of all Unison Response characters, including herself, by stacking up a unique buff (somewhat similar to Tune Strain) called Unison Boon. This buff is given when Unison Response characters perform Intros with each other;",
+            "Hsin can entirely skip the Illumining Form state and go straight into Mechanism Dominion if she Intros again after her First Ultimate;",
+            "Hsin's Intros are enhanced if they are triggered by another Unison character and they give Hsin 50% more ATK for 8s.",
+            "In other words, you are heavily incentivized to use Unison mode with and only with other Unison characters. To add to this, Hsin's Outro gives 20% DMG amplification to other characters in the team than herself, but only to Electro DMG (Electro Flare mode) or Unison characters (Unison mode).",
+            "Hence, we can conclude Hsin's rotation will have her stacking up her Forte gauges (which she can only do while she is active on the field, so Swap Cancelling is restricted) and entering Illumining Form via her Ultimate. In Unison mode, she will switch out until another Unison character can give her another Intro. In Flare mode, she will stay on field and charge up her second Forte, both things done to enter Mechanism Dominion state, at which point she can do a few Basic Attacks to consume the Forte, cast her second Forte Heavy and Ultimate, and then Outro until her next rotation starts.",
+            "Meta Position & Conclusion",
+            "You may have guessed the following when we described the Unison state mechanics:",
+            "Electro Flare is Hsin's more flexible mode teammates-wise, and her most F2P-friendly.",
+            "Currently, the only Unison character available is Jinhsi, and she cannot fully activate all the buffs in Hsin's kit. Not to mention, the team is rather weak compared to the rest of the current meta. In other words, new teammates are to come for this Resonance Mode.",
+            "And this is entirely true. Performance-wise, Hsin's Flare teams are however still restricted to using Electro Rover and Suisui at best outside of Quickswap (where Chisa would be privileged instead). Overall, Electro Rover is far from an ideal character, with low total buffing potential and a lengthy rotation, meaning they too could be replaced in the future. But for now, they are enough to make Hsin a good DPS still, and a budget-friendly one at that, able to run Buling in the 3rd slot for a nearly cost-free team composition while still retaining good enough performance to clear endgame modes when played properly.",
+            "For this reason though, raw performance-wise, Hsin is below the rest of the modern 3.x cast. Luuk can expect to see a bit higher results than her too. With that being said, Hsin has a way out in the form of Unison Mode, which has not been expanded upon yet. We can expect Kuro to release more Unison characters to synergize with Hsin to bring her up to modern performance standards. With that being said, we have no guarantee of this, so right now Hsin is simply a more budget-friendly Flare DPS than the rest of the modern cast, being able to take advantage of Rover better than any other character currently, who is accessible to everyone and doesn't need their Signature weapon.",
+            "In conclusion, while Hsin has no good permanent banner weapons, with her and her Signature, you essentially have a guaranteed Flare team for her out of the box, and that makes her a great pull for beginner players. In the future, she may be subject to receiving additional firepower through Unison, but for now her performance ceiling is quite a bit below her peers. Keep this into account when choosing whether to pull for her or not."
+          ]
+        }
+      ],
+      "summary": "Hsin is a 5-star Electro Rectifier Main DPS who plays into the Electro Flare archetype and a (sort of) brand new one, Unison. Electro Flare is one of the many Negative Statuses, and all of them have received significant attention meta-wise recently. However, Unison is a previously forgotten mechanic only Jinhsi possessed up until now, that involves your character doing 2 Outros per rotation: Unison gives one for free, and your Concerto gauge gives you the other. In the same vein as how Jinhsi plays, this creates more unique team rotations compared to the usual. With that being said, Hsin's kit has many complex elements based on her Resonance Mode, so we'll have to go in-depth to fully understand it."
+    },
+    "rotations": [
+      {
+        "rotation_name": "Electro Flare Rotation",
+        "steps": [
+          "Intro",
+          "Basic 4",
+          "Heavy: Realm Protector",
+          "Ultimate: Formshift",
+          "Skill: Illumining",
+          "Basic: Illumining 1",
+          "Basic: Illumining 2 (Cancel animation endlag via Skill)",
+          "Skill: Pillars",
+          "Basic: Pillars 1",
+          "Basic: Pillars 2",
+          "Basic: Pillars 3",
+          "Basic: Pillars 4",
+          "Heavy: Stilling All Horizons",
+          "Ultimate: Pillars Across Heaven",
+          "Skill (Swap)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Unison Rotation",
+        "steps": [
+          "Intro: Manifold Unison",
+          "Basic 3",
+          "Basic 4",
+          "Heavy: Realm Protector",
+          "Ultimate: Formshift",
+          "Outro (Unison)",
+          "Intro: Manifold Unison",
+          "Basic: Pillars 1",
+          "Basic: Pillars 2",
+          "Basic: Pillars 3",
+          "Basic: Pillars 4",
+          "Heavy: Stilling All Horizons",
+          "Ultimate: Pillars Across Heaven",
+          "Skill (Swap)",
+          "Outro"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "Intro can be skipped when levelling to save on resources at a minimal damage loss. Basic and Skill are also lower-priority, but still worth levelling at endgame level.",
+      "order": [
+        "Forte Circuit",
+        "Res. Liberation",
+        "Basic Attack",
+        "Res. Skill",
+        "Intro Skill"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic Attack - Answering FormWhile in Answering Form, perform up to 4 consecutive attacks, dealing Electro DMG.Heavy Attack - Answering FormWhile in Answering Form, consume STA to deal Electro DMG.After casting this skill, press Normal Attack within a short time to cast Basic Attack - Answering Form Stage 2.Mid-air Attack - Answering FormWhile in Answering Form and in mid-air, press Normal Attack to cast the skill at the cost of STA, dealing Electro DMG.After casting this skill, press Normal Attack within a short time to cast Basic Attack - Answering Form Stage 2.Heavy Attack - Answering Form: Reign at EaseWhile in Answering Form and in mid-air, hold Normal Attack to cast Heavy Attack - Answering Form: Reign at Ease, continuously consuming STA and dealing Electro DMG to the target.Switching to another Resonator ends the skill action immediately.Mid-air Attack - Answering Form: Reign at EaseWhen the Normal Attack button is released during Heavy Attack - Answering Form: Reign at Ease, Hsin casts Mid-air Attack - Answering Form: Reign at Ease , consuming STA to perform a Plunging Attack, transforming into the Moon Fox upon landing and dealing Electro DMG.After casting Mid-air Attack- Answering Form: Reign at Ease, press Normal Attack within a short time to cast Basic Attack - Answering Form Stage 2.Dodge Counter - Answering FormWhile in Answering Form, press Normal Attack within a short time after a successful Dodge to attack the target, dealing Electro DMG.After casting this skill, press Normal Attack within a short time to cast Basic Attack - Answering Form Stage 3.Basic Attack - Illumining FormWhile in Illumining Form and not in the Mechanism Dominion state, command Xuanfang Mechanisms to perform up to 3 consecutive attacks, dealing Electro DMG.Casting Basic Attack - Illumining Form Stage 1 generates a Modular Heartlock at the target's position. Casting Basic Attack - Illumining Form Stage 2, Heavy Attack - Illumining Form, Dodge Counter - Illumining Form, or Resonance Skill - Illumining Form causes the Modular Heartlock to collapse, dealing Electro DMG.Casting this skill consumes STA when Hsin is in mid-air.Heavy Attack - Illumining FormWhile in Illumining Form, consume STA to command Xuanfang Mechanisms, dealing Electro DMG.After casting this skill, press Normal Attack within a short time to cast Basic Attack - Illumining Form Stage 3.Upward Cut - Illumining FormWhile in Illumining Form and on the ground, press Jump to cast this skill, dealing Electro DMG.Mid-air Attack - Illumining FormWhile in Illumining Form and Hsin is in mid-air, Resonance Skill - Illumining Form is replaced with Mid-air Attack - Illumining Form.Consume STA to perform a Plunging Attack, dealing Electro DMG.Dodge Counter - Illumining FormWhile in Illumining Form, press Normal Attack within a short time after a successful Dodge to attack the target, dealing Electro DMG.After casting this skill, press Normal Attack within a short time to cast Basic Attack - Illumining Form Stage 3.Basic Attack - Illumining Form: Pillars AlignedWhile in Illumining Form and in the Mechanism Dominion state, command Xuanfang Mechanisms to perform up to 4 consecutive attacks, dealing Electro DMG.Dodge Counter - Illumining Form: Pillars AlignedWhile in Illumining Form and in the Mechanism Dominion state, press Normal Attack within a short time after a successful Dodge to attack the target, dealing Electro DMG.After casting this skill, press Normal Attack within a short time to cast Basic Attack - Illumining Form: Pillars Aligned Stage 3.",
+        "multipliers": [
+          {
+            "Lv1": "14.00%+21.00%",
+            "Lv10": "27.84%+41.76%",
+            "Lv2": "15.15%+22.73%",
+            "Lv3": "16.30%+24.45%",
+            "Lv4": "17.91%+26.86%",
+            "Lv5": "19.06%+28.58%",
+            "Lv6": "20.38%+30.56%",
+            "Lv7": "22.21%+33.32%",
+            "Lv8": "24.05%+36.07%",
+            "Lv9": "25.89%+38.83%",
+            "Name": "Basic Attack - Answering Form Stage 1 DMG"
+          },
+          {
+            "Lv1": "7.62%*2+34.28%+26.66%",
+            "Lv10": "15.15%*2+68.14%+53.00%",
+            "Lv2": "8.25%*2+37.09%+28.85%",
+            "Lv3": "8.87%*2+39.90%+31.03%",
+            "Lv4": "9.74%*2+43.83%+34.09%",
+            "Lv5": "10.37%*2+46.64%+36.28%",
+            "Lv6": "11.09%*2+49.87%+38.79%",
+            "Lv7": "12.09%*2+54.37%+42.29%",
+            "Lv8": "13.09%*2+58.87%+45.79%",
+            "Lv9": "14.08%*2+63.36%+49.28%",
+            "Name": "Basic Attack - Answering Form Stage 2 DMG"
+          },
+          {
+            "Lv1": "15.85%*2+11.89%*2+23.78%",
+            "Lv10": "31.51%*2+23.63%*2+47.26%",
+            "Lv2": "17.15%*2+12.86%*2+25.72%",
+            "Lv3": "18.45%*2+13.84%*2+27.67%",
+            "Lv4": "20.27%*2+15.20%*2+30.40%",
+            "Lv5": "21.57%*2+16.18%*2+32.35%",
+            "Lv6": "23.06%*2+17.30%*2+34.59%",
+            "Lv7": "25.14%*2+18.86%*2+37.71%",
+            "Lv8": "27.22%*2+20.42%*2+40.83%",
+            "Lv9": "29.30%*2+21.98%*2+43.95%",
+            "Name": "Basic Attack - Answering Form Stage 3 DMG"
+          },
+          {
+            "Lv1": "19.98%+19.98%+59.93%",
+            "Lv10": "39.72%+39.72%+119.15%",
+            "Lv2": "21.62%+21.62%+64.85%",
+            "Lv3": "23.26%+23.26%+69.76%",
+            "Lv4": "25.55%+25.55%+76.64%",
+            "Lv5": "27.19%+27.19%+81.56%",
+            "Lv6": "29.07%+29.07%+87.21%",
+            "Lv7": "31.69%+31.69%+95.07%",
+            "Lv8": "34.31%+34.31%+102.93%",
+            "Lv9": "36.93%+36.93%+110.79%",
+            "Name": "Basic Attack - Answering Form Stage 4 DMG"
+          },
+          {
+            "Lv1": "14.00%*25",
+            "Lv10": "27.84%*25",
+            "Lv2": "15.15%*25",
+            "Lv3": "16.30%*25",
+            "Lv4": "17.91%*25",
+            "Lv5": "19.06%*25",
+            "Lv6": "20.38%*25",
+            "Lv7": "22.21%*25",
+            "Lv8": "24.05%*25",
+            "Lv9": "25.89%*25",
+            "Name": "Heavy Attack - Answering Form: Reign at Ease DMG"
+          },
+          {
+            "Lv1": "11.29%",
+            "Lv10": "22.44%",
+            "Lv2": "12.21%",
+            "Lv3": "13.14%",
+            "Lv4": "14.43%",
+            "Lv5": "15.36%",
+            "Lv6": "16.42%",
+            "Lv7": "17.90%",
+            "Lv8": "19.39%",
+            "Lv9": "20.87%",
+            "Name": "Mid-air Attack - Answering Form: Reign at Ease DMG"
+          },
+          {
+            "Lv1": "5.17%+10.34%+5.17%+10.34%*3",
+            "Lv10": "10.28%+20.55%+10.28%+20.55%*3",
+            "Lv2": "5.59%+11.18%+5.59%+11.18%*3",
+            "Lv3": "6.02%+12.03%+6.02%+12.03%*3",
+            "Lv4": "6.61%+13.22%+6.61%+13.22%*3",
+            "Lv5": "7.03%+14.06%+7.03%+14.06%*3",
+            "Lv6": "7.52%+15.04%+7.52%+15.04%*3",
+            "Lv7": "8.20%+16.39%+8.20%+16.39%*3",
+            "Lv8": "8.88%+17.75%+8.88%+17.75%*3",
+            "Lv9": "9.56%+19.11%+9.56%+19.11%*3",
+            "Name": "Heavy Attack - Answering Form DMG"
+          },
+          {
+            "Lv1": "11.29%",
+            "Lv10": "22.44%",
+            "Lv2": "12.21%",
+            "Lv3": "13.14%",
+            "Lv4": "14.43%",
+            "Lv5": "15.36%",
+            "Lv6": "16.42%",
+            "Lv7": "17.90%",
+            "Lv8": "19.39%",
+            "Lv9": "20.87%",
+            "Name": "Mid-air Attack - Answering Form DMG"
+          },
+          {
+            "Lv1": "22.63%*2+33.94%+33.94%",
+            "Lv10": "44.98%*2+67.47%+67.47%",
+            "Lv2": "24.48%*2+36.72%+36.72%",
+            "Lv3": "26.34%*2+39.51%+39.51%",
+            "Lv4": "28.94%*2+43.40%+43.40%",
+            "Lv5": "30.79%*2+46.19%+46.19%",
+            "Lv6": "32.93%*2+49.39%+49.39%",
+            "Lv7": "35.89%*2+53.84%+53.84%",
+            "Lv8": "38.86%*2+58.29%+58.29%",
+            "Lv9": "41.83%*2+62.74%+62.74%",
+            "Name": "Dodge Counter - Answering Form DMG"
+          },
+          {
+            "Lv1": "6.32%*2+18.94%",
+            "Lv10": "12.55%*2+37.65%",
+            "Lv2": "6.83%*2+20.49%",
+            "Lv3": "7.35%*2+22.05%",
+            "Lv4": "8.08%*2+24.22%",
+            "Lv5": "8.59%*2+25.77%",
+            "Lv6": "9.19%*2+27.56%",
+            "Lv7": "10.02%*2+30.04%",
+            "Lv8": "10.85%*2+32.53%",
+            "Lv9": "11.67%*2+35.01%",
+            "Name": "Basic Attack - Illumining Form Stage 1 DMG"
+          },
+          {
+            "Lv1": "10.52%*2",
+            "Lv10": "20.92%*2",
+            "Lv2": "11.39%*2",
+            "Lv3": "12.25%*2",
+            "Lv4": "13.46%*2",
+            "Lv5": "14.32%*2",
+            "Lv6": "15.31%*2",
+            "Lv7": "16.69%*2",
+            "Lv8": "18.07%*2",
+            "Lv9": "19.45%*2",
+            "Name": "Basic Attack - Illumining Form: Modular Heartlock DMG"
+          },
+          {
+            "Lv1": "17.50%*2",
+            "Lv10": "34.80%*2",
+            "Lv2": "18.94%*2",
+            "Lv3": "20.37%*2",
+            "Lv4": "22.38%*2",
+            "Lv5": "23.82%*2",
+            "Lv6": "25.47%*2",
+            "Lv7": "27.77%*2",
+            "Lv8": "30.06%*2",
+            "Lv9": "32.36%*2",
+            "Name": "Basic Attack - Illumining Form Stage 2 DMG"
+          },
+          {
+            "Lv1": "4.58%*4+9.16%*2+13.74%*4",
+            "Lv10": "9.11%*4+18.21%*2+27.31%*4",
+            "Lv2": "4.96%*4+9.91%*2+14.87%*4",
+            "Lv3": "5.33%*4+10.66%*2+15.99%*4",
+            "Lv4": "5.86%*4+11.71%*2+17.57%*4",
+            "Lv5": "6.23%*4+12.46%*2+18.69%*4",
+            "Lv6": "6.67%*4+13.33%*2+19.99%*4",
+            "Lv7": "7.27%*4+14.53%*2+21.79%*4",
+            "Lv8": "7.87%*4+15.73%*2+23.59%*4",
+            "Lv9": "8.47%*4+16.93%*2+25.40%*4",
+            "Name": "Basic Attack - Illumining Form Stage 3 DMG"
+          },
+          {
+            "Lv1": "27.13%*2",
+            "Lv10": "53.93%*2",
+            "Lv2": "29.35%*2",
+            "Lv3": "31.58%*2",
+            "Lv4": "34.69%*2",
+            "Lv5": "36.92%*2",
+            "Lv6": "39.47%*2",
+            "Lv7": "43.03%*2",
+            "Lv8": "46.59%*2",
+            "Lv9": "50.15%*2",
+            "Name": "Heavy Attack - Illumining Form DMG"
+          },
+          {
+            "Lv1": "17.62%+26.43%",
+            "Lv10": "35.03%+52.54%",
+            "Lv2": "19.07%+28.60%",
+            "Lv3": "20.51%+30.77%",
+            "Lv4": "22.53%+33.80%",
+            "Lv5": "23.98%+35.97%",
+            "Lv6": "25.64%+38.46%",
+            "Lv7": "27.95%+41.93%",
+            "Lv8": "30.26%+45.39%",
+            "Lv9": "32.57%+48.86%",
+            "Name": "Upward Cut - Illumining Form DMG"
+          },
+          {
+            "Lv1": "6.78%+4.52%",
+            "Lv10": "13.47%+8.98%",
+            "Lv2": "7.33%+4.89%",
+            "Lv3": "7.89%+5.26%",
+            "Lv4": "8.66%+5.78%",
+            "Lv5": "9.22%+6.15%",
+            "Lv6": "9.86%+6.57%",
+            "Lv7": "10.74%+7.16%",
+            "Lv8": "11.63%+7.76%",
+            "Lv9": "12.52%+8.35%",
+            "Name": "Mid-air Attack - Illumining Form DMG"
+          },
+          {
+            "Lv1": "48.13%*2",
+            "Lv10": "95.68%*2",
+            "Lv2": "52.08%*2",
+            "Lv3": "56.02%*2",
+            "Lv4": "61.55%*2",
+            "Lv5": "65.49%*2",
+            "Lv6": "70.03%*2",
+            "Lv7": "76.35%*2",
+            "Lv8": "82.66%*2",
+            "Lv9": "88.97%*2",
+            "Name": "Dodge Counter - Illumining Form DMG"
+          },
+          {
+            "Lv1": "14.52%*3",
+            "Lv10": "28.86%*3",
+            "Lv2": "15.71%*3",
+            "Lv3": "16.90%*3",
+            "Lv4": "18.57%*3",
+            "Lv5": "19.76%*3",
+            "Lv6": "21.13%*3",
+            "Lv7": "23.03%*3",
+            "Lv8": "24.94%*3",
+            "Lv9": "26.84%*3",
+            "Name": "Basic Attack - Illumining Form: Pillars Aligned Stage 1 DMG"
+          },
+          {
+            "Lv1": "19.23%*3",
+            "Lv10": "38.23%*3",
+            "Lv2": "20.81%*3",
+            "Lv3": "22.39%*3",
+            "Lv4": "24.60%*3",
+            "Lv5": "26.17%*3",
+            "Lv6": "27.99%*3",
+            "Lv7": "30.51%*3",
+            "Lv8": "33.03%*3",
+            "Lv9": "35.55%*3",
+            "Name": "Basic Attack - Illumining Form: Pillars Aligned Stage 2 DMG"
+          },
+          {
+            "Lv1": "10.74%*5",
+            "Lv10": "21.35%*5",
+            "Lv2": "11.62%*5",
+            "Lv3": "12.50%*5",
+            "Lv4": "13.74%*5",
+            "Lv5": "14.62%*5",
+            "Lv6": "15.63%*5",
+            "Lv7": "17.04%*5",
+            "Lv8": "18.45%*5",
+            "Lv9": "19.86%*5",
+            "Name": "Basic Attack - Illumining Form: Pillars Aligned Stage 3 DMG"
+          },
+          {
+            "Lv1": "8.37%*7+25.10%",
+            "Lv10": "16.64%*7+49.90%",
+            "Lv2": "9.06%*7+27.16%",
+            "Lv3": "9.74%*7+29.22%",
+            "Lv4": "10.70%*7+32.10%",
+            "Lv5": "11.39%*7+34.15%",
+            "Lv6": "12.18%*7+36.52%",
+            "Lv7": "13.27%*7+39.81%",
+            "Lv8": "14.37%*7+43.11%",
+            "Lv9": "15.47%*7+46.40%",
+            "Name": "Basic Attack - Illumining Form: Pillars Aligned Stage 4 DMG"
+          },
+          {
+            "Lv1": "33.23%*3",
+            "Lv10": "66.07%*3",
+            "Lv2": "35.96%*3",
+            "Lv3": "38.68%*3",
+            "Lv4": "42.50%*3",
+            "Lv5": "45.22%*3",
+            "Lv6": "48.36%*3",
+            "Lv7": "52.72%*3",
+            "Lv8": "57.08%*3",
+            "Lv9": "61.44%*3",
+            "Name": "Dodge Counter - Illumining Form: Pillars Aligned DMG"
+          },
+          {
+            "Lv1": "5",
+            "Lv10": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Name": "Heavy Attack - Answering Form: Reign at Ease STA Cost per Second"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-air Attack Answering Form: Reign at Ease STA Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Heavy Attack - Answering Form STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-air Attack - Answering Form STA Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Heavy Attack - Illumining Form STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-air Attack - Illumining Form STA Cost"
+          },
+          {
+            "Lv1": "5",
+            "Lv10": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Name": "Basic Attack - Illumining Form Mid-air STA Cost"
+          }
+        ],
+        "name": "Manifold Bloom",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Resonance Skill - Answering FormWhile in Answering Form, press Resonance Skill to deal Electro DMG.After casting this skill, press Normal Attack within a short time to cast Basic Attack - Answering Form Stage 4.Can be cast in mid-air.If Hsin moves while on the ground within a short time after casting this skill, She turns into the Moon Fox. While turned into the Moon Fox and out of combat, Hsin gains Dustless Tread. With Dustless Tread, Hsin can enter the target's aggro range without triggering combat. Dustless Tread is removed when Hsin enters combat, is switched out, or ends the Moon Fox form by having environmental, gameplay, or feature interactions.While turned into the Moon Fox and out of combat, Hsin restores 6% of Max HP every 3s.Taking damage, failing to perform a Dodge with directional input while on the ground, or Dodging in mid-air will end the Moon Fox form. Switching to another Resonator or pressing Resonance Skill also ends the Moon Fox form. Press Normal Attack to cast Basic Attack - Answering Form Stage 4, which also ends the Moon Fox form.Resonance Liberation is disabled when Hsin is in the Moon Fox form.Resonance Skill - Illumining FormWhile in Illumining Form and Hsin is on the ground, press Resonance Skill to have Hsin command a Colossal Xuanfang Mechanism, dealing Electro DMG.",
+        "multipliers": [
+          {
+            "Lv1": "12.60%+12.60%+12.60%+8.40%*2+29.40%",
+            "Lv10": "23.30%+23.30%+23.30%+15.53%*2+54.36%",
+            "Lv2": "13.64%+13.64%+13.64%+9.09%*2+31.82%",
+            "Lv3": "14.67%+14.67%+14.67%+9.78%*2+34.23%",
+            "Lv4": "16.12%+16.12%+16.12%+10.75%*2+37.60%",
+            "Lv5": "17.15%+17.15%+17.15%+11.44%*2+40.01%",
+            "Lv6": "18.34%+18.34%+18.34%+12.23%*2+42.78%",
+            "Lv7": "19.99%+19.99%+19.99%+13.33%*2+46.64%",
+            "Lv8": "21.65%+21.65%+21.65%+14.43%*2+50.50%",
+            "Lv9": "23.30%+23.30%+23.30%+15.53%*2+54.36%",
+            "Name": "Resonance Skill - Answering Form DMG"
+          },
+          {
+            "Lv1": "5.60%*4+89.60%",
+            "Lv10": "10.36%*4+165.65%",
+            "Lv2": "6.06%*4+96.95%",
+            "Lv3": "6.52%*4+104.30%",
+            "Lv4": "7.17%*4+114.59%",
+            "Lv5": "7.63%*4+121.93%",
+            "Lv6": "8.15%*4+130.38%",
+            "Lv7": "8.89%*4+142.14%",
+            "Lv8": "9.62%*4+153.89%",
+            "Lv9": "10.36%*4+165.65%",
+            "Name": "Resonance Skill - Illumining Form DMG"
+          },
+          {
+            "Lv1": "12",
+            "Lv10": "12",
+            "Lv2": "12",
+            "Lv3": "12",
+            "Lv4": "12",
+            "Lv5": "12",
+            "Lv6": "12",
+            "Lv7": "12",
+            "Lv8": "12",
+            "Lv9": "12",
+            "Name": "Resonance Skill - Answering Form Cooldown"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Resonance Skill - Illumining Form Cooldown"
+          }
+        ],
+        "name": "Heartward by Moon",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "FormshiftCasting Heavy Attack - Answering Form: Realm Wanderer unlocks Formshift.Cast Formshift to unfurl the Manifold Sanctum. Hsin turns into Illumining Form, unlocking a new set of combat abilities, and enters the Heart Manifest state.Can be cast in mid-air close to the ground.While in Illumining Form, engaging in quest dialogue, performing a environmental interaction with an animation, or using a Utility switches Hsin back to Answering Form to perform the corresponding action.While in Illumining Form, Hsin can walk on the surface of water, and will continuously consume STA in the deep water areas. In Walking Mode, Hsin in Illumining Form can step off a cliff into the air and walk slowly in mid-air, continuously consuming STA in this state. Hsin cannot restore STA while in Illumining Form and air-borne.Pillars Across HeavenCasting Heavy Attack - Illumining Form: Beholding All Horizons unlocks Pillars Across Heaven.Cast Pillars Across Heaven to bring the Manifold Sanctum crashing down, dealing Electro DMG to the target, considered Resonance Skill DMG.Can be cast in mid-air close to the ground.Hsin returns to Answering Form and exits the Heart Manifest state.EdictCasting Formshift grants Hsin 21 stacks of Edict for 45s. The effect cannot exceed 21 stacks and all stacks are removed when the duration ends.After the active Resonator in the team deals DMG, Hsin automatically consumes Edict in the following 3s trigger the following effect up to once per second. Retriggering the effect resets the durtion:When Edict is consumed, summon a Soaring Pillar from the Manifold Sanctum as a Coordinated Attack to strike the target once, dealing Electro DMG. Edict can be automatically consumed up to 1 stack per second.Damage dealt by Soaring Pillar does not trigger this effect.When Hsin is knocked out, all Edict stacks are removed.Heart ManifestIncreases Hsin's resistance to interruption for 45s.Entering the Heart Manifest state resets Hsin's Illumining Form.While in the Heart Manifest state and in Illumining Form, if Pillars Across Heaven has not been unlocked, press Resonance Liberation to have Hsin cast Invoked Form: Answering. While in Answering Form, press Resonance Liberation to have Hsin cast Invoked Form: Illumining.Invoked Form: AnsweringHsin temporarily reverts to Answering Form. When this skill is cast, if Hsin is on the ground, She casts Basic Attack - Answering Form Stage 2; if She is in mid-air, She casts Mid-air Attack - Answering Form.Invoked Form: IlluminingHsin turns back into Illumining Form. When this skill is cast, if Hsin is on the ground, She casts Upward Cut - Illumining Form; if She is in mid-air, She casts Mid-air Attack - Illumining Form.",
+        "multipliers": [
+          {
+            "Lv1": "40.50%+45.56%+30.38%+50.62%+35.44%+809.88%",
+            "Lv10": "80.51%+90.57%+60.38%+100.64%+70.45%+1610.12%",
+            "Lv2": "43.82%+49.30%+32.87%+54.77%+38.34%+876.29%",
+            "Lv3": "47.14%+53.03%+35.36%+58.92%+41.25%+942.70%",
+            "Lv4": "51.79%+58.26%+38.84%+64.73%+45.32%+1035.67%",
+            "Lv5": "55.11%+62.00%+41.33%+68.88%+48.22%+1102.08%",
+            "Lv6": "58.93%+66.29%+44.20%+73.66%+51.56%+1178.45%",
+            "Lv7": "64.24%+72.27%+48.18%+80.30%+56.21%+1284.71%",
+            "Lv8": "69.55%+78.25%+52.17%+86.94%+60.86%+1390.97%",
+            "Lv9": "74.87%+84.22%+56.15%+93.58%+65.51%+1497.22%",
+            "Name": "Pillars Across Heaven DMG"
+          },
+          {
+            "Lv1": "5.72%",
+            "Lv10": "11.37%",
+            "Lv2": "6.19%",
+            "Lv3": "6.66%",
+            "Lv4": "7.31%",
+            "Lv5": "7.78%",
+            "Lv6": "8.32%",
+            "Lv7": "9.07%",
+            "Lv8": "9.82%",
+            "Lv9": "10.57%",
+            "Name": "Soaring Pillar DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Formshift Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv10": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Name": "Pillars Across Heaven Resonance Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Formshift Concerto Regen"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Pillars Across Heaven Concerto Regen"
+          },
+          {
+            "Lv1": "1.5",
+            "Lv10": "1.5",
+            "Lv2": "1.5",
+            "Lv3": "1.5",
+            "Lv4": "1.5",
+            "Lv5": "1.5",
+            "Lv6": "1.5",
+            "Lv7": "1.5",
+            "Lv8": "1.5",
+            "Lv9": "1.5",
+            "Name": "Invoked Form Cooldown"
+          }
+        ],
+        "name": "Nexus Alight",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Forms Born of HeartWhile in Answering Form, Hsin can gain and consume Answering Heart.While in Illumining Form, Hsin can gain and consume Illumining Heart.Heavy Attack - Answering Form: Realm WandererWhile in Answering Form, when Hsin's Answering Heart reaches 100 points, Heavy Attack - Answering Form is replaced with Heavy Attack - Answering Form: Realm Wanderer.Hold Normal Attack to cast the skill at the cost of STA and 100 points of Answering Heart. Hsin is immune to interruption during the action, and deals Electro DMG to the target, considered Resonance Skill DMG.Casting Heavy Attack - Answering Form: Realm Wanderer grants Hsin Resolution of Wishes. This Heavy Attack - Answering Form: Realm Wanderer consumes Resolution of Wishes to become Heavy Attack - Answering Form: Realm Protector, dealing greater DMG. Resolution of Wishes can only be gained once every 24s.While casting Heavy Attack - Answering Form: Realm Wanderer or Heavy Attack - Answering Form: Realm Protector, if Hsin is not in the Heart Manifest state, unlock Resonance Liberation - Formshift.Heavy Attack - Illumining Form: Beholding All HorizonsWhile in Illumining Form, when Hsin's Illumining Heart reaches 0 during the Mechanism Dominion state, Heavy Attack - Illumining Form is replaced with Heavy Attack - Illumining Form: Beholding All Horizons.Hold Normal Attack to cast the skill at the cost of STA, dealing Electro DMG to the target, considered Resonance Skill DMG.Casting Heavy Attack - Illumining Form: Beholding All Horizons grants Hsin Law of Heaven. This Heavy Attack - Illumining Form: Beholding All Horizons consumes Law of Heaven to become Heavy Attack - Illumining Form: Stilling All Horizons, dealing greater DMG. Law of Heaven can only be gained once every 24s.Casting Heavy Attack - Illumining Form: Beholding All Horizons or Heavy Attack - Illumining Form: Stilling All Horizons ends the Mechanism Dominion state and unlocks Resonance Liberation - Pillars Across Heaven.Can be cast in mid-air.Resonance Skill - Illumining Form: Pillars AlignedWhile in Illumining Form, when Hsin's Illumining Heart reaches 300 points and She is on the ground, Resonance Skill is replaced with Resonance Skill - Illumining Form: Pillars Aligned.When Hsin is on the ground, press Resonance Skill to deal Electro DMG to surrounding targets, considered Resonance Skill DMG.Casting Resonance Skill - Illumining Form: Pillars Aligned sends Hsin into the Mechanism Dominion state.Mechanism DominionThe Mechanism Dominion state lasts 13s.While this state is active, Basic Attack - Illumining Form is replaced with Basic Attack - Illumining Form: Pillars Aligned, and Dodge Counter - Illumining Form is replaced with Dodge Counter - Illumining Form: Pillars Aligned.When Basic Attack - Illumining Form: Pillars Aligned or Dodge Counter - Illumining Form: Pillars Aligned hits a target, Illumining Heart is consumed if Hsin is the active Resonator.Exiting Mechanism Dominion clears Illumining Heart.Resonance Mode - UnisonWhile in Resonance Mode - Unison, Hsin gains the following effects:Hsin can trigger Unison Response, but not in Co-op Mode.After casting Intro Skill - Answering Form or Intro Skill - Answering Form: Manifold Unison, the next Resonance Liberation - Formshift grants Hsin Unison for 5s.When Hsin triggers Unison Response, She gains Source Intent, and the Intro Skill cast this time is replaced with Intro Skill - Manifold Unison, dealing greater DMG.When Hsin casts an Intro Skill without triggering Unison Response while holding Source Intent, She consumes Source Intent instead, and the Intro Skill is replaced with Intro Skill - Manifold Unison, dealing greater DMG.The effects on Hsin mentioned above are removed when Hsin switches Resonance Mode.Casting Intro Skill - Illumining Form or Intro Skill - Illumining Form: Manifold Unison sends Hsin directly into the Mechanism Dominion state.Resonance Mode - Electro FlareWhile in Resonance Mode - Electro Flare, Hsin gains the following effects:When Hsin enters combat, targets within a certain range do not lose Electro Flare stacks when it's triggered.After Resonators in the team inflict Electro Rage to a target, every 1 stack of Electro Rage inflicted grants Hsin 1 stack of Heart of Thunder, stacking up to 100 times, and consumes all Electro Rage stacks from that target. Heart of Thunder is removed when Hsin switches Resonance Mode.At the last stage of Resonance Skill - Heartward by Moon, Hsin actively triggers 1 instance of Electro Flare DMG on the targets. Its DMG Multiplier is equal to 35% x (the number of Heart of Thunder stacks on Hsin) x (the Electro Flare DMG Multiplier corresponding to the target's current Electro Flare stacks).While casting Resonance Skill - Heartward by Moon, switching to another Resonator or ending the skill early will end the above effects early.Some time after casting Resonance Skill - Heartward by Moon, Hsin consumes all remaining stacks of Heart of Thunder.When Hsin has at least 50 stacks of Heart of Thunder, Resonance Skill - Illumining Form stagnates nearby targets during the action.After casting Resonance Liberation - Formshift, inflict 5 stacks of Electro Flare on nearby targets within a certain range. It also makes Basic Attack - Illumining Form: Pillars Aligned or Dodge Counter - Illumining Form: Pillars Aligned inflict Electro Flare on hit targets, up to 5 times. Casting Resonance Liberation - Formshift again resets this count. Switching Resonance Mode removes it.Resonance Skill - Illumining Form: Pillars Aligned and Heavy Attack - Illumining Form: Stilling All Horizons inflict 5 stacks of Electro Flare on the target hit. Intro Skill - Illumining Form, Intro Skill - Answering Form, and Heavy Attack - Answering Form: Realm Protector inflict 1 stack of Electro Flare on the target hit.UnisonWhile Hsin is in Resonance Mode - Unison with Unison, switching to another Resonator will remove Hsin's Unison to trigger Hsin's Outro Skill and the incoming Resonator's Intro Skill. If Hsin has full Concerto Energy and Unison at the same time, only Unison is consumed to trigger the effect.Unison ResponseWhile Hsin is in Resonance Mode - Unison and the active Resonator in the team has Unison, Hsin triggers Unison Response when She is switched in and casts Intro Skill, granting 1 stack of Unison Boon to all Resonators in the team for 30s.Hsin can only grant up to 1 stack of Unison Boon in this way.Unison BoonOnly the Resonators who can trigger Unison Reponse can gain this effect. Each stack of Unison Boon increases the total DMG dealt by Resonators who can trigger Unison Response in the team by 3%, stacking up to 2 times.Answering HeartCan hold up to 100 points of Answering Heart.While in Answering Form, when Normal Attack - Answering Form, Resonance Skill - Answering Form, Intro Skill - Answering Form, or Intro Skill - Answering Form: Manifold Unison hits a target, Hsin gains Answering Heart if She is the active Resonator.Casting Intro Skill - Answering Form or Intro Skill - Answering Form: Manifold Unison grants 60 points of Answering Heart.Illumining HeartCan hold up to 300 points of Illumining Heart.While in Illumining Form and not in the Mechanism Dominion state, when Normal Attack - Illumining Form, or Resonance Skill - Illumining Form hits a target, Hsin gains Illumining Heart if She is the active Resonator.While in Resonance Mode - Unison, casting Intro Skill - Illumining Form or Intro Skill - Illumining Form: Manifold Unison directly sends Hsin into the Mechanism Dominion state and grants 300 points of Illumining Heart.While in Resonance Mode - Electro Flare, after casting Resonance Liberation - Formshift, when the Modular Heartlock generated by Basic Attack - Illumining Form Stage 1 is collapsed by Basic Attack - Illumining Form Stage 2, Heavy Attack - Illumining Form, Dodge Counter - Illumining Form, or Resonance Skill - Illumining Form, gain 150 points of Illumining Heart if Hsin is the active Resonator. This effect can only be triggered once before the next cast of Resonance Liberation - Formshift resets it, and is disabled when switched to the other Resonance Mode.",
+        "multipliers": [
+          {
+            "Lv1": "90.26%*4+9.03%+18.06%*2+22.57%*2",
+            "Lv10": "179.43%*4+17.95%+35.89%*2+44.86%*2",
+            "Lv2": "97.66%*4+9.77%+19.54%*2+24.42%*2",
+            "Lv3": "105.06%*4+10.51%+21.02%*2+26.27%*2",
+            "Lv4": "115.42%*4+11.55%+23.09%*2+28.86%*2",
+            "Lv5": "122.82%*4+12.29%+24.57%*2+30.71%*2",
+            "Lv6": "131.33%*4+13.14%+26.27%*2+32.84%*2",
+            "Lv7": "143.17%*4+14.32%+28.64%*2+35.80%*2",
+            "Lv8": "155.01%*4+15.51%+31.01%*2+38.76%*2",
+            "Lv9": "166.85%*4+16.69%+33.37%*2+41.72%*2",
+            "Name": "Illumining Form: Pillars Aligned DMG"
+          },
+          {
+            "Lv1": "12",
+            "Lv10": "12",
+            "Lv2": "12",
+            "Lv3": "12",
+            "Lv4": "12",
+            "Lv5": "12",
+            "Lv6": "12",
+            "Lv7": "12",
+            "Lv8": "12",
+            "Lv9": "12",
+            "Name": "Illumining Form: Pillars Aligned Cooldown"
+          },
+          {
+            "Lv1": "22.96%+5.74%*6+229.59%",
+            "Lv10": "45.65%+11.42%*6+456.45%",
+            "Lv2": "24.85%+6.22%*6+248.42%",
+            "Lv3": "26.73%+6.69%*6+267.25%",
+            "Lv4": "29.36%+7.34%*6+293.60%",
+            "Lv5": "31.25%+7.82%*6+312.43%",
+            "Lv6": "33.41%+8.36%*6+334.08%",
+            "Lv7": "36.42%+9.11%*6+364.20%",
+            "Lv8": "39.44%+9.86%*6+394.32%",
+            "Lv9": "42.45%+10.62%*6+424.45%",
+            "Name": "Answering Form: Realm Wanderer DMG"
+          },
+          {
+            "Lv1": "49.96%+12.49%*6+499.55%",
+            "Lv10": "99.32%+24.83%*6+993.15%",
+            "Lv2": "54.06%+13.52%*6+540.51%",
+            "Lv3": "58.15%+14.54%*6+581.48%",
+            "Lv4": "63.89%+15.98%*6+638.83%",
+            "Lv5": "67.98%+17.00%*6+679.79%",
+            "Lv6": "72.69%+18.18%*6+726.90%",
+            "Lv7": "79.25%+19.82%*6+792.44%",
+            "Lv8": "85.80%+21.45%*6+857.98%",
+            "Lv9": "92.36%+23.09%*6+923.52%",
+            "Name": "Answering Form: Realm Protector DMG"
+          },
+          {
+            "Lv1": "5.17%*4+185.96%",
+            "Lv10": "10.27%*4+369.70%",
+            "Lv2": "5.59%*4+201.20%",
+            "Lv3": "6.02%*4+216.45%",
+            "Lv4": "6.61%*4+237.80%",
+            "Lv5": "7.03%*4+253.05%",
+            "Lv6": "7.52%*4+270.58%",
+            "Lv7": "8.20%*4+294.98%",
+            "Lv8": "8.88%*4+319.38%",
+            "Lv9": "9.55%*4+343.77%",
+            "Name": "Illumining Form: Beholding All Horizons DMG"
+          },
+          {
+            "Lv1": "13.61%*4+489.66%",
+            "Lv10": "27.05%*4+973.49%",
+            "Lv2": "14.72%*4+529.81%",
+            "Lv3": "15.84%*4+569.96%",
+            "Lv4": "17.40%*4+626.18%",
+            "Lv5": "18.51%*4+666.33%",
+            "Lv6": "19.80%*4+712.50%",
+            "Lv7": "21.58%*4+776.75%",
+            "Lv8": "23.37%*4+840.99%",
+            "Lv9": "25.15%*4+905.23%",
+            "Name": "Illumining Form: Stilling All Horizons DMG"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Answering Form: Realm Wanderer STA Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Answering Form: Realm Protector STA Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Illumining Form: Beholding All Horizons STA Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Illumining Form: Stilling All Horizons STA Cost"
+          }
+        ],
+        "name": "Forms Turn, Heart Abides",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "While in Resonance Mode - Unison, when Hsin casts Intro Skill - Answering Form: Manifold Unison or Intro Skill - Illumining Form: Manifold Unison, Her ATK is increased by 50% for 8s. Switching to another Resonator or Resonance Mode ends this effect.While in Resonance Mode - Electro Flare, after Resonators in the team inflict Electro Flare, Hsin gains 25% Electro DMG Bonus, stacking up to 2 times. Each Resonator can trigger this effect only once. In addition, if Rover: Electro is in the same team, when Rover: Electro casts Intro Skill - Thunderous Fury, both Hsin and Rover: Electro gain 20% Electro DMG Bonus for 30s.This effect resets when a Resonator is added to the team or when Hsin switches Resonance Mode.",
+        "multipliers": [],
+        "name": "Tides of Succession",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "While in Resonance Mode - Unison, the maximum stacks of the Unison Boon effect on Resonators in the team are increased by 1. When a Resonator in the team triggers Unison Response, all Resonators in the team gain 1 stack of Unison Boon for 30s. This effect does not stack.While in Resonance Mode - Electro Flare and Hsin is not in the Heart Manifest state, Hsin gains 1 stack of Thunderglow after Resonators in the team other than Hsin inflict Electro Flare, stacking up to 10 times.While Hsin is in the Heart Manifest state, when targets within a certain range have 0 stacks of Electro Flare, inflict 1 stack of Electro Flare on the targets. If Thunderglow on Hsin reaches the stack limit, Hsin also inflicts Fleeting Thunder on the targets:When Hsin inflicts Fleeting Thunder on the target, She also inflicts Electro Flare on the target to the stack limit, up to 16 stacks of Electro Flare.When Fleeting Thunder is active, if the maximum stacks of Electro Flare on the target are increased, Hsin will inflict Electro Flare on the target to the stack limit again, up to 16 stacks of Electro Flare.Fleeting Thunder will be removed when the target leaves the designated range around Hsin.Exiting the Heart Manifest state or switching Resonance Mode removes the effects mentioned above.",
+        "multipliers": [],
+        "name": "Gleaning Simple Joys ",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Intro Skill - Answering FormThis skill becomes available while in Answering Form. Attack the target, dealing Electro DMG.After casting this skill, press Normal Attack within a short time to cast Basic Attack - Answering Form Stage 3 (when in Resonance Mode - Unison) or Basic Attack - Answering Form Stage 4 (when in Resonance Mode - Electro Flare).Intro Skill - Answering Form: Manifold UnisonThe skill becomes available when in Answering Form. Attack the target, dealing greater Electro DMG, considered Resonance Skill DMG.After casting this skill, press Normal Attack within a short time to cast Basic Attack - Answering Form Stage 3.Intro Skill - Illumining FormThis skill becomes available while in Illumining Form. Attack the target, dealing Electro DMG.Intro Skill - Illumining Form: Manifold UnisonThe skill becomes available when in Illumining Form. Attack the target, dealing greater Electro DMG, considered Resonance Skill DMG.",
+        "multipliers": [
+          {
+            "Lv1": "3.97%*2+3.97%*2+63.39%",
+            "Lv10": "7.88%*2+7.88%*2+126.02%",
+            "Lv2": "4.29%*2+4.29%*2+68.59%",
+            "Lv3": "4.62%*2+4.62%*2+73.79%",
+            "Lv4": "5.07%*2+5.07%*2+81.06%",
+            "Lv5": "5.40%*2+5.40%*2+86.26%",
+            "Lv6": "5.77%*2+5.77%*2+92.24%",
+            "Lv7": "6.29%*2+6.29%*2+100.56%",
+            "Lv8": "6.81%*2+6.81%*2+108.87%",
+            "Lv9": "7.33%*2+7.33%*2+117.19%",
+            "Name": "Intro Skill - Answering Form: Electro Flare DMG"
+          },
+          {
+            "Lv1": "5.17%+10.34%+5.17%+10.34%*3",
+            "Lv10": "10.28%+20.55%+10.28%+20.55%*3",
+            "Lv2": "5.59%+11.18%+5.59%+11.18%*3",
+            "Lv3": "6.02%+12.03%+6.02%+12.03%*3",
+            "Lv4": "6.61%+13.22%+6.61%+13.22%*3",
+            "Lv5": "7.03%+14.06%+7.03%+14.06%*3",
+            "Lv6": "7.52%+15.04%+7.52%+15.04%*3",
+            "Lv7": "8.20%+16.39%+8.20%+16.39%*3",
+            "Lv8": "8.88%+17.75%+8.88%+17.75%*3",
+            "Lv9": "9.56%+19.11%+9.56%+19.11%*3",
+            "Name": "Intro Skill - Answering Form: Unison DMG"
+          },
+          {
+            "Lv1": "30.48%+60.95%+30.48%+60.95%*3",
+            "Lv10": "60.59%+121.18%+60.59%+121.18%*3",
+            "Lv2": "32.98%+65.95%+32.98%+65.95%*3",
+            "Lv3": "35.48%+70.95%+35.48%+70.95%*3",
+            "Lv4": "38.98%+77.95%+38.98%+77.95%*3",
+            "Lv5": "41.47%+82.94%+41.47%+82.94%*3",
+            "Lv6": "44.35%+88.69%+44.35%+88.69%*3",
+            "Lv7": "48.35%+96.69%+48.35%+96.69%*3",
+            "Lv8": "52.35%+104.69%+52.35%+104.69%*3",
+            "Lv9": "56.34%+112.68%+56.34%+112.68%*3",
+            "Name": "Intro Skill - Answering Form: Manifold Unison DMG"
+          },
+          {
+            "Lv1": "5.75%*4+5.75%*2+20.11%*4",
+            "Lv10": "11.42%*4+11.42%*2+39.97%*4",
+            "Lv2": "6.22%*4+6.22%*2+21.76%*4",
+            "Lv3": "6.69%*4+6.69%*2+23.40%*4",
+            "Lv4": "7.35%*4+7.35%*2+25.71%*4",
+            "Lv5": "7.82%*4+7.82%*2+27.36%*4",
+            "Lv6": "8.36%*4+8.36%*2+29.26%*4",
+            "Lv7": "9.12%*4+9.12%*2+31.89%*4",
+            "Lv8": "9.87%*4+9.87%*2+34.53%*4",
+            "Lv9": "10.62%*4+10.62%*2+37.17%*4",
+            "Name": "Intro Skill - Illumining Form: Electro Flare DMG"
+          },
+          {
+            "Lv1": "28.47%*4+2.85%+5.70%*2+7.12%*2",
+            "Lv10": "56.59%*4+5.66%+11.32%*2+14.15%*2",
+            "Lv2": "30.80%*4+3.08%+6.16%*2+7.70%*2",
+            "Lv3": "33.13%*4+3.32%+6.63%*2+8.29%*2",
+            "Lv4": "36.40%*4+3.64%+7.28%*2+9.10%*2",
+            "Lv5": "38.74%*4+3.88%+7.75%*2+9.69%*2",
+            "Lv6": "41.42%*4+4.15%+8.29%*2+10.36%*2",
+            "Lv7": "45.15%*4+4.52%+9.03%*2+11.29%*2",
+            "Lv8": "48.89%*4+4.89%+9.78%*2+12.23%*2",
+            "Lv9": "52.62%*4+5.27%+10.53%*2+13.16%*2",
+            "Name": "Intro Skill - Illumining Form: Unison DMG"
+          },
+          {
+            "Lv1": "79.08%*4+7.91%+15.82%*2+19.77%*2",
+            "Lv10": "157.22%*4+15.73%+31.45%*2+39.31%*2",
+            "Lv2": "85.57%*4+8.56%+17.12%*2+21.40%*2",
+            "Lv3": "92.05%*4+9.21%+18.41%*2+23.02%*2",
+            "Lv4": "101.13%*4+10.12%+20.23%*2+25.29%*2",
+            "Lv5": "107.62%*4+10.77%+21.53%*2+26.91%*2",
+            "Lv6": "115.07%*4+11.51%+23.02%*2+28.77%*2",
+            "Lv7": "125.45%*4+12.55%+25.09%*2+31.37%*2",
+            "Lv8": "135.82%*4+13.59%+27.17%*2+33.96%*2",
+            "Lv9": "146.20%*4+14.62%+29.24%*2+36.55%*2",
+            "Name": "Intro Skill - Illumining Form: Manifold Unison DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Intro Skill - Answering Form Concerto Regen"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Intro Skill - Answering Form: Manifold Unison Concerto Regen"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Intro Skill - Illumining Form Concerto Regen"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Intro Skill - Illumining Form: Manifold Unison Concerto Regen"
+          }
+        ],
+        "name": "Glance on a Whim ",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Attack the target, dealing Electro DMG equal to 100% of Hsin's ATK.Hsin gains Nightglow upon entering combat or casting Resonance Liberation - Pillars Across Heaven. When Hsin casts Outro Skill, Nightglow is consumed to trigger various effects depending on the Resonance Mode She is in:While in Resonance Mode - Unison, Resonators in the team other than Hsin gain Shared Light when they gain Unison. After Hsin casts Outro Skill, Resonators with Shared Light gain 20% All DMG Amplification for 30s.While in Resonance Mode - Electro Flare, Electro DMG dealt by Resonators in the team other than Hsin is Amplified by 20% for 20s.The above effects end early when Hsin switches Resonance Mode.",
+        "multipliers": [],
+        "name": "Herself a Thousand Lanterns",
+        "skill_type": "Outro Skill"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.",
+        "multipliers": [],
+        "name": "Tune Break: Rectifier ",
+        "skill_type": "Forte Circuit"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "rover-electro",
+          "jinhsi"
+        ],
+        "commentary": "Electro Rover is Hsin's current best second slot teammate, as they provide her with some external Electro Flare application which is great for triggering her passives, as well as being able to provide her with a massive amount of Electro DMG Bonus among some other buffs. Jinhsi is the only current Unison character in the game, so she's the only option for Unison mode Hsin to be used with normally, but generally she's not recommended even over a F2P Flare team."
+      },
+      {
+        "characters": [
+          "the-shorekeeper",
+          "suisui",
+          "chisa",
+          "buling"
+        ],
+        "commentary": "Shorekeeper is Unison Hsin's best current Support as there is no dedicated Support for Unison teams, so she comes out on top by virtue of being the best generalist choice. Suisui, Chisa and Buling are all options for Electro Flare Hsin. Suisui is generally the strongest, but Chisa can outperform her in Quickswap. Buling is the F2P fallback option, giving extra Flare application and Skill DMG-oriented buffs."
+      }
+    ],
     "upgrade_materials": {
       "character_ascension": [],
       "skill_upgrades": []
     },
-    "voice_actors": null
+    "voice_actors": {
+      "cn": "",
+      "eng": "",
+      "jpn": "",
+      "kr": ""
+    }
   },
   "status": "success"
 }

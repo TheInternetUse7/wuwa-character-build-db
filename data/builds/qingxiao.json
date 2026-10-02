@@ -1,44 +1,907 @@
 {
   "data": {
-    "base_stats_lvl_90": null,
-    "best_echo_sets": [],
-    "best_echo_stats": null,
-    "best_weapons": [],
+    "base_stats_lvl_90": {
+      "atk": 0,
+      "crit_dmg": "150%",
+      "crit_rate": "5%",
+      "def": 0,
+      "elemental_dmg_bonus": "0%",
+      "healing_bonus": "0%",
+      "hp": 0,
+      "max_energy": 0
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Simple 20% CRIT DMG increase compared to the standard Aero DMG set Sierra Gale. Provides the same 40% total Aero DMG on the 5-piece alongside 20% CRIT DMG on the condition that Tune Strain can be applied - a condition Qingxiao instantly and easily fulfills.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Provides 20% Aero DMG in total to the equipped character in the Main Slot. Transform Echo easily used at the end of Qingxiao's rotation and swap cancelled that provides the best stats Qingxiao can receive on her Signature Echo set.",
+            "echo_name": "Calamity Effigy"
+          }
+        ],
+        "percentage_performance": "100.00%",
+        "set_name": "Heart of Evil's Purge"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ],
+        "cost_3": [
+          "Aero DMG",
+          "ATK% ≥ Aero DMG"
+        ],
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%",
+        "ATK",
+        "Heavy/Liberation/Basic DMG%"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "Qingxiao's best weapon by a lot, her Signature grants her with a ton of CRIT Rate, lower-end base ATK but a ton of Aero DMG Bonus and some extra DEF Ignore to boot.",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. Inflicting Tune Strain - Shifting grants {1} Aero DMG Bonus for 2s, stacking up to 5 times. This effect can be triggered once every 0.5s. Upon reaching the max stack limit, gain the following effects:\n- This Aero DMG Bonus effect's duration is extended to 30s.\n- Aero DMG ignores {2} of the target's DEF during this effect.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 36,
+          "source": ""
+        },
+        "weapon_name": "Glint of Clouds"
+      },
+      {
+        "commentary_details": "Camellya's Signature grants some Basic ATK DMG bonus that Qingxiao uses to an extent, but otherwise it's not an ideal replacement to her own Signature weapon. Decent alternative.",
+        "dupe_rank": "R1",
+        "percentage_performance": "81.10%",
+        "weapon_base_info": {
+          "effect_description": "Increase ATK by {0}. When dealing Basic Attack DMG, the wielder gains {1} Basic Attack DMG Bonus for 14s. This effect can be triggered once per second, stacking up to 3 times. When the wielder's Concerto Energy is consumed, gain {2} Basic DMG Bonus for 10s. This effect can be triggered once per second and ends when the wielder is switched off the field.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Gacha"
+        },
+        "weapon_name": "Red Spring"
+      },
+      {
+        "commentary_details": "Simple ATK, CRIT Rate and DMG Bonus stat-stick for Qingxiao, who does not benefit from this weapon's Havoc Bane-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "79.70%",
+        "weapon_base_info": {
+          "effect_description": "Grants {0} All-Attribute DMG Bonus. After inflicting Havoc Bane, the wielder gains {1} Heavy Attack DMG Amplification and their Heavy Attack DMG ignores {0} of the target's DEF, lasting for 8s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "Crit. Rate",
+          "secondary_stat_val": 24.3,
+          "source": ""
+        },
+        "weapon_name": "Azure Oath"
+      },
+      {
+        "commentary_details": "Simple ATK, CRIT Rate and DMG Bonus stat-stick for Qingxiao, who does not benefit from this weapon's Tune Rupture/Fusion Burst-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "79.70%",
+        "weapon_base_info": {
+          "effect_description": "Increases All-Attribute DMG Bonus by {0}. When inflicting Tune Rupture - Shifting or Fusion Burst, the wielder's Resonance Liberation DMG ignores {1} DEF and {2} Fusion RES on targets for 8s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Everbright Polestar"
+      },
+      {
+        "commentary_details": "Largely a simple ATK and CRIT Rate stat-stick for Qingxiao, buffs the party's Echo DMG Bonus by a bit but only makes an extremely small, particularly negligible difference in her teams.",
+        "dupe_rank": "R1",
+        "percentage_performance": "79.40%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attack grants 1 stack of Bamboo Cleaver, which grants {1} Heavy Attack DMG Bonus to the wielder. This effect can be triggered by Echoes of the same name once only, stacking up to 2 times, lasting for 12s. Casting Echo Skill at max stacks does not reset the duration. This effect can be triggered once every 10s and ends early if the wielder is switched off the field. Casting Intro Skill grants {2} Echo Skill DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Emerald Sentence"
+      },
+      {
+        "commentary_details": "Simple ATK and CRIT Rate stat-stick for Qingxiao, who does not benefit from this weapon's Glacio Chafe-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "79.10%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. When the wielder applies Glacio Chafe, Glacio DMG is Amplified by {1}, and Resonance Liberation DMG ignores {2} of the target's DEF. If the wielder is the active Resonator in the team, Glacio Chafe DMG dealt to all targets within a certain range is Amplified by {3} for 6s. This effect can be triggered up to 1 time every 0.1s. Only the strongest effect of the same name applies.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Frostburn"
+      },
+      {
+        "commentary_details": "Best permanent weapon option, provides Qingxiao with good Base ATK and CRIT Rate to work with alongside one less Energy Regen roll needed thanks to its secondary stat and some extra ATK% from casting a Skill once. Not ideal compared to her Signature though.",
+        "dupe_rank": "R1",
+        "percentage_performance": "78.50%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases ATK by {1}, stacking up to 2 time(s). This effect lasts for 10s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Emerald of Genesis"
+      },
+      {
+        "commentary_details": "Gives CRIT DMG instead of CRIT Rate as part of its main stats which is not favoured on Qingxiao, also gives Skill DMG which is essentially useless on Qingxiao. Not recommended over any other 5-star.",
+        "dupe_rank": "R1",
+        "percentage_performance": "75.60%",
+        "weapon_base_info": {
+          "effect_description": "ATK increased by {0}. The equipper gains 1 stack of Searing Feather upon dealing damage, which can be triggered once every 0.5s, and gains 5 stacks of the same effect upon casting Resonance Skill. Each stack of Searing Feather gives {1} additional Resonance Skill DMG Bonus for up to 14 stacks. All stacks will be removed within 12s after reaching the max stack.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Gacha"
+        },
+        "weapon_name": "Blazing Brilliance"
+      },
+      {
+        "commentary_details": "Best 4-star weapon option, this Battle Pass exclusive provides CRIT Rate by default, and some ATK and Liberation DMG Bonus when casting Ultimate. Due to a much lower Base ATK than any 5-star weapon, it's not favoured over other options, but still is the best 4-star choice even if it's not recommended.",
+        "dupe_rank": "R5",
+        "percentage_performance": "70.30%",
+        "weapon_base_info": {
+          "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Resonance Liberation DMG Bonus for 15s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.3,
+          "source": "Battle Pass"
+        },
+        "weapon_name": "Feather Edge"
+      },
+      {
+        "commentary_details": "This Battle Pass exclusive provides Qingxiao with a lot of ATK as well as Basic Attack and Heavy Attack DMG when Skill is cast. Falls behind due to a lack of CRIT stats when compared to above choices.",
+        "dupe_rank": "R5",
+        "percentage_performance": "65.80%",
+        "weapon_base_info": {
+          "effect_description": "When Resonance Skill is released, increases Basic Attack DMG and Heavy Attack DMG by {0}, stacking up to 1 time(s). This effect lasts for 10s and can be triggered 1 time(s) every 1s.",
+          "primary_stat_val": 387,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "Pioneer Podcast"
+        },
+        "weapon_name": "Lumingloss"
+      },
+      {
+        "commentary_details": "Best permanently available, no-gacha option. Simple ATK stat-stick for Qingxiao. Not recommended in general, at best use temporarily before moving on to the much stronger Signature weapon.",
+        "dupe_rank": "R5",
+        "percentage_performance": "64.60%",
+        "weapon_base_info": {
+          "effect_description": "When Intro Skill is released, increases ATK by {0}, lasting for {1}.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 30.3,
+          "source": ""
+        },
+        "weapon_name": "Commando of Conviction"
+      }
+    ],
     "character_metadata": {
       "breadcrumb": [
         "Wuthering Waves",
         "Characters",
         "Qingxiao"
       ],
-      "element": null,
+      "element": "Aero",
       "name": "Qingxiao",
-      "rarity_stars": null,
+      "rarity_stars": 5,
       "slug": "qingxiao",
       "updates": {
-        "last_major_build_patch": "",
-        "last_profile_update": "",
-        "last_review_patch": "",
-        "last_updated": ""
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "01/October/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "01/October/2026"
       },
-      "weapon_type": null
+      "weapon_type": "Sword"
     },
-    "example_teams": [],
-    "media": null,
-    "minor_fortes": [],
-    "pros_and_cons": null,
-    "ratings": null,
-    "recommended_endgame_stats_target": [],
-    "resonance_chain_dupes": [],
-    "review": null,
-    "rotations": [],
-    "skill_upgrade_priority": null,
-    "skills": [],
-    "synergies": [],
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "qingxiao"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "denia"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "mornye"
+        },
+        "team_name": "Best Team",
+        "team_notes": "Any teammate alternatives are not recommended to use, as with Denia, not running Mornye suffers very significant team damage losses."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "qingxiao"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "lynae"
+        },
+        "slot_3": {
+          "alternatives": [
+            "ciaccona",
+            "the-shorekeeper"
+          ],
+          "character_name": "mornye"
+        },
+        "team_name": "Lynae Team",
+        "team_notes": "Teammate alternatives don't suffer as significant drop-offs as with Denia, hence why they are suggested here separately."
+      }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/qingxiao_full.webp",
+      "youtube_guide_embed_url": "",
+      "youtube_guide_full_url": "https://youtu.be/No0S07-Iois"
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+16%",
+        "stat_name": "Crit. DMG%"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "ATK%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "One of the more restrictive modern characters when it comes to teambuilding. Needs either Denia+Mornye specifically, or Lynae + a strong premium support. Otherwise, will fall behind significantly compared to all modern DPS characters in the game;",
+        "Low sequence value compared to modern standards; for comparison purposes, sequence nodes give lower increases than Carlotta across the board;",
+        "\"Here at Wuthering Waves, we strive to deliver an interactive gameplay experience to all players.\""
+      ],
+      "pros": [
+        "High single-target and AoE damage output, up to par with the rest of modern 3.x characters;",
+        "Has the ability to chase down airborne enemies with relative ease - rotation can stay consistent across a wide variety of boss encounters;",
+        "Easiest DPS rotation in the game's history - just hold left click for the majority of the time; the rotation practically completes itself."
+      ]
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [
+            "Strain"
+          ],
+          "tier": "T0"
+        },
+        "whimpering_wastes": {
+          "tags": [
+            "Strain",
+            "Partner (Denia)"
+          ],
+          "tier": "T0.5"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T1"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T1"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 14500+",
+      "DEF: 1100+",
+      "ATK: 2100-2400+",
+      "CRIT Rate: 55-80%+",
+      "CRIT DMG: 255-275%+ (before Echo set bonuses)",
+      "Energy Regen: 110-115%+Lower end was estimated in a team with Denia+Mornye/Lynae+Ciaccona, higher end was estimated in a team with Lynae+Mornye.",
+      "Aero DMG Bonus: 40-70%+"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "Crit. Rate is increased by 16%.The max stack limit of Swordlight Ward is increased to 2. Casting Heavy Attack - Stringblade additionally grants 1 stack of Swordlight Ward.Upon entering combat, gain 25 stacks of Exorcising Seal.After Basic Attack - Stringblade, Mid-air Attack - Stringblade, or Basic Attack - Ephemeral Transcendence deals damage, if Qingxiao has Exorcising Seal, remove Exorcising Seal and trigger Juque Perdition, dealing Aero DMG equal to 400% of Qingxiao's ATK, considered Basic Attack DMG. This effect can be triggered up to once per second. For each stack of Exorcising Seal removed, the target takes 4% more DMG from Juque Perdition for 2s.Exorcising Seal stacks up to 25 times.",
+        "name": "Like Clouds That Meet and Drift Apart ",
+        "node": "S1"
+      },
+      {
+        "description": "The DMG Multiplier of Heavy Attack - Stringblade is increased by 40%.After entering combat, the max stack limit of Mindlock on nearby enemies is increased to 25.The max stack limit of Gathered Mind from Inherent Skill - Sea of Thought, World of Dust is increased to 25.Heaven's Clarity is enhanced: Casting Heavy Attack - Stringblade now inflicts 6 stacks of Mindlock on nearby targets.",
+        "name": "Like Petals That Fall Without a Sound",
+        "node": "S2"
+      },
+      {
+        "description": "The Crit. DMG of Resonance Liberation - Billows Beneath Heaven is increased by 100%.During Heavy Attack - Stringblade, gain World in Chorus stacks equal to the highest Mindlock stack count present among nearby enemies.World in Chorus: Each stack increases the DMG Multiplier of Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence by 3%. World in Chorus is removed after casting Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence.The Gathered Mind effect of Inherent Skill - Sea of Thought, World of Dust now inflicts 2 stacks of Tune Strain - Interfered.",
+        "name": "Dreams Fade, Sword Abides ",
+        "node": "S3"
+      },
+      {
+        "description": "After a Resonator in the team inflicts Tune Strain - Shifting, their ATK is increased by 20% for 8s.",
+        "name": "Wherever the Road Leads, Side by Side ",
+        "node": "S4"
+      },
+      {
+        "description": "The DMG Multiplier of Resonance Skill - Severing Note: Judgement is increased by 100%.While moving in Sword Flight, Flight Qi cost is reduced by 30%.",
+        "name": "Cold Steel That Longs to Warm the Snow ",
+        "node": "S5"
+      },
+      {
+        "description": "Targets take 40% more DMG from Qingxiao's Heavy Attack - Stringblade, Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence, Resonance Liberation - Billows Beneath Heaven, and Juque Perdition.During Heavy Attack - Stringblade, gain Exorcising Seal stacks equal to the highest Mindlock stack count present among nearby enemies.For each stack of Mindlock on the target, the DMG of Juque Perdition taken by the target is Amplified by 2%. The first 7 stacks additionally grant 5% DMG Amplification.When Inherent Skill - To Know, To Banish is unlocked, the DMG of Juque Perdition on targets with Mindlock is increased by 2% for each stack of Mindlock. The first 7 stacks additionally grant 5% DMG increase.The effect of Qingxiao's response to Tune Strain - Interfered is increased by 20%.",
+        "name": "Cleanse This Tarnished Age, Till All Runs Clear ",
+        "node": "S6"
+      }
+    ],
+    "review": {
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Qingxiao is a 5-star Aero Sword DPS character who plays into the Tune Strain archetype and mostly fights in mid-air, which makes her very reminiscent of the other Tune Strain DPS, Luuk Herssen, in that sense. Not only that, they share teammates and have a similar meta position, so they are overall quite easy to compare to each other. However, their playstyles differ drastically, so let's cover her kit in more depth:"
+          ]
+        },
+        {
+          "heading": "Rotation & Goals",
+          "paragraphs": [
+            "Qingxiao's rotation goal is to enter her \"Ephemeral Transcendence\" state to cast a special Heavy Attack called Heaven's Reckoning that deals a ton of damage. Her main damage-dealing moves are her Ultimate, Heaven's Reckoning, her base form Heavy Attack that allows her to enter her enhanced state, as well as her Outro. The idea is to chain those as quickly together as possible to complete a rotation.",
+            "To do this, Basic Attacks will mostly be used, as well as a Skill called Severing Note: Judgement. The overwhelming majority of her rotation following an Intro can be simply completed by holding the Basic Attack down - you only change this up two times to cast her Skill and her Ultimate. That's all. Her gameplay doesn't get easier than this."
+          ]
+        },
+        {
+          "heading": "Other Key Mechanics",
+          "paragraphs": [
+            "Qingxiao's main mechanic is Tune Strain. Whenever she deals damage to an enemy once, she applies 1 stack of Tune Strain, which is converted into extra total damage to that target based on the amount of stacks when Tune Break Skills are cast. Having teammates that can apply extra stacks and cause faster Tune Break Skill casts to actually benefit from the stacks of Tune Strain applied on the enemy will prove key to increasing her overall damage output, particularly considering her Mindlock mechanic that amplifies damage of the overwhelming majority of her attacks based on the amount of Tune Strain applied on targets (7% for the first 7 stacks, 2% for the next 8, for a total of 65% possible DMG amplification).",
+            "Additionally, she gains Interruption Immunity and 60% DMG taken reduction for 1 attack after her Intro or her base Heavy Attack, inflicts additional Mindlock on every base Heavy Attack (3 stacks) and when other characters apply Tune Strain (1 stack), and can apply Mindlock stats in multi-wave content.",
+            "Lastly, in terms of Quickswap restrictions, Qingxiao should be free to build her Forte resources to cast her initial Stringblade Heavy Attack before entering her Enhanced State, at which point the enhancements on her Heaven's Reckoning Heavy Attack (extremely significant damage increases) get removed if you swap, so switching characters upon entering her enhanced state is discouraged. So building up to the initial Heavy Attack quicker by pre-building Forte resources is as optimized as you can go."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Overall, Qingxiao is at the top of the single-target metagame on her release, and it seems her Denia+Mornye team, which is her on-release best in slot, is there to stay as her intended best team. This means Qingxiao and Luuk share ideal teammates, so you have to privilege one or the other. And it's a no-brainer who to pick if you have a Tune Strain team - Qingxiao's base damage is simply higher, so she's a stronger character overall. In the Aero department however, Luuk has been known to face issues in Whimpering Wastes and he shares a playstyle with Qingxiao, being mid-air combat and Tune Strain. Sigrika on the other hand, Qingxiao's rival in the Aero Main DPS department, has some of the best results of any DPS in Whimpering Wastes as of Qingxiao's release. This calls into question Qingxiao's value across endgame modes, although she remains generally more than usable in Whimpering Wastes and has higher performance in single-target modes like ToA and Matrix overall.",
+            "Additionally, Qingxiao has a pretty significant reliance on either owning Denia and Mornye together specifically (trying to use Denia without Mornye results in major team DPS drop-offs, so there are no alternatives), or owning Lynae (at which point you can make do with ideally Mornye, but Ciaccona and Shorekeeper are fine enough alternatives as well). This, paired with a decent desire for her Signature weapon, makes Qingxiao quite the expensive character to get up and running.",
+            "In conclusion, Qingxiao is an extremely strong pick provided you have enough invested in her and her team. While she does face some subpar performance in multi-wave content compared to some of her peers, she is not hindered too hard and still manages to perform enough to clear easily with Denia's help for grouping in Whimpering Wastes, for example. She is without a doubt up to par in terms of damage ceiling with her late-3.x version peers and is hence one of the best DPS characters currently."
+          ]
+        }
+      ],
+      "summary": "Qingxiao is a 5-star Aero Sword DPS character who plays into the Tune Strain archetype and mostly fights in mid-air, which makes her very reminiscent of the other Tune Strain DPS, Luuk Herssen, in that sense. Not only that, they share teammates and have a similar meta position, so they are overall quite easy to compare to each other. However, their playstyles differ drastically, so let's cover her kit in more depth:"
+    },
+    "rotations": [
+      {
+        "rotation_name": "Standard Rotation",
+        "steps": [
+          "Intro",
+          "Heavy: Stringblade Mid-air 1",
+          "Heavy: Stringblade Mid-air 2",
+          "Heavy: Stringblade Mid-air 3",
+          "Heavy: Stringblade Basic 3",
+          "Heavy: Stringblade Basic 4",
+          "Skill: Judgement",
+          "Heavy: Stringblade",
+          "Heavy: Transcendence 1",
+          "Heavy: Transcendence 2",
+          "Heavy: Transcendence 3",
+          "Heavy: Transcendence 4",
+          "Heavy: Heaven's Reckoning",
+          "Ultimate",
+          "Outro"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "Intro and Skill can be skipped when levelling to save on resources at a minimal damage loss.",
+      "order": [
+        "Forte Circuit",
+        "Res. Liberation",
+        "Basic Attack",
+        "Res. Skill",
+        "Intro Skill"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic Attack - StringbladePress repeatedly or hold Normal Attack to perform up to 4 consecutive attacks, dealing Aero DMG.Basic Attack - Stringblade Stage 1 and Basic Attack - Stringblade Stage 4 are in Sheathed Stance.Basic Attack - Stringblade Stage 2 and Basic Attack - Stringblade Stage 3 are in Drawn Stance.Heavy Attack - StringbladeWhen Qin Heart and Sword Cadence are full, Heavy Attack - Stringblade becomes available.Hold Normal Attack to consume STA and cast this skill, dealing Aero DMG.Casting this skill consumes all Qin Heart and Sword Cadence and sends Qingxiao into the Ephemeral Transcendence state.Mid-air Attack - StringbladePress Normal Attack consecutively or hold it down to perform up to 3 consecutive attacks, dealing Aero DMG.This skill is in Drawn Stance.After landing from Mid-air Attack - Stringblade Stage 3, press or hold Normal Attack within a certain time to cast Basic Attack - Stringblade Stage 3.While in mid-air, Resonance Skill is replaced by Mid-air Attack - Stringblade Stage 3.Plunging AttackWhile in the Sword Flight state, Jump is replaced by Plunging Attack.Consume STA to perform a Plunging Attack, dealing Aero DMG.While out of the Ephemeral Transcendence state, press Normal Attack within a certain time after casting this skill to cast Basic Attack - Stringblade Stage 3.Dodge Counter - StringbladePress Normal Attack within a certain time after a successful Dodge to attack the target, dealing Aero DMG.This skill is in Drawn Stance.Press or hold Normal Attack within a certain time after casting this skill to cast Basic Attack - Stringblade Stage 4.Sword GlideWhile in mid-air, Dodge is replaced by Sword Glide.",
+        "multipliers": [
+          {
+            "Lv1": "15.16%*2",
+            "Lv10": "30.13%*2",
+            "Lv2": "16.40%*2",
+            "Lv3": "17.65%*2",
+            "Lv4": "19.39%*2",
+            "Lv5": "20.63%*2",
+            "Lv6": "22.06%*2",
+            "Lv7": "24.05%*2",
+            "Lv8": "26.03%*2",
+            "Lv9": "28.02%*2",
+            "Name": "Basic Attack - Stringblade Stage 1 DMG"
+          },
+          {
+            "Lv1": "18.66%*2",
+            "Lv10": "37.09%*2",
+            "Lv2": "20.19%*2",
+            "Lv3": "21.72%*2",
+            "Lv4": "23.86%*2",
+            "Lv5": "25.39%*2",
+            "Lv6": "27.15%*2",
+            "Lv7": "29.60%*2",
+            "Lv8": "32.04%*2",
+            "Lv9": "34.49%*2",
+            "Name": "Basic Attack - Stringblade Stage 2 DMG"
+          },
+          {
+            "Lv1": "12.25%*4",
+            "Lv10": "24.36%*4",
+            "Lv2": "13.26%*4",
+            "Lv3": "14.26%*4",
+            "Lv4": "15.67%*4",
+            "Lv5": "16.67%*4",
+            "Lv6": "17.83%*4",
+            "Lv7": "19.44%*4",
+            "Lv8": "21.04%*4",
+            "Lv9": "22.65%*4",
+            "Name": "Basic Attack - Stringblade Stage 3 DMG"
+          },
+          {
+            "Lv1": "43.63%+2.73%*4",
+            "Lv10": "86.73%+5.43%*4",
+            "Lv2": "47.21%+2.96%*4",
+            "Lv3": "50.78%+3.18%*4",
+            "Lv4": "55.79%+3.49%*4",
+            "Lv5": "59.37%+3.72%*4",
+            "Lv6": "63.48%+3.97%*4",
+            "Lv7": "69.21%+4.33%*4",
+            "Lv8": "74.93%+4.69%*4",
+            "Lv9": "80.65%+5.05%*4",
+            "Name": "Basic Attack - Stringblade Stage 4 DMG"
+          },
+          {
+            "Lv1": "7.35%*3+11.03%*6+132.30%",
+            "Lv10": "14.62%*3+21.92%*6+263.03%",
+            "Lv2": "7.96%*3+11.93%*6+143.15%",
+            "Lv3": "8.56%*3+12.84%*6+154.00%",
+            "Lv4": "9.40%*3+14.10%*6+169.19%",
+            "Lv5": "10.01%*3+15.01%*6+180.04%",
+            "Lv6": "10.70%*3+16.05%*6+192.51%",
+            "Lv7": "11.66%*3+17.49%*6+209.87%",
+            "Lv8": "12.63%*3+18.94%*6+227.23%",
+            "Lv9": "13.59%*3+20.39%*6+244.59%",
+            "Name": "Heavy Attack - Stringblade DMG"
+          },
+          {
+            "Lv1": "3.64%*5+27.30%",
+            "Lv10": "7.24%*5+54.28%",
+            "Lv2": "3.94%*5+29.54%",
+            "Lv3": "4.24%*5+31.78%",
+            "Lv4": "4.66%*5+34.92%",
+            "Lv5": "4.96%*5+37.15%",
+            "Lv6": "5.30%*5+39.73%",
+            "Lv7": "5.78%*5+43.31%",
+            "Lv8": "6.26%*5+46.89%",
+            "Lv9": "6.73%*5+50.47%",
+            "Name": "Mid-air Attack - Stringblade Stage 1 DMG"
+          },
+          {
+            "Lv1": "22.58%+11.29%*2",
+            "Lv10": "44.89%+22.45%*2",
+            "Lv2": "24.43%+12.22%*2",
+            "Lv3": "26.28%+13.14%*2",
+            "Lv4": "28.87%+14.44%*2",
+            "Lv5": "30.73%+15.37%*2",
+            "Lv6": "32.85%+16.43%*2",
+            "Lv7": "35.82%+17.91%*2",
+            "Lv8": "38.78%+19.39%*2",
+            "Lv9": "41.74%+20.87%*2",
+            "Name": "Mid-air Attack - Stringblade Stage 2 DMG"
+          },
+          {
+            "Lv1": "5.60%*5+42.00%",
+            "Lv10": "11.14%*5+83.51%",
+            "Lv2": "6.06%*5+45.45%",
+            "Lv3": "6.52%*5+48.89%",
+            "Lv4": "7.17%*5+53.71%",
+            "Lv5": "7.63%*5+57.16%",
+            "Lv6": "8.15%*5+61.12%",
+            "Lv7": "8.89%*5+66.63%",
+            "Lv8": "9.62%*5+72.14%",
+            "Lv9": "10.36%*5+77.65%",
+            "Name": "Mid-air Attack - Stringblade Stage 3 DMG"
+          },
+          {
+            "Lv1": "43.40%",
+            "Lv10": "86.29%",
+            "Lv2": "46.96%",
+            "Lv3": "50.52%",
+            "Lv4": "55.50%",
+            "Lv5": "59.06%",
+            "Lv6": "63.16%",
+            "Lv7": "68.85%",
+            "Lv8": "74.54%",
+            "Lv9": "80.24%",
+            "Name": "Plunging Attack DMG"
+          },
+          {
+            "Lv1": "22.75%*4",
+            "Lv10": "45.23%*4",
+            "Lv2": "24.62%*4",
+            "Lv3": "26.49%*4",
+            "Lv4": "29.10%*4",
+            "Lv5": "30.96%*4",
+            "Lv6": "33.11%*4",
+            "Lv7": "36.09%*4",
+            "Lv8": "39.08%*4",
+            "Lv9": "42.06%*4",
+            "Name": "Dodge Counter - Stringblade DMG"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Heavy Attack - Stringblade STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Plunging Attack STA Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Sword Glide STA Cost"
+          }
+        ],
+        "name": "Strings to Steel",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Severing Note: JudgementDeal Aero DMG. During this skill, gain 45 points of Qin Heart.While not in the Ephemeral Transcendence state, press or hold Normal Attack within a certain time after casting this skill to cast Basic Attack - Stringblade Stage 4.Severing Note: AscendantWhile casting Basic Attack - Stringblade Stage 2, Basic Attack - Stringblade Stage 3, or  Dodge Counter - Stringblade, Resonance Skill is replaced by Severing Note: Ascendant.Deal Aero DMG.This skill is in Drawn Stance.",
+        "multipliers": [
+          {
+            "Lv1": "10.50%*2+49.00%",
+            "Lv10": "20.88%*2+97.42%",
+            "Lv2": "11.37%*2+53.02%",
+            "Lv3": "12.23%*2+57.04%",
+            "Lv4": "13.43%*2+62.67%",
+            "Lv5": "14.29%*2+66.68%",
+            "Lv6": "15.28%*2+71.30%",
+            "Lv7": "16.66%*2+77.73%",
+            "Lv8": "18.04%*2+84.16%",
+            "Lv9": "19.42%*2+90.59%",
+            "Name": "Severing Note: Judgement DMG"
+          },
+          {
+            "Lv1": "14.28%+16.66%*2",
+            "Lv10": "28.40%+33.13%*2",
+            "Lv2": "15.46%+18.03%*2",
+            "Lv3": "16.63%+19.40%*2",
+            "Lv4": "18.27%+21.31%*2",
+            "Lv5": "19.44%+22.68%*2",
+            "Lv6": "20.78%+24.25%*2",
+            "Lv7": "22.66%+26.43%*2",
+            "Lv8": "24.53%+28.62%*2",
+            "Lv9": "26.40%+30.80%*2",
+            "Name": "Severing Note: Ascendant DMG"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Severing Note: Judgement Cooldown"
+          }
+        ],
+        "name": "Severing Note",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Deal Aero DMG.Can be cast in mid-air close to the ground.",
+        "multipliers": [
+          {
+            "Lv1": "16.80%*10+672.00%",
+            "Lv10": "33.41%*10+1336.01%",
+            "Lv2": "18.18%*10+727.11%",
+            "Lv3": "19.56%*10+782.21%",
+            "Lv4": "21.49%*10+859.36%",
+            "Lv5": "22.87%*10+914.46%",
+            "Lv6": "24.45%*10+977.83%",
+            "Lv7": "26.65%*10+1066.00%",
+            "Lv8": "28.86%*10+1154.16%",
+            "Lv9": "31.06%*10+1242.33%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv10": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Name": "Resonance Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Billows Beneath Heaven",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Ephemeral TranscendenceWhile Qingxiao is in the Ephemeral Transcendence state, Basic Attack - Ephemeral Transcendence and Dodge Counter - Ephemeral Transcendence become available.Basic Attack - Ephemeral TranscendencePress repeatedly or hold Normal Attack to perform up to 4 consecutive attacks, dealing Aero DMG.Before Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence becomes available, this skill's DMG Multiplier is increased by 100%.Can be cast in mid-air.Dodge Counter - Ephemeral TranscendencePress or hold Normal Attack within a certain time after a successful Dodge to attack the target, dealing Aero DMG.Before Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence becomes available, this skill's DMG Multiplier is increased by 100%.Can be cast in mid-air.Heavy Attack - Heaven's Reckoning: Ephemeral TranscendenceWhen Heart Sword Intent is full, Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence becomes available. Hold Normal Attack to cast the skill, dealing Aero DMG.Casting this skill consumes all Heart Sword Intent and ends the Ephemeral Transcendence state.MindlockMindlock stacks up to 15 times.Each time when a Resonator in the team inflicts Tune Strain - Interfered on a target, inflict 1 stack of Mindlock on the target.For each stack of Mindlock on the target, DMG taken from Qingxiao's following skills is Amplified by 2%, with an additional 5% per stack for the first 7 stacks.Heavy Attack - Stringblade, Basic Attack - Ephemeral Transcendence, Dodge Counter - Ephemeral Transcendence, Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence, Resonance Liberation - Billows Beneath Heaven.Heaven's ClarityUpon entering combat or casting Resonance Liberation Billows Beneath Heaven, gain Heaven's Clarity.When Sheathed Stance/Drawn Stance moves deal damage, the rates at which Qin Heart/Sword Cadence are obtained increase by 100%.When casting Heavy Attack - Stringblade, inflict 3 stacks of Mindlock on nearby targets, and enhance the next Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence: its DMG Multiplier is increased by 100% and it builds additional Off-Tune Level on the target. Switching to another Resonator ends the Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence enhancement.Casting Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence removes Heaven's Clarity.Swordlight WardCasting Intro Skill - Tonality Shift or Heavy Attack - Stringblade grants 1 stack of Swordlight Ward.Swordlight Ward stacks up to 1 time. When taking DMG from an enemy's attack, 1 stacks of Swordlight Ward can be consumed to grant immunity to interruption and reduce DMG taken by 60% for 1s. This effect can be triggered once per second.Sword FlightWhile in the Sword Flight state, Qingxiao moves with a special animation.Moving in Sword Flight continuously consumes Flight Qi.Casting the following skills sends Qingxiao into the Sword Flight state:Sword Dodge, Heavy Attack - Stringblade, Mid-air Attack - Stringblade Stage 1, Mid-air Attack - Stringblade Stage 2, Severing Note: Ascendant, Basic Attack - Ephemeral Transcendence, Dodge Counter - Ephemeral Transcendence, Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence, and Intro Skill - Tonality Shift.Exit the Sword Flight state byCasting Mid-air Attack - Stringblade Stage 3 or Plunging Attack.Triggering certain environmental interactions or Utilities.Returning to the ground.Switching to another Resonator.Depleting all Flight Qi.Sword StepWhile in the Sword Flight state, hold Jump to leap up and dash forward a short distance.Sword Step can only be cast once during Sword Flight.Qin HeartCan hold up to 100 points.Dealing damage with Sheathed Stance skills grants Qin Heart.Qin Heart cannot be gained while in the Ephemeral Transcendence state.Sword CadenceCan hold up to 100 points.Dealing damage with Drawn Stance skills grants Sword Cadence.Sword Cadence cannot be gained while in the Ephemeral Transcendence state.Heart Sword IntentCan hold up to 100 points.Dealing damage with Basic Attack - Ephemeral Transcendence or Dodge Counter - Ephemeral Transcendence grants Heart Sword Intent.",
+        "multipliers": [
+          {
+            "Lv1": "22.58%+11.29%*2",
+            "Lv10": "44.89%+22.45%*2",
+            "Lv2": "24.43%+12.22%*2",
+            "Lv3": "26.28%+13.14%*2",
+            "Lv4": "28.87%+14.44%*2",
+            "Lv5": "30.73%+15.37%*2",
+            "Lv6": "32.85%+16.43%*2",
+            "Lv7": "35.82%+17.91%*2",
+            "Lv8": "38.78%+19.39%*2",
+            "Lv9": "41.74%+20.87%*2",
+            "Name": "Basic Attack - Ephemeral Transcendence Stage 1 DMG"
+          },
+          {
+            "Lv1": "11.62%*5",
+            "Lv10": "23.11%*5",
+            "Lv2": "12.58%*5",
+            "Lv3": "13.53%*5",
+            "Lv4": "14.86%*5",
+            "Lv5": "15.82%*5",
+            "Lv6": "16.91%*5",
+            "Lv7": "18.44%*5",
+            "Lv8": "19.96%*5",
+            "Lv9": "21.49%*5",
+            "Name": "Basic Attack - Ephemeral Transcendence Stage 2 DMG"
+          },
+          {
+            "Lv1": "10.50%*3+15.75%*2",
+            "Lv10": "20.88%*3+31.32%*2",
+            "Lv2": "11.37%*3+17.05%*2",
+            "Lv3": "12.23%*3+18.34%*2",
+            "Lv4": "13.43%*3+20.15%*2",
+            "Lv5": "14.29%*3+21.44%*2",
+            "Lv6": "15.28%*3+22.92%*2",
+            "Lv7": "16.66%*3+24.99%*2",
+            "Lv8": "18.04%*3+27.06%*2",
+            "Lv9": "19.42%*3+29.12%*2",
+            "Name": "Basic Attack - Ephemeral Transcendence Stage 3 DMG"
+          },
+          {
+            "Lv1": "9.10%*4+54.60%",
+            "Lv10": "18.10%*4+108.56%",
+            "Lv2": "9.85%*4+59.08%",
+            "Lv3": "10.60%*4+63.56%",
+            "Lv4": "11.64%*4+69.83%",
+            "Lv5": "12.39%*4+74.30%",
+            "Lv6": "13.25%*4+79.45%",
+            "Lv7": "14.44%*4+86.62%",
+            "Lv8": "15.63%*4+93.78%",
+            "Lv9": "16.83%*4+100.94%",
+            "Name": "Basic Attack - Ephemeral Transcendence Stage 4 DMG"
+          },
+          {
+            "Lv1": "13.30%*4+79.80%",
+            "Lv10": "26.45%*4+158.66%",
+            "Lv2": "14.40%*4+86.35%",
+            "Lv3": "15.49%*4+92.89%",
+            "Lv4": "17.01%*4+102.05%",
+            "Lv5": "18.10%*4+108.60%",
+            "Lv6": "19.36%*4+116.12%",
+            "Lv7": "21.10%*4+126.59%",
+            "Lv8": "22.85%*4+137.06%",
+            "Lv9": "24.59%*4+147.53%",
+            "Name": "Dodge Counter - Ephemeral Transcendence DMG"
+          },
+          {
+            "Lv1": "14.00%*9+224.00%",
+            "Lv10": "27.84%*9+445.34%",
+            "Lv2": "15.15%*9+242.37%",
+            "Lv3": "16.30%*9+260.74%",
+            "Lv4": "17.91%*9+286.46%",
+            "Lv5": "19.06%*9+304.82%",
+            "Lv6": "20.38%*9+325.95%",
+            "Lv7": "22.21%*9+355.34%",
+            "Lv8": "24.05%*9+384.72%",
+            "Lv9": "25.89%*9+414.11%",
+            "Name": "Heaven's Reckoning: Ephemeral Transcendence DMG"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Sword Step Cooldown"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Heaven's Reckoning: Ephemeral Transcendence Concerto Regen"
+          }
+        ],
+        "name": "Formless Heart Sword",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "Upon entering combat, gain 1 stack of Gathered Mind.After damage dealt directly by Resonators in the team defeats a target inflicted with the Mindlock effect:If Qingxiao does not have the Gathered Mind effect, gain Gathered Mind with stacks equal to the target's Mindlock stacks.If Qingxiao already has Gathered Mind and the target's Mindlock stacks are no fewer than Qingxiao's Gathered Mind stacks, Qingxiao's Gathered Mind stacks will be matched to the target's Mindlock stacks.Gathered MindAfter Resonators in the team deal damage to a target, inflict Mindlock equal to Qingxiao's Gathered Mind stacks. This effect can only trigger 1 time on the same target.When Resonators in the team cast Tune Break, if the target has Tune Strain - Shifting, additionally inflict 1 stack of Tune Strain - Interfered on the target. This effect can only trigger 1 time on the same target.When Qingxiao is knocked out, she can no longer gain Gathered Mind, and any existing Gathered Mind effect becomes inactive.Gathered Mind stacks up to 15 times and lasts for 30s.",
+        "multipliers": [],
+        "name": "Sea of Thought, World of Dust",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "Qingxiao's following skills deal 2% more DMG per stack of Mindlock on the target, with an additional 5% per stack for the first 7 stacks.Heavy Attack - Stringblade, Basic Attack - Ephemeral Transcendence, Dodge Counter - Ephemeral Transcendence, Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence, Resonance Liberation - Billows Beneath Heaven.Each time after a Resonator in the team inflicts Tune Strain - Interfered on an Overlord Class or Calamity Class target, additionally inflict 1 stack of Mindlock on the target.",
+        "multipliers": [],
+        "name": "To Know, To Banish",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Deal Aero DMG. Upon casting, gain 30 points of Sword Cadence and gain Resonant Chime.Resonant ChimeCasting Resonance Skill - Severing Note: Judgement grants 30 points of Qin Heart and removes Resonant Chime.",
+        "multipliers": [
+          {
+            "Lv1": "20.02%+23.35%*2",
+            "Lv10": "39.79%+46.42%*2",
+            "Lv2": "21.66%+25.27%*2",
+            "Lv3": "23.30%+27.18%*2",
+            "Lv4": "25.60%+29.86%*2",
+            "Lv5": "27.24%+31.78%*2",
+            "Lv6": "29.13%+33.98%*2",
+            "Lv7": "31.75%+37.04%*2",
+            "Lv8": "34.38%+40.11%*2",
+            "Lv9": "37.00%+43.17%*2",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Tonality Shift",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Deal Aero DMG equal to 800% of Qingxiao's ATK.",
+        "multipliers": [],
+        "name": "Lingering Song",
+        "skill_type": "Outro Skill"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Qingxiao inflicts Tune Strain - Shifting on the target after dealing damage with skills. Each skill can only trigger this once for the same target.Qingxiao can respond to Tune Strain - Interfered.Responding to Tune Strain - Interfered: For each stack of Tune Strain - Interfered on the target, every point of Qingxiao's Tune Break Boost increases the total DMG Qingxiao deals to that target by 0.12%. While Qingxiao is in the team, the max stack limit of Tune Strain - Interfered on a target is increased by 1.Additionally, when the target's Off-Tune Level is full, Qingxiao can cast Tune Break on it. While on the ground and not in the Ephemeral Transcendence state, press Normal Attack within a certain time after casting Tune Break to cast Basic Attack - Stringblade Stage 3.",
+        "multipliers": [],
+        "name": "Draw and Sunder",
+        "skill_type": "Forte Circuit"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "lynae",
+          "denia"
+        ],
+        "commentary": "Qingxiao requires a Tune Strain Hybrid buffer to function at her best. If Mornye is accessible, Denia is the strongest to use as together they provide the best array of buffs possible for her. Otherwise, Lynae is a perfectly fine alternative ideally with Mornye as she also sports lots of generalist buffs and Tune Strain application, but will usually work better with alternative Support options such as Ciaccona and Shorekeeper as her buffs are less specialized."
+      },
+      {
+        "characters": [
+          "mornye",
+          "ciaccona",
+          "the-shorekeeper"
+        ],
+        "commentary": "Qingxiao's ideal Support option is evidently the only designated Tune Strain-related Support option Mornye, as she causes more Tune Strain to be applied quicker and provides lots of buffs for characters who interact with the mechanic. However, if Lynae is the Hybrid character that supports Qingxiao, she works best with Mornye but also makes good use of alternative Supports like Ciaccona and Shorekeeper, only having to deal with minimal team damage losses if Mornye is inaccessible/has to be replaced."
+      }
+    ],
     "upgrade_materials": {
       "character_ascension": [],
       "skill_upgrades": []
     },
-    "voice_actors": null
+    "voice_actors": {
+      "cn": "",
+      "eng": "",
+      "jpn": "",
+      "kr": ""
+    }
   },
   "status": "success"
 }

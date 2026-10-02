@@ -15,12 +15,8 @@
         "commentary": "Offers a 10% unconditional Healing% boost and an most importantly a 15% ATK% boost for the entire team, lasting 30 seconds whenever you heal yourself or any of your allies. This bonus can be triggered by character abilities and weapon effects, is easy to keep active 100% of the time and is a big help for all party members.",
         "main_echo_options": [
           {
-            "echo_commentary": "Grants 10% increased Energy Regeneration for the wearer and a team wide 10% ATK boost on use for 20 seconds. A strong option for those looking to generate as much energy as possible or who favor a more permanent party buffing effect compared to Bell-Borne Geochelone.",
+            "echo_commentary": "Simple summon Echo that can be cast any time (ideally right before the wielder's Outro), granting 10% ATK to the team for 20s (sufficient for 2 other teammates' rotation times if cast right before Outro) as well as 10% Energy Regen to the wielder to help with Energy requirements.",
             "echo_name": "Fallacy of No Return"
-          },
-          {
-            "echo_commentary": "While nowadays a worse option for the Rejuvenating Glow set for damage than the Fallacy of No Return due to a shorter buff uptime, only granting 10% DMG Bonus for 15 seconds, the Bell-Borne Geochelone remains a good choice if you don't have a good Fallacy to use for the set. It also has increased survivability by blocking 50% of the damage from a max of 3 hits if you desire to have that in your team.",
-            "echo_name": "Bell-Borne Geochelone"
           }
         ],
         "percentage_performance": "1",
@@ -196,9 +192,9 @@
       "slug": "yuanwu",
       "updates": {
         "last_major_build_patch": "2.1",
-        "last_profile_update": "10/September/2026",
+        "last_profile_update": "01/October/2026",
         "last_review_patch": "2.1",
-        "last_updated": "10/September/2026"
+        "last_updated": "01/October/2026"
       },
       "weapon_type": "Gauntlets"
     },

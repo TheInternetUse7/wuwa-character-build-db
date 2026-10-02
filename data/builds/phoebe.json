@@ -1,44 +1,1065 @@
 {
   "data": {
-    "base_stats_lvl_90": null,
-    "best_echo_sets": [],
-    "best_echo_stats": null,
-    "best_weapons": [],
+    "base_stats_lvl_90": {
+      "atk": 33,
+      "crit_dmg": "166%",
+      "crit_rate": "5%",
+      "def": 103,
+      "elemental_dmg_bonus": "0%",
+      "healing_bonus": "0%",
+      "hp": 866,
+      "max_energy": 125
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Offers a 10% unconditional Spectro DMG% boost, a 20% CRIT RATE buff for 15 seconds after inflicting Spectro Frazzle and further 15% Spectro DMG% boost for 15 seconds after attacking an enemy that has 10 Spectro Frazzle stacks. For characters that have the capability to inflict Spectro Frazzle in their kit the 20% CRIT RATE is all but permanant, while the 15% Spectro DMG boost should maintain decent uptime in Spectro Frazzle focused teams. Generally the best in slot set for all characters capable of inflicting Spectro Frazzle. When playing Phoebe in Absolution, she will require the assistance of her team in order to activate the 15% Spectro DMG boost tied to hitting enemies with at least 10 stacks of Spectro Frazzle - as in this state she cannot achieve that herself.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Gives 12% Spectro DMG Bonus when equipped in the Main Slot. Trades off character buffing for personal damage from the Echo Skill cast itself, since it deals higher damage to enemies inflicted with Spectro Frazzle. Overall a super negligible difference from Capitaneus though.",
+            "echo_name": "Nightmare: Mourning Aix"
+          },
+          {
+            "echo_commentary": "Gives 12% Spectro and 12% Heavy DMG Bonus when equipped in the Main Slot. Trades off damage from the Echo Skill cast for character buffing which makes it slightly stronger in most teams except Lynae where Liberation damage takes more of Phoebe's damage total.",
+            "echo_name": "Capitaneus"
+          }
+        ],
+        "percentage_performance": "100.00%",
+        "set_name": "Eternal Radiance"
+      },
+      {
+        "commentary": "This set sacrifices Phoebe's personal damage in order to provide higher buffing to a single character, making it the best set for Hybrid Phoebe as a Zani buffer. It provides an extra 10% Energy Regen to the wielder unconditionally and gives 22.5% ATK to the incoming character for 15s after casting Outro skill.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "The best and only real option 5P Moonlit Clouds has, as it grants an extra 12% DMG Bonus on top of the ATK boost to the next character that Moonlit Clouds would usually give. Additionally restores a lot of Energy to the caster when it deals damage, though this won't really see use on Phoebe since it will be usually cancelled by her Outro.",
+            "echo_name": "Impermanence Heron"
+          }
+        ],
+        "percentage_performance": "",
+        "set_name": "Moonlit Clouds"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ],
+        "cost_3": [
+          "Spectro DMG",
+          "Spectro DMG = ATK%"
+        ],
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%",
+        "ATK",
+        "Heavy ATK DMG%"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "Phoebe's signature weapon gives her a ton of CRIT Rate, ATK%, Heavy and Basic DMG bonus under the condition that the enemy is affected by Spectro Frazzle - it even amplifies Spectro Frazzle DMG after an Outro. All of these perks make this weapon the best for Phoebe both as a DPS and a Support.",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "Increase ATK by {0}. Dealing DMG to targets with Spectro Frazzle grants the wielder {1} Basic Attack DMG Bonus and {1} Heavy Attack DMG Bonus, stacking up to 3 times for 6s. Casting Outro Skill Amplifies the Spectro Frazzle DMG on targets around the active Resonator by {2} for 30s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "Crit. Rate",
+          "secondary_stat_val": 36,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Luminous Hymn"
+      },
+      {
+        "commentary_details": "Phrolova's Signature is really good on Phoebe because it provides much higher Base ATK than both Stringmaster and her own Signature as well as 8% DEF Ignore permanently simply after casting Echo Skill which she can do immediately. As a result, this weapon's high ATK scaling means she never overcaps on CRIT Rate (which she can do on other weapons) and it makes this weapon a fantastic choice for her.",
+        "dupe_rank": "R1",
+        "percentage_performance": "98.20%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. Within 12s after dealing Echo Skill DMG, gain {1} Resonance Skill DMG Bonus and {1} Echo Skill DMG Amplification, and ignore {2} of the target's DEF when dealing damage.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Lethean Elegy"
+      },
+      {
+        "commentary_details": "The classic best generalist Rectifier DPS weapon in the game provides a ton of CRIT Rate, DMG Bonus, and ATK when dealing Skill damage which Phoebe takes great advantage of, making for one of her best weapon choices by far.",
+        "dupe_rank": "R1",
+        "percentage_performance": "97.60%",
+        "weapon_base_info": {
+          "effect_description": "Increases the DMG Bonus by {0}. When dealing Resonance Skill DMG, increases ATK by {1}, stacking up to 2. This effect lasts for 5s. When the equipped Resonator is not on the field, increases their ATK by an additional {2}.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 36,
+          "source": "Limited"
+        },
+        "weapon_name": "Stringmaster"
+      },
+      {
+        "commentary_details": "Cantarella's Signature gives Phoebe a lot of CRIT DMG and Basic DMG Bonus when casting Echo Skill after Intro which she can do immediately, bringing some solid damage boosts to the table.",
+        "dupe_rank": "R1",
+        "percentage_performance": "94.40%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attacks grants 1 stacks of Gentle Dream. Echoes with the same name can only trigger this effect once, stacking up to 2 times, lasting for 10s. When reaching 2 stacks, casting Echo Skill no longer resets the duration of this effect. This effect activates up to once per 10s. Switching to another Resonator ends this effect early.<br />With 1 stacks: Grants {1} Basic Attack DMG Bonus.<br />With 2 stacks: Ignores {0} of the target's Havoc RES.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 72,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Whispers of Sirens"
+      },
+      {
+        "commentary_details": "Slightly worse version of Whispers of Sirens, providing less Basic DMG for the same base stats.",
+        "dupe_rank": "R1",
+        "percentage_performance": "93.10%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Using Resonance Skill gives the equipped Resonator {0} Basic Attack DMG Bonus for 6s, stacking up to 3 times. When casting Outro Skill with 3 stacks, consume all stacks to give {1} DMG Bonus to the off-field Basic Attacks performed by the equipped Resonator, lasting for 27s.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 72,
+          "source": "Gacha"
+        },
+        "weapon_name": "Rime-Draped Sprouts"
+      },
+      {
+        "commentary_details": "Best 4-star option for Phoebe, this Battle Pass exclusive provides lower Base ATK than 5-star options but it makes back for it with its CRIT secondary stat and an easily activated passive effect, making for a strong weapon choice.",
+        "dupe_rank": "R5",
+        "percentage_performance": "86.40%",
+        "weapon_base_info": {
+          "effect_description": "When Resonance Liberation is released, increases the caster's ATK by {0}, lasting for 15s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.2,
+          "source": "Pioneer Podcast"
+        },
+        "weapon_name": "Augment"
+      },
+      {
+        "commentary_details": "Best permanently accessible option for Phoebe, providing Energy Regen and a scaling Basic DMG Bonus buff which are good stats for Phoebe, however it lacks a CRIT stat and makes Phoebe's ATK oversaturate which is less than ideal compared to the above options. Still, it works well enough to clear endgame contents with.",
+        "dupe_rank": "R1",
+        "percentage_performance": "85.20%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When hitting a target with Basic Attacks, increases Basic Attack DMG Bonus by {1}, stacking up to {2} time(s). This effect lasts for {3}s and can be triggered 1 time(s) every 0.5s.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 54,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Cosmic Ripples"
+      },
+      {
+        "commentary_details": "If you happened to get this weapon during its original event in version 2.1, it's a solid choice for DPS Phoebe as it gives her a lot of Spectro DMG Bonus when attacking enemies inflicted with Spectro Frazzle. This weapon however doesn't work at all for Confession Phoebe as she cannot hit enemies with Spectro Frazzle due to Zani converting all stacks to Heliacal Ember. It additionally has higher-end Base ATK for 4-star weapons but provides a low secondary ATK% stat in exchange which makes it pale in comparison to the above options while still remainning viable.",
+        "dupe_rank": "R5",
+        "percentage_performance": "79.30%",
+        "weapon_base_info": {
+          "effect_description": "Dealing DMG to enemies with Spectro Frazzle increases the wielder's Spectro DMG by {0}, gaining 1 stack per second for 6s, stacking up to 4 times.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Event"
+        },
+        "weapon_name": "Ocean's Gift"
+      },
+      {
+        "commentary_details": "Simple ATK, CRIT DMG and Basic DMG Bonus stat-stick for Phoebe who can easily take full advantage of this weapon's passive during her rotation.",
+        "dupe_rank": "R5",
+        "percentage_performance": "78.20%",
+        "weapon_base_info": {
+          "effect_description": "Casting Resonance Skill increases ATK by {0} and grants {0} Basic Attack DMG Bonus for 10s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 40.5,
+          "source": "Battle Pass"
+        },
+        "weapon_name": "Radiant Dawn"
+      },
+      {
+        "commentary_details": "Best no-gacha option available for Phoebe who can take full advantage of its passive in non-Zani teams using her and another teammate's Spectro Frazzle application to get good ATK buffs if nothing else is available.",
+        "dupe_rank": "R5",
+        "percentage_performance": "77.30%",
+        "weapon_base_info": {
+          "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Crafting"
+        },
+        "weapon_name": "Waltz in Masquerade"
+      }
+    ],
     "character_metadata": {
       "breadcrumb": [
         "Wuthering Waves",
         "Characters",
         "Phoebe"
       ],
-      "element": null,
+      "element": "Spectro",
       "name": "Phoebe",
-      "rarity_stars": null,
+      "rarity_stars": 5,
       "slug": "phoebe",
       "updates": {
-        "last_major_build_patch": "",
-        "last_profile_update": "",
-        "last_review_patch": "",
-        "last_updated": ""
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "01/October/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "01/October/2026"
       },
-      "weapon_type": null
+      "weapon_type": "Rectifier"
     },
-    "example_teams": [],
-    "media": null,
-    "minor_fortes": [],
-    "pros_and_cons": null,
-    "ratings": null,
-    "recommended_endgame_stats_target": [],
-    "resonance_chain_dupes": [],
-    "review": null,
-    "rotations": [],
-    "skill_upgrade_priority": null,
-    "skills": [],
-    "synergies": [],
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "phoebe"
+        },
+        "slot_2": {
+          "alternatives": [
+            "rebecca",
+            "phrolova"
+          ],
+          "character_name": "lynae"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "rover-spectro"
+        },
+        "team_name": "Best Team (Absolution)",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "phoebe"
+        },
+        "slot_2": {
+          "alternatives": [
+            "mortefi",
+            "ciaccona",
+            "sanhua"
+          ],
+          "character_name": "iuno"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "rover-spectro"
+        },
+        "team_name": "Alternative Team (Absolution)",
+        "team_notes": "Ciaccona is the best and only partner for Absolution Phoebe in Whimpering Wastes, and in that mode in specific she is best used with Lynae, Shorekeeper or Chisa (in Quickswap only)."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "zani"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "phoebe"
+        },
+        "slot_3": {
+          "alternatives": [
+            "rover-spectro",
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Best Team (Confession)",
+        "team_notes": "Spectro Rover is the strongest partner by far if played in Quickswap. The majority of players should however stick to Shorekeeper for the easiest experience."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "phoebe"
+        },
+        "slot_2": {
+          "alternatives": [
+            "changli"
+          ],
+          "character_name": "chisa"
+        },
+        "slot_3": {
+          "alternatives": [
+            "ciaccona"
+          ],
+          "character_name": "rover-spectro"
+        },
+        "team_name": "Expert Quickswap (Absolution)",
+        "team_notes": "Only use this team if you have a lot of quickswap experience, else consider other teams. Ciaccona is only worth using for Whimpering Wastes."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "phoebe"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "rover-spectro"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Triple Spectro Team (Absolution)",
+        "team_notes": "Spectro Rover should be on Moonlit Clouds."
+      }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/phoebe_full.webp",
+      "youtube_guide_embed_url": "https://www.youtube.com/embed/4c9LY9q_N44",
+      "youtube_guide_full_url": "https://www.youtube.com/watch?v=4c9LY9q_N44"
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+16%",
+        "stat_name": "CRIT DMG"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "ATK%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "In Absolution Mode, needs a teammate who applies Spectro Frazzle which restricts teambuilding, and is not suited to multiwave content due to the lack of multiwave Spectro Frazzle appliers — additionally benefits very little from Outro buffs due to her Heavy Attacks already gaining massive DMG Amplify bonuses;",
+        "In Confession mode, deals rather subpar damage and is reliant on Spectro Frazzle Main DPS characters to deal damage (only Zani currently)."
+      ],
+      "pros": [
+        "Can be played both as a DPS (Absolution) and a Hybrid (Confession) by choosing between two different modes when fighting;",
+        "In Absolution mode, has wide AoE attacks that deal potent, straightforward, easily exploitable damage with consistent output. Additionally has very F2P-friendly team options;",
+        "In Confession mode, has a medium-short rotation with huge Spectro Frazzle-related buffs;",
+        "Arguably the most F2P-friendly character in the game, functioning very effectively as the only limited 5-star character on the team with effective F2P-accessible builds and weapon options."
+      ]
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [
+            "Frazzle",
+            "Partner (Zani)",
+            "Expert +2"
+          ],
+          "tier": "T2"
+        },
+        "whimpering_wastes": {
+          "tags": [
+            "Frazzle",
+            "Partner (Zani)",
+            "Expert +1"
+          ],
+          "tier": "T3"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T3"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T3"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 15000+",
+      "DEF: 1100+",
+      "ATK: 1900-2200+",
+      "CRIT Rate: 60-80% (Before Echo Set Bonuses)",
+      "CRIT DMG: 215-260%+",
+      "Energy Regen: 115%-125%+Within the Lynae+Spectro Rover team, the requirement is approximately 111%, with this number going up when using her as a support for Zani.",
+      "Spectro DMG Bonus: 40-70%+"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "When in Absolution, Resonance Liberation Dawn of Enlightenment now increases DMG Multiplier by 480% instead of 255%.When in Confession, Resonance Liberation Dawn of Enlightenment increases DMG Multiplier by 90% and applies Spectro Frazzle to the targets with the maximum stack the targets can receive.",
+        "name": "Sequence Node 1",
+        "node": "S1"
+      },
+      {
+        "description": "When in Absolution, DMG dealt by Outro Skills to targets with Spectro Frazzle is Amplified by 120%.When in Confession, Silent Prayer grants 120% more DMG Amplification for Spectro Frazzle.",
+        "name": "Sequence Node 2",
+        "node": "S2"
+      },
+      {
+        "description": "When in Absolution, the DMG Multiplier of Heavy Attack Starflash is increased by 91%.When in Confession, the DMG Multiplier of Heavy Attack Starflash is increased by 249%.",
+        "name": "Sequence Node 3",
+        "node": "S3"
+      },
+      {
+        "description": "When Basic Attack, Basic Attack Chamuel's Star, Dodge Counter, or Chamuel's Star: Dodge Counter hits, the target's Spectro RES is reduced by 10% for 30s.",
+        "name": "Sequence Node 4",
+        "node": "S4"
+      },
+      {
+        "description": "Casting Intro Skill Golden Grace increases Phoebe's Spectro DMG Bonus by 12% for 15s.",
+        "name": "Sequence Node 5",
+        "node": "S5"
+      },
+      {
+        "description": "Targets entering the Ring of Mirrors are stagnated for an additional 2s. The stagnation effect affects all targets entering the Ring of Mirrors and can be applied to 12 targets max for each Ring of Mirrors. Each target will only be affected by this effect once.When in Absolution or Confession, summoning a Ring of Mirrors with Resonance Skill increases Phoebe's ATK by 10% for 20s, and triggers an extra Heavy Attack Starflash at the Ring of Mirrors' location. This Heavy Attack Starflash does not consume Divine Voice and is not considered as casting a Heavy Attack.",
+        "name": "Sequence Node 6",
+        "node": "S6"
+      }
+    ],
+    "review": {
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Phoebe is a 5-star Spectro Rectifier DPS and Hybrid character who relies upon or applies Spectro Frazzle in order to deal damage or enable/boost the damage of teammates. She's characterized by her two different modes allowing for two different playstyles: \"Absolution\" and \"Confession\". In Absolution mode, Phoebe acts as the Main DPS of the team, being the focus of your team's damage as long as Spectro Frazzle is applied on enemies. In Confession mode, Phoebe is instead a secondary character who will amplify the Spectro Frazzle DMG of other characters on your team (in other words, Zani)."
+          ]
+        },
+        {
+          "heading": "Key Mechanic: Absolution & Confession",
+          "paragraphs": [
+            "Accessing either Absolution or Confession state is done via consuming one of her Forte bars called \"Prayer\". Entering either state gives Phoebe 12% Spectro DMG Bonus. 120 Prayer which restores in 24 seconds total at a rate of 5 per second - all of Phoebe's rotations will operate on this cooldown. Absolution is entered via casting a Heavy Attack with full Prayer, called \"Absolution Litany\". Confession is entered via holding down Resonance Skill with full Prayer which performs a Resonance Skill called \"Utter Confession\". Casting either of these attacks fully restores Phoebe's second Forte bar, called \"Divine Voice\".",
+            "This bar will be consumed to cast her special Heavy Attacks, called \"Starflash\", which can only be executed after Basic Attack 3 or a Dodge Counter, and have different effects depending on Phoebe's state:",
+            "In Absolution mode, Phoebe deals gains 256% Heavy ATK DMG Amplify on Starflash and they consume 15 Divine Voice (4 per rotation);",
+            "In Confession mode, Phoebe applies 5 stacks of Spectro Frazzle to any enemies hit by Starflash and they consume 30 Divine Voice (2 per rotation).",
+            "Other abilities affected by whether Phoebe is in Absolution or Confession include her Ultimate, which has a 255% multiplier increase in Absolution and applies 8 stacks of Spectro Frazzle to targets hit in Confession. Lastly, her Outro also gets a 255% multiplier increase in Absolution mode, and in Confession mode it gives the on-field character an effect called \"Silent Prayer\" for 30s, during which the Spectro RES of nearby targets is reduced by 10% and all team members gain 100% Spectro Frazzle DMG Amplification."
+          ]
+        },
+        {
+          "heading": "Rotation Mechanics",
+          "paragraphs": [
+            "Phoebe's regular Basic Attacks can be ignored, however they get enhanced once her base Resonance Skill is activated: it summons a special zone called \"Ring of Mirrors\" at the skill's target location for 30 seconds. Summoning this ring freezes any targets hit in place for 2 seconds, and allows her to cast her Resonance Skill again shortly after to teleport in its center. While standing outside of this Ring of Mirrors, her Basic Attacks will group enemies in its center along with a small extra attack. While standing inside of it, her Basic Attacks deal much more significant damage, roughly double the typical amount. This is unchanged whether Phoebe is in Absolution or Confession mode.",
+            "With this and her Forte explained, we can conclude that typically Phoebe's rotation will have you execute her Resonance Skill to summon the Ring of Mirrors, then enter either state depending on your team before casting your Ultimate (you can also cancel the animation of Absolution Litany or Utter Confession using this Ultimate for lower field time), after which you should enter the Ring of Mirrors to either do 3 Basic Attacks then Starflash, or a Dodge Counter then Starflash a total of 2 to 4 times depending on your state. After all of these actions are performed, Phoebe is ready to cast her Outro to either deal the rest of her damage or apply all of her buffs."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "In the current meta, Phoebe is in quite a difficult position. It may be easy to assume that she's flexible based on her ability to switch between two different modes to fit two different roles. In this way, Phoebe was a sort of early precursor of the much later introduced Resonance Mode mechanic. You would be correct in assuming this if we were around her release period.",
+            "However, the restriction of being tied to Spectro Frazzle team compositions, to either deal or buff damage, restricts her to two very specific team archetypes with very specific teammates she non-negotiably needs to perform. Zani is needed in Confession mode, with no way around it. Spectro Rover is needed in Absolution mode, with no way around it (Ciaccona is really not an ideal replacement, and this is shown by her Whimpering Wastes performance in spite of her good AoE, Phoebe just does not have the numbers required to compete with Ciaccona by her side).",
+            "Being tied to Zani and other low-damage Absolution compositions really isn't ideal from a meta perspective, not to mention that she lacks good permanent weapon options. Phoebe does not work on her own anymore, as her power budget just isn't sufficient for that. She needs Lynae or Chisa alongside Spectro Rover to back her up in Absolution mode (and that's considered an off-meta team), she needs Zani and Spectro Rover with some very advanced Quickswap to really even be considered close to being \"meta\" anymore.",
+            "In conclusion, Phoebe is a character who has the ability to still perform today in the hands of the right player, but she non-negotiably needs Zani, Spectro Rover, and Quickswap in order to get there. In the hands of the average person, Phoebe is outclassed by many, more modern releases as a DPS or a Support, older Supports who withstood the test of time like Shorekeeper, Mortefi, or Sanhua are a better investment, as they have adapted themselves by way of their general buffs to more modern teams than her. Phoebe is, as it stands, too specialized to stand out."
+          ]
+        }
+      ],
+      "summary": "Phoebe is a 5-star Spectro Rectifier DPS and Hybrid character who relies upon or applies Spectro Frazzle in order to deal damage or enable/boost the damage of teammates. She's characterized by her two different modes allowing for two different playstyles: \"Absolution\" and \"Confession\". In Absolution mode, Phoebe acts as the Main DPS of the team, being the focus of your team's damage as long as Spectro Frazzle is applied on enemies. In Confession mode, Phoebe is instead a secondary character who will amplify the Spectro Frazzle DMG of other characters on your team (in other words, Zani)."
+    },
+    "rotations": [
+      {
+        "rotation_name": "Standard Rotation: Absolution",
+        "steps": [
+          "Intro",
+          "Skill: Mirror Summon (Cancel animation endlag via Dash)",
+          "Dash (Make sure to Dash into the Ring of Mirrors)",
+          "Heavy: Absolution Litany (Cancel animation on cast via Ultimate)",
+          "Ultimate",
+          "Basic: Chamuel's Star 1",
+          "Basic: Chamuel's Star 2",
+          "Basic: Chamuel's Star 3 (Cancel animation on cast via Dash)",
+          "Dash",
+          "Heavy: Starflash",
+          "Basic: Chamuel's Star 1",
+          "Basic: Chamuel's Star 2",
+          "Basic: Chamuel's Star 3 (Cancel animation on cast via Dash)",
+          "Dash",
+          "Heavy: Starflash",
+          "Basic: Chamuel's Star 1",
+          "Basic: Chamuel's Star 2",
+          "Basic: Chamuel's Star 3 (Cancel animation on cast via Dash)",
+          "Dash",
+          "Heavy: Starflash",
+          "Basic: Chamuel's Star 1",
+          "Basic: Chamuel's Star 2",
+          "Basic: Chamuel's Star 3 (Cancel animation on cast via Dash)",
+          "Dash",
+          "Heavy: Starflash (Cancel animation endlag via Outro)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Standard Rotation: Confession",
+        "steps": [
+          "Intro (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Skill: Mirror Summon (Cancel animation on cast via Dash)",
+          "Dash (Make sure to dash inside of the Ring of Mirrors)",
+          "Basic: Chamuel's Star 1",
+          "Basic: Chamuel's Star 2",
+          "Basic: Chamuel's Star 3 (Cancel animation on cast via Dash)",
+          "Dash",
+          "Heavy: Starflash",
+          "Basic: Chamuel's Star 1",
+          "Basic: Chamuel's Star 2",
+          "Basic: Chamuel's Star 3 (Cancel animation on cast via Dash)",
+          "Dash",
+          "Heavy: Starflash (Cancel animation endlag via Outro)",
+          "Outro"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "Intro and Basic can be skipped when levelling to save on resources at a minimal damage loss.",
+      "order": [
+        "Forte Circuit",
+        "Res. Liberation",
+        "Res. Skill",
+        "Intro Skill",
+        "Basic Attack"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic AttackPerform up to 3 consecutive attacks of Holy Light, dealing Spectro DMG.Heavy Attack Consume STA to attack the target, dealing Spectro DMG.Mid-air AttackConsume STA to ride the staff and dive down from mid-air to attack the target, dealing Spectro DMG.Mid-air Heavy AttackConsume STA to ride on the staff for a distance.Can be re-cast after a Mid-Air Dodge or using Grapple.Dodge CounterAfter a successful Dodge, quickly use Basic Attack to attack the target, dealing Spectro DMG.When Phoebe is inside the Ring of Mirrors, Dodge Counter becomes Chamuel's Star: Dodge Counter.",
+        "multipliers": [
+          {
+            "Lv1": "14.85%",
+            "Lv10": "29.53%",
+            "Lv2": "16.07%",
+            "Lv3": "17.29%",
+            "Lv4": "19.00%",
+            "Lv5": "20.21%",
+            "Lv6": "21.61%",
+            "Lv7": "23.56%",
+            "Lv8": "25.51%",
+            "Lv9": "27.46%",
+            "Name": "Stage 1 DMG"
+          },
+          {
+            "Lv1": "11.25% + 13.75%",
+            "Lv10": "22.37% + 27.34%",
+            "Lv2": "12.18% + 14.88%",
+            "Lv3": "13.10% + 16.01%",
+            "Lv4": "14.39% + 17.59%",
+            "Lv5": "15.31% + 18.72%",
+            "Lv6": "16.37% + 20.01%",
+            "Lv7": "17.85% + 21.82%",
+            "Lv8": "19.33% + 23.62%",
+            "Lv9": "20.80% + 25.42%",
+            "Name": "Stage 2 DMG"
+          },
+          {
+            "Lv1": "7.17%*8",
+            "Lv10": "14.24%*8",
+            "Lv2": "7.75%*8",
+            "Lv3": "8.34%*8",
+            "Lv4": "9.16%*8",
+            "Lv5": "9.75%*8",
+            "Lv6": "10.43%*8",
+            "Lv7": "11.37%*8",
+            "Lv8": "12.31%*8",
+            "Lv9": "13.25%*8",
+            "Name": "Stage 3 DMG"
+          },
+          {
+            "Lv1": "20.80%*4",
+            "Lv10": "41.35%*4",
+            "Lv2": "22.50%*4",
+            "Lv3": "24.21%*4",
+            "Lv4": "26.60%*4",
+            "Lv5": "28.30%*4",
+            "Lv6": "30.26%*4",
+            "Lv7": "32.99%*4",
+            "Lv8": "35.72%*4",
+            "Lv9": "38.45%*4",
+            "Name": "Heavy Attack DMG"
+          },
+          {
+            "Lv1": "23.25%*2",
+            "Lv10": "46.23%*2",
+            "Lv2": "25.16%*2",
+            "Lv3": "27.07%*2",
+            "Lv4": "29.74%*2",
+            "Lv5": "31.64%*2",
+            "Lv6": "33.84%*2",
+            "Lv7": "36.89%*2",
+            "Lv8": "39.94%*2",
+            "Lv9": "42.99%*2",
+            "Name": "Plunging Attack DMG"
+          },
+          {
+            "Lv1": "10.86%*8",
+            "Lv10": "21.58%*8",
+            "Lv2": "11.75%*8",
+            "Lv3": "12.64%*8",
+            "Lv4": "13.89%*8",
+            "Lv5": "14.78%*8",
+            "Lv6": "15.80%*8",
+            "Lv7": "17.22%*8",
+            "Lv8": "18.65%*8",
+            "Lv9": "20.07%*8",
+            "Name": "Dodge Counter DMG"
+          },
+          {
+            "Lv1": "22.05%*6",
+            "Lv10": "43.84%*6",
+            "Lv2": "23.86%*6",
+            "Lv3": "25.67%*6",
+            "Lv4": "28.20%*6",
+            "Lv5": "30.01%*6",
+            "Lv6": "32.09%*6",
+            "Lv7": "34.98%*6",
+            "Lv8": "37.88%*6",
+            "Lv9": "40.77%*6",
+            "Name": "Chamuel's Star: Dodge Counter DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Heavy Attack STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-air Attack STA Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Mid-Air Heavy Attack STA Cost"
+          }
+        ],
+        "name": "O Come Divine Light",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Summon a Ring of Mirrors at the target location, making the target hit stagnate for 2s and dealing Spectro DMG. The stagnation effect can be applied to 12 targets max for each Ring of Mirrors. Using Resonance Skill again shortly after the summoning teleports Phoebe to the Ring of Mirrors' location, dealing Spectro DMG.Unable to teleport if Phoebe is too far from the Ring of Mirrors.Ring of MirrorsRing of Mirrors lasts for 30s. When Phoebe summons a new Ring of Mirrors, the existing Ring of Mirrors disappears.When Phoebe is outside of the Ring of Mirrors, a Basic Attack or Dodge Counter that hits the Ring of Mirrors will refract Holy Light, which deals Spectro DMG to targets inside the Ring of Mirrors and pulls the targets hit to the center of the ring. The DMG dealt is considered Basic Attack DMG. Can be triggered once every 0.5s.When Phoebe is inside the Ring of Mirrors, Basic Attack becomes Basic Attack Chamuel's Star, which performs up to 3 consecutive attacks, dealing Spectro DMG, considered Basic Attack DMG.",
+        "multipliers": [
+          {
+            "Lv1": "31.50%*2",
+            "Lv10": "62.63%*2",
+            "Lv2": "34.09%*2",
+            "Lv3": "36.67%*2",
+            "Lv4": "40.29%*2",
+            "Lv5": "42.87%*2",
+            "Lv6": "45.84%*2",
+            "Lv7": "49.97%*2",
+            "Lv8": "54.11%*2",
+            "Lv9": "58.24%*2",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "7.50%*2",
+            "Lv10": "14.92%*2",
+            "Lv2": "8.12%*2",
+            "Lv3": "8.73%*2",
+            "Lv4": "9.60%*2",
+            "Lv5": "10.21%*2",
+            "Lv6": "10.92%*2",
+            "Lv7": "11.90%*2",
+            "Lv8": "12.89%*2",
+            "Lv9": "13.87%*2",
+            "Name": "Ring of Mirrors: Refracted Holy Light DMG"
+          },
+          {
+            "Lv1": "29.85%",
+            "Lv10": "59.35%",
+            "Lv2": "32.30%",
+            "Lv3": "34.75%",
+            "Lv4": "38.18%",
+            "Lv5": "40.62%",
+            "Lv6": "43.44%",
+            "Lv7": "47.36%",
+            "Lv8": "51.27%",
+            "Lv9": "55.19%",
+            "Name": "Chamuel's Star: Stage 1 DMG"
+          },
+          {
+            "Lv1": "20.00%*2",
+            "Lv10": "39.77%*2",
+            "Lv2": "21.64%*2",
+            "Lv3": "23.28%*2",
+            "Lv4": "25.58%*2",
+            "Lv5": "27.22%*2",
+            "Lv6": "29.11%*2",
+            "Lv7": "31.73%*2",
+            "Lv8": "34.35%*2",
+            "Lv9": "36.98%*2",
+            "Name": "Chamuel's Star: Stage 2 DMG"
+          },
+          {
+            "Lv1": "14.55%*6",
+            "Lv10": "28.93%*6",
+            "Lv2": "15.75%*6",
+            "Lv3": "16.94%*6",
+            "Lv4": "18.61%*6",
+            "Lv5": "19.80%*6",
+            "Lv6": "21.18%*6",
+            "Lv7": "23.09%*6",
+            "Lv8": "24.99%*6",
+            "Lv9": "26.90%*6",
+            "Name": "Chamuel's Star: Stage 3 DMG"
+          },
+          {
+            "Lv1": "12",
+            "Lv10": "12",
+            "Lv2": "12",
+            "Lv3": "12",
+            "Lv4": "12",
+            "Lv5": "12",
+            "Lv6": "12",
+            "Lv7": "12",
+            "Lv8": "12",
+            "Lv9": "12",
+            "Name": "Cooldown"
+          }
+        ],
+        "name": "To Where Light Shines",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Phoebe concentrates the light in her hands into the Mirror of Enlightenment and smashes it, dealing Spectro DMG.Absolution Enhancement: Increase DMG Multiplier by 255%.Confession Enhancement: Apply 8 stacks of Spectro Frazzle to targets hit.",
+        "multipliers": [
+          {
+            "Lv1": "202.00%",
+            "Lv10": "401.60%",
+            "Lv2": "218.57%",
+            "Lv3": "235.13%",
+            "Lv4": "258.32%",
+            "Lv5": "274.89%",
+            "Lv6": "293.94%",
+            "Lv7": "320.44%",
+            "Lv8": "346.94%",
+            "Lv9": "373.44%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv10": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Name": "Resonance Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Dawn of Enlightenment",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "When Phoebe's Prayer is full, consume all Prayer to cast one of the following skills:Hold Basic Attack to cast Heavy Attack Absolution Litany, dealing Spectro DMG and applying 1 stack of Spectro Frazzle to the targets hit. Phoebe enters Absolution status, which allows her to deal more DMG.Hold Resonance Skill to cast Resonance Skill Utter Confession, dealing Spectro DMG and applying 1 stack of Spectro Frazzle to the targets hit. Phoebe enters Confession status, which allows her to better exploit Spectro Frazzle.Absolution and Confession cannot coexist. Entering into one will end the other.When Divine Voice is not exhausted, Phoebe is unable to cast Heavy Attack Absolution Litany and Resonance Skill Utter Confession.When Divine Voice is exhausted, Phoebe will not exit the Absolution or Confession status.Heavy Attack: StarflashWhen Phoebe has Divine Voice, casting Basic Attack Stage 3 or Dodge Counter replaces the next Heavy Attack with Heavy Attack: Starflash, which deals Spectro DMG at the cost of 30 Divine Voice.Absolution Enhancement: Reduce the cost of Divine Voice by 15. When the targets hit have Spectro Frazzle, the skill gains 256% DMG Amplification.Confession Enhancement: Apply 5 stacks of Spectro Frazzle to the targets hit.Prayer Phoebe can hold up to 120 Prayer.Phoebe automatically gains 5 Prayer every second.Divine VoicePhoebe can hold up to 60 Divine Voice.Casting Heavy Attack Absolution Litany or Resonance Skill Utter Confession restores 60 Divine Voice.",
+        "multipliers": [
+          {
+            "Lv1": "321.00%",
+            "Lv10": "638.19%",
+            "Lv2": "347.33%",
+            "Lv3": "373.65%",
+            "Lv4": "410.50%",
+            "Lv5": "436.82%",
+            "Lv6": "467.09%",
+            "Lv7": "509.21%",
+            "Lv8": "551.32%",
+            "Lv9": "593.44%",
+            "Name": "Absolution Litany DMG"
+          },
+          {
+            "Lv1": "94.50%",
+            "Lv10": "187.88%",
+            "Lv2": "102.25%",
+            "Lv3": "110.00%",
+            "Lv4": "120.85%",
+            "Lv5": "128.60%",
+            "Lv6": "137.51%",
+            "Lv7": "149.91%",
+            "Lv8": "162.31%",
+            "Lv9": "174.71%",
+            "Name": "Utter Confession DMG"
+          },
+          {
+            "Lv1": "41.59%*3",
+            "Lv10": "82.69%*3",
+            "Lv2": "45.00%*3",
+            "Lv3": "48.41%*3",
+            "Lv4": "53.19%*3",
+            "Lv5": "56.60%*3",
+            "Lv6": "60.52%*3",
+            "Lv7": "65.98%*3",
+            "Lv8": "71.43%*3",
+            "Lv9": "76.89%*3",
+            "Name": "Heavy Attack: Starflash DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Heavy Attack: Starflash STA Cost"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Absolution Litany Concerto Regen"
+          },
+          {
+            "Lv1": "40",
+            "Lv10": "40",
+            "Lv2": "40",
+            "Lv3": "40",
+            "Lv4": "40",
+            "Lv5": "40",
+            "Lv6": "40",
+            "Lv7": "40",
+            "Lv8": "40",
+            "Lv9": "40",
+            "Name": "Utter Confession Concerto Regen"
+          }
+        ],
+        "name": "Radiant Invocation",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "Mid-air Heavy Attack can be cast 1 more time.",
+        "multipliers": [],
+        "name": "Presence",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "When in the Absolution status and Confession status, Spectro DMG Bonus is increased by 12%.",
+        "multipliers": [],
+        "name": "Revelation",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Knock back nearby targets and deal Spectro DMG.",
+        "multipliers": [
+          {
+            "Lv1": "100.00%",
+            "Lv10": "198.81%",
+            "Lv2": "108.20%",
+            "Lv3": "116.40%",
+            "Lv4": "127.88%",
+            "Lv5": "136.08%",
+            "Lv6": "145.51%",
+            "Lv7": "158.63%",
+            "Lv8": "171.75%",
+            "Lv9": "184.87%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Golden Grace",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Deal Spectro DMG equal to 528.41% of Phoebe's ATK to nearby targets.Absolution Enhancement: Increase DMG Multiplier by 255%.Confession Enhancement: Grant Silent Prayer to the Resonator on the field, reducing the Spectro RES of nearby targets by 10% and granting 100% Spectro Frazzle DMG Amplification. When Spectro Frazzle inflicts DMG, extend Spectro Frazzle's damage interval by 50%. This effect lasts 30s or until Phoebe switches to Absolution status.",
+        "multipliers": [],
+        "name": "Attentive Heart",
+        "skill_type": "Outro Skill"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "zani"
+        ],
+        "commentary": "As Confession Phoebe's only synergy currently, Zani's damage output is buffed to tremendous heights as she mostly deals Spectro Frazzle DMG during her Ultimate stance. Providing Spectro RES Shred and massive Spectro Frazzle DMG Amplify boosts on Outro, Phoebe is by far and away the best option for Zani, making for one of the top teams in the meta."
+      },
+      {
+        "characters": [
+          "rover-spectro",
+          "ciaccona",
+          "chisa"
+        ],
+        "commentary": "These are Phoebe's main Negative Status appliers. Phoebe needs Spectro Frazzle to function as a DPS, Spectro Rover is the character of choice in single-wave while Ciaccona will be preferred in multi-wave. Finally, Chisa is great as a quickswap support/secondary damage dealer option who can buff Phoebe well with her Outro, Rejuvenating Glow and her Weapon while also dealing good damage of her own if her swap windows are properly utilized."
+      },
+      {
+        "characters": [
+          "lynae",
+          "rebecca",
+          "phrolova"
+        ],
+        "commentary": "The best second slot partners for DPS Phoebe by far, Lynae provides the strongest generalist buffs which make her stand above every other buffing option for Phoebe and makes for her best team; Rebecca is a very close contender as she can provide a ramp-up Heavy DMG buff, several generalist buffs, and her own personal damage. Phrolova is a more damage-oriented version of this with lower buffs, since she can provide Heavy ATK DMG Amplification via her Outro but most importantly a ton of personal damage and crowd control at relatively low field time costs for a DPS (but still a higher field time compared to the previous two)."
+      },
+      {
+        "characters": [
+          "mortefi",
+          "sanhua",
+          "iuno"
+        ],
+        "commentary": "Additional buffing options for Phoebe. Mortefi and Iuno provide Heavy ATK DMG Amplification and some personal damage, but while it is Phoebe's main damage type, the Amplification stat is already too saturated on her because of her kit and as a result the buff has minimal value; Sanhua hence presents herself as another fully F2P-accessible option which buffs Basic Attacks via her Outro instead, which winds up to be equivalent to Mortefi's buffing profile, with Iuno providing less buffs and having higher personal damagee instead."
+      }
+    ],
     "upgrade_materials": {
-      "character_ascension": [],
-      "skill_upgrades": []
+      "character_ascension": [
+        {
+          "material_name": "Firecracker Jewelweed",
+          "quantity": 60,
+          "rarity": "boss"
+        },
+        {
+          "material_name": "Cleansing Conch",
+          "quantity": 46,
+          "rarity": "specialty"
+        },
+        {
+          "material_name": "LF Whisperin Core",
+          "quantity": 4,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Whisperin Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Whisperin Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Whisperin Core",
+          "quantity": 4,
+          "rarity": "common"
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "Sentinel's Dagger",
+          "quantity": 26,
+          "rarity": "weekly_boss"
+        },
+        {
+          "material_name": "LF Whisperin Core",
+          "quantity": 25,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Whisperin Core",
+          "quantity": 28,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Whisperin Core",
+          "quantity": 40,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Whisperin Core",
+          "quantity": 57,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Lento Helix",
+          "quantity": 25,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Adagio Helix",
+          "quantity": 28,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Andante Helix",
+          "quantity": 55,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Presto Helix",
+          "quantity": 67,
+          "rarity": "skill_material"
+        }
+      ]
     },
-    "voice_actors": null
+    "voice_actors": {
+      "cn": "",
+      "eng": "",
+      "jpn": "",
+      "kr": ""
+    }
   },
   "status": "success"
 }

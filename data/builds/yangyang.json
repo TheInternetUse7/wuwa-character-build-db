@@ -1,44 +1,818 @@
 {
   "data": {
-    "base_stats_lvl_90": null,
-    "best_echo_sets": [],
-    "best_echo_stats": null,
-    "best_weapons": [],
+    "base_stats_lvl_90": {
+      "atk": 20,
+      "crit_dmg": "150%",
+      "crit_rate": "5%",
+      "def": 90,
+      "elemental_dmg_bonus": "1.12%",
+      "healing_bonus": "0%",
+      "hp": 816,
+      "max_energy": 100
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Offers a 10% unconditional Energy Regen% boost taking some pressure off your gear when aiming at ER breakpoints. Also upon using Outro, grants the next character switching in a 22.5% ATK boost, amplifying any of your main damage dealers burst windows.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Supportive Echo that can be run at the cost of a sizeable chunk of damage for the character who equips, trading personal gain for team benefits. Should always be used and immediately switch cancelled right before performing an Outro, leading to another DPS. When done so will grant the next character switching in 12% increased DMG% which when combined with the 5P Moonlit set which also grants 22.5% ATK% under the same conditions makes for a sizeable boost. While the echo does lower the damage of whoever wears it, it grants a massive chunk of energy on use usually saving 1 or sometimes even 2 Energy Regen sub stats that may otherwise be needed by the wearer allowing for some damage to be recovered.",
+            "echo_name": "Impermanence Heron"
+          }
+        ],
+        "percentage_performance": "1",
+        "set_name": "Moonlit Clouds"
+      },
+      {
+        "commentary": "Offers a 10% unconditional Aero DMG% boost and an additional 30% Aero DMG% after using the intro lasting 15 seconds for a grand total of 40% additional Aero damage for most of your damage window.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Offers an unconditional 12% Aero DMG and Heavy ATK boost when used as the Main Echo, and additionally is a Summon-type echo making it easy to use in any character's rotation, which often makes it the best option for any character using the set.",
+            "echo_name": "Nightmare: Feilian Beringal"
+          },
+          {
+            "echo_commentary": "Gives the same buffs as its Nightmare variant, but only after being transformed into, for a duration of 15 seconds. This Echo compensates by dealing close to double the damage of the Nightmare and giving more Energy to the character using it, but it's more difficult to incorporate into rotations, as it needs to be Swap Cancelled after the first hit to be used smoothly while making sure your character gets its buffs.",
+            "echo_name": "Feilian Beringal"
+          }
+        ],
+        "percentage_performance": "",
+        "set_name": "Sierra Gale"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ],
+        "cost_3": [
+          "Aero DMG",
+          "Aero DMG > ATK%"
+        ],
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%",
+        "ATK",
+        "Liberation DMG%",
+        "Basic DMG%"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "Changli's signature weapon that's not only fantastic for her but also usable on all damage-focused Sword users who have a large portion of their damage originating from Resonance Skill damage. Offers a huge main stat of CRIT DMG% granting excellent scaling, 12% permanent ATK% and up to 56% increased Resonance Skill DMG% which should be at or close to full power during the bulk of your rotation when opening with one or two resonance skills.",
+        "dupe_rank": "R1",
+        "percentage_performance": "102.39%",
+        "weapon_base_info": {
+          "effect_description": "ATK increased by {0}. The equipper gains 1 stack of Searing Feather upon dealing damage, which can be triggered once every 0.5s, and gains 5 stacks of the same effect upon casting Resonance Skill. Each stack of Searing Feather gives {1} additional Resonance Skill DMG Bonus for up to 14 stacks. All stacks will be removed within 12s after reaching the max stack.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Gacha"
+        },
+        "weapon_name": "Blazing Brilliance"
+      },
+      {
+        "commentary_details": "Outstanding Sword choice, offering significantly higher base damage due to its 5â rarity, as well as a stackable ATK% buff almost every character can effortlessly get 1 stack of (but with 2 also being easily achievable by most when played correctly). Additionally has a good amount of Energy Regen, which on most characters will allow one sub-stat of Energy Regen to be allocated elsewhere to increase damage even further. Best Sword choice across the board with only S5 4â Swords having a chance to compete with it.",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases ATK by {1}, stacking up to 2 time(s). This effect lasts for 10s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Emerald of Genesis"
+      },
+      {
+        "commentary_details": "Sword option for Heavy and Basic ATK users with an easy to trigger passive - with the only downside being its 10 second time limit. For characters that use their Skill multiple times per rotation, this downside is a non-issue but for Main DPS characters who take up a lot of field time and don't use their skill often this sword can lose value. ",
+        "dupe_rank": "R5",
+        "percentage_performance": "82.96%",
+        "weapon_base_info": {
+          "effect_description": "When Resonance Skill is released, increases Basic Attack DMG and Heavy Attack DMG by {0}, stacking up to 1 time(s). This effect lasts for 10s and can be triggered 1 time(s) every 1s.",
+          "primary_stat_val": 387,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "Pioneer Podcast"
+        },
+        "weapon_name": "Lumingloss"
+      },
+      {
+        "commentary_details": "Often inferior to Commando of Conviction for DPS, this sword is still a great F2P 4* option for characters who need the energy boost. Realistically however, only consider this option over Commando of Conviction if you have energy problems on your character. ",
+        "dupe_rank": "R5",
+        "percentage_performance": "82.82%",
+        "weapon_base_info": {
+          "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Gacha"
+        },
+        "weapon_name": "Endless Collapse"
+      },
+      {
+        "commentary_details": "Powerful sword for Resonators spending minimal time on the field - the shorter the better. Best for Hybrid characters executing their rotation fast and infrequently, but less powerful on Main DPS characters that aim to spend extended time on field.",
+        "dupe_rank": "R5",
+        "percentage_performance": "81.60%",
+        "weapon_base_info": {
+          "effect_description": "Equipped Resonator gains 6 stack(s) of Oath upon entering the battlefield. Each stack increases ATK by {0}, up to 6 stacks. This effect can be triggered 1 time(s) every 12s. Oath reduces by 1 stack(s) every 2s. Equipped Resonator gains an additional <b>6</b> stack(s) of Oath upon defeating an enemy.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 30.3,
+          "source": ""
+        },
+        "weapon_name": "Lunar Cutter"
+      }
+    ],
     "character_metadata": {
       "breadcrumb": [
         "Wuthering Waves",
         "Characters",
         "Yangyang"
       ],
-      "element": null,
+      "element": "Aero",
       "name": "Yangyang",
-      "rarity_stars": null,
+      "rarity_stars": 4,
       "slug": "yangyang",
       "updates": {
-        "last_major_build_patch": "",
-        "last_profile_update": "",
-        "last_review_patch": "",
-        "last_updated": ""
+        "last_major_build_patch": "2.3",
+        "last_profile_update": "01/October/2026",
+        "last_review_patch": "2.1",
+        "last_updated": "01/October/2026"
       },
-      "weapon_type": null
+      "weapon_type": "Sword"
     },
-    "example_teams": [],
-    "media": null,
-    "minor_fortes": [],
-    "pros_and_cons": null,
-    "ratings": null,
-    "recommended_endgame_stats_target": [],
-    "resonance_chain_dupes": [],
-    "review": null,
-    "rotations": [],
-    "skill_upgrade_priority": null,
-    "skills": [],
-    "synergies": [],
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "carlotta"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "yangyang"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Best Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "xiangli-yao"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "yangyang"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Budget Expert Team",
+        "team_notes": "Not recommended to casual players as this falls off significantly without quickswapping"
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "changli"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "yangyang"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Budget Expert Team",
+        "team_notes": "Not recommended to casual players as this falls off significantly without quickswapping."
+      }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/yangyang_full.webp",
+      "youtube_guide_embed_url": "",
+      "youtube_guide_full_url": ""
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+12%",
+        "stat_name": "Aero DMG"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "ATK%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "Not having an amplification buff on her Outro skill puts her in a tough spot against hybrids and supports that do, often causing her to rely on quickswap to be comparably effective;",
+        "No real place in the meta, often outshined by stronger buffing options or better quickswap damage dealers;",
+        "Her rotations can get awkward to execute when her Ultimate is on cooldown;",
+        "Very reliant on her late sequences for damage, which also provide a good chunk of team buffing potential."
+      ],
+      "pros": [
+        "One of the only supports in the game who can group enemies effectively;",
+        "Fully quickswap friendly via her unique Outro skill, which funnels Energy to the incoming character;",
+        "One of the shortest rotations in the game by far, comparable to the top tier Sanhua;",
+        "Benefits a lot from her higher sequences, which greatly increase her potential, damage and buffing-wise;",
+        "She's free!"
+      ]
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [],
+          "tier": "T4"
+        },
+        "whimpering_wastes": {
+          "tags": [],
+          "tier": "T4"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T4"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T4"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 15000+",
+      "DEF: 1150+",
+      "ATK: 1800-2200+",
+      "CRIT Rate: 60-80%+",
+      "CRIT DMG: 210-260%+",
+      "Energy Regen: 107%+Estimated in a Xiangli Yao+Shorekeeper team using Moonlit Clouds.",
+      "Aero DMG Bonus: 30-60%+"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "Intro Skill Cerulean Song increases Yangyang's Aero DMG Bonus by an additional 15% for 8s.",
+        "name": "Sequence Node 1",
+        "node": "S1"
+      },
+      {
+        "description": "Heavy Attack recovers an additional 10 Resonance Energy for Yangyang when it hits a target, which can be triggered 1 time every 20 seconds.",
+        "name": "Sequence Node 2",
+        "node": "S2"
+      },
+      {
+        "description": "Resonance Skill DMG Bonus is increased by 40%. The Wind Field's pulling effect on surrounding targets is enhanced, and the pulling range is expanded by 33%.",
+        "name": "Sequence Node 3",
+        "node": "S3"
+      },
+      {
+        "description": "Mid-Air Attack Feather Release's damage is increased by 95%.",
+        "name": "Sequence Node 4",
+        "node": "S4"
+      },
+      {
+        "description": "Resonance Liberation Wind Spirals's damage is increased by 85%.",
+        "name": "Sequence Node 5",
+        "node": "S5"
+      },
+      {
+        "description": "After casting Mid-Air Attack Feather Release, the ATK of all team members is increased by 20% for 20s.",
+        "name": "Sequence Node 6",
+        "node": "S6"
+      }
+    ],
+    "review": {
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Yangyang is a free 4-star Aero Sword Hybrid who centers around quick Concerto Energy generation and quickswap-friendliness. Much like her wind element of choice would suggest, her rotations are as fast as a gust of wind and she can swap in and out of the field quicker than the average child at their school festival's haunted house. Extremely specific jokes aside, when you start stacking Sequences up, she starts dealing some decent damage too!",
+            "Her kit's main point of interest is, like many other characters, her Forte Circuit. It can hold up to a maximum of 3 stacks. When charged fully, Yangyang can cast a powerful mid-air burst attack called Feather Release. It can be accessed in several ways: by using your Heavy Attack, by performing an Intro Skill, by performing a Dodge Counter, by swapping into another character mid-air, and by simply jumping, after any of which you need to perform a Basic Attack. The main and most reliable way to access this Feather Release, which we will use extensively in all of her rotations, is by jumping.",
+            "To generate those stacks, a few ways can be considered: by using her Resonance Skill, which additionally groups smaller enemies in a small radius in its center while dealing some okay damage, by using her Intro Skill, by using her last Basic Attack (which is often impractical unless you swap into her without an Intro), and lastly by using her Heavy Attack and pressing Basic Attack once afterwards. We will mostly be counting on Heavy Attacks and Resonance Skills to generate Forte stacks as they are the fastest and most reliable way to do so.",
+            "Her Ultimate is simple to understand: dealing a few hits of solid continuous damage in its rather generous radius, it groups smaller enemies in its center and generates a good chunk of Concerto Energy for her. Paired with her Heavy Attacks, her Resonance Skill and most importantly her Forte Circuit, she's able to generate lots of Concerto Energy in extremely short time windows.",
+            "Her Outro skill is unfortunately unimpressive from a meta standpoint, but we will see it doesn't cripple her too hard; it funnels a total of 20 Resonance Energy to the character you switched into over a period of 5s. This effect of Resonance Energy funneling is very rare and only sported by Zhezhi as of the current patch other than Yangyang.",
+            "However, it additionally has the effect of being able to trigger the Moonlit Clouds Echo set for the reliable DMG and ATK buffs it provides when you have it equipped on your Yangyang; by association, it makes her the only Hybrid buffing archetype character in the game to be fully quickswap-friendly, as none of her buffs expire upon switching like any other buffing-type Hybrids such as Sanhua, Mortefi, Zhezhi and the likes, which is the one meta niche she upholds and is unique in.",
+            "As a result, she is only to be used in quickswap-focused hypercarry teams such as along with Xiangli Yao or Changli, her two main teams, where she serves as a budget option to who will typically be Yinlin or Zhezhi. With that comes an inherent flaw though: she isn't easy to play. You'll need to get used to how fast Yangyang is if you truly want to justify a use for her.",
+            "On top of this, a final flaw of hers is that her S4, S5 and S6 are all really big to your team's overall damage; if your Yangyang isn't at least S5, it's best to discard Yangyang as an option entirely, as she will deal insignificant damage herself, and buff your team in a rather subpar manner as she doesn't access the 20% team-wide ATK buff her S6 provides, which is very wanted considering she doesn't buff much to begin with.",
+            "To summarize, Yangyang is in a very unique niche in the meta. Sporting a unique Outro Skill despite her kit clearly being centered around buffing your main DPS's damage, it would at first seem like she barely contributes anything to the team; however, her exceptionally short rotation time - one of the fastest in the entire game - paired with her fully quickswap-friendly kit are her saving grace, enabling her to slot in nicely as a quickswap attacker who can not only deal decent damage, but also buff your Main DPS quite nicely at the same time. While a difficult character to get used to, and by no means a meta one due to her lack of buffing strength, Yangyang is a surefire budget option for quickswap-friendly Hypercarry teams."
+          ]
+        }
+      ],
+      "summary": "Yangyang is a free 4-star Aero Sword Hybrid who centers around quick Concerto Energy generation and quickswap-friendliness. Much like her wind element of choice would suggest, her rotations are as fast as a gust of wind and she can swap in and out of the field quicker than the average child at their school festival's haunted house. Extremely specific jokes aside, when you start stacking Sequences up, she starts dealing some decent damage too!"
+    },
+    "rotations": [
+      {
+        "rotation_name": "STANDARD CONCERTO ROTATION",
+        "steps": [
+          "Basic P3",
+          "Heavy Atk",
+          "Heavy Atk: Zephyr Song",
+          "Ultimate (Use to Cancel Endlag)",
+          "Basic P1",
+          "Heavy Atk",
+          "Heavy Atk: Zephyr Song",
+          "Skill (Use to Cancel Endlag)",
+          "Jump (To Cancel Skill Endlag)",
+          "Mid-Air Atk: Feather Release",
+          "Outro"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "",
+      "order": [
+        "Res. Liberation",
+        "Res. Skill",
+        "Forte Circuit",
+        "Basic Attack",
+        "Intro Skill"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic AttackYangayang performs up to 4 consecutive attacks, dealing Aero DMG.Heavy AttackYangyang consumes Stamina to lunge forward, dealing Aero DMG.Heavy Attack: Zephyr SongUse a Basic Attack after Heavy Attack or Dodge Counter to cast Heave Attack Monsoon to attack the target, dealing Aero DMG.Mid-air AttackYangyang consumes Stamina to perform a Plunging Attack from mid-air, dealing Aero DMG.Dodge CounterUse Basic Attack after a successful Dodge to thrust forward, dealing Aero DMG.",
+        "multipliers": [
+          {
+            "Lv1": "22.50%",
+            "Lv10": "44.73%",
+            "Lv2": "24.34%",
+            "Lv3": "26.18%",
+            "Lv4": "28.77%",
+            "Lv5": "30.61%",
+            "Lv6": "32.73%",
+            "Lv7": "35.69%",
+            "Lv8": "38.64%",
+            "Lv9": "41.59%",
+            "Name": "Part 1 Damage"
+          },
+          {
+            "Lv1": "30.00%",
+            "Lv10": "59.64%",
+            "Lv2": "32.46%",
+            "Lv3": "34.92%",
+            "Lv4": "38.36%",
+            "Lv5": "40.82%",
+            "Lv6": "43.65%",
+            "Lv7": "47.58%",
+            "Lv8": "51.52%",
+            "Lv9": "55.46%",
+            "Name": "Part 2 Damage"
+          },
+          {
+            "Lv1": "23.55%*2",
+            "Lv10": "46.81%*2",
+            "Lv2": "25.48%*2",
+            "Lv3": "27.41%*2",
+            "Lv4": "30.11%*2",
+            "Lv5": "32.04%*2",
+            "Lv6": "34.26%*2",
+            "Lv7": "37.35%*2",
+            "Lv8": "40.44%*2",
+            "Lv9": "43.53%*2",
+            "Name": "Part 3 Damage"
+          },
+          {
+            "Lv1": "29.86%*2+39.81%",
+            "Lv10": "59.36%*2+79.15%",
+            "Lv2": "32.31%*2+43.08%",
+            "Lv3": "34.76%*2+46.34%",
+            "Lv4": "38.19%*2+50.91%",
+            "Lv5": "40.64%*2+54.18%",
+            "Lv6": "43.45%*2+57.93%",
+            "Lv7": "47.37%*2+63.16%",
+            "Lv8": "51.29%*2+68.38%",
+            "Lv9": "55.20%*2+73.60%",
+            "Name": "Part 4 Damage"
+          },
+          {
+            "Lv1": "10.00%*3",
+            "Lv10": "19.88%*3",
+            "Lv2": "10.82%*3",
+            "Lv3": "11.64%*3",
+            "Lv4": "12.78%*3",
+            "Lv5": "13.60%*3",
+            "Lv6": "14.55%*3",
+            "Lv7": "15.86%*3",
+            "Lv8": "17.17%*3",
+            "Lv9": "18.48%*3",
+            "Name": "Heavy Attack Damage"
+          },
+          {
+            "Lv1": "46.50%",
+            "Lv10": "92.44%",
+            "Lv2": "50.31%",
+            "Lv3": "54.12%",
+            "Lv4": "59.46%",
+            "Lv5": "63.27%",
+            "Lv6": "67.66%",
+            "Lv7": "73.76%",
+            "Lv8": "79.86%",
+            "Lv9": "85.96%",
+            "Name": "Mid-Air Attack Damage"
+          },
+          {
+            "Lv1": "53.62%",
+            "Lv10": "106.61%",
+            "Lv2": "58.02%",
+            "Lv3": "62.41%",
+            "Lv4": "68.57%",
+            "Lv5": "72.97%",
+            "Lv6": "78.02%",
+            "Lv7": "85.06%",
+            "Lv8": "92.10%",
+            "Lv9": "99.13%",
+            "Name": "Zephyr Song Damage"
+          },
+          {
+            "Lv1": "43.80%*2",
+            "Lv10": "87.07%*2",
+            "Lv2": "47.39%*2",
+            "Lv3": "50.98%*2",
+            "Lv4": "56.01%*2",
+            "Lv5": "59.60%*2",
+            "Lv6": "63.73%*2",
+            "Lv7": "69.47%*2",
+            "Lv8": "75.22%*2",
+            "Lv9": "80.97%*2",
+            "Name": "Dodge Counter Damage"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Heavy Attack Stamina Consumption"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-Air Attack Stamina Consumption"
+          }
+        ],
+        "name": "Feather as Blade ",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Yangyang wields her sword to create a whirling vortex of winds that gathers nearby enemies to the center, dealing Aero DMG.",
+        "multipliers": [
+          {
+            "Lv1": "17.37%*4+104.22%",
+            "Lv10": "34.53%*4+207.19%",
+            "Lv2": "18.79%*4+112.76%",
+            "Lv3": "20.21%*4+121.31%",
+            "Lv4": "22.21%*4+133.27%",
+            "Lv5": "23.63%*4+141.82%",
+            "Lv6": "25.27%*4+151.65%",
+            "Lv7": "27.55%*4+165.32%",
+            "Lv8": "29.83%*4+178.99%",
+            "Lv9": "32.11%*4+192.67%",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "15",
+            "Lv10": "15",
+            "Lv2": "15",
+            "Lv3": "15",
+            "Lv4": "15",
+            "Lv5": "15",
+            "Lv6": "15",
+            "Lv7": "15",
+            "Lv8": "15",
+            "Lv9": "15",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Zephyr Domain",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Yangyang conjures a mighty Cyclone that gathers nearby enemies, dealing Aero DMG.",
+        "multipliers": [
+          {
+            "Lv1": "23.43%*12+187.46%",
+            "Lv10": "46.58%*12+372.70%",
+            "Lv2": "25.35%*12+202.83%",
+            "Lv3": "27.27%*12+218.21%",
+            "Lv4": "29.96%*12+239.73%",
+            "Lv5": "31.88%*12+255.10%",
+            "Lv6": "34.09%*12+272.78%",
+            "Lv7": "37.17%*12+297.37%",
+            "Lv8": "40.24%*12+321.97%",
+            "Lv9": "43.32%*12+346.56%",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "16",
+            "Lv10": "16",
+            "Lv2": "16",
+            "Lv3": "16",
+            "Lv4": "16",
+            "Lv5": "16",
+            "Lv6": "16",
+            "Lv7": "16",
+            "Lv8": "16",
+            "Lv9": "16",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "100",
+            "Lv10": "100",
+            "Lv2": "100",
+            "Lv3": "100",
+            "Lv4": "100",
+            "Lv5": "100",
+            "Lv6": "100",
+            "Lv7": "100",
+            "Lv8": "100",
+            "Lv9": "100",
+            "Name": "Res. Energy Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Wind Spirals",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Heavy Attack: Stormy StrikeWhen Yangyang has 3 Melodies, she can cast Stormy Strike after Heavy Attack, dealing Aero DMG.Mid-air Attack: Feather ReleaseWhen Yangyang has 3 Melodies, casting Basic Attacks in mid-air will cause her to consume all Melodies, perform consecutive strikes, and dive from mid-air, dealing Aero DMG. As Yangyang lands, she sheathes her sword with an attack, dealing Aero DMG. This attack is considered as Basic Attack.MelodyYangyang can hold up to 3 Melodies\nYangyang obtains 1 Melody with every Basic Attack IV on hit. Yangyang obtains 1 Melody for every Zephyr Song on hit. Yangyang obtains 1 Melody for every Resonance Skill Zephyr Domain on hit. Yangyang obtains 1 Melody upon casting Intro Skill Cerulean Song.",
+        "multipliers": [
+          {
+            "Lv1": "19.12%*2",
+            "Lv10": "38.02%*2",
+            "Lv2": "20.69%*2",
+            "Lv3": "22.26%*2",
+            "Lv4": "24.45%*2",
+            "Lv5": "26.02%*2",
+            "Lv6": "27.82%*2",
+            "Lv7": "30.33%*2",
+            "Lv8": "32.84%*2",
+            "Lv9": "35.35%*2",
+            "Name": "Stormy Strike Damage"
+          },
+          {
+            "Lv1": "10.93%*5+63.78%*2",
+            "Lv10": "21.73%*5+126.81%*2",
+            "Lv2": "11.83%*5+69.01%*2",
+            "Lv3": "12.72%*5+74.24%*2",
+            "Lv4": "13.98%*5+81.57%*2",
+            "Lv5": "14.88%*5+86.80%*2",
+            "Lv6": "15.91%*5+92.81%*2",
+            "Lv7": "17.34%*5+101.18%*2",
+            "Lv8": "18.78%*5+109.55%*2",
+            "Lv9": "20.21%*5+117.92%*2",
+            "Name": "Feather Release Damage"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Feather Release Con. Energy Regen"
+          }
+        ],
+        "name": "Echoing Feathers",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "Yangyang recovers 30 Stamina after she casts a Mid-air Attack Feather Release.",
+        "multipliers": [],
+        "name": "Compassion",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "Yangyang's Aero DMG Bonus is increased by 8% for 8s after casting Intro Skill Cerulean Song.",
+        "multipliers": [],
+        "name": "Lazuline Mercy",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Yangyang sends the target into the air, dealing Aero DMG.",
+        "multipliers": [
+          {
+            "Lv1": "40.00%*2",
+            "Lv10": "79.52%*2",
+            "Lv2": "43.28%*2",
+            "Lv3": "46.56%*2",
+            "Lv4": "51.15%*2",
+            "Lv5": "54.43%*2",
+            "Lv6": "58.20%*2",
+            "Lv7": "63.45%*2",
+            "Lv8": "68.70%*2",
+            "Lv9": "73.94%*2",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Cerulean Song",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Recovers 4 Resonance Energy per second in 5s for the next character (or other characters on a nearby team that activates an Outro Skill).",
+        "multipliers": [],
+        "name": "Whispering Breeze",
+        "skill_type": "Outro Skill"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "carlotta"
+        ],
+        "commentary": "Yangyang is Carlotta's best option after Zhezhi if you aren't willing to quickswap a ton, thanks to her decent personal damage, her really short rotation time, her 20% ATK buff at S6 and her Outro which restores Energy to the incoming character, alleviating build requirements significantly."
+      },
+      {
+        "characters": [
+          "xiangli-yao"
+        ],
+        "commentary": "Similarly to Carlotta, Xiangli Yao appreciates all of Yangyang's buffs and her really short rotation time, however Xiangli Yao's many swap cancel windows not only make her strong in a quickswap playstyle, but straight-up the best non-limited 5 star option if you can manage playing two characters at once. Yangyang falls off quite a bit if you don't quickswap though, so this pair isn't recommended to casual players."
+      },
+      {
+        "characters": [
+          "changli"
+        ],
+        "commentary": "Changli's the quickswap queen, and Yangyang's kit being fully compatible with quickswapping makes the pair quite strong, surprisingly, by virtue alone of dealing the damage of two characters at once. It can clear content with relative ease under that condition, but Yangyang falls off quite a bit if you don't quickswap and isn't worth the use. Therefore, it's not recommended to casual players."
+      },
+      {
+        "characters": [
+          "verina"
+        ],
+        "commentary": "One of the usual Healing Support options that can slot into any team. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Enjoy."
+      },
+      {
+        "characters": [
+          "the-shorekeeper"
+        ],
+        "commentary": "Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game."
+      }
+    ],
     "upgrade_materials": {
-      "character_ascension": [],
-      "skill_upgrades": []
+      "character_ascension": [
+        {
+          "material_name": "Wintry Bell",
+          "quantity": 60,
+          "rarity": "boss"
+        },
+        {
+          "material_name": "Roaring Rock Fist",
+          "quantity": 46,
+          "rarity": "specialty"
+        },
+        {
+          "material_name": "Crude Ring",
+          "quantity": 4,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Basic Ring",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Improved Ring",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Tailored Ring",
+          "quantity": 4,
+          "rarity": "common"
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "Unending Destruction",
+          "quantity": 26,
+          "rarity": "weekly_boss"
+        },
+        {
+          "material_name": "Crude Ring",
+          "quantity": 25,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Basic Ring",
+          "quantity": 28,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Improved Ring",
+          "quantity": 40,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Tailored Ring",
+          "quantity": 57,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Inert Metallic Drip",
+          "quantity": 25,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Reactive Metallic Drip",
+          "quantity": 28,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Polarized Metallic Drip",
+          "quantity": 55,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Heterized Metallic Drip",
+          "quantity": 67,
+          "rarity": "skill_material"
+        }
+      ]
     },
-    "voice_actors": null
+    "voice_actors": {
+      "cn": "Chong Chong",
+      "eng": "Rebecca Yeo",
+      "jpn": "Yui Ishikawa",
+      "kr": "Lee Yu-ri"
+    }
   },
   "status": "success"
 }

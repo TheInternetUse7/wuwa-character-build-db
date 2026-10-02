@@ -1,44 +1,1005 @@
 {
   "data": {
-    "base_stats_lvl_90": null,
-    "best_echo_sets": [],
-    "best_echo_stats": null,
-    "best_weapons": [],
+    "base_stats_lvl_90": {
+      "atk": 0,
+      "crit_dmg": "150%",
+      "crit_rate": "5%",
+      "def": 0,
+      "elemental_dmg_bonus": "0%",
+      "healing_bonus": "0%",
+      "hp": 0,
+      "max_energy": 0
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Grants 10% unconditional Energy Regen on the 2P, a nice boost to ease Energy requirements. However, much more importantly, Havoc Bane appliers gain an extra 20% CRIT Rate and 35% Heavy DMG Bonus on the 5P, granting a very significant increase to Yangyang's stats, making it her perfect DPS set.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Gives 12% Havoc and 12% Heavy DMG Bonus when equipped in the Main Slot. A simple Summon Echo that gives Yangyang the best damage increases for her set.",
+            "echo_name": "Thousand-Puppet Pavilion"
+          }
+        ],
+        "percentage_performance": "100.00%",
+        "set_name": "Song of Feathered Trace"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ],
+        "cost_3": [
+          "Havoc DMG",
+          "ATK% = Havoc DMG"
+        ],
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%  Heavy DMG% ATK"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "Yangyang's Signature weapon provides CRIT Rate and Heavy DMG Amplification/DEF Ignore - since she scales excessively on most other stats, this blend of personal damage increases makes it her best weapon by a landslide.",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "Grants {0} All-Attribute DMG Bonus. After inflicting Havoc Bane, the wielder gains {1} Heavy Attack DMG Amplification and their Heavy Attack DMG ignores {0} of the target's DEF, lasting for 8s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "Crit. Rate",
+          "secondary_stat_val": 24.3,
+          "source": ""
+        },
+        "weapon_name": "Azure Oath"
+      },
+      {
+        "commentary_details": "Provides the same base stats as her Signature, however replaces the passive by a boost to team-wide Echo DMG and Heavy DMG, making it her second best in slot (still behind her Signature even with Phrolova being buffable with this weapon on her team).",
+        "dupe_rank": "R1",
+        "percentage_performance": "87.90%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attack grants 1 stack of Bamboo Cleaver, which grants {1} Heavy Attack DMG Bonus to the wielder. This effect can be triggered by Echoes of the same name once only, stacking up to 2 times, lasting for 12s. Casting Echo Skill at max stacks does not reset the duration. This effect can be triggered once every 10s and ends early if the wielder is switched off the field. Casting Intro Skill grants {2} Echo Skill DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Emerald Sentence"
+      },
+      {
+        "commentary_details": "ATK, DMG Bonus and CRIT Rate stat-stick for Yangyang, who does not benefit from this weapon's Tune Rupture/Fusion Burst-oriented effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "80.70%",
+        "weapon_base_info": {
+          "effect_description": "Increases All-Attribute DMG Bonus by {0}. When inflicting Tune Rupture - Shifting or Fusion Burst, the wielder's Resonance Liberation DMG ignores {1} DEF and {2} Fusion RES on targets for 8s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Everbright Polestar"
+      },
+      {
+        "commentary_details": "Mostly an ATK and CRIT Rate stat-stick for Yangyang, granting her a negligible Basic DMG Bonus increase.",
+        "dupe_rank": "R1",
+        "percentage_performance": "80.50%",
+        "weapon_base_info": {
+          "effect_description": "Increase ATK by {0}. When dealing Basic Attack DMG, the wielder gains {1} Basic Attack DMG Bonus for 14s. This effect can be triggered once per second, stacking up to 3 times. When the wielder's Concerto Energy is consumed, gain {2} Basic DMG Bonus for 10s. This effect can be triggered once per second and ends when the wielder is switched off the field.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Gacha"
+        },
+        "weapon_name": "Red Spring"
+      },
+      {
+        "commentary_details": "ATK and CRIT Rate stat-stick for Yangyang, who does not benefit from this weapon's Glacio Chafe-oriented effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "80.10%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. When the wielder applies Glacio Chafe, Glacio DMG is Amplified by {1}, and Resonance Liberation DMG ignores {2} of the target's DEF. If the wielder is the active Resonator in the team, Glacio Chafe DMG dealt to all targets within a certain range is Amplified by {3} for 6s. This effect can be triggered up to 1 time every 0.1s. Only the strongest effect of the same name applies.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Frostburn"
+      },
+      {
+        "commentary_details": "ATK and CRIT DMG stat-stick for Yangyang, who does not benefit from this weapon's Skill DMG-oriented effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "79.70%",
+        "weapon_base_info": {
+          "effect_description": "ATK increased by {0}. The equipper gains 1 stack of Searing Feather upon dealing damage, which can be triggered once every 0.5s, and gains 5 stacks of the same effect upon casting Resonance Skill. Each stack of Searing Feather gives {1} additional Resonance Skill DMG Bonus for up to 14 stacks. All stacks will be removed within 12s after reaching the max stack.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Gacha"
+        },
+        "weapon_name": "Blazing Brilliance"
+      },
+      {
+        "commentary_details": "Mostly an ATK and CRIT Rate stat-stick for Yangyang, best permanent option that grants a negligible Energy Regen increase (as Yangyang already gets 10% from her Echo set) and a ramp-up ATK bonus when casting Skills. ",
+        "dupe_rank": "R1",
+        "percentage_performance": "79.00%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases ATK by {1}, stacking up to 2 time(s). This effect lasts for 10s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Emerald of Genesis"
+      },
+      {
+        "commentary_details": "Best 4-star option, this Battle Pass exclusive grants Yangyang some Heavy DMG Bonus and a good amount of ATK. Still pales in comparison to any 5-star though.",
+        "dupe_rank": "R5",
+        "percentage_performance": "73.70%",
+        "weapon_base_info": {
+          "effect_description": "When Resonance Skill is released, increases Basic Attack DMG and Heavy Attack DMG by {0}, stacking up to 1 time(s). This effect lasts for 10s and can be triggered 1 time(s) every 1s.",
+          "primary_stat_val": 387,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "Pioneer Podcast"
+        },
+        "weapon_name": "Lumingloss"
+      },
+      {
+        "commentary_details": "Best no-gacha option, granting a lot of ATK to Yangyang but no other stats to speak of.",
+        "dupe_rank": "R5",
+        "percentage_performance": "68.60%",
+        "weapon_base_info": {
+          "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Crafting"
+        },
+        "weapon_name": "Fables of Wisdom"
+      }
+    ],
     "character_metadata": {
       "breadcrumb": [
         "Wuthering Waves",
         "Characters",
         "Yangyang Xuanling"
       ],
-      "element": null,
+      "element": "Havoc",
       "name": "Yangyang Xuanling",
-      "rarity_stars": null,
+      "rarity_stars": 5,
       "slug": "yangyang-xuanling",
       "updates": {
-        "last_major_build_patch": "",
-        "last_profile_update": "",
-        "last_review_patch": "",
-        "last_updated": ""
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "01/October/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "01/October/2026"
       },
-      "weapon_type": null
+      "weapon_type": "Sword"
     },
-    "example_teams": [],
-    "media": null,
-    "minor_fortes": [],
-    "pros_and_cons": null,
-    "ratings": null,
-    "recommended_endgame_stats_target": [],
-    "resonance_chain_dupes": [],
-    "review": null,
-    "rotations": [],
-    "skill_upgrade_priority": null,
-    "skills": [],
-    "synergies": [],
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "yangyang-xuanling"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "chisa"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "suisui"
+        },
+        "team_name": "Best Team",
+        "team_notes": "Have Chisa on Moonlit Clouds for the strongest possible buffing."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "yangyang-xuanling"
+        },
+        "slot_2": {
+          "alternatives": [
+            "rebecca",
+            "iuno",
+            "phrolova"
+          ],
+          "character_name": "lynae"
+        },
+        "slot_3": {
+          "alternatives": [
+            "chisa",
+            "mornye"
+          ],
+          "character_name": "suisui"
+        },
+        "team_name": "Alternative Premium Teams",
+        "team_notes": "Ideally only run Mornye with Lynae on the team, as an alternative to Suisui/Chisa."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "yangyang-xuanling"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "mortefi"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "verina"
+        },
+        "team_name": "F2P Team",
+        "team_notes": ""
+      }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/yangyang-xuanling_full.webp",
+      "youtube_guide_embed_url": "https://www.youtube.com/embed/YIxhsfhw_ic",
+      "youtube_guide_full_url": "https://www.youtube.com/watch?v=YIxhsfhw_ic"
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+8%",
+        "stat_name": "CRIT Rate"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "ATK%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "Self-buffs CRIT stats by so much that Shorekeeper is rendered practically useless, she is hence more limited in premium 3rd slot options than most (Chisa/Suisui, and Mornye specifically with Lynae, are your only upgrade paths from Verina);",
+        "Her performance in Whimpering Wastes is vastly inferior to that of her peers, making her largely a ToA/Matrix-focused DPS instead of an all-rounder, even when optimized through Quickswap."
+      ],
+      "pros": [
+        "Top-tier damage ceiling with a focus on mid-air combat and animations that are generally hard to interrupt;",
+        "Energy Regen requirements are super easy to meet thanks to her set effects and teams with high base Energy generation;",
+        "Has a ton of accessible team compositions, F2P and Premium alike. F2P-friendly while also being improvable for cheap;",
+        "Looks like Selena: Pianissimo from Punishing: Gray Raven (we like Selena: Pianissimo from Punishing: Gray Raven)."
+      ]
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [
+            "Bane"
+          ],
+          "tier": "T0"
+        },
+        "whimpering_wastes": {
+          "tags": [
+            "Bane"
+          ],
+          "tier": "T1"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T0"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T2"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 15500+",
+      "DEF: 1100+",
+      "ATK: 2100-2300+",
+      "CRIT Rate: 65%+ (Before set bonuses)",
+      "CRIT DMG: 255-300%+",
+      "Energy Regen: 107%-119%Lower end estimated with Rebecca+Chisa, higher end estimated with Chisa+Verina. In any case, should be very easy to meet due to her 2P Echo set giving 10% ER already.",
+      "Havoc DMG Bonus: 30-60%+"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "Casting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather summons a Shadow of Xuanling: Unfaltering to attack the target, dealing Havoc DMG equal to 337.98% of Yangyang: Xuanling's ATK. This DMG is considered Heavy Attack DMG.Casting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather Stagnates nearby enemies.Heavy Attack - Azure Sword Stance, Basic Attack - Havoc in Bloom and Dodge Counter - Havoc in Bloom are immune to interruption.",
+        "name": "At the Wind's Breath, the Blossoms Wake",
+        "node": "S1"
+      },
+      {
+        "description": "The DMG dealt by Heavy Attack - Azure Sword Stance, Heavy Attack - Feather Sword Stance, Mid-air Attack - Feather Fall,  Basic Attack - Havoc in Bloom, and Dodge Counter - Havoc in Bloom is increased by 100%.Every time Yangyang: Xuanling remains out of combat for more than 4s after she leaves the combat state or revives, she gains the following effects once:Gain Strung Notes, up to 1 stack. Casting Basic Attack - Azure Sword Stance or Basic Attack - Feather Sword Stance summons Shadow of Xuanling: Strung Notes to attack the target, dealing Havoc DMG equal to 337.98% of Yangyang: Xuanling's ATK, considered Heavy Attack DMG. Strung Notes is removed after Shadow of Xuanling: Strung Notes is summoned.Restore 2 points of Azure Plume.Reset the Cooldown of gaining Bated Breath and Streaming Storm.",
+        "name": "River Carries Her Song Away",
+        "node": "S2"
+      },
+      {
+        "description": "The DMG dealt via Resonance Liberation Hush of a Thousand Voices is Amplified by 175%.After casting Intro Skill - Skybound Feather, Resonance Skill - Sword Stance Flow: Azure, or Resonance Skill - Sword Stance Flow: Feather, increase the maximum Havoc Bane stacks on targets within a certain range by 3, lasting 20s. This effect does not stack.Basic Attack - Azure Sword Stance Stage 4, Basic Attack - Feather Sword Stance Stage 4, Heavy Attack - Azure Sword Stance, and Heavy Attack - Feather Sword Stance inflict 1 additional stack of Havoc Bane on the target.",
+        "name": "My Grief Follows You into the Clouds",
+        "node": "S3"
+      },
+      {
+        "description": "When casting Intro Skill - Skybound Feather, Resonance Skill - Sword Stance Switch: Azure, Resonance Skill - Sword Stance Switch: Feather, Resonance Skill - Sword Stance Flow: Azure, or Resonance Skill - Sword Stance Flow: Feather, the ATK of Resonators in the team is increased by 20% for 20s.",
+        "name": "Across the Miles, a Letter and My Longing",
+        "node": "S4"
+      },
+      {
+        "description": "When Yangyang: Xuanling takes a fatal blow, she will not be downed, but instead recover HP equal to 50% of her Max HP while becoming immune to DMG and interruption for 3s. This effect can be triggered once every 10 min.",
+        "name": "Take Wing. Take Wing.",
+        "node": "S5"
+      },
+      {
+        "description": "After Yangyang: Xuanling inflicts Havoc Bane on a target, gain Voice Flux for 30s. While Voice Flux is active, the Heavy Attack DMG from Yangyang: Xuanling is increased by 40%.Casting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather grants Still as Withered Wood for 30s. While Still as Withered Wood is active, if Yangyang: Xuanling is on the field, then after nearby Resonators in the team inflict Glacio Chafe, Fusion Burst, Electro Flare, Aero Erosion, Spectro Frazzle, or Havoc Bane, Yangyang: Xuanling summons Shadow of Xuanling: Still as Withered Wood to attack the target, dealing Havoc DMG equal to 337.98% of Yangyang: Xuanling's ATK. The DMG of Shadow of Xuanling: Still as Withered Wood is considered Heavy Attack DMG and is guaranteed to be a critical hit.Shadow of Xuanling: Still as Withered Wood can be summoned once every 1s, and Still as Withered Wood expires after it is summoned 5 times. When Still as Withered Wood expires or is removed, reset the available summon charges of Shadow of Xuanling: Still as Withered Wood. Still as Withered Wood has a Cooldown of 25s.",
+        "name": "Let the Azure Keep Its Light",
+        "node": "S6"
+      }
+    ],
+    "review": {
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Yangyang: Xuanling (who we will just shorten to YY:XL throughout this review) is a 5-star Havoc Sword Main DPS character who relies on Havoc Bane and Heavy Attack damage to execute pretty fast & most importantly really strong rotations that will, with enough investment, decimate her enemies, as you'll see she is one of the top DPS characters in the game."
+          ]
+        },
+        {
+          "heading": "Key Mechanics & Rotation",
+          "paragraphs": [
+            "YY:XL applies Havoc Bane constantly with most of the attacks in her rotation, upkeeping max stacks on all enemies at all times (even in multi-wave content) is something she can handle easily. Havoc Bane constantly applies DEF Shred to affected enemies, as well as Havoc DMG Amplification to Yangyang via one of her passives (up to 6 stacks).",
+            "Her rotation relies on switching between Azure and Feather stance. By default, she starts her rotations in Azure stance. She can switch freely between both forms via her Skill, however she can do so using enhanced skills if her Melody Forte gauge is depleted fully (via Perfect Dodges or Basic Attacks). This restores her other Forte resource, Azure Plume, which enhances her Mid-Air Attack and  Azure Heavy Attack. In short, her rotation has her consuming her melody bar once, switching between both of her forms and casting her key attacks consecutively until she switches out.",
+            "YY:XL additionally self-buffs her CRIT DMG throughout her rotation, as executing it will enhance the CRIT DMG of her key attacks by massive amounts (she reaches above 500% total CRIT DMG with a standard build and team, which leads to as bonkers of a damage ceiling as you'd expect).",
+            "Finally, her Outro buffs the Havoc DMG of other Havoc Bane appliers than herself in the team on top of dealing a small amount of damage (right now, only Chisa can use this).",
+            "YY:XL's kit is very wordy but boils down to the self-buffs we detailed above, as well as ensuring that Havoc Bane is constantly applied on enemies up to max stacks at all times, even in multi-wave content, so that's really all we have to say on her kit before we conclude."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "In the meta, YY:XL is a pretty imposing presence, to say the least. The nature of her kit makes her excel in single-target situations - against any boss, you name it, she does it. In spite of her Signature weapon granting her a good increase over Emerald of Genesis, she still winds up one of the most F2P-friendly characters in the game, thanks to one of her best supports, Rebecca, being free, as well as her base damage simply being super high.",
+            "However, YY:XL faces very noticeable issues in multi-wave and AoE content. A lot of her key attacks lack the AoE they would need to deal damage to all enemies in her biggest attacks' range, and a lot of her rotation happening mid-air means she is prone to missing key hits of damage that would be a great help to her multi-wave clearing. Her ability to work with proven AoE powerhouses like Phrolova does not remedy this, but she has access to generally applicable Supports like Lynae, Rebecca or even Mortefi. This makes her a powerhouse with a major flaw. Perfection in one gamemode comes at a cost in the other.",
+            "Overall, she is one of the most meta releases, but won't help you too much in Whimpering Wastes. While she still clears the content, is F2P-friendly, and has one of the highest ceilings for scoring in bossing content, her AoE abilities inevitably fall behind, particularly in multi-wave where she is prone to overkilling enemies or lacking the AoE to deal with everybody at once.",
+            "In conclusion, YY:XL is one of the best DPS characters in Wuthering Waves overall. While she lacks the tools to deal with multi-wave content as well as her peers, it is beyond the shadow of a doubt that she is one of the most meta DPS for bossing content currently, being the best by a long shot when fully optimized too. No matter how you put it, as one of the most meta releases to date, YY:XL basically cannot disappoint on practically any Wuthering Waves account. As long as you're wary of her shortcomings and can work around them, she will be an excellent pickup for your account."
+          ]
+        }
+      ],
+      "summary": "Yangyang: Xuanling (who we will just shorten to YY:XL throughout this review) is a 5-star Havoc Sword Main DPS character who relies on Havoc Bane and Heavy Attack damage to execute pretty fast & most importantly really strong rotations that will, with enough investment, decimate her enemies, as you'll see she is one of the top DPS characters in the game."
+    },
+    "rotations": [
+      {
+        "rotation_name": "Standard Rotation",
+        "steps": [
+          "Intro",
+          "Basic: Azure 1",
+          "Basic: Azure 2",
+          "Basic: Azure 3",
+          "Basic: Azure 4",
+          "Skill (Switch to Feather stance)",
+          "Heavy: Feather",
+          "Basic: Mid-air Attack: Feather Fall",
+          "Basic: Havoc in Bloom 1",
+          "Basic: Havoc in Bloom 2",
+          "Basic: Havoc in Bloom 3 (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Skill (Switch to Azure stance)",
+          "Heavy: Azure",
+          "Outro"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "Skill can be completely skipped as it is useless to yangyang-xuanling's practical rotation. Basic and Intro can be skipped when levelling to save on resources at a minimal damage loss.",
+      "order": [
+        "Forte Circuit",
+        "Res. Liberation",
+        "Basic Attack",
+        "Intro Skill",
+        "Res. Skill"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic Attack - Azure Sword StancePress Normal Attack repeatedly or hold it down to consume Melody and perform up to 4 consecutive attacks, dealing Havoc DMG. While Melody is not depleted, the Energy Regen is increased by 20% when Basic Attack - Azure Sword Stance deals damage.Basic Attack - Azure Sword Stance Stage 4 applies 1 stack of Havoc Bane to the targets hit.Basic Attack - Feather Sword StancePress Normal Attack repeatedly or hold it down to consume Melody and perform up to 4 consecutive attacks, dealing Havoc DMG. While Melody is not depleted, the Energy Regen is increased by 20% when Basic Attack - Feather Sword Stance deals damage.Basic Attack - Feather Sword Stance Stage 4 applies 1 stack of Havoc Bane to the targets hit.Mid-air Attack - Azure Sword StanceConsume STA to perform a Plunging Attack, consuming Melody and dealing Havoc DMG.Pressing Normal Attack within a short time after casting this skill triggers Basic Attack - Azure Sword Stance Stage 2.Mid-air Attack - Feather Sword StanceConsume STA to perform a Plunging Attack, consuming Melody and dealing Havoc DMG.Pressing Normal Attack within a short time after casting this skill triggers Basic Attack - Feather Sword Stance Stage 2.Dodge Counter - Azure Sword StancePressing Normal Attack within a short time after a successful Dodge consumes Melody to attack the target, dealing Havoc DMG.Pressing Normal Attack within a short time after casting this skill triggers Basic Attack - Azure Sword Stance Stage 3.Casting Dodge Counter - Azure Sword Stance counts as casting Basic Attack - Azure Sword Stance Stage 2.Dodge Counter - Feather Sword StancePressing Normal Attack within a short time after a successful Dodge consumes Melody to attack the target, dealing Havoc DMG.Pressing Normal Attack within a short time after casting this skill triggers Basic Attack - Feather Sword Stance Stage 3.Casting Dodge Counter - Feather Sword Stance counts as casting Basic Attack - Feather Sword Stance Stage 2.",
+        "multipliers": [
+          {
+            "Lv1": "24.00%",
+            "Lv10": "47.72%",
+            "Lv2": "25.97%",
+            "Lv3": "27.94%",
+            "Lv4": "30.70%",
+            "Lv5": "32.66%",
+            "Lv6": "34.93%",
+            "Lv7": "38.08%",
+            "Lv8": "41.22%",
+            "Lv9": "44.37%",
+            "Name": "Basic Attack - Azure Sword Stance Stage 1 DMG"
+          },
+          {
+            "Lv1": "10.13%+10.13%+30.39%",
+            "Lv10": "20.14%+20.14%+60.41%",
+            "Lv2": "10.96%+10.96%+32.88%",
+            "Lv3": "11.79%+11.79%+35.37%",
+            "Lv4": "12.96%+12.96%+38.86%",
+            "Lv5": "13.79%+13.79%+41.35%",
+            "Lv6": "14.74%+14.74%+44.22%",
+            "Lv7": "16.07%+16.07%+48.20%",
+            "Lv8": "17.40%+17.40%+52.19%",
+            "Lv9": "18.73%+18.73%+56.18%",
+            "Name": "Basic Attack - Azure Sword Stance Stage 2 DMG"
+          },
+          {
+            "Lv1": "15.20%+35.45%",
+            "Lv10": "30.21%+70.48%",
+            "Lv2": "16.44%+38.36%",
+            "Lv3": "17.69%+41.27%",
+            "Lv4": "19.43%+45.34%",
+            "Lv5": "20.68%+48.24%",
+            "Lv6": "22.11%+51.59%",
+            "Lv7": "24.10%+56.24%",
+            "Lv8": "26.10%+60.89%",
+            "Lv9": "28.09%+65.54%",
+            "Name": "Basic Attack - Azure Sword Stance Stage 3 DMG"
+          },
+          {
+            "Lv1": "9.34%+9.34%+74.69%",
+            "Lv10": "18.57%+18.57%+148.49%",
+            "Lv2": "10.11%+10.11%+80.82%",
+            "Lv3": "10.87%+10.87%+86.94%",
+            "Lv4": "11.94%+11.94%+95.52%",
+            "Lv5": "12.71%+12.71%+101.64%",
+            "Lv6": "13.59%+13.59%+108.68%",
+            "Lv7": "14.81%+14.81%+118.48%",
+            "Lv8": "16.04%+16.04%+128.28%",
+            "Lv9": "17.26%+17.26%+138.08%",
+            "Name": "Basic Attack - Azure Sword Stance Stage 4 DMG"
+          },
+          {
+            "Lv1": "20.00%+20.00%",
+            "Lv10": "39.77%+39.77%",
+            "Lv2": "21.64%+21.64%",
+            "Lv3": "23.28%+23.28%",
+            "Lv4": "25.58%+25.58%",
+            "Lv5": "27.22%+27.22%",
+            "Lv6": "29.11%+29.11%",
+            "Lv7": "31.73%+31.73%",
+            "Lv8": "34.35%+34.35%",
+            "Lv9": "36.98%+36.98%",
+            "Name": "Basic Attack - Feather Sword Stance Stage 1 DMG"
+          },
+          {
+            "Lv1": "16.88%*3",
+            "Lv10": "33.56%*3",
+            "Lv2": "18.27%*3",
+            "Lv3": "19.65%*3",
+            "Lv4": "21.59%*3",
+            "Lv5": "22.98%*3",
+            "Lv6": "24.57%*3",
+            "Lv7": "26.78%*3",
+            "Lv8": "29.00%*3",
+            "Lv9": "31.21%*3",
+            "Name": "Basic Attack - Feather Sword Stance Stage 2 DMG"
+          },
+          {
+            "Lv1": "7.48%+3.74%*3+18.68%",
+            "Lv10": "14.86%+7.43%*3+37.14%",
+            "Lv2": "8.09%+4.05%*3+20.22%",
+            "Lv3": "8.70%+4.35%*3+21.75%",
+            "Lv4": "9.56%+4.78%*3+23.89%",
+            "Lv5": "10.17%+5.09%*3+25.42%",
+            "Lv6": "10.88%+5.44%*3+27.19%",
+            "Lv7": "11.86%+5.93%*3+29.64%",
+            "Lv8": "12.84%+6.42%*3+32.09%",
+            "Lv9": "13.82%+6.91%*3+34.54%",
+            "Name": "Basic Attack - Feather Sword Stance Stage 3 DMG"
+          },
+          {
+            "Lv1": "36.00%+36.00%+48.00%",
+            "Lv10": "71.58%+71.58%+95.43%",
+            "Lv2": "38.96%+38.96%+51.94%",
+            "Lv3": "41.91%+41.91%+55.88%",
+            "Lv4": "46.04%+46.04%+61.39%",
+            "Lv5": "48.99%+48.99%+65.32%",
+            "Lv6": "52.39%+52.39%+69.85%",
+            "Lv7": "57.11%+57.11%+76.15%",
+            "Lv8": "61.83%+61.83%+82.44%",
+            "Lv9": "66.56%+66.56%+88.74%",
+            "Name": "Basic Attack - Feather Sword Stance Stage 4 DMG"
+          },
+          {
+            "Lv1": "49.60%",
+            "Lv10": "98.61%",
+            "Lv2": "53.67%",
+            "Lv3": "57.74%",
+            "Lv4": "63.43%",
+            "Lv5": "67.50%",
+            "Lv6": "72.18%",
+            "Lv7": "78.69%",
+            "Lv8": "85.19%",
+            "Lv9": "91.70%",
+            "Name": "Mid-air Attack - Azure Sword Stance DMG"
+          },
+          {
+            "Lv1": "49.60%",
+            "Lv10": "98.61%",
+            "Lv2": "53.67%",
+            "Lv3": "57.74%",
+            "Lv4": "63.43%",
+            "Lv5": "67.50%",
+            "Lv6": "72.18%",
+            "Lv7": "78.69%",
+            "Lv8": "85.19%",
+            "Lv9": "91.70%",
+            "Name": "Mid-air Attack - Feather Sword Stance DMG"
+          },
+          {
+            "Lv1": "19.73%+19.73%+59.19%",
+            "Lv10": "39.23%+39.23%+117.67%",
+            "Lv2": "21.35%+21.35%+64.04%",
+            "Lv3": "22.97%+22.97%+68.90%",
+            "Lv4": "25.23%+25.23%+75.69%",
+            "Lv5": "26.85%+26.85%+80.54%",
+            "Lv6": "28.71%+28.71%+86.12%",
+            "Lv7": "31.30%+31.30%+93.89%",
+            "Lv8": "33.89%+33.89%+101.65%",
+            "Lv9": "36.48%+36.48%+109.42%",
+            "Name": "Dodge Counter - Azure Sword Stance DMG"
+          },
+          {
+            "Lv1": "32.88%*3",
+            "Lv10": "65.37%*3",
+            "Lv2": "35.58%*3",
+            "Lv3": "38.28%*3",
+            "Lv4": "42.05%*3",
+            "Lv5": "44.75%*3",
+            "Lv6": "47.85%*3",
+            "Lv7": "52.16%*3",
+            "Lv8": "56.48%*3",
+            "Lv9": "60.79%*3",
+            "Name": "Dodge Counter - Feather Sword Stance DMG"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-air Attack - Azure Sword Stance STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-air Attack - Feather Sword Stance STA Cost"
+          }
+        ],
+        "name": "Succor and Smite",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Sword Stance SwitchWhile in Azure Sword Stance, press Resonance Skill to switch to Feather Sword Stance and perform Basic Attack - Feather Sword Stance Stage 1, dealing Havoc DMG.While in Feather Sword Stance, press Resonance Skill to switch to Azure Sword Stance and perform Basic Attack - Azure Sword Stance Stage 1, dealing Havoc DMG.Sword Stance Switch: AzurePress Resonance Skill within a short time after casting Basic Attack - Feather Sword Stance to switch to Azure Sword Stance and cast Sword Stance Switch: Azure, dealing Havoc DMG, considered Heavy Attack DMG.A successful Dodge can be triggered within a short time into the action of this skill, which consumes 50 Melody.After casting this skill, the Basic Attack cycle will not reset for a short time.Sword Stance Switch: FeatherPress Resonance Skill within a short time after casting Basic Attack - Azure Sword Stance to switch to Feather Sword Stance and cast Sword Stance Switch: Feather, dealing Havoc DMG, considered Heavy Attack DMG.A successful Dodge can be triggered within a short time into the action of this skill, which consumes 50 Melody.After casting this skill, the Basic Attack cycle will not reset for a short time.",
+        "multipliers": [
+          {
+            "Lv1": "35.19%+7.82%*3",
+            "Lv10": "69.95%+15.55%*3",
+            "Lv2": "38.07%+8.46%*3",
+            "Lv3": "40.96%+9.11%*3",
+            "Lv4": "45.00%+10.00%*3",
+            "Lv5": "47.88%+10.64%*3",
+            "Lv6": "51.20%+11.38%*3",
+            "Lv7": "55.82%+12.41%*3",
+            "Lv8": "60.43%+13.43%*3",
+            "Lv9": "65.05%+14.46%*3",
+            "Name": "Sword Stance Switch: Azure DMG"
+          },
+          {
+            "Lv1": "16.88%*3",
+            "Lv10": "33.56%*3",
+            "Lv2": "18.27%*3",
+            "Lv3": "19.65%*3",
+            "Lv4": "21.59%*3",
+            "Lv5": "22.98%*3",
+            "Lv6": "24.57%*3",
+            "Lv7": "26.78%*3",
+            "Lv8": "29.00%*3",
+            "Lv9": "31.21%*3",
+            "Name": "Sword Stance Switch: Feather DMG"
+          }
+        ],
+        "name": "Feather's Edge",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Hush of a Thousand VoicesConsume all Melody to deal Havoc DMG and restore 1 point of Azure Plume. This DMG is considered Heavy Attack DMG.Upon casting this skill, obtain Voice upon Voice. When casting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather, summon Shadow of Xuanling to attack the target, dealing Havoc DMG, considered Heavy Attack DMG.Voice upon Voice cannot stack. Once Shadow of Xuanling is summoned, the Voice upon Voice state is removed.",
+        "multipliers": [
+          {
+            "Lv1": "1000.00%",
+            "Lv10": "1988.10%",
+            "Lv2": "1082.00%",
+            "Lv3": "1164.00%",
+            "Lv4": "1278.80%",
+            "Lv5": "1360.80%",
+            "Lv6": "1455.10%",
+            "Lv7": "1586.30%",
+            "Lv8": "1717.50%",
+            "Lv9": "1848.70%",
+            "Name": "Hush of a Thousand Voices DMG"
+          },
+          {
+            "Lv1": "170.00%",
+            "Lv10": "337.98%",
+            "Lv2": "183.94%",
+            "Lv3": "197.88%",
+            "Lv4": "217.40%",
+            "Lv5": "231.34%",
+            "Lv6": "247.37%",
+            "Lv7": "269.68%",
+            "Lv8": "291.98%",
+            "Lv9": "314.28%",
+            "Name": "Shadow of Xuanling DMG"
+          },
+          {
+            "Lv1": "125",
+            "Lv10": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Name": "Hush of a Thousand Voices Resonance Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Hush of a Thousand Voices Concerto Regen"
+          },
+          {
+            "Lv1": "25s",
+            "Lv10": "25s",
+            "Lv2": "25s",
+            "Lv3": "25s",
+            "Lv4": "25s",
+            "Lv5": "25s",
+            "Lv6": "25s",
+            "Lv7": "25s",
+            "Lv8": "25s",
+            "Lv9": "25s",
+            "Name": "Hush of a Thousand Voices Cooldown"
+          }
+        ],
+        "name": "Hush of a Thousand Voices",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Resonance Skill - Sword Stance Flow: AzureYangyang: Xuanling is in Azure Sword Stance by default. When Melody is depleted while in Feather Sword Stance, Resonance Skill - Feather's Edge is replaced by Resonance Skill - Sword Stance Flow: Azure.Press Resonance Skill to switch to  Azure Sword Stance and cast Resonance Skill - Sword Stance Flow: Azure, dealing Havoc DMG and restoring 100 points of Melody and 1 point of Azure Plume. This instance of DMG is considered Heavy Attack DMG.When Resonance Skill - Sword Stance Flow: Azure hits the target, consume 1 stack of Havoc Bane on the target.The Basic Attack - Feather Sword Stance cycle is not reset within a short time after casting Resonance Skill - Sword Stance Flow: Azure. If casting Resonance Skill - Sword Stance Flow: Azure resets the cycle, summon a Wraith of Sound to finish the current attack and deal a fixed instance of Havoc DMG, considered Basic Attack DMG, which is not affected by any DMG Bonus effects and does not inflict Havoc Bane.Successful Dodge can be triggered within a short time into the action of this skill, which consumes 50 points of Melody.Resonance Skill - Sword Stance Flow: FeatherWhen Melody is depleted while in Azure Sword Stance, Resonance Skill - Feather's Edge is replaced by Resonance Skill - Sword Stance Flow: Feather.Press Resonance Skill to switch to Feather Sword Stance and cast Resonance Skill - Sword Stance Flow: Feather, dealing Havoc DMG and restoring 100 points of Melody and 1 point of Azure Plume. This instance of DMG is considered Heavy Attack DMG.When Resonance Skill - Sword Stance Flow: Feather hits, consume 1 stack of Havoc Bane on the target.The Basic Attack - Azure Sword Stance cycle is not reset within a short time after casting Resonance Skill - Sword Stance Flow: Feather. If casting Resonance Skill - Sword Stance Flow: Feather resets the cycle, summon a Wraith of Sound to finish the current attack and deal a fixed instance of Havoc DMG, considered Basic Attack DMG, which is not affected by any DMG Bonus effects and does not inflict Havoc Bane.Successful Dodge can be triggered within a short time into the action of this skill, which consumes 50 points of Melody.Heavy Attack - Azure Sword StanceWhen Azure Plume is restored to its maximum while in Azure Sword Stance, hold Normal Attack to consume STA and all Azure Plume to cast Heavy Attack - Azure Sword Stance, generating a massive cyclone that strikes the area in front, dealing Havoc DMG, considered Heavy Attack DMG.When casting Heavy Attack - Azure Sword Stance, gain Bated Breath: If Yangyang: Xuanling is the active Resonator in the field, the Crit. DMG of this Heavy Attack - Azure Sword Stance increases by 160%. When Heavy Attack - Azure Sword Stance ends, Bated Breath is removed. Bated Breath can be gained up to once every 25s.Heavy Attack - Azure Sword Stance applies 2 stacks of Havoc Bane to the targets hit.Heavy Attack - Feather Sword StanceWhen Azure Plume is restored to its maximum while in Feather Sword Stance, if Yangyang: Xuanling is on the ground and not in a Basic Attack - Havoc in Bloom cycle, hold Normal Attack to consume STA and cast Heavy Attack - Feather Sword Stance, dealing Havoc DMG. After it hits a target, Mid-air Attack - Feather Fall is automatically cast.When casting Heavy Attack - Feather Sword Stance, gain Streaming Storm, which lasts 15s. While Yangyang: Xuanling is the active Resonator in the team, the Crit. DMG of this Heavy Attack - Feather Sword Stance or the next Mid-air Attack - Feather Fall, Basic Attack - Havoc in Bloom, or Dodge Counter - Havoc in Bloom is increased by 160%. Streaming Storm is removed when Basic Attack - Havoc in Bloom Stage 3 or Dodge Counter - Havoc in Bloom Stage 3 ends. Streaming Storm can be gained up to once every 25s.Heavy Attack - Feather Sword Stance applies 2 stacks of Havoc Bane to the targets hit.Mid-air Attack - Feather FallWhen Azure Plume is restored to its maximum while in Feather Sword Stance and airborne,  Mid-air Attack - Feather Sword Stance is replaced by Mid-air Attack - Feather Fall.Press or hold Normal Attack to consume STA and all Azure Plume to cast Mid-air Attack - Feather Fall, dealing Havoc DMG. Casting Mid-air Attack - Feather Fall enters Hark the Wind for 12s.Hark the WindWhile in Feather Sword Stance, Basic Attack - Feather Sword Stance is replaced by Basic Attack - Havoc in Bloom, which performs up to 3 consecutive attacks, dealing Havoc DMG, considered Heavy Attack DMG.Basic Attack - Havoc in Bloom Stage 2 and Stage 3 can be cast in mid-air close to the ground. Casting Stage 3 ends Basic Attack - Havoc in Bloom. This attack cycle cannot be reset.During Hark the Wind, a Dodge Counter counts towards the Basic Attack - Havoc in Bloom cycle.Feathered OathWhen nearby Resonators in the team inflict Havoc Bane on a target, Yangyang: Xuanling gains 1 stack of Feathered Oath for 4s. Feathered Oath can be gained once every 1s, stacking up to 6 times. While Yangyang: Xuanling is the active Resonator in the team, each stack increases the Crit. DMG of Heavy Attack - Azure Sword Stance, Heavy Attack - Feather Sword Stance, Mid-air Attack - Feather Fall, Basic Attack - Havoc in Bloom, and Dodge Counter - Havoc in Bloom by 25%, up to 150%.RefrainBefore Yangyang: Xuanling's Basic Attack - Azure Sword Stance Stage 4, Basic Attack - Feather Sword Stance Stage 4, Heavy Attack - Azure Sword Stance, or Heavy Attack - Feather Sword Stance hits a target, record and propagate the highest stack count of Havoc Bane on targets within a certain range to all targets within range.MelodyMelody has a maximum of 100 points.Casting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather restores 100 points of Melody.Casting Resonance Liberation Hush of a Thousand Voices consumes all Melody.Normal Attacks consumes Melody upon dealing damage.Successful Dodge can be triggered during the action of Resonance Skill - Sword Stance Switch: Azure, Resonance Skill - Sword Stance Switch: Feather, Resonance Skill - Sword Stance Flow: Azure, or Resonance Skill - Sword Stance Flow: Feather within a certain time of casting these skills, which consumes 50 points of Melody.Azure PlumeAzure Plume has a maximum of 2 points.Casting Resonance Skill - Sword Stance Flow: Azure,  Resonance Skill - Sword Stance Flow: Feather, or Intro Skill - Skybound Feather restores 1 points of Azure Plume.Casting Resonance Liberation - Hush of a Thousand Voices restores 1 point of Azure Plume.Casting Heavy Attack - Azure Sword Stance or Mid-air Attack - Feather Fall consumes all Azure Plume.",
+        "multipliers": [
+          {
+            "Lv1": "35.19%+7.82%*3",
+            "Lv10": "69.95%+15.55%*3",
+            "Lv2": "38.07%+8.46%*3",
+            "Lv3": "40.96%+9.11%*3",
+            "Lv4": "45.00%+10.00%*3",
+            "Lv5": "47.88%+10.64%*3",
+            "Lv6": "51.20%+11.38%*3",
+            "Lv7": "55.82%+12.41%*3",
+            "Lv8": "60.43%+13.43%*3",
+            "Lv9": "65.05%+14.46%*3",
+            "Name": "Resonance Skill - Sword Stance Flow: Azure DMG"
+          },
+          {
+            "Lv1": "16.88%*3",
+            "Lv10": "33.56%*3",
+            "Lv2": "18.27%*3",
+            "Lv3": "19.65%*3",
+            "Lv4": "21.59%*3",
+            "Lv5": "22.98%*3",
+            "Lv6": "24.57%*3",
+            "Lv7": "26.78%*3",
+            "Lv8": "29.00%*3",
+            "Lv9": "31.21%*3",
+            "Name": "Resonance Skill - Sword Stance Flow: Feather DMG"
+          },
+          {
+            "Lv1": "67.99%+67.99%+90.65%",
+            "Lv10": "135.16%+135.16%+180.21%",
+            "Lv2": "73.56%+73.56%+98.08%",
+            "Lv3": "79.14%+79.14%+105.51%",
+            "Lv4": "86.94%+86.94%+115.92%",
+            "Lv5": "92.52%+92.52%+123.35%",
+            "Lv6": "98.93%+98.93%+131.90%",
+            "Lv7": "107.85%+107.85%+143.79%",
+            "Lv8": "116.77%+116.77%+155.69%",
+            "Lv9": "125.69%+125.69%+167.58%",
+            "Name": "Heavy Attack - Azure Sword Stance DMG"
+          },
+          {
+            "Lv1": "10.92%+98.26%",
+            "Lv10": "21.71%+195.34%",
+            "Lv2": "11.82%+106.31%",
+            "Lv3": "12.71%+114.37%",
+            "Lv4": "13.97%+125.65%",
+            "Lv5": "14.86%+133.71%",
+            "Lv6": "15.89%+142.97%",
+            "Lv7": "17.32%+155.86%",
+            "Lv8": "18.75%+168.75%",
+            "Lv9": "20.19%+181.65%",
+            "Name": "Heavy Attack - Feather Sword Stance DMG"
+          },
+          {
+            "Lv1": "7.44%*3+33.48%",
+            "Lv10": "14.80%*3+66.57%",
+            "Lv2": "8.06%*3+36.23%",
+            "Lv3": "8.67%*3+38.98%",
+            "Lv4": "9.52%*3+42.82%",
+            "Lv5": "10.13%*3+45.56%",
+            "Lv6": "10.83%*3+48.72%",
+            "Lv7": "11.81%*3+53.11%",
+            "Lv8": "12.78%*3+57.51%",
+            "Lv9": "13.76%*3+61.90%",
+            "Name": "Mid-air Attack - Feather Sword Stance: Feather Fall DMG"
+          },
+          {
+            "Lv1": "20.01%*3",
+            "Lv10": "39.79%*3",
+            "Lv2": "21.66%*3",
+            "Lv3": "23.30%*3",
+            "Lv4": "25.59%*3",
+            "Lv5": "27.23%*3",
+            "Lv6": "29.12%*3",
+            "Lv7": "31.75%*3",
+            "Lv8": "34.37%*3",
+            "Lv9": "37.00%*3",
+            "Name": "Basic Attack - Havoc in Bloom Stage 1 DMG"
+          },
+          {
+            "Lv1": "44.90%+33.67%+33.67%",
+            "Lv10": "89.25%+66.94%+66.94%",
+            "Lv2": "48.58%+36.43%+36.43%",
+            "Lv3": "52.26%+39.20%+39.20%",
+            "Lv4": "57.41%+43.06%+43.06%",
+            "Lv5": "61.09%+45.82%+45.82%",
+            "Lv6": "65.33%+49.00%+49.00%",
+            "Lv7": "71.22%+53.41%+53.41%",
+            "Lv8": "77.11%+57.83%+57.83%",
+            "Lv9": "83.00%+62.25%+62.25%",
+            "Name": "Basic Attack - Havoc in Bloom Stage 2 DMG"
+          },
+          {
+            "Lv1": "12.06%*5+140.68%",
+            "Lv10": "23.98%*5+279.69%",
+            "Lv2": "13.05%*5+152.22%",
+            "Lv3": "14.04%*5+163.76%",
+            "Lv4": "15.43%*5+179.91%",
+            "Lv5": "16.41%*5+191.44%",
+            "Lv6": "17.55%*5+204.71%",
+            "Lv7": "19.13%*5+223.16%",
+            "Lv8": "20.71%*5+241.62%",
+            "Lv9": "22.30%*5+260.08%",
+            "Name": "Basic Attack - Havoc in Bloom Stage 3 DMG"
+          },
+          {
+            "Lv1": "20.01%*3",
+            "Lv10": "39.79%*3",
+            "Lv2": "21.66%*3",
+            "Lv3": "23.30%*3",
+            "Lv4": "25.59%*3",
+            "Lv5": "27.23%*3",
+            "Lv6": "29.12%*3",
+            "Lv7": "31.75%*3",
+            "Lv8": "34.37%*3",
+            "Lv9": "37.00%*3",
+            "Name": "Dodge Counter - Havoc in Bloom Stage 1 DMG"
+          },
+          {
+            "Lv1": "44.90%+33.67%+33.67%",
+            "Lv10": "89.25%+66.94%+66.94%",
+            "Lv2": "48.58%+36.43%+36.43%",
+            "Lv3": "52.26%+39.20%+39.20%",
+            "Lv4": "57.41%+43.06%+43.06%",
+            "Lv5": "61.09%+45.82%+45.82%",
+            "Lv6": "65.33%+49.00%+49.00%",
+            "Lv7": "71.22%+53.41%+53.41%",
+            "Lv8": "77.11%+57.83%+57.83%",
+            "Lv9": "83.00%+62.25%+62.25%",
+            "Name": "Dodge Counter - Havoc in Bloom Stage 2 DMG"
+          },
+          {
+            "Lv1": "12.06%*5+140.68%",
+            "Lv10": "23.98%*5+279.69%",
+            "Lv2": "13.05%*5+152.22%",
+            "Lv3": "14.04%*5+163.76%",
+            "Lv4": "15.43%*5+179.91%",
+            "Lv5": "16.41%*5+191.44%",
+            "Lv6": "17.55%*5+204.71%",
+            "Lv7": "19.13%*5+223.16%",
+            "Lv8": "20.71%*5+241.62%",
+            "Lv9": "22.30%*5+260.08%",
+            "Name": "Dodge Counter - Havoc in Bloom Stage 3 DMG"
+          },
+          {
+            "Lv1": "523",
+            "Lv10": "523",
+            "Lv2": "523",
+            "Lv3": "523",
+            "Lv4": "523",
+            "Lv5": "523",
+            "Lv6": "523",
+            "Lv7": "523",
+            "Lv8": "523",
+            "Lv9": "523",
+            "Name": "Wraith of Sound DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Heavy Attack - Azure Sword Stance STA Cost"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Heavy Attack - Feather Sword Stance STA Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Mid-air Attack - Feather Sword Stance: Feather Fall STA Cost"
+          }
+        ],
+        "name": "The Way of Ten Thousand Voices",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "When a target has 1 to 3 stacks of Havoc Bane, each stack of Havoc Bane Amplifies the DMG from Yangyang: Xuanling by 10%, up to 30%.When a target has 4 to 6 stacks of Havoc Bane, each stack of Havoc Bane Amplifies the DMG from Yangyang: Xuanling by 12%, up to 36%.",
+        "multipliers": [],
+        "name": "Unbroken Vow",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "Resonance Liberation Hush of a Thousand Voices raises the Havoc Bane stacks on the targets to the maximum on hit.When nearby Resonators in the team inflict Havoc Bane, Yangyang: Xuanling gains 1 stack of Windbound. Windbound can be gained once every 1s, stacking up to 6 times.When Windbound reaches 6 stacks, Yangyang: Xuanling removes all Windbound and gains One with the Wind.While One with the Wind lasts, when Yangyang: Xuanling casts Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather, she summons Feather Release: Xuanling to attack the target, applying 6 stacks of Havoc Bane to the target. Windbound cannot be obtained while One with the Wind lasts.Once Feather Release: Xuanling is summoned, the One with the Wind state is removed.",
+        "multipliers": [],
+        "name": "One Life, One Blade",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Deal Havoc DMG and restore 1 point of Azure Plume.When Intro Skill - Skybound Feather deals damage, it applies 1 stack of Havoc Bane on the target.",
+        "multipliers": [
+          {
+            "Lv1": "58.64%",
+            "Lv10": "116.59%",
+            "Lv2": "63.45%",
+            "Lv3": "68.26%",
+            "Lv4": "74.99%",
+            "Lv5": "79.80%",
+            "Lv6": "85.33%",
+            "Lv7": "93.03%",
+            "Lv8": "100.72%",
+            "Lv9": "108.41%",
+            "Name": "Skybound Feather DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Skybound Feather Concerto Regen"
+          }
+        ],
+        "name": "Skybound Feather",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Attacks the target, dealing Havoc DMG equal to 300% of Yangyang: Xuanling's ATK.All Resonators in the team other than Yangyang: Xuanling gains Tonal Switch for 20s. After a Resonator with Tonal Switch inflicts Havoc Bane, that Resonator's Havoc DMG is Amplified by 20%.This effect is reset upon casting this skill again.",
+        "multipliers": [],
+        "name": "As the Wind Wills",
+        "skill_type": "Outro Skill"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.",
+        "multipliers": [],
+        "name": "Tune Break - Sword",
+        "skill_type": "Forte Circuit"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "chisa",
+          "suisui"
+        ],
+        "commentary": "Yangyang's best partners are Chisa for general Negative Status buffing, the ability to apply Havoc Bane, and increase its max stacks, providing a ton of buffs; and Suisui who has some of the best buffs for Havoc Bane consumers like Yangyang: Xuanling in the game as well. Chisa is great either as a 2nd slot with both Suisui and Yangyang, making for the best possible team Yangyang has, or as a 3rd slot with Heavy Attack Outro buffers for example. Meanwhile, Suisui always acts as the strongest 3rd slot available to Yangyang by sheer buffing amount."
+      },
+      {
+        "characters": [
+          "rebecca",
+          "lynae",
+          "phrolova",
+          "iuno",
+          "mortefi"
+        ],
+        "commentary": "Heavy Attack Outro buffers work well with Yangyang: Xuanling, and Lynae also has a rotation with strong general buffs and high personal damage which makes for a great choice as well. Overall, these picks are not far off Yangyang's best teams, as a matter of fact Phrolova is a fantastic Dual DPS pick making for Yangyang's best Whimpering Wastes teams, while Rebecca+Suisui is shockingly close to Chisa+Suisui in strength, and the other buffers make for good alternatives if other teammates aren't available."
+      },
+      {
+        "characters": [
+          "mornye",
+          "verina"
+        ],
+        "commentary": "Decent 3rd slot options if Chisa or Suisui aren't available. Verina is the generalist go-to when in a pinch for good Support picks while Mornye works great with Lynae."
+      }
+    ],
     "upgrade_materials": {
       "character_ascension": [],
       "skill_upgrades": []
     },
-    "voice_actors": null
+    "voice_actors": {
+      "cn": "",
+      "eng": "",
+      "jpn": "",
+      "kr": ""
+    }
   },
   "status": "success"
 }

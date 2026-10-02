@@ -1,44 +1,1072 @@
 {
   "data": {
-    "base_stats_lvl_90": null,
-    "best_echo_sets": [],
-    "best_echo_stats": null,
-    "best_weapons": [],
+    "base_stats_lvl_90": {
+      "atk": 37,
+      "crit_dmg": "150%",
+      "crit_rate": "13%",
+      "def": 90,
+      "elemental_dmg_bonus": "0%",
+      "healing_bonus": "0%",
+      "hp": 831,
+      "max_energy": 125
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Offers a 10% unconditional Fusion DMG% boost and an additional 30% Fusion DMG% after using a Resonance Skill for a grand total of 40% additional Fusion damage.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Offers an unconditional 12% Fusion DMG and 12% Resonance Skill DMG boost when placed in the Main Echo slot, making it a solid choice for Fusion focused resonators who emphasize Resonance Skill damage and are looking to use the 5P Molten Rift set bonus.",
+            "echo_name": "Nightmare: Inferno Rider"
+          }
+        ],
+        "percentage_performance": "100.00%",
+        "set_name": "Molten Rift"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ],
+        "cost_3": [
+          "Fusion DMG",
+          "ATK% ≥ Fusion DMG"
+        ],
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%",
+        "ATK",
+        "Resonance Skill DMG%"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "Changli's Signature is her best by a small amount, granting her high CRIT DMG and scaling Skill DMG Bonus over time. Overall it's quite a negligible upgrade from Emerald of Genesis but a worthwhile pickup if you wish to optimize your team's score nonetheless.",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "ATK increased by {0}. The equipper gains 1 stack of Searing Feather upon dealing damage, which can be triggered once every 0.5s, and gains 5 stacks of the same effect upon casting Resonance Skill. Each stack of Searing Feather gives {1} additional Resonance Skill DMG Bonus for up to 14 stacks. All stacks will be removed within 12s after reaching the max stack.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Gacha"
+        },
+        "weapon_name": "Blazing Brilliance"
+      },
+      {
+        "commentary_details": "Strongest permanently available option, giving high Base ATK, CRIT Rate and Energy Regen as well as ATK% when casting Skill. Changli uses all of these effects fully and this weapon is hence an outstanding choice for her, making her not Signature weapon-reliant in the slightest.",
+        "dupe_rank": "R1",
+        "percentage_performance": "91.10%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases ATK by {1}, stacking up to 2 time(s). This effect lasts for 10s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Emerald of Genesis"
+      },
+      {
+        "commentary_details": "Qiuyuan's Signature gives the same stats as Emerald of Genesis without the Energy Regen and instead gives a bit of extra Echo Skill DMG Bonus to the whole team. Overall better than Emerald of Genesis if the Energy Regen isn't needed, but not by much.",
+        "dupe_rank": "R1",
+        "percentage_performance": "90.40%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attack grants 1 stack of Bamboo Cleaver, which grants {1} Heavy Attack DMG Bonus to the wielder. This effect can be triggered by Echoes of the same name once only, stacking up to 2 times, lasting for 12s. Casting Echo Skill at max stacks does not reset the duration. This effect can be triggered once every 10s and ends early if the wielder is switched off the field. Casting Intro Skill grants {2} Echo Skill DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Emerald Sentence"
+      },
+      {
+        "commentary_details": "Simple ATK and CRIT Rate stat-stick for Changli, who does not benefit from this weapon's Glacio Chafe-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "90.00%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. When the wielder applies Glacio Chafe, Glacio DMG is Amplified by {1}, and Resonance Liberation DMG ignores {2} of the target's DEF. If the wielder is the active Resonator in the team, Glacio Chafe DMG dealt to all targets within a certain range is Amplified by {3} for 6s. This effect can be triggered up to 1 time every 0.1s. Only the strongest effect of the same name applies.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Frostburn"
+      },
+      {
+        "commentary_details": "Simple ATK and CRIT Rate stat-stick for Changli, who does not benefit from this weapon's Basic DMG-oriented effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "90.00%",
+        "weapon_base_info": {
+          "effect_description": "Increase ATK by {0}. When dealing Basic Attack DMG, the wielder gains {1} Basic Attack DMG Bonus for 14s. This effect can be triggered once per second, stacking up to 3 times. When the wielder's Concerto Energy is consumed, gain {2} Basic DMG Bonus for 10s. This effect can be triggered once per second and ends when the wielder is switched off the field.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Gacha"
+        },
+        "weapon_name": "Red Spring"
+      },
+      {
+        "commentary_details": "Simple DMG Bonus and CRIT Rate stat-stick for Changli, who does not benefit from this weapon's Tune Rupture/Fusion Burst-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "89.90%",
+        "weapon_base_info": {
+          "effect_description": "Increases All-Attribute DMG Bonus by {0}. When inflicting Tune Rupture - Shifting or Fusion Burst, the wielder's Resonance Liberation DMG ignores {1} DEF and {2} Fusion RES on targets for 8s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Everbright Polestar"
+      },
+      {
+        "commentary_details": "Best 4-star option for Changli, old event weapon that gives a scaling ATK and small CRIT Rate buff. Mostly an ATK stat-stick but works decently until better options become available.",
+        "dupe_rank": "R5",
+        "percentage_performance": "81.40%",
+        "weapon_base_info": {
+          "effect_description": "Gain 1 stack of Hiss when dealing damage to the target, with 1 stack generated every 1s. Hiss: each stack increases the wielder's ATK by {0} for 3s, stacking up to 10 times. Switching off the wielder clears all stacks. Gaining 10 stacks increases the wielder's Crit. Rate by {1}.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Event"
+        },
+        "weapon_name": "Somnoire Anchor"
+      },
+      {
+        "commentary_details": "Best no gacha option for most Sword characters. Just an ATK stat-stick with nothing special to it, decent as a starter weapon. Replace as soon as 5-star choices become available.",
+        "dupe_rank": "R5",
+        "percentage_performance": "76.70%",
+        "weapon_base_info": {
+          "effect_description": "When Intro Skill is released, increases ATK by {0}, lasting for {1}.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 30.3,
+          "source": ""
+        },
+        "weapon_name": "Commando of Conviction"
+      }
+    ],
     "character_metadata": {
       "breadcrumb": [
         "Wuthering Waves",
         "Characters",
         "Changli"
       ],
-      "element": null,
+      "element": "Fusion",
       "name": "Changli",
-      "rarity_stars": null,
+      "rarity_stars": 5,
       "slug": "changli",
       "updates": {
-        "last_major_build_patch": "",
-        "last_profile_update": "",
-        "last_review_patch": "",
-        "last_updated": ""
+        "last_major_build_patch": "2.1",
+        "last_profile_update": "01/October/2026",
+        "last_review_patch": "2.1",
+        "last_updated": "01/October/2026"
       },
-      "weapon_type": null
+      "weapon_type": "Sword"
     },
-    "example_teams": [],
-    "media": null,
-    "minor_fortes": [],
-    "pros_and_cons": null,
-    "ratings": null,
-    "recommended_endgame_stats_target": [],
-    "resonance_chain_dupes": [],
-    "review": null,
-    "rotations": [],
-    "skill_upgrade_priority": null,
-    "skills": [],
-    "synergies": [],
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "changli"
+        },
+        "slot_2": {
+          "alternatives": [
+            "brant"
+          ],
+          "character_name": "aemeath"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "lupa"
+        },
+        "team_name": "Best Team",
+        "team_notes": "Changli buffs Aemeath via her Outro in this team, while Lupa buffs Changli. Only ideally used in Quickswap if Aemeath doesn't have better teammates available. In most cases, use Brant."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "changli"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "brant"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Brant Dual DPS Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "changli"
+        },
+        "slot_2": {
+          "alternatives": [
+            "xiangli-yao",
+            "cartethyia"
+          ],
+          "character_name": "jinhsi"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Expert Team",
+        "team_notes": "VERY difficult teams to play, won't net good results for most. Pick your second teammate based on preference in strengths/playstyle. Verina is always stronger with Jinhsi."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "changli"
+        },
+        "slot_2": {
+          "alternatives": [
+            "chixia"
+          ],
+          "character_name": "encore"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Dual Fusion Team",
+        "team_notes": "Encore is stronger than Chixia, but more difficult to play."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "changli"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "yangyang"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Budget Dual DPS Team",
+        "team_notes": "This is a budget team so don't expect the best performance here â however it'll still work well."
+      }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/changli_full.webp",
+      "youtube_guide_embed_url": "https://www.youtube.com/embed/iDV_VMiV1Dc",
+      "youtube_guide_full_url": "https://www.youtube.com/watch?v=iDV_VMiV1Dc"
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+8%",
+        "stat_name": "CRIT Rate"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "ATK%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "Requires significant optimization to be worth playing - either advanced Animation cancels or Swap cancels, no other options to justify her being played on the team.",
+        "Very reliant on limited teammates for significant buffs in performance (particularly Lupa).",
+        "Overall, lower damage ceiling than more modern Fusion damage-dealing options, little reason to get her now if you don't already own her."
+      ],
+      "pros": [
+        "Super accessible weapons-wise; her Signature weapon makes a negligible difference in her base performance with Emerald of Genesis (permanently accessible).",
+        "Extremely quickswap-friendly and very consistent in her rotations when optimized.",
+        "Works particularly well with mid-air characters, but works just fine with ground-based teammates as well.",
+        "Has high damage for her rotation time and a nice Outro buff."
+      ]
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [
+            "Expert +2"
+          ],
+          "tier": "T2"
+        },
+        "whimpering_wastes": {
+          "tags": [],
+          "tier": "T3"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T3"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T4"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 16500+",
+      "DEF: 1150+",
+      "ATK: 2000-2200+",
+      "CRIT Rate: 65-80%+",
+      "CRIT DMG: 210-260%+",
+      "Energy Regen: 108%-120%+Lower end estimated in Mono Fusion team, Higher end estimated in a team with Brant+Shorekeeper.",
+      "Fusion DMG Bonus: 40-70%+"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "Resonance Skill Tripartite Flames and Heavy Attack Flaming Sacrifice increase Changli's DMG dealt by 10% and resistance to interruption.",
+        "name": "Sequence Node 1",
+        "node": "S1"
+      },
+      {
+        "description": "Enflamement increases Changli's Crit. Rate by 25% for 8s.",
+        "name": "Sequence Node 2",
+        "node": "S2"
+      },
+      {
+        "description": "Resonance Liberation Radiance of Fealty DMG is increased by 80%.",
+        "name": "Sequence Node 3",
+        "node": "S3"
+      },
+      {
+        "description": "After Intro Skill is cast, all team members' ATK is increased by 20% for 30s.",
+        "name": "Sequence Node 4",
+        "node": "S4"
+      },
+      {
+        "description": "Heavy Attack Flaming Sacrifice's Multiplier is increased by 50% and its DMG dealt is increased by 50%.",
+        "name": "Sequence Node 5",
+        "node": "S5"
+      },
+      {
+        "description": "Resonance Skill Tripartite Flames, Heavy Attack Flaming Sacrifice, and Resonance Liberation Radiance of Fealty ignore an additional 40% of the target's DEF when dealing damage.",
+        "name": "Sequence Node 6",
+        "node": "S6"
+      }
+    ],
+    "review": {
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Changli is a 5-star Fusion Sword Hybrid-DPS character who focuses on mid-air combat, and as a Fusion damage dealer with a relatively short rotation (if played correctly), mostly plays into the Mono Fusion archetype nowadays. She sports a unique 10-second-long Outro buff which characterizes a large amount of her synergies and has an affinity with quickswap that few characters can match. However, Changli is a rather complicated character to optimize, and she took a very long time post-release to be fully figured out. Let's delve into how to achieve the best results with her and where she stands in the meta today."
+          ]
+        },
+        {
+          "heading": "Key Mechanics",
+          "paragraphs": [
+            "Changli has one and only mechanic that her entire kit revolves around: Enflamement, which is linked to her second important mechanic derived from the first, True Sight. Enflamement is the name of her Forte stacks, and she can hold up to a maximum of 4. These Enflamement stacks can be acquired in 2 ways:",
+            "By using her Ultimate (this instantly gives you all 4 stacks)",
+            "Or by using her True Sight attacks (this gives you 1 stack for each).",
+            "When Enflamement is stacked up to full, Changli can cast a Forte Heavy Attack which deals a large amount of damage and restores a large amount of Resonance and Concerto Energy. As you may understand by the fact that she has multiple ways of generating Enflamement, the goal of each of her rotations will be to cast 4 different True Sight Attacks, chain that into a Forte Heavy, then an Ultimate, then a final Forte Heavy before swapping out with her Outro. This leads to 2 Forte Heavies per rotation, which essentially represents her rotation goal.",
+            "Additionally, her Forte Heavy following her Ultimate gains a 25% ATK buff, and via her Inherent Skills, her True Sight attacks get progressively stronger for each stack of Enflamement (5% Fusion DMG Bonus per stack), and her Forte Heavies and Ultimate gain a 20% Fusion DMG Bonus and a 15% DEF Ignore buff, further enhancing the power of her strongest attacks.",
+            "However, after her rotation ends, her Outro also carries over value into the next teammate: it increases the incoming character's Fusion DMG and Liberation DMG by 20 and 25%, respectively, for 10s, which expires upon swap. This 10s Outro buff length is unique to Changli and Lumi, who are the only characters in the game with an Outro buff duration shorter than 14s."
+          ]
+        },
+        {
+          "heading": "True Sight & Rotation Concepts",
+          "paragraphs": [
+            "Changli's True Sight mechanic works as such: after casting Intro, Skill, or her Basic 4/Mid-Air Attack 4, she enters this state for 12s during which she may unleash a special Basic Attack, Conquest when she's on the ground and Charge when she's in mid-air 1 time. When either attack hits, she gains 1 Enflamement stack.",
+            "Her Skill is one of her most important ways to gain Enflamement, having 2 charges, good damage, and a fairly short cooldown of 12s, it constitutes the main way she will gain Enflamement throughout her rotation, alongside her Intro giving her 1 stack and a Basic chain, a second Intro, or a third Skill giving the last stack needed for a Forte Heavy.",
+            "However, all of her most important animations, including her Basic 4, her True Sight attacks, her Skill, and her Forte Heavies take a long amount of time. She is prone to interruption during each attack, and yet they are essential to her rotations, and if they don't land she will rotate significantly slower. She only has one way to fully protect herself from interruption: Swap Cancelling. This means switching during one of her long animations, doing actions on another character, while Changli's attacks continue their animations and hit the target even though she isn't the active character. This constitutes the foundation of quickswap and characterizes Changli's optimal playstyle.",
+            "Indeed, it's difficult to talk about Changli without talking about Quickswap - all of her animations are easily quickswappable, she has no buffs that expire on swap aside from her Outro, which has a short duration, and she's prone to being interrupted on her essential attacks if she doesn't swap out of them. Overall, Changli is characterized by Quickswap, and while it's possible to use some mechanics like her Ground Heavy Attack chaining into her Mid-Air 3 and some Animation Cancels in order to speed her rotation up without Quickswap, she struggles to find a spot in the meta without the help of it.",
+            "Meta Position & Conclusion",
+            "Changli is a character largely defined by two things: Lupa's existence in the meta and Quickswap. Indeed, Lupa is a character who can provide a lot of interesting buffs for Changli and her Mono Fusion teams, and is an ideal recipient of her Outro buff, as she has an above average rotation length for a Hybrid that she makes up for with her Fusion/Liberation personal damage, while also being super comfortable with mid-air combat (which represents most of Changli's rotation time) and Quickswap. Brant is also a character who has an ideal Outro buff for Changli and possesses strong personal damage with a rotation time similar to Lupa, who also operates entirely mid-air with a strong affinity for Quickswap. Other fusion DPS characters exist that also work well in Quickswap, being Aemeath and Galbrena, who have a higher base damage potential than Brant but a longer rotation time (this can however, be mitigated with good enough gameplay). As a result, in the meta, Changli is a character who completely relies on her Quickswap advantage to make herself stand out from other Fusion characters who deal almost as much damage, with better buffs and a lower field time, such as for example Brant and most importantly Lupa who has the best Fusion-related buffs in the entire game (which is why she is found on every Mono Fusion team to date).",
+            "In conclusion, while Changli has good personal damage with a balanced rotation time and lower-end buffs, the main advantage that makes her stand out from other characters is her ability to work excellently in Quickswap alongside other Fusion characters who have an affinity for it. Overall, Changli's performance is largely dependent on the player who operates her, and while she can display good performance, she's largely outclassed by other, more modern Fusion characters without that unique edge. Defined by expert gameplay, Changli will struggle for casuals in today's meta, while the most experienced can still make her shine in the right teams."
+          ]
+        }
+      ],
+      "summary": "Changli is a 5-star Fusion Sword Hybrid-DPS character who focuses on mid-air combat, and as a Fusion damage dealer with a relatively short rotation (if played correctly), mostly plays into the Mono Fusion archetype nowadays. She sports a unique 10-second-long Outro buff which characterizes a large amount of her synergies and has an affinity with quickswap that few characters can match. However, Changli is a rather complicated character to optimize, and she took a very long time post-release to be fully figured out. Let's delve into how to achieve the best results with her and where she stands in the meta today."
+    },
+    "rotations": [
+      {
+        "rotation_name": "Opener",
+        "steps": [
+          "Ultimate",
+          "Forte: Heavy: Flaming Sacrifice (swap)"
+        ]
+      },
+      {
+        "rotation_name": "Standard Rotation",
+        "steps": [
+          "Intro",
+          "Basic: True Sight: Charge",
+          "Skill",
+          "Heavy Attack",
+          "Basic: True Sight: Charge",
+          "Basic: Mid-air Attack (Interrupt instantly via Dash)",
+          "Dash",
+          "Basic: Mid-air Attack 4",
+          "Basic: True Sight: Charge",
+          "Skill",
+          "Basic: True Sight: Conquest",
+          "Heavy: Flaming Sacrifice",
+          "Ultimate",
+          "Heavy: Flaming Sacrifice (Swap)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Double Intro Approach",
+        "steps": [
+          "Intro",
+          "True Sight: Charge",
+          "Skill",
+          "True Sight: Conquest (swap)",
+          "Build your second character's Intro skill",
+          "Intro",
+          "True Sight: Charge",
+          "Skill",
+          "True Sight: Conquest",
+          "Skill",
+          "True Sight: Conquest",
+          "Forte: Heavy: Flaming Sacrifice",
+          "Ultimate",
+          "Forte: Heavy: Flaming Sacrifice (swap)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Swap Cancels",
+        "steps": [
+          "Basic P4",
+          "Her Skill (True Sight: Capture)",
+          "True Sight: Conquest",
+          "Forte: Heavy: Flaming Sacrifice"
+        ]
+      },
+      {
+        "rotation_name": "Max Potential Rotation",
+        "steps": [
+          "Skill (swap)",
+          "True Sight: Conquest (swap)",
+          "Intro",
+          "True Sight: Charge",
+          "Skill (swap)",
+          "True Sight: Conquest (swap)",
+          "Skill (swap)",
+          "True Sight: Conquest (swap)",
+          "Forte: Heavy: Flaming Sacrifice (swap)",
+          "Ultimate",
+          "Forte: Heavy: Flaming Sacrifice (swap)",
+          "Outro"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "Basic and Intro can be skipped when levelling to save on resources at a minimal damage loss.",
+      "order": [
+        "Res. Skill",
+        "Forte Circuit",
+        "Res. Liberation",
+        "Basic Attack",
+        "Intro Skill"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic AttackPerform up to 4 consecutive attacks, dealing Fusion DMG. After releasing Basic Attack 4, enter True Sight, lasting for 12s.Mid-air AttackConsume Stamina to perform up to 4 consecutive attacks in mid-air, dealing Fusion DMG. After releasing Mid-air Attack 4, enter True Sight, lasting for 12s.Heavy AttackHold Basic Attack on the ground to perform an upward strike at the cost of Stamina, dealing Fusion DMG. Use Basic Attack within a certain time to release Mid-Air Attack 3.Mid-air Heavy AttackShortly after holding Basic Attack in mid-air or using Basic Attack True Sight: Charge, use Basic Attack to perform a plunging attack at the cost of Stamina, dealing Fusion DMG. Use Basic Attack within a certain time to release Basic Attack 3.Dodge CounterUse Basic Attack after a successful Dodge to attack the target, dealing Fusion DMG.",
+        "multipliers": [
+          {
+            "Lv1": "14.84%*2",
+            "Lv10": "29.49%*2",
+            "Lv2": "16.05%*2",
+            "Lv3": "17.27%*2",
+            "Lv4": "18.97%*2",
+            "Lv5": "20.19%*2",
+            "Lv6": "21.59%*2",
+            "Lv7": "23.53%*2",
+            "Lv8": "25.48%*2",
+            "Lv9": "27.43%*2",
+            "Name": "Basic Attack 1 DMG"
+          },
+          {
+            "Lv1": "17.85%*2",
+            "Lv10": "35.49%*2",
+            "Lv2": "19.32%*2",
+            "Lv3": "20.78%*2",
+            "Lv4": "22.83%*2",
+            "Lv5": "24.30%*2",
+            "Lv6": "25.98%*2",
+            "Lv7": "28.32%*2",
+            "Lv8": "30.66%*2",
+            "Lv9": "33.00%*2",
+            "Name": "Basic Attack 2 DMG"
+          },
+          {
+            "Lv1": "18.34%*3",
+            "Lv10": "36.45%*3",
+            "Lv2": "19.84%*3",
+            "Lv3": "21.34%*3",
+            "Lv4": "23.45%*3",
+            "Lv5": "24.95%*3",
+            "Lv6": "26.68%*3",
+            "Lv7": "29.08%*3",
+            "Lv8": "31.49%*3",
+            "Lv9": "33.89%*3",
+            "Name": "Basic Attack 3 DMG"
+          },
+          {
+            "Lv1": "25.50% + 14.88%*4",
+            "Lv10": "50.70% + 29.58%*4",
+            "Lv2": "27.60% + 16.10%*4",
+            "Lv3": "29.69% + 17.32%*4",
+            "Lv4": "32.61% + 19.03%*4",
+            "Lv5": "34.71% + 20.25%*4",
+            "Lv6": "37.11% + 21.65%*4",
+            "Lv7": "40.46% + 23.60%*4",
+            "Lv8": "43.80% + 25.55%*4",
+            "Lv9": "47.15% + 27.50%*4",
+            "Name": "Basic Attack 4 DMG"
+          },
+          {
+            "Lv1": "30.86%",
+            "Lv10": "61.35%",
+            "Lv2": "33.39%",
+            "Lv3": "35.92%",
+            "Lv4": "39.46%",
+            "Lv5": "41.99%",
+            "Lv6": "44.90%",
+            "Lv7": "48.95%",
+            "Lv8": "53.00%",
+            "Lv9": "57.05%",
+            "Name": "Mid-air Attack 1 DMG"
+          },
+          {
+            "Lv1": "25.59%*2",
+            "Lv10": "50.87%*2",
+            "Lv2": "27.69%*2",
+            "Lv3": "29.79%*2",
+            "Lv4": "32.72%*2",
+            "Lv5": "34.82%*2",
+            "Lv6": "37.23%*2",
+            "Lv7": "40.59%*2",
+            "Lv8": "43.95%*2",
+            "Lv9": "47.30%*2",
+            "Name": "Mid-air Attack 2 DMG"
+          },
+          {
+            "Lv1": "22.13%*3",
+            "Lv10": "44.00%*3",
+            "Lv2": "23.95%*3",
+            "Lv3": "25.76%*3",
+            "Lv4": "28.30%*3",
+            "Lv5": "30.12%*3",
+            "Lv6": "32.20%*3",
+            "Lv7": "35.11%*3",
+            "Lv8": "38.01%*3",
+            "Lv9": "40.91%*3",
+            "Name": "Mid-air Attack 3 DMG"
+          },
+          {
+            "Lv1": "19.13% + 11.16%*4",
+            "Lv10": "38.03% + 22.18%*4",
+            "Lv2": "20.70% + 12.08%*4",
+            "Lv3": "22.27% + 12.99%*4",
+            "Lv4": "24.46% + 14.27%*4",
+            "Lv5": "26.03% + 15.19%*4",
+            "Lv6": "27.83% + 16.24%*4",
+            "Lv7": "30.34% + 17.70%*4",
+            "Lv8": "32.85% + 19.17%*4",
+            "Lv9": "35.36% + 20.63%*4",
+            "Name": "Mid-air Attack 4 DMG"
+          },
+          {
+            "Lv1": "14.58%*3 + 18.75%",
+            "Lv10": "28.99%*3 + 37.27%",
+            "Lv2": "15.78%*3 + 20.28%",
+            "Lv3": "16.97%*3 + 21.82%",
+            "Lv4": "18.65%*3 + 23.97%",
+            "Lv5": "19.84%*3 + 25.51%",
+            "Lv6": "21.22%*3 + 27.28%",
+            "Lv7": "23.13%*3 + 29.74%",
+            "Lv8": "25.04%*3 + 32.20%",
+            "Lv9": "26.95%*3 + 34.65%",
+            "Name": "Heavy Attack"
+          },
+          {
+            "Lv1": "62.00%",
+            "Lv10": "123.27%",
+            "Lv2": "67.09%",
+            "Lv3": "72.17%",
+            "Lv4": "79.29%",
+            "Lv5": "84.37%",
+            "Lv6": "90.22%",
+            "Lv7": "98.36%",
+            "Lv8": "106.49%",
+            "Lv9": "114.62%",
+            "Name": "Mid-air Heavy Attack"
+          },
+          {
+            "Lv1": "41.57%*3",
+            "Lv10": "82.64%*3",
+            "Lv2": "44.98%*3",
+            "Lv3": "48.39%*3",
+            "Lv4": "53.16%*3",
+            "Lv5": "56.57%*3",
+            "Lv6": "60.49%*3",
+            "Lv7": "65.94%*3",
+            "Lv8": "71.40%*3",
+            "Lv9": "76.85%*3",
+            "Name": "Dodge Counter"
+          },
+          {
+            "Lv1": "5",
+            "Lv10": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Name": "Mid-air Attack STA Cost"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Heavy Attack STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-air Heavy Attack STA Cost"
+          }
+        ],
+        "name": "Blazing Enlightment",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "True Sight: CaptureAfter releasing Resonance Skill, Changli dashes towards the enemy and enters True Sight, lasting for 12s. In the end, she releases a plunging attack, dealing Fusion DMG. True Sight: Capture has 2 initial attempts and can be used up to 2 times. The number of attempts is increased by 1 every 12s.\nCan be cast in mid-air.Basic Attack: True Sight - ConquestWhen in True Sight, if Changli uses Ground Basic Attack, she releases True Sight: Conquest, dashing towards the enemy and dealing Fusion DMG, considered as Resonance Skill DMG. After releasing True Sight: Conquest, True Sight ends.Basic Attack: True Sight - ChargeWhen in True Sight, if Changli jumps or uses Basic Attack in mid-air, she releases True Sight: Charge, dashing towards the enemy and dealing Fusion DMG, considered as Resonance Skill DMG. After releasing True Sight: Charge, True Sight ends.",
+        "multipliers": [
+          {
+            "Lv1": "41.19%*3 + 82.37%",
+            "Lv10": "81.88%*3 + 163.76%",
+            "Lv2": "44.57%*3 + 89.13%",
+            "Lv3": "47.94%*3 + 95.88%",
+            "Lv4": "52.67%*3 + 105.34%",
+            "Lv5": "56.05%*3 + 112.09%",
+            "Lv6": "59.93%*3 + 119.86%",
+            "Lv7": "65.34%*3 + 130.67%",
+            "Lv8": "70.74%*3 + 141.47%",
+            "Lv9": "76.14%*3 + 152.28%",
+            "Name": "True Sight: Capture DMG"
+          },
+          {
+            "Lv1": "29.65%*2 + 41.51% + 47.44%",
+            "Lv10": "58.95%*2 + 82.52% + 94.31%",
+            "Lv2": "32.08%*2 + 44.91% + 51.33%",
+            "Lv3": "34.51%*2 + 48.32% + 55.22%",
+            "Lv4": "37.92%*2 + 53.08% + 60.67%",
+            "Lv5": "40.35%*2 + 56.49% + 64.56%",
+            "Lv6": "43.14%*2 + 60.40% + 69.03%",
+            "Lv7": "47.03%*2 + 65.85% + 75.25%",
+            "Lv8": "50.92%*2 + 71.29% + 81.48%",
+            "Lv9": "54.81%*2 + 76.74% + 87.70%",
+            "Name": "True Sight: Conquest DMG"
+          },
+          {
+            "Lv1": "36.56% + 54.84%",
+            "Lv10": "72.68% + 109.02%",
+            "Lv2": "39.56% + 59.34%",
+            "Lv3": "42.56% + 63.83%",
+            "Lv4": "46.75% + 70.13%",
+            "Lv5": "49.75% + 74.62%",
+            "Lv6": "53.20% + 79.80%",
+            "Lv7": "58.00% + 86.99%",
+            "Lv8": "62.79% + 94.18%",
+            "Lv9": "67.59% + 101.38%",
+            "Name": "True Sight: Charge DMG"
+          },
+          {
+            "Lv1": "14",
+            "Lv10": "14",
+            "Lv2": "14",
+            "Lv3": "14",
+            "Lv4": "14",
+            "Lv5": "14",
+            "Lv6": "14",
+            "Lv7": "14",
+            "Lv8": "14",
+            "Lv9": "14",
+            "Name": "True Sight: Capture - Concerto Regen"
+          },
+          {
+            "Lv1": "7",
+            "Lv10": "7",
+            "Lv2": "7",
+            "Lv3": "7",
+            "Lv4": "7",
+            "Lv5": "7",
+            "Lv6": "7",
+            "Lv7": "7",
+            "Lv8": "7",
+            "Lv9": "7",
+            "Name": "True Sight: Conquest - Concerto Regen"
+          },
+          {
+            "Lv1": "6",
+            "Lv10": "6",
+            "Lv2": "6",
+            "Lv3": "6",
+            "Lv4": "6",
+            "Lv5": "6",
+            "Lv6": "6",
+            "Lv7": "6",
+            "Lv8": "6",
+            "Lv9": "6",
+            "Name": "True Sight: Charge - Concerto Regen"
+          }
+        ],
+        "name": "Tripartite Flames",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Deal Fusion DMG to nearby targets, obtaining 4 stacks of Enflamement, and entering Fiery Feather. Can be cast in mid-air.Fiery FeatherWhen Changli releases Heavy Attack Flaming Sacrifice within 10s, her ATK is increased by 25%, after which Fiery Feather ends.",
+        "multipliers": [
+          {
+            "Lv1": "610.00%",
+            "Lv10": "1212.75%",
+            "Lv2": "660.02%",
+            "Lv3": "710.04%",
+            "Lv4": "780.07%",
+            "Lv5": "830.09%",
+            "Lv6": "887.62%",
+            "Lv7": "967.65%",
+            "Lv8": "1047.68%",
+            "Lv9": "1127.71%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv10": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Name": "Resonance Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Radiance of Fealty",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Heavy Attack: Flaming SacrificeWhen releasing Heavy Attack, if Changli carries 4 stacks of Enflamement, she consumes all stacks of Enflamement to cast Flaming Sacrifice, dealing Fusion DMG, considered as Resonance Skill DMG. While casting Flaming Sacrifice, Changli takes 40% less DMG.EnflamementChangli can hold up to 4 stacks of Enflamement.Changli obtains 1 stack of Enflamement for every Basic Attack: True Sight - Conquest on hit.Changli obtains 1 stack of Enflamement for every Basic Attack: True Sight - Charge on hit.Changli obtains 4 stacks of Enflamement for every Resonance Liberation Radiance of Fealty.",
+        "multipliers": [
+          {
+            "Lv1": "19.74%*5 + 230.30%",
+            "Lv10": "39.25%*5 + 457.85%",
+            "Lv2": "21.36%*5 + 249.18%",
+            "Lv3": "22.98%*5 + 268.07%",
+            "Lv4": "25.25%*5 + 294.51%",
+            "Lv5": "26.87%*5 + 313.39%",
+            "Lv6": "28.73%*5 + 335.11%",
+            "Lv7": "31.32%*5 + 365.32%",
+            "Lv8": "33.91%*5 + 395.54%",
+            "Lv9": "36.50%*5 + 425.75%",
+            "Name": "Flaming Sacrifice DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Flaming Sacrifice",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "When Changli releases Basic Attack: True Sight - Conquest or Basic Attack: True Sight - Charge, for each stack of Enflamement, Changli's Fusion DMG Bonus is increased by 5%.",
+        "multipliers": [],
+        "name": "Secret Strategist",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "When Changli releases Heavy Attack Flaming Sacrifice or Resonance Liberation Radiance of Fealty, Changli's Fusion DMG Bonus is increased by 20%, and Changli ignores 15% of the target's DEF when dealing damage.",
+        "multipliers": [],
+        "name": "Sweeping Force",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Changli appears in mid-air, attacks the target, and enters True Sight, lasting for 12s.",
+        "multipliers": [
+          {
+            "Lv1": "22.38% + 13.06%*4",
+            "Lv10": "44.50% + 25.96%*4",
+            "Lv2": "24.22% + 14.13%*4",
+            "Lv3": "26.06% + 15.20%*4",
+            "Lv4": "28.62% + 16.70%*4",
+            "Lv5": "30.46% + 17.77%*4",
+            "Lv6": "32.57% + 19.00%*4",
+            "Lv7": "35.51% + 20.71%*4",
+            "Lv8": "38.44% + 22.43%*4",
+            "Lv9": "41.38% + 24.14%*4",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Obedience of Rules",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "The incoming Resonator has their Fusion DMG Amplified by 20% and Resonance Liberation DMG Amplified by 25% for 10s or until the Resonator is switched out.",
+        "multipliers": [],
+        "name": "Strategy of Duality",
+        "skill_type": "Outro Skill"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "aemeath",
+          "brant"
+        ],
+        "commentary": "Changli's two best partners who fulfill the same role of dealing a ton of Fusion damage, but who operate differently. Brant is very good at buffing Changli via his Outro skill, he brings healing and shielding to the table and is overall very easy to pilot while dealing very good damage on his own. Aemeath on the other hand is only worth using if played well in Quickswap, since Changli's short Outro buff requires Aemeath to cast Basic Attack chains as Changli is rotating to fully benefit from it on her biggest damaging moves. But if played well? Mono Fusion with Changli, Lupa and Brant or Aemeath is good enough to clear anything in their path."
+      },
+      {
+        "characters": [
+          "lupa"
+        ],
+        "commentary": "Lupa is part of Changli's best team as she is the best buffer for mono Fusion teams, with for example Changli and Brant or Encore as the perfect Dual DPS core. Thanks to her massive boosts to Fusion ATK and DMG Bonus in teams with 3 Fusion characters, she makes for a great partner, but we recommend against using Changli to receive Lupa's Outro buff as Changli deals little to no Basic Attack DMG, unless Changli's own Outro buff is more valuable like in the Aemeath+Lupa team."
+      },
+      {
+        "characters": [
+          "zhezhi"
+        ],
+        "commentary": "Zhezhi's 25% Skill DMG Amplify Outro buff can be utilized on Changli to replace Brant in a hypercarry-style team composition; however in spite of her extra flat Energy generation and despite the fact that she retains good personal damage off-field via Coordinated Attacks it's far from optimal — we only recommend her if you happen to own her, want to play Changli as a hypercarry, and don't own Brant."
+      },
+      {
+        "characters": [
+          "chixia"
+        ],
+        "commentary": "Leaning towards the easier-to-play side of Dual DPS teams, Chixia stands out as the only character currently being able to fully utilize Changli's Outro skill (20% Fusion and 25% Liberation DMG Amplify) and she's able to dish out some great damage because of it, on top of Changli's good personal damage, making the two a good pair."
+      },
+      {
+        "characters": [
+          "encore"
+        ],
+        "commentary": "A very good Main DPS option who can be supported by Changli via her Outro skill, which amplifies Fusion DMG by 20%. Combining their two good personal damage numbers together makes for a very solid team that can clear content easily when learnt. Be careful with this one as this is a step-up in difficulty compared to single DPS teams."
+      },
+      {
+        "characters": [
+          "xiangli-yao"
+        ],
+        "commentary": "The infamous hardcore Dual DPS pair for Changli, who can deal huge damage in long swap-cancellable windows that Changli uses to amazing effect. Additionally, Changli's 25% Liberation DMG Outro buff is appreciated to buff Xiangli Yao's key abilities like his ultimate nuke. When learnt, this duo deals monstrous damage. We however don't recommend it to any casual players, as its difficulty can just make it a bad team damage-wise if not properly played."
+      },
+      {
+        "characters": [
+          "cartethyia"
+        ],
+        "commentary": "Changli is probably the best option for Cartethyia outside of Ciaccona, but remains very difficult to use. Changli is the quickswap queen, and Cartethyia has a number of abilities during which Cartethyia can swap out, and Changli can weave in some of her own attacks, so they can both deal damage at the same time. It's additionally possible to time Changli's 25% Liberation Amplify Outro with Cartethyia's final Ultimate for extra damage. As usual with Changli, hard to use, but very rewarding if used effectively."
+      },
+      {
+        "characters": [
+          "jinhsi"
+        ],
+        "commentary": "The teacher and student duo is famous not only for having some of the highest Expert quickswap DPS in the game, but also for being amazing in the new Whimpering Wastes mode — able to clear tons of waves very quickly when played right, this Expert quickswap duo won't disappoint if you play it right; however, that's a tremendous ask in terms of difficulty, so be careful, it might not net good results for casual players."
+      },
+      {
+        "characters": [
+          "yangyang"
+        ],
+        "commentary": "A particularly fun and fast duo with Changli, who's free to use, sports proper damage and is fully quickswap friendly. Still a difficult team to properly get the hang of, but not too much to still dish out good damage."
+      },
+      {
+        "characters": [
+          "verina"
+        ],
+        "commentary": "One of the usual Healing Support options that can slot into any team. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Enjoy."
+      },
+      {
+        "characters": [
+          "the-shorekeeper"
+        ],
+        "commentary": "Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game."
+      }
+    ],
     "upgrade_materials": {
-      "character_ascension": [],
-      "skill_upgrades": []
+      "character_ascension": [
+        {
+          "material_name": "Pavo Plum",
+          "quantity": 60,
+          "rarity": "boss"
+        },
+        {
+          "material_name": "Rage Tacet Core",
+          "quantity": 46,
+          "rarity": "specialty"
+        },
+        {
+          "material_name": "Crude Ring",
+          "quantity": 4,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Basic Ring",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Improved Ring",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Tailored Ring",
+          "quantity": 4,
+          "rarity": "common"
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "Sentinel's Dagger",
+          "quantity": 26,
+          "rarity": "weekly_boss"
+        },
+        {
+          "material_name": "Crude Ring",
+          "quantity": 25,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Basic Ring",
+          "quantity": 28,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Improved Ring",
+          "quantity": 40,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Tailored Ring",
+          "quantity": 57,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Inert Metallic Drip",
+          "quantity": 25,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Reactive Metallic Drip",
+          "quantity": 28,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Polarized Metallic Drip",
+          "quantity": 55,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Heterized Metallic Drip",
+          "quantity": 67,
+          "rarity": "skill_material"
+        }
+      ]
     },
-    "voice_actors": null
+    "voice_actors": {
+      "cn": "Mufei",
+      "eng": "Ashleigh Haddad",
+      "jpn": "Chiwa SaitÃ´",
+      "kr": "Shin Na Ri"
+    }
   },
   "status": "success"
 }

@@ -1,44 +1,1453 @@
 {
   "data": {
-    "base_stats_lvl_90": null,
-    "best_echo_sets": [],
-    "best_echo_stats": null,
-    "best_weapons": [],
+    "base_stats_lvl_90": {
+      "atk": 36,
+      "crit_dmg": "150%",
+      "crit_rate": "13%",
+      "def": 92,
+      "elemental_dmg_bonus": "0%",
+      "healing_bonus": "0%",
+      "hp": 842,
+      "max_energy": 125
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Iuno and Augusta's best set. The only set that should be ran on Main DPS Iuno. Increases ATK and CRIT DMG by 6% and 4% for 4s respectively when a Shield is applied to the equipped character, stacking up to 5 times every 0.5s. This totals to 30% ATK and 20% CRIT DMG, which is the best set for Iuno and Augusta in specific as they are  the only characters in the game who are able to fully stack up this effect.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Simple summon Echo that gives 12% Liberation and 12% Aero DMG Bonus when equipped in the main slot. No restrictions on the cast and free damage for Iuno, making it the best choice.",
+            "echo_name": "Lady of the Sea"
+          }
+        ],
+        "percentage_performance": "1",
+        "set_name": "Crown of Valor"
+      },
+      {
+        "commentary": "Only consider this set on a Sub DPS Iuno. Near-equal in team damage to Crown of Valor in the best SubDPS Iuno teams. Offers 10% unconditional Energy Regen which makes reaching Energy requirements easy. Most importantly however, upon using Outro, grants the next character switching in a 22.5% ATK boost boosting their damage by a good amount.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "The best and only real option Moonlit Clouds has, as it grants an extra 12% DMG Bonus on top of the 22.5% ATK boost to the next character that Moonlit Clouds would usually give. Additionally restores a lot of Energy to the caster when it deals damage. However, on Iuno, it is best to cast this Echo at the start of her rotation and cancelling it via a dash (after her Closing Refrain skill) or via her Ultimate (after Intro).",
+            "echo_name": "Impermanence Heron"
+          }
+        ],
+        "percentage_performance": "2",
+        "set_name": "Moonlit Clouds"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ],
+        "cost_3": [
+          "Aero DMG",
+          "Aero DMG > ATK%"
+        ],
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "Resonance Liberation DMG% ≥ ATK%",
+        "ATK"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "On all fronts, Iuno's Signature is her best weapon. Gives a massive 36% DEF Ignore on Resonance Liberation DMG stacked instantly after an Intro and easily maintained by Iuno's ability to apply several Shields to herself, all the while unconditionally giving 20% Resonance Liberation DMG Bonus and a massive CRIT Rate boost while retaining good Base ATK.",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Casting Intro Skill or Resonance Liberation increases Resonance Liberation DMG by {1} for 15s. Obtaining Shield allows Resonance Liberation DMG to ignore {2} of the target's DEF for 7s, stacking up to 5 times. This effect is triggered once every 0.5s. Upon casting Intro Skill, this effect reaches max stacks immediately, lasting for 3s.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 36,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Moongazer's Sigil"
+      },
+      {
+        "commentary_details": "Has lower value for Main DPS Iuno due to a delayed Ultimate cast. Xiangli Yao's Signature Weapon is a perfectly acceptable alternative to Iuno â similarly to Jiyan's Signature on Augusta, it's an amazing second option thanks to the easily accessed 48% Resonance Liberation DMG Bonus that this weapon's effect provides on top of its high Base ATK and CRIT Rate stats.",
+        "dupe_rank": "R1",
+        "percentage_performance": "98.70%",
+        "weapon_base_info": {
+          "effect_description": "Gain {0} Attribute DMG Bonus. When using Resonance Liberation, the wielder gains {1} Resonance Liberation DMG Bonus for 8s. This effect can be extended by 5 seconds each time Resonance Skills are cast, up to 3 times.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Gacha"
+        },
+        "weapon_name": "Verity's Handle"
+      },
+      {
+        "commentary_details": "The best generalist Gauntlets option, providing an easily maintained 8% DEF Ignore, high Base ATK and CRIT DMG as well as ATK%. Unfortunately for anyone but Zani, the Spectro Frazzle DMG Amplify effect on this weapon is wasted, making it rank lower for Iuno than the above options.",
+        "dupe_rank": "R1",
+        "percentage_performance": "81.50%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Casting Basic Attack grants the following effects: Dealing damage ignores {1} of the target's DEF and Amplifies Spectro Frazzle DMG dealt by {2} for 6s. Retriggering the effect resets its duration.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Blazing Justice"
+      },
+      {
+        "commentary_details": "Significantly worse than Abyss Surges at R1. This Battle Pass exclusive provides CRIT Rate and a Resonance Liberation DMG increase. In spite of its low Base ATK (like all 4-stars), Stonard is a fantastic weapon to equip on Iuno, rivaling some of the lower-ranked 5-star choices.",
+        "dupe_rank": "R5",
+        "percentage_performance": "81.00%",
+        "weapon_base_info": {
+          "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Resonance Liberation DMG Bonus for 15s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 40.5,
+          "source": "Battle Pass"
+        },
+        "weapon_name": "Aether Strike"
+      },
+      {
+        "commentary_details": "Has significantly lower value for Main DPS Iuno due to a delayed Ultimate cast. Significantly worse than Abyss Surges at R1. This Battle Pass exclusive offers a big boost to ATK and Resonance Liberation DMG when casting Ultimate, all the while having a nice CRIT DMG secondary stat, making it one of the best options for Iuno in spite of the low Base ATK.",
+        "dupe_rank": "R5",
+        "percentage_performance": "80.30%",
+        "weapon_base_info": {
+          "effect_description": "When Resonance Skill is released, increases the caster's Resonance Liberation DMG Bonus by {0}, lasting for 15s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.2,
+          "source": "Pioneer Podcast"
+        },
+        "weapon_name": "Stonard"
+      },
+      {
+        "commentary_details": "Simple ATK and CRIT Rate stat-stick for Iuno, who does not benefit from this weapon's Heavy Attack DMG-focused effect.",
+        "dupe_rank": "R1",
+        "percentage_performance": "79.00%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Every time Basic Attack or Intro Skill is cast, Heavy Attack DMG Bonus increases by {1} for 3s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Tragicomedy"
+      },
+      {
+        "commentary_details": "Strongest permanently available option for Iuno that acts as a simple ATK and CRIT Rate stat-stick.\n",
+        "dupe_rank": "R1",
+        "percentage_performance": "79.00%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Dealing damage to targets under Tune Strain: Interfered grants {1} Basic Attack DMG Bonus for 3s, stacking up to 4 times. This effect can be triggered once every 0.5s. Retriggering the effect resets its duration.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Pulsation Bracer"
+      },
+      {
+        "commentary_details": "This permanent banner 5-star provides some Basic and Skill DMG increases that are completely wasted on Iuno â  but fret not as its massive Base ATK and ATK% stats make it rank above the majority of 4-star weapons.",
+        "dupe_rank": "R1",
+        "percentage_performance": "74.70%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When hitting a target with Resonance Skill, increases Basic Attack DMG Bonus by {1}, lasting for {2}. When hitting a target with Basic Attacks, increases Resonance Skill DMG Bonus by {3}, lasting for {4}s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Abyss Surges"
+      },
+      {
+        "commentary_details": "Provides some extra Energy and ATK when casting a Skill, negating any Energy requirements on Iuno. Overall one of the better 4-star options that doesn't require the Battle Pass, but ranks below every 5-star due to low base stats.",
+        "dupe_rank": "R5",
+        "percentage_performance": "67.40%",
+        "weapon_base_info": {
+          "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Gacha"
+        },
+        "weapon_name": "Celestial Spiral"
+      },
+      {
+        "commentary_details": "Provides some extra ATK increase over Legend of Drunken Hero which is dependent on not getting hit to upkeep. Even in the best conditions for this weapon, it's only slightly higher than the craftable, making it not recommended if better options are available.",
+        "dupe_rank": "R5",
+        "percentage_performance": "64.00%",
+        "weapon_base_info": {
+          "effect_description": "When Resonance Liberation is released, grants 3 stack(s) of Iron Armor. Each stack increases ATK and DEF by {0}, stacking up to 3 time(s). When the Resonator takes damage, reduces the number of stacks by 1.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 30.3,
+          "source": ""
+        },
+        "weapon_name": "Hollow Mirage"
+      },
+      {
+        "commentary_details": "Significantly stronger in a Main DPS team featuring Ciaccona. Best 4-star choice that doesn't require a single pull to acquire â simply requires weekly boss materials to craft and increases ATK by a good amount, especially when attacking enemies with Negative Statuses inflicted on them for an even higher ATK boost. Falls behind any above options due to not giving good stats (just ATK%).",
+        "dupe_rank": "R5",
+        "percentage_performance": "60.80%",
+        "weapon_base_info": {
+          "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Crafting"
+        },
+        "weapon_name": "Legend of Drunken Hero"
+      }
+    ],
     "character_metadata": {
       "breadcrumb": [
         "Wuthering Waves",
         "Characters",
         "Iuno"
       ],
-      "element": null,
+      "element": "Aero",
       "name": "Iuno",
-      "rarity_stars": null,
+      "rarity_stars": 5,
       "slug": "iuno",
       "updates": {
-        "last_major_build_patch": "",
-        "last_profile_update": "",
-        "last_review_patch": "",
-        "last_updated": ""
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "01/October/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "01/October/2026"
       },
-      "weapon_type": null
+      "weapon_type": "Gauntlets"
     },
-    "example_teams": [],
-    "media": null,
-    "minor_fortes": [],
-    "pros_and_cons": null,
-    "ratings": null,
-    "recommended_endgame_stats_target": [],
-    "resonance_chain_dupes": [],
-    "review": null,
-    "rotations": [],
-    "skill_upgrade_priority": null,
-    "skills": [],
-    "synergies": [],
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "jingran, augusta"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "iuno"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Team #1: Best Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "iuno"
+        },
+        "slot_2": {
+          "alternatives": [
+            "ciaccona",
+            "yinlin",
+            "jianxin"
+          ],
+          "character_name": "lynae"
+        },
+        "slot_3": {
+          "alternatives": [
+            "the-shorekeeper",
+            "verina"
+          ],
+          "character_name": "mornye"
+        },
+        "team_name": "Team #2: Main DPS Iuno",
+        "team_notes": "Mornye is only best with Lynae on the team. Only use Aero Rover over Shorekeeper with Ciaccona as your second slot partner. Use Shorekeeper in other scenarios (using Ciaccona in the third slot with Lynae is also amazing). "
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "jiyan"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "iuno"
+        },
+        "slot_3": {
+          "alternatives": [
+            "rover-aero",
+            "the-shorekeeper"
+          ],
+          "character_name": "ciaccona"
+        },
+        "team_name": "Team #3: Jiyan Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "galbrena"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "iuno"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Team #4: Galbrena Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "zani, phoebe"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "iuno"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "rover-spectro"
+        },
+        "team_name": "Team #5: Frazzle Teams",
+        "team_notes": ""
+      }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/iuno_full.webp",
+      "youtube_guide_embed_url": "https://www.youtube.com/embed/7SyLkBE1ReA",
+      "youtube_guide_full_url": "https://www.youtube.com/watch?v=7SyLkBE1ReA"
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+8%",
+        "stat_name": "CRIT Rate"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "ATK%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "Damage-focused character, implying she really wants a properly strong weapon equipped to justify her presence as a Main DPS/over other Heavy Attack buffing options like Rebecca or Mortefi in a certain amount of her possible teams;",
+        "A ton of her damage is very single-target-oriented, meaning most of her attacks aside from her Ultimate are pretty ineffective in AoE/multi-wave content;",
+        "Gives up DMG Amplification effects to herself when swapping out, not just the incoming character, also is mid-air for a lot of her rotation which makes quickswap awkward generally;",
+        "Prone to interruption mid-air, which can slow down her rotations a lot — watch out for enemy attacks and make sure to dodge;",
+        "That Ultimate animation will be a pro to some of you. Not to the ones who wrote this, sorry not sorry."
+      ],
+      "pros": [
+        "Many supportive perks with high damage, including Heavy Attack-related buffs, Healing, Stamina restoration and more;",
+        "The best Support for Jingran at the moment, even though she's relatively old she has plenty of reason to be used as a top-performing Hybrid for a modern team;",
+        "At the top of the late 2.x generation in terms of Main DPS as well, alternative rotation options and the help of Lynae allow her to work as both a Main DPS and buffing character;",
+        "Very flexible team-wise thanks to her ability to fill many roles, extend or shorten her rotation to whatever's necessary;",
+        "One of her Ultimate voicelines (\"Answer my call\") kind of sounds like an angry mother, and honestly, that's really funny."
+      ]
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [],
+          "tier": "T0"
+        },
+        "whimpering_wastes": {
+          "tags": [],
+          "tier": "T1"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T2"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T4"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 15000+",
+      "DEF: 1100+",
+      "ATK: 1800-2400+",
+      "CRIT Rate: 65-80%+",
+      "CRIT DMG: 215-260%",
+      "Energy Regen: 120-130%+ (Hybrid) OR 100% (DPS)Hybrid was estimated in a team with Augusta, DPS was estimated in a team with Lynae+Shorekeeper.",
+      "Aero DMG Bonus: 40-70%+"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "When Iuno is in Lunar Cycle, her ATK is increased by 40%.When Iuno is inside the Full Moon Domain, she additionally restores 1 point of Resonance Energy per second.Resonance Skill - Arc Beyond the Edge and Heavy Attack - Absolute Fullness become immune to interruption.",
+        "name": "Sequence Node 1",
+        "node": "S1"
+      },
+      {
+        "description": "Resonators in the team with 10 stacks of Blessing of the Wan Light gain an additional 40% all DMG Amplification.",
+        "name": "Sequence Node 2",
+        "node": "S2"
+      },
+      {
+        "description": "When Iuno is in Lunar Cycle, DMG dealt by Moonbow - Basic Attack, Resonance Skill - Arc Beyond the Edge, and Moonbow - Dodge Counter is Amplified by 65%.Within a certain period after performing Moonbow - Basic Attack or Moonbow - Dodge Counter, casting Resonance Skill - Arc Beyond the Edge does not reset the cycle of Moonbow - Basic Attack.",
+        "name": "Sequence Node 3",
+        "node": "S3"
+      },
+      {
+        "description": "Casting Heavy Attack - Absolute Fullness grants a Shield equal to 160% of Iuno's ATK to all Resonators in the team for 30s, which cannot be passed on to the incoming Resonator.",
+        "name": "Sequence Node 4",
+        "node": "S4"
+      },
+      {
+        "description": "Iuno gains 20% Resonance Liberation DMG Bonus.",
+        "name": "Sequence Node 5",
+        "node": "S5"
+      },
+      {
+        "description": "The DMG Multiplier of Heavy Attack - Absolute Fullness is increased by 1600%. Upon casting this skill, Iuno re-enters Lunar Cycle - New Moon, gains 100 points of Sentience, and resets all the cooldown of Resonance Skill - Arc Beyond the Edge.",
+        "name": "Sequence Node 6",
+        "node": "S6"
+      }
+    ],
+    "review": {
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Iuno is a 5-star Aero Gauntlets character who can accomplish a wide array of goals on the team. She functions as an effective mix of support and damage, as she is able to heal the team, provide shields to herself, but also deal a ton of damage by herself and even buff the incoming character's Heavy Attack damage. Iuno is a character of many facets, so let's quickly explain her kit before going into the intricacies of her position in the meta."
+          ]
+        },
+        {
+          "heading": "Key Mechanics",
+          "paragraphs": [
+            "Iuno's main mechanic is called Lunar Cycle. She will primarily enter it via casting a Skill after her Intro (called Closing Refrain) or by casting her Ultimate. It has 2 phases: Half Moon and Full Moon. Half Moon is entered by default and will be ignored throughout all of her rotations, as the Full Moon form deals the majority of her damage and is tied to her Forte gauge, which she consumes to enhance her attacks in that stance. That Forte gauge is called Sentience and replenishes up to 100 points, gained from the following actions:",
+            "Intro Skill provides 40 Sentience;",
+            "Closing Refrain provides 25 Sentience;",
+            "Ultimate provides 60 Sentience.",
+            "Additionally, her Unfinished Refrain and Moonring Basic Attacks (in Half Moon stance) all restore Sentience but this will be unused in her rotations.",
+            "Her Sentience bar stores up to 100 points and will be consumed by the following actions:",
+            "Moonbow Basic Attacks (50 points for the whole 3-chain);",
+            "Moonbow Skills, called Arc Beyond The Edge (25 points per skill, 2 charges).",
+            "Every enhanced attack gives lots of extra Concerto Energy and also deal higher damage, making them a key component of her rotations.",
+            "It is however worth noting that her attacks will be enhanced so long as any amount of Sentience is available - the attack gets enhanced all the same whether there's 1 or 25 Sentience available per skill, for example. It only consumes up to that maximum. We abuse this in almost all of her rotations to take her damage and Concerto Energy generation to new heights.",
+            "But before we get too detailed here - how do we access the Full Moon stance? We first need to enter Lunar Cycle (as detailed prior) then cast a jump attack, called Flux. This makes Iuno enter Full Moon Stance and she's ready to begin the main part of her rotation at that point."
+          ]
+        },
+        {
+          "heading": "Basic Attacks",
+          "paragraphs": [
+            "Iuno's standard Basic Attacks and Moonring Basic Attacks are all unused in her rotations. So they're actually pretty skippable. However, her Moonbow Basic Attacks are used plenty, particularly in her Main DPS rotations. They deal a lot of damage, generate a lot of Concerto Energy and consume a lot of Sentience, so we will make extensive use of them for DPS Iuno."
+          ]
+        },
+        {
+          "heading": "Skill & Ultimate",
+          "paragraphs": [
+            "Iuno has a lot of skills, but she only really ever wants to use two.",
+            "The first of which is Closing Refrain: It generates extra Sentience and Concerto on cast. It can either be interrupted instantly by her Ultimate in her Hybrid rotations to give her a bit of a Concerto boost to skip out on some lengthier attacks while still getting her Outro off, or be used fully in her DPS rotation to deal a bit of extra damage and enter Lunar Cycle without immediately making use of the Ultimate.",
+            "It can also be mandatory to use as a means to activate certain weapon effects; keep this in mind depending on your build!",
+            "The second skill is Arc Beyond The Edge: This is her Moonbow stance Skill and it has up to 2 charges, which we always use in her rotation. They can be animation-cancelled, similarly to Ciaccona's Forte Heavy Attack (where we use the Ultimate right after the projectiles have been shot).",
+            "Lastly, Iuno's Ultimate makes her enter Lunar Cycle, and can instantly cancel any ability that is used before it. It also generates a ton of Sentience and is one of the 2 contributors to stacking up a big chunk of DMG Amplification via one of her Inherent Skills. And of course, it deals a ton of damage in a wide AoE on hit."
+          ]
+        },
+        {
+          "heading": "Buffs, Sustain & How to Access Them",
+          "paragraphs": [
+            "Iuno has buffs that she gives herself and buffs that she provides to the whole team. Let's detail the buffs she gives herself first:",
+            "Blessing of the Wan Light (Inherent Skill): Iuno gets 4% DMG Amplification per stack of Blessing for 10s, up to 10 times. She gains 5 stacks by using an Intro, and 5 by using her Ultimate. This effect ends if she is switched off the field.",
+            "Waxing Ascent (Inherent Skill): Whenever Iuno casts any attack, she grants 1 very small Shield to herself (this only serves as a means to trigger the Crown of Valor Echo set and her dedicated Signature weapon effect, the Shield itself will not protect you from any attack except a flick of a finger).",
+            "Now for the buffs she gives to the team:",
+            "Outro: Grants 50% Heavy Attack DMG to the next character switched in for 14s, expires on swap. Super strong, generically applicable buff. Also deals a small hit of damage.",
+            "Full Moon Domain: Accessed via a special Heavy Attack which can only be cast at full Concerto Energy and deals a small amount of damage, Iuno can generate this domain which can grant stacks of Blessing (the same ones she gives herself) in the same manner, being if the incoming character can apply Shields to themselves multiple times. This is only usable by Augusta and Jingran.",
+            "Healing: The Full Moon domain mentioned earlier, as well as the special Heavy Attack, both generate great amounts of healing, the domain granting healing as well as Stamina restoration over time. Additionally, all of Iuno's Sentience-Enhanced attacks all give a small amount of healing to the team."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Iuno is a very strong meta contender who just recently got a huge buff to her meta viability in the form of Jingran. Jingran is a modern Heavy Attack DPS who uses the same type of Shield generation mechanic that Augusta relies on, and as we already know from Augusta, Iuno is a big upgrade to this kind of team's damage ceiling. Sure enough, Iuno is a strong Hybrid buffer for Jingran, Augusta, but also Heavy Attack damage dealers at large, thanks to her great amount of personal damage and great Heavy Attack-focused buffs.",
+            "Additionally, Iuno doesn't just limit herself to this. Lynae was a huge upgrade to her damage ceiling as a Main DPS, and while she only had Ciaccona as a general Aero Support before then, Lynae's massive Liberation DMG-focused buffing profile makes her a very underrated Main DPS capable of rivaling with the rest of her late 2.x peers in their best modern teams.",
+            "In conclusion, Iuno is a meta contender who's here to stay, both as a Main DPS and a Hybrid buffer. The multi-roled Moon Priestess can prove to be a worthwhile pickup to many accounts looking to flesh out the teams of their Heavy Attack damage dealers, with room to grow in the future alongside future Heavy Attack DPS releases."
+          ]
+        }
+      ],
+      "summary": "Iuno is a 5-star Aero Gauntlets character who can accomplish a wide array of goals on the team. She functions as an effective mix of support and damage, as she is able to heal the team, provide shields to herself, but also deal a ton of damage by herself and even buff the incoming character's Heavy Attack damage. Iuno is a character of many facets, so let's quickly explain her kit before going into the intricacies of her position in the meta."
+    },
+    "rotations": [
+      {
+        "rotation_name": "Standard Hybrid Rotation:",
+        "steps": [
+          "Intro",
+          "Skill: Closing Refrain (Instantly interrupt via Echo/Ultimate)",
+          "If on Moonlit Clouds: Echo (Instantly interrupt via Ultimate)",
+          "Ultimate",
+          "Jump: Flux - Moonbow (Instantly interrupt via Dash)",
+          "Dash",
+          "Basic: Moonbow Basic 1",
+          "Basic: Moonbow Basic 2 (Interrupt on 1st hit via Skill)",
+          "Skill: Arc Beyond The Edge (Animation cancel after projectiles were fired by Dash)",
+          "Dash",
+          "Basic: Moonbow Basic 1",
+          "Basic: Moonbow Basic 2 (Interrupt on 1st hit via Skill)",
+          "Skill: Arc Beyond The Edge (Animation cancel after projectiles were fired by Heavy)",
+          "Heavy: Absolute Fullness (Swap)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Semi-DPS Rotation:",
+        "steps": [
+          "Intro",
+          "Skill: Closing Refrain (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Jump: Flux: Moonbow (Interrupt animation via Dash)",
+          "Dash",
+          "Basic: Moonbow Basic 1 (Cancel animation endlag via Skill)",
+          "Skill: Arc Beyond The Edge (Cancel animation after projectiles were fired by Dash)",
+          "Basic: Moonbow Basic 1",
+          "Basic: Moonbow Basic 2",
+          "Basic: Moonbow Basic 3 (Cancel animation endlag via Skill)",
+          "Skill: Arc Beyond The Edge (Cancel animation after projectiles were fired by Heavy)",
+          "Heavy: Absolute Fullness (Swap)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Main DPS Rotation:",
+        "steps": [
+          "Intro",
+          "Skill: Closing Refrain",
+          "Jump: Flux - Moonbow",
+          "Basic: Moonbow Basic 1",
+          "Basic: Moonbow Basic 2",
+          "Basic: Moonbow Basic 3 (Cancel animation endlag by Skill)",
+          "Skill: Arc Beyond The Edge (Animation cancel after projectiles were fired by Ultimate)",
+          "Ultimate",
+          "Basic: Moonbow Basic 1",
+          "Basic: Moonbow Basic 2",
+          "Basic: Moonbow Basic 3 (Cancel animation endlag by Skill)",
+          "Skill: Arc Beyond The Edge (Animation cancel after projectiles were fired by Heavy)",
+          "Heavy: Absolute Fullness (Swap)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "S6 DPS Rotation:",
+        "steps": [
+          "Intro",
+          "Skill: Closing Refrain (Instantly interrupt via Ultimate)",
+          "Ultimate",
+          "Jump: Flux - Moonbow (Instantly interrupt via Dash)",
+          "Dash",
+          "Basic: Moonbow Basic 1",
+          "Basic: Moonbow Basic 2",
+          "Basic: Moonbow Basic 3",
+          "Skill: Arc Beyond The Edge (Animation cancel after projectiles were fired by Dash)",
+          "Dash",
+          "Skill: Arc Beyond The Edge (Animation cancel after projectiles were fired by Heavy)",
+          "Heavy: Absolute Fullness",
+          "Basic: Moonbow Basic 1",
+          "Basic: Moonbow Basic 2",
+          "Basic: Moonbow Basic 3",
+          "Skill: Arc Beyond The Edge (Animation cancel after projectiles were fired by Dash)",
+          "Dash",
+          "Skill: Arc Beyond The Edge (Swap when projectiles were fired)",
+          "Outro"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "Skill and Intro can be skipped when levelling to save on resources at a minimal damage loss.",
+      "order": [
+        "Forte Circuit",
+        "Res. Liberation",
+        "Basic Attack",
+        "Res. Skill",
+        "Intro Skill"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Moonring - Basic AttackPerform up to 3 consecutive attacks with the Moonring, dealing Aero DMG.Mid-air AttackConsume STA to perform a Plunging Attack, dealing Aero DMG.Moonring - Dodge CounterPress Normal Attack shortly after a successful Dodge to attack the target with Moonring, dealing Aero DMG. Press Normal Attack again shortly after performing this skill to cast Moonring - Basic Attack Stage 3.Moonbow - Basic AttackEnter Lunar Cycle - New Moon by casting Heavy Attack - Flux: Moonring. When in this state, Iuno will attack with Moonbow.Perform up to 3 consecutive attacks with the Moonbow, dealing Aero DMG, considered as Resonance Liberation DMG.Can be cast in mid-air.Moonbow - Dodge CounterWhen in Lunar Cycle - New Moon, press Normal Attack shortly after a successful Dodge to attack the target with Moonbow, dealing Aero DMG, considered as Resonance Liberation DMG.When in Lunar Cycle - New Moon, press Normal Attack again shortly after performing this skill to cast Moonbow - Basic Attack Stage 3.Can be cast in mid-air.",
+        "multipliers": [
+          {
+            "Lv1": "44.10%",
+            "Lv10": "87.68%",
+            "Lv2": "47.72%",
+            "Lv3": "51.34%",
+            "Lv4": "56.40%",
+            "Lv5": "60.02%",
+            "Lv6": "64.17%",
+            "Lv7": "69.96%",
+            "Lv8": "75.75%",
+            "Lv9": "81.53%",
+            "Name": "Moonring - Basic Attack 1 DMG"
+          },
+          {
+            "Lv1": "23.17%*2 + 23.87%",
+            "Lv10": "46.06%*2 + 47.46%",
+            "Lv2": "25.07%*2 + 25.83%",
+            "Lv3": "26.97%*2 + 27.79%",
+            "Lv4": "29.63%*2 + 30.53%",
+            "Lv5": "31.53%*2 + 32.48%",
+            "Lv6": "33.71%*2 + 34.74%",
+            "Lv7": "36.75%*2 + 37.87%",
+            "Lv8": "39.79%*2 + 41.00%",
+            "Lv9": "42.83%*2 + 44.13%",
+            "Name": "Moonring - Basic Attack 2 DMG"
+          },
+          {
+            "Lv1": "44.26%*2 + 45.60%",
+            "Lv10": "87.98%*2 + 90.65%",
+            "Lv2": "47.89%*2 + 49.34%",
+            "Lv3": "51.52%*2 + 53.08%",
+            "Lv4": "56.60%*2 + 58.31%",
+            "Lv5": "60.22%*2 + 62.05%",
+            "Lv6": "64.40%*2 + 66.35%",
+            "Lv7": "70.20%*2 + 72.33%",
+            "Lv8": "76.01%*2 + 78.31%",
+            "Lv9": "81.82%*2 + 84.29%",
+            "Name": "Moonring - Basic Attack 3 DMG"
+          },
+          {
+            "Lv1": "27.00%*2",
+            "Lv10": "53.68%*2",
+            "Lv2": "29.22%*2",
+            "Lv3": "31.43%*2",
+            "Lv4": "34.53%*2",
+            "Lv5": "36.75%*2",
+            "Lv6": "39.29%*2",
+            "Lv7": "42.84%*2",
+            "Lv8": "46.38%*2",
+            "Lv9": "49.92%*2",
+            "Name": "Mid-air Attack"
+          },
+          {
+            "Lv1": "41.29%*2 + 42.54%",
+            "Lv10": "82.08%*2 + 84.57%",
+            "Lv2": "44.67%*2 + 46.03%",
+            "Lv3": "48.06%*2 + 49.51%",
+            "Lv4": "52.80%*2 + 54.40%",
+            "Lv5": "56.18%*2 + 57.89%",
+            "Lv6": "60.08%*2 + 61.90%",
+            "Lv7": "65.49%*2 + 67.48%",
+            "Lv8": "70.91%*2 + 73.06%",
+            "Lv9": "76.32%*2 + 78.64%",
+            "Name": "Moonring - Dodge Counter"
+          },
+          {
+            "Lv1": "63.60%",
+            "Lv10": "126.45%",
+            "Lv2": "68.82%",
+            "Lv3": "74.04%",
+            "Lv4": "81.34%",
+            "Lv5": "86.55%",
+            "Lv6": "92.55%",
+            "Lv7": "100.89%",
+            "Lv8": "109.24%",
+            "Lv9": "117.58%",
+            "Name": "Moonbow - Basic Attack 1 DMG"
+          },
+          {
+            "Lv1": "28.00%*3",
+            "Lv10": "55.67%*3",
+            "Lv2": "30.30%*3",
+            "Lv3": "32.60%*3",
+            "Lv4": "35.81%*3",
+            "Lv5": "38.11%*3",
+            "Lv6": "40.75%*3",
+            "Lv7": "44.42%*3",
+            "Lv8": "48.09%*3",
+            "Lv9": "51.77%*3",
+            "Name": "Moonbow - Basic Attack 2 DMG"
+          },
+          {
+            "Lv1": "84.00%*2",
+            "Lv10": "167.01%*2",
+            "Lv2": "90.89%*2",
+            "Lv3": "97.78%*2",
+            "Lv4": "107.42%*2",
+            "Lv5": "114.31%*2",
+            "Lv6": "122.23%*2",
+            "Lv7": "133.25%*2",
+            "Lv8": "144.27%*2",
+            "Lv9": "155.30%*2",
+            "Name": "Moonbow - Basic Attack 3 DMG"
+          },
+          {
+            "Lv1": "52.00%*3",
+            "Lv10": "103.39%*3",
+            "Lv2": "56.27%*3",
+            "Lv3": "60.53%*3",
+            "Lv4": "66.50%*3",
+            "Lv5": "70.77%*3",
+            "Lv6": "75.67%*3",
+            "Lv7": "82.49%*3",
+            "Lv8": "89.31%*3",
+            "Lv9": "96.14%*3",
+            "Name": "Moonbow - Dodge Counter DMG"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-air Attack STA Cost"
+          }
+        ],
+        "name": "Moon Steps",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Pulse of OriginsDash forward, dealing Aero DMG.Closing RefrainWhen not in Lunar Cycle, casting Moonring - Basic Attack Stage 3, Intro Skill, or Pulse of Origins replaces Iuno's Resonance Skill with Closing Refrain for 5s.Casting Closing Refrain unleashes a flurry of strikes, dealing Aero DMG, and activates Lunar Cycle.Unfinished RefrainWhen in Lunar Cycle - Half Moon, Iuno's Resonance Skill is replaced with Unfinished Refrain.\nCasting Unfinished Refrain unleashes a flurry of strikes, dealing Aero DMG.Unfinished Refrain shares the same Cooldown as Closing Refrain.Arc Beyond the EdgeWhen Iuno is in Lunar Cycle - New Moon, her Resonance Skill is replaced with Arc Beyond the Edge, which has 2 initial charges.Casting Arc Beyond the Edge causes Iuno to shift position and deal Aero DMG, considered as Resonance Liberation DMG.Directional input can be used to extend the travel distance. If Iuno is hit or launched into mid-air, casting Arc Beyond the Edge immediately makes her recover from the attack.\nCan be cast in mid-air.",
+        "multipliers": [
+          {
+            "Lv1": "9.38%*7 + 65.65%",
+            "Lv10": "18.65%*7 + 130.52%",
+            "Lv2": "10.15%*7 + 71.04%",
+            "Lv3": "10.92%*7 + 76.42%",
+            "Lv4": "12.00%*7 + 83.96%",
+            "Lv5": "12.77%*7 + 89.34%",
+            "Lv6": "13.65%*7 + 95.53%",
+            "Lv7": "14.88%*7 + 104.15%",
+            "Lv8": "16.11%*7 + 112.76%",
+            "Lv9": "17.34%*7 + 121.37%",
+            "Name": "Pulse of Origins DMG"
+          },
+          {
+            "Lv1": "6",
+            "Lv10": "6",
+            "Lv2": "6",
+            "Lv3": "6",
+            "Lv4": "6",
+            "Lv5": "6",
+            "Lv6": "6",
+            "Lv7": "6",
+            "Lv8": "6",
+            "Lv9": "6",
+            "Name": "Pulse of Origins Cooldown"
+          },
+          {
+            "Lv1": "6",
+            "Lv10": "6",
+            "Lv2": "6",
+            "Lv3": "6",
+            "Lv4": "6",
+            "Lv5": "6",
+            "Lv6": "6",
+            "Lv7": "6",
+            "Lv8": "6",
+            "Lv9": "6",
+            "Name": "Pulse of Origins Concerto Regen"
+          },
+          {
+            "Lv1": "70.79%*2+72.93%",
+            "Lv10": "140.73%*2+145.00%",
+            "Lv2": "76.59%*2+78.92%",
+            "Lv3": "82.40%*2+84.90%",
+            "Lv4": "90.52%*2+93.27%",
+            "Lv5": "96.33%*2+99.25%",
+            "Lv6": "103.00%*2+106.13%",
+            "Lv7": "112.29%*2+115.69%",
+            "Lv8": "121.58%*2+125.26%",
+            "Lv9": "130.87%*2+134.83%",
+            "Name": "Closing Refrain DMG"
+          },
+          {
+            "Lv1": "8",
+            "Lv10": "8",
+            "Lv2": "8",
+            "Lv3": "8",
+            "Lv4": "8",
+            "Lv5": "8",
+            "Lv6": "8",
+            "Lv7": "8",
+            "Lv8": "8",
+            "Lv9": "8",
+            "Name": "Closing Refrain Concerto Regen"
+          },
+          {
+            "Lv1": "70.79%*2+72.93%",
+            "Lv10": "140.73%*2+145.00%",
+            "Lv2": "76.59%*2+78.92%",
+            "Lv3": "82.40%*2+84.90%",
+            "Lv4": "90.52%*2+93.27%",
+            "Lv5": "96.33%*2+99.25%",
+            "Lv6": "103.00%*2+106.13%",
+            "Lv7": "112.29%*2+115.69%",
+            "Lv8": "121.58%*2+125.26%",
+            "Lv9": "130.87%*2+134.83%",
+            "Name": "Unfinished Refrain DMG"
+          },
+          {
+            "Lv1": "8",
+            "Lv10": "8",
+            "Lv2": "8",
+            "Lv3": "8",
+            "Lv4": "8",
+            "Lv5": "8",
+            "Lv6": "8",
+            "Lv7": "8",
+            "Lv8": "8",
+            "Lv9": "8",
+            "Name": "Closing/Unfinished Refrain Cooldown"
+          },
+          {
+            "Lv1": "8",
+            "Lv10": "8",
+            "Lv2": "8",
+            "Lv3": "8",
+            "Lv4": "8",
+            "Lv5": "8",
+            "Lv6": "8",
+            "Lv7": "8",
+            "Lv8": "8",
+            "Lv9": "8",
+            "Name": "Unfinished Refrain Concerto Regen"
+          },
+          {
+            "Lv1": "110.55%*2",
+            "Lv10": "219.79%*2",
+            "Lv2": "119.62%*2",
+            "Lv3": "128.69%*2",
+            "Lv4": "141.38%*2",
+            "Lv5": "150.44%*2",
+            "Lv6": "160.87%*2",
+            "Lv7": "175.37%*2",
+            "Lv8": "189.87%*2",
+            "Lv9": "204.38%*2",
+            "Name": "Arc Beyond the Edge DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Arc Beyond the Edge Cooldown"
+          },
+          {
+            "Lv1": "8",
+            "Lv10": "8",
+            "Lv2": "8",
+            "Lv3": "8",
+            "Lv4": "8",
+            "Lv5": "8",
+            "Lv6": "8",
+            "Lv7": "8",
+            "Lv8": "8",
+            "Lv9": "8",
+            "Name": "Arc Beyond the Edge Concerto Regen"
+          }
+        ],
+        "name": "Foresight Fugue",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Deal Aero DMG and activate the Lunar Cycle state.Can be cast in mid-air.",
+        "multipliers": [
+          {
+            "Lv1": "550.00%",
+            "Lv10": "1093.46%",
+            "Lv2": "595.10%",
+            "Lv3": "640.20%",
+            "Lv4": "703.34%",
+            "Lv5": "748.44%",
+            "Lv6": "800.31%",
+            "Lv7": "872.47%",
+            "Lv8": "944.63%",
+            "Lv9": "1016.79%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv10": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Name": "Resonance Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Beneath Lunar Tides",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Lunar CycleIuno can activate Lunar Cycle by casting Resonance Skill - Closing Refrain or Resonance Liberation.\nLunar Cycle has two states: Half Moon and New Moon. By default, Iuno enters the Half Moon state when activating Lunar Cycle and can switch between the two states by casting Heavy Attack - Flux.When in Lunar Cycle:Iuno's Jump is replaced with Heavy Attack - Flux. STA won't recover when Iuno is in mid-air.Iuno's movement becomes Meandering, which consumes STA continuously in mid-air to move in a unique manner.Performing environmental interactions, using Utilities, or holding Jump will end Lunar Cycle.Lunar Cycle - Half MoonIuno attacks using the Moonring, restoring Sentience on hit.She can use Heavy Attack - Flux: Moonbow to deal Aero DMG (considered as Resonance Liberation DMG) and switch to Lunar Cycle - New Moon.Heavy Attack - Flux: Moonbow can be cast in mid-air.Lunar Cycle - New MoonIuno attacks using the Moonbow. While in this state, casting Moonbow - Basic Attack, Resonance Skill - Arc Beyond the Edge, or Moonbow - Dodge Counter consumes Sentience to increase the skill's DMG Multiplier, restore additional Concerto Energy, and heal nearby Resonators in the team.Iuno can use Heavy Attack - Flux: Moonring to deal Aero DMG (considered as Resonance Liberation DMG) and switch to Lunar Cycle - Half Moon.Heavy Attack - Flux: Moonring can be cast in mid-air.Heavy Attack - Absolute FullnessWhen Iuno's Concerto Energy is full, her Heavy Attack is replaced with Absolute Fullness.Casting Absolute Fullness ends Lunar Cycle, provides healing for nearby Resonators in the team, deals Aero DMG to nearby targets (considered as Resonance Liberation DMG), and conjures a Full Moon domain at her location. This effect can be triggered once every 25s.Can be cast in mid-air.Full Moon DomainResonators inside the domain periodically restore HP and STA.Gaining a Shield inside the domain grants 1 stack of Blessing of the Wan Light. This effect can be triggered once every 0.5s.Blessing of the Wan LightThe receiving Resonator gains 4% all DMG Amplification for 10s, stacking up to 10 times. Gaining new stacks resets the duration. This effect ends early if the receiving Resonator is switched off the field.SentienceIuno can hold up to 100 points of Sentience.Casting Intro Skill restores 40 points of Sentience.Casting Resonance Liberation restores 60 points of Sentience.Casting Closing Refrain or Unfinished Refrain restores 25 points of Sentience.When Iuno is in Lunar Cycle, Moonring - Basic Attack, Moonring - Dodge Counter, and Mid-air Attack restore Sentience on hit.",
+        "multipliers": [
+          {
+            "Lv1": "15",
+            "Lv10": "15",
+            "Lv2": "15",
+            "Lv3": "15",
+            "Lv4": "15",
+            "Lv5": "15",
+            "Lv6": "15",
+            "Lv7": "15",
+            "Lv8": "15",
+            "Lv9": "15",
+            "Name": "Lunar Cycle Duration"
+          },
+          {
+            "Lv1": "126.00%",
+            "Lv10": "250.51%",
+            "Lv2": "136.34%",
+            "Lv3": "146.67%",
+            "Lv4": "161.13%",
+            "Lv5": "171.47%",
+            "Lv6": "183.35%",
+            "Lv7": "199.88%",
+            "Lv8": "216.41%",
+            "Lv9": "232.94%",
+            "Name": "Flux - Moonbow DMG"
+          },
+          {
+            "Lv1": "39.83%*4",
+            "Lv10": "79.18%*4",
+            "Lv2": "43.10%*4",
+            "Lv3": "46.36%*4",
+            "Lv4": "50.93%*4",
+            "Lv5": "54.20%*4",
+            "Lv6": "57.95%*4",
+            "Lv7": "63.18%*4",
+            "Lv8": "68.40%*4",
+            "Lv9": "73.63%*4",
+            "Name": "Flux - Moonring DMG"
+          },
+          {
+            "Lv1": "103.60%",
+            "Lv10": "205.97%",
+            "Lv2": "112.10%",
+            "Lv3": "120.60%",
+            "Lv4": "132.49%",
+            "Lv5": "140.98%",
+            "Lv6": "150.75%",
+            "Lv7": "164.35%",
+            "Lv8": "177.94%",
+            "Lv9": "191.53%",
+            "Name": "Enhanced Moonbow - Basic Attack 1 DMG"
+          },
+          {
+            "Lv1": "48.00%*3",
+            "Lv10": "88.74%*3",
+            "Lv2": "51.94%*3",
+            "Lv3": "55.88%*3",
+            "Lv4": "61.39%*3",
+            "Lv5": "65.32%*3",
+            "Lv6": "69.85%*3",
+            "Lv7": "76.15%*3",
+            "Lv8": "82.44%*3",
+            "Lv9": "88.74%*3",
+            "Name": "Enhanced Moonbow - Basic Attack 2 DMG"
+          },
+          {
+            "Lv1": "134.00%*2",
+            "Lv10": "266.41%*2",
+            "Lv2": "144.99%*2",
+            "Lv3": "155.98%*2",
+            "Lv4": "171.36%*2",
+            "Lv5": "182.35%*2",
+            "Lv6": "194.99%*2",
+            "Lv7": "212.57%*2",
+            "Lv8": "230.15%*2",
+            "Lv9": "247.73%*2",
+            "Name": "Enhanced Moonbow - Basic Attack 3 DMG"
+          },
+          {
+            "Lv1": "78.67%*3",
+            "Lv10": "156.40%*3",
+            "Lv2": "85.12%*3",
+            "Lv3": "91.57%*3",
+            "Lv4": "100.60%*3",
+            "Lv5": "107.05%*3",
+            "Lv6": "114.47%*3",
+            "Lv7": "124.79%*3",
+            "Lv8": "135.11%*3",
+            "Lv9": "145.44%*3",
+            "Name": "Enhanced Moonbow - Dodge Counter DMG"
+          },
+          {
+            "Lv1": "160.55%*2",
+            "Lv10": "319.19%*2",
+            "Lv2": "173.72%*2",
+            "Lv3": "186.89%*2",
+            "Lv4": "205.32%*2",
+            "Lv5": "218.48%*2",
+            "Lv6": "233.62%*2",
+            "Lv7": "254.69%*2",
+            "Lv8": "275.75%*2",
+            "Lv9": "296.81%*2",
+            "Name": "Enhanced Arc Beyond the Edge DMG"
+          },
+          {
+            "Lv1": "4",
+            "Lv10": "4",
+            "Lv2": "4",
+            "Lv3": "4",
+            "Lv4": "4",
+            "Lv5": "4",
+            "Lv6": "4",
+            "Lv7": "4",
+            "Lv8": "4",
+            "Lv9": "4",
+            "Name": "Moonbow - Basic Attack 1 Extra Concerto Regen"
+          },
+          {
+            "Lv1": "6",
+            "Lv10": "6",
+            "Lv2": "6",
+            "Lv3": "6",
+            "Lv4": "6",
+            "Lv5": "6",
+            "Lv6": "6",
+            "Lv7": "6",
+            "Lv8": "6",
+            "Lv9": "6",
+            "Name": "Moonbow - Basic Attack 2 Extra Concerto Regen"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Moonbow - Basic Attack 3 Extra Concerto Regen"
+          },
+          {
+            "Lv1": "8",
+            "Lv10": "8",
+            "Lv2": "8",
+            "Lv3": "8",
+            "Lv4": "8",
+            "Lv5": "8",
+            "Lv6": "8",
+            "Lv7": "8",
+            "Lv8": "8",
+            "Lv9": "8",
+            "Name": "Moonbow - Dodge Counter Extra Concerto Regen"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Arc Beyond the Edge Extra Concerto Regen"
+          },
+          {
+            "Lv1": "13.03% ATK",
+            "Lv10": "25.91% ATK",
+            "Lv2": "14.10% ATK",
+            "Lv3": "15.17% ATK",
+            "Lv4": "16.67% ATK",
+            "Lv5": "17.73% ATK",
+            "Lv6": "18.96% ATK",
+            "Lv7": "20.67% ATK",
+            "Lv8": "22.38% ATK",
+            "Lv9": "24.09% ATK",
+            "Name": "Moonbow - Basic Attack 1 Healing"
+          },
+          {
+            "Lv1": "13.03% ATK",
+            "Lv10": "25.91% ATK",
+            "Lv2": "14.10% ATK",
+            "Lv3": "15.17% ATK",
+            "Lv4": "16.67% ATK",
+            "Lv5": "17.73% ATK",
+            "Lv6": "18.96% ATK",
+            "Lv7": "20.67% ATK",
+            "Lv8": "22.38% ATK",
+            "Lv9": "24.09% ATK",
+            "Name": "Moonbow - Basic Attack 2 Healing"
+          },
+          {
+            "Lv1": "24.43% ATK",
+            "Lv10": "48.57% ATK",
+            "Lv2": "26.44% ATK",
+            "Lv3": "28.44% ATK",
+            "Lv4": "31.24% ATK",
+            "Lv5": "33.25% ATK",
+            "Lv6": "35.55% ATK",
+            "Lv7": "38.75% ATK",
+            "Lv8": "41.96% ATK",
+            "Lv9": "45.16% ATK",
+            "Name": "Moonbow - Basic Attack 3 Healing"
+          },
+          {
+            "Lv1": "16.29% ATK",
+            "Lv10": "32.38% ATK",
+            "Lv2": "17.63% ATK",
+            "Lv3": "18.96% ATK",
+            "Lv4": "20.83% ATK",
+            "Lv5": "22.17% ATK",
+            "Lv6": "23.70% ATK",
+            "Lv7": "25.84% ATK",
+            "Lv8": "27.97% ATK",
+            "Lv9": "30.11% ATK",
+            "Name": "Moonbow - Dodge Counter Healing"
+          },
+          {
+            "Lv1": "24.43% ATK",
+            "Lv10": "48.57% ATK",
+            "Lv2": "26.44% ATK",
+            "Lv3": "28.44% ATK",
+            "Lv4": "31.24% ATK",
+            "Lv5": "33.25% ATK",
+            "Lv6": "35.55% ATK",
+            "Lv7": "38.75% ATK",
+            "Lv8": "41.96% ATK",
+            "Lv9": "45.16% ATK",
+            "Name": "Arc Beyond the Edge Healing"
+          },
+          {
+            "Lv1": "80.00%",
+            "Lv10": "159.05%",
+            "Lv2": "86.56%",
+            "Lv3": "93.12%",
+            "Lv4": "102.31%",
+            "Lv5": "108.87%",
+            "Lv6": "116.41%",
+            "Lv7": "126.91%",
+            "Lv8": "137.40%",
+            "Lv9": "147.90%",
+            "Name": "Absolute Fullness DMG"
+          },
+          {
+            "Lv1": "97.71% ATK",
+            "Lv10": "194.26% ATK",
+            "Lv2": "105.73% ATK",
+            "Lv3": "113.74% ATK",
+            "Lv4": "124.96% ATK",
+            "Lv5": "132.97% ATK",
+            "Lv6": "142.18% ATK",
+            "Lv7": "155.00% ATK",
+            "Lv8": "167.82% ATK",
+            "Lv9": "180.64% ATK",
+            "Name": "Absolute Fullness Healing"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Full Moon Domain Duration"
+          },
+          {
+            "Lv1": "5",
+            "Lv10": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Name": "Full Moon Domain Interval"
+          },
+          {
+            "Lv1": "16.29% ATK",
+            "Lv10": "32.38% ATK",
+            "Lv2": "17.63% ATK",
+            "Lv3": "18.96% ATK",
+            "Lv4": "20.83% ATK",
+            "Lv5": "22.17% ATK",
+            "Lv6": "23.70% ATK",
+            "Lv7": "25.84% ATK",
+            "Lv8": "27.97% ATK",
+            "Lv9": "30.11% ATK",
+            "Name": "Full Moon Domain Healing"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Full Moon Domain STA Regen"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Meandering STA Cost per Second"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Heavy Attack - Flux STA Cost"
+          }
+        ],
+        "name": "Ebb and Flow",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "Every time Iuno casts Basic Attack, Heavy Attack, Dodge Counter, Resonance Skill, Resonance Liberation, or Intro Skill, she gains 1 Shield equal to 32% of her ATK for 15s. This Shield will not be passed on to the incoming Resonator.",
+        "multipliers": [],
+        "name": "Waxing Ascent",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "When Iuno casts Intro Skill or Resonance Liberation, she immediately gains 5 stacks of Blessing of the Wan Light.",
+        "multipliers": [],
+        "name": "Derivation",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Deal Aero DMG.",
+        "multipliers": [
+          {
+            "Lv1": "8.00%*7 + 24.00%",
+            "Lv10": "15.91%*7 + 47.72%",
+            "Lv2": "8.66%*7 + 25.97%",
+            "Lv3": "9.32%*7 + 27.94%",
+            "Lv4": "10.24%*7 + 30.70%",
+            "Lv5": "10.89%*7 + 32.66%",
+            "Lv6": "11.65%*7 + 34.93%",
+            "Lv7": "12.70%*7 + 38.08%",
+            "Lv8": "13.74%*7 + 41.22%",
+            "Lv9": "14.79%*7 + 44.37%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Illuminated Manifestation",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Attack the target to deal 100% Aero DMG. The incoming Resonator gains 50% Heavy Attack DMG Amplification for 14s. This effect ends early if they are switched off the field.Casting Outro Skill won't interrupt Heavy Attack - Absolute Fullness, and the Outro Skill effect still applies.",
+        "multipliers": [],
+        "name": "From Gloom to Gleam",
+        "skill_type": "Outro Skill"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "jingran",
+          "augusta",
+          "jiyan"
+        ],
+        "commentary": "As the best teammates for Hybrid Iuno, it's no surprise that our 2 Shield Heavy Attack damage dealers Jingran and Augusta are her best options, being able to fully benefit from her 90% Heavy DMG Amplification when fully ramped up. Jiyan isn't a bad choice, since he can also use Iuno's Outro while being able to pair with Ciaccona to form a decent Mono Aero team."
+      },
+      {
+        "characters": [
+          "lynae",
+          "ciaccona",
+          "yinlin",
+          "jianxin"
+        ],
+        "commentary": "These three are the best buffers for Main DPS Iuno. Lynae is generally the best one by far as her generalist buffs are unparalleled and she provides a total of 40% DMG Amplification to Iuno via her Outro; while Ciaccona has no Outro buff dedicated to Iuno, she does provide solid personal damage, a super fast rotation and a lot of Aero DMG increases in the form of DMG Bonus and RES Shred with her Signature. Yinlin has lower DMG Amplification than Jianxin via their Outros (25% vs 38%), but Yinlin remains better thanks to having good Energy generation, solid personal damage and a rather quick rotation. Jianxin is a perfectly viable F2P-accessible choice though, particularly with higher Sequences, making all three good choices overall."
+      },
+      {
+        "characters": [
+          "phoebe",
+          "zani",
+          "galbrena"
+        ],
+        "commentary": "These Heavy Attack damage dealers can all be recipients of Iuno's Outro buff, however in those teams Iuno's Outro buff pales in comparison to their dedicated teammates: Phoebe is best used when buffing Zani, Qiuyuan is best to buff Galbrena, and even to buff Phoebe she already has enough DMG Amplification in her own kit which makes a secondary source of damage like Phrolova stronger than Iuno. Nevertheless, Iuno is easily capable of buffing their damage and she brings her own personal damage and sustain to the table if desired."
+      },
+      {
+        "characters": [
+          "mornye",
+          "the-shorekeeper",
+          "verina",
+          "rover-aero"
+        ],
+        "commentary": "Iuno's array of Support choices that are all very strong. Mornye has a special synergy with Lynae since Lynae can apply Tune Rupture/Strain for Mornye to respond to them and provide her full array of buffs, making her the best choice generally if Lynae is in use. While Aero Rover only sees use over Shorekeeper in Main DPS Iuno teams for general Aero Buffs, Shorekeeper and Verina are your best generalist bets thanks to their general DMG Amplification Outro, high ATK buffs and even CRIT buffs in the case of Shorekeeper, making for great pairings overall."
+      }
+    ],
     "upgrade_materials": {
-      "character_ascension": [],
-      "skill_upgrades": []
+      "character_ascension": [
+        {
+          "material_name": "Sliverglow Bloom",
+          "quantity": 60,
+          "rarity": "boss"
+        },
+        {
+          "material_name": "Abyssal Husk",
+          "quantity": 46,
+          "rarity": "specialty"
+        },
+        {
+          "material_name": "LF Polygon Core",
+          "quantity": 4,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Polygon Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Polygon Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Polygon Core",
+          "quantity": 4,
+          "rarity": "common"
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "The Netherworld's Stare",
+          "quantity": 26,
+          "rarity": "weekly_boss"
+        },
+        {
+          "material_name": "LF Polygon Core",
+          "quantity": 25,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Polygon Core",
+          "quantity": 28,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Polygon Core",
+          "quantity": 40,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Polygon Core",
+          "quantity": 57,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Cadence Seed",
+          "quantity": 25,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Cadence Bud",
+          "quantity": 28,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Cadence Leaf",
+          "quantity": 55,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Cadence Blossom",
+          "quantity": 67,
+          "rarity": "skill_material"
+        }
+      ]
     },
-    "voice_actors": null
+    "voice_actors": {
+      "cn": "",
+      "eng": "",
+      "jpn": "",
+      "kr": ""
+    }
   },
   "status": "success"
 }

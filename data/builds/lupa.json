@@ -1,44 +1,1145 @@
 {
   "data": {
-    "base_stats_lvl_90": null,
-    "best_echo_sets": [],
-    "best_echo_stats": null,
-    "best_weapons": [],
+    "base_stats_lvl_90": {
+      "atk": 31,
+      "crit_dmg": "150%",
+      "crit_rate": "13%",
+      "def": 97,
+      "elemental_dmg_bonus": "0%",
+      "healing_bonus": "0%",
+      "hp": 953,
+      "max_energy": 125
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Increases Fusion DMG Bonus by 10% unconditionally and gives all party members 15% Fusion DMG Bonus when casting Ultimate on top of giving the equipper 20% Liberation DMG Bonus, all of these effects lasting 35s (which means they can be permanently applicable if maintained). Lupa's dedicated Echo set is expectedly her best thanks to its ability to increase her primary damage type immediately as she uses her Resonance Liberation at the beginning of her rotation, all the while providing a party-wide Fusion DMG Bonus increase as she typically is paired with a Fusion DPS, which offers the best mix of damage increase to herself and supportive capabilities for her teammates.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "A great summon-type Echo for Lupa that does a good chunk of damage on cast (it can be used at any point in her rotation as well) all the while increasing Fusion DMG and Resonance Liberation DMG by 12% each just for being equipped in the main slot, making it her best choice.",
+            "echo_name": "Lioness of Glory"
+          }
+        ],
+        "percentage_performance": "100.00%",
+        "set_name": "Flaming Clawprint"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ],
+        "cost_3": [
+          "Fusion DMG",
+          "Fusion DMG > ATK%"
+        ],
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%",
+        "ATK",
+        "Liberation ATK DMG%"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "High Base ATK and CRIT DMG, and a Resonance Liberation DMG Bonus buff as well as a team-wide 24% DMG buff make Lupa's Signature expectedly her best weapon bar none.",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Performing Intro Skill or Resonance Liberation increases Resonance Liberation DMG by {1} for 6s. Dealing Heavy Attack DMG extends this effect by 4s, up to 1 time. Each successful extension gives {1} Fusion DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Wildfire Mark"
+      },
+      {
+        "commentary_details": "Mostly a CRIT Rate and Base ATK stat stick for Lupa. She is fully able to take advantage of this weapon's effect, but in practice it only buffs the Foebreaker Resonance Skill after her Ultimate which only represents 1/8 of her damage. So while it remains a great option, it's not the strongest.",
+        "dupe_rank": "R1",
+        "percentage_performance": "88.00%",
+        "weapon_base_info": {
+          "effect_description": "Grants {0} Attribute DMG Bonus. Casting Intro Skill gives the equipper Ageless Marking, which grants {1} Resonance Skill DMG Bonus for 12s. Casting Resonance Skill gives the equipper Ethereal Endowment, which grants {1} Resonance Skill DMG Bonus for 12s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Gacha"
+        },
+        "weapon_name": "Ages of Harvest"
+      },
+      {
+        "commentary_details": "Chisa's Signature provides Lupa with a very small amount of Liberation DMG on Intro, and a huge chunk of CRIT Rate at the cost of slightly lower Base ATK than other 5-stars. Its stat totals (due to lower Base ATK) don't make it better than Ages of Harvest but do make it a good alternative if you don't own her Signature weapon.",
+        "dupe_rank": "R1",
+        "percentage_performance": "87.50%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. When the wielder casts Intro Skill or inflicts Negative Statuses, they gain {1} Resonance Liberation DMG Bonus, stacking up to 3 times for 15s. At max stacks, when Resonators in the team inflict Negative Statuses, they gain  {2} All-Attribute DMG Bonus for 15s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 36,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Kumokiri"
+      },
+      {
+        "commentary_details": "Mostly a CRIT DMG and Base ATK stat stick for Lupa. She is fully able to take advantage of this weapon's effect, but in practice it only buffs her Wolf's Claw Heavy Attack which only represents 1/16 of her damage, so while it remains a great option, it's not the strongest.",
+        "dupe_rank": "R1",
+        "percentage_performance": "86.70%",
+        "weapon_base_info": {
+          "effect_description": "Increases the DMG Bonus of all Resonance Attributes by {0}. Every time Intro Skill or Resonance Liberation is cast, increases Heavy Attack DMG Bonus by {1}, stacking up to 2 time(s). This effect lasts for 14s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Limited"
+        },
+        "weapon_name": "Verdant Summit"
+      },
+      {
+        "commentary_details": "The best permanently available option for Lupa which acts as a nice ATK and CRIT DMG stat-stick for her.",
+        "dupe_rank": "R1",
+        "percentage_performance": "84.40%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Dealing damage to targets under Tune Strain: Interfered grants {1} Resonance Liberation Bonus for 3s. Retriggering the effect resets its duration.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Radiance Cleaver"
+      },
+      {
+        "commentary_details": "Simple ATK and CRIT Rate stat-stick for Lupa who does not benefit from this weapon's Heavy Attack DMG-focused effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "84.30%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Casting Intro Skill or Resonance Skill increases Heavy Attack DMG by {1} for 15s. Obtaining Shield allows Heavy Attack DMG to ignore {2} of the target's DEF for 7s, stacking up to 5 times. This effect is triggered once every 0.5s",
+          "primary_stat_val": 675,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 12.1,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Thunderflare Dominion"
+      },
+      {
+        "commentary_details": "The Standard Banner Broadblade is for once a great option on Lupa. In spite of its secondary stat being ATK% which is often less preferable, as Lupa gives herself a ton of DMG bonus and this weapon's effect increases Resonance Liberation DMG even further on top of giving her much-needed Energy Regen, this weapon's stats end up being quite desirable on Lupa which makes it a perfectly suitable choice for her.",
+        "dupe_rank": "R1",
+        "percentage_performance": "81.40%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases Resonance Liberation DMG by {1}, stacking up to {2} times. This effect lasts for {3}s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Lustrous Razor"
+      },
+      {
+        "commentary_details": "The best 4-star option on Lupa thanks to its solid Base ATK, ATK-increasing effects, and ability to restore flat Energy when Resonance Skill is cast, which eases Lupa's build requirements as she tends to require a good chunk of Energy Regen.",
+        "dupe_rank": "R5",
+        "percentage_performance": "75.80%",
+        "weapon_base_info": {
+          "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Gacha"
+        },
+        "weapon_name": "Waning Redshift"
+      },
+      {
+        "commentary_details": "This Battle Pass exclusive provides Lupa with a quickly accessed ATK increase after casting Ultimate, but also a nice CRIT DMG secondary stat. As she barely benefits from the Heavy Attack DMG increase this weapon provides, and its Base ATK is rather low, it ranks lower than above options.",
+        "dupe_rank": "R5",
+        "percentage_performance": "74.90%",
+        "weapon_base_info": {
+          "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Heavy Attack DMG Bonus for 15s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 40.5,
+          "source": "Battle Pass"
+        },
+        "weapon_name": "Aureate Zenith"
+      },
+      {
+        "commentary_details": "This Battle Pass exclusive is solid on Lupa thanks to its easily accessed CRIT Rate and ATK-increasing effects, but its passive is difficult to stack on her because she mostly deals Liberation DMG so it falls behind other 4-star choices.",
+        "dupe_rank": "R5",
+        "percentage_performance": "73.10%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0} upon dealing Basic Attack DMG or Heavy Attack DMG, stacking up to 5 time(s). This effect lasts for 7s and can be triggered 1 time(s) every 1s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.2,
+          "source": "Pioneer Podcast"
+        },
+        "weapon_name": "Autumntrace"
+      },
+      {
+        "commentary_details": "While Lupa is unable to fully access this Broadblade's stackable ATK buff when using Resonance Skill, this weapon remains better than any 3-star choices as it does give a good chunk of ATK.",
+        "dupe_rank": "R5",
+        "percentage_performance": "69.30%",
+        "weapon_base_info": {
+          "effect_description": "Within {0}s after Resonance Skill is cast, increases ATK by {2} every 2s, stacking up to 4 time(s). This effect can be triggered 1 time(s) every 12s. When the number of stacks reaches 4, all stacks will be reset within 6s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 30.3,
+          "source": ""
+        },
+        "weapon_name": "Helios Cleaver"
+      },
+      {
+        "commentary_details": "The best option that's fully F2P-accessible. It's strongly recommended to pull for Lustrous Razor if this weapon is all you have access to, but its ATK main stats are good enough to last you until Lustrous Razor becomes accessible.",
+        "dupe_rank": "R5",
+        "percentage_performance": "66.90%",
+        "weapon_base_info": {
+          "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Crafting"
+        },
+        "weapon_name": "Meditations on Mercy"
+      }
+    ],
     "character_metadata": {
       "breadcrumb": [
         "Wuthering Waves",
         "Characters",
         "Lupa"
       ],
-      "element": null,
+      "element": "Fusion",
       "name": "Lupa",
-      "rarity_stars": null,
+      "rarity_stars": 5,
       "slug": "lupa",
       "updates": {
-        "last_major_build_patch": "",
-        "last_profile_update": "",
-        "last_review_patch": "",
-        "last_updated": ""
+        "last_major_build_patch": "3",
+        "last_profile_update": "01/October/2026",
+        "last_review_patch": "2.4",
+        "last_updated": "01/October/2026"
       },
-      "weapon_type": null
+      "weapon_type": "Broadblade"
     },
-    "example_teams": [],
-    "media": null,
-    "minor_fortes": [],
-    "pros_and_cons": null,
-    "ratings": null,
-    "recommended_endgame_stats_target": [],
-    "resonance_chain_dupes": [],
-    "review": null,
-    "rotations": [],
-    "skill_upgrade_priority": null,
-    "skills": [],
-    "synergies": [],
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "jingran, aemeath, galbrena"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "lupa"
+        },
+        "slot_3": {
+          "alternatives": [
+            "denia",
+            "mornye"
+          ],
+          "character_name": "mortefi"
+        },
+        "team_name": "Team #1: Best Team",
+        "team_notes": "Jingran should be Outro buffed by Mortefi using the Stonewall Bracer main Echo on Moonlit Clouds to make his best team, while Lupa should Outro buff both Aemeath and Galbrena for their best teams. All work with Lupa and Mornye (who can run the Spacetrek Explorer main Echo in Jingran teams), while Denia is exclusive to Aemeath in Fusion Burst mode, with Lupa running a Moonlit Clouds 5P set and Denia running a 5P Flaming Clawprint instead."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "aemeath, changli, galbrena, encore"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "brant"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "lupa"
+        },
+        "team_name": "Team #2: Classic Mono Fusion",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "chixia"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "brant"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "lupa"
+        },
+        "team_name": "Team #3: Chixia Best Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "encore"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "lupa"
+        },
+        "slot_3": {
+          "alternatives": [
+            "chixia"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Team #4: Encore F2P Team",
+        "team_notes": "Rotate with Lupa first with Chixia, else rotate with Shorekeeper first."
+      }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/lupa_full.webp",
+      "youtube_guide_embed_url": "https://www.youtube.com/embed/Bl4ifiPyOXk",
+      "youtube_guide_full_url": "https://www.youtube.com/watch?v=Bl4ifiPyOXk"
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+8%",
+        "stat_name": "CRIT Rate"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "ATK%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "Pretty much locked to mono Fusion compositions with very few exceptions because she's in direct competition with the top tier Sanhua;",
+        "Adding to the above point, takes a lengthy amount of field time despite being a buffer, may prove difficult to use with buffs that operate on shorter cooldowns (particularly Shorekeeper/Verina);",
+        "Her Outro expires on swap despite wanting to act in the 3rd slot in her best teams and having lots of swap cancel windows — this means playing quickswap with Lupa is only worthwhile if you REALLY know what you're doing;",
+        "Ideally operates in teams with 3 characters (including herself) that are highly built for damage, unlike Hypercarry-style compositions. This means extra investment is needed compared to current top tiers just to match their performance, not even outperform them (not to mention the absurd cost in pulls that a full premium team built for damage represents)."
+      ],
+      "pros": [
+        "Super easy to use thanks to her auto-dodge effect (3x per rotation) and her ease to build Forte and Concerto Energy;",
+        "Very strong buffs to Fusion characters while retaining good personal damage;",
+        "Has good non-limited weapon options which allow her to perform well enough to clear without huge investments;",
+        "Does evenly spread damage all throughout her rotation with good AoE, valuable pickup for Whimpering Wastes (even if 10-20% DMG Bonus from her kit buffs don't apply there, it doesn't matter much);",
+        "Has lots of exploitable Swap Cancel windows for optimization potential with a straightforward kit to begin with — any kind of player can pick up Lupa's gameplay and be efficient with it."
+      ]
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [
+            "Expert +1"
+          ],
+          "tier": "T0.5"
+        },
+        "whimpering_wastes": {
+          "tags": [
+            "Expert +1"
+          ],
+          "tier": "T1"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T1"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T1.5"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 16000+",
+      "DEF: 1100+",
+      "ATK: 1800-2500+",
+      "CRIT Rate: 65-80%+",
+      "CRIT DMG: 215-260%+",
+      "Energy Regen: 115-130%+Lower end was estimated in a team with Changli+Brant, higher end was estimated in a team with Encore+Shorekeeper.",
+      "Fusion DMG Bonus: 50-80%+"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "Performing Resonance Liberation Fire-Kissed Glory recovers 10 Concerto Energy for Lupa and increases Lupa's Crit. Rate by 20% for 10s.Gain immunity to interruption when casting Dance With the Wolf: Climax.",
+        "name": "Sequence Node 1",
+        "node": "S1"
+      },
+      {
+        "description": "Performing Fire-Kissed Glory, Heavy Attack - Wolf's Gnawing, Heavy Attack - Wolf's Claw, or Mid-air Attack - Firestrike gives 20% Fusion DMG Bonus to all Resonators in the team for 30s, stacking up to 2 times.",
+        "name": "Sequence Node 2",
+        "node": "S2"
+      },
+      {
+        "description": "The DMG Multiplier of Intro Skill Nowhere to Run! increases by 100%.The Pack Hunt effect of Resonance Liberation now no longer requires 3 Fusion ResonatorsThe Glory effect of Resonance Liberation is now modified as:\nCasting Resonance Liberation Fire-Kissed Glory additionally grants Glory: Resonators in the team ignore 15% Fusion RES of targets for 35s.",
+        "name": "Sequence Node 3",
+        "node": "S3"
+      },
+      {
+        "description": "The DMG Multiplier of Dance With the Wolf: Climax increases by 125%.",
+        "name": "Sequence Node 4",
+        "node": "S4"
+      },
+      {
+        "description": "Performing Intro Skill Try Focusing, Eh? or Nowhere to Run! gives 15% Resonance Liberation DMG Bonus for 10s.",
+        "name": "Sequence Node 5",
+        "node": "S5"
+      },
+      {
+        "description": "The damage dealt by Forte Circuit Dance With the Wolf: Climax, Resonance Liberation Fire-Kissed Glory, and Intro Skill Nowhere to Run! ignores 30% of the target's DEF.Resonance Skill Feral Fang restores 100 points of Wolflame on hit, triggered once per 20s.Forte Circuit Dance With the Wolf is replaced with Dance With the Wolf: Climax. Dance With the Wolf: Climax can be performed when Lupa is not in Burning Matchpoint state.Casting Intro Skill Nowhere to Run! no longer ends Pack Hunt and Glory.",
+        "name": "Sequence Node 6",
+        "node": "S6"
+      }
+    ],
+    "review": {
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Lupa is a 5-star Fusion Broadblade character whose primary role is to buff other Fusion characters in your team, while dealing some good personal damage of her own. Featuring an extended rotation time and buffs with an equally extended duration compared to most characters out there, Lupa excels in mono Fusion teams where doing full team rotations is lengthy but where the team's damage potential is just as high to compensate.",
+            "Lupa's kit is frankly very straightforward and there are lots of unnecessary details present in her kit, notably in her Basic Attacks, and her Resonance Skills are rarely used as well. In an effort to keep this review as short as possible, we won't detail all of the moves that Lupa can perform, and instead focus on the elements used in practice during her rotations.",
+            "The most important element of Lupa's kit is her Resonance Liberation — that is, her Ultimate. It costs a reasonable 125 Energy and operates on a 20-second cooldown, so Lupa will never have cooldown issues and reaching her Energy thresholds requires some Energy Regen, but not a massive amount like most 3rd slot teammates in the meta.",
+            "When Lupa casts her Ultimate, it deals Fusion DMG in a good AoE and it directly interacts with her 2 Forte Circuit resources: \"Wolfaith\" and \"Wolflame\". Let's list their properties and what they're used for:",
+            "Lupa can store up to 100 Wolflame and 2 Wolfaith. Both are indicated by her Forte gauge, separated in two halves: Wolfaith is represented by a couple of wolf heads generated after certain actions, and Wolflame is the red bar that progressively fills up after certain actions;",
+            "Wolflame is restored after using Basic Attacks, Skill and Ultimate. Wolflame is fully restored when casting Ultimate and that's all that really matters for Lupa;",
+            "Wolfaith is restored after using certain attacks that also consume 50 Wolflame (one half of her bar), including Lupa's Enhanced Mid-Air Attack and Lupa's Enhanced Heavy Attacks;",
+            "Wolfaith stacks last for 10s and restore 50 Wolflame if they expire after that duration — in other words, 1 Wolfaith is considered as replacing 50 Wolflame when generated;",
+            "2 Wolfaith can be consumed to cast Lupa's Forte Enhanced Skills, generating a lot of damage, Concerto Energy and activating her off-field attack.",
+            "Now, finally going back to Lupa's Ultimate. It generates 100 Wolfaith, and it makes the party enter the \"Pack Hunt\" and \"Glory\" states for 35s.",
+            "During Pack Hunt, all characters in the team get 6% increased ATK against all targets and 10% Fusion DMG Bonus against all Overlord and Calamity-class targets (a.k.a 4-cost Echoes, bosses).",
+            "Pack Hunt can be enhanced in 2 ways: by casting another character's Intro skill, an extra 6% ATK is granted, up to 18% (2 Intros). By having a team full of Fusion characters (3 characters), the 10% DMG Bonus effect increases to 20%.",
+            "If Pack Hunt is fully enhanced by using 2 Intro Skills, it becomes \"Wild Hunt\" which allows Lupa to cast an Enhanced Intro Skill called \"Nowhere to Run\" which deals a big burst of damage at the cost of removing the effects of Pack Hunt and Glory.",
+            "During Glory, attacks of all characters in the team ignore 3% of the target's Fusion RES, enhanced to 6% with 2 Fusion characters then 15% with 3 Fusion characters (full team).",
+            "Due to the nature of their 35s duration, Pack Hunt and Glory can be considered as permanently active since full team rotations will never last longer. However, they will be removed when Lupa enters her next rotation due to casting Nowhere to Run.",
+            "Using Ultimate also allows Lupa to cast a special Skill called \"Foebreaker\" by pressing Basic Attack or Skill shortly after her Ultimate cast. This sends her up in the air and deals a good chunk of damage, setting herself up nicely for her Mid-Air Attacks.",
+            "Finally, Foebreaker also grants herself the \"Burning Matchpoint\" state, which increases Wolflame generation on Basic Attacks by 500% (useless since Lupa gains full Wolflame from casting Ultimate anyway). More importantly though, being in this state allows her to cast an Enhanced Forte Skill (we detail this later).",
+            "Lupa's Mid-Air attacks are nothing special, but since we have more than 50 Wolflame from casting her Ultimate beforehand, her third Mid-Air Attack becomes \"Firestrike\" which has increased Interruption Resistance and it allows her to follow up with an Enhanced Heavy Attack called \"Wolf's Claw\" by pressing Basic Attack, during which she also has increased Interruption Resistance. Lupa has another Enhanced Heavy Attack called \"Wolf's Gnawing\" but since it has the same perks as Wolf's Claw while being slower and only usable on the ground, it's not used in her rotations.",
+            "Anyway, using Firestrike and Wolf's Claw gave us 2 Wolfaith, so now her Forte Enhanced Skill, \"Dance With the Wolf - Climax\", can be cast. This consumes all Wolfaith and removes Burning Matchpoint. Another version exists if Lupa is not in Burning Matchpoint which deals less damage, but because that state lasts forever it never sees use (it could only be used on the second cast of the skill, but onfielding Lupa is not a good playstyle due to her significant lack of damage compared to a character like Brant. She has good personal damage, just not enough to justify taking longer than the field time she takes currently).",
+            "Doing this skill will generally end her rotation as it will generate enough Concerto Energy to activate her Outro, which amplifies the next character's Basic Attack DMG by 25% and Fusion DMG by 20%, which ends upon swap.",
+            "It should be noted however, that without the Concerto Energy from casting an Intro Skill, Lupa will lack Concerto Energy to end her rotation after her Forte Enhanced Skill. In this case where Lupa needs extra Concerto due to not having an Intro available (commonly in the Opener rotation of teams where she's the 3rd slot teammate), casting 1 of her 2 base Resonance Skills is perfectly acceptable. However, you need to make sure the first Skill hits the target before casting the Ultimate.",
+            "Indeed, Lupa has access to 2 Resonance Skills, which can be done one after the other. The first skill will apply a mark on the target which allows her second skill to gain a 50% increased multiplier against the affected targets. Other than that, they're simple ticks of damage which aren't used if an Intro is available.",
+            "Finally, Lupa can perform a pseudo-coordinated attack (not considered as one, but similar in the sense it happens automatically off-field) whenever other characters cast their Ultimate within 8s after using her Forte Enhanced Skill (during which she doesn't disappear from the field even when swapping). Due to the nature of Lupa's Outro expiring on swap, outside of Quickswap teams only 1 instance of this attack will be activated, but 2 is possible via Quickswapping. This attack is called \"Set The Arena Ablaze\".",
+            "Now that all of the useful parts of her kit have been explained, let's give a proper summary of the buffs granted by her rotations (for the rotations themselves, refer to our Gameplay & Teams page):",
+            "All buffs apply to the full team.",
+            "From Pack Hunt: 6% ATK, enhanced to 12% then 18% after 1-2 Intros, and 10-20% Fusion DMG Bonus against Calamity and Overlord class targets (depending on the amount of Fusion characters in the team), lasting 35s",
+            "From Glory: 3-6-15% Fusion RES Ignore (depending on the amount of Fusion characters in the team), lasting 35s",
+            "From Flaming Clawprint (signature Echo Set): 15% Fusion DMG Bonus when casting Ultimate, lasting 35s",
+            "From Signature Weapon if present: 24% Fusion DMG Bonus when casting Heavy Attack, lasting 30s.",
+            "You'll notice this is a lot of buffs — indeed, Lupa's personal damage is acceptable, but nothing impressive compared to proper Hybrids like Cantarella, Brant or Yinlin in spite of her field time requirements. Where Lupa truly shines is in the 3rd slot to Fusion teams, ideally buffing Fusion-Basic damage dealers like Brant or Encore and her own damage being buffable by Changli (mostly being Fusion-Liberation DMG).",
+            "As a result, a new Mono Fusion team archetype is created by Lupa's presence in the team, with team concepts such as Changli-Brant-Lupa, where all 3 characters buff each other via their Outros and Lupa handles the team-wide buffing while the other 2 handle the heavy lifting in terms of damage (with a bit of Lupa's help too).",
+            "This position in the meta gives Lupa a good niche, additionally being perfectly usable with Encore and a general Support like Shorekeeper or Verina. While generally speaking this use wouldn't be recommended due to the nature of Lupa's kit favouring the presence of all 3 teammates being Fusion, in the case of Encore, by nature of her very short rotation often presenting downtime which needs to be filled in for the 3rd teammate's Ultimate & Echo cooldowns to catch up, it ends up working nicely in favour of a duo with Lupa. Such a team is the only current case of Lupa separating herself from the Mono Fusion archetype.",
+            "Nonetheless, it gives her a brilliant F2P team in the form of Encore-Lupa-Verina, getting even better with Shorekeeper instead of Verina, making her all the more accessible in terms of use cases. However, it's worth noting this position is contested by Sanhua who also buffs Basic Attack DMG on her Outro, but Lupa while displaying similar performance is undeniably the stronger pick due to her increased buff strength and personal damage which would usually come at the cost of field time, but in that specific team this downside is close to nonexistent.",
+            "In conclusion, Lupa is fantastic both with F2P and higher-invested teammates. While her primary downside is her need to expand on damage and her best use case is in Mono Fusion teams with 3 damage dealers including herself, which comes at the cost of a lot of resources, this downside is mitigated by her duo with Encore which works surprisingly well even outside of Mono Fusion team archetypes. In such Mono Fusion teams however, Lupa is a brilliant addition as she brings a brand new archetype into Wuthering Waves, performing equally as well to some of the top tier contenders of the current meta, making her a fantastic character overall."
+          ]
+        }
+      ],
+      "summary": "Lupa is a 5-star Fusion Broadblade character whose primary role is to buff other Fusion characters in your team, while dealing some good personal damage of her own. Featuring an extended rotation time and buffs with an equally extended duration compared to most characters out there, Lupa excels in mono Fusion teams where doing full team rotations is lengthy but where the team's damage potential is just as high to compensate."
+    },
+    "rotations": [
+      {
+        "rotation_name": "Gameplay",
+        "steps": [
+          "Use Ultimate immediately to generate full Forte (Wolflame) and activate Pack Hunt & Glory buffs;",
+          "Build Concerto Energy as quickly as possible;",
+          "Access her Forte Enhanced Skill (Dance With the Wolf - Climax) as early as possible by building 2 Wolfaith."
+        ]
+      },
+      {
+        "rotation_name": "Echo usage (both rotations):",
+        "steps": [
+          "If using a Summon echo (e.g Lioness of Glory), at any point in the rotation.",
+          "If using a Transform echo (e.g Nightmare: Inferno Rider), after Forte Skill or before this rotation."
+        ]
+      },
+      {
+        "rotation_name": "Opener Rotation",
+        "steps": [
+          "Skill: Shewolf's Hunt",
+          "Ultimate",
+          "Skill: Foebreaker (press Basic or Skill shortly after Ultimate)",
+          "Mid-Air Attack 1",
+          "Mid-Air Attack 2",
+          "Mid-Air Attack: Firestrike (press Basic after Mid-Air Attack 2)",
+          "Heavy: Wolf's Claw (press Basic after Firestrike)",
+          "Forte: Skill: Dance With the Wolf - Climax",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Loop Rotation",
+        "steps": [
+          "Intro",
+          "Ultimate",
+          "Skill: Foebreaker (press Basic or Skill shortly after Ultimate)",
+          "Mid-Air Attack 1",
+          "Mid-Air Attack 2",
+          "Mid-Air Attack: Firestrike (press Basic after Mid-Air Attack 2)",
+          "Heavy: Wolf's Claw (press Basic after Firestrike)",
+          "Forte: Skill: Dance With the Wolf - Climax",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "The abilities that make for reasonable swap windows throughout her rotations include the following:",
+        "steps": [
+          "Skill: Foebreaker",
+          "Mid-Air Attack 2",
+          "Mid-Air Attack: Firestrike",
+          "Heavy: Wolf's Claw",
+          "Forte: Skill: Dance With the Wolf - Climax"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "Skill can be skipped when levelling to save on resources at a minimal damage loss.",
+      "order": [
+        "Res. Liberation",
+        "Intro Skill",
+        "Forte Circuit",
+        "Basic Attack",
+        "Res. Skill"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic AttackPerform up to 4 consecutive attacks, dealing Fusion DMG.After Basic Attack Stage 3, press Normal Attack in the right time to cast Mid-air Attack Stage 1.After Dodge Counter, Basic Attack Starfall, Resonance Skill Shewolf's Hunt, or Resonance Skill Feral Fang, press Normal Attack in time to cast Basic Attack Stage 2.Heavy AttackConsume STA to attack the target, dealing Fusion DMG.Heavy Attack - Wolf's GnawingWhen Wolflame reaches 50 points, Heavy Attack will be replaced by Wolf's Gnawing, consuming STA to attack the target and dealing Fusion DMG.This attack does not restore Wolflame. Consume 50 points of Wolflame to perform this attack and gain 1 point of Wolfaith.Heavy Attack - Wolf's ClawWhen Wolflame reaches 50 points and Wolfaith reaches 1 point, Heavy Attack will be replaced by Wolf's Claw, consuming STA to attack the target and dealing Fusion DMG.If Wolflame reaches 50 points and Wolfaith reaches 1 point after performing Mid-air Attack - Firestrike or Heavy Attack - Wolf's Gnawing, press Normal Attack in time to perform Heavy Attack - Wolf's Claw.This attack does not restore Wolflame. Consume 50 points of Wolflame to perform this attack and gain 1 point of Wolfaith.Mid-air AttackConsume STA to perform up to 3 attacks in mid-air, dealing Fusion DMG. The Mid-air Attack cycle will not be reset.Mid-air Attack - FirestrikeWhen Wolflame reaches 50 points, Mid-air Attack Stage 3 will be replaced by Mid-air Attack - Firestrike, consuming STA to attack the target and dealing Fusion DMG (considered Heavy Attack DMG).This attack does not restore Wolflame. Consume 50 points of Wolflame to perform this attack and gain 1 point of Wolfaith.Plunging AttackHold Normal Attack while airborne to perform a Plunging Attack at the cost of STA, dealing Fusion DMG. After performing this attack, press Normal Attack in time to perform Basic Attack Starfall.If a Dodge is performed while casting Mid-air Attack Stage 3 or Mid-air Attack - Firestrike, press Normal Attack to perform Plunging Attack in time at the cost of STA.Basic Attack - StarfallAttack the target, dealing Fusion DMG.Dodge CounterPress Normal Attack after a successful Dodge to attack the target, dealing Fusion DMG.",
+        "multipliers": [
+          {
+            "Lv1": "11.33% + 11.33% + 22.66%",
+            "Lv10": "22.52% + 22.52% + 45.04%",
+            "Lv2": "12.26% + 12.26% + 24.52%",
+            "Lv3": "13.19% + 13.19% + 26.37%",
+            "Lv4": "14.49% + 14.49% + 28.97%",
+            "Lv5": "15.42% + 15.42% + 30.83%",
+            "Lv6": "16.49% + 16.49% + 32.97%",
+            "Lv7": "17.97% + 17.97% + 35.94%",
+            "Lv8": "19.46% + 19.46% + 38.91%",
+            "Lv9": "20.94% + 20.94% + 41.88%",
+            "Name": "Stage 1 DMG"
+          },
+          {
+            "Lv1": "45.31%",
+            "Lv10": "90.08%",
+            "Lv2": "49.03%",
+            "Lv3": "52.74%",
+            "Lv4": "57.94%",
+            "Lv5": "61.66%",
+            "Lv6": "65.93%",
+            "Lv7": "71.87%",
+            "Lv8": "77.82%",
+            "Lv9": "83.76%",
+            "Name": "Stage 2 DMG"
+          },
+          {
+            "Lv1": "39.66% + 6.61%*6",
+            "Lv10": "78.84% + 13.14%*6",
+            "Lv2": "42.91% + 7.16%*6",
+            "Lv3": "46.16% + 7.70%*6",
+            "Lv4": "50.71% + 8.46%*6",
+            "Lv5": "53.96% + 9.00%*6",
+            "Lv6": "57.70% + 9.62%*6",
+            "Lv7": "62.91% + 10.49%*6",
+            "Lv8": "68.11% + 11.36%*6",
+            "Lv9": "73.31% + 12.22%*6",
+            "Name": "Stage 3 DMG"
+          },
+          {
+            "Lv1": "37.16% + 37.16% + 24.77%*2",
+            "Lv10": "73.87% + 73.87% + 49.25%*2",
+            "Lv2": "40.21% + 40.21% + 26.81%*2",
+            "Lv3": "43.25% + 43.25% + 28.84%*2",
+            "Lv4": "47.52% + 47.52% + 31.68%*2",
+            "Lv5": "50.56% + 50.56% + 33.71%*2",
+            "Lv6": "54.07% + 54.07% + 36.05%*2",
+            "Lv7": "58.94% + 58.94% + 39.30%*2",
+            "Lv8": "63.82% + 63.82% + 42.55%*2",
+            "Lv9": "68.69% + 68.69% + 45.80%*2",
+            "Name": "Stage 4 DMG"
+          },
+          {
+            "Lv1": "28.35% + 28.35%",
+            "Lv10": "56.36% + 56.36%",
+            "Lv2": "30.68% + 30.68%",
+            "Lv3": "33.00% + 33.00%",
+            "Lv4": "36.26% + 36.26%",
+            "Lv5": "38.58% + 38.58%",
+            "Lv6": "41.25% + 41.25%",
+            "Lv7": "44.97% + 44.97%",
+            "Lv8": "48.69% + 48.69%",
+            "Lv9": "52.41% + 52.41%",
+            "Name": "Heavy Attack"
+          },
+          {
+            "Lv1": "28.22% + 28.22%",
+            "Lv10": "56.11% + 56.11%",
+            "Lv2": "30.54% + 30.54%",
+            "Lv3": "32.85% + 32.85%",
+            "Lv4": "36.09% + 36.09%",
+            "Lv5": "38.41% + 38.41%",
+            "Lv6": "41.07% + 41.07%",
+            "Lv7": "44.77% + 44.77%",
+            "Lv8": "48.47% + 48.47%",
+            "Lv9": "52.18% + 52.18%",
+            "Name": "Heavy Attack - Wolf's Gnawing DMG"
+          },
+          {
+            "Lv1": "36.29% + 9.08%*4 + 48.39%",
+            "Lv10": "72.15% + 18.04%*4 + 96.19%",
+            "Lv2": "39.27% + 9.82%*4 + 52.35%",
+            "Lv3": "42.24% + 10.56%*4 + 56.32%",
+            "Lv4": "46.41% + 11.61%*4 + 61.88%",
+            "Lv5": "49.38% + 12.35%*4 + 65.84%",
+            "Lv6": "52.81% + 13.21%*4 + 70.41%",
+            "Lv7": "57.57% + 14.40%*4 + 76.75%",
+            "Lv8": "62.33% + 15.59%*4 + 83.10%",
+            "Lv9": "67.09% + 16.78%*4 + 89.45%",
+            "Name": "Heavy Attack - Wolf's Claw DMG"
+          },
+          {
+            "Lv1": "38.59%",
+            "Lv10": "76.73%",
+            "Lv2": "41.76%",
+            "Lv3": "44.92%",
+            "Lv4": "49.35%",
+            "Lv5": "52.52%",
+            "Lv6": "56.16%",
+            "Lv7": "61.22%",
+            "Lv8": "66.28%",
+            "Lv9": "71.35%",
+            "Name": "Mid-air Attack Stage 1 DMG"
+          },
+          {
+            "Lv1": "38.85% + 9.72%*4",
+            "Lv10": "77.23% + 19.31%*4",
+            "Lv2": "42.04% + 10.51%*4",
+            "Lv3": "45.22% + 11.31%*4",
+            "Lv4": "49.68% + 12.42%*4",
+            "Lv5": "52.87% + 13.22%*4",
+            "Lv6": "56.53% + 14.14%*4",
+            "Lv7": "61.62% + 15.41%*4",
+            "Lv8": "66.72% + 16.68%*4",
+            "Lv9": "71.82% + 17.96%*4",
+            "Name": "Mid-air Attack Stage 2 DMG"
+          },
+          {
+            "Lv1": "14.33% + 14.33%",
+            "Lv10": "28.48% + 28.48%",
+            "Lv2": "15.50% + 15.50%",
+            "Lv3": "16.68% + 16.68%",
+            "Lv4": "18.32% + 18.32%",
+            "Lv5": "19.50% + 19.50%",
+            "Lv6": "20.85% + 20.85%",
+            "Lv7": "22.72% + 22.72%",
+            "Lv8": "24.60% + 24.60%",
+            "Lv9": "26.48% + 26.48%",
+            "Name": "Mid-air Attack Stage 3 DMG"
+          },
+          {
+            "Lv1": "14.33% + 14.33%",
+            "Lv10": "28.48% + 28.48%",
+            "Lv2": "15.50% + 15.50%",
+            "Lv3": "16.68% + 16.68%",
+            "Lv4": "18.32% + 18.32%",
+            "Lv5": "19.50% + 19.50%",
+            "Lv6": "20.85% + 20.85%",
+            "Lv7": "22.72% + 22.72%",
+            "Lv8": "24.60% + 24.60%",
+            "Lv9": "26.48% + 26.48%",
+            "Name": "Mid-air Attack - Firestrike DMG"
+          },
+          {
+            "Lv1": "13.18% + 26.35% + 13.18%",
+            "Lv10": "26.20% + 52.39% + 26.20%",
+            "Lv2": "14.26% + 28.52% + 14.26%",
+            "Lv3": "15.34% + 30.68% + 15.34%",
+            "Lv4": "16.85% + 33.70% + 16.85%",
+            "Lv5": "17.93% + 35.86% + 17.93%",
+            "Lv6": "19.18% + 38.35% + 19.18%",
+            "Lv7": "20.90% + 41.80% + 20.90%",
+            "Lv8": "22.63% + 45.26% + 22.63%",
+            "Lv9": "24.36% + 48.72% + 24.36%",
+            "Name": "Plunging Attack DMG"
+          },
+          {
+            "Lv1": "6.37%*4 + 59.39%",
+            "Lv10": "12.65%*4 + 118.06%",
+            "Lv2": "6.89%*4 + 64.26%",
+            "Lv3": "7.41%*4 + 69.12%",
+            "Lv4": "8.14%*4 + 75.94%",
+            "Lv5": "8.66%*4 + 80.81%",
+            "Lv6": "9.26%*4 + 86.41%",
+            "Lv7": "10.10%*4 + 94.20%",
+            "Lv8": "10.93%*4 + 101.99%",
+            "Lv9": "11.77%*4 + 109.78%",
+            "Name": "Basic Attack - Starfall DMG"
+          },
+          {
+            "Lv1": "17.20%*4 + 68.77%",
+            "Lv10": "34.18%*4 + 136.72%",
+            "Lv2": "18.61%*4 + 74.41%",
+            "Lv3": "20.02%*4 + 80.05%",
+            "Lv4": "21.99%*4 + 87.94%",
+            "Lv5": "23.40%*4 + 93.58%",
+            "Lv6": "25.02%*4 + 100.06%",
+            "Lv7": "27.28%*4 + 109.09%",
+            "Lv8": "29.53%*4 + 118.11%",
+            "Lv9": "31.79%*4 + 127.13%",
+            "Name": "Dodge Counter DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Heavy Attack STA Cost"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Heavy Attack - Wolf's Gnawing STA Cost"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Heavy Attack - Wolf's Claw STA Cost"
+          },
+          {
+            "Lv1": "5",
+            "Lv10": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Name": "Mid-air Attack STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Plunging Attack STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-air Attack - Firestrike STA Cost"
+          }
+        ],
+        "name": "Flaming Star",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Lupa hurls her Wildfire Banner at the target, dealing Fusion DMG and restoring 15 points of Wolflame. Mark the target for 8s. After performing Resonance Skill Shewolf's Hunt, Lupa can perform Feral Fang within a certain period of time.Can be performed in mid-air close to the ground.Hold Resonance Skill to leap into the air, then press Normal Attack in time to cast Mid-air Attack Stage 1.\n\nResonance Skill - Feral FangLupa locks onto a target, dealing Fusion DMG and restoring 15 points of Wolflame. The DMG Multiplier to marked targets is increased by 50%. Resonance Skill - Feral Fang enters cooldown if not cast in time or when Lupa is switched out.Can be performed in mid-air close to the ground.",
+        "multipliers": [
+          {
+            "Lv1": "70.81%",
+            "Lv10": "140.77%",
+            "Lv2": "76.62%",
+            "Lv3": "82.42%",
+            "Lv4": "90.55%",
+            "Lv5": "96.36%",
+            "Lv6": "103.03%",
+            "Lv7": "112.32%",
+            "Lv8": "121.61%",
+            "Lv9": "130.90%",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "157.74%",
+            "Lv10": "313.61%",
+            "Lv2": "170.68%",
+            "Lv3": "183.61%",
+            "Lv4": "201.72%",
+            "Lv5": "214.66%",
+            "Lv6": "229.53%",
+            "Lv7": "250.23%",
+            "Lv8": "270.92%",
+            "Lv9": "291.62%",
+            "Name": "Feral Fang DMG"
+          },
+          {
+            "Lv1": "12",
+            "Lv10": "12",
+            "Lv2": "12",
+            "Lv3": "12",
+            "Lv4": "12",
+            "Lv5": "12",
+            "Lv6": "12",
+            "Lv7": "12",
+            "Lv8": "12",
+            "Lv9": "12",
+            "Name": "Cooldown"
+          }
+        ],
+        "name": "Shewolf's Hunt",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Attack the target and deal Fusion DMG. Performing this attack consumes all Wolfaith and restores 100 points of Wolflame. Use Basic Attack or Resonance Skill in time to cast Resonance Skill Foebreaker.Can be performed in mid-air close to the ground.Performing this skill strengthens all Resonators in the team. Within 35s:All Resonators in the team gain Pack Hunt effect.If the active Resonator is hit or launched into the air, they immediately recover and are considered to have successfully dodged the attack when they are on the ground. Can be triggered up to 3 times.Pack HuntResonators with Pack Hunt gain a 6% ATK increase, and 10% Fusion DMG Bonus when they attack Overlord Class or Calamity Class targets (Both are non-stackable). If there are 3 Fusion Resonators in the team, the Fusion DMG Bonus against Overlord Class or Calamity Class targets additionally increases by 10%. When the active Resonator casts Intro Skill, Pack Hunt is enhanced, granting an additional 6% ATK increase to all Resonators in the team, up to a maximum of 18%.If Lupa's Pack Hunt reaches its cap within its duration, she enters Wild Hunt and Intro Skill Nowhere to Run! becomes available. Wild Hunt can be triggered once per Pack Hunt.Resonance Skill - FoebreakerConsume all Wolflame to perform Foebreaker, dealing Fusion DMG and entering Burning Matchpoint state. Burning MatchpointNormal Attacks restore 500% more Wolflame on hit. Cannot perform Resonance Skill Shewolf's Hunt and Resonance Skill Feral Fang in this state.",
+        "multipliers": [
+          {
+            "Lv1": "412.68%",
+            "Lv10": "820.44%",
+            "Lv2": "446.52%",
+            "Lv3": "480.36%",
+            "Lv4": "527.73%",
+            "Lv5": "561.57%",
+            "Lv6": "600.48%",
+            "Lv7": "654.63%",
+            "Lv8": "708.77%",
+            "Lv9": "762.91%",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "153.14%",
+            "Lv10": "304.46%",
+            "Lv2": "165.70%",
+            "Lv3": "178.26%",
+            "Lv4": "195.84%",
+            "Lv5": "208.40%",
+            "Lv6": "222.84%",
+            "Lv7": "242.93%",
+            "Lv8": "263.02%",
+            "Lv9": "283.11%",
+            "Name": "Foebreaker DMG"
+          },
+          {
+            "Lv1": "12",
+            "Lv10": "12",
+            "Lv2": "12",
+            "Lv3": "12",
+            "Lv4": "12",
+            "Lv5": "12",
+            "Lv6": "12",
+            "Lv7": "12",
+            "Lv8": "12",
+            "Lv9": "12",
+            "Name": "Burning Matchpoint Duration"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv10": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Name": "Resonance Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Fire-Kissed Glory",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Wildfire BannerLupa's ATK is increased by 12% for 8s when performing the following actions:Casting Resonance Skill Feral Fang.Casting Heavy Attack - Wolf's Gnawing, Heavy Attack - Wolf's Claw, or Mid-air Attack - Firestrike.Casting Resonance Liberation Fire-Kissed Glory.Casting Dance With the Wolf and Dance With the Wolf: Climax.Resonance Skill - Dance With the WolfWhen Wolfaith reaches 2 points, Resonance Skill is replaced with Dance With the Wolf. Performing Dance With the Wolf consumes all Wolfaith, dealing Fusion DMG (considered Resonance Liberation DMG).Can be performed in mid-air close to the ground.Resonance Skill - Dance With the Wolf: ClimaxWhen Wolfaith reaches 2 points in the Burning Matchpoint state, Resonance Skill is replaced with Dance With the Wolf: Climax. Performing Dance With the Wolf: Climax consumes all Wolfaith, dealing Fusion DMG (considered Resonance Liberation DMG). Burning Matchpoint is removed when the skill ends.Can be performed in mid-air close to the ground.Resonance Skill - Set the Arena AblazeWithin 8s after performing Dance With the Wolf or Dance With the Wolf: Climax, Lupa will remain on the field after switching to another Resonator and back up the active Resonator when they perform Resonance Liberation, dealing Fusion DMG (considered Resonance Skill DMG). This effect can only be triggered once in its duration.WolflameLupa can hold up to 100 points of Wolflame.Restore Wolflame when Normal Attacks hit the target.Restore Wolflame while casting Resonance Skill.Restore Wolflame while casting Resonance Liberation.WolfaithLupa can hold up to 2 points of Wolfaith.Wolfaith lasts for 10s. The duration is reset when Wolfaith is restored. At the end of its duration, each remaining point of Wolfaith becomes 50 points of Wolflame.Restore 1 point of Wolfaith when casting Heavy Attack - Wolf's Gnawing, Heavy Attack - Wolf's Claw, or Mid-air Attack - Firestrike.",
+        "multipliers": [
+          {
+            "Lv1": "28.18% + 21.14%*4 + 169.06%",
+            "Lv10": "56.02% + 42.02%*4 + 336.11%",
+            "Lv2": "30.49% + 22.87%*4 + 182.93%",
+            "Lv3": "32.80% + 24.60%*4 + 196.79%",
+            "Lv4": "36.04% + 27.03%*4 + 216.20%",
+            "Lv5": "38.35% + 28.76%*4 + 230.06%",
+            "Lv6": "41.00% + 30.75%*4 + 246.00%",
+            "Lv7": "44.70% + 33.53%*4 + 268.18%",
+            "Lv8": "48.40% + 36.30%*4 + 290.36%",
+            "Lv9": "52.09% + 39.07%*4 + 312.54%",
+            "Name": "Dance With the Wolf DMG"
+          },
+          {
+            "Lv1": "38.04% + 28.53%*4 + 228.23%",
+            "Lv10": "75.63% + 56.72%*4 + 453.75%",
+            "Lv2": "41.16% + 30.87%*4 + 246.95%",
+            "Lv3": "44.28% + 33.21%*4 + 265.66%",
+            "Lv4": "48.65% + 36.49%*4 + 291.86%",
+            "Lv5": "51.77% + 38.83%*4 + 310.58%",
+            "Lv6": "55.35% + 41.52%*4 + 332.10%",
+            "Lv7": "60.34% + 45.26%*4 + 362.04%",
+            "Lv8": "65.34% + 49.00%*4 + 391.99%",
+            "Lv9": "70.33% + 52.75%*4 + 421.93%",
+            "Name": "Dance With the Wolf - Climax DMG"
+          },
+          {
+            "Lv1": "21.31% + 85.21%",
+            "Lv10": "42.35% + 169.40%",
+            "Lv2": "23.05% + 92.20%",
+            "Lv3": "24.80% + 99.18%",
+            "Lv4": "27.25% + 108.97%",
+            "Lv5": "28.99% + 115.95%",
+            "Lv6": "31.00% + 123.99%",
+            "Lv7": "33.80% + 135.17%",
+            "Lv8": "36.59% + 146.34%",
+            "Lv9": "39.38% + 157.52%",
+            "Name": "Set the Arena Ablaze DMG"
+          }
+        ],
+        "name": "Ignis Lupa",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "After dashing for 2.5s, Lupa enters Sprint state. The next Basic Attack is replaced with Basic Attack - Starfall.Gain increased resistance to interruptions while casting Heavy Attack - Wolf's Gnawing, Heavy Attack - Wolf's Claw, and Mid-air Attack - Firestrike.",
+        "multipliers": [],
+        "name": "Remember My Name",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "Defeating a marked target resets the cooldown of Resonance Skill Shewolf's Hunt.Resonance Liberation - GloryCasting Resonance Liberation Fire-Kissed Glory grants Glory. Within 35s:Attacks of all Resonators in the team ignore 3% of the target's Fusion RES. For each Fusion Resonator in the team other than Lupa, this effect increases by 3%, up to the maximum of 9%. When there are 3 Fusion Resonators in the team, Resonators' attacks further ignore 6% Fusion RES.",
+        "multipliers": [],
+        "name": "Applause of Victory",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Attack the target, dealing Fusion DMG. Press Normal Attack following Intro Skill Try Focusing, Eh? to cast Mid-air Attack Stage 3.Nowhere to Run!When Lupa enters the Wild Hunt state, her next Intro Skill is replaced with Nowhere to Run!. Casting Nowhere to Run! removes the Pack Hunt and Glory effects on all Resonators in the team, dealing Fusion DMG (considered Resonance Liberation DMG).",
+        "multipliers": [
+          {
+            "Lv1": "14.97% + 21.21%*4",
+            "Lv10": "29.76% + 42.16%*4",
+            "Lv2": "16.20% + 22.95%*4",
+            "Lv3": "17.43% + 24.69%*4",
+            "Lv4": "19.15% + 27.12%*4",
+            "Lv5": "20.37% + 28.86%*4",
+            "Lv6": "21.79% + 30.86%*4",
+            "Lv7": "23.75% + 33.64%*4",
+            "Lv8": "25.71% + 36.43%*4",
+            "Lv9": "27.68% + 39.21%*4",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "399.16% + 24.95%*4",
+            "Lv10": "793.57% + 49.60%*4",
+            "Lv2": "431.90% + 27.00%*4",
+            "Lv3": "464.63% + 29.04%*4",
+            "Lv4": "510.45% + 31.91%*4",
+            "Lv5": "543.18% + 33.95%*4",
+            "Lv6": "580.82% + 36.31%*4",
+            "Lv7": "633.19% + 39.58%*4",
+            "Lv8": "685.56% + 42.85%*4",
+            "Lv9": "737.93% + 46.13%*4",
+            "Name": "Nowhere to Run! DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Concerto Regen"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Nowhere to Run! Concerto Regen"
+          }
+        ],
+        "name": "Try Focusing, Eh?",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "The incoming Resonator will have their Fusion DMG Amplified by 20% and Basic Attack DMG Amplified by 25% for 14s or until the Resonator is switched out.",
+        "multipliers": [],
+        "name": "Stand by Me, Warrior",
+        "skill_type": "Outro Skill"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "jingran",
+          "aemeath",
+          "mornye",
+          "galbrena",
+          "brant",
+          "changli",
+          "encore"
+        ],
+        "commentary": "Lupa's best team members are all Fusion damage dealers since she is a dedicated Fusion buffer, however she works well with all of them. Lupa and Mornye are both generalist Fusion buffers that when paired together can buff any Fusion DPS in the entire game and elevate them to the highest level if they have good baseline damage. Jingran and Aemeath have the highest baseline damage of all Fusion damage dealers, Galbrena not being too far behind. However Lupa doesn't limit herself to that; Brant and Encore are able to fully leverage her Outro buffs, and Changli can buff Lupa or Aemeath with her own Outro buff which makes a lot of Mono Fusion teams work very well, Lupa being the enabler and centrepiece to all of them."
+      }
+    ],
     "upgrade_materials": {
-      "character_ascension": [],
-      "skill_upgrades": []
+      "character_ascension": [
+        {
+          "material_name": "Bloodleaf Viburnum",
+          "quantity": 60,
+          "rarity": "boss"
+        },
+        {
+          "material_name": "Unfading Glory",
+          "quantity": 46,
+          "rarity": "specialty"
+        },
+        {
+          "material_name": "LF Howler Core",
+          "quantity": 4,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Howler Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Howler Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Howler Core",
+          "quantity": 4,
+          "rarity": "common"
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "The Netherworld's Stare",
+          "quantity": 26,
+          "rarity": "weekly_boss"
+        },
+        {
+          "material_name": "LF Howler Core",
+          "quantity": 25,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Howler Core",
+          "quantity": 28,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Howler Core",
+          "quantity": 40,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Howler Core",
+          "quantity": 57,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Waveworn Residue 210",
+          "quantity": 25,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Waveworn Residue 226",
+          "quantity": 28,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Waveworn Residue 235",
+          "quantity": 55,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Waveworn Residue 239",
+          "quantity": 67,
+          "rarity": "skill_material"
+        }
+      ]
     },
-    "voice_actors": null
+    "voice_actors": {
+      "cn": "",
+      "eng": "",
+      "jpn": "",
+      "kr": ""
+    }
   },
   "status": "success"
 }

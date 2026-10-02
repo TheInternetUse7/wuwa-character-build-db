@@ -1,44 +1,913 @@
 {
   "data": {
-    "base_stats_lvl_90": null,
-    "best_echo_sets": [],
-    "best_echo_stats": null,
-    "best_weapons": [],
+    "base_stats_lvl_90": {
+      "atk": 21,
+      "crit_dmg": "150%",
+      "crit_rate": "5%",
+      "def": 88,
+      "elemental_dmg_bonus": "1.12%",
+      "healing_bonus": "0%",
+      "hp": 788,
+      "max_energy": 150
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Offers a 10% unconditional Aero DMG% boost and an additional 30% Aero DMG% after using the intro lasting 15 seconds for a grand total of 40% additional Aero damage for most of your damage window.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Offers an unconditional 12% Aero DMG and Heavy ATK boost when used as the Main Echo, and additionally is a Summon-type echo making it easy to use in any character's rotation, which often makes it the best option for any character using the set.",
+            "echo_name": "Nightmare: Feilian Beringal"
+          }
+        ],
+        "percentage_performance": "1",
+        "set_name": "Sierra Gale"
+      },
+      {
+        "commentary": "Only use this set with Ciaccona on the team. Best set for Aero Main DPS characters who can apply Aero Erosion or have an Aero Erosion applier on the team. Grants 10% Aero DMG Bonus and an extra 30% Aero DMG Bonus as well as 10% CRIT Rate for 10s when attacking targets inflicted with Aero Erosion. Offers an extra 10% CRIT Rate over the other Aero sets such as Gusts of Welkin or Sierra Gale, providing extra overall damage so long as Aero Erosion is present on the enemy.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "This Echo provides a free decent amount of Aero DMG when casting Outro Skill in all situations, provides 12% Aero DMG Bonus to Aalto and while its Transform Active Skill is not used in Aalto's rotations, it is the best Main Echo he has, albeit by a very small difference when compared to Reminiscence: Fleurdelys (pick what has the best substats!)",
+            "echo_name": "Nightmare: Kelpie"
+          }
+        ],
+        "percentage_performance": "2",
+        "set_name": "Windward Pilgrimage"
+      },
+      {
+        "commentary": "Offers a 10% unconditional Energy Regen% boost taking some pressure off your gear when aiming at ER breakpoints. Also upon using Outro, grants the next character switching in a 22.5% ATK boost, amplifying any of your main damage dealers burst windows.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Supportive Echo that can be run at the cost of a sizeable chunk of damage for the character who equips, trading personal gain for team benefits. Should always be used and immediately switch cancelled right before performing an Outro, leading to another DPS. When done so will grant the next character switching in 12% increased DMG% which when combined with the 5P Moonlit set which also grants 22.5% ATK% under the same conditions makes for a sizeable boost. While the echo does lower the damage of whoever wears it, it grants a massive chunk of energy on use usually saving 1 or sometimes even 2 Energy Regen sub stats that may otherwise be needed by the wearer allowing for some damage to be recovered.",
+            "echo_name": "Impermanence Heron"
+          }
+        ],
+        "percentage_performance": "",
+        "set_name": "Moonlit Clouds"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ],
+        "cost_3": [
+          "Aero DMG",
+          "Aero DMG > Energy Regen"
+        ],
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%",
+        "ATK ≥ Basic Attack DMG%",
+        "Resonance Skill DMG%"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "The best weapon for most DPS Pistol characters, Carlotta's Signature is fantastic it provides lots of ATK, CRIT DMG and Skill DMG Bonus, which are good stats overall that Aalto can use well (although the Skill DMG isn't ideal, it's still acceptable).",
+        "dupe_rank": "R1",
+        "percentage_performance": "102.60%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Every time Intro Skill or Resonance Liberation is cast, Resonance Skill DMG Bonus increases by {1} for 5s.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 72,
+          "source": "Rate-up"
+        },
+        "weapon_name": "The Last Dance"
+      },
+      {
+        "commentary_details": "Simple ATK and CRIT Rate stat-stick for Aalto, who does not benefit from this weapon's effects triggered upon applying Aero Erosion.",
+        "dupe_rank": "R1",
+        "percentage_performance": "101.00%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. Inflicting Aero Erosion on the target gives {1} Aero DMG Bonus for 10s. Hitting targets with Aero Erosion reduces their Aero RES by {2} for 20s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 36,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Woodland Aria"
+      },
+      {
+        "commentary_details": "Best weapon for Hybrid Aalto. Static Mist is a fantastic weapon for Pistol buffers since it provides an ATK% buff to the next character who Intros into the field making it give an extra buff to the Moonlit Clouds Echo set; additionally it provides high Base ATK & CRIT Rate for good personal damage and provides Energy Regen to alleviate Energy costs. Fantastic weapon for buffing characters overall.",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When Outro Skill is released, increases the switched-in Resonator's ATK by {1}, stacking up to 1 time(s). This effect lasts for 14s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Static Mist"
+      },
+      {
+        "commentary_details": "This weapon is a good 4-star for characters who need extra Energy thanks to its passive which restores some; however while this is the case for Hybrid Aalto, DPS Aalto tends to not need Energy Regen which causes this weapon's effectiveness to dwindle.",
+        "dupe_rank": "R5",
+        "percentage_performance": "85.50%",
+        "weapon_base_info": {
+          "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Gacha"
+        },
+        "weapon_name": "Relativistic Jet"
+      },
+      {
+        "commentary_details": "ATK and Skill DMG stat-stick, pretty simple weapon overall and not too effective for Aalto as a result of its low base stats from being 4-star.",
+        "dupe_rank": "R5",
+        "percentage_performance": "80.40%",
+        "weapon_base_info": {
+          "effect_description": "When Intro Skill is released, increases Resonance Skill DMG Bonus by {0} for {1}s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 30.3,
+          "source": ""
+        },
+        "weapon_name": "Undying Flame"
+      },
+      {
+        "commentary_details": "Due to this Battle Pass exclusive's low base ATK and Skill DMG-focused effect, its performance isn't as strong as some other available 4-stars but it remains usable.",
+        "dupe_rank": "R5",
+        "percentage_performance": "79.10%",
+        "weapon_base_info": {
+          "effect_description": "When hitting a target with Basic Attacks or Heavy Attacks, increases Resonance Skill DMG Bonus by {0}, stacking up to 3 time(s). This effect lasts for 10s and can be triggered 1 time(s) every 1s.",
+          "primary_stat_val": 387,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "Pioneer Podcast"
+        },
+        "weapon_name": "Thunderbolt"
+      },
+      {
+        "commentary_details": "This Battle Pass exclusive displays low performance in spite of its CRIT Rate secondary stat and universal ATK% boost because of its lower Base ATK and unusable Heavy ATK DMG-increasing effect; remember having CRIT as a secondary stat doesn't automatically make a weapon good.",
+        "dupe_rank": "R5",
+        "percentage_performance": "78.00%",
+        "weapon_base_info": {
+          "effect_description": "Dealing Basic Attack or Heavy Attack DMG increases ATK by {0} and grants {0} Heavy Attack DMG Bonus for 7s, stacking up to 4 times. This effect can be triggered 1 time every 1s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.3,
+          "source": "Battle Pass"
+        },
+        "weapon_name": "Solar Flame"
+      },
+      {
+        "commentary_details": "For DPS Aalto, calculated assuming the passive can get stacked up â significantly worse otherwise. A good 4-star Pistol option for DPS characters who can play in a team with Negative Statuses; the case for Aalto as he ideally wants to play alongside Ciaccona and Aero Rover, making this weapon a good 4-star alternative for him thanks to its high Base ATK compared to other 4-stars.",
+        "dupe_rank": "R5",
+        "percentage_performance": "77.10%",
+        "weapon_base_info": {
+          "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Crafting"
+        },
+        "weapon_name": "Romance in Farewell"
+      },
+      {
+        "commentary_details": "Alternative 4-star choice that provides extra ATK when dodging. Overall only provides ATK and nothing else making this weapon suboptimal compared to the above choices.",
+        "dupe_rank": "R5",
+        "percentage_performance": "76.80%",
+        "weapon_base_info": {
+          "effect_description": "When the Resonator dashes or dodges, increases ATK by {0}, stacking up to <b>3</b> time(s). This effect lasts for <b>8</b>s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 30.3,
+          "source": ""
+        },
+        "weapon_name": "Novaburst"
+      }
+    ],
     "character_metadata": {
       "breadcrumb": [
         "Wuthering Waves",
         "Characters",
         "Aalto"
       ],
-      "element": null,
+      "element": "Aero",
       "name": "Aalto",
-      "rarity_stars": null,
+      "rarity_stars": 4,
       "slug": "aalto",
       "updates": {
-        "last_major_build_patch": "",
-        "last_profile_update": "",
-        "last_review_patch": "",
-        "last_updated": ""
+        "last_major_build_patch": "2.6",
+        "last_profile_update": "01/October/2026",
+        "last_review_patch": "2.1",
+        "last_updated": "01/October/2026"
       },
-      "weapon_type": null
+      "weapon_type": "Pistols"
     },
-    "example_teams": [],
-    "media": null,
-    "minor_fortes": [],
-    "pros_and_cons": null,
-    "ratings": null,
-    "recommended_endgame_stats_target": [],
-    "resonance_chain_dupes": [],
-    "review": null,
-    "rotations": [],
-    "skill_upgrade_priority": null,
-    "skills": [],
-    "synergies": [],
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "aalto"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "ciaccona"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "rover-aero"
+        },
+        "team_name": "Best Team (DPS)",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "jiyan, iuno"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "aalto"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina",
+            "rover-aero"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Best Team (Hybrid)",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "aalto"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "sanhua"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina",
+            "rover-aero"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "F2P Team (DPS)",
+        "team_notes": ""
+      }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/aalto_full.webp",
+      "youtube_guide_embed_url": "",
+      "youtube_guide_full_url": ""
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+12%",
+        "stat_name": "Aero DMG"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "ATK%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "Slightly dependent on his first sequence to make his support rotations smoother;",
+        "Inherent skills that do essentially nothing;",
+        "Needs to shoot exclusively through his gates to deal extra damage, which can be troublesome against moving targets;",
+        "Literally no AoE potential;",
+        "Underwhelming Resonance Liberation at S0 outside of concerto generation;",
+        "Has no current place in the meta as his damage isn't the most competitive and is outshined in his best supporting slot."
+      ],
+      "pros": [
+        "Can be played as both a Main DPS and a buffer;",
+        "Good buffing potential overall;",
+        "Relatively short support rotation time;",
+        "Only Aero damage buffer in the game;",
+        "Spawns clones that taunt enemies improving endgame survivability;",
+        "Cool sunglasses."
+      ]
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [],
+          "tier": "T4"
+        },
+        "whimpering_wastes": {
+          "tags": [],
+          "tier": "T4"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T4"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T4"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 14000+",
+      "DEF: 1000+",
+      "ATK: 1600-2100+",
+      "CRIT Rate: 60-75%+",
+      "CRIT DMG: 215-280%+",
+      "Energy Regen: 145%-160%+The lower estimate is based on Iuno+Shorekeeper, and the higher estimate is based on a team with Jiyan+Shorekeeper. No Energy Regen is required if playing Aalto as a DPS.",
+      "Aero DMG Bonus: 40-70%+"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "The cooldown of Resonance Skill Shift Trick is reduced by 4s.",
+        "name": "Sequence Node 1",
+        "node": "S1"
+      },
+      {
+        "description": "\"Mist Avatar\" inherits 100% more HP from Aalto. When Aalto attacks targets taunted by the \"Mist Avatar(s)\", his ATK is increased by 15%.",
+        "name": "Sequence Node 2",
+        "node": "S2"
+      },
+      {
+        "description": "When Aalto's Basic Attack or Mid-Air Attack passes through the \"Gate of Quandary\", 2 more bullets will be generated, dealing 50% of the DMG of Basic Attack or Mid-Air Attack.",
+        "name": "Sequence Node 3",
+        "node": "S3"
+      },
+      {
+        "description": "The damage of Resonance Skill Mist Bullets is increased by 30%; Aalto receives 30% less damage in his Forte Circuit Mistcloak Dash state.",
+        "name": "Sequence Node 4",
+        "node": "S4"
+      },
+      {
+        "description": "In the Forte Circuit Mistcloak Dash state, Aalto's Aero DMG Bonus is increased by 25% for 6s.",
+        "name": "Sequence Node 5",
+        "node": "S5"
+      },
+      {
+        "description": "Resonance Liberation Flower in the Mist now additionally increases Crit. Rate by 8%. When Aalto's Heavy Attack passes through the \"Gate of Quandary\", the damage dealt is additionally increased by 50%.",
+        "name": "Sequence Node 6",
+        "node": "S6"
+      }
+    ],
+    "review": {
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Aalto is a DPS character who is very unique - also playable as a Hybrid buffer, he creates misty gates that empower his attacks when he shoots through them. Able to jump through them to turn incorporeal to increase his movement speed, he can create mist clones to taunt nearby enemies and effectively endorse the role of a trickster, who can deal damage while distracting enemies to prevent himself from being interrupted as he attacks.",
+            "Able to buff Aero damage dealers via his Outro skill, he was originally perceived to work exclusively as a hybrid character. However, that is not the case — while this role is suitable for him, it is currently subpar in the meta, very much outshined in Jiyan teams by Mortefi, a hybrid who is not only stronger but featured on every banner along with Jiyan, as the heavy attack amplifier was designed with the heavy attack-focused DPS in mind.",
+            "Suffering from this constant comparison makes Aalto seem like a totally outclassed character; however, if you truly harness his damage potential and invest into him like a Main DPS, as it turns out, he is able to fully clear the tower's endgame content if you wish to master his kit.",
+            "The main part of his DPS potential is acquired through his mid-air attacks, the pistol shots that he fires after jumping into the air and pressing the attack button. Typically totaling between 8 and 10 pistol shots, those effective ranged bursts of damage, that receive buffed damage when shooting through gates generated by his Ultimate, give Aalto a niche as a Main DPS carry, while not being near the best in his role. He falls short not only from a damage standpoint, but from an energy regen standpoint, as Aalto has a hefty 150 energy cost on his Ultimate, which can prove very tricky to acquire.",
+            "On top of this, the necessity to shoot through specific areas to deal extra damage, and the need to time jumps in order to make the most of his aerial attacks make him decently difficult to play and learn, as his unusual kit can prove very difficult to get used to.",
+            "In spite of all those flaws, however, it remains enough to clear the endgame content if you wish to master his kit.",
+            "In summary: Aalto is a subpar but viable DPS and Hybrid option, outclassed by stronger characters while still remaining usable if you play him well."
+          ]
+        }
+      ],
+      "summary": "Aalto is a DPS character who is very unique - also playable as a Hybrid buffer, he creates misty gates that empower his attacks when he shoots through them. Able to jump through them to turn incorporeal to increase his movement speed, he can create mist clones to taunt nearby enemies and effectively endorse the role of a trickster, who can deal damage while distracting enemies to prevent himself from being interrupted as he attacks."
+    },
+    "rotations": [
+      {
+        "rotation_name": "Rotation:",
+        "steps": [
+          "Skill: Mist Avatar (Use during another character's rotation to allow for cooldown)",
+          "Intro",
+          "Ultimate",
+          "Skill: Mist Avatar (Can be used after Basic Attacks if still on Cooldown)",
+          "Basic P1",
+          "Basic P2",
+          "Basic P3",
+          "Basic P4",
+          "Basic P5",
+          "Echo",
+          "Outro"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "",
+      "order": [
+        "Basic Attack",
+        "Res. Skill",
+        "Res. Liberation",
+        "Forte Circuit",
+        "Intro Skill"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic AttackAalto fires up to 5 consecutive shots, dealing Aero DMG. Basic Attack 4 will spread the \"Mist\" forward, which lasts for 1.5s. Heavy AttackAalto enters the aiming state for a more powerful shot. The aimed shot fired after charging finishes deals Aero DMG. Mid-air AttackAalto consumes Stamina to perform consecutive shots at the target in mid-air, dealing Aero DMG. Dodge CounterUse Basic Attack after a successful Dodge to attack the target, dealing Aero DMG.",
+        "multipliers": [
+          {
+            "Lv1": "16.00%",
+            "Lv10": "31.81%",
+            "Lv2": "17.32%",
+            "Lv3": "18.63%",
+            "Lv4": "20.47%",
+            "Lv5": "21.78%",
+            "Lv6": "23.29%",
+            "Lv7": "25.39%",
+            "Lv8": "27.48%",
+            "Lv9": "29.58%",
+            "Name": "Part 1 Damage"
+          },
+          {
+            "Lv1": "26.67%",
+            "Lv10": "53.02%",
+            "Lv2": "28.86%",
+            "Lv3": "31.04%",
+            "Lv4": "34.11%",
+            "Lv5": "36.29%",
+            "Lv6": "38.81%",
+            "Lv7": "42.31%",
+            "Lv8": "45.80%",
+            "Lv9": "49.30%",
+            "Name": "Part 2 Damage"
+          },
+          {
+            "Lv1": "24%*2",
+            "Lv10": "47.72%*2",
+            "Lv2": "25.97%*2",
+            "Lv3": "27.94%*2",
+            "Lv4": "30.7%*2",
+            "Lv5": "32.66%*2",
+            "Lv6": "34.93%*2",
+            "Lv7": "38.08%*2",
+            "Lv8": "41.22%*2",
+            "Lv9": "44.37%*2",
+            "Name": "Part 3 Damage"
+          },
+          {
+            "Lv1": "25.34%*2",
+            "Lv10": "50.37%*2",
+            "Lv2": "27.42%*2",
+            "Lv3": "29.49%*2",
+            "Lv4": "32.4%*2",
+            "Lv5": "34.48%*2",
+            "Lv6": "36.87%*2",
+            "Lv7": "40.19%*2",
+            "Lv8": "43.51%*2",
+            "Lv9": "46.84%*2",
+            "Name": "Part 4 Damage"
+          },
+          {
+            "Lv1": "90.40%",
+            "Lv10": "179.73%",
+            "Lv2": "97.82%",
+            "Lv3": "105.23%",
+            "Lv4": "115.61%",
+            "Lv5": "123.02%",
+            "Lv6": "131.55%",
+            "Lv7": "143.41%",
+            "Lv8": "155.27%",
+            "Lv9": "167.13%",
+            "Name": "Part 5 Damage"
+          },
+          {
+            "Lv1": "30%",
+            "Lv10": "59.65%",
+            "Lv2": "32.46%",
+            "Lv3": "34.92%",
+            "Lv4": "38.37%",
+            "Lv5": "40.83%",
+            "Lv6": "43.66%",
+            "Lv7": "47.59%",
+            "Lv8": "51.53%",
+            "Lv9": "55.47%",
+            "Name": "Mid-Air Attack"
+          },
+          {
+            "Lv1": "18.00%",
+            "Lv10": "35.79%",
+            "Lv2": "19.48%",
+            "Lv3": "20.96%",
+            "Lv4": "23.02%",
+            "Lv5": "24.50%",
+            "Lv6": "26.20%",
+            "Lv7": "28.56%",
+            "Lv8": "30.92%",
+            "Lv9": "33.28%",
+            "Name": "Aimed Shot Damage"
+          },
+          {
+            "Lv1": "40.50%",
+            "Lv10": "80.52%",
+            "Lv2": "43.83%",
+            "Lv3": "47.15%",
+            "Lv4": "51.80%",
+            "Lv5": "55.12%",
+            "Lv6": "58.94%",
+            "Lv7": "64.25%",
+            "Lv8": "69.56%",
+            "Lv9": "74.88%",
+            "Name": "Fully Charged Aimed Shot Damage"
+          },
+          {
+            "Lv1": "107.70%",
+            "Lv10": "214.12%",
+            "Lv2": "116.54%",
+            "Lv3": "125.37%",
+            "Lv4": "137.73%",
+            "Lv5": "146.56%",
+            "Lv6": "156.72%",
+            "Lv7": "170.85%",
+            "Lv8": "184.98%",
+            "Lv9": "199.11%",
+            "Name": "Dodge Counter Damage"
+          },
+          {
+            "Lv1": "5",
+            "Lv10": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Name": "Mid-Air Attack Stamina Consumption"
+          }
+        ],
+        "name": "Half Truths",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Mist AvatarCasts \"Mist\" and 1 \"Mist Avatar(s)\" to taunt the surrounding targets. The avatars inherit a portion of Aalto's HP and generate 6 Mist Bullets around them, dealing Aero DMG.Mist MissilesDeals Aero DMG, considered as Resonance Skill damage.",
+        "multipliers": [
+          {
+            "Lv1": "30.00%",
+            "Lv10": "59.65%",
+            "Lv2": "32.46%",
+            "Lv3": "34.92%",
+            "Lv4": "38.37%",
+            "Lv5": "40.83%",
+            "Lv6": "43.66%",
+            "Lv7": "47.59%",
+            "Lv8": "51.53%",
+            "Lv9": "55.47%",
+            "Name": "Mist Missile Damage"
+          },
+          {
+            "Lv1": "100%",
+            "Lv10": "100%",
+            "Lv2": "100%",
+            "Lv3": "100%",
+            "Lv4": "100%",
+            "Lv5": "100%",
+            "Lv6": "100%",
+            "Lv7": "100%",
+            "Lv8": "100%",
+            "Lv9": "100%",
+            "Name": "Mist Avatar HP"
+          },
+          {
+            "Lv1": "8",
+            "Lv10": "8",
+            "Lv2": "8",
+            "Lv3": "8",
+            "Lv4": "8",
+            "Lv5": "8",
+            "Lv6": "8",
+            "Lv7": "8",
+            "Lv8": "8",
+            "Lv9": "8",
+            "Name": "Mist Avatar Duration"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "15",
+            "Lv10": "15",
+            "Lv2": "15",
+            "Lv3": "15",
+            "Lv4": "15",
+            "Lv5": "15",
+            "Lv6": "15",
+            "Lv7": "15",
+            "Lv8": "15",
+            "Lv9": "15",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Shift Trick",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Generate a \"Gate of Quandary\" in front of you dealing Aero DMG. When bullets pass through the \"Gate of Quandary\", ATK is increased. \"Gate of Quandary\" lasts for 10s.",
+        "multipliers": [
+          {
+            "Lv1": "200.00%",
+            "Lv10": "397.62%",
+            "Lv2": "216.40%",
+            "Lv3": "232.80%",
+            "Lv4": "255.76%",
+            "Lv5": "272.16%",
+            "Lv6": "291.02%",
+            "Lv7": "317.26%",
+            "Lv8": "343.50%",
+            "Lv9": "369.74%",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "10.00%",
+            "Lv10": "10.00%",
+            "Lv2": "10.00%",
+            "Lv3": "10.00%",
+            "Lv4": "10.00%",
+            "Lv5": "10.00%",
+            "Lv6": "10.00%",
+            "Lv7": "10.00%",
+            "Lv8": "10.00%",
+            "Lv9": "10.00%",
+            "Name": "Gate Of Quandary ATK Increase"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "150",
+            "Lv10": "150",
+            "Lv2": "150",
+            "Lv3": "150",
+            "Lv4": "150",
+            "Lv5": "150",
+            "Lv6": "150",
+            "Lv7": "150",
+            "Lv8": "150",
+            "Lv9": "150",
+            "Name": "Res. Energy Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Flower in the Mist",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "When Aalto passes through \"Mist\" or \"Gate of Quandary\", he enters \"Mistcloak Dash\".Mistcloak DashMovement speed increased; During this period, \"Mist Drops\" are continuously consumed, and for each 1 \"Mist Drop\" consumed, 1 Resonance Skill Mist Missile is generated.Mist DropsAalto can hold up to 6 Mist Drops. When Basic Attack or Mid-air Attack passes through \"Mist\" and hits the target, 1 \"Mist Drop\" is recovered.",
+        "multipliers": [
+          {
+            "Lv1": "30.00%",
+            "Lv10": "59.65%",
+            "Lv2": "32.46%",
+            "Lv3": "34.92%",
+            "Lv4": "38.37%",
+            "Lv5": "40.83%",
+            "Lv6": "43.66%",
+            "Lv7": "47.59%",
+            "Lv8": "51.53%",
+            "Lv9": "55.47%",
+            "Name": "Mist Missile Dmg"
+          },
+          {
+            "Lv1": "40.00%",
+            "Lv10": "40.00%",
+            "Lv2": "40.00%",
+            "Lv3": "40.00%",
+            "Lv4": "40.00%",
+            "Lv5": "40.00%",
+            "Lv6": "40.00%",
+            "Lv7": "40.00%",
+            "Lv8": "40.00%",
+            "Lv9": "40.00%",
+            "Name": "Movement Speed Increase"
+          }
+        ],
+        "name": "Misty Cover",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "Aalto's Heavy Attack will always critically hit, triggered once every 30 seconds.",
+        "multipliers": [],
+        "name": "Perfect Performance",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "Aalto will continuously recover Stamina when he is in the Forte Circuit Miscloak Dash state.",
+        "multipliers": [],
+        "name": "Mid-game Break",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Aalto suddenly appears and performs rapid continuous shooting, dealing Aero DMG.",
+        "multipliers": [
+          {
+            "Lv1": "33.34%*3",
+            "Lv10": "66.27%*3",
+            "Lv2": "36.07%*3",
+            "Lv3": "38.8%*3",
+            "Lv4": "42.63%*3",
+            "Lv5": "45.36%*3",
+            "Lv6": "48.51%*3",
+            "Lv7": "52.88%*3",
+            "Lv8": "57.25%*3",
+            "Lv9": "61.63%*3",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Feint Shot",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "The next character (or other characters on a nearby team that activates an Outro Skill) gains 23% Aero DMG Deepen for 14 seconds or until the Character is switched.",
+        "multipliers": [],
+        "name": "Dissolving Mist",
+        "skill_type": "Outro Skill"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "ciaccona"
+        ],
+        "commentary": "As a core component of all mono Aero teams, Ciaccona is the best partner for Main DPS Aalto, providing good on and off-field damage with a quick rotation, and further boosts to Aero DMG. She additionally allows Aalto to run the Windward Pilgrimage Echo set for maximum potential."
+      },
+      {
+        "characters": [
+          "jiyan"
+        ],
+        "commentary": "While Aalto is not optimal for Jiyan teams, he can serve as a viable replacement if any higher-priority teammates are already taken in other teams thanks to his 23% Aero DMG Amplify on Outro."
+      },
+      {
+        "characters": [
+          "iuno"
+        ],
+        "commentary": "While Aalto is not optimal for Main DPS Iuno teams, he can serve as a viable replacement if any higher-priority teammates are already taken in other teams thanks to his 23% Aero DMG Amplify on Outro."
+      },
+      {
+        "characters": [
+          "rover-aero"
+        ],
+        "commentary": "Another core member of the mono Aero teams with Ciaccona, Aero Rover can Amplify Aero DMG team-wide with their Signature weapon and also increase the maximum amount of Aero Erosion stacks enemies can have inflicted to further boost Ciaccona's off-field damage. Rhis makes them one of the best partners for DPS Aalto but also amazing as a general Aero DMG Amplifying Support."
+      },
+      {
+        "characters": [
+          "verina"
+        ],
+        "commentary": "One of the usual Healing Support options that can slot into any team. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Enjoy."
+      },
+      {
+        "characters": [
+          "the-shorekeeper"
+        ],
+        "commentary": "Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game."
+      }
+    ],
     "upgrade_materials": {
-      "character_ascension": [],
-      "skill_upgrades": []
+      "character_ascension": [
+        {
+          "material_name": "Wintry Bell",
+          "quantity": 60,
+          "rarity": "boss"
+        },
+        {
+          "material_name": "Roaring Rock Fist",
+          "quantity": 46,
+          "rarity": "specialty"
+        },
+        {
+          "material_name": "LF Howler Core",
+          "quantity": 4,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Howler Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Howler Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Howler Core",
+          "quantity": 4,
+          "rarity": "common"
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "Monument Bell",
+          "quantity": 26,
+          "rarity": "weekly_boss"
+        },
+        {
+          "material_name": "LF Howler Core",
+          "quantity": 25,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Howler Core",
+          "quantity": 28,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Howler Core",
+          "quantity": 40,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Howler Core",
+          "quantity": 57,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Impure Phlogiston",
+          "quantity": 25,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Extracted Phlogiston",
+          "quantity": 28,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Refined Phlogiston",
+          "quantity": 55,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Flawless Phlogiston",
+          "quantity": 67,
+          "rarity": "skill_material"
+        }
+      ]
     },
-    "voice_actors": null
+    "voice_actors": {
+      "cn": "Liang Dawei",
+      "eng": "James Day",
+      "jpn": "Iwasaki Ryota",
+      "kr": "Im Chaebin"
+    }
   },
   "status": "success"
 }

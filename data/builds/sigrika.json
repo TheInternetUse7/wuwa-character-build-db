@@ -1,44 +1,915 @@
 {
   "data": {
-    "base_stats_lvl_90": null,
-    "best_echo_sets": [],
-    "best_echo_stats": null,
-    "best_weapons": [],
+    "base_stats_lvl_90": {
+      "atk": 35,
+      "crit_dmg": "150%",
+      "crit_rate": "13%",
+      "def": 93,
+      "elemental_dmg_bonus": "0%",
+      "healing_bonus": "0%",
+      "hp": 862,
+      "max_energy": 125
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Grants Sigrika a very easy to access 20% CRIT Rate and 25% Aero DMG Bonus, making for a simple choice of the best stat bonuses she can get from an Echo set.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Simple Summon Echo, can be used at any point in the rotation and grants 12% Aero DMG Bonus as well as 20% Echo Skill DMG Bonus when equipped in the Main Slot. A no-brainer for Sigrika.",
+            "echo_name": "Nameless Explorer"
+          }
+        ],
+        "percentage_performance": "100.00%",
+        "set_name": "Sound of True Name"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ],
+        "cost_3": [
+          "ATK%",
+          "ATK% > Energy Regen"
+        ],
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT DMG  CRIT Rate",
+        "Energy Regen (above 125% until 150%)",
+        "ATK%",
+        "ATK"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "Sigrika's Signature weapon is the only one to give her the stats she desires, being a mix of high Base ATK, CRIT DMG, Echo Skill DMG Amplification and providing extra DEF Ignore to Aero DMG, making it the de facto best choice for her by a good amount.",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Casting Intro Skill or Echo Skill grants {1} Echo Skill DMG Amplification for 15s. When dealing Echo Skill DMG, Aero DMG ignores {2} of the target's DEF for 6s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Solsworn Ciphers"
+      },
+      {
+        "commentary_details": "Zani's Signature weapon provides the same base stats as her Signature alongside an extra 8% DEF Ignore when Sigrika casts her Basic Attacks, making for a small extra boost compared to the alternatives below it.",
+        "dupe_rank": "R1",
+        "percentage_performance": "85.20%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Casting Basic Attack grants the following effects: Dealing damage ignores {1} of the target's DEF and Amplifies Spectro Frazzle DMG dealt by {2} for 6s. Retriggering the effect resets its duration.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Blazing Justice"
+      },
+      {
+        "commentary_details": "Calculation also applicable to Tragicomedy and Daybreaker's Spine. The best permanent option for Sigrika which is just an ATK and CRIT Rate stat-stick for her.",
+        "dupe_rank": "R1",
+        "percentage_performance": "82.00%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Dealing damage to targets under Tune Strain: Interfered grants {1} Basic Attack DMG Bonus for 3s, stacking up to 4 times. This effect can be triggered once every 0.5s. Retriggering the effect resets its duration.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Pulsation Bracer"
+      },
+      {
+        "commentary_details": "Another ATK and CRIT Rate stat-stick which provides 12% All-Attribute DMG Bonus instead of ATK, making it a bit worse than the above options.",
+        "dupe_rank": "R1",
+        "percentage_performance": "82.00%",
+        "weapon_base_info": {
+          "effect_description": "Gain {0} Attribute DMG Bonus. When using Resonance Liberation, the wielder gains {1} Resonance Liberation DMG Bonus for 8s. This effect can be extended by 5 seconds each time Resonance Skills are cast, up to 3 times.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Gacha"
+        },
+        "weapon_name": "Verity's Handle"
+      },
+      {
+        "commentary_details": "This weapon gives too much CRIT Rate when factoring in Sigrika's own kit buffs, and also has a lower Base ATK than the above options, which makes it perform worse than them as an ATK and CRIT Rate stat-stick for Sigrika.",
+        "dupe_rank": "R1",
+        "percentage_performance": "80.90%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Casting Intro Skill or Resonance Liberation increases Resonance Liberation DMG by {1} for 15s. Obtaining Shield allows Resonance Liberation DMG to ignore {2} of the target's DEF for 7s, stacking up to 5 times. This effect is triggered once every 0.5s. Upon casting Intro Skill, this effect reaches max stacks immediately, lasting for 3s.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 36,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Moongazer's Sigil"
+      },
+      {
+        "commentary_details": "While this weapon provides massive ATK and Energy Regen stats, it lacks the CRIT stat that the weapons above it have, making it a worse option overall.",
+        "dupe_rank": "R1",
+        "percentage_performance": "78.50%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When hitting a target with Resonance Skill, increases Basic Attack DMG Bonus by {1}, lasting for {2}. When hitting a target with Basic Attacks, increases Resonance Skill DMG Bonus by {3}, lasting for {4}s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Abyss Surges"
+      },
+      {
+        "commentary_details": "This Battle Pass exclusive is the best 4-star option Sigrika has by a tiny margin thanks to the CRIT and ATK stats it provides, but due to a much lower Base ATK than all other 5-star choices it pales in comparison to them.",
+        "dupe_rank": "R5",
+        "percentage_performance": "76.60%",
+        "weapon_base_info": {
+          "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Resonance Liberation DMG Bonus for 15s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 40.5,
+          "source": "Battle Pass"
+        },
+        "weapon_name": "Aether Strike"
+      },
+      {
+        "commentary_details": "Best F2P no-gacha option for Sigrika, of which she can enable the passive thanks to Ciaccona being on her team in our calculations. Without the passive activated, it will perform worse than listed but still be an acceptable temporary choice. Still, try to chase 5-star options like Pulsation Bracer if you can to get good performance out of Sigrika.",
+        "dupe_rank": "R5",
+        "percentage_performance": "70.60%",
+        "weapon_base_info": {
+          "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Crafting"
+        },
+        "weapon_name": "Legend of Drunken Hero"
+      }
+    ],
     "character_metadata": {
       "breadcrumb": [
         "Wuthering Waves",
         "Characters",
         "Sigrika"
       ],
-      "element": null,
+      "element": "Aero",
       "name": "Sigrika",
-      "rarity_stars": null,
+      "rarity_stars": 5,
       "slug": "sigrika",
       "updates": {
-        "last_major_build_patch": "",
-        "last_profile_update": "",
-        "last_review_patch": "",
-        "last_updated": ""
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "01/October/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "01/October/2026"
       },
-      "weapon_type": null
+      "weapon_type": "Gauntlets"
     },
-    "example_teams": [],
-    "media": null,
-    "minor_fortes": [],
-    "pros_and_cons": null,
-    "ratings": null,
-    "recommended_endgame_stats_target": [],
-    "resonance_chain_dupes": [],
-    "review": null,
-    "rotations": [],
-    "skill_upgrade_priority": null,
-    "skills": [],
-    "synergies": [],
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "sigrika"
+        },
+        "slot_2": {
+          "alternatives": [
+            "lucilla"
+          ],
+          "character_name": "qiuyuan"
+        },
+        "slot_3": {
+          "alternatives": [
+            "the-shorekeeper",
+            "phrolova",
+            "verina"
+          ],
+          "character_name": "ciaccona"
+        },
+        "team_name": "Best Team",
+        "team_notes": "Phrolova can be considered stronger for AoE multi-wave encounters like Whimpering Wastes. Generally privilege other Support options in single-wave encounters."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "sigrika"
+        },
+        "slot_2": {
+          "alternatives": [
+            "ciaccona"
+          ],
+          "character_name": "lynae"
+        },
+        "slot_3": {
+          "alternatives": [
+            "rover-aero",
+            "the-shorekeeper",
+            "verina"
+          ],
+          "character_name": "mornye"
+        },
+        "team_name": "Alternative Teams",
+        "team_notes": "Mornye should only be used alongside Lynae, Aero Rover should only be used alongside Ciaccona."
+      }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/sigrika_full.webp",
+      "youtube_guide_embed_url": "https://www.youtube.com/embed/qY69um-KKh4",
+      "youtube_guide_full_url": "https://www.youtube.com/watch?v=qY69um-KKh4"
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+8%",
+        "stat_name": "CRIT Rate"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "ATK%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "Lacks good F2P teammates and F2P weapons. Basically a necessity to at least have Qiuyuan or Lucilla as a readily available teammate, and her Signature is a desirable upgrade as well to get her up to the top-level performance she can output."
+      ],
+      "pros": [
+        "One of the best overall DPS performances in the game within her best team, given the right amount of investment. One of the strongest WhiWa DPS by a big margin and an insane ToA/Matrix DPS too;",
+        "Can buff the team's Aero and Echo skill damage, providing extra synergies;",
+        "Has built-in Stun mechanics that teammates can exploit via her Outro, making full team rotations easier. Can also group and stun enemies in her own rotation to handle different battle situations."
+      ]
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [
+            "Echo"
+          ],
+          "tier": "T0.5"
+        },
+        "whimpering_wastes": {
+          "tags": [
+            "Echo"
+          ],
+          "tier": "T0"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T1"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T0"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 15000+",
+      "DEF: 1100+",
+      "ATK: 2400-3000+",
+      "CRIT Rate: 65%+ (Before Set Bonus)",
+      "CRIT DMG: 210-290%+",
+      "Energy Regen: 109%-119%The lower estimate was calculated using Qiuyuan Ciaccona (or Phrolova), the higher estimate was calculated using Qiuyuan Shorekeeper.",
+      "Aero DMG Bonus: 10-40%+"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "The DMG Multipliers of Basic Attack - Elucidated, Dodge Counter - Decipher, Resonance Skill - BIG BOOMY BOOM!, and Resonance Skill - Soliskin to the Aid are increased by 70%.Sigrika becomes immune to interruptions while casting Basic Attack - Elucidated, Resonance Skill - BIG BOOMY BOOM!, and Resonance Skill - Soliskin to the Aid.Encapsulated now stacks up to 3 times. After casting Outro Skill In This Very Moment, Sigrika obtains 1 additional stacks.",
+        "name": "Sequence Node 1",
+        "node": "S1"
+      },
+      {
+        "description": "The DMG Multiplier of Forte Circuit - Learn My True Name is increased by 120%.When not in combat for over 4s, Sigrika gains Divergent. This effect is active for up to 1 time every 4s.",
+        "name": "Sequence Node 2",
+        "node": "S2"
+      },
+      {
+        "description": "Innate Gift? now stacks up to 4 times and is no longer removed after Sigrika casts Forte Circuit - Learn My True Name or is switched off the field.All Innate Gift? stacks are removed every 30s that Sigrika stays out of combat.",
+        "name": "Sequence Node 3",
+        "node": "S3"
+      },
+      {
+        "description": "When Resonators in the team cast Echo Skill, Resonators in the team gain an 20% ATK increase for 20s.",
+        "name": "Sequence Node 4",
+        "node": "S4"
+      },
+      {
+        "description": "The DMG Multiplier of Resonance Liberation Where Trust Leads Me! is increased by 30%.",
+        "name": "Sequence Node 5",
+        "node": "S5"
+      },
+      {
+        "description": "Targets take 30% more DMG from Sigrika.Innate Gift? gains following effects:Each stack grants Runic Outburst, Runic Chain Whip, Runic Soliskin, and Forte Circuit - Learn My True Name 15% DMG Amplification, up to 60%.Each stack causes Runic Outburst, Runic Chain Whip, Runic Soliskin, and Forte Circuit - Learn My True Name to ignore 7.5% of the target's DEF when dealing damage, up to 30%.",
+        "name": "Sequence Node 6",
+        "node": "S6"
+      }
+    ],
+    "review": {
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Sigrika is a 5-star Aero Gauntlets DPS character who specializes in the Echo Skill damage archetype, similar to characters like Phrolova and Galbrena. Much like Galbrena, she gets up close and personal to deal high-damaging Aero blows to enemies; but unlike her, Sigrika doesn't focus on entering an enhanced state to deal her damage; instead, she builds up to a Forte Skill in order to blow enemies away. Let's look into how to do exactly that:"
+          ]
+        },
+        {
+          "heading": "Key Mechanics",
+          "paragraphs": [
+            "Sigrika's kit focuses on generating and consuming Runes via Heavy Attacks in order to cast her Forte Skill. She does this via her Basic Attacks, Intro, and Ultimate, all of which are related to Rune generation. Essentially, Sigrika can generate one Rune after performing a full Basic Attack chain. However, this can be upgraded to 2 Runes per chain if she has cast her Intro or Ultimate within the past 20 seconds. One of these Heavy Attacks will be using 2 of the same runes and the other will be using 2 different rune types. Each rune type influences what Heavy Attack is performed. This is similar to Phrolova's Forte Basics and Forte Skills.",
+            "Sigrika's Runes gained via her enhanced Basic Attack (which is indicated by the glow on the Basic Attack button after a full Basic Chain) will generate Runes used to stagnate enemies, while Runes gained via her enhanced Skill (indicated by the glow on the Skill button in a similar fashion) will generate Runes used to group enemies.",
+            "Sigrika's special Heavy Attacks can be used if she has any two or more Runes. If two Runes of the same type are present (this will be the case after her Intro), then the actual effect, depending on the Rune type selected, will take place. However, due to the nature of her Ultimate generating two opposite-type Runes, the next Heavy Attack will simply deal higher damage while having no extra effects instead.",
+            "Finally, once both Heavy Attacks were used, holding her Skill button will cast her big Forte Skill nuke, ending her rotation."
+          ]
+        },
+        {
+          "heading": "Practical Gameplay & Related Mechanics",
+          "paragraphs": [
+            "Given her Key Mechanics explained above, we can come up with a simple rotation where Sigrika casts a full Basic Attack chain after Intro, casts a Heavy Attack, casts her Ultimate, redoes a full Basic Attack chain into a Heavy, and then she's ready to use her Forte Skill and Outro. Very easy to understand and execute. However, Sigrika has other mechanics that are important to keep in mind when playing her in practice.",
+            "First of all, if she needs to dodge out of the way of enemies, it's not a problem. Her dodge counter works so that the next attack that comes after it is a Basic Attack 4, which means she can easily generate Runes quickly after dodging an enemy attack to ensure a smooth rotation.",
+            "Secondly, it's worth noting Sigrika has mechanics that discourage swapping, since she'd not only lose out on team Outro Buffs, but also her own Aero and Echo skill damage buff only applies to the active character on-field (this is given via her Inherent Skills and depends on the amount of Echo Skill casts in the team), and she will also lose out on a significant amount of DMG Amplification built into her Forte on all of her most damaging abilities.",
+            "Thirdly and finally, Sigrika can Stagnate enemies when other characters cast their own Echo Skills after her Outro. This helps inconsistent characters like Qiuyuan, and makes them able to consistently execute scripted rotations against aggressive bosses without as much issue (although the impact is small overall, since her Supports tend to run 5P Moonlit Clouds with very few edge cases anyway so they can't use the Echo Skill until right before their rotation is finished)."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Sigrika is a strong DPS, but this comes at a cost. Almost all of her damage is Echo Skill DMG, which basically no character can buff aside from Qiuyuan or Lucilla. To make matters worse, Sigrika has 3 different layers of built-in mechanics that depend on the amount of Echo Skills cast in the team, built into her Forte and Inherent Skills. They each give significant amounts of DMG Bonus and DMG Amplification on her highest-damaging abilities. This makes her performance very reliant on Qiuyuan or Lucilla, as her strongest alternatives come in the form of characters like Lynae and Mornye who really pale in comparison.",
+            "Overall, Sigrika's reliance on Qiuyuan or Lucilla as teammates is very much felt, and she is stranded for other teammate options currently due to the amount of mechanics she has that are tied to having a higher amount of Echo Skill casts than normal in the team, as well as her more exclusive damage type which has no viable permanently accessible options. While she definitely has strong potential, her opportunity cost should definitely be kept in mind, especially considering she also lacks strong F2P weapon alternatives unlike her predecessors Luuk Herssen and Aemeath.",
+            "In conclusion, while Sigrika is a super strong DPS, she has a major flaw in regards to opportunity cost, which makes her pull value worth questioning depending on your account. But if you give Sigrika the conditions she needs to shine, she'll absolutely serve you as one of the strongest DPS in the game. Her modern damage numbers are nothing to scoff at, as she is easily one of the strongest WhiWa DPS thanks to her ridiculous AoE and fast rotation. Plus, she is one of the strongest in ToA/Matrix too,  all this so long as she is provided with the sufficient amount of investment and surrounded by the proper teammates."
+          ]
+        }
+      ],
+      "summary": "Sigrika is a 5-star Aero Gauntlets DPS character who specializes in the Echo Skill damage archetype, similar to characters like Phrolova and Galbrena. Much like Galbrena, she gets up close and personal to deal high-damaging Aero blows to enemies; but unlike her, Sigrika doesn't focus on entering an enhanced state to deal her damage; instead, she builds up to a Forte Skill in order to blow enemies away. Let's look into how to do exactly that:"
+    },
+    "rotations": [
+      {
+        "rotation_name": "Standard Rotation",
+        "steps": [
+          "Intro",
+          "Basic 2",
+          "Basic 3",
+          "Basic 4",
+          "Basic: Elucidated",
+          "Heavy: Chain Whip (Cancel animation on hit via Ultimate)",
+          "Ultimate",
+          "Basic 2",
+          "Basic 3",
+          "Basic 4",
+          "Basic: Elucidated",
+          "Heavy: Outburst (Cancel animation on hit via Hold Skill)",
+          "Hold Skill: Learn My True Name",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Double Outburst Opener",
+        "steps": [
+          "Ultimate",
+          "Skill",
+          "Basic 3",
+          "Basic 4",
+          "Basic: Elucidated (Swap)"
+        ]
+      },
+      {
+        "rotation_name": "Double Outburst Loop",
+        "steps": [
+          "Intro",
+          "Heavy: Outburst",
+          "Basic 2",
+          "Basic 3",
+          "Basic 4",
+          "Basic: Elucidated",
+          "Basic 2",
+          "Basic 3",
+          "Basic 4",
+          "Skill: BIG BOOMY BOOM!",
+          "Heavy: Outburst (Cancel animation on hit via Hold Skill)",
+          "Hold Skill: Learn My True Name",
+          "Ultimate",
+          "Outro",
+          "Skill",
+          "Basic 3",
+          "Basic 4",
+          "Basic: Elucidated (Swap)"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "Intro and Skill practically don't matter and should be skipped when levelling. Forte is by far the most important.",
+      "order": [
+        "Forte Circuit",
+        "Res. Liberation",
+        "Basic Attack",
+        "Intro Skill",
+        "Res. Skill"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic AttackPerform up to 4 consecutive attacks, dealing Aero DMG.Enter Decipher state for 5s after casting Basic Attack Stage 4. This effect ends early if Sigrika is switched off the field.When Sigrika has at least 50 points of Full Stop, her Basic Attack cycle starts from Stage 2.Basic Attack - ElucidatedIn the Decipher state, press Normal Attack on the ground to cast Basic Attack - Elucidated, dealing Aero DMG (considered Echo Skill DMG).Leave the Decipher state upon casting this skill.Heavy AttackConsume STA to attack the target, dealing Aero DMG.\nPress Normal Attack shortly after casting Heavy Attack to cast Basic Attack Stage 2.Mid-air AttackConsume STA to perform Plunging Attack, dealing Aero DMG.Press Normal Attack shortly after casting Plunging Attack to cast Basic Attack Stage 2.Dodge CounterPress Normal Attack shortly after a successful Dodge on the ground to attack the target, dealing Aero DMG.Press Normal Attack shortly after casting Dodge Counter to cast Basic Attack Stage 4.Dodge Counter - DecipherIn the Decipher state, press Normal Attack shortly after a successful Dodge on the ground to cast Dodge Counter - Decipher to attack the target, dealing Aero DMG (considered Echo Skill DMG).Leave the Decipher state upon casting this skill.Mid-air Dodge CounterPress Normal Attack shortly after a successful Dodge in mid-air to attack the target, dealing Aero DMG.Press Normal Attack shortly after casting Mid-air Dodge Counter to cast Basic Attack Stage 2.",
+        "multipliers": [
+          {
+            "Lv1": "26.64%",
+            "Lv10": "52.97%",
+            "Lv2": "28.83%",
+            "Lv3": "31.01%",
+            "Lv4": "34.07%",
+            "Lv5": "36.26%",
+            "Lv6": "38.77%",
+            "Lv7": "42.26%",
+            "Lv8": "45.76%",
+            "Lv9": "49.25%",
+            "Name": "Basic Attack Stage 1 DMG"
+          },
+          {
+            "Lv1": "25.32%+25.32%",
+            "Lv10": "50.34%+50.34%",
+            "Lv2": "27.40%+27.40%",
+            "Lv3": "29.48%+29.48%",
+            "Lv4": "32.38%+32.38%",
+            "Lv5": "34.46%+34.46%",
+            "Lv6": "36.85%+36.85%",
+            "Lv7": "40.17%+40.17%",
+            "Lv8": "43.49%+43.49%",
+            "Lv9": "46.81%+46.81%",
+            "Name": "Basic Attack Stage 2 DMG"
+          },
+          {
+            "Lv1": "16.80%+16.80%+22.40%",
+            "Lv10": "33.41%+33.41%+44.54%",
+            "Lv2": "18.18%+18.18%+24.24%",
+            "Lv3": "19.56%+19.56%+26.08%",
+            "Lv4": "21.49%+21.49%+28.65%",
+            "Lv5": "22.87%+22.87%+30.49%",
+            "Lv6": "24.45%+24.45%+32.60%",
+            "Lv7": "26.65%+26.65%+35.54%",
+            "Lv8": "28.86%+28.86%+38.48%",
+            "Lv9": "31.06%+31.06%+41.42%",
+            "Name": "Basic Attack Stage 3 DMG"
+          },
+          {
+            "Lv1": "20.80%+26.00%+26.00%+31.20%",
+            "Lv10": "41.36%+51.70%+51.70%+62.03%",
+            "Lv2": "22.51%+28.14%+28.14%+33.76%",
+            "Lv3": "24.22%+30.27%+30.27%+36.32%",
+            "Lv4": "26.60%+33.25%+33.25%+39.90%",
+            "Lv5": "28.31%+35.39%+35.39%+42.46%",
+            "Lv6": "30.27%+37.84%+37.84%+45.40%",
+            "Lv7": "33.00%+41.25%+41.25%+49.50%",
+            "Lv8": "35.73%+44.66%+44.66%+53.59%",
+            "Lv9": "38.46%+48.07%+48.07%+57.68%",
+            "Name": "Basic Attack Stage 4 DMG"
+          },
+          {
+            "Lv1": "30.96%*3+61.92%",
+            "Lv10": "61.56%*3+123.11%",
+            "Lv2": "33.50%*3+67.00%",
+            "Lv3": "36.04%*3+72.08%",
+            "Lv4": "39.60%*3+79.19%",
+            "Lv5": "42.14%*3+84.27%",
+            "Lv6": "45.05%*3+90.10%",
+            "Lv7": "49.12%*3+98.23%",
+            "Lv8": "53.18%*3+106.35%",
+            "Lv9": "57.24%*3+114.48%",
+            "Name": "Basic Attack - Elucidated DMG"
+          },
+          {
+            "Lv1": "29.24%*2",
+            "Lv10": "58.14%*2",
+            "Lv2": "31.64%*2",
+            "Lv3": "34.04%*2",
+            "Lv4": "37.40%*2",
+            "Lv5": "39.79%*2",
+            "Lv6": "42.55%*2",
+            "Lv7": "46.39%*2",
+            "Lv8": "50.22%*2",
+            "Lv9": "54.06%*2",
+            "Name": "Heavy Attack DMG"
+          },
+          {
+            "Lv1": "52.70%",
+            "Lv10": "104.78%",
+            "Lv2": "57.03%",
+            "Lv3": "61.35%",
+            "Lv4": "67.40%",
+            "Lv5": "71.72%",
+            "Lv6": "76.69%",
+            "Lv7": "83.60%",
+            "Lv8": "90.52%",
+            "Lv9": "97.43%",
+            "Name": "Mid-air Attack DMG"
+          },
+          {
+            "Lv1": "33.15%+33.15%+44.20%",
+            "Lv10": "65.91%+65.91%+87.88%",
+            "Lv2": "35.87%+35.87%+47.83%",
+            "Lv3": "38.59%+38.59%+51.45%",
+            "Lv4": "42.40%+42.40%+56.53%",
+            "Lv5": "45.12%+45.12%+60.15%",
+            "Lv6": "48.24%+48.24%+64.32%",
+            "Lv7": "52.59%+52.59%+70.12%",
+            "Lv8": "56.94%+56.94%+75.92%",
+            "Lv9": "61.29%+61.29%+81.72%",
+            "Name": "Dodge Counter DMG"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Heavy Attack STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-air Attack STA Cost"
+          },
+          {
+            "Lv1": "103.70%",
+            "Lv10": "206.17%",
+            "Lv2": "112.21%",
+            "Lv3": "120.71%",
+            "Lv4": "132.62%",
+            "Lv5": "141.12%",
+            "Lv6": "150.90%",
+            "Lv7": "164.50%",
+            "Lv8": "178.11%",
+            "Lv9": "191.72%",
+            "Name": "Mid-air Dodge Counter DMG"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-air Dodge Counter STA Cost"
+          },
+          {
+            "Lv1": "30.96%*3+61.92%",
+            "Lv10": "61.56%*3+123.11%",
+            "Lv2": "33.50%*3+67.00%",
+            "Lv3": "36.04%*3+72.08%",
+            "Lv4": "39.60%*3+79.19%",
+            "Lv5": "42.14%*3+84.27%",
+            "Lv6": "45.05%*3+90.10%",
+            "Lv7": "49.12%*3+98.23%",
+            "Lv8": "53.18%*3+106.35%",
+            "Lv9": "57.24%*3+114.48%",
+            "Name": "Dodge Counter - Decipher DMG"
+          }
+        ],
+        "name": "One, Two, Three",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "BOOMY BOOM!Attack the target, dealing Aero DMG.Press Normal Attack shortly after casting BOOMY BOOM! to cast Basic Attack Stage 3.BIG BOOMY BOOM!While in the Decipher state, press Resonance Skill on the ground to cast BIG BOOMY BOOM!, dealing Aero DMG (considered Echo Skill DMG).Leave the Decipher state upon casting this skill.Soliskin to the AidWhile in the Decipher state, with at least 50 points of Full Stop, press Resonance Skill on the ground to cast Soliskin to the Aid, dealing Aero DMG (considered Echo Skill DMG).Leave the Decipher state upon casting this skill.",
+        "multipliers": [
+          {
+            "Lv1": "14.40%+14.40%+14.40%+28.80%",
+            "Lv10": "28.63%+28.63%+28.63%+57.26%",
+            "Lv2": "15.59%+15.59%+15.59%+31.17%",
+            "Lv3": "16.77%+16.77%+16.77%+33.53%",
+            "Lv4": "18.42%+18.42%+18.42%+36.83%",
+            "Lv5": "19.60%+19.60%+19.60%+39.20%",
+            "Lv6": "20.96%+20.96%+20.96%+41.91%",
+            "Lv7": "22.85%+22.85%+22.85%+45.69%",
+            "Lv8": "24.74%+24.74%+24.74%+49.47%",
+            "Lv9": "26.63%+26.63%+26.63%+53.25%",
+            "Name": "BOOMY BOOM! DMG"
+          },
+          {
+            "Lv1": "14.49%*4+86.94%",
+            "Lv10": "28.81%*4+172.85%",
+            "Lv2": "15.68%*4+94.07%",
+            "Lv3": "16.87%*4+101.20%",
+            "Lv4": "18.53%*4+111.18%",
+            "Lv5": "19.72%*4+118.31%",
+            "Lv6": "21.09%*4+126.51%",
+            "Lv7": "22.99%*4+137.92%",
+            "Lv8": "24.89%*4+149.32%",
+            "Lv9": "26.79%*4+160.73%",
+            "Name": "BIG BOOMY BOOM! DMG"
+          },
+          {
+            "Lv1": "14.00%*3+97.97%",
+            "Lv10": "27.83%*3+194.77%",
+            "Lv2": "15.15%*3+106.00%",
+            "Lv3": "16.30%*3+114.04%",
+            "Lv4": "17.90%*3+125.28%",
+            "Lv5": "19.05%*3+133.32%",
+            "Lv6": "20.37%*3+142.55%",
+            "Lv7": "22.21%*3+155.41%",
+            "Lv8": "24.04%*3+168.26%",
+            "Lv9": "25.88%*3+181.11%",
+            "Name": "Soliskin to the Aid DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "BOOMY BOOM! Cooldown"
+          }
+        ],
+        "name": "Royan Close Quarters Combat",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Deal Aero DMG (considered Echo Skill DMG). Gain Divergent for 20s.\nDivergentThe next time Sigrika obtains a Rune, she additionally obtains a Rune of the opposite type and removes Divergent.When Sigrika holds Divergent and Convergent at the same time, Convergent takes priority.When Sigrika holds 100 points of Full Stop, Divergent doesn't take effect.",
+        "multipliers": [
+          {
+            "Lv1": "433.29%",
+            "Lv10": "861.43%",
+            "Lv2": "468.82%",
+            "Lv3": "504.35%",
+            "Lv4": "554.10%",
+            "Lv5": "589.63%",
+            "Lv6": "630.49%",
+            "Lv7": "687.33%",
+            "Lv8": "744.18%",
+            "Lv9": "801.03%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv10": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Name": "Resonance Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Where Trust Leads Me!",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Heavy Attack - Schemata of RunesHold Normal Attack to consume two Runes and cast Heavy Attack - Schemata of Runes, dealing Aero DMG. Based on the types of the Runes consumed, Sigrika gains the following effects:When consuming Rune: Trust and Rune: Answer, this skill gains the effect of Runic Outburst.When consuming two Runes: Trust, this skill gains the effect of Runic Chain Whip.When consuming two Runes: Answer, this skill gains the effect of Runic Soliskin.When consuming Runes, if Sigrika holds at least 30 points of Soliskin Vitality, consume 30 points to increase the DMG Multipliers of the current Runic Outburst, Runic Chain Whip, and Runic Soliskin by 50%. Obtain a stack of Innate Gift?.When consuming Runes, if Soliskin Vitality is lower than 30 points, consume all Soliskin Vitality. Every 10 points of Soliskin Vitality consumed grants the current Runic Outburst, Runic Chain Whip, and Runic Soliskin 15% DMG Amplification.Heavy Attack - Schemata of Runes deals Echo Skill DMG.Runic OutburstDeal Aero DMG (considered Echo Skill DMG).Runic Chain WhipStagnate nearby targets and deal Aero DMG (considered Echo Skill DMG).Runic SoliskinPull in nearby targets and deal Aero DMG (considered Echo Skill DMG).Forte Circuit - Learn My True NameWhen Full Stop reaches 100 points, if Forte Circuit - Learn My True Name is not on Cooldown, press Resonance Skill to cast Resonance Skill - BOOMY BOOM! or Resonance Skill - Soliskin to the Aid. Hold Resonance Skill to consume all Full Stop to cast Forte Circuit - Learn My True Name, dealing Aero DMG (considered Echo Skill DMG).Innate Gift?Sigrika can hold up to 2 stacks of Innate Gift?. Each stack grants Runic Outburst, Runic Chain Whip, Runic Soliskin and Forte Circuit - Learn My True Name 30% DMG Amplification.This effect ends after Sigrika casts Forte Circuit - Learn My True Name or is switched off the field.RuneSigrika holds up to 4 Runes. Without Full Stop, Sigrika can only hold up to 2 Runes. When Sigrika gains a new Rune at max capacity, the existing Runes shift one slot to the left, removing the leftmost Rune. With at least 50 points of Full Stop, Sigrika can hold 2 additional Runes.Hitting a target with Basic Attack - Elucidated or Dodge Counter - Decipher grants one Rune: Trust.Hitting a target with Resonance Skill - BIG BOOMY BOOM! or Resonance Skill - Soliskin to the Aid grants one Rune: Answer.Full StopAfter casting Heavy Attack - Schemata of Runes, gain 50 points of Full Stop.Soliskin VitalityWhen any nearby Resonators in the team cast Echo Skill, Sigrika gains 10 points of Soliskin Vitality, up to 60 points. Echoes with the same name can only trigger this effect once. Casting Outro Skill - In This Very Moment resets the record of Echo triggering this effect.",
+        "multipliers": [
+          {
+            "Lv1": "66.65%",
+            "Lv10": "132.51%",
+            "Lv2": "72.12%",
+            "Lv3": "77.59%",
+            "Lv4": "85.24%",
+            "Lv5": "90.70%",
+            "Lv6": "96.99%",
+            "Lv7": "105.73%",
+            "Lv8": "114.48%",
+            "Lv9": "123.22%",
+            "Name": "Heavy Attack - Schemata of Runes DMG"
+          },
+          {
+            "Lv1": "59.19%+103.58%+133.17%",
+            "Lv10": "117.67%+205.92%+264.75%",
+            "Lv2": "64.04%+112.07%+144.09%",
+            "Lv3": "68.90%+120.57%+155.01%",
+            "Lv4": "75.69%+132.46%+170.30%",
+            "Lv5": "80.54%+140.95%+181.22%",
+            "Lv6": "86.13%+150.72%+193.78%",
+            "Lv7": "93.89%+164.30%+211.25%",
+            "Lv8": "101.66%+177.89%+228.72%",
+            "Lv9": "109.42%+191.48%+246.19%",
+            "Name": "Runic Outburst DMG"
+          },
+          {
+            "Lv1": "25.00%*4+33.33%*3",
+            "Lv10": "49.70%*4+66.26%*3",
+            "Lv2": "27.05%*4+36.06%*3",
+            "Lv3": "29.10%*4+38.80%*3",
+            "Lv4": "31.97%*4+42.62%*3",
+            "Lv5": "34.02%*4+45.35%*3",
+            "Lv6": "36.37%*4+48.50%*3",
+            "Lv7": "39.65%*4+52.87%*3",
+            "Lv8": "42.93%*4+57.24%*3",
+            "Lv9": "46.21%*4+61.61%*3",
+            "Name": "Runic Chain Whip DMG"
+          },
+          {
+            "Lv1": "20.00%+30.00%*4+59.99%",
+            "Lv10": "39.76%+59.63%*4+119.26%",
+            "Lv2": "21.64%+32.46%*4+64.91%",
+            "Lv3": "23.28%+34.92%*4+69.83%",
+            "Lv4": "25.57%+38.36%*4+76.71%",
+            "Lv5": "27.21%+40.82%*4+81.63%",
+            "Lv6": "29.10%+43.65%*4+87.29%",
+            "Lv7": "31.72%+47.58%*4+95.16%",
+            "Lv8": "34.35%+51.52%*4+103.03%",
+            "Lv9": "36.97%+55.45%*4+110.90%",
+            "Name": "Runic Soliskin DMG"
+          },
+          {
+            "Lv1": "152.35%+457.03%",
+            "Lv10": "302.87%+908.61%",
+            "Lv2": "164.84%+494.50%",
+            "Lv3": "177.33%+531.98%",
+            "Lv4": "194.82%+584.44%",
+            "Lv5": "207.31%+621.92%",
+            "Lv6": "221.68%+665.02%",
+            "Lv7": "241.66%+724.98%",
+            "Lv8": "261.65%+784.94%",
+            "Lv9": "281.64%+844.90%",
+            "Name": "Forte Circuit - Learn My True Name DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Forte Circuit - Learn My True Name Cooldown"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Forte Circuit - Learn My True Name Concerto Regen"
+          }
+        ],
+        "name": "Within Infinity's Embrace",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "Casting Intro Skill - Solsworn Etymology grants Convergent for 20s.ConvergentThe next time Sigrika obtains a Rune, she additionally obtains a Rune of the same type and removes Convergent.When Sigrika holds Divergent and Convergent at the same time, Convergent takes priority.When Sigrika holds 100 points of Full Stop, Convergent doesn't take effect.",
+        "multipliers": [],
+        "name": "True Names Invoked",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "When any nearby Resonators in the team cast Echo Skill, Sigrika gains a stack of Blessing of Runes, up to 6 stacks. Echoes with the same name can only trigger this effect once.This effect resets upon a lineup change.Blessing of RunesEach stack of Blessing of Runes grants the active Resonator in the team 3% Aero DMG Bonus and 3% Echo Skill DMG Bonus.When Blessing of Runes reaches 6 stacks. Sigrika gains an additional 30% increase in Aero DMG Bonus and Echo Skill DMG Bonus.For every 1% of Sigrika's Energy Regen over 125%, Sigrika gains 2% Echo Skill DMG Bonus for up to 50%.",
+        "multipliers": [],
+        "name": "True Names Aligned",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Deal Aero DMG.Press Normal Attack shortly after casting Intro Skill to cast Basic Attack Stage 2.",
+        "multipliers": [
+          {
+            "Lv1": "82.20%",
+            "Lv10": "163.42%",
+            "Lv2": "88.94%",
+            "Lv3": "95.68%",
+            "Lv4": "105.12%",
+            "Lv5": "111.86%",
+            "Lv6": "119.61%",
+            "Lv7": "130.39%",
+            "Lv8": "141.17%",
+            "Lv9": "151.96%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Solsworn Etymology",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Attack the target, deal Aero DMG equal to 795% of Sigrika's ATK. Gain 2 stacks of Encapsulated for 30s.EncapsulatedWhen any nearby Resonators in the team cast Echo Skills, Stagnate the target and consume 1 stacks of Encapsulated. Encapsulated stacks up to 2 times.\nAll stacks of Encapsulated are removed when Sigrika is removed from the lineup.",
+        "multipliers": [],
+        "name": "In This Very Moment",
+        "skill_type": "Outro Skill"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.",
+        "multipliers": [],
+        "name": "Tune Break",
+        "skill_type": "Forte Circuit"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "qiuyuan",
+          "lucilla",
+          "ciaccona",
+          "lynae"
+        ],
+        "commentary": "These are the best buffers Sigrika has to increase her damage. Qiuyuan and Lucilla provide the Echo Skill casts and Echo Skill damage buffs Sigrika desires to take full leverage of her kit, making them the strongest synergies by a lot and a staple of all top Sigrika teams. Ciaccona is the best third slot buffer with Qiuyuan thanks to her ability to buff party-wide Aero DMG and provide Aero RES Shred with her Signature, though without her Signature Shorekeeper, particularly with Lucilla, will be privileged. She can also work in the second slot alongside Shorekeeper or Aero Rover. Finally, Lynae is the alternative if you lack the other options thanks to her very generalized buffing capabilities."
+      },
+      {
+        "characters": [
+          "phrolova"
+        ],
+        "commentary": "Phrolova has a particular synergy with Sigrika, since they function in a very similar way and can both take advantage of Qiuyuan's extra Echo Skill casts at the same time to deal lots of damage together. Sigrika has the ability to buff Phrolova a little bit with her Inherent Skill but it doesn't amount to much, it's mostly just the two working well with Qiuyuan to deal high damage in tandem. Works fantastically well for Whimpering Wastes and can be considered for single-target encounters if Phrolova lacks her ideal teammates like Cantarella."
+      },
+      {
+        "characters": [
+          "the-shorekeeper",
+          "mornye",
+          "verina",
+          "rover-aero"
+        ],
+        "commentary": "Some of the best third slot teammates for Sigrika are listed here. Shorekeeper is generally the strongest choice in a lot of cases thanks to her extra Sustain capabilities compared to Ciaccona and also the fact she doesn't need a Signature weapon to provide close to the fullest extent of her team buffs. Mornye works better than her in tandem with Lynae, Aero Rover works better in tandem with Ciaccona if you use alternative teams to Sigrika's best. Finally, if none of those options are preferred, Verina works generally well as a permanently accessible and very capable Support."
+      }
+    ],
     "upgrade_materials": {
       "character_ascension": [],
       "skill_upgrades": []
     },
-    "voice_actors": null
+    "voice_actors": {
+      "cn": "",
+      "eng": "",
+      "jpn": "",
+      "kr": ""
+    }
   },
   "status": "success"
 }

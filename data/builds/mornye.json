@@ -1,44 +1,969 @@
 {
   "data": {
-    "base_stats_lvl_90": null,
-    "best_echo_sets": [],
-    "best_echo_stats": null,
-    "best_weapons": [],
+    "base_stats_lvl_90": {
+      "atk": 23,
+      "crit_dmg": "150%",
+      "crit_rate": "5%",
+      "def": 111,
+      "elemental_dmg_bonus": "0%",
+      "healing_bonus": "12%",
+      "hp": 1230,
+      "max_energy": 125
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Mornye's dedicated Support set which gives the team a permanent 25% ATK buff and gives Mornye a permanent 10% Energy Regen via her Main Echo. Best choice overall by a small margin over Rejuvenating Glow due to higher buff uptime and slightly more team-wide Energy generation/slightly more personal damage for Mornye.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "A Transform Echo that gives 10% Energy Regen when equipped in the main slot to help with Mornye's build requirements, making it the de facto best choice in the main slot. Must be cast before Outro at the end of her rotation and Swap Cancelled for optimized uptime.",
+            "echo_name": "Reactor Husk"
+          },
+          {
+            "echo_commentary": "Niche option in Jingran teams that don't feature a natural Shield generator. Grants a Shield when summoned on cast, provides Jingran with a massive Fusion DMG Bonus boost if a Shielding teammate like Brant isn't there to generate Shields without the need for this Echo.",
+            "echo_name": "Spacetrek Explorer"
+          }
+        ],
+        "percentage_performance": "1",
+        "set_name": "Halo of Starry Radiance"
+      },
+      {
+        "commentary": "Offers a 10% unconditional Healing% boost and an most importantly a 15% ATK% boost for the entire team, lasting 30 seconds whenever you heal yourself or any of your allies. This bonus is easy to keep active 100% of the time and is a good party-wide damage increase.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Provides the same buffs as Halo of Starry Radiance on cast, giving an extra 10% ATK to the team and an extra 10% Energy Regen to the wearer. It can easily be summoned before Mornye's Ultimate to have roughly the same effects as Mornye's Signature Set, however the buffs will have lower uptime in longer team rotations which can make this set situationally worse (but by very small margins). ",
+            "echo_name": "Fallacy of No Return"
+          }
+        ],
+        "percentage_performance": "2",
+        "set_name": "Rejuvenating Glow"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "DEF%",
+          "DEF%"
+        ],
+        "cost_3": [
+          "Energy Regen",
+          "Energy Regen / Fusion DMG "
+        ],
+        "cost_4": [
+          "DEF% > Healing Bonus"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until 260%)",
+        "Liberation DMG%",
+        "CRIT DMG",
+        "DEF%",
+        "CRIT Rate (until 20%)",
+        "ATK%",
+        "DEF",
+        "ATK"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "Mornye's Signature Broadblade gives her a ton of Energy Regen, increased DEF and higher Base ATK than the options below, which overall gives her the most personal damage while still fulfilling her Energy Regen requirements. It additionally gives a party-wide 20% CRIT DMG buff at all times and gives her extra Concerto to speed up her rotation. Overall her best weapon, but rather skippable due to her personal damage increase being negligible and the weapon's buff not giving much returns on investment.",
+        "dupe_rank": "R1",
+        "percentage_performance": "1",
+        "weapon_base_info": {
+          "effect_description": "Increases DEF by {0}. Casting Resonance Liberation restores {1} points of Concerto Energy. This effect can be triggered once every 20s. When the wielder heals Resonators, increases Crit. DMG of all nearby Resonators in the team by {2} for 4s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 414,
+          "rarity": 5,
+          "secondary_stat_name": "Energy Regen",
+          "secondary_stat_val": 77,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Starfield Calibrator"
+      },
+      {
+        "commentary_details": "The best 4-star option and 2nd best option overall for Mornye, which gives her the extra Concerto she needs to access her quicker rotations. It also provides her with a good chunk of Energy Regen to satisfy her build requirements, making this choice a no-brainer.",
+        "dupe_rank": "R5",
+        "percentage_performance": "2",
+        "weapon_base_info": {
+          "effect_description": "When Resonance Skill is released, restores Concerto Energy by {0}. This effect can be triggered 1 time every 20s.",
+          "primary_stat_val": 337,
+          "rarity": 4,
+          "secondary_stat_name": "Energy Reg.",
+          "secondary_stat_val": 51.8,
+          "source": ""
+        },
+        "weapon_name": "Discord"
+      },
+      {
+        "commentary_details": "The only fully F2P-accessible, craftable option for Mornye, which gives her barely enough Energy Regen to satisfy her 260% requirements but has the big downside of extending her rotation significantly due to not giving herself a Concerto Energy boost.",
+        "dupe_rank": "R5",
+        "percentage_performance": "3",
+        "weapon_base_info": {
+          "effect_description": "When the Resonator's HP is above 80%, increases ATK by {0}. When the Resonator's HP is below {1}, restores their HP by {2}, for dealing Basic Attack DMG or Heavy Attack DMG. This effect can be triggered 1 time(s) every 8s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "Energy Reg.",
+          "secondary_stat_val": 32.3,
+          "source": "Synthesis"
+        },
+        "weapon_name": "Broadblade#41"
+      }
+    ],
     "character_metadata": {
       "breadcrumb": [
         "Wuthering Waves",
         "Characters",
         "Mornye"
       ],
-      "element": null,
+      "element": "Fusion",
       "name": "Mornye",
-      "rarity_stars": null,
+      "rarity_stars": 5,
       "slug": "mornye",
       "updates": {
-        "last_major_build_patch": "",
-        "last_profile_update": "",
-        "last_review_patch": "",
-        "last_updated": ""
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "01/October/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "01/October/2026"
       },
-      "weapon_type": null
+      "weapon_type": "Broadblade"
     },
-    "example_teams": [],
-    "media": null,
-    "minor_fortes": [],
-    "pros_and_cons": null,
-    "ratings": null,
-    "recommended_endgame_stats_target": [],
-    "resonance_chain_dupes": [],
-    "review": null,
-    "rotations": [],
-    "skill_upgrade_priority": null,
-    "skills": [],
-    "synergies": [],
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "aemeath, hiyuki, iuno, yangyang-xuanling"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "lynae"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "mornye"
+        },
+        "team_name": "Lynae + Mornye",
+        "team_notes": "Realistically, any non-Negative Status DPS (and Hiyuki) can be used here. The above are only examples and are fully interchangeable, even if Lynae and Mornye benefit Liberation damage teams slightly more than others. Tune Strain DPS characters also fit perfectly here."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "qingxiao, luuk-herssen"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "denia"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "mornye"
+        },
+        "team_name": "Tune Strain Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "aemeath, galbrena, brant, encore"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "lupa"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "mornye"
+        },
+        "team_name": "Mono Fusion",
+        "team_notes": ""
+      }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/mornye_full.webp",
+      "youtube_guide_embed_url": "https://www.youtube.com/embed/qNUZOrlWBYk",
+      "youtube_guide_full_url": "https://www.youtube.com/watch?v=qNUZOrlWBYk"
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+10%",
+        "stat_name": "Healing Bonus"
+      },
+      {
+        "bonus_value": "+11%",
+        "stat_name": "DEF%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "Really ideally wants a Concerto weapon. If one isn't readily available, then her rotations will be slower and feel much clunkier. Even with one, her Opener is generally slow and can be restricting to maneuver around;",
+        "Tune Break-related buffs are widely enemy-dependent since Tune Break damage and buildup vary based on enemy class and some bosses have Tune Break Buildup immunity phases which can cause her damage/buffing potential to fluctuate substantially;",
+        "Very difficult to use in quickswap, although possible, because her enhanced state instantly expires upon switching - when you start her rotation in her enhanced state, you have to finish it;",
+        "Is \"only\" a sidegrade to Verina if she isn't on a team explicitly synergistic with her at S0 - this is worth keeping in mind since if you can't get any of Mornye's relevant teammates or her S1, she will likely be too niche to be worth the investment (since her competitors Verina and Shorekeeper are widely owned and free or better for general use)."
+      ],
+      "pros": [
+        "Mostly universal buffer & healer who gets even stronger in her meta niches;",
+        "Super cheap to invest into - just get Energy Regen requirements and she's fully functional;",
+        "Part of the best Tune Strain teams with Denia, the universal buffing core with Lynae, and the universal Fusion core with Lupa;",
+        "Party-wide DEF boost, Interruption Resistance, 3 oneshot resistances and death resistance make her the best Holograms Support in the game, making it very accessible for casual players;",
+        "Her S1 is fairly accessible and makes her very universally strong without any other partners needed."
+      ]
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [
+            "Rupture",
+            "Strain"
+          ],
+          "tier": "T0"
+        },
+        "whimpering_wastes": {
+          "tags": [
+            "Rupture",
+            "Strain"
+          ],
+          "tier": "T1"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T0"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T1"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 15000+",
+      "ATK: 1000+",
+      "DEF: 3000+",
+      "CRIT Rate: 20%+",
+      "CRIT DMG: 220%+",
+      "Energy Regen: 240% (Before Echo and Passive)",
+      "Fusion DMG Bonus: 0-30%Only possible with Signature equipped."
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "Basic Attack – Wide Field Observation Mode becomes immune to interruption.The duration of Interfered Marker is extended by 150%. Interfered Marker now grants DMG increase even when the target is not affected by Tune Rupture - Interfered or Tune Strain - Interfered. When Mornye applies Observation Marker on a target, she also inflicts Interfered Marker.",
+        "name": "Sequence Node 1",
+        "node": "S1"
+      },
+      {
+        "description": "All nearby Resonators in the team gain Crit. DMG increase against targets with Interfered Marker: Every 1% of Mornye's Energy Regen over 100% grants 0.2% Crit. DMG increase, up to 32%.Syntony Field and High Syntony Field further increase the Off-Tune Buildup Rate of all nearby Resonators in the team by 20%.",
+        "name": "Sequence Node 2",
+        "node": "S2"
+      },
+      {
+        "description": "Casting Resonance Skill - Distributed Array additionally restores 25 points of Concerto Energy and 100 Relative Momentum, triggered once every 25s.",
+        "name": "Sequence Node 3",
+        "node": "S3"
+      },
+      {
+        "description": "The healing of High Syntony Field is increased by 30%.",
+        "name": "Sequence Node 4",
+        "node": "S4"
+      },
+      {
+        "description": "The DMG Multiplier of Resonance Liberation - Critical Protocol is increased by 40%.The DMG Multiplier of Tune Rupture Response - Particle Jet is increased by 160%.",
+        "name": "Sequence Node 5",
+        "node": "S5"
+      },
+      {
+        "description": "Resonance Liberation - Critical Protocol deals 400% more DMG. If Mornye has not engaged in combat for over 4s, she restores Resonance Energy equal to 10% of her Max Resonance Energy every 0.2s.",
+        "name": "Sequence Node 6",
+        "node": "S6"
+      }
+    ],
+    "review": {
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Mornye is a 5-star Fusion Broadblade Support who specializes in Tune Break-related buffing while sporting some general buffs and healing in the style of Shorekeeper and Verina. Having a very reminiscent kit to those two who have been staples of the meta since their releases, Mornye on her release is not only a new universal Support option, but also one that is particularly strong in her meta niches. To understand why that's the case, let's detail what her kit is all about."
+          ]
+        },
+        {
+          "heading": "Key Mechanics",
+          "paragraphs": [
+            "Mornye is a character with 2 Forte bars that she needs to build up in order to enter an enhanced state, then cast an enhanced Heavy Attack which will apply markers on the enemy to provide damage buffs to the team and conclude her rotation. This is her core gameplay goal.",
+            "The first of her Forte bars is only used during her Opener rotation. Called Rest Mass Energy, it is fully charged up either via 3 Basic Attacks or 1 Parry Skill. Once the bar is full, Mornye can use a special Heavy Attack called Geopotential Shift, which sends her into her enhanced state called Wide Field Observation Mode. In this mode, she gains a new Forte bar, as well as new Basic Attacks and a new Skill. It can also be entered via Intro, so on every rotation following her Opener, it's much stronger to have Mornye cast an Intro in order to speed up her rotation by directly going into her enhanced state.",
+            "Her second Forte bar that she gains in this state, called Relative Momentum, is used to cast a special Heavy Attack called Inversion once the bar is filled. Casting this will place an Observation Marker on all targets hit, which can then be converted into an Interfered Marker upon inflicting Tune Break damage on them. At that point, if Tune Rupture or Tune Strain is applied, targets affected by the Interfered Marker take increased damage from allies (up to 40% DMG Bonus at maximum). These markers can be re-applied to new enemies if the ones marked prior were defeated. The bar can be filled up via 3 Basic Attacks and a Skill in that enhanced state.",
+            "Additionally, upon entering her enhanced state, Mornye additionally generates a Syntony Field which provides several buffs (detailed later) and it can be enhanced by casting her Ultimate.",
+            "In other words, Mornye's gameplay loop will have her enter her enhanced state as quickly as possible, casting 3 enhanced Basics and a Skill to then cast her Inversion Heavy Attack; then she will enhance the field generated by her enhanced state via her Ultimate and that will conclude her rotation."
+          ]
+        },
+        {
+          "heading": "Buffing capabilities",
+          "paragraphs": [
+            "Mornye provides the following buffs to the team via the different parts of her kit listed below:",
+            "Via her Syntony Field: 50% Off-Tune Buildup Rate (Tune Break buildup is sped up by 50%), constant healing, and team-wide Interruption Resistance (realistically up permanently in battle).",
+            "When her field is enhanced by her Ultimate: 20% team-wide DEF and further increased healing;",
+            "When casting either of her Skills: 3 Oneshot Resists (any damage above 30% Max HP gets ignored), OR 1 Death Resist, + extra healing in both instances (lasts 60s, 5 min cooldown);",
+            "When dealing Tune Break DMG to targets affected by Tune Rupture/Strain on targets marked by her Inversion Heavy: Up to 40% increased DMG Bonus against that enemy;",
+            "Via her Outro: 25% party-wide all-type DMG Amplification (realistically up permanently in battle);",
+            "Via her Echo set: 25% party-wide ATK (up permanently in battle);",
+            "Via her Signature weapon if possessed: 20% party-wide CRIT DMG (realistically up permanently in battle).",
+            "Her early Sequences can notably boost these buffs by pretty significant margins, the first two giving the team extra CRIT DMG/Off-Tune Buildup Rate and higher, more universal uptime on her marker's DMG Bonus effect.",
+            "Some of Mornye's team buffs (as well as her self-buffs to her Ultimate's damage) max their effects out once Mornye has 260% total Energy Regen. Given that 10% is given by one of her passives, and 10% is given by her Main Echo, she needs to build a total of 240% via her Echoes in order to max these buffs. With her Signature, this is particularly easy, but it's still possible with fully F2P-accessible 4-star weapons. This is realistically her only build requirement, making her very cheap to get up and running overall."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "As we've said just earlier, Mornye is a very cheap character who does not need her Signature to get herself up and running. While her rotation's Concerto does require a Concerto weapon of some kind to be used, the accessible 4-star Discord Broadblade does the job just fine and the team damage loss compared to her Signature is minimal, making it rather skippable unless you really care about high score/low time clears in endgame (or simply if you really like Mornye).",
+            "Even at S0, Mornye has several meta niches: she is the best 3rd slot teammate in a lot of Mono Fusion teams featuring Lupa, and in basically every team featuring Lynae (barring very few exceptions, such as Hiyuki/Yangyang: Xuanling with Chisa or Suisui). She is also the best Support generally in all Aemeath Rupture, Luuk, Qingxiao, and Lucy compositions. Lynae or Lupa and Mornye together make for some very universal buffing cores that are capable of taking Fusion characters to their fullest potential (in the case of Lupa) or supporting any DPS, with an extra boost to Liberation/Rupture/Strain DPS when alongside Lynae, getting even better for Tune Strain alongside Denia.",
+            "However, until S1 is acquired, Mornye's buffing capabilities are more restricted since teammates cannot benefit from her Interfered Marker damage buffs without Tune Rupture/Strain applied by another character, making her significantly worse in most scenarios outside of her usual scope when compared to Shorekeeper, being about equivalent to Verina (the two main competitors in her niche as a universal Support). In fact, Mornye, despite having a large amount of universal buffs, is probably the most niche of those three (until S1 is acquired anyway).",
+            "In all situations however, Mornye remains largely usable in all endgame modes in almost every team and in spite of her restrictions (like not being able to quickswap in her enhanced state due to it ending on the spot, as well as some of her buffs requiring certain conditions to be applied), she is overall rather balanced since with her key teammates and/or key upgrades, she can become the best Support in a wide variety of teams.",
+            "In conclusion, Mornye is a very strong Support who rivals the likes of Shorekeeper or Chisa in terms of meta presence. Several generalist buffs give her a strong use case in almost every team, while her specialized buffs allow her to truly shine in the right scenarios. In spite of having a few shortcomings, in the right situations, Mornye will be one of the strongest characters in the Wuthering Waves meta."
+          ]
+        }
+      ],
+      "summary": "Mornye is a 5-star Fusion Broadblade Support who specializes in Tune Break-related buffing while sporting some general buffs and healing in the style of Shorekeeper and Verina. Having a very reminiscent kit to those two who have been staples of the meta since their releases, Mornye on her release is not only a new universal Support option, but also one that is particularly strong in her meta niches. To understand why that's the case, let's detail what her kit is all about."
+    },
+    "rotations": [
+      {
+        "rotation_name": "Opener Rotation",
+        "steps": [
+          "Basic 1",
+          "Basic 2",
+          "Basic 3",
+          "Heavy: Geopotential Shift",
+          "Basic: Wide Field 1",
+          "Basic: Wide Field 2",
+          "Basic: Wide Field 3 (Cancel animation on hit via Skill)",
+          "Skill: Distributed Array",
+          "Heavy: Inversion (Cancel animation endlag on hit via Ultimate)",
+          "Ultimate",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Loop Rotation",
+        "steps": [
+          "Intro",
+          "Basic: Wide Field 1",
+          "Basic: Wide Field 2",
+          "Basic: Wide Field 3 (Cancel animation on hit via Skill)",
+          "Skill: Distributed Array",
+          "Heavy: Inversion (Cancel animation endlag on hit via Ultimate)",
+          "Ultimate",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Loop Forte Skip Rotation",
+        "steps": [
+          "Intro",
+          "Basic: Wide Field 1",
+          "Basic: Wide Field 2",
+          "Basic: Wide Field 3 (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Skill: Distributed Array (Swap)"
+        ]
+      },
+      {
+        "rotation_name": "Additional Tips & Tricks",
+        "steps": [
+          "An indicator for when her Wide Field Basic 3 is cancellable is as soon as the attack starts forming around the enemy. For her Heavy: Inversion, looking at the Concerto gauge is a good reference.",
+          "At S3 and up, all Wide Field Basics are skippable, saving a large amount of time.",
+          "During the Opener rotation, Mornye is free to Swap Cancel until her Heavy Geopotential Shift is cast - feel free to experiment around opening rotations even with Mornye on the team, as her Basic 3 is a good Swap Cancel window. Some setups even exist where Mornye never Intros to force some quickswap into the team, although those are rather niche edge cases."
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "Anything except Ultimate can be skipped when levelling to save on resources at a minimal damage loss.",
+      "order": [
+        "Res. Liberation",
+        "Forte Circuit",
+        "Basic Attack",
+        "Intro Skill",
+        "Res. Skill"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic AttackPerform up to 4 consecutive attacks, dealing Fusion DMG.Heavy AttackConsume STA to attack the target, dealing Fusion DMG.Basic Attack - Wide Field Observation ModeWhile in Wide Field Observation Mode, Basic Attack is replaced with Basic Attack - Wide Field Observation Mode.Perform up to 3 consecutive attacks, dealing Fusion DMG.Mid-air AttackConsume STA to perform Mid-air Plunging Attack, dealing Fusion DMG. Press Normal Attack within a certain time afterward to cast Basic Attack Stage 3.Dodge CounterPress Normal Attack right after a successful Dodge to attack the target, dealing Fusion DMG.Press Normal Attack shortly after performing this attack to perform Basic Attack Stage 2.Dodge Counter - Wide Field Observation ModeWhile in Wide Field Observation Mode, Dodge Counter is replaced with Dodge Counter - Wide Field Observation Mode.Press Normal Attack right after a successful Dodge to counterattack and deal Fusion DMG.Within a certain time afterward, press Normal Attack to cast Basic Attack - Wide Field Observation Mode Stage 3.",
+        "multipliers": [
+          {
+            "Lv1": "11.20%+8.40%*2",
+            "Lv10": "22.27%+16.71%*2",
+            "Lv2": "12.12%+9.09%*2",
+            "Lv3": "13.04%+9.78%*2",
+            "Lv4": "14.33%+10.75%*2",
+            "Lv5": "15.25%+11.44%*2",
+            "Lv6": "16.30%+12.23%*2",
+            "Lv7": "17.77%+13.33%*2",
+            "Lv8": "19.24%+14.43%*2",
+            "Lv9": "20.71%+15.53%*2",
+            "Name": "Basic Attack Stage 1 DMG"
+          },
+          {
+            "Lv1": "12.00%+12.00%+9.00%*4",
+            "Lv10": "23.86%+23.86%+17.90%*4",
+            "Lv2": "12.99%+12.99%+9.74%*4",
+            "Lv3": "13.97%+13.97%+10.48%*4",
+            "Lv4": "15.35%+15.35%+11.51%*4",
+            "Lv5": "16.33%+16.33%+12.25%*4",
+            "Lv6": "17.47%+17.47%+13.10%*4",
+            "Lv7": "19.04%+19.04%+14.28%*4",
+            "Lv8": "20.61%+20.61%+15.46%*4",
+            "Lv9": "22.19%+22.19%+16.64%*4",
+            "Name": "Basic Attack Stage 2 DMG"
+          },
+          {
+            "Lv1": "20.80%+5.20%*6",
+            "Lv10": "41.36%+10.34%*6",
+            "Lv2": "22.51%+5.63%*6",
+            "Lv3": "24.22%+6.06%*6",
+            "Lv4": "26.60%+6.65%*6",
+            "Lv5": "28.31%+7.08%*6",
+            "Lv6": "30.27%+7.57%*6",
+            "Lv7": "33.00%+8.25%*6",
+            "Lv8": "35.73%+8.94%*6",
+            "Lv9": "38.46%+9.62%*6",
+            "Name": "Basic Attack Stage 3 DMG"
+          },
+          {
+            "Lv1": "68.00%",
+            "Lv10": "135.20%",
+            "Lv2": "73.58%",
+            "Lv3": "79.16%",
+            "Lv4": "86.96%",
+            "Lv5": "92.54%",
+            "Lv6": "98.95%",
+            "Lv7": "107.87%",
+            "Lv8": "116.79%",
+            "Lv9": "125.72%",
+            "Name": "Basic Attack Stage 4 DMG"
+          },
+          {
+            "Lv1": "7.00%*4",
+            "Lv10": "13.92%*4",
+            "Lv2": "7.58%*4",
+            "Lv3": "8.15%*4",
+            "Lv4": "8.96%*4",
+            "Lv5": "9.53%*4",
+            "Lv6": "10.19%*4",
+            "Lv7": "11.11%*4",
+            "Lv8": "12.03%*4",
+            "Lv9": "12.95%*4",
+            "Name": "Basic Attack - Wide Field Observation Mode Stage 1 DMG"
+          },
+          {
+            "Lv1": "13.00%*4",
+            "Lv10": "25.85%*4",
+            "Lv2": "14.07%*4",
+            "Lv3": "15.14%*4",
+            "Lv4": "16.63%*4",
+            "Lv5": "17.70%*4",
+            "Lv6": "18.92%*4",
+            "Lv7": "20.63%*4",
+            "Lv8": "22.33%*4",
+            "Lv9": "24.04%*4",
+            "Name": "Basic Attack - Wide Field Observation Mode Stage 2 DMG"
+          },
+          {
+            "Lv1": "4.68%*4+16.64%*2",
+            "Lv10": "9.31%*4+33.09%*2",
+            "Lv2": "5.07%*4+18.01%*2",
+            "Lv3": "5.45%*4+19.37%*2",
+            "Lv4": "5.99%*4+21.28%*2",
+            "Lv5": "6.37%*4+22.65%*2",
+            "Lv6": "6.81%*4+24.22%*2",
+            "Lv7": "7.43%*4+26.40%*2",
+            "Lv8": "8.04%*4+28.58%*2",
+            "Lv9": "8.66%*4+30.77%*2",
+            "Name": "Basic Attack - Wide Field Observation Mode Stage 3 DMG"
+          },
+          {
+            "Lv1": "5.58%+5.58%+7.44%",
+            "Lv10": "11.10%+11.10%+14.80%",
+            "Lv2": "6.04%+6.04%+8.06%",
+            "Lv3": "6.50%+6.50%+8.67%",
+            "Lv4": "7.14%+7.14%+9.52%",
+            "Lv5": "7.60%+7.60%+10.13%",
+            "Lv6": "8.12%+8.12%+10.83%",
+            "Lv7": "8.86%+8.86%+11.81%",
+            "Lv8": "9.59%+9.59%+12.78%",
+            "Lv9": "10.32%+10.32%+13.76%",
+            "Name": "Heavy Attack DMG"
+          },
+          {
+            "Lv1": "49.60%",
+            "Lv10": "98.61%",
+            "Lv2": "53.67%",
+            "Lv3": "57.74%",
+            "Lv4": "63.43%",
+            "Lv5": "67.50%",
+            "Lv6": "72.18%",
+            "Lv7": "78.69%",
+            "Lv8": "85.19%",
+            "Lv9": "91.70%",
+            "Name": "Mid-air Attack DMG"
+          },
+          {
+            "Lv1": "81.60%",
+            "Lv10": "162.23%",
+            "Lv2": "88.30%",
+            "Lv3": "94.99%",
+            "Lv4": "104.36%",
+            "Lv5": "111.05%",
+            "Lv6": "118.74%",
+            "Lv7": "129.45%",
+            "Lv8": "140.15%",
+            "Lv9": "150.86%",
+            "Name": "Dodge Counter DMG"
+          },
+          {
+            "Lv1": "13.00%*4",
+            "Lv10": "25.85%*4",
+            "Lv2": "14.07%*4",
+            "Lv3": "15.14%*4",
+            "Lv4": "16.63%*4",
+            "Lv5": "17.70%*4",
+            "Lv6": "18.92%*4",
+            "Lv7": "20.63%*4",
+            "Lv8": "22.33%*4",
+            "Lv9": "24.04%*4",
+            "Name": "Dodge Counter - Wide Field Observation Mode DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Heavy Attack STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-air Attack STA Cost"
+          }
+        ],
+        "name": "Ground State Calibration",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Expectation ErrorHeal all nearby Resonators in the team and enter the Parry state, during which DMG taken is reduced by 100% for a time. Switching to another Resonator ends this state immediately.If attacked while in the Parry state, exit the state and cast Resonance Skill - Optimal Solution.If not attacked while in the Parry state, press Normal Attack to exit the state and cast Basic Attack Stage 2.Optimal SolutionStagnate nearby targets and deal Fusion DMG, reducing the cooldown of Resonance Skill - Expectation Error by 2s.Switching to another Resonator ends the Stagnation effect early.Distributed ArrayWhile in Wide Field Observation Mode, Resonance Skill is replaced with Resonance Skill - Distributed Array.Heal all nearby Resonators in the team and summon Hover Cannons to strike the target, dealing Fusion DMG.",
+        "multipliers": [
+          {
+            "Lv1": "225+54.00% DEF",
+            "Lv10": "427+113.40% DEF",
+            "Lv2": "252+56.16% DEF",
+            "Lv3": "281+58.32% DEF",
+            "Lv4": "315+61.56% DEF",
+            "Lv5": "355+65.88% DEF",
+            "Lv6": "393+70.20% DEF",
+            "Lv7": "400+78.30% DEF",
+            "Lv8": "409+87.48% DEF",
+            "Lv9": "416+97.20% DEF",
+            "Name": "Distributed Array Healing"
+          },
+          {
+            "Lv1": "49+11.88% DEF",
+            "Lv10": "94+24.94% DEF",
+            "Lv2": "55+12.35% DEF",
+            "Lv3": "61+12.83% DEF",
+            "Lv4": "69+13.54% DEF",
+            "Lv5": "78+14.49% DEF",
+            "Lv6": "86+15.44% DEF",
+            "Lv7": "88+17.22% DEF",
+            "Lv8": "90+19.24% DEF",
+            "Lv9": "91+21.38% DEF",
+            "Name": "Expectation Error Healing"
+          },
+          {
+            "Lv1": "90.40%",
+            "Lv10": "179.73%",
+            "Lv2": "97.82%",
+            "Lv3": "105.23%",
+            "Lv4": "115.61%",
+            "Lv5": "123.02%",
+            "Lv6": "131.55%",
+            "Lv7": "143.41%",
+            "Lv8": "155.27%",
+            "Lv9": "167.13%",
+            "Name": "Optimal Solution DMG"
+          },
+          {
+            "Lv1": "20.00%*4",
+            "Lv10": "39.77%*4",
+            "Lv2": "21.64%*4",
+            "Lv3": "23.28%*4",
+            "Lv4": "25.58%*4",
+            "Lv5": "27.22%*4",
+            "Lv6": "29.11%*4",
+            "Lv7": "31.73%*4",
+            "Lv8": "34.35%*4",
+            "Lv9": "36.98%*4",
+            "Name": "Distributed Array DMG"
+          },
+          {
+            "Lv1": "5s",
+            "Lv10": "5s",
+            "Lv2": "5s",
+            "Lv3": "5s",
+            "Lv4": "5s",
+            "Lv5": "5s",
+            "Lv6": "5s",
+            "Lv7": "5s",
+            "Lv8": "5s",
+            "Lv9": "5s",
+            "Name": "Expectation Error Cooldown"
+          },
+          {
+            "Lv1": "16s",
+            "Lv10": "16s",
+            "Lv2": "16s",
+            "Lv3": "16s",
+            "Lv4": "16s",
+            "Lv5": "16s",
+            "Lv6": "16s",
+            "Lv7": "16s",
+            "Lv8": "16s",
+            "Lv9": "16s",
+            "Name": "Distributed Array Cooldown"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Distributed Array Concerto Regen"
+          }
+        ],
+        "name": "Resolution",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Attack the targets within the effective range, dealing Fusion DMG.For every 1% of Mornye's Energy Regen exceeding 100%, this skill gains an additional 0.5% Crit. Rate (up to 80%) and 1% Crit. DMG (up to 160%).When casting this skill, if a Syntony Field is present, remove it and generate a High Syntony Field.Can be performed in mid-air.High Syntony FieldHigh Syntony Field lasts for 25s.Increases the DEF of all nearby Resonators in the team within the High Syntony Field by 20%.Inherits the Syntony Field's boost to resistance to interruption and Off-Tune Buildup Rate.Inherits the Syntony Field's healing effect and increases the Healing Multiplier by 40%.",
+        "multipliers": [
+          {
+            "Lv1": "262.73% DEF",
+            "Lv10": "522.33% DEF",
+            "Lv2": "284.27% DEF",
+            "Lv3": "305.82% DEF",
+            "Lv4": "335.98% DEF",
+            "Lv5": "357.52% DEF",
+            "Lv6": "382.30% DEF",
+            "Lv7": "416.77% DEF",
+            "Lv8": "451.24% DEF",
+            "Lv9": "485.70% DEF",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "25s",
+            "Lv10": "25s",
+            "Lv2": "25s",
+            "Lv3": "25s",
+            "Lv4": "25s",
+            "Lv5": "25s",
+            "Lv6": "25s",
+            "Lv7": "25s",
+            "Lv8": "25s",
+            "Lv9": "25s",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "175",
+            "Lv10": "175",
+            "Lv2": "175",
+            "Lv3": "175",
+            "Lv4": "175",
+            "Lv5": "175",
+            "Lv6": "175",
+            "Lv7": "175",
+            "Lv8": "175",
+            "Lv9": "175",
+            "Name": "Resonance Energy Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Critical Protocol",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Baseline ModeWhile in her default Baseline Mode, Mornye gains Rest Mass Energy.Heavy Attack - Geopotential ShiftWhen Rest Mass Energy reaches 100 points, Heavy Attack is replaced with Heavy Attack - Geopotential Shift.Cast Heavy Attack - Geopotential Shift to deal Fusion DMG, considered Heavy Attack DMG. Afterward, Mornye jumps into mid-air, consumes all Rest Mass Energy and enters Wide Field Observation Mode.Wide Field Observation ModeWide Field Observation Mode lasts for 30s.Upon entering Wide Field Observation Mode, Mornye generates a Syntony Field.While in Wide Field Observation Mode, Mornye gains Relative Momentum.If Relative Momentum is below 100 when holding Normal Attack, perform Basic Attack - Wide Field Observation Mode Stage 1 to 3 in sequence. If Relative Momentum reaches 100 during this time, cast Heavy Attack - Inversion instead.While moving, Mornye continuously consumes STA. STA cannot be recovered while in Wide Field Observation Mode.When Dodging with directional input, Mornye starts to fly at speed, which lasts for up to 10s or until STA is depleted or until the Wide Field Observation Mode ends.When Mornye is hit or launched into mid-air, press Dodge to immediately recover from the attack, which is considered a successful Dodge. This effect can be triggered up to 3 times, which resets when Wide Field Observation Mode ends.Press Jump and Mornye will slowly descend. Before she lands, Basic Attack - Wide Field Observation Mode, Resonance Skill - Distributed Array, and Heavy Attack - Inversion are unavailable. If Jump is pressed when Mornye runs out of STA, she will exit the Wide Field Observation Mode. She will leave the Wide Field Observation Mode also when she Dodges, Jumps, or performs Mid-air Attacks.Additionally, performing environmental interactions, using Utilities, or switching to another Resonator ends Wide Field Observation Mode. The state also ends when Mornye is no longer airborne.Syntony FieldSyntony Field lasts for 25s.When the Syntony Field is generated, deal Fusion DMG, considered Resonance Liberation DMG.Continuously restores HP for nearby active Resonators in the team within the Syntony Field, triggered once every 3s.Increases the Off-Tune Buildup Rate of all nearby Resonators in the team within the Syntony Field by 50%.Enhances the resistance to interruption of nearby active Resonators in the team within the Syntony Field.Heavy Attack - InversionWhen Relative Momentum reaches 100 points, Heavy Attack is replaced with Heavy Attack - Inversion.Consume all Relative Momentum to cast Heavy Attack - Inversion, dealing Fusion DMG, considered Heavy Attack DMG.Heavy Attack - Inversion inflicts Observation Marker upon the target on hit for 30s.Observation MarkerWhen a Resonator in the team deals Tune Break DMG to a target inflicted with Observation Marker, Mornye inflicts an Interfered Marker on the target for 8s.Interfered MarkerTargets affected by Tune Rupture - Interfered or Tune Strain - Interfered take increased DMG from all nearby Resonators in the team. For every 1% of Mornye's Energy Regen exceeding 100%, their DMG is increased by 0.25%, up to 40%.Visual FieldWhen a Resonator in the team defeats a target inflicted with Observation Marker or Interfered Marker, Mornye gains Visual Field for 3s. While in this state, Mornye inflicts Observation Marker on the target hit whenever any Resonator in the team deals damage.Tune Rupture Response - Particle JetMornye deals one instance of Fusion DMG to targets in the Tune Rupture - Interfered state within range, considered Tune Rupture DMG.Rest Mass EnergyMornye can hold up to 100 points of Rest Mass Energy.While in Baseline Mode, she gains Rest Mass Energy when performing Basic Attack, Heavy Attack, Dodge Counter, or when Resonance Skill - Optimal Solution hits a target.Relative MomentumMornye can hold up to 100 points of Relative Momentum.While in Wide Field Observation Mode, she gains Relative Momentum when Basic Attack - Wide Field Observation Mode, Dodge Counter - Wide Field Observation Mode or Resonance Skill - Distributed Array hits the target.Mornye cannot gain Relative Momentum during Heavy Attack - Inversion.",
+        "multipliers": [
+          {
+            "Lv1": "40+9.63% DEF",
+            "Lv10": "76+20.24% DEF",
+            "Lv2": "44+10.02% DEF",
+            "Lv3": "50+10.41% DEF",
+            "Lv4": "56+10.98% DEF",
+            "Lv5": "63+11.75% DEF",
+            "Lv6": "70+12.53% DEF",
+            "Lv7": "71+13.97% DEF",
+            "Lv8": "73+15.61% DEF",
+            "Lv9": "74+17.35% DEF",
+            "Name": "Syntony Field Healing"
+          },
+          {
+            "Lv1": "20.00%*5",
+            "Lv10": "39.77%*5",
+            "Lv2": "21.64%*5",
+            "Lv3": "23.28%*5",
+            "Lv4": "25.58%*5",
+            "Lv5": "27.22%*5",
+            "Lv6": "29.11%*5",
+            "Lv7": "31.73%*5",
+            "Lv8": "34.35%*5",
+            "Lv9": "36.98%*5",
+            "Name": "Syntony Field DMG"
+          },
+          {
+            "Lv1": "22.20%+49.81%",
+            "Lv10": "44.14%+99.02%",
+            "Lv2": "24.02%+53.89%",
+            "Lv3": "25.84%+57.97%",
+            "Lv4": "28.39%+63.69%",
+            "Lv5": "30.21%+67.78%",
+            "Lv6": "32.30%+72.47%",
+            "Lv7": "35.22%+79.01%",
+            "Lv8": "38.13%+85.54%",
+            "Lv9": "41.04%+92.07%",
+            "Name": "Heavy Attack - Geopotential Shift DMG"
+          },
+          {
+            "Lv1": "130.00%",
+            "Lv10": "258.46%",
+            "Lv2": "140.66%",
+            "Lv3": "151.32%",
+            "Lv4": "166.25%",
+            "Lv5": "176.91%",
+            "Lv6": "189.17%",
+            "Lv7": "206.22%",
+            "Lv8": "223.28%",
+            "Lv9": "240.34%",
+            "Name": "Heavy Attack - Inversion DMG"
+          },
+          {
+            "Lv1": "150.00% Tune AMP",
+            "Lv10": "298.22% Tune AMP",
+            "Lv2": "162.30% Tune AMP",
+            "Lv3": "174.60% Tune AMP",
+            "Lv4": "191.82% Tune AMP",
+            "Lv5": "204.12% Tune AMP",
+            "Lv6": "218.27% Tune AMP",
+            "Lv7": "237.95% Tune AMP",
+            "Lv8": "257.63% Tune AMP",
+            "Lv9": "277.31% Tune AMP",
+            "Name": "Tune Rupture Response - Particle Jet DMG"
+          },
+          {
+            "Lv1": "5",
+            "Lv10": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Name": "Wide Field Observation Mode STA Cost Per Sec"
+          }
+        ],
+        "name": "Mass-Energy Equivalence",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "Mornye's Energy Regen is increased by 10%.Casting Intro Skill - Convergence restores 20 points of Concerto Energy, triggered once every 20s.Casting Basic Attack - Wide Field Observation Mode Stage 3 restores 20 points of Concerto Energy, triggered once every 20s.",
+        "multipliers": [],
+        "name": "Blueprint",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Casting Resonance Skill - Expectation Error or Resonance Skill - Distributed Array grants Proof of Boundedness to all Resonators in the team:Proof of Boundedness lasts for 60s and can be gained once every 5 min.When the active Resonator takes DMG greater than 30% of their Max HP, they instead take DMG equal to 30% of their Max HP. This effect can trigger up to 3 times. Proof of Boundedness is removed after triggering it 3 times.When the active Resonator takes a fatal blow, they are not downed by this instance of damage. This effect can trigger up to 1 time. Proof of Boundedness is removed after triggering it 1 time.When Proof of Boundedness is removed, the active Resonator restores HP equal to 150% of Mornye's DEF.",
+        "multipliers": [],
+        "name": "Boundedness",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Attack the target to deal Fusion DMG, then jump into mid-air, clearing all Rest Mass Energy and entering Wide Field Observation Mode.",
+        "multipliers": [
+          {
+            "Lv1": "102.00%",
+            "Lv10": "202.79%",
+            "Lv2": "110.37%",
+            "Lv3": "118.73%",
+            "Lv4": "130.44%",
+            "Lv5": "138.81%",
+            "Lv6": "148.43%",
+            "Lv7": "161.81%",
+            "Lv8": "175.19%",
+            "Lv9": "188.57%",
+            "Name": "Skill DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Convergence",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Resonators in the team gain 25% All DMG Amplification for 30s.",
+        "multipliers": [],
+        "name": "Recursion",
+        "skill_type": "Outro Skill"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Mornye can respond to Tune Rupture - Interfered and Tune Strain - Interfered.Responding to Tune Rupture - Interfered: When any Resonator in the team deals Tune Break DMG and inflicts Tune Rupture - Interfered, Mornye casts Tune Rupture Response - Particle Jet. Each target can be damaged by this skill up to once every 8s.Responding to Tune Strain - Interfered: Each stack of Tune Strain - Interfered on the target increases Mornye's total DMG against them. Each point of Mornye's Tune Break Boost increases the total DMG by 0.12%. While Mornye is in the team, the max stack limit of Tune Strain - Interfered on a target is increased by 1.Mornye can perform Tune Break against the targets with full Off-Tune Level.",
+        "multipliers": [],
+        "name": "Decoupling",
+        "skill_type": "Forte Circuit"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "aemeath",
+          "qingxiao",
+          "luuk-herssen",
+          "lynae",
+          "denia",
+          "lupa"
+        ],
+        "commentary": "Mornye's 2 best niches currently are in Mono Fusion and in teams featuring a Tune Rupture/Strain applier. This is because in Mono Fusion, she is able to activate Lupa's full buffs as a generalist Support, which makes Lupa fully operational in Hypercarry team compositions. Additionally, alongside a Tune Rupture/Strain applier like Lynae, Denia, Qingxiao, Luuk or Aemeath, she is able to respond to it and provide additional DMG% buffs to the team via her Interfered Marker, making them her strongest synergies."
+      }
+    ],
     "upgrade_materials": {
-      "character_ascension": [],
-      "skill_upgrades": []
+      "character_ascension": [
+        {
+          "material_name": "Gemini Spore",
+          "quantity": 60,
+          "rarity": "boss"
+        },
+        {
+          "material_name": "Burning Judgment",
+          "quantity": 46,
+          "rarity": "specialty"
+        },
+        {
+          "material_name": "LF Mech Core",
+          "quantity": 4,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Mech Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Mech Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Mech Core",
+          "quantity": 4,
+          "rarity": "common"
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "The Netherworld's Stare",
+          "quantity": 26,
+          "rarity": "weekly_boss"
+        },
+        {
+          "material_name": "LF Mech Core",
+          "quantity": 25,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Mech Core",
+          "quantity": 28,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Mech Core",
+          "quantity": 40,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Mech Core",
+          "quantity": 57,
+          "rarity": "common"
+        },
+        {
+          "material_name": "LF Carved Crystal",
+          "quantity": 25,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "MF Carved Crystal",
+          "quantity": 28,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "HF Carved Crystal",
+          "quantity": 55,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "FF Carved Crystal",
+          "quantity": 67,
+          "rarity": "skill_material"
+        }
+      ]
     },
-    "voice_actors": null
+    "voice_actors": {
+      "cn": "",
+      "eng": "",
+      "jpn": "",
+      "kr": ""
+    }
   },
   "status": "success"
 }

@@ -1,44 +1,838 @@
 {
   "data": {
-    "base_stats_lvl_90": null,
-    "best_echo_sets": [],
-    "best_echo_stats": null,
-    "best_weapons": [],
+    "base_stats_lvl_90": {
+      "atk": 24,
+      "crit_dmg": "150%",
+      "crit_rate": "5%",
+      "def": 78,
+      "elemental_dmg_bonus": "1.12%",
+      "healing_bonus": "0%",
+      "hp": 727,
+      "max_energy": 150
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Offers a 10% unconditional Fusion DMG% boost and an additional 30% Fusion DMG% after using a Resonance Skill for a grand total of 40% additional Fusion damage.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Offers an unconditional 12% Fusion DMG and 12% Resonance Skill DMG boost when placed in the Main Echo slot, making it a solid choice for Fusion focused resonators who emphasize Resonance Skill damage and are looking to use the 5P Molten Rift set bonus.",
+            "echo_name": "Nightmare: Inferno Rider"
+          },
+          {
+            "echo_commentary": "Unlike its Nightmare variant, gives a 12% Basic Attack DMG bonus and 12% Fusion DMG bonus, after being transformed into and its last of 3 hits was dealt, for a duration of 15 seconds. This makes this Echo preferable for characters who prefer Basic DMG over Skill DMG, but this option is way more difficult to incorporate in rotations, often requiring Swap Cancelling to be smooth.",
+            "echo_name": "Inferno Rider"
+          }
+        ],
+        "percentage_performance": "100.00%",
+        "set_name": "Molten Rift"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ],
+        "cost_3": [
+          "Fusion DMG",
+          "Fusion DMG > ATK%"
+        ],
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%",
+        "ATK"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "Carlotta's Signature and a solid choice for most pistol based resonators due to its decent base damage, very high CRIT DM% and permanent ATK% boost. Far more effective though for resonators that deal some or the majority of their damage through Resonance Skill damaging abilites. ",
+        "dupe_rank": "R1",
+        "percentage_performance": "108.35%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Every time Intro Skill or Resonance Liberation is cast, Resonance Skill DMG Bonus increases by {1} for 5s.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 72,
+          "source": "Rate-up"
+        },
+        "weapon_name": "The Last Dance"
+      },
+      {
+        "commentary_details": "Incredibly potent option offering main stat CRIT RATE, great base damage and a good amount of energy recharge allowing for sub stats to be used elsewhere. Also offers a supportive ability granting the next character to switch in an ATK boost granting it extra value for Hybrid and Support characters. ",
+        "dupe_rank": "R1",
+        "percentage_performance": "100%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When Outro Skill is released, increases the switched-in Resonator's ATK by {1}, stacking up to 1 time(s). This effect lasts for 14s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Static Mist"
+      },
+      {
+        "commentary_details": "Powerful Gun option for Resonance Skill focused damage characters, but with a heavy conditional required for activation. Grants solid base damage and ATK% via main stats. Also offers an incredibly potent stackable Resonance Skill DMG% bonus that requires the users consistently use Basic Attacks to maintain. ",
+        "dupe_rank": "R5",
+        "percentage_performance": "84.49%",
+        "weapon_base_info": {
+          "effect_description": "When hitting a target with Basic Attacks or Heavy Attacks, increases Resonance Skill DMG Bonus by {0}, stacking up to 3 time(s). This effect lasts for 10s and can be triggered 1 time(s) every 1s.",
+          "primary_stat_val": 387,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "Pioneer Podcast"
+        },
+        "weapon_name": "Thunderbolt"
+      },
+      {
+        "commentary_details": "Good generalist 4-star weapon that provides extra Energy and has good Base ATK for a 4-star. Removes any Energy requirements on Chixia.",
+        "dupe_rank": "R5",
+        "percentage_performance": "82.43%",
+        "weapon_base_info": {
+          "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Gacha"
+        },
+        "weapon_name": "Relativistic Jet"
+      },
+      {
+        "commentary_details": "Gun usable by all resonators, offering good bonuses to ATK but reliant on dodging 3 times initially (with continual dodges after that). Should only be used by those willing to perform dodges at the start of their rotation and consistently after. Calculations assume you perform dodges as soon as possible and maintain the buff.",
+        "dupe_rank": "R5",
+        "percentage_performance": "81.92%",
+        "weapon_base_info": {
+          "effect_description": "When the Resonator dashes or dodges, increases ATK by {0}, stacking up to <b>3</b> time(s). This effect lasts for <b>8</b>s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 30.3,
+          "source": ""
+        },
+        "weapon_name": "Novaburst"
+      },
+      {
+        "commentary_details": "Strong gun option for resonators that deal primarily Resonance Skill DMG with little to no conditions to worry about, thanks to its effect being tied to Intro skills. Grants a Resonance Skill DMG bonus that lasts for 15 seconds on using Intro - long enough for most Main DPS to finish their burst window making this a strong consistent option.",
+        "dupe_rank": "R5",
+        "percentage_performance": "81.39%",
+        "weapon_base_info": {
+          "effect_description": "When Intro Skill is released, increases Resonance Skill DMG Bonus by {0} for {1}s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 30.3,
+          "source": ""
+        },
+        "weapon_name": "Undying Flame"
+      },
+      {
+        "commentary_details": "Generic gun option usable by all characters but with a significant ramp-up time on its bonus. Also requires the player not to be hit in order to extract full value. If you do get hit this weapon will fall behind (calculations assume you don't get hit once).",
+        "dupe_rank": "R5",
+        "percentage_performance": "80.99%",
+        "weapon_base_info": {
+          "effect_description": "When the Resonator takes no damage, increases ATK by {0} every 5s, stacking up to 2 time(s). This effect lasts for 8s. When the Resonator takes damage, reduces the number of stacks by 1 and restores their HP by {1}.",
+          "primary_stat_val": 387,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "Synthesis"
+        },
+        "weapon_name": "Pistols#26"
+      }
+    ],
     "character_metadata": {
       "breadcrumb": [
         "Wuthering Waves",
         "Characters",
         "Chixia"
       ],
-      "element": null,
+      "element": "Fusion",
       "name": "Chixia",
-      "rarity_stars": null,
+      "rarity_stars": 4,
       "slug": "chixia",
       "updates": {
-        "last_major_build_patch": "",
-        "last_profile_update": "",
-        "last_review_patch": "",
-        "last_updated": ""
+        "last_major_build_patch": "2.1",
+        "last_profile_update": "01/October/2026",
+        "last_review_patch": "2.1",
+        "last_updated": "01/October/2026"
       },
-      "weapon_type": null
+      "weapon_type": "Pistols"
     },
-    "example_teams": [],
-    "media": null,
-    "minor_fortes": [],
-    "pros_and_cons": null,
-    "ratings": null,
-    "recommended_endgame_stats_target": [],
-    "resonance_chain_dupes": [],
-    "review": null,
-    "rotations": [],
-    "skill_upgrade_priority": null,
-    "skills": [],
-    "synergies": [],
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "chixia"
+        },
+        "slot_2": {
+          "alternatives": [
+            "encore"
+          ],
+          "character_name": "brant"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "lupa"
+        },
+        "team_name": "Best Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "brant"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "chixia"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Brant Dual DPS Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "changli"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "chixia"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Changli Team",
+        "team_notes": ""
+      }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/chixia_full.webp",
+      "youtube_guide_embed_url": "",
+      "youtube_guide_full_url": ""
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+12%",
+        "stat_name": "Fusion DMG"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "ATK%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "Very little AoE potential;",
+        "Difficult to parry with as she has few options to do so;",
+        "Tied for highest Ultimate energy cost in game among damage dealers;",
+        "Subpar damage when compared to top tier DPS options;",
+        "Currently has no dedicated support option;",
+        "Timing her Boom Boom finisher skill after exactly 30 Forte charged bullets can be tricky;",
+        "Takes up noticeable amounts of field time to execute her best damaging combos;",
+        "Vulnerable to interruption while channeling her Forte charged Resonance skill, which if it happens will result in large damage losses."
+      ],
+      "pros": [
+        "Her many ranged abilities enable her to hit moving or flying targets very easily while enabling you to stay at a distance and avoid damage;",
+        "Fundamentally simplistic character to understand and play;",
+        "Can work as both a Main and Dual DPS (notably with Changli);",
+        "She's free!"
+      ]
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [],
+          "tier": "T4"
+        },
+        "whimpering_wastes": {
+          "tags": [],
+          "tier": "T4"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T4"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T4"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 14500+",
+      "DEF: 950+",
+      "ATK: 1900-2100+",
+      "CRIT Rate: 55-80%+",
+      "CRIT DMG: 210-280%+",
+      "Energy Regen: 115%+",
+      "Fusion DMG Bonus: 40-70%+"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "Resonance Skill Boom Boom hits will always be Critical Hits.",
+        "name": "Sequence Node 1",
+        "node": "S1"
+      },
+      {
+        "description": "During Resonance Liberation Blazing Flames, for every 1 target defeated, Chixia recovers 5 Resonance Energy, up to 20 each time.",
+        "name": "Sequence Node 2",
+        "node": "S2"
+      },
+      {
+        "description": "Resonance Liberation Blazing Flames deals 40% more damage to targets whose HP is below 50%.",
+        "name": "Sequence Node 3",
+        "node": "S3"
+      },
+      {
+        "description": "Resonance Liberation Blazing Flames grants 60 \"Thermobaric Bullets\" and immediately resets the Cooldown of Resonance Skill Whizzing Fight Spirit.",
+        "name": "Sequence Node 4",
+        "node": "S4"
+      },
+      {
+        "description": "When the Inherent Skill Numbingly Spicy! reaches max stacks, ATK is additionally increased by 30%.",
+        "name": "Sequence Node 5",
+        "node": "S5"
+      },
+      {
+        "description": "Resonance Skill Boom Boom increases the Basic Attack DMG Bonus of all team members by 25% for 15s.",
+        "name": "Sequence Node 6",
+        "node": "S6"
+      }
+    ],
+    "review": {
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Chixia is a free 4-star Fusion Pistol DPS that features one of the hardest hitting Ultimates in the game. Paired with her unique run'n'gun channeled Forte, she is generally played in teams where she can get the field time she needs to channel her Forte to maximize her damage.",
+            "Chixia's defining ability, much like many other characters, is her Forte. Allowing her to accumulate up to 60 stacks called Thermobaric Bullets via her Basic Attacks, Intro skill and standard Resonance Skill, she can make use of them by long pressing her skill to fire bullets in quick succession while being able to move in any direction, automatically targeting a single enemy. This skill is called DAKA DAKA. After a minimum of 30 bullets have been consumed by this skill (which is how many bullets players will want to use with her), she can fire a finishing attack called Resonance Skill: Boom Boom by pressing her Basic Attack button. All of this constitutes the majority of her damage and what you will want to work towards when playing her.",
+            "However, a very good portion of her damage, almost equivalent to these 4 second-long Forte channels, comes from her Ultimate which has one of the highest multipliers in the game, hitting very slightly harder than Havoc Rover's which is EXTREMELY powerful. Landing and being able to use Chixia's ultimate under good buffs makes for a crucial portion of her kit as a result, not only her Forte channels.",
+            "These two tools alone actually allow Chixia to dish out some solid damage by 4 star DPS standards, despite the rest of her kit's damage being rather subpar, as 4 star characters typically are. But they place her in an awkward position in the meta: she very clearly is designed as a DPS, but she doesn't want to take extended field time due to a lot of her attacks being subpar in damage despite wanting to build up Forte stacks to be able to channel said stacks to do a lot of DPS. Hence, she ends up best suited for her true meta role: a Dual DPS character.",
+            "This means her meta niche will be to use her with a character that can quickswap, to work towards her own Forte channels while your other character is dishing out damage at the same time. One character is clear-cut for this as of the current patch: Changli. Able to buff Chixia massively with her Outro and having the most swap cancel windows in the game, the two end up working fantastically as a pair - and while the team is not optimal to have the fastest clear times, it sure is enough to allow at least one Chixia team to clear the tower very comfortably, making Chixia at the very least quite usable.",
+            "However, she does not come without her problems: as a gun character, it's near-impossible to parry with her, which is inherent to her weapon class; by association, due to her weapon class, she has little AoE potential, only provided by her Ultimate; speaking of which, her Ultimate, despite being extremely powerful, is also extremely costly Energy-wise, requiring you to build Energy Regen on her; she is very difficult to play as a hypercarry, since we lack good buffing supports for Skill and Liberation damage aside from limited 5 stars who are better used elsewhere; her main Echo, Inferno Rider, is awkward to use as it needs to be placed pre-rotation; timing exactly 30 bullets during her Forte channel before casting her finisher, which is optimal for her damage, can prove to be quite tricky; finally, getting interrupted during said Forte channels is quite common, requires proper spacing to execute, and can prove to be inconsistent.",
+            "To summarize: Chixia is by no means a perfect character; however, used in the right context, provided the proper teammates and with a proper build, she has the potential to surprisingly quite comfortably allow you to clear pretty much any content in the game. However, remain wary and take her flaws into account before deciding if she is the right character for you."
+          ]
+        }
+      ],
+      "summary": "Chixia is a free 4-star Fusion Pistol DPS that features one of the hardest hitting Ultimates in the game. Paired with her unique run'n'gun channeled Forte, she is generally played in teams where she can get the field time she needs to channel her Forte to maximize her damage."
+    },
+    "rotations": [
+      {
+        "rotation_name": "WARM UP",
+        "steps": [
+          "Use a charge of Resonance Skill on cooldown, outside of burst of window to generate much required Resonance Energy and alongside her Forte Gauge. As a guideline, try to fit in two Resonance Skills in Warm-Up phase while setting aside 1 Charge before entering burst combo, unless you possess Chixia's Sequence - 4 which allows for greater flexibility in skill usage. By executing 2 Resonance Skills in this phase, you will generate the majority of her Forte Gauge, making her ready for burst combo.",
+          "When executing Resonance Skills in the Warm-Up phase, remember to immediately Swap-Cancel them saving you long animation times."
+        ]
+      },
+      {
+        "rotation_name": "BURST COMBO",
+        "steps": [
+          "Echo (Use before combo but refer to Echo recommendations for exact specifics for your chosen Echo)",
+          "Intro",
+          "Skill: Forte: Thermobaric Bullets",
+          "Skill: Forte: BOOM BOOM",
+          "Ultimate",
+          "Skill: Forte: Thermobaric Bullets",
+          "Skill: Forte: BOOM BOOM",
+          "Outro"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "",
+      "order": [
+        "Forte Circuit",
+        "Res. Liberation",
+        "Basic Attack",
+        "Res. Skill",
+        "Intro Skill"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic AttackChixia fires up to 4 consecutive shots at a single target, dealing Fusion DMG.Heavy AttackChixia enters the aiming state for a more powerful shot. The shot fired deals Fusion DMG.Mid-air AttackChixia consumes Stamina to continuously shoot the target in the air, dealing Fusion DMG.Dodge CounterUse a Basic Attack after a successful Dodge to attack the target, dealing Fusion DMG.",
+        "multipliers": [
+          {
+            "Lv1": "33.30%",
+            "Lv10": "66.21%",
+            "Lv2": "36.04%",
+            "Lv3": "38.77%",
+            "Lv4": "42.59%",
+            "Lv5": "45.32%",
+            "Lv6": "48.46%",
+            "Lv7": "52.83%",
+            "Lv8": "57.20%",
+            "Lv9": "61.57%",
+            "Name": "Part 1 Damage"
+          },
+          {
+            "Lv1": "24.30%*2",
+            "Lv10": "48.32%*2",
+            "Lv2": "26.30%*2",
+            "Lv3": "28.29%*2",
+            "Lv4": "31.08%*2",
+            "Lv5": "33.07%*2",
+            "Lv6": "35.36%*2",
+            "Lv7": "38.55%*2",
+            "Lv8": "41.74%*2",
+            "Lv9": "44.93%*2",
+            "Name": "Part 2 Damage"
+          },
+          {
+            "Lv1": "16.88%*4",
+            "Lv10": "33.55%*4",
+            "Lv2": "18.26%*4",
+            "Lv3": "19.65%*4",
+            "Lv4": "21.58%*4",
+            "Lv5": "22.97%*4",
+            "Lv6": "24.56%*4",
+            "Lv7": "26.77%*4",
+            "Lv8": "28.99%*4",
+            "Lv9": "31.20%*4",
+            "Name": "Part 3 Damage"
+          },
+          {
+            "Lv1": "117.00%",
+            "Lv10": "232.61%",
+            "Lv2": "126.60%",
+            "Lv3": "136.19%",
+            "Lv4": "149.62%",
+            "Lv5": "159.22%",
+            "Lv6": "170.25%",
+            "Lv7": "185.60%",
+            "Lv8": "200.95%",
+            "Lv9": "216.30%",
+            "Name": "Part 4 Damage"
+          },
+          {
+            "Lv1": "18.00%",
+            "Lv10": "35.79%",
+            "Lv2": "19.48%",
+            "Lv3": "20.96%",
+            "Lv4": "23.02%",
+            "Lv5": "24.50%",
+            "Lv6": "26.20%",
+            "Lv7": "28.56%",
+            "Lv8": "30.92%",
+            "Lv9": "33.28%",
+            "Name": "Heavy Attack Damage"
+          },
+          {
+            "Lv1": "40.50%",
+            "Lv10": "80.52%",
+            "Lv2": "43.83%",
+            "Lv3": "47.15%",
+            "Lv4": "51.80%",
+            "Lv5": "55.12%",
+            "Lv6": "58.94%",
+            "Lv7": "64.25%",
+            "Lv8": "69.56%",
+            "Lv9": "74.88%",
+            "Name": "Full Charge Heavy Attack Damage"
+          },
+          {
+            "Lv1": "16.20%",
+            "Lv10": "32.21%",
+            "Lv2": "17.53%",
+            "Lv3": "18.86%",
+            "Lv4": "20.72%",
+            "Lv5": "22.05%",
+            "Lv6": "23.58%",
+            "Lv7": "25.70%",
+            "Lv8": "27.83%",
+            "Lv9": "29.95%",
+            "Name": "Mid-Air Attack Damage"
+          },
+          {
+            "Lv1": "171.00%",
+            "Lv10": "339.97%",
+            "Lv2": "185.03%",
+            "Lv3": "199.05%",
+            "Lv4": "218.68%",
+            "Lv5": "232.70%",
+            "Lv6": "248.83%",
+            "Lv7": "271.26%",
+            "Lv8": "293.70%",
+            "Lv9": "316.13%",
+            "Name": "Dodge Counter Damage"
+          },
+          {
+            "Lv1": "5",
+            "Lv10": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Name": "Mid-Air Attack Stamina Consumption"
+          }
+        ],
+        "name": "POW POW",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Chixia unleashes a flurry of shots, dealing Fusion DMG. Whizzing Fight Spirit has 2 initial charges.",
+        "multipliers": [
+          {
+            "Lv1": "16.00%*8",
+            "Lv10": "31.81%*8",
+            "Lv2": "17.32%*8",
+            "Lv3": "18.63%*8",
+            "Lv4": "20.47%*8",
+            "Lv5": "21.78%*8",
+            "Lv6": "23.29%*8",
+            "Lv7": "25.39%*8",
+            "Lv8": "27.48%*8",
+            "Lv9": "29.58%*8",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "9",
+            "Lv10": "9",
+            "Lv2": "9",
+            "Lv3": "9",
+            "Lv4": "9",
+            "Lv5": "9",
+            "Lv6": "9",
+            "Lv7": "9",
+            "Lv8": "9",
+            "Lv9": "9",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Whizzing Fight Spirit",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Chixia fires up fast shots at nearby enemies, dealing Fusion DMG.",
+        "multipliers": [
+          {
+            "Lv1": "480.00%+29.10%*11",
+            "Lv10": "954.29%+57.84%*11",
+            "Lv2": "519.36%+31.48%*11",
+            "Lv3": "558.72%+33.87%*11",
+            "Lv4": "613.83%+37.21%*11",
+            "Lv5": "653.19%+39.59%*11",
+            "Lv6": "698.45%+42.34%*11",
+            "Lv7": "761.43%+46.15%*11",
+            "Lv8": "824.40%+49.97%*11",
+            "Lv9": "887.38%+53.79%*11",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "150",
+            "Lv10": "150",
+            "Lv2": "150",
+            "Lv3": "150",
+            "Lv4": "150",
+            "Lv5": "150",
+            "Lv6": "150",
+            "Lv7": "150",
+            "Lv8": "150",
+            "Lv9": "150",
+            "Name": "Res. Energy Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Blazing Flames",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Resonance Skill: DAKA DAKA!Hold Resonance Skill Whizzing Fight Spirit to enter DAKA DAKA!. In this state: Chixia continuously consumes \"Thermobaric Bullets\" to attack the target, dealing Fusion DMG, considered as Resonance Skill damage.Tap Basic Attack to cast Basic Attack IV, dealing Fusion DMG, considered as Basic Attack damage. Then she terminates \"DAKA DAKA!\".If 30 \"Thermobaric Bullets\" have been fired when Basic Attackis activated, Chixia will cast Resonance Skill Boom Boom and terminate \"DAKA DAKA!\" Chixia terminates \"DAKA DAKA!\" when all \"Thermobaric Bullets\" are consumed.Resonance Skill: Boom BoomChixia deals Fusion DMG, considered as Resonance Skill damage.Thermobaric BulletsChixia can hold up to 60 \"Thermobaric Bullets\". Innate Skill Scorching Magazine increases Max \"Thermobaric Bullets\" by 10.\nChixia obtains \"Thermobaric Bullets\" for every Normal Attack POW POW on hit. Chixia obtains \"Thermobaric Bullets\" upon casting Intro Skill Grand Entrance and Resonance Skill Whizzing Fight Spirit.",
+        "multipliers": [
+          {
+            "Lv1": "10.00%",
+            "Lv10": "19.89%",
+            "Lv2": "10.82%",
+            "Lv3": "11.64%",
+            "Lv4": "12.79%",
+            "Lv5": "13.61%",
+            "Lv6": "14.56%",
+            "Lv7": "15.87%",
+            "Lv8": "17.18%",
+            "Lv9": "18.49%",
+            "Name": "Thermobaric Bullets Damage"
+          },
+          {
+            "Lv1": "220.00%",
+            "Lv10": "437.39%",
+            "Lv2": "238.04%",
+            "Lv3": "256.08%",
+            "Lv4": "281.34%",
+            "Lv5": "299.38%",
+            "Lv6": "320.13%",
+            "Lv7": "348.99%",
+            "Lv8": "377.85%",
+            "Lv9": "406.72%",
+            "Name": "POW POW Damage"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "DAKA DAKA! Con. Energy Regen"
+          },
+          {
+            "Lv1": "0.5",
+            "Lv10": "0.5",
+            "Lv2": "0.5",
+            "Lv3": "0.5",
+            "Lv4": "0.5",
+            "Lv5": "0.5",
+            "Lv6": "0.5",
+            "Lv7": "0.5",
+            "Lv8": "0.5",
+            "Lv9": "0.5",
+            "Name": "Thermobaric Bullet Con. Energy Regen"
+          }
+        ],
+        "name": "Heroic Bullets ",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "Max \"Thermobaric Bullets\" is increased by 10 rounds. The damage for Resonance Skill Boom Boom is increased by 50%.",
+        "multipliers": [],
+        "name": "Scorching Magazine",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "Each \"Thermobaric Bullets\" that hits a target during Resonance Skill DAKA DAKA! increases ATK by 1% for 10s, stacking up to 30 times.",
+        "multipliers": [],
+        "name": "Numbingly Spicy! ",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Chixia makes a heroic entrance and fires rapidly with her dual pistols at the target, dealing Fusion DMG.",
+        "multipliers": [
+          {
+            "Lv1": "24.75%*2+12.38%*4",
+            "Lv10": "49.21%*2+24.61%*4",
+            "Lv2": "26.78%*2+13.39%*4",
+            "Lv3": "28.81%*2+14.41%*4",
+            "Lv4": "31.66%*2+15.83%*4",
+            "Lv5": "33.68%*2+16.84%*4",
+            "Lv6": "36.02%*2+18.01%*4",
+            "Lv7": "39.27%*2+19.64%*4",
+            "Lv8": "42.51%*2+21.26%*4",
+            "Lv9": "45.76%*2+22.88%*4",
+            "Name": "Skill Damage"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Con. Energy Regen"
+          }
+        ],
+        "name": "Grand Entrance",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Chixia releases a shock wave surrounding the target, dealing Fusion DMG equal to 530.00% of Chixia's ATK to enemies within the range.",
+        "multipliers": [],
+        "name": "Leaping Flames",
+        "skill_type": "Outro Skill"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "brant"
+        ],
+        "commentary": "Brant's the perfect partner for Chixia, because he can contribute to a lot of the team's total damage while amplifying Chixia's Fusion and Skill DMG by 20 and 25% respectively. These two damage types are the ones Chixia utilizes the most — this makes the pair really strong and able to clear a ton of the endgame content with relative ease."
+      },
+      {
+        "characters": [
+          "changli"
+        ],
+        "commentary": "One of Chixia's highest damaging partners. Moderately difficult to play due to needing a Dual DPS playstyle, but allows Chixia to do great damage by having high personal damage herself and a nice 20% Fusion and 25% Liberation DMG Amplification on her Outro, big buffs that Chixia uses to great effect."
+      },
+      {
+        "characters": [
+          "lupa"
+        ],
+        "commentary": "Lupa is one of Chixia's best buffers. While Chixia cannot make use of Lupa's Basic DMG Amplify on her Outro, she is able to use the Fusion DMG Amplify effect if needed. However, the best possible scenario is to pair Chixia and Lupa with a final fusion DPS who scales off of Basic Attacks, such as Encore or ideally Brant who can buff Chixia as well. Such a team is Chixia's newest best team archetype."
+      },
+      {
+        "characters": [
+          "verina"
+        ],
+        "commentary": "One of the usual Healing Support options that can slot into any team. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Enjoy."
+      },
+      {
+        "characters": [
+          "the-shorekeeper"
+        ],
+        "commentary": "Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game."
+      }
+    ],
     "upgrade_materials": {
-      "character_ascension": [],
-      "skill_upgrades": []
+      "character_ascension": [
+        {
+          "material_name": "Belle Poppy",
+          "quantity": 60,
+          "rarity": "boss"
+        },
+        {
+          "material_name": "Rage Tacet Core",
+          "quantity": 46,
+          "rarity": "specialty"
+        },
+        {
+          "material_name": "LF Whisperin Core",
+          "quantity": 4,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Whisperin Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Whisperin Core",
+          "quantity": 12,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Whisperin Core",
+          "quantity": 4,
+          "rarity": "common"
+        }
+      ],
+      "skill_upgrades": [
+        {
+          "material_name": "Monument Bell",
+          "quantity": 26,
+          "rarity": "weekly_boss"
+        },
+        {
+          "material_name": "LF Whisperin Core",
+          "quantity": 25,
+          "rarity": "common"
+        },
+        {
+          "material_name": "MF Whisperin Core",
+          "quantity": 28,
+          "rarity": "common"
+        },
+        {
+          "material_name": "HF Whisperin Core",
+          "quantity": 40,
+          "rarity": "common"
+        },
+        {
+          "material_name": "FF Whisperin Core",
+          "quantity": 57,
+          "rarity": "common"
+        },
+        {
+          "material_name": "Impure Phlogiston",
+          "quantity": 25,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Extracted Phlogiston",
+          "quantity": 28,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Refined Phlogiston",
+          "quantity": 55,
+          "rarity": "skill_material"
+        },
+        {
+          "material_name": "Flawless Phlogiston",
+          "quantity": 67,
+          "rarity": "skill_material"
+        }
+      ]
     },
-    "voice_actors": null
+    "voice_actors": {
+      "cn": "Cai Na",
+      "eng": "Harriet Carmichael",
+      "jpn": "Anna Nagase",
+      "kr": "Kang Eun-ae"
+    }
   },
   "status": "success"
 }

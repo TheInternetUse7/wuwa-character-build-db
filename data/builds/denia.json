@@ -1,44 +1,1134 @@
 {
   "data": {
-    "base_stats_lvl_90": null,
-    "best_echo_sets": [],
-    "best_echo_stats": null,
-    "best_weapons": [],
+    "base_stats_lvl_90": {
+      "atk": 0,
+      "crit_dmg": "150%",
+      "crit_rate": "5%",
+      "def": 0,
+      "elemental_dmg_bonus": "0%",
+      "healing_bonus": "0%",
+      "hp": 0,
+      "max_energy": 0
+    },
+    "best_echo_sets": [
+      {
+        "commentary": "Best generalist option in Fusion Burst mode, grants Denia with 20% total Fusion Burst DMG increase for a small personal damage gain and most importantly a total of 37% Fusion DMG Bonus (including Main Echo) to the incoming character via Outro. Best mix of personal damage and buffing generally.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Summon Echo that gives 12% Fusion DMG Bonus to the incoming character via Outro, adding to the 25% from the base set for a total of 37% Fusion DMG buff on Outro.",
+            "echo_name": "Reminiscence: Denia"
+          }
+        ],
+        "percentage_performance": "100.00%",
+        "set_name": "Chromatic Foam"
+      },
+      {
+        "commentary": "Best option in Tune Strain mode, gives a 10% self-ATK buff on the 2-piece and also a 20 Tune Break Boost buff team-wide which comes in handy to maximize on DMG Taken effects from Tune Strain.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Transform Echo that can safely be cast at the very end of Denia's rotation before Outro, giving an extra 12% ATK buff to the incoming character.",
+            "echo_name": "Voidwing Moth"
+          }
+        ],
+        "percentage_performance": "100.00%",
+        "set_name": "Reel of Spliced Memories"
+      },
+      {
+        "commentary": "Best choice for Denia in the Aemeath + Lupa team, with Lupa on Moonlit Clouds, in order to give the highest possible buffs to Aemeath via Lupa's Outro while maximizing on party-wide buffing and Denia's personal DMG.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Summon Echo that gives 12% Fusion and 12% Liberation DMG Bonus when equipped in the main slot, useful for maximizing further on Denia's personal damage.",
+            "echo_name": "Lioness of Glory"
+          }
+        ],
+        "percentage_performance": "",
+        "set_name": "Flaming Clawprint"
+      }
+    ],
+    "best_echo_stats": {
+      "main_stats": {
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ],
+        "cost_3": [
+          "Fusion DMG",
+          "Fusion DMG > ATK%"
+        ],
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ]
+      },
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "Liberation DMG% ≥ ATK%",
+        "ATK"
+      ]
+    },
+    "best_weapons": [
+      {
+        "commentary_details": "Denia's Signature and best weapon, giving her a strong mix of personal damage and team-wide ATK buffing. Has close alternatives in the Fusion Burst team but definitely a worthwhile pickup for Tune Strain overall.",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. After the wielder inflicts Fusion Burst or Tune Strain - Shifting on the target, their Resonance Liberation DMG Bonus is increased by {1} for 5s. While this effect lasts, after Resonators in the team inflict Fusion Burst or Tune Strain - Shifting, their ATK is increased by {2} for 15s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 36,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Forged Dwarf Star"
+      },
+      {
+        "commentary_details": "Yinlin's Signature is the usual generalist weapon of choice for any Rectifier damage dealer, and Denia can definitely rely on it for great results as well even if this weapon lacks team buffing capabilities like her Signature.",
+        "dupe_rank": "R1",
+        "percentage_performance": "91.02%",
+        "weapon_base_info": {
+          "effect_description": "Increases the DMG Bonus by {0}. When dealing Resonance Skill DMG, increases ATK by {1}, stacking up to 2. This effect lasts for 5s. When the equipped Resonator is not on the field, increases their ATK by an additional {2}.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 36,
+          "source": "Limited"
+        },
+        "weapon_name": "Stringmaster"
+      },
+      {
+        "commentary_details": "Another very strong generalist Rectifier option with a particularly high Base ATK and reduced potential in Tune Strain teams due to not activating the DEF Ignore part of the passive until the very end of the rotation.",
+        "dupe_rank": "R1",
+        "percentage_performance": "89.32%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. Within 12s after dealing Echo Skill DMG, gain {1} Resonance Skill DMG Bonus and {1} Echo Skill DMG Amplification, and ignore {2} of the target's DEF when dealing damage.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Lethean Elegy"
+      },
+      {
+        "commentary_details": "Simple ATK and CRIT Rate stat-stick for Denia, who does not benefit from this weapon's Spectro Frazzle-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "86.02%",
+        "weapon_base_info": {
+          "effect_description": "Increase ATK by {0}. Dealing DMG to targets with Spectro Frazzle grants the wielder {1} Basic Attack DMG Bonus and {1} Heavy Attack DMG Bonus, stacking up to 3 times for 6s. Casting Outro Skill Amplifies the Spectro Frazzle DMG on targets around the active Resonator by {2} for 30s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "Crit. Rate",
+          "secondary_stat_val": 36,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Luminous Hymn"
+      },
+      {
+        "commentary_details": "Simple ATK and CRIT DMG stat-stick for Denia, who barely benefits from this weapon's Basic and Havoc DMG-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "84.62%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attacks grants 1 stacks of Gentle Dream. Echoes with the same name can only trigger this effect once, stacking up to 2 times, lasting for 10s. When reaching 2 stacks, casting Echo Skill no longer resets the duration of this effect. This effect activates up to once per 10s. Switching to another Resonator ends this effect early.<br />With 1 stacks: Grants {1} Basic Attack DMG Bonus.<br />With 2 stacks: Ignores {0} of the target's Havoc RES.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 72,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Whispers of Sirens"
+      },
+      {
+        "commentary_details": "Simple ATK and CRIT DMG stat-stick for Denia, who doesn't benefit from this weapon's Basic DMG-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "84.28%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Using Resonance Skill gives the equipped Resonator {0} Basic Attack DMG Bonus for 6s, stacking up to 3 times. When casting Outro Skill with 3 stacks, consume all stacks to give {1} DMG Bonus to the off-field Basic Attacks performed by the equipped Resonator, lasting for 27s.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 72,
+          "source": "Gacha"
+        },
+        "weapon_name": "Rime-Draped Sprouts"
+      },
+      {
+        "commentary_details": "Best permanently available option for Denia. Grants some Energy Regen and massive ATK boosts, but the lack of a CRIT stat definitely makes for a big gap between this weapon and her Signature. Still better than any 4-star by virtue of a much higher Base ATK.",
+        "dupe_rank": "R1",
+        "percentage_performance": "82.58%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When hitting a target with Basic Attacks, increases Basic Attack DMG Bonus by {1}, stacking up to {2} time(s). This effect lasts for {3}s and can be triggered 1 time(s) every 0.5s.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 54,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Cosmic Ripples"
+      },
+      {
+        "commentary_details": "This Battle Pass exclusive grants Denia a solid ATK buff upon casting Ultimate, alongside a CRIT secondary stat albeit with very low Base ATK which makes it pale in comparison to the likes of her Signature (or any 5-star for that matter), but still a viable weapon overall.",
+        "dupe_rank": "R5",
+        "percentage_performance": "80.88%",
+        "weapon_base_info": {
+          "effect_description": "When Resonance Liberation is released, increases the caster's ATK by {0}, lasting for 15s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.2,
+          "source": "Pioneer Podcast"
+        },
+        "weapon_name": "Augment"
+      },
+      {
+        "commentary_details": "This Battle Pass exclusive grants Denia a small ATK% boost upon casting her Skill and some Basic DMG that she doesn't care for. Lower than most weapons due to low Base ATK, much like any 4-star.",
+        "dupe_rank": "R5",
+        "percentage_performance": "78.27%",
+        "weapon_base_info": {
+          "effect_description": "Casting Resonance Skill increases ATK by {0} and grants {0} Basic Attack DMG Bonus for 10s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 40.5,
+          "source": "Battle Pass"
+        },
+        "weapon_name": "Radiant Dawn"
+      },
+      {
+        "commentary_details": "Best no-gacha option for Denia in Fusion Burst mode, granting her a huge ATK boost but no other stats, making it a weaker version of Cosmic Ripples. Practically useless in Tune Strain mode because Denia won't activate the passive then.",
+        "dupe_rank": "R5",
+        "percentage_performance": "77.56%",
+        "weapon_base_info": {
+          "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Crafting"
+        },
+        "weapon_name": "Waltz in Masquerade"
+      },
+      {
+        "commentary_details": "Grants some extra flat Energy upon casting Skill, but has no noteworthy stats beyond that. Weak 4-star that only grants lower quantities of ATK overall, not recommended.",
+        "dupe_rank": "R5",
+        "percentage_performance": "76.15%",
+        "weapon_base_info": {
+          "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
+          "primary_stat_val": 462,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 18.2,
+          "source": "Gacha"
+        },
+        "weapon_name": "Fusion Accretion"
+      },
+      {
+        "commentary_details": "Best no-gacha option for Denia in Tune Strain mode, accessible from the start, grants a decent amount of ATK to get started on the game but should be replaced ASAP.",
+        "dupe_rank": "R5",
+        "percentage_performance": "75.18%",
+        "weapon_base_info": {
+          "effect_description": "When Intro Skill is released, increases the caster's ATK by {0} and HP by {1}, lasting for {2}s.",
+          "primary_stat_val": 387,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": ""
+        },
+        "weapon_name": "Jinzhou Keeper"
+      }
+    ],
     "character_metadata": {
       "breadcrumb": [
         "Wuthering Waves",
         "Characters",
         "Denia"
       ],
-      "element": null,
+      "element": "Fusion",
       "name": "Denia",
-      "rarity_stars": null,
+      "rarity_stars": 5,
       "slug": "denia",
       "updates": {
-        "last_major_build_patch": "",
-        "last_profile_update": "",
-        "last_review_patch": "",
-        "last_updated": ""
+        "last_major_build_patch": "3.6",
+        "last_profile_update": "01/October/2026",
+        "last_review_patch": "3.6",
+        "last_updated": "01/October/2026"
       },
-      "weapon_type": null
+      "weapon_type": "Rectifier"
     },
-    "example_teams": [],
-    "media": null,
-    "minor_fortes": [],
-    "pros_and_cons": null,
-    "ratings": null,
-    "recommended_endgame_stats_target": [],
-    "resonance_chain_dupes": [],
-    "review": null,
-    "rotations": [],
-    "skill_upgrade_priority": null,
-    "skills": [],
-    "synergies": [],
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "aemeath"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "denia"
+        },
+        "slot_3": {
+          "alternatives": [
+            "suisui",
+            "lupa"
+          ],
+          "character_name": "chisa"
+        },
+        "team_name": "Fusion Burst Team",
+        "team_notes": "With Lupa, run Denia on Flaming Clawprint and Lupa on Moonlit Clouds. Have Denia be the first character to rotate and Outro into Lupa who Outros into Aemeath for the strongest array of buffs overall."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "qingxiao, luuk-herssen"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "denia"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "mornye"
+        },
+        "team_name": "Tune Strain Team",
+        "team_notes": "Teammate alternatives to Mornye are not listed as you will experience very significant team DPS drop-offs when trying to replace her, making it not recommended to use Denia in Tune Strain mode without Mornye."
+      }
+    ],
+    "media": {
+      "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/denia_full.webp",
+      "youtube_guide_embed_url": "https://www.youtube.com/embed/WpsxwYPbcxw",
+      "youtube_guide_full_url": "https://www.youtube.com/watch?v=WpsxwYPbcxw"
+    },
+    "minor_fortes": [
+      {
+        "bonus_value": "+16%",
+        "stat_name": "CRIT DMG"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "ATK%"
+      }
+    ],
+    "pros_and_cons": {
+      "cons": [
+        "Only plays into 2 team archetypes, both limited in Support options. If you don't have either team, she has no flexibility to speak of;",
+        "Significantly more Signature weapon-dependent if used in Tune Strain mode, becomes a pretty recommended pick-up. Additionally non-negotiably needs Mornye in that mode;",
+        "Uses 3 different Echo Sets based on her team. Even her own flexibility is limited by needing multiple builds in each, however this is mitigated if you only plan to use her for one team archetype."
+      ],
+      "pros": [
+        "Integral part of several meta teams, the uncontested best in slot for Fusion Burst and Tune Strain teams;",
+        "Has lots of viable weapon alternatives in Fusion Burst mode;",
+        "Constant off-field grouping making even single-target oriented DPSes excel in AoE scenarios;",
+        "Fast rotation, high damage, strong buffs and utility. Has all the markings of a top-tier secondary buffer/damage dealer."
+      ]
+    },
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [
+            "Strain",
+            "Burst"
+          ],
+          "tier": "T0"
+        },
+        "whimpering_wastes": {
+          "tags": [
+            "Strain",
+            "Burst",
+            "Expert +1"
+          ],
+          "tier": "T0.5"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T0.5"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T1"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 15500+",
+      "DEF: 1100+",
+      "ATK: 2100-2300+",
+      "Crit Rate: 70%+",
+      "Crit DMG: 270%+",
+      "Energy Regen: 108%-122%Lower end was estimated using Aemeath + Lupa team; higher end was estimated using Aemeath + Shorekeeper",
+      "Fusion DMG%: 40%-70%"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "Crit. DMG is increased by 30%.When performing Resonance Skill Phantom Bubble - Stagecraft Form, or Resonance Skill Banish - Breakdown Form, Basic Attack - Breakdown Form Stage 3, Basic Attack - Breakdown Form Stage 4, Mid-air Attack - Breakdown Form Stage 3, and Mid-air Attack - Breakdown Form Stage 4, Denia becomes immune to interruption.When Denia enters combat in Stagecraft Form, she obtains the Entropy Shift: Stagecraft Form effect for 30s.When Denia enters combat in Breakdown Form, she obtains the Entropy Shift: Breakdown Form effect for 12s.",
+        "name": "Silent Glows in a Dimlit Dream",
+        "node": "S1"
+      },
+      {
+        "description": "When Denia is in Resonance Mode - Fusion Burst, after a Resonator in the team inflicts Fusion Burst on the target, they gain 50% Fusion DMG Bonus for 15s. After Fusion Burst is triggered on enemies near the active Resonator in the team, Denia gains 1 stack of Degenerate Voidmatter for 15s, up to 10 stacks. Each stack of Degenerate Voidmatter causes Denia to ignore 1% of the target's Fusion RES.This effect ends when Denia switches modes.When Denia is in Resonance Mode - Tune Strain, her Forte Circuit effect is enhanced: After a Resonator in the team inflicts Tune Strain - Shifting on the target, their Tune Break Boost is increased by 20 for 15s, and the target's Off-Tune Level is increased by 100% of the max. This effect can only be triggered once per 300s on the same target. This effect ends when Denia switches forms.The DMG Multiplier of Resonance Skill Banish - Breakdown Form is increased by 40%.",
+        "name": "Tossed in the Tides of Reality",
+        "node": "S2"
+      },
+      {
+        "description": "The DMG Multiplier of Resonance Liberation Final Act - Breakdown Form is increased by 80%.Denia now holds up to 5 Dark Cores. While in Entropy Shift, the shortest interval at which she can obtain Dark Core is reduced to 6s.The Entropy Shift: Stagecraft Form effect is enhanced and now grants 4 points of Void Particle per second.The Entropy Shift: Breakdown Form effect is enhanced: Casting Resonance Liberation Final Act - Breakdown Form additionally restores 30 points of Concerto Energy.Denia's Inherent Skill Vestiges of Falsehood is enhanced: Upon entering combat, Dark Core and Void Particle are restored to the max. This effect can be triggered once every 12s.When the number of Dark Cores reaches the limit, casting Basic Attack - Stagecraft Form Stage 4 or Resonance Skill Phantom Bubble - Stagecraft Form consumes all Dark Cores and increases the DMG Multiplier of this skill by 1200%. The DMG dealt is considered Resonance Liberation DMG.",
+        "name": "Through Dark and Wind, the Erlking Follows",
+        "node": "S3"
+      },
+      {
+        "description": "The attack interval of Erosion Field is reduced to 3s.",
+        "name": "From the Far Beyond, to the Far Beyond",
+        "node": "S4"
+      },
+      {
+        "description": "The DMG of Resonance Liberation Final Act - Stagecraft Form is increased by 100%.",
+        "name": "If Lies Patch Up a Heart",
+        "node": "S5"
+      },
+      {
+        "description": "While in Entropy Shift states, gain 60% ATK increase and 60% Fusion DMG Bonus.While Denia is in Resonance Mode - Fusion Burst, after Erosion Field deals damage, trigger Fusion Burst on the target based on its max limit. The Fusion Burst DMG triggered gains a 200% DMG Multiplier increase against the main target and does not remove the Fusion Burst stacks on the targets hit. The effect can be triggered on the same target up to 1 time. When the target is damaged by Resonance Liberation Final Act: Breakdown Form, the effect's trigger count is reset. The trigger count can be reset for the same target once every 2s.While Denia is in Resonance Mode - Tune Strain, when Resonators in the team deal Tune Break DMG to Mistuned enemies in Tune Strain - Shifting, they additionally inflict 1 stack of Tune Strain - Interfered on the target. This effect can only be triggered on the same target once every 3s.",
+        "name": "May You Find Your Sun in the Silence",
+        "node": "S6"
+      }
+    ],
+    "review": {
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Denia is a 5-star Fusion Rectifier Hybrid character who plays into the Fusion Burst and Tune Strain team archetypes. By either focusing on strong Fusion Burst application and related team-wide buffs, or an even stronger buffing profile for Tune Strain hypercarries depending on her mode, she deals a lot of damage, rotates quickly, and has a highly specialized but equally as powerful buffing profile, featuring constant off-field grouping as well for maximal performance in both AoE and single-target situations in the teams she plays in. Let's figure out how all of it works so we can squeeze the maximum performance out of her combat gameplay."
+          ]
+        },
+        {
+          "heading": "Resonance Mode explanation",
+          "paragraphs": [
+            "Denia plays into either Tune Strain or Fusion Burst depending on her Resonance Mode (configurable at will before combat). They modify the following aspects of her kit:",
+            "Her \"Etched Colors\" Inherent Skill (can either increase party-wide Fusion DMG or Tune Break Boost);",
+            "Most of the attacks in her kit will either apply 1 stack of Fusion Burst or Tune Strain - Shifting and reset the duration of Tune Strain - Interfered;",
+            "In Tune Strain mode, she may fill each target's Tune Break gauge by 50% of the max once per enemy per battle;",
+            "Her Outro skill changes to either amplify party-wide Fusion Burst DMG or general DMG Amplification (15 to 40% depending on whether the buffed character can apply Tune Strain or not);",
+            "In Tune Strain mode, she obtains standard Tune Strain - Interfered response like Qingxiao, Lynae, Mornye or Luuk.",
+            "Some Sequences are also impacted, but we will only cover her S0 kit here."
+          ]
+        },
+        {
+          "heading": "Key Mechanics, Rotation & Buffs",
+          "paragraphs": [
+            "Other than her Resonance Mode, Denia's in-game combat focus will be on accessing her second Ultimate, \"Final Act - Breakdown Form\". Speaking of which, she has 2 forms she may switch between via her Ultimates: Stagecraft Form and Breakdown Form. In practice, Stagecraft Form only serves to fill the gauge Breakdown Form will utilize in order to increase the damage of attacks in that form as well as the speed at which she can access her Second Ultimate.",
+            "For this purpose, Denia has several Forte resources that we won't spend too much time detailing, as her standard rotations cover all of Denia's bases in both Resonance Modes and in both casual play and quickswap, so we will only focus on the moves her standard rotation will utilize, as follows;",
+            "Her Intro in Stagecraft Form refills a bit of \"Void Particle\" Forte gauge and Concerto; the same applies for her Stagecraft Form Skill and Basic 4 (accessed immediately after Intro);",
+            "She then consumes it via her Basic Attacks in Breakdown Form (after switching to it via her Ultimate) to access her 2 Skills;",
+            "Casting both Breakdown Form skills will allow her to perform her second Ultimate, placing an Erosion Field that constantly spins on the ground and applies Fusion Burst or Tune Strain while grouping enemies periodically, and she is then free to switch out.",
+            "The summary above essentially constitutes the main concepts of Denia's rotation that will grant the following buffs to the team:",
+            "Fusion Burst application (via a lot of her attacks and periodically off-field via her second Ultimate), constant off-field grouping (via second Ultimate), Fusion Burst DMG Amplification (via Outro) and Fusion DMG Bonus (via Echo Set and Inherent Skill) in Fusion Burst mode;",
+            "Tune Strain application and duration refresh (via a lot of her attacks and periodically off-field via her Second Ultimate), constant off-field grouping (via Second Ultimate), general DMG Amplification significantly increased if the target ally applies Tune Strain (via Outro) and Tune Break Boost (and some ATK% via Echo set effects and Inherent Skill).",
+            "Additionally, her Signature Weapon can also boost the ATK of the team if acquired!"
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Denia has significant personal damage, a very specialized and equally capable buffing profile, and a fast rotation. All of these factors undeniably make her the prime Secondary choice for the teams that she plays in. However, this comes at a cost: specialization.",
+            "Denia is highly specialized towards Tune Strain and Fusion Burst teams, since most of her buffs are tailored to characters of only that archetype. While her personal DMG, general DMG Amplification capability on Outro (even if weakened) and her generalist buffs via Echo sets like Moonlit Clouds and her Signature weapon definitely exist and could make you think she has a strong general use case, she's nowhere near comparable to a proper generalist character like Lynae, or a less specialized support like Iuno for Heavy Attacks. This is her main (and realistically, only) flaw, aside from needing to change Echo sets in between each team, which can definitely cause build complications if you want to lean into her (albeit small) team flexibility.",
+            "As of her release, all Denia has access to is Fusion Burst teams with Aemeath and Tune Strain teams with Qingxiao or Luuk Herssen, only giving her a total of 2 teams that she can play in with no certainty of additional teams coming in the future. However, the 2 team archetypes that she does play in are very strong in the current meta, work well in both single-target and AoE thanks to her, and overall, if you wish to have any of her DPS but they lack a proper premium team, and you wish to pick up a strong power upgrade to either your Aemeath, Qingxiao or Luuk, Denia is the perfect opportunity to do this. It's however worth noting that Mornye in specific is a particular necessity as a support to her Tune Strain teams, and without her she has a hard time performing at the expected top level performance Denia and a Tune Strain DPS are supposed to give (Lynae is better when used with alternative supports, but Denia is the best Tune Strain specialist we have).",
+            "In conclusion, while Denia is un\"denia\"bly (I swear I'm funny) a highly specialized secondary buffer and damage dealer character, in the teams that she is specialized for, she's by all accounts ideal and will make your premium Fusion Burst and Tune Strain DPS characters unleash their full potential and be top tier provided you have the correct teammates to surround them."
+          ]
+        }
+      ],
+      "summary": "Denia is a 5-star Fusion Rectifier Hybrid character who plays into the Fusion Burst and Tune Strain team archetypes. By either focusing on strong Fusion Burst application and related team-wide buffs, or an even stronger buffing profile for Tune Strain hypercarries depending on her mode, she deals a lot of damage, rotates quickly, and has a highly specialized but equally as powerful buffing profile, featuring constant off-field grouping as well for maximal performance in both AoE and single-target situations in the teams she plays in. Let's figure out how all of it works so we can squeeze the maximum performance out of her combat gameplay."
+    },
+    "rotations": [
+      {
+        "rotation_name": "Standard Rotation",
+        "steps": [
+          "Intro",
+          "Basic: Stagecraft 4 (Cancel animation endlag via Skill)",
+          "Skill: Phantom Bubble (Cancel animation instantly via Ultimate)",
+          "Ultimate: Stagecraft",
+          "Basic: Breakdown 1",
+          "Basic: Breakdown 2 (Cancel animation endlag via Jump)",
+          "Jump",
+          "Basic: Breakdown Midair 1",
+          "Basic: Breakdown Midair 2 (Cancel animation endlag via Skill)",
+          "Skill: Banish 1",
+          "Skill: Banish 2 (Cancel animation instantly via Ultimate)",
+          "Ultimate: Breakdown",
+          "Outro",
+          "Basic: Stagecraft 1 (Cancel animation endlag via Skill)",
+          "Skill: Phantom Bubble (Cancel animation instantly via Dash)",
+          "Dash",
+          "Basic: Stagecraft 1",
+          "Basic: Stagecraft 2",
+          "Basic: Stagecraft 3",
+          "Basic: Stagecraft 4 (Cancel animation endlag via Ultimate)",
+          "Ultimate: Stagecraft",
+          "Basic: Breakdown 1",
+          "Basic: Breakdown 2 (Cancel animation endlag via Jump)",
+          "Jump",
+          "Basic: Breakdown Midair 1",
+          "Basic: Breakdown Midair 2 (Cancel animation endlag via Skill)",
+          "Skill: Banish 1",
+          "Skill: Banish 2 (Cancel animation instantly via Ultimate)",
+          "Ultimate: Breakdown",
+          "Outro"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "Intro can be skipped when levelling to save on resources at a minimal damage loss.",
+      "order": [
+        "Res. Liberation",
+        "Forte Circuit",
+        "Res. Skill",
+        "Basic Attack",
+        "Intro Skill"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic Attack - Stagecraft FormPerform up to 4 consecutive attacks, dealing Fusion DMG.Basic Attack - Breakdown FormPerform up to 4 consecutive attacks, dealing Fusion DMG.Heavy Attack - Stagecraft FormConsume STA to attack the target, dealing Fusion DMG.Heavy Attack - Breakdown FormConsume STA to pull in nearby targets, dealing Fusion DMG.Mid-air Attack - Stagecraft FormConsume STA to perform Mid-air Plunging Attack, dealing Fusion DMG.Mid-air Attack - Breakdown FormConsume STA to perform up to 4 consecutive attacks in mid-air, dealing Fusion DMG.Mid-air Heavy Attack - Breakdown FormHold Normal Attack in the air to perform Mid-air Plunging Attack at the cost of STA, dealing Fusion DMG.Dodge Counter - Stagecraft FormPress Normal Attack shortly after a successful Dodge to attack the target, dealing Fusion DMG.Press Normal Attack shortly after casting this skill to perform Basic Attack - Stagecraft Form Stage 4.Dodge Counter - Breakdown FormPress Normal Attack shortly after a successful Dodge to attack the target, dealing Fusion DMG.Can be cast in mid-air.Press Normal Attack shortly after casting this skill to perform Basic Attack - Breakdown Form Stage 4 or Mid-air Attack - Breakdown Form Stage 4.",
+        "multipliers": [
+          {
+            "Lv1": "16.44%",
+            "Lv10": "32.69%",
+            "Lv2": "17.79%",
+            "Lv3": "19.14%",
+            "Lv4": "21.03%",
+            "Lv5": "22.38%",
+            "Lv6": "23.93%",
+            "Lv7": "26.08%",
+            "Lv8": "28.24%",
+            "Lv9": "30.40%",
+            "Name": "Basic Attack - Stagecraft Form Stage 1 DMG"
+          },
+          {
+            "Lv1": "15.18%*2",
+            "Lv10": "30.18%*2",
+            "Lv2": "16.43%*2",
+            "Lv3": "17.67%*2",
+            "Lv4": "19.42%*2",
+            "Lv5": "20.66%*2",
+            "Lv6": "22.09%*2",
+            "Lv7": "24.09%*2",
+            "Lv8": "26.08%*2",
+            "Lv9": "28.07%*2",
+            "Name": "Basic Attack - Stagecraft Form Stage 2 DMG"
+          },
+          {
+            "Lv1": "12.82%*3",
+            "Lv10": "25.49%*3",
+            "Lv2": "13.88%*3",
+            "Lv3": "14.93%*3",
+            "Lv4": "16.40%*3",
+            "Lv5": "17.45%*3",
+            "Lv6": "18.66%*3",
+            "Lv7": "20.34%*3",
+            "Lv8": "22.02%*3",
+            "Lv9": "23.71%*3",
+            "Name": "Basic Attack - Stagecraft Form Stage 3 DMG"
+          },
+          {
+            "Lv1": "64.38%",
+            "Lv10": "128.00%",
+            "Lv2": "69.66%",
+            "Lv3": "74.94%",
+            "Lv4": "82.33%",
+            "Lv5": "87.61%",
+            "Lv6": "93.68%",
+            "Lv7": "102.13%",
+            "Lv8": "110.58%",
+            "Lv9": "119.02%",
+            "Name": "Basic Attack - Stagecraft Form Stage 4 DMG"
+          },
+          {
+            "Lv1": "40.62%*2",
+            "Lv10": "80.76%*2",
+            "Lv2": "43.96%*2",
+            "Lv3": "47.29%*2",
+            "Lv4": "51.95%*2",
+            "Lv5": "55.28%*2",
+            "Lv6": "59.11%*2",
+            "Lv7": "64.44%*2",
+            "Lv8": "69.77%*2",
+            "Lv9": "75.10%*2",
+            "Name": "Heavy Attack - Stagecraft Form DMG"
+          },
+          {
+            "Lv1": "14.88%+22.32%",
+            "Lv10": "29.59%+44.38%",
+            "Lv2": "16.11%+24.16%",
+            "Lv3": "17.33%+25.99%",
+            "Lv4": "19.03%+28.55%",
+            "Lv5": "20.25%+30.38%",
+            "Lv6": "21.66%+32.48%",
+            "Lv7": "23.61%+35.41%",
+            "Lv8": "25.56%+38.34%",
+            "Lv9": "27.51%+41.27%",
+            "Name": "Mid-air Attack - Stagecraft Form DMG"
+          },
+          {
+            "Lv1": "24.82%*3",
+            "Lv10": "49.35%*3",
+            "Lv2": "26.86%*3",
+            "Lv3": "28.90%*3",
+            "Lv4": "31.74%*3",
+            "Lv5": "33.78%*3",
+            "Lv6": "36.12%*3",
+            "Lv7": "39.38%*3",
+            "Lv8": "42.63%*3",
+            "Lv9": "45.89%*3",
+            "Name": "Dodge Counter - Stagecraft Form DMG"
+          },
+          {
+            "Lv1": "18.36%",
+            "Lv10": "36.51%",
+            "Lv2": "19.87%",
+            "Lv3": "21.38%",
+            "Lv4": "23.48%",
+            "Lv5": "24.99%",
+            "Lv6": "26.72%",
+            "Lv7": "29.13%",
+            "Lv8": "31.54%",
+            "Lv9": "33.95%",
+            "Name": "Basic Attack - Breakdown Form Stage 1 DMG"
+          },
+          {
+            "Lv1": "18.87%+7.08%*4",
+            "Lv10": "37.51%+14.07%*4",
+            "Lv2": "20.42%+7.66%*4",
+            "Lv3": "21.96%+8.24%*4",
+            "Lv4": "24.13%+9.05%*4",
+            "Lv5": "25.68%+9.63%*4",
+            "Lv6": "27.45%+10.30%*4",
+            "Lv7": "29.93%+11.23%*4",
+            "Lv8": "32.40%+12.15%*4",
+            "Lv9": "34.88%+13.08%*4",
+            "Name": "Basic Attack - Breakdown Form Stage 2 DMG"
+          },
+          {
+            "Lv1": "31.38%",
+            "Lv10": "62.39%",
+            "Lv2": "33.96%",
+            "Lv3": "36.53%",
+            "Lv4": "40.13%",
+            "Lv5": "42.71%",
+            "Lv6": "45.67%",
+            "Lv7": "49.78%",
+            "Lv8": "53.90%",
+            "Lv9": "58.02%",
+            "Name": "Basic Attack - Breakdown Form Stage 3 DMG"
+          },
+          {
+            "Lv1": "17.88%+41.71%",
+            "Lv10": "35.54%+82.92%",
+            "Lv2": "19.34%+45.13%",
+            "Lv3": "20.81%+48.55%",
+            "Lv4": "22.86%+53.34%",
+            "Lv5": "24.33%+56.76%",
+            "Lv6": "26.01%+60.69%",
+            "Lv7": "28.36%+66.16%",
+            "Lv8": "30.70%+71.64%",
+            "Lv9": "33.05%+77.11%",
+            "Name": "Basic Attack - Breakdown Form Stage 4 DMG"
+          },
+          {
+            "Lv1": "68.94%",
+            "Lv10": "137.06%",
+            "Lv2": "74.60%",
+            "Lv3": "80.25%",
+            "Lv4": "88.17%",
+            "Lv5": "93.82%",
+            "Lv6": "100.32%",
+            "Lv7": "109.36%",
+            "Lv8": "118.41%",
+            "Lv9": "127.45%",
+            "Name": "Heavy Attack - Breakdown Form DMG"
+          },
+          {
+            "Lv1": "18.36%",
+            "Lv10": "36.51%",
+            "Lv2": "19.87%",
+            "Lv3": "21.38%",
+            "Lv4": "23.48%",
+            "Lv5": "24.99%",
+            "Lv6": "26.72%",
+            "Lv7": "29.13%",
+            "Lv8": "31.54%",
+            "Lv9": "33.95%",
+            "Name": "Mid-air Attack - Breakdown Form Stage 1 DMG"
+          },
+          {
+            "Lv1": "18.87%+7.08%*4",
+            "Lv10": "37.51%+14.07%*4",
+            "Lv2": "20.42%+7.66%*4",
+            "Lv3": "21.96%+8.24%*4",
+            "Lv4": "24.13%+9.05%*4",
+            "Lv5": "25.68%+9.63%*4",
+            "Lv6": "27.45%+10.30%*4",
+            "Lv7": "29.93%+11.23%*4",
+            "Lv8": "32.40%+12.15%*4",
+            "Lv9": "34.88%+13.08%*4",
+            "Name": "Mid-air Attack - Breakdown Form Stage 2 DMG"
+          },
+          {
+            "Lv1": "31.38%",
+            "Lv10": "62.39%",
+            "Lv2": "33.96%",
+            "Lv3": "36.53%",
+            "Lv4": "40.13%",
+            "Lv5": "42.71%",
+            "Lv6": "45.67%",
+            "Lv7": "49.78%",
+            "Lv8": "53.90%",
+            "Lv9": "58.02%",
+            "Name": "Mid-air Attack - Breakdown Form Stage 3 DMG"
+          },
+          {
+            "Lv1": "17.88%+41.71%",
+            "Lv10": "35.54%+82.92%",
+            "Lv2": "19.34%+45.13%",
+            "Lv3": "20.81%+48.55%",
+            "Lv4": "22.86%+53.34%",
+            "Lv5": "24.33%+56.76%",
+            "Lv6": "26.01%+60.69%",
+            "Lv7": "28.36%+66.16%",
+            "Lv8": "30.70%+71.64%",
+            "Lv9": "33.05%+77.11%",
+            "Name": "Mid-air Attack - Breakdown Form Stage 4 DMG"
+          },
+          {
+            "Lv1": "14.88%+22.32%",
+            "Lv10": "29.59%+44.38%",
+            "Lv2": "16.11%+24.16%",
+            "Lv3": "17.33%+25.99%",
+            "Lv4": "19.03%+28.55%",
+            "Lv5": "20.25%+30.38%",
+            "Lv6": "21.66%+32.48%",
+            "Lv7": "23.61%+35.41%",
+            "Lv8": "25.56%+38.34%",
+            "Lv9": "27.51%+41.27%",
+            "Name": "Mid-air Heavy Attack - Breakdown Form DMG"
+          },
+          {
+            "Lv1": "54.36%",
+            "Lv10": "108.08%",
+            "Lv2": "58.82%",
+            "Lv3": "63.28%",
+            "Lv4": "69.52%",
+            "Lv5": "73.98%",
+            "Lv6": "79.10%",
+            "Lv7": "86.24%",
+            "Lv8": "93.37%",
+            "Lv9": "100.50%",
+            "Name": "Dodge Counter - Breakdown Form DMG"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Heavy Attack - Stagecraft Form STA Cost"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-air Attack - Stagecraft Form STA Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Heavy Attack - Breakdown Form STA Cost"
+          },
+          {
+            "Lv1": "5",
+            "Lv10": "5",
+            "Lv2": "5",
+            "Lv3": "5",
+            "Lv4": "5",
+            "Lv5": "5",
+            "Lv6": "5",
+            "Lv7": "5",
+            "Lv8": "5",
+            "Lv9": "5",
+            "Name": "Mid-air Attack - Breakdown Form STA Cost (per stage)"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-air Heavy Attack - Breakdown Form STA Cost"
+          }
+        ],
+        "name": "Dreamweaver's Banquet",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Phantom Bubble - Stagecraft FormPull in nearby targets, dealing Fusion DMG.Beckon - Breakdown FormPull in nearby targets, dealing Fusion DMG.This skill shares a Cooldown with Banish - Breakdown Form.Can be cast in mid-air.Banish - Breakdown FormWhile holding a Dark Core, replace Beckon - Breakdown Form with Banish - Breakdown Form.Cast Banish - Breakdown Form Stage 1 to pull in nearby targets, dealing Fusion DMG. Press Normal Attack or Resonance Skill shortly after to cast Banish - Breakdown Form Stage 2.Banish - Breakdown Form Stage 2 consumes all Dark Cores, dealing Fusion DMG. For each Dark Core consumed, the DMG Multiplier of the attack is increased by 150%.The skill deals Resonance Liberation DMG.This skill shares a Cooldown with Beckon - Breakdown Form.Can be cast in mid-air.",
+        "multipliers": [
+          {
+            "Lv1": "8.76%*3+26.28%",
+            "Lv10": "17.42%*3+52.25%",
+            "Lv2": "9.48%*3+28.44%",
+            "Lv3": "10.20%*3+30.59%",
+            "Lv4": "11.21%*3+33.61%",
+            "Lv5": "11.93%*3+35.77%",
+            "Lv6": "12.75%*3+38.25%",
+            "Lv7": "13.90%*3+41.69%",
+            "Lv8": "15.05%*3+45.14%",
+            "Lv9": "16.20%*3+48.59%",
+            "Name": "Phantom Bubble - Stagecraft Form DMG"
+          },
+          {
+            "Lv1": "15.65%+7.30%*5",
+            "Lv10": "31.10%+14.52%*5",
+            "Lv2": "16.93%+7.90%*5",
+            "Lv3": "18.21%+8.50%*5",
+            "Lv4": "20.01%+9.34%*5",
+            "Lv5": "21.29%+9.94%*5",
+            "Lv6": "22.77%+10.63%*5",
+            "Lv7": "24.82%+11.58%*5",
+            "Lv8": "26.87%+12.54%*5",
+            "Lv9": "28.92%+13.50%*5",
+            "Name": "Beckon - Breakdown Form DMG"
+          },
+          {
+            "Lv1": "17.44%*3",
+            "Lv10": "34.68%*3",
+            "Lv2": "18.88%*3",
+            "Lv3": "20.31%*3",
+            "Lv4": "22.31%*3",
+            "Lv5": "23.74%*3",
+            "Lv6": "25.38%*3",
+            "Lv7": "27.67%*3",
+            "Lv8": "29.96%*3",
+            "Lv9": "32.25%*3",
+            "Name": "Banish - Breakdown Form Stage 1 DMG"
+          },
+          {
+            "Lv1": "56.34%",
+            "Lv10": "112.01%",
+            "Lv2": "60.96%",
+            "Lv3": "65.58%",
+            "Lv4": "72.05%",
+            "Lv5": "76.67%",
+            "Lv6": "81.99%",
+            "Lv7": "89.38%",
+            "Lv8": "96.77%",
+            "Lv9": "104.16%",
+            "Name": "Banish - Breakdown Form Stage 2 DMG"
+          },
+          {
+            "Lv1": "20s",
+            "Lv10": "20s",
+            "Lv2": "20s",
+            "Lv3": "20s",
+            "Lv4": "20s",
+            "Lv5": "20s",
+            "Lv6": "20s",
+            "Lv7": "20s",
+            "Lv8": "20s",
+            "Lv9": "20s",
+            "Name": "Phantom Bubble - Stagecraft Form Cooldown"
+          },
+          {
+            "Lv1": "4s",
+            "Lv10": "4s",
+            "Lv2": "4s",
+            "Lv3": "4s",
+            "Lv4": "4s",
+            "Lv5": "4s",
+            "Lv6": "4s",
+            "Lv7": "4s",
+            "Lv8": "4s",
+            "Lv9": "4s",
+            "Name": "Beckon - Breakdown Form Cooldown"
+          },
+          {
+            "Lv1": "4s",
+            "Lv10": "4s",
+            "Lv2": "4s",
+            "Lv3": "4s",
+            "Lv4": "4s",
+            "Lv5": "4s",
+            "Lv6": "4s",
+            "Lv7": "4s",
+            "Lv8": "4s",
+            "Lv9": "4s",
+            "Name": "Banish - Breakdown Form Cooldown"
+          }
+        ],
+        "name": "Bubbles and Baits",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Final Act - Stagecraft FormDeal Fusion DMG.After performing this skill, obtain Entropy Shift: Breakdown Form for 12s, then switch to Breakdown Form.Final Act - Breakdown FormWhen Conformal Charge is full, consume all Conformal Charge and Void Particle to perform this skill.Deal Fusion DMG.After casting this skill, obtain Entropy Shift: Stagecraft Form, which lasts for 30s, and then switch to Stagecraft Form.Can be performed in mid-air.Entropy Shift: Breakdown FormIncreases ATK by 30%.Obtaining this effect removes the Entropy Shift: Stagecraft Form effect.Entropy Shift: Stagecraft FormGrants 1 point of Void Particle per second.Obtaining this effect removes the Entropy Shift: Breakdown Form effect.",
+        "multipliers": [
+          {
+            "Lv1": "200.00%",
+            "Lv10": "397.62%",
+            "Lv2": "216.40%",
+            "Lv3": "232.80%",
+            "Lv4": "255.76%",
+            "Lv5": "272.16%",
+            "Lv6": "291.02%",
+            "Lv7": "317.26%",
+            "Lv8": "343.50%",
+            "Lv9": "369.74%",
+            "Name": "Final Act - Stagecraft Form DMG"
+          },
+          {
+            "Lv1": "100.00%*4",
+            "Lv10": "198.81%*4",
+            "Lv2": "108.20%*4",
+            "Lv3": "116.40%*4",
+            "Lv4": "127.88%*4",
+            "Lv5": "136.08%*4",
+            "Lv6": "145.51%*4",
+            "Lv7": "158.63%*4",
+            "Lv8": "171.75%*4",
+            "Lv9": "184.87%*4",
+            "Name": "Final Act - Breakdown Form DMG"
+          },
+          {
+            "Lv1": "25s",
+            "Lv10": "25s",
+            "Lv2": "25s",
+            "Lv3": "25s",
+            "Lv4": "25s",
+            "Lv5": "25s",
+            "Lv6": "25s",
+            "Lv7": "25s",
+            "Lv8": "25s",
+            "Lv9": "25s",
+            "Name": "Final Act - Stagecraft Form Cooldown"
+          },
+          {
+            "Lv1": "25s",
+            "Lv10": "25s",
+            "Lv2": "25s",
+            "Lv3": "25s",
+            "Lv4": "25s",
+            "Lv5": "25s",
+            "Lv6": "25s",
+            "Lv7": "25s",
+            "Lv8": "25s",
+            "Lv9": "25s",
+            "Name": "Final Act - Breakdown Form Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv10": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Name": "Final Act - Stagecraft Form Resonance Energy Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Final Act - Stagecraft Form Concerto Regen"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Final Act - Breakdown Form Concerto Regen"
+          }
+        ],
+        "name": "Final Act",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Erosion FieldAfter casting Resonance Liberation Final Act - Breakdown Form, generate an Erosion Field, lasting for 30s. Only one Erosion Field generated by your own Resonator can exist at a time.Erosion Field pulls in nearby targets once every 4s, dealing Fusion DMG, considered Resonance Liberation DMG.Void ParticleWhen in the Breakdown Form while holding Void Particle, Normal Attack consumes Void Particle on hit and grants the following effects:The skill DMG is considered Resonance Liberation DMG and the DMG Multiplier is increased by 50%.Conformal Charge regenerates 100% faster.Resonance Mode - Fusion BurstWhile in Resonance Mode - Fusion Burst, Denia gains the following effects:Each time when the following skills deal damage, inflict 2 stacks of Fusion Burst on the target. The same skill can only trigger this effect once every 2s against the same target. Intro Skill It's Been A While!, Intro Skill Knock Knock, Resonance Liberation Final Act - Stagecraft Form, Resonance Liberation Final Act - Breakdown Form, and Erosion Field.Each time when the following skills deal damage, inflict Fusion Burst on the target. The same skill can only trigger this effect once every 2s against the same target. Basic Attack - Stagecraft Form Stage 3, Basic Attack - Stagecraft Form Stage 4, Basic Attack - Breakdown Form Stage 3, Basic Attack - Breakdown Form Stage 4, Mid-air Attack - Breakdown Form Stage 3, and Mid-air Attack - Breakdown Form Stage 4. When Denia is in the team, if an enemy falls to Fusion Burst DMG, it counts as caused by the nearest active Resonator.Resonance Mode - Tune StrainWhile in Resonance Mode - Tune Strain, Denia gains the following effects:Each time when the following skills deal damage, inflict Tune Strain - Shifting on the target and reset the duration of Tune Strain - Interfered on the target. The same skill can only trigger this effect once every 2s against the same target.Intro Skill It's Been A While!, Intro Skill Knock Knock, Resonance Liberation Final Act - Stagecraft Form, Resonance Liberation Final Act - Breakdown Form, Erosion Field, Basic Attack - Stagecraft Form Stage 3, Basic Attack - Stagecraft Form Stage 4, Basic Attack - Breakdown Form Stage 3, Basic Attack - Breakdown Form Stage 4, Mid-air Attack - Breakdown Form Stage 3 and Mid-air Attack - Breakdown Form Stage 4.When Resonators in the team inflict Tune Strain - Shifting on the target, this target's Off-Tune Level is increased by 50% of the max. This effect can only be triggered on the same target once every 300s.Dark CoreDenia can hold up to 3 Dark Cores.While in the Entropy Shift states, Denia obtains 1 Dark Cores every 12s.Denia obtains 1 Dark Cores upon casting Intro Skill It's Been A While! and Intro Skill Knock Knock.Void ParticleDenia can hold up to 100 points of Void Particle.While in Stagecraft Form, dealing damage through Normal Attack grants Void Particle.Casting Intro Skill It's Been A While!, Intro Skill Knock Knock or Resonance Skill Phantom Bubble - Stagecraft Form grants 25 points of Void Particle.Conformal ChargeDenia can hold up to 100 points of Conformal Charge.While in Breakdown Form, dealing damage through Normal Attack or Resonance Skill Beckon - Breakdown Form grants Conformal Charge.Casting Resonance Skill Banish - Breakdown Form Stage 2 grants 40 points of Conformal Charge.",
+        "multipliers": [
+          {
+            "Lv1": "68.58%",
+            "Lv10": "136.33%",
+            "Lv2": "74.20%",
+            "Lv3": "79.82%",
+            "Lv4": "87.69%",
+            "Lv5": "93.32%",
+            "Lv6": "99.78%",
+            "Lv7": "108.78%",
+            "Lv8": "117.78%",
+            "Lv9": "126.77%",
+            "Name": "Erosion Field DMG per tick"
+          }
+        ],
+        "name": "\"Flawless\"",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "When Denia engages in combat in Stagecraft Form: restore Dark Cores to 2 if she has fewer than 2; restore Void Particle to 20 points if she has fewer than 20. This effect can be triggered once every 12s.",
+        "multipliers": [],
+        "name": "Vestiges of Falsehood",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "While in the Entropy Shift states, Denia obtains the following effects based on her current Resonance Mode:Resonance Mode - Fusion Burst: All Resonators in the team gain 30% Fusion DMG Bonus.Resonance Mode - Tune Strain: All Resonators in the team gain 10 Tune Break Boost. When a Resonator in the team has an Off-Tune Buildup Rate over 100%, every 10% that runs over increases the Resonator's Tune Break Boost by 8, up to 40.",
+        "multipliers": [],
+        "name": "Etched Colors",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "It's Been A While!Available in Stagecraft Form, dealing Fusion DMG.Press Normal Attack after casting this skill to cast Basic Attack - Stagecraft Form Stage 4.Knock KnockAvailable in Breakdown Form, dealing Fusion DMG.Casting this skill grants Entropy Shift: Breakdown Form for 12s.",
+        "multipliers": [
+          {
+            "Lv1": "52.62%",
+            "Lv10": "104.62%",
+            "Lv2": "56.94%",
+            "Lv3": "61.25%",
+            "Lv4": "67.30%",
+            "Lv5": "71.61%",
+            "Lv6": "76.57%",
+            "Lv7": "83.48%",
+            "Lv8": "90.38%",
+            "Lv9": "97.28%",
+            "Name": "It's Been A While! DMG"
+          },
+          {
+            "Lv1": "26.02%*3",
+            "Lv10": "51.74%*3",
+            "Lv2": "28.16%*3",
+            "Lv3": "30.29%*3",
+            "Lv4": "33.28%*3",
+            "Lv5": "35.41%*3",
+            "Lv6": "37.87%*3",
+            "Lv7": "41.28%*3",
+            "Lv8": "44.69%*3",
+            "Lv9": "48.11%*3",
+            "Name": "Knock Knock DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "It's Been A While! Concerto Regen"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Knock Knock Concerto Regen"
+          }
+        ],
+        "name": "Formal Greetings",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "When in Resonance Mode - Fusion Burst, Fusion Burst DMG against targets near the active Resonator in the team is Amplified by 60% for 30s.This effect ends early when Denia switches modes.When in Resonance Mode - Tune Strain, the incoming Resonator has their All DMG Amplified by 15% for 16s.After this Resonator under this effect inflicts Tune Strain - Shifting, they gain 40% DMG Amplification instead.This effect ends early when this Resonator is switched out or when Denia switches modes.",
+        "multipliers": [],
+        "name": "Unfinished Lies",
+        "skill_type": "Outro Skill"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "When the target's Off-Tune Level is full, Denia can cast Tune Break on the target.When in Resonance Mode - Tune Strain, Denia gains the following effects:Denia can inflict Tune Strain - Shifting on the target.Denia can respond to Tune Strain - Interfered.When responding to Tune Strain - Interfered: For each stack of Tune Strain - Interfered on the target, each point of Denia's Tune Break Boost increases her total DMG against the target by 0.12%. While Denia is in the team, the max stack limit of Tune Strain - Interfered on a target is increased by 1.",
+        "multipliers": [],
+        "name": "Shattered Hours",
+        "skill_type": "Forte Circuit"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "aemeath"
+        ],
+        "commentary": "Best and only DPS choice for Fusion Burst Denia, together with Aemeath they form one of the strongest teams in the entire game, excelling in both AoE and singletarget damage with a fast and easy rotation and a low reliance on Signature weapons to perform, with the only caveat being they're somewhat stranded for Supports with only Chisa and Lupa being able to draw out the team's full potential. Still, Aemeath is the main reason to be getting and using Denia and makes for a ridiculously strong team."
+      },
+      {
+        "characters": [
+          "qingxiao",
+          "luuk-herssen"
+        ],
+        "commentary": "Denia in Tune Strain mode is the best in slot partner for both Qingxiao and Luuk if Mornye is available to use alongside the 2 of them, making their mid-air single-target oriented combat less clunky in Whimpering Wastes thanks to Denia's constant off-field grouping, as well as overall just being their highest-damaging team composition for all situations. Note however that Denia experiences significant team DPS drop-offs without Mornye available as a Support and is overall not recommended for Tune Strain without Mornye involved."
+      },
+      {
+        "characters": [
+          "chisa",
+          "mornye",
+          "lupa"
+        ],
+        "commentary": "3rd slot options for Denia teams depending on what team she's ran in. Chisa is ideal with Aemeath but Lupa is an excellent fallback with alternative Echo set choices which will draw just about the same performance as Chisa. Mornye on the other hand is best for Tune Strain Denia teams while providing nothing of value to Aemeath."
+      }
+    ],
     "upgrade_materials": {
       "character_ascension": [],
       "skill_upgrades": []
     },
-    "voice_actors": null
+    "voice_actors": {
+      "cn": "",
+      "eng": "",
+      "jpn": "",
+      "kr": ""
+    }
   },
   "status": "success"
 }
