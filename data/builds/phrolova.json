@@ -46,7 +46,7 @@
     },
     "best_weapons": [
       {
-        "commentary_details": "Phrolova's Signature is her best weapon by an alarming percentage, to a point where she's dependent on it to perform at the highest level due to the sheer amount of stats it provides â and her own damage being balanced around this fact. It gives her massive amounts of Base ATK, CRIT Rate, ATK%, Skill DMG Bonus, Echo Skill DMG Amplification AND DEF Ignore, all of which are fantastic stats that she works around, making this weapon her best option bar none.",
+        "commentary_details": "Phrolova's Signature is her best weapon by a huge margin. The passive alone give ATK, Skill DMG Bonus, Echo Skill DMG Amplification AND DEF Ignore. Pair that with its good base stats, this weapon is her best option bar none.",
         "dupe_rank": "R1",
         "percentage_performance": "100.00%",
         "weapon_base_info": {
@@ -60,9 +60,9 @@
         "weapon_name": "Lethean Elegy"
       },
       {
-        "commentary_details": "Stringmaster is a gift that keeps on giving for any Rectifier damage dealer. It's able to give Phrolova good base ATK but most importantly massive amounts of CRIT Rate, ATK% and DMG Bonus, with an even bigger ATK boost off-field which matches her playstyle. Unfortunately for Phrolova, she buffs her ATK by massive amounts already which dilutes this buff, but regardless of that fact Stringmaster remains her second best option simply by nature of massive amounts of stat buffs.",
+        "commentary_details": "Stringmaster is able to give Phrolova good base ATK but most importantly massive amounts of CRIT Rate, ATK% and DMG Bonus, with an even bigger ATK boost off-field which matches her playstyle. Unfortunately for Phrolova, she buffs her ATK by massive amounts already which dilutes this buff, so her Signature is still recommended over this.",
         "dupe_rank": "R1",
-        "percentage_performance": "82.00%",
+        "percentage_performance": "78.80%",
         "weapon_base_info": {
           "effect_description": "Increases the DMG Bonus by {0}. When dealing Resonance Skill DMG, increases ATK by {1}, stacking up to 2. This effect lasts for 5s. When the equipped Resonator is not on the field, increases their ATK by an additional {2}.",
           "primary_stat_val": 500,
@@ -74,9 +74,9 @@
         "weapon_name": "Stringmaster"
       },
       {
-        "commentary_details": "Phrolova is able to fully take advantage of this weapon's Havoc RES Shred effect when casting her Forte Heavy Attack, as it is also counted as an Echo Skill on top of her own Echo Skill cast. Unfortunately for Phrolova, this means it only buffs a small portion of her rotation as her Forte Heavy Attack is one of the last abilities she does before switching out, and she doesn't benefit that much from Basic Attack DMG. Nonetheless, as she is able to make partial use of its effects as well as get good stats from using it, it is a good option on her.",
+        "commentary_details": "Phrolova is able to fully take advantage of this weapon's Havoc RES Shred effect when casting her Forte Heavy Attack, as it is also counted as an Echo Skill on top of her own Echo Skill cast. Unfortunately for Phrolova, this means it only buffs a small portion of her rotation as her Forte Heavy Attack is one of the last abilities she does before switching out, and she doesn't benefit that much from the Basic Attack DMG part of this weapon's passive.",
         "dupe_rank": "R1",
-        "percentage_performance": "80.20%",
+        "percentage_performance": "77.20%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attacks grants 1 stacks of Gentle Dream. Echoes with the same name can only trigger this effect once, stacking up to 2 times, lasting for 10s. When reaching 2 stacks, casting Echo Skill no longer resets the duration of this effect. This effect activates up to once per 10s. Switching to another Resonator ends this effect early.<br />With 1 stacks: Grants {1} Basic Attack DMG Bonus.<br />With 2 stacks: Ignores {0} of the target's Havoc RES.",
           "primary_stat_val": 500,
@@ -90,7 +90,7 @@
       {
         "commentary_details": "Simple ATK and CRIT DMG stat stick for Phrolova who draws little benefit from this weapon's Basic ATK DMG-increasing effect.",
         "dupe_rank": "R1",
-        "percentage_performance": "77.10%",
+        "percentage_performance": "74.90%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Using Resonance Skill gives the equipped Resonator {0} Basic Attack DMG Bonus for 6s, stacking up to 3 times. When casting Outro Skill with 3 stacks, consume all stacks to give {1} DMG Bonus to the off-field Basic Attacks performed by the equipped Resonator, lasting for 27s.",
           "primary_stat_val": 500,
@@ -104,7 +104,7 @@
       {
         "commentary_details": "Simple ATK and CRIT Rate stat stick for Phrolova who draws little benefit from this weapon's Spectro Frazzle-related effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "75.20%",
+        "percentage_performance": "73.30%",
         "weapon_base_info": {
           "effect_description": "Increase ATK by {0}. Dealing DMG to targets with Spectro Frazzle grants the wielder {1} Basic Attack DMG Bonus and {1} Heavy Attack DMG Bonus, stacking up to 3 times for 6s. Casting Outro Skill Amplifies the Spectro Frazzle DMG on targets around the active Resonator by {2} for 30s. Effects of the same name cannot be stacked.",
           "primary_stat_val": 500,
@@ -116,9 +116,9 @@
         "weapon_name": "Luminous Hymn"
       },
       {
-        "commentary_details": "The best permanent weapon option available for Phrolova, which unfortunately doesn't provide much for her beyond ATK% and Basic ATK DMG Bonus, both of which she doesn't draw much benefit from, further widening the gap between standard and Signature.",
+        "commentary_details": "The best permanent weapon option available for Phrolova, which unfortunately doesn't provide much for her beyond ATK% and Basic ATK DMG Bonus, both of which she doesn't draw much benefit from, further widening the gap between standard and Signature. Generally nowadays, we recommend just going for Phrolova's Signature.",
         "dupe_rank": "R1",
-        "percentage_performance": "72.40%",
+        "percentage_performance": "70.60%",
         "weapon_base_info": {
           "effect_description": "Increases Energy Regen by {0}. When hitting a target with Basic Attacks, increases Basic Attack DMG Bonus by {1}, stacking up to {2} time(s). This effect lasts for {3}s and can be triggered 1 time(s) every 0.5s.",
           "primary_stat_val": 500,
@@ -130,23 +130,9 @@
         "weapon_name": "Cosmic Ripples"
       },
       {
-        "commentary_details": "This Battle Pass exclusive grants Phrolova with a nice CRIT DMG boost as well as extra ATK and Basic DMG when casting Skill. While Phrolova barely makes use of the Basic DMG buff, the ATK buff from the passive is quite nice and overall makes this weapon the best 4-star choice for her.",
+        "commentary_details": "Best 4-star weapon, this Battle Pass exclusive gives good Base ATK to Phrolova while providing additional CRIT Rate. Additionally, its effect which increases ATK when casting Ultimate is good to buff Phrolova's off-field attacks, but unfortunately this buff will get diluted a lot by her 120% self-ATK buff when casting Ultimate which negates a lot of its benefits.",
         "dupe_rank": "R5",
-        "percentage_performance": "66.90%",
-        "weapon_base_info": {
-          "effect_description": "Casting Resonance Skill increases ATK by {0} and grants {0} Basic Attack DMG Bonus for 10s.",
-          "primary_stat_val": 412,
-          "rarity": 4,
-          "secondary_stat_name": "CRIT DMG",
-          "secondary_stat_val": 40.5,
-          "source": "Battle Pass"
-        },
-        "weapon_name": "Radiant Dawn"
-      },
-      {
-        "commentary_details": "This 4-star Battle Pass weapon gives good Base ATK to Phrolova while providing additional CRIT Rate. Additionally, its effect which increases ATK when casting Ultimate is good to buff Phrolova's off-field attacks, but unfortunately this buff will get diluted a lot by her 120% self-ATK buff when casting Ultimate which negates a lot of its benefits. It nonetheless remains a viable choice.",
-        "dupe_rank": "R5",
-        "percentage_performance": "64.90%",
+        "percentage_performance": "64.70%",
         "weapon_base_info": {
           "effect_description": "When Resonance Liberation is released, increases the caster's ATK by {0}, lasting for 15s.",
           "primary_stat_val": 412,
@@ -158,9 +144,23 @@
         "weapon_name": "Augment"
       },
       {
+        "commentary_details": "This Battle Pass exclusive grants Phrolova with a nice CRIT DMG boost as well as extra ATK and Basic DMG when casting Skill. One of her better 4-star choices while not being ideal.",
+        "dupe_rank": "R5",
+        "percentage_performance": "65.50%",
+        "weapon_base_info": {
+          "effect_description": "Casting Resonance Skill increases ATK by {0} and grants {0} Basic Attack DMG Bonus for 10s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 40.5,
+          "source": "Battle Pass"
+        },
+        "weapon_name": "Radiant Dawn"
+      },
+      {
         "commentary_details": "One of the best 4-star weapons for Phrolova which simply gives Base ATK and ATK% with a further boost to ATK% when casting Resonance Skill, as its flat Energy boost is wasted on her. Falls behind the above weapon options due to a lack of good stats.",
         "dupe_rank": "R5",
-        "percentage_performance": "64.10%",
+        "percentage_performance": "63.50%",
         "weapon_base_info": {
           "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
           "primary_stat_val": 462,
@@ -172,9 +172,9 @@
         "weapon_name": "Fusion Accretion"
       },
       {
-        "commentary_details": "Best fully F2P-accessible option, selectable for free at the start of the game or obtained through gacha. Gives a lot of ATK% via its stats and its passive activated upon Intro, but doesn't provide anything else, not making it stand out over the above options.",
+        "commentary_details": "Best fully F2P-accessible option, selectable for free at the start of the game or obtained through gacha. Gives a lot of ATK% via its stats and its passive activated upon Intro, but doesn't provide anything else.",
         "dupe_rank": "R5",
-        "percentage_performance": "63.60%",
+        "percentage_performance": "62.20%",
         "weapon_base_info": {
           "effect_description": "When Intro Skill is released, increases the caster's ATK by {0} and HP by {1}, lasting for {2}s.",
           "primary_stat_val": 387,
@@ -198,9 +198,9 @@
       "slug": "phrolova",
       "updates": {
         "last_major_build_patch": "3",
-        "last_profile_update": "01/October/2026",
-        "last_review_patch": "2.5",
-        "last_updated": "01/October/2026"
+        "last_profile_update": "22/October/2026",
+        "last_review_patch": "3.7",
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -321,19 +321,14 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Her weapon situation is worse than Brant's. Treat Phrolova as a package deal: pull her with her Signature, else we simply recommend to pull Camellya instead for a Havoc DPS (unless you really like Phrolova, we understand);",
-        "Her Echo set is STRICTLY only usable on her, and her weapon has low usage value except for Phrolova because Stringmaster exists. Hence if you choose to build her, her build cannot be shared with anybody else;",
-        "Due to her Aftersound stack ramp-up and Enhanced Intro mechanics, her earlier rotations are weaker than any later ones, particularly the first rotation;",
-        "Scales poorly off of ATK buffs due to already having too much of it in her own kit;",
-        "We unironically chose to talk about music theory instead of explaining all the details of her kit that are never used in combat in her Review, which should say a lot about how long of a read it is."
+        "Really bad permanent weapon options; Signature is really strongly recommended to compete;",
+        "Lacks damage numbers nowadays to be a sufficient Hypercarry DPS for Tower of Adversity, so she will have trouble dealing with that game mode without at least one of good gameplay, good investment, or good teammates surrounding her;",
+        "The pioneer of kits the size of the Empire State Building... RIP my easily read & understood characters."
       ],
       "pros": [
-        "Deals very high damage both on-field and off-field, giving her a constant presence in gameplay;",
-        "Has no Energy Regen requirements whatsoever to perform her Ultimate;",
-        "Able to slot as not only a Main DPS but also as a SubDPS-style buffer for Heavy Attack DPS characters effectively;",
-        "Has massive self-buffs to ATK and CRIT which doesn't make her reliant on other teammates buffing her as much as others — this particularly reinforces her SubDPS usability;",
-        "Provides a ton of Crowd Control effects and self-increases Interruption Resistance while reducing Damage Taken; in other words, makes ignoring enemy mechanics a breeze;",
-        "Top 3 profile icons in the game, arguably top 1. Ultimate also has insane quality. Literally beautiful."
+        "The premier Whimpering Wastes character since her release. Hecate is the best crowd control utility in the game, she deals fantastic damage relative to her field time, as it happens both on and off-field at regular intervals;",
+        "No Energy Regen requirements make building her easy - also, teams are very easy to form around her because Havoc, Skill, and Echo damage are 3 damage types that have a ton of options for buffers;",
+        "Her Outro buff paired with good personal damage relative to her rotation time makes her a good secondary for some Havoc/Heavy ATK damage dealers (particularly considering her rotation time) - literally will never be stranded for teammates."
       ]
     },
     "ratings": {
@@ -406,65 +401,74 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Phrolova is a 5-star Havoc Rectifier DPS character whose main goal is to make you read essays simply trying to understand her kit- sorry. We mean that her main goal is to deal Havoc damage from both on and off-field by executing relatively quick in-and-out rotations that allow her partner Hecate to attack from off-field, dealing massive Havoc DMG to enemies. In this process, Phrolova will also stagnate and/or group enemies depending on your selection in her rotation.",
-            "Due to our unamusing joke in this intro, you probably understood that Phrolova's kit is a scientific journal. This might be the worst case we've had yet, above Cartethyia. However, we did read it so you don't have to, and we'll explain things as briefly as we can while glossing over a ton of details that are irrelevant to her rotations.",
-            "Everything you need to keep track of in battle while playing Phrolova are a few key attacks you'll access at certain points in her rotation, as well as her Forte gauge which resembles sheet music! In order to understand her kit better, let's talk about music theory. Phrolova is playing a melody in treble clef, visible on her Forte gauge. This clef is used to sheet higher-pitched sounds (above the middle C on a piano). This clef is the most commonly used as it covers sheets for a wide variety of popular instruments including a lot of well-known string, wood and brass instruments such as pianos, violins, clarinets, saxophones, flutes, mandolins, recorders, guitars etc. Phrolova uses a wand iconic of orchestra conductors to command Hecate, her partner who does attacks depending on the kind of notes she's playing. She plays 3 quarter notes (also known as crotchets) in every bar. This is a time signature commonly used for Waltz Dancing! We could analyze further, but overall the notes she's playing on her Forte bar would actually sound rather flat in real life. Oh well.",
-            "Regardless, in Wuthering Waves this translates to about 1.2 to 1.5 seconds per Hecate attack (Given the time signature and the fact she's playing 6 notes total, we're pretty sure she's playing the slowest music we've ever seen when trying to find a BPM for this. We don't recommend Phrolova and Hecate at concerts, they're total beginners).",
-            "So, moving on from pointless music theory knowledge (we're sorry), Phrolova can actually play different melodies depending on how you operate her rotations in game. She acquires notes in a few manners, and has 3 different types of notes she can play.",
+            "Phrolova is a 5-star Havoc Rectifier DPS character best known for how meta-defining her release was. Phrolova is the gold standard of Whimpering Wastes; she's almost defined by her presence in that specific endgame. Her kit focuses on everything ideal for WhiWa, on and off-field long-range attacks with quick in-and-out rotations, constant and evenly spread-out damage, and most importantly, the most impressive Crowd Control utility in the game in the form of her most important mechanic, Hecate, summoned via her Ultimate. Phrolova's entire kit sums up to accessing that Ultimate as quickly as possible, and consequently making the most of it."
+          ]
+        },
+        {
+          "heading": "Music Theory",
+          "paragraphs": [
+            "The text in this section is optional to read; it won't really help you understand Phrolova's kit any better, but we initially wrote it when making Phrolova's review and thought it had some cool enough fun facts about the way Phrolova's Forte is designed for you to read if you're interested. So here you go:",
+            "Everything you need to keep track of in battle while playing Phrolova are a few key attacks you'll access at certain points in her rotation, as well as her Forte gauge which resembles sheet music! So let's analyze it and talk about music theory. Phrolova is playing a melody in treble clef, visible on her Forte gauge. This clef is used to sheet higher-pitched sounds (above the middle C on a piano). This clef is the most commonly used as it covers sheets for a wide variety of popular instruments including a lot of well-known string, wood and brass instruments such as, who could've known, the violin! That's the thing Phrolova plays! But, she also uses a wand iconic of orchestra conductors to command Hecate, her partner who does attacks depending on the kind of notes she's playing. She plays 3 quarter notes (also known as crotchets) in every bar. This is a time signature commonly used for Waltz Dancing! Kuro did really cool references to this character's interests when designing her Forte, so props to them for that.",
+            "Regardless, in the Wuthering Waves world, this translates to about 1.5 to 3 seconds per Hecate attack (depending on whether it's enhanced or not). Given our prior analysis on top of the fact she's playing 6 notes total over a minimum of 9s (and a max of 18s!), we're pretty sure she's playing the slowest string of random notes known to mankind. Also, when you actually see Phrolova play the violin in-game, not only is she holding it super far away from her chin, which isn't how you play the violin at all, but she's playing the same notes over and over and somehow the background music sounds different. We honestly think she has superpowers if she's supposed to be the one playing that."
+          ]
+        },
+        {
+          "heading": "Key Mechanics",
+          "paragraphs": [
+            "Phrolova can actually play different melodies depending on how you operate her rotations in game. She acquires notes in a few manners, and has 3 different types of notes she can play.",
             "String note: This is acquired by performing Basic Attack 3 or Enhanced Basic Attack and it has the effect of stagnating enemies;",
             "Wind note: This is acquired by performing Skill or Enhanced Skill and it has the effect of grouping enemies;",
-            "Cadenza note: This is acquired twice per rotation (only used once in practice) by using any Intro or Echo Skill and it has the effects of both Wind and String notes at once.",
-            "We mentioned Phrolova has enhanced Basic Attacks and Skills. She accesses them by casting Basic Attack 3 or Skill (12s cooldown), so you can essentially chain notes one after the other. Her enhanced Basic Attack gives higher damage while her enhanced Skill is better at controlling multiple enemies, so what kind of note you choose with your Enhanced attacks should depend on what kind of encounter you're facing (Privilege Wind notes in Whimpering Wastes as well as waves of small enemies in Tower of Adversity, and privilege String notes against all boss encounters). Some notes simply won't be changeable as they'll be acquired by doing Basic 3's and Skills which are the quickest way of accessing Phrolova's Ultimate — which is your end goal, so you should always be rotating in that manner.",
-            "Speaking of her Ultimate, it has a strict 25s cooldown as it requires a Forte Heavy Attack to be cast before using it. It costs 0 Resonance Energy and Phrolova does not have any Resonance Energy of her own (even though she generates a small amount for other characters, comparable to Cantarella). Hence, instead of waiting for her Ultimate's cooldown and simply using it at the right time with enough Resonance Energy, Phrolova's Ultimate first needs to be unlocked (with a 25s cooldown) and then be cast to finish her rotation. Phrolova's Ultimate gives her a massive 120% off-field self-ATK buff and enables her off-field attacks with Hecate, representing about half of her total damage (the rest being dealt on-field).",
-            "So Phrolova's goal is pretty clear: get your 6 notes up via Basic 3's and Skills (3 total), cast your Forte Heavy Attack, finish all of that off with your Ultimate, Hecate does off-field attacks while you're out. There's however more to consider, such as how to access that quickly:",
+            "Cadenza note: This is acquired twice per rotation by using any Intro or Echo Skill and it has the effects of both Wind and String notes at once.",
+            "We mentioned Phrolova has enhanced Basic Attacks and Skills. She accesses them by casting Basic Attack 3 or Skill. Her enhanced Basic Attack gives higher damage while her enhanced Skill is better at controlling multiple enemies, so what kind of note you choose with your Enhanced attacks should depend on what kind of encounter you're facing, but in practice sticking to Enhanced Basics with most Phrolova compositions is fine - feel free to experiment with Enhanced Skills in Whimpering Wastes though.",
+            "It's also worth noting some notes simply won't be changeable as they'll be acquired by doing Basic 3's and Skills which are the quickest way of accessing Phrolova's Ultimate — which is your end goal, so you should always be rotating in that manner.",
+            "Speaking of her Ultimate, it has a strict 25s cooldown as it requires a Forte Heavy Attack to be cast before using it. It costs 0 Resonance Energy and Phrolova does not have any Resonance Energy of her own. It also summons Hecate to play the notes Phrolova accumulated in sequence, automatically as she is off-field. Phrolova's Ultimate gives her a massive 120% off-field self-ATK buff, and in total Hecate's damage represents about half of her total damage (the rest being dealt on-field). Most importantly, Hecate will attack with slower and weaker regular attacks unless other teammates cast unique Echo Skills, queuing up 1 faster & stronger enhanced Hecate attack per unique Echo Skill cast.",
+            "While Phrolova attacks with Hecate, she gains stacks of Aftersound each time, increasing her CRIT DMG by 2.5% up to a cap of 24 (she also gains 10 stacks when entering battle). Additionally, each stack of Aftersound increases the DMG Multiplier of her Forte Heavy Attack by 82.55% (additive). Each stack exceeding the cap of 24 will increase CRIT DMG by 1% (Not having this fully stacked right away is what makes her first rotation much weaker than the following ones). This extra CRIT DMG keeps ramping up as long as Phrolova isn't out of combat, meaning she keeps getting stronger as the battle goes on. This can add up to temporary endgame buffs such as the one in Tower of Adversity 3 & 4, where she really starts dealing huge damage towards the end of the fight.",
+            "Lastly, Phrolova's Outro amplifies Havoc DMG and Heavy Attack DMG by 20% and 25% respectively for 1 character, and queues up 2 extra Enhanced Hecate attacks to perform next.4"
+          ]
+        },
+        {
+          "heading": "Rotation Concepts",
+          "paragraphs": [
+            "By what we explained earlier, Phrolova's goal is pretty clear: get your 6 notes up via Basic 3's and Skills (3 total), cast your Forte Heavy Attack, finish all of that off with your Ultimate, Hecate does off-field attacks while you're out. There's however more to consider, such as how to access that quickly:",
             "Basic 3 can be immediately cast after Intro. Without Intro available, Phrolova's rotation requires more Basic Attacks, but it is best to cast her Ultimate first and have her start as the first member of your party in the rotation (to maximize uptime on off-field attacks and access her Enhanced Intro).",
             "Switching her in from any other character while in combat immediately starts her at Basic 2, skipping Basic 1 entirely.",
-            "Her Intro has 2 variants, one being accessed without having cast her Ultimate, another with having cast it prior. The latter is significantly stronger than the former in terms of damage and acts as her Ultimate finisher and this instantly ends her Ultimate stance (otherwise, she takes 24s to cast it which is an exceedingly long amount of time).",
+            "Her Intro has 2 variants, one being accessed without having cast her Ultimate, another with having cast it prior. The latter is significantly stronger than the former in terms of damage and acts as her Ultimate finisher and this instantly ends her Ultimate stance.",
             "So essentially, the idea for her rotation is:",
-            "Open your rotation with Phrolova by switching her in from any other character to cast Basic 2 and Basic 3. If Intro is available, do Intro into Basic 3.",
-            "Do Enhanced attacks dependent on the situation after every Basic 3 and Skill.",
-            "After your first Enhanced attack, cast Skill, then Basic 3 to access the following ones.",
-            "Finish the rotation off with your Ultimate then switch out, don't forget to use your Echo during her rotation as well (the best timing after her second Forte Enhanced attack).",
-            "Doing this will access Phrolova's full kit and buffs, the rest is dependent on her teammates and happens off-field. With that being said, she has a lot of mechanics we didn't mention, being:",
-            "All of Phrolova's Enhanced Skills/Basic Attacks are good windows to Swap Cancel. However, her Forte Heavy attack is her best window by far (be mindful that any Outro effects will expire if you do this);",
-            "Phrolova gains a massive 120% self-ATK buff while in her Ultimate state (ended after Intro or 24s) — this makes her scale with ATK buffs and Echoes much less than other characters as she already has so much of it;",
-            "While Phrolova attacks with Hecate, she gains stacks of Aftersound each time increasing her CRIT DMG by 2.5% up to a cap of 24 (she also gains 10 stacks when entering battle). Additionally, each stack of Aftersound increases the DMG Multiplier of her Forte Heavy Attack by 82.55% (additive). Each stack exceeding the cap of 24 will increase CRIT DMG by 1% (Not having this fully stacked right away is what makes her first rotation much weaker than the following ones). This extra CRIT DMG keeps ramping up as long as Phrolova isn't out of combat, meaning she keeps getting stronger as the battle goes on;",
-            "Phrolova's Outro amplifies Havoc DMG and Heavy Attack DMG by 20% and 25% respectively for 1 character (expires on swap), it also casts 2 extra off-field attacks instantly;",
-            "When any character casts an Echo Skill and Phrolova has cast her Ultimate, an Enhanced Attack from Hecate is triggered (This is what gives Phrolova synergy with Cantarella);",
-            "Phrolova's Enhanced Intro also has a stagnation effect on enemies;",
-            "Casting an Echo Skill grants Phrolova 30% Damage Taken reduction and increased Interruption Resistance for 15s.",
-            "This should be all of the info needed to potentially keep in mind when playing Phrolova. A lot of the information in the list above is details, and can for the most part be kept in the back of your mind when playing her on the team. As can be seen by her kit and mid-length rotation which is dependent on the field time of other teammates, Phrolova's main use will be in Havoc teams where she can buff other Havoc characters to do damage on their own while she aids them by dealing off-field damage of her own. Phrolova also deals high damage during her own field time, which is not to be underestimated. Finally, Phrolova can be used to buff Heavy Attack-based DPS and general Havoc-based DPS, even including Jiyan, as her own personal damage is really strong. However, this assumes she has her Signature weapon equipped.",
-            "Indeed, while Stringmaster, being the general best option for Rectifier DPS units time and time again is great on Phrolova (which makes sense given the weapon's name), her own Signature is much, MUCH stronger. It's a huge power leap for Phrolova due to the sheer amount of stats it provides to her kit— which is unprecedented and only approached closely by Brant. What this means is Phrolova's damage is balanced around her Signature weapon equipped, and in other words, without it her damage falls off drastically. This is her biggest issue. Phrolova is a package deal that requires 1.5x the pulls any character normally would take to function, the best example of this being the fellow Havoc DPS Camellya who is completely functional on the 5-star Permanent Banner Sword, being Emerald of Genesis. Without that weapon, it's extremely difficult to justify Phrolova as a competitive option to the contenders for top DPS in the game — and yes, this includes Camellya.",
-            "However, Phrolova makes up for this by having good flexibility in teammates; Cantarella is her biggest damage boost, providing Echo Skills as well as Havoc-Skill Amplification which is the kind of stats that Phrolova needs. Cantarella's poor Resonance Energy generation is compensated for by Phrolova not requiring any, and Cantarella deals good personal damage while taking more extended field time. In other words, they are perfectly synergistic with each other. However, beyond this big power boost, Phrolova can work with a plethora of teammates to roughly the same degree of success, being Roccia, Danjin, Shorekeeper, Havoc Rover and more (Jiyan could even be considered). And even without Cantarella, so long as Phrolova has her own Signature weapon, she'll be more than okay. Without it is when problems arise in terms of competitiveness in damage though.",
-            "In conclusion, Phrolova is undoubtedly the best Havoc DPS in the game with Signature weapons included. She has amazing crowd control abilities and damage which is sustained all throughout and even beyond her rotation, which makes her one of the top wave clearing units for Whimpering Wastes. Boasting amazing on-field and off-field damage as well as buffing potential, she has a lot of flexibility in her teams but lags behind in power significantly compared to the rest of the cast without her Signature weapon. With that being said, provided she has her Signature available, she will be one of the more flexible and powerful options to add to your Wuthering Waves character roster."
+            "For most compositions, start your rotation with Phrolova by switching her in from any other character to cast Basic 2 and Basic 3. If an Intro is available, do Intro into Basic 3. In compositions with a general Support like Shorekeeper, Phrolova will still rotate last (provided you're not in Whimpering Wastes and your Ultimates are available).",
+            "Do Enhanced attacks after every Basic 3 and Skill. After doing this 3 times, you'll have generated enough notes to cast her Forte Heavy and unlock her Ultimate.",
+            "Finish the rotation off with your Ultimate then switch out, don't forget to use your Echo during her rotation as well (typically best used after an Enhanced attack)."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Phrolova is probably the most meta-relevant damage dealer from the 2.x version, Rinascita, and to this day retains use cases across basically all accounts that own her. She has the major downside of her Signature weapon being basically a requirement due to how much worse the permanent weapon options are for Rectifier damage dealers in general, but outside of that, Phrolova has practically no flaws, other than being part of a generation of damage dealers that's simply weaker than the current standard.",
+            "Indeed, Phrolova being a late 2.x character simply does not compare to modern late 3.x characters like Hsin, Qingxiao or Yangyang: Xuanling in single-target damage output. This is her biggest and only real issue beyond her Signature weapon requirement. And that's because Hecate is an insane Crowd Control utility, capable of keeping enemies stunned as long as Hecate casts enhanced attacks, or group them together essentially permanently in Whimpering Wastes. And that last part is particularly important.",
+            "Phrolova in Whimpering Wastes has been meta-defining since her release. As the Echo Skill engine kept getting expanded upon following her release with the likes of Qiuyuan, Sigrika and Lucilla, Phrolova has kept on acquiring new teammates that raised her ceiling in both gamemodes. While outshined by several options in Yangyang: Xuanling teams, her being a Havoc/Heavy Attack damage dealer also enables her to get carried as a Support in single-target-oriented teams; and all of this has good chances to remain true in the long term, though not guaranteed. Last but not least, she has 3 different avenues for teammates to buff her, being Havoc DMG, Echo Skill DMG & Echo Skill Casts, as well as Resonance Skill DMG. All three, added on top of generalist Supports, give her a huge variety of team options, and at the strictest minimum, Danjin+Buling will still allow her to get clearing scores in Endstate Matrix if literally all characters on your account are taken but them (even if that's very difficult to make happen).",
+            "In conclusion, Phrolova is an excellent damage dealer to this day and the best-surviving DPS of the 2.x cast. Her notorious performance in Whimpering Wastes has led her to still retain a top spot in the meta of today, and although her numbers are weaker than the most modern DPS generations, that hasn't stopped her from still seeing frequent use on all accounts, old and new, that chose her."
           ]
         }
       ],
-      "summary": "Phrolova is a 5-star Havoc Rectifier DPS character whose main goal is to make you read essays simply trying to understand her kit- sorry. We mean that her main goal is to deal Havoc damage from both on and off-field by executing relatively quick in-and-out rotations that allow her partner Hecate to attack from off-field, dealing massive Havoc DMG to enemies. In this process, Phrolova will also stagnate and/or group enemies depending on your selection in her rotation."
+      "summary": "Phrolova is a 5-star Havoc Rectifier DPS character best known for how meta-defining her release was. Phrolova is the gold standard of Whimpering Wastes; she's almost defined by her presence in that specific endgame. Her kit focuses on everything ideal for WhiWa, on and off-field long-range attacks with quick in-and-out rotations, constant and evenly spread-out damage, and most importantly, the most impressive Crowd Control utility in the game in the form of her most important mechanic, Hecate, summoned via her Ultimate. Phrolova's entire kit sums up to accessing that Ultimate as quickly as possible, and consequently making the most of it."
     },
     "rotations": [
       {
-        "rotation_name": "Gameplay",
-        "steps": [
-          "Against a Boss encounter, use her Forte: Basic: Movement of Fate and Finality to deal higher DMG and stagnate the target.",
-          "Against an encounter with several enemies, use her Forte: Skill: Murmurs in a Haunting Dream in order to gather enemies together and deal with them all at once.",
-          "In this gameplay section, these 2 actions will be referred to as Forte: Basic and Forte: Skill in order to simplify writing."
-        ]
-      },
-      {
         "rotation_name": "Opener Rotation",
         "steps": [
-          "Switch Phrolova in from any other character on the team to skip Basic P1",
-          "Basic P2",
-          "Basic P3",
-          "Forte: Basic OR Forte: Skill",
-          "Skill: Whispers in a Fleeting Dream",
-          "Forte: Basic OR Forte: Skill",
-          "Basic P1",
-          "Basic P2",
-          "Basic P3",
-          "Forte: Basic OR Forte: Skill",
-          "Heavy: Scarlet Coda",
+          "Switch in from any other character in combat",
+          "Basic 2",
+          "Basic 3 (Interrupt on first hit via Dash)",
+          "Dash",
+          "Basic: Movement of Fate and Finality (Cancel animation on cast via Skill)",
+          "Skill",
+          "Basic: Movement of Fate and Finality (Cancel animation on cast via Echo)",
+          "Echo",
+          "Basic 1",
+          "Basic 2",
+          "Basic 3 (Interrupt on first hit via Dash)",
+          "Dash",
+          "Basic: Movement of Fate and Finality (Cancel animation on cast via Heavy)",
+          "Heavy: Scarlet Coda (Cancel animation endlag via Ultimate)",
           "Ultimate",
           "Outro"
         ]
@@ -473,27 +477,45 @@
         "rotation_name": "Loop Rotation",
         "steps": [
           "Intro: Suite of Immortality",
-          "Basic P3",
-          "Forte: Basic OR Forte: Skill",
-          "Skill: Whispers in a Fleeting Dream",
-          "Forte: Basic OR Forte: Skill",
-          "Basic P1",
-          "Basic P2",
-          "Basic P3",
-          "Forte: Basic OR Forte: Skill",
-          "Heavy: Scarlet Coda",
+          "Basic 3 (Interrupt on first hit via Dash)",
+          "Dash",
+          "Basic: Movement of Fate and Finality (Cancel animation on cast via Skill)",
+          "Skill",
+          "Basic: Movement of Fate and Finality (Cancel animation on cast via Echo)",
+          "Echo",
+          "Basic 1",
+          "Basic 2",
+          "Basic 3 (Interrupt on first hit via Dash)",
+          "Dash",
+          "Basic: Movement of Fate and Finality (Cancel animation on cast via Heavy)",
+          "Heavy: Scarlet Coda (Cancel animation endlag via Ultimate)",
           "Ultimate",
           "Outro"
         ]
       },
       {
-        "rotation_name": "Additional Tips & Tricks",
+        "rotation_name": "4 Forte Rotation",
         "steps": [
-          "Each Forte: Basic (Can be animation cancelled instantly)",
-          "Each Forte: Skill (Can be animation cancelled when the portal opens in the animation)",
-          "Each Basic P3 (typically instantly cancelled with a Dash, this does trade a chunk of Damage Per Rotation from the Basic P3 to get extra Damage Per Second - this may not be worthwhile in all situations).",
-          "Each Forte: Basic and Forte: Skill",
-          "Echo Skill Cast (Nightmare Hecate)"
+          "Intro: Suite of Immortality",
+          "Basic 3 (Interrupt on first hit via Dash)",
+          "Dash",
+          "Basic: Movement of Fate and Finality (Cancel animation on cast via Skill)",
+          "Skill",
+          "Basic: Movement of Fate and Finality (Cancel animation on cast via Echo)",
+          "Echo",
+          "Basic 1",
+          "Basic 2",
+          "Basic 3 (Interrupt on cast via Dash)",
+          "Dash",
+          "Basic: Movement of Fate and Finality (Cancel animation on cast via Dash)",
+          "Dash",
+          "Basic 1",
+          "Basic 2",
+          "Basic 3 (Interrupt on cast via Dash)",
+          "Basic: Movement of Fate and Finality (Cancel animation on cast via Dash)",
+          "Heavy: Scarlet Coda (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Outro"
         ]
       }
     ],

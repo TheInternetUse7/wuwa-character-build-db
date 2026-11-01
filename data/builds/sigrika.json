@@ -31,7 +31,7 @@
         ],
         "cost_3": [
           "ATK%",
-          "ATK% > Energy Regen"
+          "ATK% / Energy Regen"
         ],
         "cost_4": [
           "CRIT Rate / CRIT DMG"
@@ -40,7 +40,7 @@
       "substats_priority": [
         "Energy Regen (Until Satisfied)",
         "CRIT DMG  CRIT Rate",
-        "Energy Regen (above 125% until 150%)",
+        "Energy Regen (Until 150%)",
         "ATK%",
         "ATK"
       ]
@@ -171,9 +171,9 @@
       "slug": "sigrika",
       "updates": {
         "last_major_build_patch": "3.6",
-        "last_profile_update": "01/October/2026",
-        "last_review_patch": "3.6",
-        "last_updated": "01/October/2026"
+        "last_profile_update": "22/October/2026",
+        "last_review_patch": "3.7",
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Gauntlets"
     },
@@ -244,8 +244,8 @@
       ],
       "pros": [
         "One of the best overall DPS performances in the game within her best team, given the right amount of investment. One of the strongest WhiWa DPS by a big margin and an insane ToA/Matrix DPS too;",
-        "Can buff the team's Aero and Echo skill damage, providing extra synergies;",
-        "Has built-in Stun mechanics that teammates can exploit via her Outro, making full team rotations easier. Can also group and stun enemies in her own rotation to handle different battle situations."
+        "Can buff the team's Aero and Echo damage, providing extra synergies;",
+        "Very high substat scaling. The better her build, the more she stands out from other characters that normally would be on par with her."
       ]
     },
     "ratings": {
@@ -324,10 +324,10 @@
         {
           "heading": "Key Mechanics",
           "paragraphs": [
-            "Sigrika's kit focuses on generating and consuming Runes via Heavy Attacks in order to cast her Forte Skill. She does this via her Basic Attacks, Intro, and Ultimate, all of which are related to Rune generation. Essentially, Sigrika can generate one Rune after performing a full Basic Attack chain. However, this can be upgraded to 2 Runes per chain if she has cast her Intro or Ultimate within the past 20 seconds. One of these Heavy Attacks will be using 2 of the same runes and the other will be using 2 different rune types. Each rune type influences what Heavy Attack is performed. This is similar to Phrolova's Forte Basics and Forte Skills.",
+            "Sigrika's kit focuses on generating and consuming Runes via Heavy Attacks in order to cast her Forte Skill. She does this via her Basic Attacks, Intro, and Ultimate, all of which are related to Rune generation. Essentially, Sigrika can generate one Rune after performing a full Basic Attack chain. However, this can be upgraded to 2 Runes per chain if she has cast her Intro or Ultimate within the past 20 seconds. In most rotations, one of these Heavy Attacks will be using 2 of the same runes and the other will be using 2 different rune types, though it's possible to do more/do 2 runes of different types twice if you optimize Sigrika's rotations. Each rune type influences what Heavy Attack is performed. This is similar to Phrolova's Forte Basics and Forte Skills.",
             "Sigrika's Runes gained via her enhanced Basic Attack (which is indicated by the glow on the Basic Attack button after a full Basic Chain) will generate Runes used to stagnate enemies, while Runes gained via her enhanced Skill (indicated by the glow on the Skill button in a similar fashion) will generate Runes used to group enemies.",
-            "Sigrika's special Heavy Attacks can be used if she has any two or more Runes. If two Runes of the same type are present (this will be the case after her Intro), then the actual effect, depending on the Rune type selected, will take place. However, due to the nature of her Ultimate generating two opposite-type Runes, the next Heavy Attack will simply deal higher damage while having no extra effects instead.",
-            "Finally, once both Heavy Attacks were used, holding her Skill button will cast her big Forte Skill nuke, ending her rotation."
+            "Sigrika's special Heavy Attacks can be used if she has any two or more Runes. If two  Runes of the same type are present (this will be the case after her Intro), then the actual effect, depending on the Rune type selected, will take place. However, due to the nature of her Ultimate generating two opposite-type Runes, the next Heavy Attack will simply deal higher damage while having no extra effects instead.",
+            "Finally, once two Heavy Attacks were used and 4 Runes were consumed, holding her Skill button will cast her big Forte Skill nuke, ending her rotation."
           ]
         },
         {
@@ -336,15 +336,15 @@
             "Given her Key Mechanics explained above, we can come up with a simple rotation where Sigrika casts a full Basic Attack chain after Intro, casts a Heavy Attack, casts her Ultimate, redoes a full Basic Attack chain into a Heavy, and then she's ready to use her Forte Skill and Outro. Very easy to understand and execute. However, Sigrika has other mechanics that are important to keep in mind when playing her in practice.",
             "First of all, if she needs to dodge out of the way of enemies, it's not a problem. Her dodge counter works so that the next attack that comes after it is a Basic Attack 4, which means she can easily generate Runes quickly after dodging an enemy attack to ensure a smooth rotation.",
             "Secondly, it's worth noting Sigrika has mechanics that discourage swapping, since she'd not only lose out on team Outro Buffs, but also her own Aero and Echo skill damage buff only applies to the active character on-field (this is given via her Inherent Skills and depends on the amount of Echo Skill casts in the team), and she will also lose out on a significant amount of DMG Amplification built into her Forte on all of her most damaging abilities.",
-            "Thirdly and finally, Sigrika can Stagnate enemies when other characters cast their own Echo Skills after her Outro. This helps inconsistent characters like Qiuyuan, and makes them able to consistently execute scripted rotations against aggressive bosses without as much issue (although the impact is small overall, since her Supports tend to run 5P Moonlit Clouds with very few edge cases anyway so they can't use the Echo Skill until right before their rotation is finished)."
+            "Thirdly and finally, Sigrika can always change up her rotations to alter the rune types that are generated, or simply generate more Runes than is necessary for her rotation to be performed. Rotations aren't always unidimensional and can be altered if properly optimized."
           ]
         },
         {
           "heading": "Meta Position & Conclusion",
           "paragraphs": [
-            "Sigrika is a strong DPS, but this comes at a cost. Almost all of her damage is Echo Skill DMG, which basically no character can buff aside from Qiuyuan or Lucilla. To make matters worse, Sigrika has 3 different layers of built-in mechanics that depend on the amount of Echo Skills cast in the team, built into her Forte and Inherent Skills. They each give significant amounts of DMG Bonus and DMG Amplification on her highest-damaging abilities. This makes her performance very reliant on Qiuyuan or Lucilla, as her strongest alternatives come in the form of characters like Lynae and Mornye who really pale in comparison.",
-            "Overall, Sigrika's reliance on Qiuyuan or Lucilla as teammates is very much felt, and she is stranded for other teammate options currently due to the amount of mechanics she has that are tied to having a higher amount of Echo Skill casts than normal in the team, as well as her more exclusive damage type which has no viable permanently accessible options. While she definitely has strong potential, her opportunity cost should definitely be kept in mind, especially considering she also lacks strong F2P weapon alternatives unlike her predecessors Luuk Herssen and Aemeath.",
-            "In conclusion, while Sigrika is a super strong DPS, she has a major flaw in regards to opportunity cost, which makes her pull value worth questioning depending on your account. But if you give Sigrika the conditions she needs to shine, she'll absolutely serve you as one of the strongest DPS in the game. Her modern damage numbers are nothing to scoff at, as she is easily one of the strongest WhiWa DPS thanks to her ridiculous AoE and fast rotation. Plus, she is one of the strongest in ToA/Matrix too,  all this so long as she is provided with the sufficient amount of investment and surrounded by the proper teammates."
+            "Sigrika is a strong DPS, but this comes at a cost. Almost all of her damage is Echo Skill DMG, which basically no character can buff aside from Qiuyuan or Lucilla. To make matters worse, Sigrika has 3 different layers of built-in mechanics that depend on the amount of Echo Skills cast in the team, built into her Forte and Inherent Skills. They each give significant amounts of DMG Bonus and DMG Amplification on her highest-damaging abilities. This makes her performance very reliant on Qiuyuan or Lucilla, as her strongest alternative is playing alongside Lynae and Mornye who obviously really pale in comparison.",
+            "Overall, Sigrika's reliance on Qiuyuan or Lucilla as teammates is very much felt, and she is stranded for other teammate options currently due to the amount of mechanics she has that are tied to having a higher amount of Echo Skill casts than normal in the team, as well as her more exclusive damage type which has no viable permanently accessible options. While she definitely has strong potential, her opportunity cost should also be kept in mind, considering she lacks strong F2P weapon and teammate alternatives.",
+            "In conclusion, while Sigrika is a super strong DPS, she has a major flaw in regards to opportunity cost, which makes her valuable or not, depending on your account and pull plans. But if you give Sigrika the conditions she needs to shine, she'll absolutely serve you as one of the strongest DPS in the game. Her modern damage numbers are nothing to scoff at, as she is easily one of the strongest WhiWa DPS thanks to her ridiculous AoE and fast rotation. Plus, she is one of the strongest in ToA/Matrix too,  all this so long as she is provided with the sufficient amount of investment and surrounded by the proper teammates."
           ]
         }
       ],
@@ -358,14 +358,14 @@
           "Basic 2",
           "Basic 3",
           "Basic 4",
-          "Basic: Elucidated",
-          "Heavy: Chain Whip (Cancel animation on hit via Ultimate)",
+          "Basic: Elucidated (Cancel animation endlag via Heavy)",
+          "Heavy: Chain Whip (Cancel animation on first hit via Ultimate)",
           "Ultimate",
           "Basic 2",
           "Basic 3",
           "Basic 4",
-          "Basic: Elucidated",
-          "Heavy: Outburst (Cancel animation on hit via Hold Skill)",
+          "Basic: Elucidated (Cancel animation endlag via Heavy)",
+          "Heavy: Outburst (Cancel animation on cast via Hold Skill)",
           "Hold Skill: Learn My True Name",
           "Outro"
         ]
@@ -373,34 +373,54 @@
       {
         "rotation_name": "Double Outburst Opener",
         "steps": [
+          "Intro",
+          "Basic 2",
+          "Basic 3",
+          "Basic 4",
+          "Basic: Elucidated (Cancel animation endlag via Heavy)",
+          "Heavy: Chain Whip (Cancel animation on first hit via Ultimate)",
           "Ultimate",
+          "Basic 2",
+          "Basic 3",
+          "Basic 4",
+          "Basic: Elucidated (Cancel animation endlag via Heavy)",
+          "Heavy: Outburst (Cancel animation on cast via Hold Skill)",
+          "Hold Skill: Learn My True Name",
           "Skill",
           "Basic 3",
           "Basic 4",
-          "Basic: Elucidated (Swap)"
+          "Basic: Elucidated (Interrupt animation on cast via Dash)",
+          "Dash",
+          "Basic 1",
+          "Basic 2",
+          "Basic 3",
+          "Basic 4",
+          "Skill: BIG BOOMY BOOM! (Swap when Rune is generated)",
+          "Outro"
         ]
       },
       {
         "rotation_name": "Double Outburst Loop",
         "steps": [
           "Intro",
-          "Heavy: Outburst",
+          "Heavy: Outburst (Cancel animation on first hit via Dash)",
+          "Dash",
           "Basic 2",
           "Basic 3",
           "Basic 4",
-          "Basic: Elucidated",
+          "Skill: Soliskin to the Aid",
           "Basic 2",
           "Basic 3",
           "Basic 4",
-          "Skill: BIG BOOMY BOOM!",
-          "Heavy: Outburst (Cancel animation on hit via Hold Skill)",
+          "Basic: Elucidated (Cancel animation endlag via Heavy)",
+          "Heavy: Outburst (Cancel animation on cast via Hold Skill)",
           "Hold Skill: Learn My True Name",
           "Ultimate",
-          "Outro",
           "Skill",
           "Basic 3",
           "Basic 4",
-          "Basic: Elucidated (Swap)"
+          "Basic: Elucidated (Swap out of animation endlag)",
+          "Outro"
         ]
       }
     ],

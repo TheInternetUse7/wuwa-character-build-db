@@ -201,7 +201,7 @@
       {
         "commentary_details": "Best no-gacha option if necessary, granting some extra ATK when no damage is taken by the character equipping it. Upgrade to 5-star options as soon as possible though.",
         "dupe_rank": "R5",
-        "percentage_performance": "75.90%",
+        "percentage_performance": "75.80%",
         "weapon_base_info": {
           "effect_description": "When the Resonator takes no damage, increases ATK by {0} every 5s, stacking up to 2 time(s). This effect lasts for 8s. When the Resonator takes damage, reduces the number of stacks by 1 and restores their HP by {1}.",
           "primary_stat_val": 387,
@@ -225,9 +225,9 @@
       "slug": "rebecca",
       "updates": {
         "last_major_build_patch": "3.6",
-        "last_profile_update": "01/October/2026",
+        "last_profile_update": "22/October/2026",
         "last_review_patch": "3.6",
-        "last_updated": "01/October/2026"
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Pistols"
     },
@@ -352,7 +352,7 @@
           "tier": "T0.5"
         },
         "whimpering_wastes_value": {
-          "tier": "T1.5"
+          "tier": "T2"
         }
       }
     },

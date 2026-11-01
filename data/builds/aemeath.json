@@ -63,7 +63,7 @@
       {
         "commentary_details": "Assumes 1 less Energy Regen roll, distributed into damaging stats instead. Aemeath's second best and permanently accessible option which gives her the same Base ATK and CRIT Rate as her Signature while giving extra Energy Regen and ATK%. Overall a super strong choice that she can perform greatly with, in spite of her Signature being a good upgrade.",
         "dupe_rank": "R1",
-        "percentage_performance": "86.60%",
+        "percentage_performance": "85.20%",
         "weapon_base_info": {
           "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases ATK by {1}, stacking up to 2 time(s). This effect lasts for 10s.",
           "primary_stat_val": 587,
@@ -77,7 +77,7 @@
       {
         "commentary_details": "This weapon, much like other CRIT 5-stars below it, can provide slightly better performance than Emerald of Genesis if its extra Energy Regen is not needed. Camellya's Signature is the most favoured of them because Aemeath does a bit of Basic Attack DMG that this weapon can buff, giving it a marginal edge over other 5-star options below it.",
         "dupe_rank": "R1",
-        "percentage_performance": "84.50%",
+        "percentage_performance": "83.20%",
         "weapon_base_info": {
           "effect_description": "Increase ATK by {0}. When dealing Basic Attack DMG, the wielder gains {1} Basic Attack DMG Bonus for 14s. This effect can be triggered once per second, stacking up to 3 times. When the wielder's Concerto Energy is consumed, gain {2} Basic DMG Bonus for 10s. This effect can be triggered once per second and ends when the wielder is switched off the field.",
           "primary_stat_val": 587,
@@ -91,7 +91,7 @@
       {
         "commentary_details": "Qiuyuan's Signature is mostly an ATK and CRIT Rate stat-stick for Aemeath as she does not deal any Heavy Attack type damage, but it does provide a very marginal increase to Echo damage team-wide.",
         "dupe_rank": "R1",
-        "percentage_performance": "84.30%",
+        "percentage_performance": "82.90%",
         "weapon_base_info": {
           "effect_description": "ATK is increased by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attack grants 1 stack of Bamboo Cleaver, which grants {1} Heavy Attack DMG Bonus to the wielder. This effect can be triggered by Echoes of the same name once only, stacking up to 2 times, lasting for 12s. Casting Echo Skill at max stacks does not reset the duration. This effect can be triggered once every 10s and ends early if the wielder is switched off the field. Casting Intro Skill grants {2} Echo Skill DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked.",
           "primary_stat_val": 587,
@@ -105,7 +105,7 @@
       {
         "commentary_details": "ATK and CRIT DMG stat-stick for Aemeath, who does not benefit from this weapon's Skill DMG-focused effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "83.90%",
+        "percentage_performance": "82.40%",
         "weapon_base_info": {
           "effect_description": "ATK increased by {0}. The equipper gains 1 stack of Searing Feather upon dealing damage, which can be triggered once every 0.5s, and gains 5 stacks of the same effect upon casting Resonance Skill. Each stack of Searing Feather gives {1} additional Resonance Skill DMG Bonus for up to 14 stacks. All stacks will be removed within 12s after reaching the max stack.",
           "primary_stat_val": 587,
@@ -119,7 +119,7 @@
       {
         "commentary_details": "This Battle Pass exclusive is the best 4-star choice for Aemeath as she fully takes advantage of this weapon's ATK and Liberation damage-increasing effects while having a nice CRIT stat to boot. However, its low base ATK makes it pale in comparison to 5-stars.",
         "dupe_rank": "R5",
-        "percentage_performance": "79.00%",
+        "percentage_performance": "77.90%",
         "weapon_base_info": {
           "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Resonance Liberation DMG Bonus for 15s.",
           "primary_stat_val": 412,
@@ -133,7 +133,7 @@
       {
         "commentary_details": "An event exclusive that gives some ramp-up ATK and CRIT Rate buffs. A good 4-star choice while not comparable to any 5-star.",
         "dupe_rank": "R5",
-        "percentage_performance": "76.10%",
+        "percentage_performance": "75.00%",
         "weapon_base_info": {
           "effect_description": "Gain 1 stack of Hiss when dealing damage to the target, with 1 stack generated every 1s. Hiss: each stack increases the wielder's ATK by {0} for 3s, stacking up to 10 times. Switching off the wielder clears all stacks. Gaining 10 stacks increases the wielder's Crit. Rate by {1}.",
           "primary_stat_val": 462,
@@ -147,7 +147,7 @@
       {
         "commentary_details": "This 4-star weapon has the main advantage of completely erasing any Energy Regen needs for Aemeath (though this barely matters in Fusion Burst due to high team-wide Energy generation to begin with) and gives a good amount of ATK, but it doesn't do much else which makes it preferable to upgrade to a 5-star option if possible.",
         "dupe_rank": "R5",
-        "percentage_performance": "75.70%",
+        "percentage_performance": "74.60%",
         "weapon_base_info": {
           "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
           "primary_stat_val": 462,
@@ -161,7 +161,7 @@
       {
         "commentary_details": "Best No Gacha option for Aemeath, accessible for free at the start of the game. Gives a solid amount of ATK which makes it fine to use for beginners, but try to upgrade to any 5-star as soon as possible.",
         "dupe_rank": "R5",
-        "percentage_performance": "75.40%",
+        "percentage_performance": "74.20%",
         "weapon_base_info": {
           "effect_description": "When Intro Skill is released, increases ATK by {0}, lasting for {1}.",
           "primary_stat_val": 412,
@@ -185,9 +185,9 @@
       "slug": "aemeath",
       "updates": {
         "last_major_build_patch": "3.6",
-        "last_profile_update": "01/October/2026",
+        "last_profile_update": "22/October/2026",
         "last_review_patch": "3.7",
-        "last_updated": "01/October/2026"
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Sword"
     },
@@ -239,13 +239,12 @@
         "slot_3": {
           "alternatives": [
             "brant",
-            "changli",
-            "galbrena"
+            "changli"
           ],
           "character_name": "mornye"
         },
         "team_name": "Mono Fusion",
-        "team_notes": "Brant and Changli should be used in the second slot with Lupa Outro buffing them, while Lupa Outro Buffs Aemeath with Mornye and Galbrena. Changli is only stronger than Brant in Quickswap teams while Galbrena only works in Quickswap and is significantly more of an advanced Dual DPS playstyle for Aemeath."
+        "team_notes": "Brant and Changli should be used in the second slot with Lupa Outro buffing them, while Lupa Outro Buffs Aemeath with Mornye. Changli is only stronger than Brant in Quickswap teams."
       }
     ],
     "media": {

@@ -142,9 +142,9 @@
       "slug": "buling",
       "updates": {
         "last_major_build_patch": "3.7",
-        "last_profile_update": "01/October/2026",
+        "last_profile_update": "22/October/2026",
         "last_review_patch": "3.7",
-        "last_updated": "01/October/2026"
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -218,7 +218,7 @@
             "Flare",
             "S0 -1"
           ],
-          "tier": "T1.5"
+          "tier": "T1"
         },
         "whimpering_wastes": {
           "tags": [
@@ -233,7 +233,7 @@
           "tier": "T1.5"
         },
         "whimpering_wastes_value": {
-          "tier": "T1.5"
+          "tier": "T1"
         }
       }
     },

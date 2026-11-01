@@ -97,10 +97,10 @@
       "rarity_stars": 5,
       "slug": "rover-aero",
       "updates": {
-        "last_major_build_patch": "2.6",
-        "last_profile_update": "01/October/2026",
-        "last_review_patch": "2.4",
-        "last_updated": "01/October/2026"
+        "last_major_build_patch": "3.7",
+        "last_profile_update": "22/October/2026",
+        "last_review_patch": "3.7",
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Sword"
     },
@@ -178,21 +178,14 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Literally only functional in 1 team. Solely restricted to Cartethyia + Ciaccona where they're best, other suboptimal Aero teams exist but they're not stronger than general Support options there;",
-        "Their damage isn't high enough to justify their field time compared to other Support units who deal less damage but buff much faster which impacts DPS substantially;",
-        "Their signature weapon is a double-edged sword, as it takes away the option to use a higher damaging weapon and locks Aero Rover into using a \"bad\" option (purely in regards to their personal damage);",
-        "Their buffing potential isn't much higher than low-tier generalist Support competitors such as Baizhi;",
-        "Their mid-air attacks are inconsistent against small enemies and may not land altogether, severely impacting rotations;",
-        "No one currently applies debuffs effectively for them to convert (it's possible, just not worth it);",
-        "They take away the possibility of using other Rover elements in your teams when those forms have their cemented meta use cases;",
-        "Currently limited to S1 and R1 of their signature weapon, lowering their damage and buffing potential significantly."
+        "Cannot apply any Aero Erosion on their own - they need another Negative Status to convert, and doing so will noticeably extend their rotation;",
+        "Basically no reason to use them outside of a Cartethyia team - even for Aero teams, Verina is a better idea. In the Cartethyia team, they're outclassed by Chisa if she's available, particularly in Quickswap;",
+        "Very awkward to play for many. Mid-air combat means they're prone to missing attacks, particularly against enemies low on the ground, and they're also very prone to interruption (these flaws are largely negated in Quickswap/in a Cartethyia team since Cartethyia has built-in failsafes, though)."
       ],
       "pros": [
-        "Their personal damage stands out compared to most other Support units despite being able to comfortably heal the party;",
-        "Their best weapon option is a fully F2P-accessible 5-star signature sword, the character and their Sequence Nodes are given for free;",
-        "Has unique mechanics in the form of debuff conversion and increasing the limit of debuff stacks applicable;",
-        "Synergizes with the current best DPS Cartethyia in a team with Ciaccona, enabling Cartethyia's kit to be taken to new heights",
-        "Specializes in mid-air combat, allowing them to ignore certain enemy attacks."
+        "Decent personal damage when invested for a Support, Quickswap-friendly in one of the better Quickswap teams in the game (Cartethyia);",
+        "Super easy to build, damage investment is an optional upgrade and Energy Regen requirements are filled by their Signature weapon;",
+        "They, their Sequences, and their Signature weapon are free to max out!"
       ]
     },
     "ratings": {
@@ -266,71 +259,106 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Aero Rover is a free 5-star Aero Support character who primarily serves as an applier of Aero Erosion via debuff conversion and an amplifier of Aero DMG, but who also has access to healing and small amounts of personal damage. They rely on mid-air combat in order to charge up their Forte skill to get their buffs, bulk of damage, and Outro skill off all at once.",
-            "The core of their kit lies in their Forte circuit, as it contains 3 important parts of their kit: the Mid-Air attacks we will be using throughout their rotation, their big Forte skill that concentrates the biggest portion of their damage, and the Forte points they'll need to charge in order to access that skill.",
-            "Aero Rover's Forte points are called \"Windstring\" and they can stack up to 120 points that are obtained in the following ways:",
-            "By casting their Forte Mid-Air Attacks (25 points per attack);",
-            "By casting their Intro skill (20 points);",
-            "By casting Basic Attack 3, Basic Attack 4 or Dodge Counter (10 points).",
-            "The main method that will be used in optimal rotations as they need to charge up 120 Forte points is via 4 Forte Mid-Air Attacks and an Intro Skill, which perfectly adds up to the required amount. However, this can be shortened if Cartethyia is present on the team, as she funnels 25 Windstrings to Aero Rover when they cast their Ultimate via her Inherent Skill. With that being said, it is worth noting that in an optimal rotation, this will not generate the required Concerto Energy to complete a rotation with their Outro. As a result, to make use of this effect, it is necessary to weave in any one attack in the middle of Cartethyia's rotation, typically along with a Fleurdelys Skill 2, during which she will switch out to Aero Rover who can perform a Mid-Air Plunging Attack and switch back to Fleurdelys so that she can complete her rotation normally. Doing so will shorten the rotation by a small amount as one less Forte Mid-Air Attack is necessary to complete their rotation, overall improving Team DPS. Otherwise, doing all 4 Forte Mid-Air Attacks as normal is perfectly functional as well.",
-            "These special Forte Mid-Air Attacks, called \"Cloudburst Dance\" can be cast 2 at a time when accessed and heal your whole party a small amount. This is only done by using Basic Attack in the air through certain means being:",
-            "Using their default grounded Resonance Skill \"Awakening Gale\";",
-            "Using their Intro skill;",
-            "Using their \"Razor Wind\" Heavy Attack (unused).",
-            "We won't dwell on \"Razor Wind\" since it's slow and impractical to perform in optimal rotations so it'll never be realistically used on Aero Rover.",
-            "Other than that, \"Awakening Gale\" is a simple skill that sends Aero Rover in the air with a very short cooldown of 3 seconds so they will never run into any problems when it comes to casting it, and their Intro skill is a small burst of Aero DMG that sends them in the air as well. This means typically, your Mid-Air Attacks will be cast twice after an Intro skill, then twice after an \"Awakening Gale\" skill.",
-            "Another important tool to their arsenal is their Ultimate, which does a solid portion of damage but also provides all of Aero Rover's healing abilities, concentrated in one big burst of healing for your whole party. It additionally has the property of being able to be cast in mid-air which has the effect of instantly placing them on the ground — this means it's most practical to use it after you're done with your Forte Mid-Air Attacks to place yourself on the ground instantaneously (plunges tend to be rather slow, so saving your Ultimate for this purpose is way better).",
-            "Their Forte Enhanced Skill, which is Aero Rover's main action to work towards performing, is in two parts. Both parts generate 20 Concerto Energy (a huge amount!), it deals a big amount of damage (multipliers higher than Danjin's Ultimate for example), it triggers their signature weapon's Aero DMG Amplify passive, and has two properties:",
-            "Both parts can only be cast on the ground;",
-            "Swapping out after the first part instantly causes the second part to happen (with a delayed Concerto gain).",
-            "This means the ability has a Swap Cancel window if you want to exploit it, after which the second part will happen off-field and generate 20 Concerto Energy for them to begin their next rotation, allowing these Swap Cancels to be utilized every time. This is systematically performed in optimal Aero Rover rotations as it saves a big amount of time at no damage cost, significantly improving team DPS.",
-            "Their Outro currently has one use case, it increases the maximum capacity of Aero Erosion stacks by 3 (up to 6 in total) which can enable Cartethyia to fully utilize her kit's additional effects, such as her damage amplification on her second Ultimate. Other than that, it is only barely useful.",
-            "With all of that in mind, to access Aero Rover's Forte Enhanced Skills as quickly as possible, we first use their Intro Skill or a few basics into a Resonance Skill if an Intro isn't available, then we use their Mid-Air attacks twice before using their Ultimate to place them on the ground where they can go up in the air again via their Resonance Skill, then we can perform their Mid-Air attacks once more to fully fill our Forte Gauge. We get back to the ground via our plunge or Ultimate to cast our Forte skills, switching out of the first one, ending the rotation due to the huge Concerto gain they give. Certain Basic Attacks are also necessary to complete Aero Rover's rotation without an Intro Skill available — for more information, refer to our Gameplay & Teams page for the character.",
-            "Aero Rover unfortunately has problems, though. The main one being that they're only used in a single team. No one but Cartethyia currently exploits their Aero Erosion stack increase mechanics, there's no character that can apply debuffs for them to convert other than Phoebe, most effectively in her Confession state which is currently not worth exploiting for team damage, and the damage Aero Erosion provides is low by itself comparably to Spectro Frazzle. While it is a bit better, it's nothing impressive, which means Aero Rover relies on teammates like Ciaccona and Cartethyia to perform, which is their only truly viable team. However, it is one of the best teams in the game for all contents.",
-            "Therefore this means Aero Rover already isn't an Amplifier-type unit like Mortefi and instead wants to act as a healing Support like the top tier Verina and Shorekeeper. This sounds good on paper, but unfortunately the buffing potential of these two is so high that Aero Rover can't compete with them in that niche — especially right now when their signature weapon is locked at R1 which only gives 10% Aero DMG Amplify, a very small amount compared to the 15% all-type DMG amplify all generalist Supports get (Baizhi, Verina, Shorekeeper); not to mention the other buffs these characters get whether it's DMG Bonus, ATK%, or CRIT Rate/CRIT DMG. This makes it really difficult for Aero Rover to find a use case in the current meta outside of Cartethyia teams where only their Outro buff is desired.",
-            "Not only that, but their rotation time is lengthy, their damage isn't as high as you'd expect, this is because their signature weapon doesn't have big damage stats such as CRIT which you'd see on other 5-star options, their multipliers are good but not insane either so it can't compensate, they take away the option to use Spectro Rover or Havoc Rover in other teams when those Rover variants are very strong in their best teams, and to top it all off they only have access to their S1 right now when a lot of their damage potential is locked behind the higher Sequence nodes such as S5 and S6.",
-            "Finally, their Mid-Air Attacks face some issues against smaller, common targets and they'll tend to miss or not activate altogether, preventing you from generating the necessary Forte points and having to extend the rotation further, which severely impacts DPS. While this isn't much of a problem against most boss enemies, in content like Whimpering Wastes where small enemies are all you get, it's especially problematic. While Aero Rover can work with Jiyan in that gamemode, they are way below other general Supports like Verina and Shorekeeper for all the reasons listed above, except this time around their Outro skill brings nothing of value.",
-            "To summarize, Aero Rover is a character who is restricted to a single team. Judging by their kit and Cartethyia's, they are clearly tailored for each other, and if you don't own Cartethyia you can give up on Aero Rover's utility. We can expect higher ranks for their signature weapon and the rest of their Sequence nodes to be released at a later point, all of which will drastically boost their performance. But as things stand, they have very little use cases and aren't a recommendable option outside of Cartethyia teams, where they are only worth using alongside Ciaccona currently. However, this may change in the future when higher Sequence nodes and Weapon ranks are unlocked, so stay tuned for that. Until then, if you don't own both Cartethyia and Ciaccona, Aero Rover is not recommended, but if you do own both, by all means use the 3 together, they're insanely strong."
+            "Aero Rover is a 5-star Aero Erosion-oriented Support who provides Aero buffs for the whole team, can deal a good amount of personal damage and heal the party, raises the stack limit of Aero Erosion, and can convert other Negative Statuses into Aero Erosion. They're mostly used in Cartethyia teams, with whom they have explicit synergy, comprising most of their meta relevancy to date."
+          ]
+        },
+        {
+          "heading": "Key Mechanics & Rotation Concepts",
+          "paragraphs": [
+            "Aero Rover's main mechanics are in their Forte. They hold up to 120 Forte, called \"Windstrings\" that allow them, once fully filled up, to cast a Forte Skill called \"Unbound Flow\". It deals decent damage and most importantly restores a ton of Concerto on cast, so unlocking it is the key to finishing their rotation quickly. To restore Forte, they can cast:",
+            "Basic 3 and 4 (10 points)",
+            "Intro (20 points)",
+            "Forte Mid-air Attacks (25 points)",
+            "With Cartethyia on the team: Ultimate (25 points).",
+            "Speaking of those Forte Mid-air Attacks, Aero Rover can cast 2 of them after an Intro or a Skill (on the ground). They also heal all allies upon casting.",
+            "As their Skill and Intro put them in mid-air and enable them to cast Forte Mid-air Attacks, Aero Rover also has the option to cast a Mid-air Skill. This Skill has the unique property of converting any base Negative Status applied on enemies hit into an equal amount of Aero Erosion (stack caps do apply).",
+            "Speaking of stack caps, their Outro has the unique effect of increasing the stack limit of Aero Erosion by 3, which gives them unique synergy with Cartethyia. Lastly, their Signature weapon increases their buffing potential substantially by allowing them to amplify the team's Aero DMG by up to 26% upon casting their Forte Skill.",
+            "Therefore, Aero Rover rotates by generating their Forte and Concerto through their Intro and 4 Forte Mid-air Attacks, or a Basic Attack 3 & 4 when their Intro isn't available. This involves going in and out of the air through their Intro & Skill to go upwards, Plunge and Ultimate to go downwards (as the Ultimate can place them on the ground). Once the Forte has been built up, Aero Rover's Forte Skill, which is in two parts, has the unique ability to complete its first part on cast and its second part off-field after having swapped out."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "If you couldn't tell by the earlier review, Aero Rover really only has one major synergy they were intended to play with, and that's Cartethyia. Indeed, she is the only character capable of taking advantage of Aero Rover's entire array of buffs. Notice that none of Aero Rover's buffs scale on ATK, as Cartethyia wouldn't be able to benefit from that kind of buff even though it's available on most supports.",
+            "Indeed, Cartethyia takes full advantage of Aero Rover's Outro, Signature Weapon, and decent personal damage. Their Aero Erosion conversion skill is situationally useful for Cartethyia as well, mostly when paired alongside Chisa who periodically applies Havoc Bane. Last but not least, Cartethyia is a very Quickswap-friendly character, a trait Aero Rover appreciates a lot when fully optimizing team rotations.",
+            "Outside of this? Aero Rover's somewhat good for buffing Aero damage dealers. However, their rotation is not that fast, and even when compared to a Verina, since all other Aero DPS scale on ATK, Aero Rover's buffing profile only being their Signature weapon (outside of the Rejuvenating Glow Echo set) is unimpressive at best, if not outright disappointing. That is to say: Aero Rover can kind of see use in Aero teams generally, they're just really not that good at it and there's no real reason to use them over the generalist Supports leading the charge, like Verina or Shorekeeper, let alone someone more specialized like Mornye in a Qingxiao team.",
+            "In conclusion, Aero Rover is good for Cartethyia... and that's about it? Nowadays, Cartethyia has fallen out of fashion for most players. She has trouble clearing most endgame content casually, requiring significant optimization in rotations or investment. Hence, if you own Cartethyia, Aero Rover can be a recommended build (if Chisa isn't available to support her, as she is better than Aero Rover by a bit). Otherwise, investing in them is a commitment most may not be willing to make, at least when compared to other Rover elements that will likely have more relevant use cases on their accounts."
           ]
         }
       ],
-      "summary": "Aero Rover is a free 5-star Aero Support character who primarily serves as an applier of Aero Erosion via debuff conversion and an amplifier of Aero DMG, but who also has access to healing and small amounts of personal damage. They rely on mid-air combat in order to charge up their Forte skill to get their buffs, bulk of damage, and Outro skill off all at once."
+      "summary": "Aero Rover is a 5-star Aero Erosion-oriented Support who provides Aero buffs for the whole team, can deal a good amount of personal damage and heal the party, raises the stack limit of Aero Erosion, and can convert other Negative Statuses into Aero Erosion. They're mostly used in Cartethyia teams, with whom they have explicit synergy, comprising most of their meta relevancy to date."
     },
     "rotations": [
       {
-        "rotation_name": "STANDARD ROTATION",
+        "rotation_name": "Standard Opener Rotation",
         "steps": [
-          "Intro",
-          "Forte: Cloudburst Dance P1",
-          "Forte: Cloudburst Dance P2",
+          "Switch-in from any other character in combat",
+          "Basic 2",
+          "Basic 3 (Instantly interrupt via Skill when Forte is generated)",
+          "Skill",
+          "Basic: Cloudburst Dance 1",
+          "Basic: Cloudburst Dance 2",
+          "Basic: Mid-air Attack",
+          "Basic 4 (Cancel animation endlag via Skill)",
+          "Skill",
+          "Basic: Cloudburst Dance 1",
+          "Basic: Cloudburst Dance 2",
           "Ultimate",
-          "Skill: Awakening Gale",
-          "Forte: Cloudburst Dance P1",
-          "Forte: Cloudburst Dance P2",
-          "Skill: Skyfall Severance (Optional)",
-          "Mid-Air Atk (Plunge)",
-          "Forte: Unbound Flow P1 (switch out)",
+          "Skill: Unbound Flow 1",
           "Outro",
-          "Forte: Unbound Flow P2 (happens automatically off-field)"
+          "Skill: Unbound Flow 2 (happens automatically off-field)"
         ]
       },
       {
-        "rotation_name": "OPENER ROTATION",
+        "rotation_name": "Standard Loop Rotation",
         "steps": [
-          "(Swap-in) Basic P2",
-          "Basic P3",
-          "Skill: Awakening Gale",
-          "Forte: Cloudburst Dance P1",
-          "Forte: Cloudburst Dance P2",
-          "Mid-Air Attack (Plunge)",
-          "Basic P4",
-          "Skill: Awakening Gale",
-          "Forte: Cloudburst Dance P1",
-          "Forte: Cloudburst Dance P2",
+          "Intro",
+          "Basic: Cloudburst Dance 1",
+          "Basic: Cloudburst Dance 2 (Cancel animation endlag via Ultimate)",
           "Ultimate",
-          "Forte: Unbound Flow P1",
+          "Skill",
+          "Basic: Cloudburst Dance 1",
+          "Basic: Cloudburst Dance 2",
+          "Basic: Mid-air Attack",
+          "Skill: Unbound Flow 1 (Swap)",
           "Outro",
-          "Forte: Unbound Flow P2 (happens automatically off-field)"
+          "Skill: Unbound Flow 2 (happens automatically off-field)"
+        ]
+      },
+      {
+        "rotation_name": "Conversion Opener Rotation",
+        "steps": [
+          "Intro",
+          "Basic: Cloudburst Dance 1",
+          "Basic: Cloudburst Dance 2",
+          "Skill: Skyfall Severance",
+          "Basic: Mid-air Attack",
+          "Basic 4 (Cancel animation endlag via Skill)",
+          "Skill",
+          "Basic: Cloudburst Dance 1",
+          "Basic: Cloudburst Dance 2",
+          "Basic: Mid-air Attack (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Skill: Unbound Flow 1 (Swap)",
+          "Outro",
+          "Skill: Unbound Flow 2 (happens automatically off-field)"
+        ]
+      },
+      {
+        "rotation_name": "Conversion Loop Rotation",
+        "steps": [
+          "Intro",
+          "Basic: Cloudburst Dance 1",
+          "Basic: Cloudburst Dance 2",
+          "Skill: Skyfall Severance (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Skill",
+          "Basic: Cloudburst Dance 1",
+          "Basic: Cloudburst Dance 2",
+          "Basic: Mid-air Attack",
+          "Skill: Unbound Flow 1 (Swap)",
+          "Outro",
+          "Skill: Unbound Flow 2 (happens automatically off-field)"
         ]
       }
     ],

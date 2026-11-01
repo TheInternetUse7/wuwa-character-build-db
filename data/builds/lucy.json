@@ -213,9 +213,9 @@
       "slug": "lucy",
       "updates": {
         "last_major_build_patch": "3.6",
-        "last_profile_update": "01/October/2026",
+        "last_profile_update": "22/October/2026",
         "last_review_patch": "3.6",
-        "last_updated": "01/October/2026"
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Pistols"
     },
@@ -273,6 +273,7 @@
         "tower_of_adversity": {
           "tags": [
             "Hack",
+            "Expert +1",
             "Partner (Rebecca)"
           ],
           "tier": "T1"

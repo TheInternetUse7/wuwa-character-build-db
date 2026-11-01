@@ -66,7 +66,7 @@
       {
         "commentary_details": "Roccia's weapon is an amazing choice on Zani as all her attacks during her Ultimate stance are the Heavy Attack type while still being treated as Basic Attack casts for the purpose of this weapon's passive, giving her 48% Heavy DMG Bonus combined with an extra 24.3% CRIT Rate and high ATK make it the second best choice.",
         "dupe_rank": "R1",
-        "percentage_performance": "93.70%",
+        "percentage_performance": "91.10%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Every time Basic Attack or Intro Skill is cast, Heavy Attack DMG Bonus increases by {1} for 3s.",
           "primary_stat_val": 587,
@@ -80,7 +80,7 @@
       {
         "commentary_details": "Beyond the usual high Base ATK, CRIT Rate and all-type DMG bonus buffs Xiangli Yao's weapon provides, Zani makes little use of the extra Liberation DMG Bonus effect so this weapon is comparably weaker than other options, but can still be considered as a good alternative due to raw stats alone.",
         "dupe_rank": "R1",
-        "percentage_performance": "85.00%",
+        "percentage_performance": "83.20%",
         "weapon_base_info": {
           "effect_description": "Gain {0} Attribute DMG Bonus. When using Resonance Liberation, the wielder gains {1} Resonance Liberation DMG Bonus for 8s. This effect can be extended by 5 seconds each time Resonance Skills are cast, up to 3 times.",
           "primary_stat_val": 587,
@@ -94,7 +94,7 @@
       {
         "commentary_details": "The best permanently available option for Zani which acts as a nice ATK and CRIT Rate stat-stick for her.",
         "dupe_rank": "R1",
-        "percentage_performance": "82.40%",
+        "percentage_performance": "80.20%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Dealing damage to targets under Tune Strain: Interfered grants {1} Basic Attack DMG Bonus for 3s, stacking up to 4 times. This effect can be triggered once every 0.5s. Retriggering the effect resets its duration.",
           "primary_stat_val": 587,
@@ -108,7 +108,7 @@
       {
         "commentary_details": "Simple ATK, CRIT Rate and Liberation DMG stat-stick for Zani who does not benefit from this weapon's DEF Ignore-related effects. Suffers from a low Base ATK and too much CRIT Rate causing Zani to easily overcap.",
         "dupe_rank": "R1",
-        "percentage_performance": "80.50%",
+        "percentage_performance": "77.40%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Casting Intro Skill or Resonance Liberation increases Resonance Liberation DMG by {1} for 15s. Obtaining Shield allows Resonance Liberation DMG to ignore {2} of the target's DEF for 7s, stacking up to 5 times. This effect is triggered once every 0.5s. Upon casting Intro Skill, this effect reaches max stacks immediately, lasting for 3s.",
           "primary_stat_val": 500,
@@ -122,7 +122,7 @@
       {
         "commentary_details": "The extra Energy Regen and huge ATK boosts this weapon provides are very useful to Zani, but she has little use for the rest of its passive boosting Basic and Skill DMG. With that said, it remains the best permanently available choice thanks to its really high Base ATK and small Energy Regen boost.",
         "dupe_rank": "R1",
-        "percentage_performance": "77.20%",
+        "percentage_performance": "81.50%",
         "weapon_base_info": {
           "effect_description": "Increases Energy Regen by {0}. When hitting a target with Resonance Skill, increases Basic Attack DMG Bonus by {1}, lasting for {2}. When hitting a target with Basic Attacks, increases Resonance Skill DMG Bonus by {3}, lasting for {4}s.",
           "primary_stat_val": 587,
@@ -136,7 +136,7 @@
       {
         "commentary_details": "This Battle Pass exclusive is focused on buffing Liberation DMG which Zani barely benefits from, but luckily for her the CRIT DMG and ATK stats provided by this weapon are used well on her which makes it the best 4-star choice for her.",
         "dupe_rank": "R5",
-        "percentage_performance": "72.60%",
+        "percentage_performance": "74.10%",
         "weapon_base_info": {
           "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Resonance Liberation DMG Bonus for 15s.",
           "primary_stat_val": 412,
@@ -150,7 +150,7 @@
       {
         "commentary_details": "One of the best 4-star weapons on Zani thanks to its solid Base ATK, ATK-increasing effects, and ability to restore flat Energy when Resonance Skill is cast, which eases Zani's build requirements requiring no Energy Regen at all.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
         "dupe_rank": "R5",
-        "percentage_performance": "69.30%",
+        "percentage_performance": "73.10%",
         "weapon_base_info": {
           "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
           "primary_stat_val": 462,
@@ -164,7 +164,7 @@
       {
         "commentary_details": "Similarly to Aether Strike, this Battle Pass exclusive is focused on buffing Liberation DMG which Zani barely benefits from, but Zani does benefit from the CRIT Rate stat this weapon has. Not better than the above 4-stars because it only buffs Liberation DMG and not ATK which Zani would prefer.",
         "dupe_rank": "R5",
-        "percentage_performance": "67.70%",
+        "percentage_performance": "68.10%",
         "weapon_base_info": {
           "effect_description": "When Resonance Skill is released, increases the caster's Resonance Liberation DMG Bonus by {0}, lasting for 15s.",
           "primary_stat_val": 412,
@@ -178,7 +178,7 @@
       {
         "commentary_details": "Provides some extra ATK increase over Legend of Drunken Hero which is dependent on not getting hit to upkeep. Even in the best conditions for this weapon, it's only slightly higher than the craftable, making it not recommended if better options are available.",
         "dupe_rank": "R5",
-        "percentage_performance": "66.10%",
+        "percentage_performance": "69.70%",
         "weapon_base_info": {
           "effect_description": "When Resonance Liberation is released, grants 3 stack(s) of Iron Armor. Each stack increases ATK and DEF by {0}, stacking up to 3 time(s). When the Resonator takes damage, reduces the number of stacks by 1.",
           "primary_stat_val": 412,
@@ -190,9 +190,9 @@
         "weapon_name": "Hollow Mirage"
       },
       {
-        "commentary_details": "While this Rinascita craftable looks like it'd work well on Zani as she is a Negative Status character, unfortunately for her Heliacal Ember  (which she converts Spectro Frazzle into) does not count as a Negative Status, which makes its passive only benefit Zani if Ciaccona or Chisa are on the team to apply other Negative Statuses than Spectro Frazzle. Seeing as neither are top teammate choices for her, this weapon is only used as a last resort F2P option.",
+        "commentary_details": "While this Rinascita craftable looks like it'd work well on Zani as she is a Negative Status character, unfortunately for her Heliacal Ember (which she converts Spectro Frazzle into) does not count as a Negative Status, which makes its passive only benefit Zani if Ciaccona or Chisa are on the team to apply other Negative Statuses than Spectro Frazzle. Seeing as neither are top teammate choices for her, this weapon is only used as a last resort F2P option.",
         "dupe_rank": "R5",
-        "percentage_performance": "62.90%",
+        "percentage_performance": "66.70%",
         "weapon_base_info": {
           "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
           "primary_stat_val": 462,
@@ -216,9 +216,9 @@
       "slug": "zani",
       "updates": {
         "last_major_build_patch": "3.6",
-        "last_profile_update": "01/October/2026",
+        "last_profile_update": "22/October/2026",
         "last_review_patch": "3.6",
-        "last_updated": "01/October/2026"
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Gauntlets"
     },
@@ -309,16 +309,16 @@
         "tower_of_adversity": {
           "tags": [
             "Frazzle",
-            "Partner (Phoebe)",
-            "Expert +2"
+            "Expert +2",
+            "Partner (Phoebe)"
           ],
           "tier": "T2"
         },
         "whimpering_wastes": {
           "tags": [
             "Frazzle",
-            "Partner (Phoebe)",
-            "Expert +2"
+            "Expert +2",
+            "Partner (Phoebe)"
           ],
           "tier": "T3"
         }

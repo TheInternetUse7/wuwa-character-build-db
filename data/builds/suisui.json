@@ -64,7 +64,7 @@
         "percentage_performance": "100.00%",
         "weapon_base_info": {
           "effect_description": "Increases Max HP by {0}. Casting Resonance Liberation restores {1} points of Concerto Energy, triggered once every 20s. Inflicting Glacio Chafe grants Snow Taint for 6s. Applying healing grants Ripples for 6s. If the wielder has done both while on the field, the next Outro Skill grants both effects for 6s. When the wielder has both Snow Taint and Ripples, the ATK of all nearby Resonators in the team is increased by {2}. Effects of the same name do not stack.",
-          "primary_stat_val": 413,
+          "primary_stat_val": 412,
           "rarity": 5,
           "secondary_stat_name": "Energy Regen",
           "secondary_stat_val": 77.04,
@@ -126,10 +126,10 @@
       "rarity_stars": 5,
       "slug": "suisui",
       "updates": {
-        "last_major_build_patch": "3.6",
-        "last_profile_update": "01/October/2026",
+        "last_major_build_patch": "3.7",
+        "last_profile_update": "22/October/2026",
         "last_review_patch": "3.7",
-        "last_updated": "01/October/2026"
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -245,7 +245,7 @@
           "tags": [
             "Chafe"
           ],
-          "tier": "T0.5"
+          "tier": "T0"
         }
       },
       "value_tier_ratings": {
@@ -253,7 +253,7 @@
           "tier": "T0"
         },
         "whimpering_wastes_value": {
-          "tier": "T0.5"
+          "tier": "T0"
         }
       }
     },
@@ -324,7 +324,7 @@
             "50% ATK for Negative Status-consuming Hypercarries via her Outro effects (this expires on swap);",
             "Throughout attacks in her kit: 5 total stacks of Glacio Chafe application per rotation;",
             "25% ATK and an extra 20% via her Echo Set and Signature weapon if owned.",
-            "As you can tell, that makes for some pretty massive buffs for Negative Status consumers, and right now we have two such characters: Hiyuki and Yangyang: Xuanling."
+            "As you can tell, that makes for some pretty massive buffs for Negative Status consumers, with Negative Status characters in general being able to benefit from most buffs as well."
           ]
         },
         {

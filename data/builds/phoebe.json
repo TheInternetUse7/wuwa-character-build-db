@@ -214,9 +214,9 @@
       "slug": "phoebe",
       "updates": {
         "last_major_build_patch": "3.6",
-        "last_profile_update": "01/October/2026",
+        "last_profile_update": "22/October/2026",
         "last_review_patch": "3.6",
-        "last_updated": "01/October/2026"
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -349,19 +349,16 @@
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
-            "Frazzle",
-            "Partner (Zani)",
-            "Expert +2"
+            "Frazzle"
           ],
           "tier": "T2"
         },
         "whimpering_wastes": {
           "tags": [
             "Frazzle",
-            "Partner (Zani)",
-            "Expert +1"
+            "Partner (Ciaccona)"
           ],
-          "tier": "T3"
+          "tier": "T4"
         }
       },
       "value_tier_ratings": {
@@ -369,7 +366,7 @@
           "tier": "T3"
         },
         "whimpering_wastes_value": {
-          "tier": "T3"
+          "tier": "T4"
         }
       }
     },

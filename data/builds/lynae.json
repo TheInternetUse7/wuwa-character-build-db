@@ -62,7 +62,7 @@
       {
         "commentary_details": "While Static Mist provides noticeably less personal damage than other 5-star weapons, it is generally the best choice on Lynae after her Signature as its passive allows her to buff the Main DPS of the team's ATK which is almost always preferable compared to improving her own personal damage.",
         "dupe_rank": "R1",
-        "percentage_performance": "88.70%",
+        "percentage_performance": "88.40%",
         "weapon_base_info": {
           "effect_description": "Increases Energy Regen by {0}. When Outro Skill is released, increases the switched-in Resonator's ATK by {1}, stacking up to 1 time(s). This effect lasts for 14s.",
           "primary_stat_val": 587,
@@ -76,7 +76,7 @@
       {
         "commentary_details": "An amazing generalist permanently available pistol that can universally improve the wearer's ATK, DMG Bonus and CRIT DMG. Can get close to a lot of character signatures and is overall a must-have for most accounts.",
         "dupe_rank": "R1",
-        "percentage_performance": "93.90%",
+        "percentage_performance": "93.40%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. When a Resonator in the team casts a Tune Break skill, it grants {1} All-Attribute DMG Bonus to the wielder for 14s.",
           "primary_stat_val": 587,
@@ -90,7 +90,7 @@
       {
         "commentary_details": "ATK and CRIT Rate stat-stick for Lynae who does not benefit from this weapon's Aero Erosion-focused effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "90.00%",
+        "percentage_performance": "89.60%",
         "weapon_base_info": {
           "effect_description": "ATK is increased by {0}. Inflicting Aero Erosion on the target gives {1} Aero DMG Bonus for 10s. Hitting targets with Aero Erosion reduces their Aero RES by {2} for 20s. Effects of the same name cannot be stacked.",
           "primary_stat_val": 500,
@@ -102,23 +102,9 @@
         "weapon_name": "Woodland Aria"
       },
       {
-        "commentary_details": "Mostly an ATK and CRIT DMG stat-stick for Lynae, who barely benefits from this weapon's Skill DMG-increasing effects.",
-        "dupe_rank": "R1",
-        "percentage_performance": "89.50%",
-        "weapon_base_info": {
-          "effect_description": "Increases ATK by {0}. Every time Intro Skill or Resonance Liberation is cast, Resonance Skill DMG Bonus increases by {1} for 5s.",
-          "primary_stat_val": 500,
-          "rarity": 5,
-          "secondary_stat_name": "CRIT DMG",
-          "secondary_stat_val": 72,
-          "source": "Rate-up"
-        },
-        "weapon_name": "The Last Dance"
-      },
-      {
         "commentary_details": "ATK and CRIT DMG stat-stick for Lynae who cannot benefit from this weapon's Heavy Attack and Echo DMG-focused effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "89.30%",
+        "percentage_performance": "88.90%",
         "weapon_base_info": {
           "effect_description": "ATK is increased by {0}. Upon dealing Echo Skill DMG, gain {1} Heavy Attack DMG Amplification for 6s. Upon dealing Heavy Attack DMG, gain {1} Echo Skill DMG Amplification for 6s. DMG Amplification on each attack is capped at {1}. While both effects are active, dealing damage ignores {2} of the target's DEF.",
           "primary_stat_val": 587,
@@ -130,9 +116,23 @@
         "weapon_name": "Lux & Umbra"
       },
       {
+        "commentary_details": "Mostly an ATK and CRIT DMG stat-stick for Lynae, who barely benefits from this weapon's Skill DMG-increasing effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "88.40%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Every time Intro Skill or Resonance Liberation is cast, Resonance Skill DMG Bonus increases by {1} for 5s.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 72,
+          "source": "Rate-up"
+        },
+        "weapon_name": "The Last Dance"
+      },
+      {
         "commentary_details": "ATK and CRIT Rate stat-stick for Lynae, who does not benefit from this weapon's Heavy ATK DMG-increasing effects.",
         "dupe_rank": "R5",
-        "percentage_performance": "82.70%",
+        "percentage_performance": "82.50%",
         "weapon_base_info": {
           "effect_description": "Dealing Basic Attack or Heavy Attack DMG increases ATK by {0} and grants {0} Heavy Attack DMG Bonus for 7s, stacking up to 4 times. This effect can be triggered 1 time every 1s.",
           "primary_stat_val": 412,
@@ -146,7 +146,7 @@
       {
         "commentary_details": "Strongest no-gacha weapon for most pistol users, granting extra ATK to the wearer practically permanently so long as they don't take any damage. Generally inferior to all above options as it only grants ATK and nothing else.",
         "dupe_rank": "R5",
-        "percentage_performance": "80.30%",
+        "percentage_performance": "80.10%",
         "weapon_base_info": {
           "effect_description": "When the Resonator takes no damage, increases ATK by {0} every 5s, stacking up to 2 time(s). This effect lasts for 8s. When the Resonator takes damage, reduces the number of stacks by 1 and restores their HP by {1}.",
           "primary_stat_val": 387,
@@ -170,9 +170,9 @@
       "slug": "lynae",
       "updates": {
         "last_major_build_patch": "3.6",
-        "last_profile_update": "01/October/2026",
+        "last_profile_update": "22/October/2026",
         "last_review_patch": "3.7",
-        "last_updated": "01/October/2026"
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Pistols"
     },
@@ -196,18 +196,20 @@
       {
         "slot_1": {
           "alternatives": [],
-          "character_name": "hiyuki, aemeath, yangyang-xuanling"
+          "character_name": "hiyuki, yangyang-xuanling"
         },
         "slot_2": {
           "alternatives": [],
           "character_name": "lynae"
         },
         "slot_3": {
-          "alternatives": [],
-          "character_name": "chisa"
+          "alternatives": [
+            "chisa"
+          ],
+          "character_name": "suisui"
         },
-        "team_name": "Lynae + Chisa",
-        "team_notes": "Hiyuki can get close to Aemeath teams in power thanks to Chisa and Hiyuki's super high base damage. However, Aemeath on Fusion Burst in this team is much weaker than the Rupture team we listed above."
+        "team_name": "Lynae + Negative Status",
+        "team_notes": "While theoretically usable, Hsin alongside Lynae in this type of composition is only worth it if Rover isn't readily available, which they should be in the majority of cases."
       },
       {
         "slot_1": {
@@ -231,7 +233,7 @@
       {
         "slot_1": {
           "alternatives": [],
-          "character_name": "carlotta, camellya"
+          "character_name": "suoming, carlotta, camellya"
         },
         "slot_2": {
           "alternatives": [],
@@ -245,7 +247,7 @@
           "character_name": "mornye"
         },
         "team_name": "Other Alternative Teams",
-        "team_notes": ""
+        "team_notes": "Suoming Lynae Mornye can be stronger than a lot of the teams above."
       },
       {
         "slot_1": {
@@ -296,7 +298,7 @@
             "Rupture",
             "Strain"
           ],
-          "tier": "T0"
+          "tier": "T0.5"
         },
         "whimpering_wastes": {
           "tags": [
@@ -445,13 +447,13 @@
       }
     ],
     "skill_upgrade_priority": {
-      "commentary": "Skill and Intro can be skipped when levelling to save on resources at a minimal damage loss.",
+      "commentary": "Skill and Intro can be skipped when levelling to save on resources at a minimal damage loss. If Skill is not in use, skip it entirely.",
       "order": [
         "Forte Circuit",
         "Res. Liberation",
         "Basic Attack",
-        "Res. Skill",
-        "Intro Skill"
+        "Intro Skill",
+        "Res. Skill"
       ]
     },
     "skills": [

@@ -185,9 +185,9 @@
       "slug": "carlotta",
       "updates": {
         "last_major_build_patch": "3",
-        "last_profile_update": "01/October/2026",
-        "last_review_patch": "2.1",
-        "last_updated": "01/October/2026"
+        "last_profile_update": "22/October/2026",
+        "last_review_patch": "3.7",
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Pistols"
     },
@@ -253,14 +253,14 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Has some AoE but is mostly single-target focused.",
-        "Long cooldowns on the strongest damage abilities.",
-        "The best Echo set is almost exclusively used on only her and it brings a big damage increase."
+        "Her teammates are either very high-value (Lynae/Mornye) or have not reran in ages (Zhezhi) so it's unlikely most players have a strong team for her;",
+        "Low Quickswap compatibility because of major Ultimate self-buffs expiring on Swap;",
+        "Completely useless in Whimpering Wastes. Zero reason to be used over almost any more recent characters, even in F2P teams compared to Carlotta's full premium."
       ],
       "pros": [
-        "A great deal of her core damage abilities are ranged.",
-        "Incredible damage output when set-up and buffed correctly.",
-        "Easy, simple, and hard to mess up playstyle once you understand her kit."
+        "Probably the most consistent DPS in the game. All of her and her teammates' attacks are ranged in all of her best teams, so she will very rarely (if ever) get interrupted by enemy attacks (so long as you space yourself properly during her Ultimate, but that isn't hard to do at all);",
+        "Does not need her Signature weapon to perform in the slightest - Phasic Homogenizer's existence makes it one of the most skippable Signature weapons in the game.",
+        "Managed to survive powercreep decently despite being a very old character."
       ]
     },
     "ratings": {
@@ -329,122 +329,49 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Carlotta is a 5-star Glacio Pistol wielder who specializes in dealing incredible Resonance Skill-focused damage while playing from a distance. Similar to characters like Camellya or Jiyan, Carlotta is a Hyper Carry DPS with monstrous damage and high field time requirements. She operates best in teams that can stack buffs on her just before she executes her burst damage rotations.",
-            "What sets her apart from the rest of the crowd are her Element and Weapon Type. Carlotta is the first dedicated Limited Glacio DPS in the game and further, she's also the first 5-star Pistol user, breaking new ground in both categories. In addition, unlike most other characters, Carlotta gets to use her Resonance Liberation up to 6 times in a row instead of a measly 1, allowing for some tremendous flurries of burst damage when set up correctly. Lastly, most of the strongest DPS at the time of Carlotta's release are Melee-focused while she brings ranged capabilities to the table and does so without sacrificing any damage potential.",
-            "Carlotta is a character that is all about set-up and execution -she has multiple resources and features long cooldowns but has huge damage potential which makes lining everything up just right incredibly important to achieve. The name of the game when playing her is to accumulate her primary resource and Forte Gauge i.e. \"Substance\" and consume it to launch an empowered Heavy Attack whilst gaining a tremendous buff to Resonance Liberation focused abilities. After that, you unleash the big guns and fire off all 6 charges of her Resonance Liberation. The rest of your field time will be spent in setting up that with her abilities and the rest of your team. So without further ado, let's learn exactly how to do that.",
-            "First up, the most important thing is her Resonance Liberation which encompasses 3 separate abilities and a debuff. Upon activating the Liberation, Carlotta fires a large AoE Glacio blast at enemies and then activates \"Twilight Tango\" - a special state allowing her to access her other two Liberation abilities. While in \"Twilight Tango\" your next 5 Normal Attacks or Resonance Liberation casts are converted into alternative abilities. The first 4 are turned into \"Death Knell\" - a long-ranged Glacio Musket shot. Firing Death Knell accumulates 1 Meta Vector and upon gaining 4 Meta Vectors your next and last shot is enhanced into Fatal Finale (a huge AoE Glacio blast that concludes \"Twilight Tango\" and Carlotta's Ultimate). You'll be using all of these shots back to back and here is how it should look:",
-            "Ultimate: Era of New Wave",
-            "Ultimate: Death Knell",
-            "Ultimate: Death Knell",
-            "Ultimate: Death Knell",
-            "Ultimate: Death Knell",
-            "Ultimate: Fatal Finale",
-            "Each of these shots, despite being Resonance Liberation abilities, is actually considered as Resonance Skill damage making building amplification and increases to this damage type a must-have for Carlotta.",
-            "Also included in her Resonance Liberation is \"Deconstruction\" - a debuff originally only accessible via the initial blast of her Liberation: Era of New Wave, but is extended to many more abilities thanks to one of her Inherent Ability. \"Deconstruction\" causes all damage you deal to affected enemies to ignore 18% of their DEF. This debuff lasts for 4 seconds but with the Inherent Ability active, it should always be active. \"Deconstruction\" can be applied by the following abilities:",
-            "Ultimate: Era of New Wave",
-            "Ultimate: Death Knell",
-            "Intro: Wintertime Aria",
-            "Skill: Chromatic Splendor",
-            "Forte: Heavy Attack: Imminent Oblivion",
-            "Her Forte Gauge, \"Lethal Repertoire\" allows her to accumulate up to 120 \"Substance\" - a resource that can be acquired via a number of her abilities. While holding the maximum amount of \"Substance\" (i.e. 120), Carlotta gains \"Final Bow\" and activates \"Tinted Crystal\" gaining access to an empowered Heavy Attack, \"Forte: Heavy Attack: Imminent Oblivion\" which deals Glacio damage (considered as Resonance Skill DMG), reduces the cooldown of her Resonance Skill and places \"Tinted Crystal\" on cooldown for 22 seconds.",
-            "First, let's begin with \"Final Bow\" which just like \"Twilight Tango\" is another state and is intended to be stacked together. \"Final Bow\", when active, grants all three of Carlotta's Resonance Liberation abilities an 80% increase to their damage multipliers which at max rank looks like this:",
-            "Ultimate: Era of New Wave: 402.7% -> 724.8%",
-            "Ultimate: Death Knell: 241.6% -> 434.9%",
-            "Ultimate: Fatal Finale: 644.3% -> 1,159.7%",
-            "It goes without saying, but this increase is huge as it approaches almost double the base damage. Because of this, lining up gaining \"Final Bow\" alongside your Resonance Liberation is an absolute necessity. Unlike \"Tinted Crystal\", \"Final Bow\" has no cooldown but will be removed when she is swapped off the field or after \"Twilight Tango\" ends.",
-            "Imminent Oblivion is always worth using when available, as it is a powerful part of her strongest burst rotation, due to it reducing the cooldown for Resonance Skill, allowing her to finish the combo by setting up the next one, which we'll be covering soon.",
-            "However, to access all of this, we need \"Substance\" and a way to generate it. Carlotta has primarily two ways to accumulate \"Substance\". The first method is straight up via using abilities whereas the second is to consume \"Moldable Crystals\" - a resource that is generated and consumed in order to either generate \"Substance\" and or to enhance other parts of her kit. Carlotta can maintain up to 6 \"Moldable Crystals\" on the field at same time. Each of the following abilities listed, generates 3 \"Moldable Crystals\" when used:",
-            "Basic Attack Part 2",
-            "Heavy Attack",
-            "Mid-Air Attack: Customary Greetings (Accessible Directly After Standard Mid-Air)",
-            "Intro: Wintertime Aria",
-            "Skill: Art of Violence",
-            "Performing a Successful Dodge",
-            "Carlotta can consume these \"Moldable Crystals\" and or generate \"Substance\" with the following abilities:",
-            "Intro: Wintertime Aria (Restores 30 \"Substance\")",
-            "Skill: Chromatic Splendor (Consumes all \"Moldable Crystals\" granting 10 \"Substance\" each)",
-            "Basic Attack: Necessary Measures Part 1 (Consume 1 \"Moldable Crystals\" granting 10 \"Substance\")",
-            "Basic Attack: Necessary Measures Part 2 (Consume 1 \"Moldable Crystals\" granting 10 \"Substance\")",
-            "Basic Attack: Necessary Measures Part 3 (Consume 1 \"Moldable Crystals\" granting 10 \"Substance\")",
-            "Dodge Counter (Consume 1 \"Moldable Crystals\" granting 10 \"Substance\")",
-            "That is indeed a lot to take in, but to summarize it: Generate \"Moldable Crystals\" with abilities and consume them with others in order to generate 120 \"Substance\" to unleash a full powered Resonance Liberation. Once the rotation is fully laid out both \"Moldable Crystals\" and \"Substance\" will make more sense but first, let's discuss the rest of her kit.",
-            "The final thing to note about Carlotta's Forte is that she cannot gain \"Substance\" while in her Resonance Liberation \"Twilight Tango\" state and upon entering \"Twilight Tango\" will remove all \"Substance\". As such, avoid activating Resonance Liberation before hitting 120 \"Substance\" in order to ensure access to \"Final Bow\". Furthermore, also make sure that you consume \"Substance\" before activation of \"Forte: Heavy Attack: Imminent Oblivion\" so as to not to waste it.",
-            "Carlotta's Basic Attacks as we've seen above are capable of generating and consuming \"Moldable Crystals\" in order to generate \"Substance\" but are in fact not commonly used in her main combo (with many of the more streamlined versions actually excluding them all together). That said it doesn't make her Basic Attacks useless. In the event you need damage outside of Carlotta's main burst combo with a long cooldown, these can fit that purpose. Also when using some weapons and or in some combat scenarios they can fit in the main combo allowing certain issues to be solved more neatly.",
-            "If you intend on using them though the main things to know outside of the standard affairs are:",
-            "She has two sets of Basic Attacks - one to generate \"Moldable Crystals\" and one that activates when they are active and consumes them.",
-            "She has two Mid-Air attacks - a standard plunge and a Follow-Up that can be executed immediately after.",
-            "She also has two Heavy Attacks - a standard one and one that can be activated at the cost of consuming 120 \"Substance' if \"Tinted Crystal \"is on a cooldown. On using this ability, just like Imminent Oblivion, it will lower her Resonance Skill Cooldown by 6 seconds.",
-            "Unlike her Basic Attacks, Carlotta's Resonance Skill is used constantly and is your main source of consuming \"Moldable Crystals\" and generating \"Substance\". Her Resonance Skill comes in two parts - Art of Violence and Chromatic Splendor, which as we've already learned generate and consume \"Substance\" and \"Moldable Crystals\":",
-            "Skill: Art of Violence -  Generates 3 \"Moldable Crystals\"",
-            "Skill: Chromatic Splendor - Consume all \"Moldable Crystals\" gaining 10 \"Substance\" Each",
-            "Both of these skills are a package deal and share the same 14-second cooldown. After using the first skill, Art of Violence you'll have a short window to activate Chromatic Splendor before the Resonance Skill is placed on cooldown, additionally swapping-out Carlotta before using it will also place it on cooldown wasting the second part. With this knowledge, we have now the next part of our combo and the backbone of our \"Substance\" generation covered:",
-            "Skill: Art of Violence (3 \"Moldable Crystals\")",
-            "Skill: Chromatic Splendor - (Consume 3 \"Moldable Crystals\"for 30 \"Substance\")",
-            "To push this further we need her Intro skill Wintertime Aria which not only grants 30 \"Substance\" straight up but also spawns 3 \"Moldable Crystals\". If we throw this in the mix we get:",
-            "Intro: Wintertime Aria (3 \"Moldable Crystals\", Generate 30 \"Substance\")",
-            "Skill: Art of Violence (6 \"Moldable Crystals\")",
-            "Skill: Chromatic Splendor - (Consume 6 \"Moldable Crystals\" for 60 \"Substance\")",
-            "This combo alone grants us 90 out of our required 120 \"Substance\" leaving us just 30 short. The final 30 is where the earlier set-up on Carlotta comes into play. There are two ways to gain the final 30 needed. The first is to leverage the 6-second cooldown reduction from her Forte-empowered Heavy attack and finish her combo with a double Resonance Skill use the second is to start the fight with a double Resonance Skill use then swap to your other teammates while it comes off cooldown instead. In reality, you'll be using both of these methods!",
-            "Bringing it all together here is how we'll combine all of Carlotta's abilities to form her main rotation. On your very first rotation while at 0 \"Substance\" and without her Intro start the fight with the following to generate 30 \"Substance\":",
-            "Skill: Art of Violence (3 \"Moldable Crystals\")",
-            "Skill: Chromatic Splendor - (Consume 3 \"Moldable Crystals\" for 30 \"Substance\")",
-            "After this execute the following rotation to gain the final 90, unleash a fully powered Resonance Liberation barrage, and set back up with another 30 \"Substance\" for the next time your cooldowns are available:",
-            "Intro: Wintertime Aria (3 \"Moldable Crystals\", Generate 30 \"Substance\")",
-            "Skill: Art of Violence (6 \"Moldable Crystals\")",
-            "Skill: Chromatic Splendor - (Consume 6 \"Moldable Crystals\" for 60 \"Substance\")(Enter \"Final Bow\")",
-            "Mid-Air Atk (To return to the ground to continue combo)",
-            "Forte: Heavy Attack: Imminent Oblivion (Consume 120 \"Substance\" to reduce Cooldown of Skill)",
-            "Ultimate: Era of New Wave",
-            "Ultimate: Death Knell",
-            "Ultimate: Death Knell",
-            "Ultimate: Death Knell",
-            "Ultimate: Death Knell",
-            "Ultimate: Fatal Finale",
-            "Skill: Art of Violence (3 \"Moldable Crystals\")",
-            "Skill: Chromatic Splendor - (Consume 3 \"Moldable Crystals\"for 30 \"Substance\")",
-            "Outro",
-            "By combining the set-up and full combo you'll be able to establish enough \"Substance\" and keep it rolling throughout the fight whilst using only the most potent abilities available in Carlotta's arsenal. This combo also lines up perfectly with many Support characters' abilities allowing lots of buff effects to be stacked during its duration increasing its damage potential even further.",
-            "In conclusion, Carlotta is a set-up and destroy specialist with a huge amount of damage at her disposal. A tremendous amount of her damage is considered Resonance Skill damage making building Echoes, Weapons, and most importantly teams around her efficient and effective. At the time of her release, she's definitely the premiere Glacio and Ranged damage specialist, while also putting up a great fight for the very top of the DPS meta."
+            "Carlotta is a 5-star Glacio Pistol DPS who has a large portion of her damage window gated behind her Ultimate. She was the first ever character to possess 2 different Ultimates, she uniquely can cast up to 6 different attacks each counted as an Ultimate, and she is still one of the most ranged damage dealers in the game, making her great at avoiding enemy attacks. Carlotta is a character who is defined by her rotation consistency and her ease of use, following a traditional playstyle of building up a Forte gauge to unleash the biggest portion of her damage."
+          ]
+        },
+        {
+          "heading": "Key Mechanics & Rotation Concepts",
+          "paragraphs": [
+            "Like many older characters, Carlotta is a fundamentally simple character to understand. She wants to build up Substance, her first Forte gauge, through Skills and Intros. This allows her to cast a special Heavy Attack that consumes this Forte gauge, which she can then follow with her Ultimate. After casting it, she has access to 4 special ranged attacks called Death Knells that, when cast, follow into her final Ultimate, ending her rotation.",
+            "Other than this, Carlotta will inflict a debuff called Deconstruction which allows her to ignore 18% of enemy DEF using all of the most relevant attacks in her rotation. She can also stun enemies for 1.5s upon hitting them with her first Skill. She may only use her enhanced Forte Heavy Attack every 22s, and her Ultimate once every 25s. Those represent almost all of her damage (aside from her Skills that also have a 14s cooldown), so overall she is very cooldown-gated when it comes to her key abilities.",
+            "Finally, provided Carlotta has cast her Forte Heavy Attack before her Ultimate, she gains an 80% buff to all damage multipliers in her Ultimate window, that expires upon switching her out. It is hence heavily disincentivized to switch her out once her Ultimate has been cast. Her Outro is a simple burst of damage like several older DPS Outros, nothing special there. Her most noteworthy mechanic is her ability to cast 6 different attacks counted as Ultimates (her 4 Death Knells and her 2 Ultimates), which has been used for temporary endgame buffs when she was still recently released, however this mechanic has not been utilized for a while at this point."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Carlotta is one of the simplest characters to understand meta-wise in the game. She has two main routes for her premium teams: Zhezhi + Shorekeeper, her on-release team or Lynae + Mornye, the recent universal buffing core released in version 3.0. While in theory, Lynae Mornye is Carlotta's best team, they are so high-value for modern damage dealers with a higher ceiling than Carlotta that most players still stick to a Zhezhi Shorekeeper team if they have access to it. And for the players who don't... Carlotta's performance becomes undeniably subpar.",
+            "While it's true that on her release, Carlotta w\tas the uncontested best DPS in the game, in the modern era we currently are a part of, she only really sees use in the side towers of ToA, or in Endstate Matrix. Her lack of significant, constant AoE damage makes her a really bad pick for Whimpering Wastes, the middle floors of ToA are nowadays too tanky for casual players to do well given the current difficulty, and Carlotta now needs Sequence Nodes or temporary endgame buffs more than ever to be able to clear the game's hardest content. Her most recent buff is the release of the new 3.0 permanent banner weapons, among which is Phasic Homogenizer, a fantastic DPS Pistol that renders her Signature weapon completely skippable. However, it did not increase her damage ceiling - it only made her more accessible for budgeting (and it doesn't change the fact that she still needs premium teammates to perform).",
+            "In conclusion, Carlotta is nowadays not a recommended pull. There are too many newer, more performant damage dealers who work across all endgames and share similar qualities to her to consider her a worthwhile pull. However, for players who already own her, she remains easily usable in some of the game's easier content, provided you surround her with the right teammates. It's still completely true that Carlotta is a consistent and easy-to-pilot character, and those are her main strengths that players who can make use of her will get to enjoy even today."
           ]
         }
       ],
-      "summary": "Carlotta is a 5-star Glacio Pistol wielder who specializes in dealing incredible Resonance Skill-focused damage while playing from a distance. Similar to characters like Camellya or Jiyan, Carlotta is a Hyper Carry DPS with monstrous damage and high field time requirements. She operates best in teams that can stack buffs on her just before she executes her burst damage rotations."
+      "summary": "Carlotta is a 5-star Glacio Pistol DPS who has a large portion of her damage window gated behind her Ultimate. She was the first ever character to possess 2 different Ultimates, she uniquely can cast up to 6 different attacks each counted as an Ultimate, and she is still one of the most ranged damage dealers in the game, making her great at avoiding enemy attacks. Carlotta is a character who is defined by her rotation consistency and her ease of use, following a traditional playstyle of building up a Forte gauge to unleash the biggest portion of her damage."
     },
     "rotations": [
       {
-        "rotation_name": "WARM UP",
+        "rotation_name": "Opener (Important)",
         "steps": [
-          "Skill: Art of Violence (Generate 3 \"Moldable Crystals\")",
-          "Skill: Chromatic Splendor - (Consume 3 \"Moldable Crystals\" for 30 \"Substance\")"
+          "Skill: Art of Violence",
+          "Skill: Chromatic Splendor (Swap)"
         ]
       },
       {
-        "rotation_name": "BURST COMBO",
+        "rotation_name": "Standard Rotation",
         "steps": [
-          "You will require 30 Substance before starting Carlotta's burst combo - if you don't have it perform the Warm Up first,",
-          "Ensure Carlotta has access to her Intro, Resonance Skill, Resonance Liberation and Tinted Crystal before starting,",
-          "Buff Carlotta as much as possible with the rest of your team before starting the burst rotation,",
-          "Echo: Use Carlotta's Echo at the end of her rotation and perform a swap cancel. When using Sentry Construct monitor the Echoes cooldown and consider using it outside the burst rotation as it becomes available - it will recharge faster than usual thanks to its additional ability."
-        ]
-      },
-      {
-        "rotation_name": "Burst Rotation",
-        "steps": [
-          "Start with 30 Substance",
-          "Intro: Wintertime Aria (Generate 3 \"Moldable Crystals\", Generate 30 \"Substance\")",
-          "Skill: Art of Violence (Generate \"Moldable Crystals\")",
-          "Skill: Chromatic Splendor - (Consume 6 \"Moldable Crystals\" for 60 \"Substance\")(Enter \"Final Bow\")",
-          "Mid-Air Atk (To return to the ground to continue combo)",
-          "Forte: Heavy Attack: Imminent Oblivion (Consume 120 \"Substance\" to reduce Cooldown of Skill)",
+          "Intro",
+          "Skill: Art of Violence",
+          "Skill: Chromatic Splendor",
+          "Basic: Mid-air Attack",
+          "Heavy: Imminent Oblivion (Cancel animation endlag via Ultimate)",
           "Ultimate: Era of New Wave",
-          "Ultimate: Death Knell",
-          "Ultimate: Death Knell",
-          "Ultimate: Death Knell",
-          "Ultimate: Death Knell",
+          "Ultimate: Death Knell (4 times)",
           "Ultimate: Fatal Finale",
-          "Skill: Art of Violence (Generate 3 \"Moldable Crystals\")",
-          "Skill: Chromatic Splendor - (Consume 3 \"Moldable Crystals\"for 30 \"Substance\")",
-          "Echo (Swap Cancel)",
+          "Skill: Art of Violence",
+          "Skill: Chromatic Splendor (Optionally Swap Cancel)",
           "Outro"
         ]
       }

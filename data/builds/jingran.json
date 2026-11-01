@@ -53,7 +53,7 @@
         "percentage_performance": "100.0%",
         "weapon_base_info": {
           "effect_description": "Grants {0} All-Attribute DMG Bonus. Casting Intro Skill or gaining a Shield as the active Resonator grants 1 stack of Nature's Order and 1 stack of Cradle of Life. This effect can be triggered via gaining a Shield once every 0.5s, stacking up to 6 times, lasting for 7s. Switching to another Resonator ends both Nature's Order and Cradle of Life immediately.\nNature's Order: Crit. DMG is increased by {1}, up to {2}. When Nature's Order reaches 6 stacks, the Crit. Rate of Heavy Attack DMG is increased by {0}.\nCradle of Life: Casting Heavy Attack consumes up to 2 stacks of Cradle of Life. For every 1 stack of Cradle of Life consumed, Heavy Attack DMG ignores {3} of the target's DEF, up to {4}. The effect lasts for 2s.",
-          "primary_stat_val": 413,
+          "primary_stat_val": 412,
           "rarity": 5,
           "secondary_stat_name": "HP%",
           "secondary_stat_val": 72.2,
@@ -242,9 +242,9 @@
       "slug": "jingran",
       "updates": {
         "last_major_build_patch": "3.6",
-        "last_profile_update": "01/October/2026",
+        "last_profile_update": "22/October/2026",
         "last_review_patch": "3.6",
-        "last_updated": "01/October/2026"
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Broadblade"
     },

@@ -70,7 +70,7 @@
         "percentage_performance": "1",
         "weapon_base_info": {
           "effect_description": "Increases DEF by {0}. Casting Resonance Liberation restores {1} points of Concerto Energy. This effect can be triggered once every 20s. When the wielder heals Resonators, increases Crit. DMG of all nearby Resonators in the team by {2} for 4s. Effects of the same name cannot be stacked.",
-          "primary_stat_val": 414,
+          "primary_stat_val": 412,
           "rarity": 5,
           "secondary_stat_name": "Energy Regen",
           "secondary_stat_val": 77,
@@ -119,9 +119,9 @@
       "slug": "mornye",
       "updates": {
         "last_major_build_patch": "3.6",
-        "last_profile_update": "01/October/2026",
+        "last_profile_update": "22/October/2026",
         "last_review_patch": "3.6",
-        "last_updated": "01/October/2026"
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Broadblade"
     },
@@ -129,7 +129,7 @@
       {
         "slot_1": {
           "alternatives": [],
-          "character_name": "aemeath, hiyuki, iuno, yangyang-xuanling"
+          "character_name": "aemeath, hiyuki, suoming, iuno"
         },
         "slot_2": {
           "alternatives": [],
@@ -140,7 +140,7 @@
           "character_name": "mornye"
         },
         "team_name": "Lynae + Mornye",
-        "team_notes": "Realistically, any non-Negative Status DPS (and Hiyuki) can be used here. The above are only examples and are fully interchangeable, even if Lynae and Mornye benefit Liberation damage teams slightly more than others. Tune Strain DPS characters also fit perfectly here."
+        "team_notes": "Realistically, almost any DPS can be used here. The above are only examples and are fully interchangeable, even if Lynae and Mornye benefit Liberation damage teams slightly more than others. Tune Strain DPS characters also fit perfectly here."
       },
       {
         "slot_1": {

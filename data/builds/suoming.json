@@ -10,16 +10,226 @@
       "hp": 0,
       "max_energy": 0
     },
-    "best_echo_sets": [],
+    "best_echo_sets": [
+      {
+        "commentary": "Hsin's Signature set also works totally fine on Suoming. It's her best set as a DPS by far and provides the same performance as Moonlit Clouds at S0R1 investment (while being better at higher investment) in the Unison team. Generally always recommended at S0R1+.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Best for Unison Suoming. Provides 12% Electro DMG Bonus to the next character coming in via Outro for 15s on cast, making it the best to buff Hsin in your Unison team.",
+            "echo_name": "Soulfrayer"
+          },
+          {
+            "echo_commentary": "Best for DPS Suoming. Simple Summon Echo, gives Suoming 20% Electro DMG Bonus when equipped in the main slot, making it her best as a DPS for that reason alone.",
+            "echo_name": "Reminiscence: Suhsin the Inevitable"
+          }
+        ],
+        "percentage_performance": "100.00%",
+        "set_name": "Heart of Sworn Vigil"
+      },
+      {
+        "commentary": "Best set for Unison Suoming at lower investments. On alternative weapons or bad Echo builds at S0R1, this set's higher buffing potential can outdo the higher personal damage Heart of Sworn Vigil provides, making it situationally better than - and always a good replacement to - the set.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "The best option 5P Moonlit Clouds has in most cases. Transform Echo that grants an extra 12% DMG Bonus on top of the ATK boost to the next character that Moonlit Clouds would usually give.",
+            "echo_name": "Impermanence Heron"
+          }
+        ],
+        "percentage_performance": "1",
+        "set_name": "Moonlit Clouds"
+      }
+    ],
     "best_echo_stats": {
       "main_stats": {
-        "cost_1": [],
-        "cost_3": [],
-        "cost_4": []
+        "cost_1": [
+          "ATK%",
+          "ATK%"
+        ],
+        "cost_3": [
+          "Electro DMG",
+          "Electro DMG ≥ ATK%"
+        ],
+        "cost_4": [
+          "CRIT Rate / CRIT DMG"
+        ]
       },
-      "substats_priority": []
+      "substats_priority": [
+        "Energy Regen (Until Satisfied)",
+        "CRIT Rate  CRIT DMG",
+        "ATK%",
+        "Basic DMG%",
+        "ATK"
+      ]
     },
-    "best_weapons": [],
+    "best_weapons": [
+      {
+        "commentary_details": "Suoming's Signature and best weapon, with the unique ability to have different effects based on your use case: As a DPS, it gives her a massive 70% Electro DMG Bonus boost, meanwhile as a Unison Hybrid she gives 24% Electro DMG Bonus to the team and an extra 30% to herself. Pair that with good CRIT Rate and ATK stats for some nice value as a Hybrid and the best damage you can get as a DPS.",
+        "dupe_rank": "R1",
+        "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. Upon gaining Unison, the wielder gains {1} Electro DMG Bonus for 30s.\nUpon gaining Unison, the wielder removes Yearning Mind and grants all Resonators in the team the Binding Mind effect: gain {2} Electro DMG Bonus for 30s. Effects of the same name cannot stack.\nWhen the wielder consumes Concerto Energy, they remove Binding Mind from all Resonators in the team and gain the Yearning Mind effect: the wielder additionally gains {3} Electro DMG Bonus for 14s. Switching to another Resonator ends this effect early.",
+          "primary_stat_val": 588,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": ""
+        },
+        "weapon_name": "Unspoken Rue"
+      },
+      {
+        "commentary_details": "Camellya's Signature can allow you to completely skip Suoming's Signature as a DPS, since both of them provide pure damage buffs and while Red Spring is a bit worse than Unspoken Rue, they give almost the exact same stats to Suoming thanks to her ability to consume Concerto as a DPS. Has lower value in Unison teams since Suoming won't consume Concerto to fully activate this weapon's passive, and it won't buff the team either.",
+        "dupe_rank": "R1",
+        "percentage_performance": "88.10%",
+        "weapon_base_info": {
+          "effect_description": "Increase ATK by {0}. When dealing Basic Attack DMG, the wielder gains {1} Basic Attack DMG Bonus for 14s. This effect can be triggered once per second, stacking up to 3 times. When the wielder's Concerto Energy is consumed, gain {2} Basic DMG Bonus for 10s. This effect can be triggered once per second and ends when the wielder is switched off the field.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Gacha"
+        },
+        "weapon_name": "Red Spring"
+      },
+      {
+        "commentary_details": "Simple ATK and CRIT Rate stat-stick for Suoming, who does not benefit from this weapon's Heavy Attack/Echo Skill-related effects. Can barely increase team-wide Echo Skill Cast DMG, but this is an extremely negligible difference overall.",
+        "dupe_rank": "R1",
+        "percentage_performance": "81.70%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attack grants 1 stack of Bamboo Cleaver, which grants {1} Heavy Attack DMG Bonus to the wielder. This effect can be triggered by Echoes of the same name once only, stacking up to 2 times, lasting for 12s. Casting Echo Skill at max stacks does not reset the duration. This effect can be triggered once every 10s and ends early if the wielder is switched off the field. Casting Intro Skill grants {2} Echo Skill DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Emerald Sentence"
+      },
+      {
+        "commentary_details": "Simple ATK, CRIT Rate and DMG Bonus stat-stick for Suoming, who does not benefit from this weapon's Havoc Bane-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "81.40%",
+        "weapon_base_info": {
+          "effect_description": "Grants {0} All-Attribute DMG Bonus. After inflicting Havoc Bane, the wielder gains {1} Heavy Attack DMG Amplification and their Heavy Attack DMG ignores {0} of the target's DEF, lasting for 8s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "Crit. Rate",
+          "secondary_stat_val": 24.3,
+          "source": ""
+        },
+        "weapon_name": "Azure Oath"
+      },
+      {
+        "commentary_details": "Simple ATK, CRIT Rate and DMG Bonus stat-stick for Suoming, who does not benefit from this weapon's Tune Rupture/Fusion Burst-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "81.40%",
+        "weapon_base_info": {
+          "effect_description": "Increases All-Attribute DMG Bonus by {0}. When inflicting Tune Rupture - Shifting or Fusion Burst, the wielder's Resonance Liberation DMG ignores {1} DEF and {2} Fusion RES on targets for 8s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Everbright Polestar"
+      },
+      {
+        "commentary_details": "Simple ATK and CRIT Rate stat-stick for Suoming, who does not benefit from this weapon's Glacio Chafe-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "81.20%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. When the wielder applies Glacio Chafe, Glacio DMG is Amplified by {1}, and Resonance Liberation DMG ignores {2} of the target's DEF. If the wielder is the active Resonator in the team, Glacio Chafe DMG dealt to all targets within a certain range is Amplified by {3} for 6s. This effect can be triggered up to 1 time every 0.1s. Only the strongest effect of the same name applies.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Frostburn"
+      },
+      {
+        "commentary_details": "Simple ATK and CRIT DMG stat-stick for Suoming, who does not benefit from this weapon's Skill DMG-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "81.00%",
+        "weapon_base_info": {
+          "effect_description": "ATK increased by {0}. The equipper gains 1 stack of Searing Feather upon dealing damage, which can be triggered once every 0.5s, and gains 5 stacks of the same effect upon casting Resonance Skill. Each stack of Searing Feather gives {1} additional Resonance Skill DMG Bonus for up to 14 stacks. All stacks will be removed within 12s after reaching the max stack.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Gacha"
+        },
+        "weapon_name": "Blazing Brilliance"
+      },
+      {
+        "commentary_details": "Simple ATK and CRIT Rate stat-stick for Suoming, who does not benefit from this weapon's Tune Strain-related effects. Tends to overcap on CRIT Rate due to its lower Base ATK and higher CRIT Rate, slightly lowering its value.",
+        "dupe_rank": "R1",
+        "percentage_performance": "80.60%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. Inflicting Tune Strain - Shifting grants {1} Aero DMG Bonus for 2s, stacking up to 5 times. This effect can be triggered once every 0.5s. Upon reaching the max stack limit, gain the following effects:\n- This Aero DMG Bonus effect's duration is extended to 30s.\n- Aero DMG ignores {2} of the target's DEF during this effect.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 36,
+          "source": ""
+        },
+        "weapon_name": "Glint of Clouds"
+      },
+      {
+        "commentary_details": "Best permanent banner option, providing Suoming with some Energy Regen and some ATK when casting Skill, as well as solid Base ATK and CRIT Rate.",
+        "dupe_rank": "R1",
+        "percentage_performance": "78.20%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases ATK by {1}, stacking up to 2 time(s). This effect lasts for 10s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Emerald of Genesis"
+      },
+      {
+        "commentary_details": "Best 4-star option in Unison, this sword provides some solid ATK, Liberation DMG and CRIT Rate boosts, though its low Base ATK makes it worse than any 5-star.",
+        "dupe_rank": "R5",
+        "percentage_performance": "72.30%",
+        "weapon_base_info": {
+          "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Resonance Liberation DMG Bonus for 15s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.3,
+          "source": "Battle Pass"
+        },
+        "weapon_name": "Feather Edge"
+      },
+      {
+        "commentary_details": "While Suoming can fully utilize this Sword's passive as a DPS, making it her best 4-star in that mode, she has a hard time making good use of it in Unison, and also it does not give any CRIT stats, so it pales in comparison to the above options.",
+        "dupe_rank": "R5",
+        "percentage_performance": "69.40%",
+        "weapon_base_info": {
+          "effect_description": "When Resonance Skill is released, increases Basic Attack DMG and Heavy Attack DMG by {0}, stacking up to 1 time(s). This effect lasts for 10s and can be triggered 1 time(s) every 1s.",
+          "primary_stat_val": 387,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 36.4,
+          "source": "Pioneer Podcast"
+        },
+        "weapon_name": "Lumingloss"
+      },
+      {
+        "commentary_details": "Best no-gacha option, offering nothing but ATK stats. Serves as a decent replacement to 5-star choices until one can replace it. Strongly recommended to go for Signature as a DPS if this is your best option, otherwise you can settle for this until a 5-star is acquired in Unison.",
+        "dupe_rank": "R5",
+        "percentage_performance": "68.00%",
+        "weapon_base_info": {
+          "effect_description": "When Intro Skill is released, increases ATK by {0}, lasting for {1}.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "ATK",
+          "secondary_stat_val": 30.3,
+          "source": ""
+        },
+        "weapon_name": "Commando of Conviction"
+      }
+    ],
     "character_metadata": {
       "breadcrumb": [
         "Wuthering Waves",
@@ -31,35 +241,759 @@
       "rarity_stars": 5,
       "slug": "suoming",
       "updates": {
-        "last_major_build_patch": "",
-        "last_profile_update": "28/August/2026",
-        "last_review_patch": "",
-        "last_updated": "28/August/2026"
+        "last_major_build_patch": "3.7",
+        "last_profile_update": "22/October/2026",
+        "last_review_patch": "3.7",
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Sword"
     },
-    "example_teams": [],
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "hsin"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "suoming"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina",
+            "buling"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Unison Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "suoming"
+        },
+        "slot_2": {
+          "alternatives": [
+            "sanhua"
+          ],
+          "character_name": "lynae"
+        },
+        "slot_3": {
+          "alternatives": [
+            "the-shorekeeper",
+            "verina"
+          ],
+          "character_name": "mornye"
+        },
+        "team_name": "DPS Team",
+        "team_notes": "For the best results, only use Lynae and Mornye together. Prioritize Sanhua+Shorekeeper/Verina compositions otherwise."
+      }
+    ],
     "media": {
       "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/suoming_full.webp",
       "youtube_guide_embed_url": "",
-      "youtube_guide_full_url": ""
+      "youtube_guide_full_url": "https://youtu.be/raRR0DIU65s "
     },
-    "minor_fortes": [],
+    "minor_fortes": [
+      {
+        "bonus_value": "+8%",
+        "stat_name": "CRIT Rate"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "ATK"
+      }
+    ],
     "pros_and_cons": {
-      "cons": [],
-      "pros": []
+      "cons": [
+        "Unison Hybrid use is completely restricted to Hsin, since the overwhelming majority of her buffs are tied to Electro and it's very, very unlikely we get a second Electro Unison DPS any time soon;",
+        "Has like 200 layers of restrictions for Quickswap, seriously good luck making her do anything useful there;",
+        "Sequence value is seriously bad until S6 as a DPS, and as a Hybrid you much rather get Hsin Sequences over Suoming ones. Unless going for S6 DPS specifically, vertically investing isn't the best idea."
+      ],
+      "pros": [
+        "The literal best F2P DPS in the game in ToA/Matrix right now;",
+        "As a DPS, really easy to make a team with her thanks to Sanhua (one of her best teammates) being free;",
+        "Has meaningful improvement room in all gamemodes, simply by upgrading to a Unison Hybrid role alongside Hsin, one of the best teams in the game overall;",
+        "As a Hybrid, can use both 5P Heart and 5P Moonlit Clouds to basically the same degree (at S0R1), so she's easy to build and not too Signature-reliant there;",
+        "Fights with a pretty cool umbrella drill thingy."
+      ]
     },
-    "ratings": null,
-    "recommended_endgame_stats_target": [],
-    "resonance_chain_dupes": [],
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [
+            "Unison",
+            "Coord",
+            "Partner (Hsin)"
+          ],
+          "tier": "T0"
+        },
+        "whimpering_wastes": {
+          "tags": [
+            "Unison",
+            "Coord",
+            "Partner (Hsin)"
+          ],
+          "tier": "T0"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T0.5"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T1"
+        }
+      }
+    },
+    "recommended_endgame_stats_target": [
+      "HP: 14500+",
+      "DEF: 1100+",
+      "ATK: 2100-2400+",
+      "CRIT Rate: 65-80%+",
+      "CRIT DMG: 260-280%+",
+      "Energy Regen: 100-115%As a DPS, Suoming needs no Energy Regen to get off her Ultimate, but having one extra roll for safety can be considered (fully optionally). The higher end was estimated as a Unison secondary with Hsin and Shorekeeper.",
+      "Electro DMG Bonus: 30-70%+"
+    ],
+    "resonance_chain_dupes": [
+      {
+        "description": "Resonance Skill - Unfurled Canopy: Unforsaken Mind is immune to interruption.The DMG Multipliers of Intro Skill - Furled Canopy: Flash Rift, Intro Skill - Unfurled Canopy: Thunder Rending, Intro Skill - Furled Canopy: Sealed Delusion (Unison), and Intro Skill - Unfurled Canopy: Whirling Thunder (Unison) are increased by 60%.",
+        "name": "Into the Blight Rain ",
+        "node": "S1"
+      },
+      {
+        "description": "Crit. DMG is increased by 40%.Casting Outro Skill increases the incoming Resonator's Crit. DMG by 10%, plus an additional 6% for each stack of Unison Boon they have, up to 24%. This effect lasts for 30s or until the Resonator is switched out.",
+        "name": "Breaking Thunder, Slaying Evil ",
+        "node": "S2"
+      },
+      {
+        "description": "Casting Intro Skill - Furled Canopy: Flash Rift or Intro Skill - Unfurled Canopy: Thunder Rending grants 1 stack of Unison Boon for 30s. This effect can be triggered once every 25s.If Suoming has already granted Unison Boon and it is still in effect, gaining it again only resets its duration.Casting Resonance Liberation grants Suoming 30% Basic Attack DMG Amplification for 25s.",
+        "name": "Lone Canopy, Solitary Road ",
+        "node": "S3"
+      },
+      {
+        "description": "Suoming's ATK is increased by 20%.",
+        "name": "Covenant Borne Upon the Heart ",
+        "node": "S4"
+      },
+      {
+        "description": "The DMG Multiplier of Resonance Liberation - Umbral Canopy: Miasma Lock is increased by 40%.",
+        "name": "Seal Deep, Never Forgotten ",
+        "node": "S5"
+      },
+      {
+        "description": "The effect of each stack of Unison Boon on all Resonators in the team is increased by 50%, up to 4 stacks of Unison Boon.The DMG Multiplier of Basic Attack - Umbral Canopy: Engraved Heart is increased by 50%.When Suoming has Seal Master, her Crit. DMG is further increased by 200%.",
+        "name": "Nine Shadows at Her Side ",
+        "node": "S6"
+      }
+    ],
     "review": {
-      "sections": [],
-      "summary": ""
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Suoming is a 5-star Electro Sword Unison Sub-DPS and Main DPS who, as you can tell, can play in 2 very different roles pretty much to the same degree of performance. Suoming is designed in a way where, if you own a Unison Main DPS (so basically Hsin considering her Outro), she can play alongside them as a secondary damage dealer and buffer, and if you don't, she's a perfectly viable Basic Attack Main DPS on her own."
+          ]
+        },
+        {
+          "heading": "Key Mechanics & Rotation Concepts",
+          "paragraphs": [
+            "Let's clear up something important first: Suoming's kit is written as though she has multiple states in which separate attacks can be cast, called \"Awakened Mind\" and \"Deep Mind\". In truth, only the Deep Mind state matters because you access it via an Intro, and the Awakened Mind state is only used to enter Deep Mind state. In other words: that state only exists to give Suoming a necessity to cast her Intro to start her rotations. Not much of a need to care about this, since it's mostly an overly complicated excuse to restrict Quickswap.",
+            "Suoming has a Forte gauge that allows her to cast her Forte Skill. This gauge will be built up through her second Intro and Ultimate (in Unison mode only) as well as her Basic Attacks (both DPS and Unison). This Forte Skill then chains into her Drill Skill. Casting this quickly is the focus of her rotation in Unison mode, as by the time you cast it, you'll have enough Concerto to finish off her full rotation. In DPS mode, Suoming tries to squeeze the most damage out of her Basic Attacks.",
+            "Suoming's Unison is triggered by her Ultimate. If you do Intro —> Ultimate, you can immediately Outro onto another character through the Unison mechanic. If you don't want this, Suoming's Unison can be consumed via her base Skill to enter DPS mode.",
+            "If you do Suoming's Unison rotation, Suoming is capable of Unison Response. She grants 1 stack of Unison Boon through her Intro and can benefit from all stacks on her own damage, giving 3% Total DMG Dealt per stack. Additionally, her Outro grants extra Electro DMG Bonus to the next character based on the team's Unison Boon stack count.",
+            "Otherwise, if you go down the DPS route, all of the above is forfeited once her Skill is cast. Instead, for 12s, the entirety of Suoming's Basic Attack damage multipliers are doubled, and her CRIT DMG is increased by 100%. She also consumes 20 Concerto on cast, which is easily built back up throughout her rotation.",
+            "Finally, Suoming can cast up to 6 Coordinated Attacks that deal a small amount of damage in Unison only. Her Outro grants 20% Electro DMG Amplification, plus an extra 25% Skill DMG Amplification in Unison, for 8s, with all of this expiring on swap. This is overall completely useless to anything, other than for Hsin with Unison Suoming.",
+            "If you want to structure all of the above within a rotation:",
+            "In Unison, Suoming will be playing alongside a Unison DPS. She can do Intro —> Ult —> Outro to get off an extremely quick first rotation, then Intro back in once your DPS has acquired Unison, and do a few Basic Attacks into her two Forte Skills, finishing her full rotation.",
+            "As a DPS, Suoming will play alongside a traditional Hypercarry Outro buffer and Support. After her Intro and Ultimate, Unison is acquired, allowing for a Skill cast to activate DPS mode. At this point, her most advantageous Basic string in terms of multipliers requires you to hold down the Basic Attack button all throughout (like a Heavy Attack input). You can do up to 2 full strings before your buffs expire, as before they expire Suoming should cast her Forte Skills, at which point her rotation ends and she can switch out."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "In the current meta, simply put, Suoming is great. Even if her Unison use is completely restricted to Hsin, and that's likely to stay the case, in DPS mode she has two things going for her: team flexibility, and teammate accessibility. All of this while retaining pretty solid performance, around early Lahai-Roi level (think Aemeath, Luuk, Sigrika).",
+            "What we mean by team flexibility is that Suoming scales off of general buffs. She has no explicit saturation for DMG Amplification, DMG Bonus, or ATK, and scales well off all of them. A F2P teammate particularly stands out for this: Sanhua. Suoming as a DPS is perfectly capable of making full use of her, and revives a previously basically-dead 4-star back into the meta.",
+            "As an added plus, since she doesn't have CRIT Rate saturation like a lot of the modern damage dealers, she scales well with Shorekeeper. Verina also scales much better for her than most of the recently released DPS cast. Otherwise, the Lynae Mornye duo always works and has higher damage per rotation overall. Being able to make good use of Shorekeeper and Verina is also true in the Unison team.",
+            "Although Suoming is practically completely locked out of Quickswap due to her many layers of restrictions around it, for the overwhelming majority of players, Suoming is a great character in ToA/Matrix as DPS while being fairly average in Whimpering Wastes, and she becomes great overall in Unison alongside Hsin, being an undeniable top meta performer in her best team.",
+            "In conclusion, Suoming is a pretty well-established character within the Wuthering Waves meta. Either used as a good Main DPS or the ideal Unison Support for Hsin, there are ways to use her for beginners and veterans of the game alike. In all cases, she's at least going to perform up to endgame standards when used properly. Overall, this makes Suoming a fine character to recommend, so long as you're interested in getting her on your account."
+          ]
+        }
+      ],
+      "summary": "Suoming is a 5-star Electro Sword Unison Sub-DPS and Main DPS who, as you can tell, can play in 2 very different roles pretty much to the same degree of performance. Suoming is designed in a way where, if you own a Unison Main DPS (so basically Hsin considering her Outro), she can play alongside them as a secondary damage dealer and buffer, and if you don't, she's a perfectly viable Basic Attack Main DPS on her own."
     },
-    "rotations": [],
-    "skill_upgrade_priority": null,
-    "skills": [],
-    "synergies": [],
+    "rotations": [
+      {
+        "rotation_name": "Unison/Hybrid rotation",
+        "steps": [
+          "Intro",
+          "Ultimate",
+          "Outro",
+          "Intro: Whirling (Unison)",
+          "Basic: Whirling 2 (Cancel animation endlag via Dash)",
+          "Dash",
+          "Basic: Unfurled 1",
+          "Basic: Unfurled 2 (Cancel animation endlag via Skill)",
+          "Skill: Unforsaken Mind",
+          "Hold Skill: Engraved Heart",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "DPS Rotation",
+        "steps": [
+          "Intro",
+          "Ultimate",
+          "Skill (Instantly interrupt via Dash)",
+          "Dash",
+          "Heavy: Unfurled Basic 1",
+          "Heavy: Unfurled Basic 2",
+          "Heavy: Whirling 1",
+          "Heavy: Whirling 2 (Cancel animation endlag via Dash)",
+          "Dash",
+          "Heavy: Unfurled Basic 1",
+          "Heavy: Unfurled Basic 2",
+          "Heavy: Whirling 1",
+          "Heavy: Whirling 2 (Cancel animation endlag via Skill)",
+          "Skill: Unforsaken Mind",
+          "Hold Skill: Engraved Heart",
+          "Outro"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "Skill can be completely skipped as it is useless to Suoming's practical rotation. All other Fortes are important to level though.",
+      "order": [
+        "Forte Circuit",
+        "Res. Liberation",
+        "Intro Skill",
+        "Basic Attack",
+        "Res. Skill"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic AttackPress or hold Normal Attack to perform up to 3 consecutive attacks, dealing Electro DMG.Basic Attack - Unfurled CanopyWhile in the Deep Mind state, Basic Attack is replaced with Basic Attack - Unfurled Canopy, performing up to 4 consecutive attacks, dealing Electro DMG.Hold Normal Attack to cast Basic Attack - Unfurled Canopy Stage 1 and Stage 2 in succession.Shortly after casting Basic Attack - Unfurled Canopy Stage 2, hold Normal Attack to cast Basic Attack - Unfurled Canopy: Whirling Thunder Stage 1 and Stage 2 in succession, dealing Electro DMG.Shortly after casting Basic Attack - Unfurled Canopy Stage 3, hold Normal Attack to cast Basic Attack - Unfurled Canopy Stage 4.Shortly after casting Basic Attack - Unfurled Canopy: Whirling Thunder Stage 1, press or hold Normal Attack to cast Basic Attack - Unfurled Canopy: Whirling Thunder Stage 2.Basic Attack - Unfurled Canopy: Whirling ThunderDeal Electro DMG.Mid-air AttackConsume STA to perform a Plunging Attack, dealing Electro DMG.Dodge CounterPress Normal Attack within a certain time after a successful Dodge to attack the target, dealing Electro DMG.While in the Deep Mind state, Dodge Counter is replaced with Dodge Counter - Unfurled Canopy.Shortly after casting the skill, press Normal Attack to cast Basic Attack Stage 3.Dodge Counter - Unfurled CanopyPress Normal Attack within a certain time after a successful Dodge to attack the target, dealing Electro DMG.Shortly after casting the skill, press Normal Attack to cast Basic Attack - Unfurled Canopy Stage 3.Shortly after casting the skill, hold Normal Attack to cast Basic Attack - Unfurled Canopy: Whirling Thunder Stage 1, dealing Electro DMG.",
+        "multipliers": [
+          {
+            "Lv1": "15.87%",
+            "Lv10": "31.55%",
+            "Lv2": "17.17%",
+            "Lv3": "18.48%",
+            "Lv4": "20.30%",
+            "Lv5": "21.60%",
+            "Lv6": "23.09%",
+            "Lv7": "25.18%",
+            "Lv8": "27.26%",
+            "Lv9": "29.34%",
+            "Name": "Basic Attack Stage 1 DMG"
+          },
+          {
+            "Lv1": "7.92%*2+15.83%",
+            "Lv10": "15.73%*2+31.46%",
+            "Lv2": "8.56%*2+17.12%",
+            "Lv3": "9.21%*2+18.42%",
+            "Lv4": "10.12%*2+20.24%",
+            "Lv5": "10.77%*2+21.54%",
+            "Lv6": "11.52%*2+23.03%",
+            "Lv7": "12.55%*2+25.10%",
+            "Lv8": "13.59%*2+27.18%",
+            "Lv9": "14.63%*2+29.26%",
+            "Name": "Basic Attack Stage 2 DMG"
+          },
+          {
+            "Lv1": "11.07%*3+22.14%",
+            "Lv10": "22.01%*3+44.02%",
+            "Lv2": "11.98%*3+23.96%",
+            "Lv3": "12.89%*3+25.77%",
+            "Lv4": "14.16%*3+28.32%",
+            "Lv5": "15.07%*3+30.13%",
+            "Lv6": "16.11%*3+32.22%",
+            "Lv7": "17.56%*3+35.12%",
+            "Lv8": "19.02%*3+38.03%",
+            "Lv9": "20.47%*3+40.93%",
+            "Name": "Basic Attack Stage 3 DMG"
+          },
+          {
+            "Lv1": "32.91%+16.46%*2",
+            "Lv10": "65.42%+32.71%*2",
+            "Lv2": "35.61%+17.81%*2",
+            "Lv3": "38.31%+19.16%*2",
+            "Lv4": "42.08%+21.04%*2",
+            "Lv5": "44.78%+22.39%*2",
+            "Lv6": "47.89%+23.95%*2",
+            "Lv7": "52.20%+26.10%*2",
+            "Lv8": "56.52%+28.26%*2",
+            "Lv9": "60.84%+30.42%*2",
+            "Name": "Basic Attack - Unfurled Canopy Stage 1 DMG"
+          },
+          {
+            "Lv1": "57.54%+19.18%*3",
+            "Lv10": "114.40%+38.14%*3",
+            "Lv2": "62.26%+20.76%*3",
+            "Lv3": "66.98%+22.33%*3",
+            "Lv4": "73.59%+24.53%*3",
+            "Lv5": "78.31%+26.11%*3",
+            "Lv6": "83.73%+27.91%*3",
+            "Lv7": "91.28%+30.43%*3",
+            "Lv8": "98.83%+32.95%*3",
+            "Lv9": "106.38%+35.46%*3",
+            "Name": "Basic Attack - Unfurled Canopy Stage 2 DMG"
+          },
+          {
+            "Lv1": "29.50%*2+29.50%*2",
+            "Lv10": "58.64%*2+58.64%*2",
+            "Lv2": "31.92%*2+31.92%*2",
+            "Lv3": "34.34%*2+34.34%*2",
+            "Lv4": "37.72%*2+37.72%*2",
+            "Lv5": "40.14%*2+40.14%*2",
+            "Lv6": "42.92%*2+42.92%*2",
+            "Lv7": "46.79%*2+46.79%*2",
+            "Lv8": "50.66%*2+50.66%*2",
+            "Lv9": "54.53%*2+54.53%*2",
+            "Name": "Basic Attack - Unfurled Canopy Stage 3 DMG"
+          },
+          {
+            "Lv1": "53.95%+53.95%+23.98%*3",
+            "Lv10": "107.25%+107.25%+47.67%*3",
+            "Lv2": "58.37%+58.37%+25.95%*3",
+            "Lv3": "62.80%+62.80%+27.91%*3",
+            "Lv4": "68.99%+68.99%+30.66%*3",
+            "Lv5": "73.41%+73.41%+32.63%*3",
+            "Lv6": "78.50%+78.50%+34.89%*3",
+            "Lv7": "85.58%+85.58%+38.04%*3",
+            "Lv8": "92.65%+92.65%+41.18%*3",
+            "Lv9": "99.73%+99.73%+44.33%*3",
+            "Name": "Basic Attack - Unfurled Canopy Stage 4 DMG"
+          },
+          {
+            "Lv1": "13.92%*2+27.83%",
+            "Lv10": "27.66%*2+55.32%",
+            "Lv2": "15.06%*2+30.11%",
+            "Lv3": "16.20%*2+32.39%",
+            "Lv4": "17.79%*2+35.58%",
+            "Lv5": "18.94%*2+37.87%",
+            "Lv6": "20.25%*2+40.49%",
+            "Lv7": "22.07%*2+44.14%",
+            "Lv8": "23.90%*2+47.79%",
+            "Lv9": "25.72%*2+51.44%",
+            "Name": "Dodge Counter DMG"
+          },
+          {
+            "Lv1": "87.54%+29.18%*3",
+            "Lv10": "174.04%+58.02%*3",
+            "Lv2": "94.72%+31.58%*3",
+            "Lv3": "101.90%+33.97%*3",
+            "Lv4": "111.95%+37.32%*3",
+            "Lv5": "119.13%+39.71%*3",
+            "Lv6": "127.38%+42.46%*3",
+            "Lv7": "138.87%+46.29%*3",
+            "Lv8": "150.35%+50.12%*3",
+            "Lv9": "161.84%+53.95%*3",
+            "Name": "Dodge Counter - Unfurled Canopy DMG"
+          },
+          {
+            "Lv1": "42.35%",
+            "Lv10": "84.20%",
+            "Lv2": "45.83%",
+            "Lv3": "49.30%",
+            "Lv4": "54.16%",
+            "Lv5": "57.63%",
+            "Lv6": "61.63%",
+            "Lv7": "67.18%",
+            "Lv8": "72.74%",
+            "Lv9": "78.29%",
+            "Name": "Plunging Attack DMG"
+          },
+          {
+            "Lv1": "36.88%+18.44%*2+36.88%+36.88%",
+            "Lv10": "73.32%+36.66%*2+73.32%+73.32%",
+            "Lv2": "39.90%+19.95%*2+39.90%+39.90%",
+            "Lv3": "42.93%+21.47%*2+42.93%+42.93%",
+            "Lv4": "47.16%+23.58%*2+47.16%+47.16%",
+            "Lv5": "50.18%+25.09%*2+50.18%+50.18%",
+            "Lv6": "53.66%+26.83%*2+53.66%+53.66%",
+            "Lv7": "58.50%+29.25%*2+58.50%+58.50%",
+            "Lv8": "63.34%+31.67%*2+63.34%+63.34%",
+            "Lv9": "68.18%+34.09%*2+68.18%+68.18%",
+            "Name": "Basic Attack - Unfurled Canopy: Whirling Thunder Stage 1 DMG"
+          },
+          {
+            "Lv1": "28.51%*5",
+            "Lv10": "56.69%*5",
+            "Lv2": "30.85%*5",
+            "Lv3": "33.19%*5",
+            "Lv4": "36.46%*5",
+            "Lv5": "38.80%*5",
+            "Lv6": "41.49%*5",
+            "Lv7": "45.23%*5",
+            "Lv8": "48.97%*5",
+            "Lv9": "52.71%*5",
+            "Name": "Basic Attack - Unfurled Canopy: Whirling Thunder Stage 2 DMG"
+          }
+        ],
+        "name": "Furled Canopy ",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Attack targets within range, dealing Electro DMG.Within a certain period after opening the umbrella and dashing forward, when attacked by an enemy target, Suoming becomes immune to this damage and stagnates nearby targets. She then becomes immune to interruption and receives 100% less DMG for a certain period, and casts Resonance Skill - Unfurled Canopy: Crimson Gleam.Entering the Deep Mind state resets the Cooldown of Resonance Skill.While in the Awakened Mind state, press Normal Attack shortly after casting this skill to cast Basic Attack Stage 2.While in the Deep Mind state, press Normal Attack shortly after casting this skill to chain into Basic Attack - Unfurled Canopy Stage 3.Resonance Skill - Unfurled Canopy: Crimson GleamAttack targets within range, dealing Electro DMG.While in the Awakened Mind state, press Normal Attack shortly after casting this skill to cast Basic Attack Stage 3.While in the Deep Mind state, press Normal Attack shortly after casting this skill to chain into Basic Attack - Unfurled Canopy Stage 4.",
+        "multipliers": [
+          {
+            "Lv1": "53.62%",
+            "Lv10": "106.61%",
+            "Lv2": "58.02%",
+            "Lv3": "62.42%",
+            "Lv4": "68.57%",
+            "Lv5": "72.97%",
+            "Lv6": "78.03%",
+            "Lv7": "85.06%",
+            "Lv8": "92.10%",
+            "Lv9": "99.13%",
+            "Name": "Resonance Skill - Furled Canopy: Rift Cleaver DMG"
+          },
+          {
+            "Lv1": "23.77%+11.89%*2+31.69%",
+            "Lv10": "47.25%+23.63%*2+63.00%",
+            "Lv2": "25.72%+12.86%*2+34.29%",
+            "Lv3": "27.67%+13.84%*2+36.89%",
+            "Lv4": "30.40%+15.20%*2+40.53%",
+            "Lv5": "32.34%+16.17%*2+43.12%",
+            "Lv6": "34.59%+17.30%*2+46.11%",
+            "Lv7": "37.70%+18.85%*2+50.27%",
+            "Lv8": "40.82%+20.41%*2+54.43%",
+            "Lv9": "43.94%+21.97%*2+58.58%",
+            "Name": "Resonance Skill - Unfurled Canopy: Crimson Gleam DMG"
+          },
+          {
+            "Lv1": "8",
+            "Lv10": "8",
+            "Lv2": "8",
+            "Lv3": "8",
+            "Lv4": "8",
+            "Lv5": "8",
+            "Lv6": "8",
+            "Lv7": "8",
+            "Lv8": "8",
+            "Lv9": "8",
+            "Name": "Resonance Skill - Furled Canopy: Rift Cleaver Cooldown"
+          }
+        ],
+        "name": "Furled Canopy: Rift Cleaver",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "While in the Deep Mind state, Resonance Liberation becomes available. Casting Resonance Liberation deals Electro DMG to targets within range.Casting Resonance Liberation grants Suoming Unison for 5s.Can be cast in mid-air close to the ground.Blight Rain, Miasmic ThunderWhile casting Outro Skill, if Suoming has Unison, when a Resonator on the field deals damage, a Thunder Crest is summoned as a Coordinated Attack on the target, dealing Electro DMG.Within 3s after this damage is dealt, a Thunder Crest can be summoned each second. This effect is triggered once per second. The damage dealt by Thunder Crest does not trigger this effect.Only 1 Thunder Crest can be summoned per second, up to 6 in total.This effect lasts 8s, or until the number of summoned Thunder Crest reaches the limit.",
+        "multipliers": [
+          {
+            "Lv1": "30.63%*8+105.00%",
+            "Lv10": "60.89%*8+208.76%",
+            "Lv2": "33.14%*8+113.61%",
+            "Lv3": "35.65%*8+122.22%",
+            "Lv4": "39.17%*8+134.28%",
+            "Lv5": "41.68%*8+142.89%",
+            "Lv6": "44.57%*8+152.79%",
+            "Lv7": "48.59%*8+166.57%",
+            "Lv8": "52.60%*8+180.34%",
+            "Lv9": "56.62%*8+194.12%",
+            "Name": "Resonance Liberation - Umbral Canopy: Miasma Lock DMG"
+          },
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Resonance Liberation - Umbral Canopy: Miasma Lock Cooldown"
+          },
+          {
+            "Lv1": "125",
+            "Lv10": "125",
+            "Lv2": "125",
+            "Lv3": "125",
+            "Lv4": "125",
+            "Lv5": "125",
+            "Lv6": "125",
+            "Lv7": "125",
+            "Lv8": "125",
+            "Lv9": "125",
+            "Name": "Resonance Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Concerto Regen"
+          },
+          {
+            "Lv1": "30.00%",
+            "Lv10": "59.65%",
+            "Lv2": "32.46%",
+            "Lv3": "34.92%",
+            "Lv4": "38.37%",
+            "Lv5": "40.83%",
+            "Lv6": "43.66%",
+            "Lv7": "47.59%",
+            "Lv8": "51.53%",
+            "Lv9": "55.47%",
+            "Name": "Resonance Liberation - Blight Rain, Miasmic Thunder DMG"
+          }
+        ],
+        "name": "Umbral Canopy: Miasma Lock",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Resonance Skill - Furled Canopy: Sealed DelusionWhile in the Awakened Mind state, when Delusion reaches 800 points, Resonance Skill is replaced with Resonance Skill - Furled Canopy: Sealed Delusion, dealing Electro DMG, considered Basic Attack DMG.Casting this skill sends Suoming into Deep Mind and clears all Delusion.Resonance Skill - Unfurled Canopy: Unforsaken MindWhile in the Deep Mind state, when Delusion reaches 800 points, Resonance Skill is replaced with Resonance Skill - Unfurled Canopy: Unforsaken Mind, pulling in nearby targets and dealing Electro DMG, considered Basic Attack DMG.Basic Attack - Umbral Canopy: Engraved HeartWithin a certain period after casting Resonance Skill - Unfurled Canopy: Unforsaken Mind, Basic Attack and Resonance Skill are replaced with Basic Attack - Umbral Canopy: Engraved Heart. Press or hold Normal Attack or Resonance Skill to cast this skill. Attack targets within range, dealing Electro DMG, considered Basic Attack DMG.Casting this skill sends Suoming into Calamity Mind and clears all Delusion; she enters Awakened Mind once the skill ends.When casting this skill, hold Normal Attack or Resonance Skill to continuously attack the target for a certain period.While casting this skill, Suoming is immune to DMG and interruption for a certain period.During the skill action, she cannot move, dash, jump, dodge, or cast Basic Attack, Resonance Skill, Resonance Liberation, Dodge Counter, Plunging Attack, Mid-air Attack, or Intro Skill, and Resonator switching is also restricted.UnisonWhen Suoming has Unison, switching to another Resonator will remove her Unison to trigger Suoming's Outro Skill and the incoming Resonator's Intro Skill. When Suoming's Concerto Energy is full and she has Unison, only the Unison effect is consumed.Unison ResponseSuoming can trigger Unison Response.When the active Resonator in the team has Unison, Suoming triggers Unison Response after she is switched in and casts Intro Skill, granting all Resonators in the team 1 stack of Unison Boon for 30s.Suoming can grant up to 1 stack of Unison Boon. Gaining it again only resets the duration.Unison Response cannot be triggered in Co-op.Unison BoonOnly the Resonators who can trigger Unison Response can gain this effect. Each stack of Unison Boon increases the total DMG dealt by Resonators in the team who can trigger Unison Response by 3%, up to 2 stacks.DelusionCan hold up to 800 points of Delusion.Hitting a target with Basic Attack, Basic Attack - Unfurled Canopy, Basic Attack - Unfurled Canopy: Whirling Thunder, Dodge Counter, Dodge Counter - Unfurled Canopy, or Resonance Skill - Unfurled Canopy: Crimson Gleam grants Delusion if Suoming is the active Resonator.Casting Resonance Liberation grants 200 points of Delusion.Casting Intro Skill - Unfurled Canopy: Thunder Rending or Intro Skill - Unfurled Canopy: Whirling Thunder (Unison) grants 200 points of Delusion.",
+        "multipliers": [
+          {
+            "Lv1": "31.58%*2+15.79%*4",
+            "Lv10": "62.78%*2+31.39%*4",
+            "Lv2": "34.17%*2+17.09%*4",
+            "Lv3": "36.76%*2+18.38%*4",
+            "Lv4": "40.39%*2+20.20%*4",
+            "Lv5": "42.97%*2+21.49%*4",
+            "Lv6": "45.95%*2+22.98%*4",
+            "Lv7": "50.10%*2+25.05%*4",
+            "Lv8": "54.24%*2+27.12%*4",
+            "Lv9": "58.38%*2+29.19%*4",
+            "Name": "Resonance Skill - Furled Canopy: Sealed Delusion DMG"
+          },
+          {
+            "Lv1": "76.79%",
+            "Lv10": "152.67%",
+            "Lv2": "83.09%",
+            "Lv3": "89.39%",
+            "Lv4": "98.20%",
+            "Lv5": "104.50%",
+            "Lv6": "111.74%",
+            "Lv7": "121.82%",
+            "Lv8": "131.89%",
+            "Lv9": "141.97%",
+            "Name": "Resonance Skill - Unfurled Canopy: Unforsaken Mind DMG"
+          },
+          {
+            "Lv1": "780.37%",
+            "Lv10": "1551.41%",
+            "Lv2": "844.37%",
+            "Lv3": "908.33%",
+            "Lv4": "997.93%",
+            "Lv5": "1061.92%",
+            "Lv6": "1135.51%",
+            "Lv7": "1237.90%",
+            "Lv8": "1340.30%",
+            "Lv9": "1442.62%",
+            "Name": "Basic Attack - Umbral Canopy: Engraved Heart DMG"
+          },
+          {
+            "Lv1": "9.76%*10+12.20%*8",
+            "Lv10": "19.40%*10+24.24%*8",
+            "Lv2": "10.56%*10+13.20%*8",
+            "Lv3": "11.36%*10+14.20%*8",
+            "Lv4": "12.48%*10+15.60%*8",
+            "Lv5": "13.28%*10+16.60%*8",
+            "Lv6": "14.20%*10+17.75%*8",
+            "Lv7": "15.48%*10+19.35%*8",
+            "Lv8": "16.76%*10+20.95%*8",
+            "Lv9": "18.04%*10+22.55%*8",
+            "Name": "Basic Attack - Umbral Canopy: Engraved Heart DMG (Hold)"
+          },
+          {
+            "Lv1": "40",
+            "Lv10": "40",
+            "Lv2": "40",
+            "Lv3": "40",
+            "Lv4": "40",
+            "Lv5": "40",
+            "Lv6": "40",
+            "Lv7": "40",
+            "Lv8": "40",
+            "Lv9": "40",
+            "Name": "Basic Attack - Umbral Canopy: Engraved Heart Concerto Regen"
+          }
+        ],
+        "name": "Bound Obsession, Forged Mind",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "Casting Intro Skill - Furled Canopy: Flash Rift, Intro Skill - Unfurled Canopy: Thunder Rending, Intro Skill - Furled Canopy: Sealed Delusion (Unison), or Intro Skill - Unfurled Canopy: Whirling Thunder (Unison) grants 50% Electro DMG Bonus for 15s. Switching to another Resonator ends this effect early.When Suoming casts Intro Skill - Furled Canopy: Sealed Delusion (Unison) or Intro Skill - Unfurled Canopy: Whirling Thunder (Unison), she additionally gains 10 points of Concerto Energy, triggered only once every 25s.",
+        "multipliers": [],
+        "name": "Rain-Soaked Covenant",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "Within 8s after Suoming casts Resonance Liberation or Basic Attack - Umbral Canopy: Engraved Heart, if she gains or has Aligned Seals, her Outro Skill grants the incoming Resonator 30% Electro DMG Bonus, plus an additional 20% for each stack of Unison Boon they have, up to 40%. This effect lasts for 8s or until the Resonator is switched out.When Suoming has Unison, casting Resonance Skill - Furled Canopy: Rift Cleaver removes Unison and the Unison Boon on her, consumes 20 points of Concerto Energy, and clears all Delusion, granting the Seal Master effect: the DMG Multipliers of Basic Attack - Unfurled Canopy and Basic Attack - Unfurled Canopy: Whirling Thunder are increased by 100%, each stage of both skills restores 5 additional points of Concerto Energy on hit, and Suoming's Crit. DMG is increased by 100%. This effect lasts for 12s or until the Resonator is switched out.Gaining Unison ends this effect early.Gaining the Aligned Seals effect ends this effect early.The Seal Master effect cannot be gained while the Aligned Seals effect is active.While the Seal Master effect is active, press or hold Normal Attack shortly after casting Basic Attack - Unfurled Canopy Stage 4 to chain into Basic Attack - Unfurled Canopy Stage 2.",
+        "multipliers": [],
+        "name": "Sunken Seal, Forged Lock ",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Attack the target, dealing Electro DMG, considered Basic Attack DMG.While in the Awakened Mind state, casting this skill sends Suoming into the Deep Mind state and clears all Delusion.While in the Deep Mind state, Intro Skill is replaced with Intro Skill - Unfurled Canopy: Thunder Rending.While in the Awakened Mind state, triggering Unison Response replaces Intro Skill with Intro Skill - Furled Canopy: Sealed Delusion (Unison).While in the Deep Mind state, triggering Unison Response replaces Intro Skill with Intro Skill - Unfurled Canopy: Whirling Thunder (Unison).Intro Skill - Unfurled Canopy: Thunder RendingDeal Electro DMG, considered Basic Attack DMG.- Press Normal Attack shortly after casting this skill to chain into Basic Attack - Unfurled Canopy: Whirling Thunder Stage 2.Intro Skill - Furled Canopy: Sealed Delusion (Unison)Attack the target, dealing Electro DMG, considered Basic Attack DMG.Casting this skill sends Suoming into the Deep Mind state and clears all Delusion.Intro Skill - Unfurled Canopy: Whirling Thunder (Unison)Attack the target, dealing Electro DMG, considered Basic Attack DMG.While in the Deep Mind state, press Normal Attack shortly after casting Intro Skill - Unfurled Canopy: Whirling Thunder (Unison) to chain into Basic Attack - Unfurled Canopy: Whirling Thunder Stage 2.",
+        "multipliers": [
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Intro Skill - Unfurled Canopy: Thunder Rending Concerto Regen"
+          },
+          {
+            "Lv1": "55.78%*2+18.60%*4",
+            "Lv10": "110.89%*2+36.97%*4",
+            "Lv2": "60.35%*2+20.12%*4",
+            "Lv3": "64.92%*2+21.64%*4",
+            "Lv4": "71.33%*2+23.78%*4",
+            "Lv5": "75.90%*2+25.30%*4",
+            "Lv6": "81.16%*2+27.06%*4",
+            "Lv7": "88.48%*2+29.50%*4",
+            "Lv8": "95.80%*2+31.94%*4",
+            "Lv9": "103.11%*2+34.37%*4",
+            "Name": "Intro Skill - Furled Canopy: Flash Rift DMG"
+          },
+          {
+            "Lv1": "66.11%+33.06%*2+66.11%+66.11%",
+            "Lv10": "131.43%+65.72%*2+131.43%+131.43%",
+            "Lv2": "71.53%+35.77%*2+71.53%+71.53%",
+            "Lv3": "76.95%+38.48%*2+76.95%+76.95%",
+            "Lv4": "84.54%+42.27%*2+84.54%+84.54%",
+            "Lv5": "89.96%+44.98%*2+89.96%+89.96%",
+            "Lv6": "96.19%+48.10%*2+96.19%+96.19%",
+            "Lv7": "104.87%+52.44%*2+104.87%+104.87%",
+            "Lv8": "113.54%+56.77%*2+113.54%+113.54%",
+            "Lv9": "122.21%+61.11%*2+122.21%+122.21%",
+            "Name": "Intro Skill - Unfurled Canopy: Thunder Rending DMG"
+          },
+          {
+            "Lv1": "55.78%*2+18.60%*4",
+            "Lv10": "110.89%*2+36.97%*4",
+            "Lv2": "60.35%*2+20.12%*4",
+            "Lv3": "64.92%*2+21.64%*4",
+            "Lv4": "71.33%*2+23.78%*4",
+            "Lv5": "75.90%*2+25.30%*4",
+            "Lv6": "81.16%*2+27.06%*4",
+            "Lv7": "88.48%*2+29.50%*4",
+            "Lv8": "95.80%*2+31.94%*4",
+            "Lv9": "103.11%*2+34.37%*4",
+            "Name": "Intro Skill - Furled Canopy: Sealed Delusion (Unison) DMG"
+          },
+          {
+            "Lv1": "66.11%+33.06%*2+66.11%+66.11%",
+            "Lv10": "131.43%+65.72%*2+131.43%+131.43%",
+            "Lv2": "71.53%+35.77%*2+71.53%+71.53%",
+            "Lv3": "76.95%+38.48%*2+76.95%+76.95%",
+            "Lv4": "84.54%+42.27%*2+84.54%+84.54%",
+            "Lv5": "89.96%+44.98%*2+89.96%+89.96%",
+            "Lv6": "96.19%+48.10%*2+96.19%+96.19%",
+            "Lv7": "104.87%+52.44%*2+104.87%+104.87%",
+            "Lv8": "113.54%+56.77%*2+113.54%+113.54%",
+            "Lv9": "122.21%+61.11%*2+122.21%+122.21%",
+            "Name": "Intro Skill - Unfurled Canopy: Whirling Thunder (Unison) DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Intro Skill - Furled Canopy: Flash Rift Concerto Regen"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Intro Skill - Furled Canopy: Sealed Delusion (Unison) Concerto Regen"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Intro Skill - Unfurled Canopy: Whirling Thunder (Unison) Concerto Regen"
+          }
+        ],
+        "name": "Furled Canopy: Flash Rift",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "The incoming Resonator gains 20% Electro DMG Amplification for 8s or until the Resonator is switched out. While having Unison Boon, they also gain 25% Resonance Skill DMG Amplification.",
+        "multipliers": [],
+        "name": "Canopy Rumble ",
+        "skill_type": "Outro Skill"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.",
+        "multipliers": [],
+        "name": "Tune Break - Sword ",
+        "skill_type": "Forte Circuit"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "hsin"
+        ],
+        "commentary": "Suoming's best and only good Unison partner is Hsin. Almost all of Suoming's bufs are related to Unison, Electro characters, of which Hsin is liikely to be the only one for a while. As a result, when together, they can form one of the best teams in the game."
+      },
+      {
+        "characters": [
+          "lynae",
+          "sanhua"
+        ],
+        "commentary": "Suoming isn't only limited to being a Hsin Unison secondary, she's also a very capable Main DPS. Alongside Lynae (with Mornye) or Sanhua (with Shorekeeper/Verina), she makes for one of the better and most F2P-friendly damage dealers in the game."
+      },
+      {
+        "characters": [
+          "the-shorekeeper",
+          "verina",
+          "mornye"
+        ],
+        "commentary": "Best Support options for Suoming, who doesn't scale off any particular Support's specializations currently. Shorekeeper is the best overall, Verina is her F2P replacement. Mornye is only used alongside Lynae in a DPS Suoming team."
+      }
+    ],
     "upgrade_materials": {
       "character_ascension": [],
       "skill_upgrades": []

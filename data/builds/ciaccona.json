@@ -178,9 +178,9 @@
       "slug": "ciaccona",
       "updates": {
         "last_major_build_patch": "3",
-        "last_profile_update": "01/October/2026",
-        "last_review_patch": "2.4",
-        "last_updated": "01/October/2026"
+        "last_profile_update": "22/October/2026",
+        "last_review_patch": "3.7",
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Pistols"
     },
@@ -309,18 +309,24 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "May need you to build 2 separate Echo Sets for her to access her team flexibility (Gusts of Welkin is only used in Aero teams, Moonlit Clouds for general use);",
-        "A lot of her potential is locked behind her Signature weapon in Aero teams or as a Main DPS;",
-        "Sings during her Ultimate which replaces a potentially epic battle theme by a silly song."
+        "Her value effectively dies as a Best In Slot alongside Aero Erosion, which hasn't received any new damage dealer since Cartethyia. The team still deals high damage in Quickswap, but the baseline performance for that team has fallen out of fashion a long time ago;",
+        "Can apply Spectro Frazzle, but that's effectively useless because it hasn't received updates for a very long time and is long since powercrept;",
+        "Signature weapon is a strong party-wide utility and you can lose out on a lot of her value if you skip it;",
+        "Very low Sequence value across the board, vertical investment isn't really an option on her beyond getting her Signature weapon."
       ],
-      "pros": []
+      "pros": [
+        "Good general Aero buffs party-wide and low rotation time for good personal damage can make her a valid 3rd slot option for Aero damage dealers;",
+        "Access to Aero Erosion allows for explicit synergy with Cartethyia;",
+        "Very quickswap-friendly, optimization ceiling is big in a variety of teams."
+      ]
     },
     "ratings": {
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
             "Erosion",
-            "Frazzle"
+            "Frazzle",
+            "Expert +1"
           ],
           "tier": "T1"
         },
@@ -387,96 +393,156 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Ciaccona is a 5-star Aero Pistol DPS whose primary point of interest is her ability to apply both Spectro Frazzle and Aero Erosion (mostly via her Ultimate). She amplifies Aero Erosion DMG and boosts Aero DMG in several ways, and is characterized by her ability to rotate quickly while retaining an off-field presence, similar to Coordinated Attackers (even though she isn't one). She additionally has great personal damage if you wish to play her as a Main DPS, it is a completely viable playstyle for her.",
-            "We'll go through her abilities in order of how we execute them in her rotation. Her kit is honestly pretty simplistic so this won't take long.",
-            "Her Intro skill allows her to skip instantly to Basic Attack stage 3 — this is important because stage 4 is the only important part of her Basic chain. Beyond that, it applies 1 stack of Aero Erosion, and like other Intros it generates a good chunk of Concerto Energy and does minor damage quickly.",
-            "Her Basic Attack stage 1 and 2 are pretty much never used, so only stage 3 and 4 matter. Stage 4 can be interrupted by several means, the primary method we use for this is with a jump. Why it's important to do so is because it generates a wind clone of Ciaccona called an \"Ensemble Sylph\". These Ensemble Sylphs have the effect of activating a \"Solo Concert\" which gives all party members 24% Aero DMG Bonus as long as the Ensemble Sylph is present. On top of this, the Ensemble Sylph will fully complete Ciaccona's Basic Attack 4 even if it is cancelled, so you can cancel it at no loss. The duration of Ensemble Sylphs is permanent, but only 2 can exist at any given time. Due to this, you can pretty much consider this buff's uptime as permanent. Note however that Solo Concert will not be activated on the specific condition that Ciaccona's Basic Attack 4 is cancelled with her Skill.",
-            "An interesting perk of cancelling Ciaccona's Basic 4 with a Jump is that it puts her in the air and allows her to follow up with her Mid-Air Attacks. Mid-Air Attack 2 naturally follows up into Basic Attack 4, which means you can chain Basic Attack 4's quickly together by repeatedly Jump cancelling. We make extensive use of this in her Main DPS rotation and her Opener rotation to shorten it a great amount, we use it once in her standard SubDPS rotation as well to speed things up.",
-            "The reason why we do Basic Attack 4 is for 3 things:",
-            "Charging up 1 of 3 Forte Circuit stacks called \"Musical Essence\" (we explain this later);",
-            "Activating Solo Concert;",
-            "Applying 1 stack of Aero Erosion while generating Concerto Energy.",
-            "Ciaccona's Resonance Skill is similar to her Basic 4 in terms of applying 1 stack of Aero Erosion, other than that it's a quick boost to her Concerto Energy which we make good use of.",
-            "After building up 3 Forte stacks total, including 1 from her Intro and 2 from her Basic 4 done 2 times, we can cast a special Forte Heavy Attack called \"Quadruple Downbeat\". It generates a massive 25 Concerto Energy, a necessary boost to finish Ciaccona's rotation. On top of this, it deals a great amount of damage and applies 1 more Aero Erosion stack. It also has the additional effect of gathering enemies in its center by pulling them in, which is great for dealing with small targets all at once.",
-            "Last but not least, Ciaccona's Ultimate causes her to enter a singing state called \"Recital\" on top of doing a big wave of AoE damage. This state will last even if she is switched off-field, and every 1.6s she is able to either manually input or automatically perform a wave of damage called \"Symphonic Poem: Tonic\". Depending on the mode chosen at the start of her Ultimate (Aero Erosion mode by default), she will inflict either Aero Erosion or Spectro Frazzle on all enemies hit. It is possible to almost instantly switch from Aero Erosion to Spectro Frazzle after casting her Ultimate so the process isn't too slow. Once this is performed, she is ready to switch out and apply waves of Status Inflictions off-field. Her Outro even amplifies all Aero Erosion DMG by 100%, so her Aero Erosion actually ends up dealing solid off-field damage, especially with Aero Rover in the mix to stack Aero Erosion up to 6 times instead of 3.",
-            "Regarding her meta position, Ciaccona was already in a good niche without Cartethyia and now that she's finally released she's even stronger. Similarly to the synergy Zani and Phoebe have, Ciaccona and Cartethyia complement each other's kits perfectly. Ciaccona's low field time as a SubDPS paired with Cartethyia's high field time perfectly complement each other, and her multi-wave AoE Erosion application allows Cartethyia to utilize her kit to the fullest. Cartethyia being one of the strongest damage dealers in Wuthering Waves, maybe even the strongest, makes Ciaccona a very high-demand unit from this factor alone.",
-            "However, even without considering Cartethyia as a teammate, she's already a character who can slot in many teams. The main points of interest are as a Main DPS, and with Absolution Phoebe a.k.a Main DPS Phoebe. She's really strong with her because she's able to apply Spectro Frazzle across several waves of enemies, a feature Phoebe was dearly missing to perform in Whimpering Wastes. Ciaccona allows her not only to perform in the gamemode, but to perform to top tier level alongside each other.",
-            "Additionally, Ciaccona deals amazing personal damage if her rotation is extended thanks to her ability to chain Basic 4's really quickly together, which allows her to access her Forte Heavy Attack multiple times in a single rotation. Able to access it twice, or even thrice depending on the team, Ciaccona is an excellent Main DPS choice particularly in Whimpering Wastes when paired with Sanhua to buff her Basic Attack damage and allow her to take a lot of field time. This is thanks to her ability to group enemies and spread her damage all throughout her rotation, even dealing some damage off-field via her Ultimate.",
-            "In a team with Jiyan, he and Ciaccona are a good pair even though Mortefi can be considered stronger in single-target scenarios. With that being said, Ciaccona has more AoE damage which is something to be considered, but she does boost Jiyan's damage much less than Mortefi. Overall it's difficult to pick one, we consider them pretty equal in performance to each other but this does add to Ciaccona's team flexibility.",
-            "Furthermore, Ciaccona can be used as a second Frazzle applier for Zani alongside Spectro Rover which allows Zani to access more extended combos without Phoebe, which Spectro Rover alone couldn't cover before. Phoebe however remains the best Frazzle support for Zani.",
-            "In conclusion, Ciaccona is a character who has quick rotations, AoE capabilities, slots in many teams, while buffing damage by good amounts and dealing very good damage of her own. Overall, she is desirable for many characters and can even be used as a Main DPS herself, allowing her a ton of flexibility, one of the highest in the game. Besides, her full potential lies with one of the best damage dealers in the game currently, if not the best. All this to say, Ciaccona is one of the most valuable characters, as you are sure to have a viable team for her on your account no matter what, some of her strongest synergies making up for some of the strongest teams in the game, cementing her position as a top meta character."
+            "Ciaccona is a 5-star Aero Pistol DPS whose primary point of interest is her ability to apply Aero Erosion (mostly via her Ultimate). She can also apply Spectro Frazzle through it, though that's quite underutilized nowadays. She also amplifies Aero Erosion DMG and boosts Aero DMG in several ways, and is characterized by her ability to rotate quickly while dealing good damage and providing good party-wide buffs."
+          ]
+        },
+        {
+          "heading": "Key Mechanics",
+          "paragraphs": [
+            "Ciaccona's rotations revolve around building up to her Forte and finishing her rotation off with her Ultimate. This is because her Forte has 3 charges, building it up fully allows her to cast a Forte Heavy Attack that restores significant amounts of Concerto quickly. On the other hand, Ciaccona's Ultimate glues her in place and significantly limits her on-field actions. If swapped out and swapped back in, the Ultimate gets cancelled. In other words: build up towards her Forte Heavy, finish her rotation off with her Ultimate.",
+            "Ciaccona applies 1 stack of Aero Erosion through the following Skills:",
+            "Intro",
+            "Basic 4",
+            "Skill",
+            "Forte Heavy",
+            "Ultimate (1 stack every 1.6s) â Can also be switched to Spectro Frazzle after about 0.5s of extra field time if needed (nowadays not really utilized in any of Ciaccona's best use cases).",
+            "Ciaccona's Forte is restored through casting her Basic 4 or Intro (1/3 stacks per). Basic 4 can additionally be finished by something called an \"Ensemble Sylph\" if interrupted early. They act as \"ghosts\" of Ciaccona's silhouette that finish Basic 4's and upkeep buffs in her stead. Indeed, these same Ensemble Sylphs provide 24% Aero DMG Bonus for the whole team when generated, for an indefinite amount of time.",
+            "Finally, Ciaccona's Outro amplifies the Aero Erosion DMG of the whole team by 100% for 30s, which doesn't expire upon switching between characters. If her Signature weapon is owned, it also shreds enemy Aero RES by 10% upon applying and hitting an enemy with Aero Erosion (this can easily be upkept permanently in a fight)."
+          ]
+        },
+        {
+          "heading": "Rotation Concepts",
+          "paragraphs": [
+            "Ciaccona has a lot of combos and cancels that are all used in her rotations to make the most of the speed her kit provides her. Notably, we make use of the following properties:",
+            "Ciaccona's Basic 4 can be freely interrupted on cast and fully finished by her Ensemble Sylphs;",
+            "Ciaccona's Intro leads her to start her Basic chain from Basic 3;",
+            "Ciaconna's Mid-air Attack 1 and 2 (her plunge) combo immediately into her Basic 4;",
+            "Ciaccona's Forte Heavy Attack can be animation cancelled by her Ultimate as soon as the projectile is shot from her gun. The rest of the damage will occur during the Ultimate animation;",
+            "If switched into combat from mid-air, Ciaccona will immediately plunge downwards (Mid-air Attack 2). This combos into her Basic 4 almost instantly if close to the ground.",
+            "Outside of this, her Skill gives her a big burst of instant Concerto, and so does her Forte Heavy Attack, so we want to cast them after an Intro and fully charging up her Forte Heavy. Alongside her Ultimate, this generates enough Concerto to Outro extremely fast, leading Ciaccona to be one of the fastest Hybrid characters in the game."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "In the meta, Ciaccona has a meta niche completely carved out for her. Her value essentially dies alongside that of Aero Erosion, since that's her best use case as the only source of Aero Erosion application other than Cartethyia (a main damage dealer). The issue is, Cartethyia is the only DPS that revolves around this mechanic. While her and Ciaccona were intended to play together from the get-go, the team dates from version 2.4 (2.8 if you include Chisa, but she was barely an upgrade to the on-release team). In other words: the team is quite outdated by today's standards.",
+            "One of the Aero Erosion team's huge strengths is its affinity for Quickswap. Ciaccona can cast more than one Forte Heavy per rotation if the rest of the team's Swap Cancel windows are fully properly utilized, sometimes 2, 3 or even 4 Forte Heavies can be cast per full team loop depending on how experienced the player is. If the Aero Erosion team is fully mastered, to this day, it's a highly meta-relevant team. However, for more than 99% of the playerbase, that team is quite outdated and will face issues in endgame content when played at a baseline level.",
+            "Hence, Ciaccona can still find uses for more casual players as 3rd slot in Aero DPS teams. We see this in teams like Qingxiao/Lynae/Ciaccona, Iuno/Lynae/Ciaccona or Sigrika/Qiuyuan/Ciaccona. This is because she retains high personal damage and party-wide buffs, through her Echo Set Gusts of Welkin, giving 15% Aero DMG Bonus to the team, her permanent 24% Aero DMG Bonus through her Ensemble Sylphs, and most importantly of all, her Signature weapon. Indeed, 10% Aero RES shred is a very rare buff that Ciaccona is lucky to provide, especially considering all of her buffs are very easy to upkeep permanently when properly played. However, it's dependent on that bit of extra investment to actually own her Signature weapon, before she can utilize the full extent of her party-wide buffing strength. On the other hand, her Spectro Frazzle mode sees no use in endgame content nowadays, and was mostly a thing to give her some teams to play on her release before Cartethyia released. It's long since powercrept and sees no use in the top Spectro Frazzle teams though, where Phoebe and Spectro Rover are heavily favoured over her.",
+            "In conclusion, Ciaccona is still a meta-relevant character for the Aero Erosion team with Cartethyia. Outside of this, she can still find use as a 3rd slot Support to Aero DPS teams, but this is heavily dependent on owning her Signature weapon in order to be worth considering. The Cartethyia team has also fallen out of fashion for the majority of players in the game. So while Ciaccona still has her strengths, she is generally not a recommended pull for new players, and casual players in general. Consider carefully before choosing to pull her: make sure she's surrounded by the correct teammates, has her Signature if used in the 3rd slot, and is played properly in the Aero Erosion team to keep up with the meta."
           ]
         }
       ],
-      "summary": "Ciaccona is a 5-star Aero Pistol DPS whose primary point of interest is her ability to apply both Spectro Frazzle and Aero Erosion (mostly via her Ultimate). She amplifies Aero Erosion DMG and boosts Aero DMG in several ways, and is characterized by her ability to rotate quickly while retaining an off-field presence, similar to Coordinated Attackers (even though she isn't one). She additionally has great personal damage if you wish to play her as a Main DPS, it is a completely viable playstyle for her."
+      "summary": "Ciaccona is a 5-star Aero Pistol DPS whose primary point of interest is her ability to apply Aero Erosion (mostly via her Ultimate). She can also apply Spectro Frazzle through it, though that's quite underutilized nowadays. She also amplifies Aero Erosion DMG and boosts Aero DMG in several ways, and is characterized by her ability to rotate quickly while dealing good damage and providing good party-wide buffs."
     },
     "rotations": [
       {
-        "rotation_name": "Basic Rotation",
+        "rotation_name": "Standard Rotation",
         "steps": [
           "Intro",
-          "Basic P3",
-          "Basic P4",
-          "Jump (Cancel out of basic P4)",
-          "Mid-air Attack P1",
-          "Mid-air Attack P2",
-          "Basic P4",
-          "Skill (Cancel out of Basic P4)",
-          "Forte: Heavy Attack: Quadruple Downbeat",
-          "Ultimate: Improv Symphonic Poem (Cancel Forte Heavy when it hits the enemy)",
-          "(Optional) Symphonic Poem: Tonic (Switch to Spectro Frazzle if needed)",
-          "Outro"
-        ]
-      },
-      {
-        "rotation_name": "No Intro Rotation",
-        "steps": [
-          "Skill",
-          "Basic P2",
-          "Basic P3",
-          "Basic P4",
-          "Jump (Cancel out of basic P4)",
-          "Mid-air Attack P1",
-          "Mid-air Attack P2",
-          "Basic P4",
-          "Jump (Cancel out of basic P4)",
-          "Mid-air Attack P1",
-          "Mid-air Attack P2",
-          "Basic P4",
-          "Skill (Cancel out of Basic P4)",
-          "Forte: Heavy Attack: Quadruple Downbeat",
-          "Ultimate: Improv Symphonic Poem (Cancel Forte Heavy when it hits the enemy)",
-          "(Optional) Symphonic Poem: Tonic (Switch to Spectro Frazzle if needed)",
-          "Outro"
-        ]
-      },
-      {
-        "rotation_name": "Main DPS Rotation",
-        "steps": [
-          "Skill (Optional, do this when Sanhua performs her Forte Heavy Attack and she swaps out of it)",
-          "Intro",
-          "Basic P3",
-          "Basic P4",
-          "Jump (Cancel out of Basic P4)",
-          "Mid-air Attack P1",
-          "Mid-air Attack P2",
-          "Basic P4",
-          "Forte: Heavy Attack: Quadruple Downbeat",
+          "Basic 3",
+          "Basic 4 (Cancel animation on cast via Jump)",
           "Jump",
-          "Mid-air Attack P1",
-          "Mid-air Attack P2",
-          "Basic P4",
-          "Jump (Cancel out of Basic P4)",
-          "Mid-air Attack P1",
-          "Mid-air Attack P2",
-          "Basic P4",
-          "Jump (Cancel out of Basic P4)",
-          "Mid-air Attack P1",
-          "Mid-air Attack P2",
-          "Basic P4",
-          "Skill (Cancel out of Basic P4)",
-          "Forte: Heavy Attack: Quadruple Downbeat",
-          "Ultimate: Improv Symphonic Poem (Cancel Forte Heavy when it hits the enemy)",
+          "Basic: Mid-air Attack 1",
+          "Basic: Mid-air Attack 2",
+          "Basic 4 (Cancel animation on cast via Skill)",
+          "Skill",
+          "Heavy: Quadruple Downbeat (Cancel animation when shot via Ultimate)",
+          "Ultimate",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Standard Opener Rotation",
+        "steps": [
+          "Jump",
+          "Basic: Mid-air Attack 1",
+          "Basic: Mid-air Attack 2",
+          "Basic 4 (Cancel animation on cast via Jump)",
+          "Jump",
+          "Basic: Mid-air Attack 1",
+          "Basic: Mid-air Attack 2",
+          "Basic 4 (Cancel animation on cast via Jump)",
+          "Jump",
+          "Basic: Mid-air Attack 1",
+          "Basic: Mid-air Attack 2",
+          "Basic 4 (Cancel animation on cast via Skill)",
+          "Skill",
+          "Heavy: Quadruple Downbeat (Cancel animation when shot by Ultimate)",
+          "Ultimate",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "S3-S5 Rotation",
+        "steps": [
+          "Intro",
+          "Basic 3",
+          "Basic 4 (Animation cancel on cast via Skill)",
+          "Skill (2 times)",
+          "Heavy: Quadruple Downbeat (Animation cancel when shot via Ultimate)",
+          "Ultimate",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "S0-S2 DPS Rotation",
+        "steps": [
+          "Intro",
+          "Basic 3",
+          "Basic 4 (Animation cancel on cast via Jump)",
+          "Jump",
+          "Basic: Mid-air Attack 1",
+          "Basic: Mid-air Attack 2",
+          "Basic 4 (Animation cancel on cast via Skill)",
+          "Skill",
+          "Heavy: Quadruple Downbeat (Animation cancel when shot via Jump)",
+          "Jump",
+          "Basic: Mid-air Attack 1",
+          "Basic: Mid-air Attack 2",
+          "Basic 4 (Animation cancel on cast via Jump)",
+          "Jump",
+          "Basic: Mid-air Attack 1",
+          "Basic: Mid-air Attack 2",
+          "Basic 4 (Animation cancel on cast via Jump)",
+          "Jump",
+          "Basic: Mid-air Attack 1",
+          "Basic: Mid-air Attack 2",
+          "Basic 4 (Animation cancel on cast via Jump)",
+          "Jump",
+          "Heavy: Quadruple Downbeat (Animation cancel when close enough to the ground via Ultimate)",
+          "Ultimate",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "S3+ DPS Rotation",
+        "steps": [
+          "Intro",
+          "Basic 3",
+          "Basic 4 (Animation cancel on cast via Dash)",
+          "Dash",
+          "Heavy: Quadruple Downbeat (Animation cancel when shot via Jump)",
+          "Jump",
+          "Basic: Mid-air Attack 1",
+          "Basic: Mid-air Attack 2",
+          "Basic 4 (Animation cancel on cast via Jump)",
+          "Jump",
+          "Basic: Mid-air Attack 1",
+          "Basic: Mid-air Attack 2",
+          "Basic 4 (Animation cancel on cast via Skill)",
+          "Skill",
+          "Heavy: Quadruple Downbeat (Animation cancel when shot via Jump)",
+          "Jump",
+          "Basic: Mid-air Attack 1",
+          "Basic: Mid-air Attack 2",
+          "Basic 4 (Animation cancel on cast via Jump)",
+          "Jump",
+          "Basic: Mid-air Attack 1",
+          "Basic: Mid-air Attack 2",
+          "Basic 4 (Animation cancel on cast via Skill)",
+          "Skill",
+          "Heavy: Quadruple Downbeat (Animation cancel when shot via Ultimate)",
+          "Ultimate",
           "Outro"
         ]
       }

@@ -64,7 +64,7 @@
         "percentage_performance": "100.00%",
         "weapon_base_info": {
           "effect_description": "Increase Crit. Rate by {0}. Casting Resonance Liberation gives {1} Basic Attack DMG Bonus for 10s. Dealing Basic Attack DMG gives {1} Basic Attack DMG Bonus for 4s.",
-          "primary_stat_val": 415,
+          "primary_stat_val": 412,
           "rarity": 5,
           "secondary_stat_name": "Energy Reg.",
           "secondary_stat_val": 77,
@@ -75,7 +75,7 @@
       {
         "commentary_details": "ATK and Energy Regen stat-stick much like Aero Rover's Signature weapon. Only marginally better than it as it can provide 12% extra ATK via the passive, but generally not worth sparing the pulls when Bloodpact's Pledge is free to obtain.",
         "dupe_rank": "R1",
-        "percentage_performance": "77.20%",
+        "percentage_performance": "76.30%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Dealing damage to targets under Tune Strain: Interfered grants {1} Resonance Skill Bonus for 3s. Retriggering the effect resets its duration.",
           "primary_stat_val": 587,
@@ -89,7 +89,7 @@
       {
         "commentary_details": "Aero Rover's Signature weapon is actually very much usable on Brant with Tidebreaking Courage thanks to its high Base ATK and Energy Regen main stat. Unfortunately he is unable to make use of this weapon's passive effects, but as a Base ATK and Energy Regen stat-stick it's his best F2P weapon choice assuming you can acommodate Tideebreaking Courage's steep build requirements.",
         "dupe_rank": "R5",
-        "percentage_performance": "75.10%",
+        "percentage_performance": "74.30%",
         "weapon_base_info": {
           "effect_description": "Providing Healing increases Resonance Skill DMG by {0} for 6s. When Rover: Aero casts Resonance Skill Unbound Flow, Aero DMG dealt by nearby Resonators on the field is Amplified by {0} for 30s.",
           "primary_stat_val": 587,
@@ -103,7 +103,7 @@
       {
         "commentary_details": "Camellya's signature weapon is usable by all Basic Attack focused Sword wielding characters, including Brant, but it is designed with her in mind due to a lot of its power locked behind spending Concerto mid-rotation - something only Camellya can do. While Brant is able to make good leverage of most of its stats, but due to being unable to benefit from the Tidebreaking Courage set and not benefitting from the complete passive effect, it ranks lower than the above options.",
         "dupe_rank": "R1",
-        "percentage_performance": "73.10%",
+        "percentage_performance": "72.00%",
         "weapon_base_info": {
           "effect_description": "Increase ATK by {0}. When dealing Basic Attack DMG, the wielder gains {1} Basic Attack DMG Bonus for 14s. This effect can be triggered once per second, stacking up to 3 times. When the wielder's Concerto Energy is consumed, gain {2} Basic DMG Bonus for 10s. This effect can be triggered once per second and ends when the wielder is switched off the field.",
           "primary_stat_val": 587,
@@ -117,7 +117,7 @@
       {
         "commentary_details": "The combination of Energy Regen, CRIT Rate and solid Base ATK make this weapon usable on Brant, and while its small ATK% boost is also easy to stack up once, Brant doesn't get to make use of the second stack in his rotations. Unfortunately, unless this weapon is R5 it's not possible to use the Tidebreaking Courage set using it which makes it rank lower than above options.",
         "dupe_rank": "R1",
-        "percentage_performance": "71.30%",
+        "percentage_performance": "69.90%",
         "weapon_base_info": {
           "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases ATK by {1}, stacking up to 2 time(s). This effect lasts for 10s.",
           "primary_stat_val": 587,
@@ -141,9 +141,9 @@
       "slug": "brant",
       "updates": {
         "last_major_build_patch": "3",
-        "last_profile_update": "01/October/2026",
-        "last_review_patch": "2.6",
-        "last_updated": "01/October/2026"
+        "last_profile_update": "22/October/2026",
+        "last_review_patch": "3.7",
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Sword"
     },
@@ -239,24 +239,22 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "His Signature weapon is key to unlocking his full potential. Without it, his dedicated Echo set which improves his damage significantly is incredibly difficult to fully utilize;",
-        "High stat/gear requirements, due to needing Energy Regen and Crit Stats — one of the hardest characters to build in the game;",
-        "Has low Interruption Resistance on some of his key attacks (most notably his Forte Skill), which may require the use of Swap-Cancels or Perfect Dodges for protection on certain abilities."
+        "Buffing profile is very low, so his role as a buffer is seriously underpowered. Brant mostly provides personal damage (only exception to that are his Outro buffs), and nowadays that's not enough to suffice as the Best In Slot option to any team. In other words, he's never the best choice anywhere;",
+        "Completely dependent on his Signature weapon to perform. Brant is an entirely forgettable character without it on any account;",
+        "Unable to be competitive as a DPS if you don't want to Quickswap with him;",
+        "Gets interrupted what feels like all the time on his most important abilities at S0, his Forte Skill (aka his anchor) can get completely nullified by enemy attacks (which at that point means you should reset your endgame run). Plus, his Forte generation is dependent on his attacks connecting fully, so his rotations can get significantly slowed down against more mobile enemies."
       ],
       "pros": [
-        "Offers a very nice Fusion DMG Amplify and Skill DMG Amplify Outro, allowing him to pair with a lot of DPS characters;",
-        "Able to be played as both a Solo DPS and a multi-DPS unit thanks to remarkable personal damage;",
-        "Almost all of his kit is executed in Mid-Air thereby allowing him to avoid most enemy attacks for free;",
-        "Provides additional Sustain to the whole team for free in the form of both healing and very strong shielding;",
-        "Super straightforward to play for casual players — most of his rotation simply involves holding down Basic Attack."
+        "Enough personal damage to make him a viable Sub-DPS and Main DPS depending on team composition;",
+        "Big party-wide shields and healing;",
+        "High affinity for Quickswap with characters that rely on mid-air combat;",
+        "LET THE FLAMES RISE! Epic shot! Same actor, different role!"
       ]
     },
     "ratings": {
       "dps_ratings": {
         "tower_of_adversity": {
-          "tags": [
-            "Expert +1"
-          ],
+          "tags": [],
           "tier": "T2"
         },
         "whimpering_wastes": {
@@ -317,107 +315,77 @@
     "review": {
       "sections": [
         {
-          "heading": "Review",
+          "heading": "Summary",
           "paragraphs": [
-            "Brant is a 5-star Fusion Sword Hybrid character who's defined by his ability to deal great personal damage while having the potential to buff another DPS character on the team thanks to his Outro skill. This enables more unique team archetypes where, instead of concentrating damage into a single character, multiple characters contribute to the total, aka a multi-DPS team. He additionally sports Sustain abilities in the form of Heals and Shields, and most of his kit involves Mid-Air attacks. This makes him a great multi-purpose character who's able to fill many roles in a single team slot whilst also being relatively safe in the air."
+            "Brant is a 5-star Fusion Sword Hybrid character who's defined by his ability to deal great personal damage while being able to buff another DPS character on the team thanks to his Outro skill. He has a focus on mid-air combat and provides additional shielding and healing for your party, making him quite the multi-purpose character."
           ]
         },
         {
           "heading": "Key Mechanics & Forte",
           "paragraphs": [
-            "Like many other Wuthering Waves characters, Brant's kit is centered around his Forte Circuit with the majority of his other abilities connecting to it in some way. His Forte is called \"Bravo\" and is considered full at 100 points after which he is able to cast the enhanced version of his Resonance Skill \"Returned from Ashes\" which deals tremendous damage and scales off Basic Attack DMG. \"Returned from Ashes\" makes up a significant portion of his overall damage and fills up his Concerto Energy by half, meaning building up to this Forte skill as fast as possible is a priority and should put you in a great position to trigger Brant's Outro skill right after, assuming you fully exploit his kit. Additionally, it enables him to gradually heal the party every 25 points of \"Bravo\" and to gain flat ATK - both of these are dependent on his Energy Regen.",
+            "Like many other Wuthering Waves characters, Brant's kit is centred around his Forte Circuit with the majority of his other abilities connecting to it in some way. His Forte gauge stacks up to 100 points, and when full he is able to cast the enhanced version of his Resonance Skill \"Returned from Ashes\" (also known as the Anchor) which deals tremendous damage and scales off Basic Attack DMG. His Anchor makes up a significant portion of his overall damage and fills up his Concerto gauge by around half, meaning building up to this Forte skill as fast as possible is a priority and should put you in a great position to trigger Brant's Outro skill right after. Additionally, it enables him to gradually heal the party every 25 points of \"Bravo\" and to gain a significant amount of flat ATK for the cast - both of these are dependent on his Energy Regen.",
             "Brant's Forte gauge is filled in 3 ways:",
             "Via Basic Attacks;",
             "Via Intro Skills;",
-            "Via regular Resonance Skills (mostly unused, not worth it)."
+            "Via regular Resonance Skills (mostly unused).",
+            "His Outro is the only source of buffing in his kit, since his Signature set Tidebreaking Courage requires him to reach at least 250% Energy Regen to gain significant damage buffs (this also contributes significantly to the rest of his self-buffs tied to his Energy Regen stat). It grants 20% Fusion and 25% Skill DMG Amplification to the next character he Outros into for 14s, expiring upon swap."
           ]
         },
         {
-          "heading": "Basic Attacks",
+          "heading": "Rotation Concepts",
           "paragraphs": [
-            "Brant's Basic Attacks are the most important method to fill his Forte gauge and are hence essential to his kit. However, his grounded Basic Attacks offer very little Forte Gauge gain; the massive Forte Gauge build-up is found in his Mid-Air Basic Attacks, which he'll end up relying upon the most. His full chain of Mid-Air Basic Attacks, when paired with an Intro skill, are enough to fill his Forte Gauge. However, we can optimize it more by instead exploiting his Charged Attack and backflip mechanics. By holding down Basic Attack, Brant will perform backflips automatically for extra damage and causes the next attack in his Basic chain to be followed by a powerful Charged Attack that enables him to build up his Forte gauge quickly and efficiently. This makes Brant extremely straightforward to play as his playstyle pretty much amounts to holding down Basic Attack until his Forte is full. However, before we get to do that, a few key abilities need to be performed, namely:"
-          ]
-        },
-        {
-          "heading": "Intro Skill",
-          "paragraphs": [
-            "Brant's Intro skill, on top of doing minor damage, has two additional effects, one being generating a quarter of his Forte Gauge and second enables him to start his Mid-Air attack sequence from stage 2 instead of 1. These specifics make using his Intro skill necessary to his optimized rotations — due to the extra Forte gain."
-          ]
-        },
-        {
-          "heading": "Ultimate",
-          "paragraphs": [
-            "Brant's Ultimate also does significantly more than just minor AoE damage: it heals the whole party based on his Energy Regen, significantly increases the flat ATK boost gained from his Forte Circuit when performing his enhanced skill Returned to Ashes and lastly, it instantly puts him into Mid-Air and doubles his Forte Gauge generation from any source other than Intro skills."
-          ]
-        },
-        {
-          "heading": "Gameplay Loop",
-          "paragraphs": [
-            "Therefore, his gameplay amounts to Brant casting his Intro, immediately following up with his Ultimate and then simply following up by holding down Basic Attack until his Forte Gauge is full. At this point he can cast his enhanced skill and is ready to Swap-Out after it's performed. These actions make full use of his kit in a simplistic yet ingenious way.",
-            "At its core, we've already established that Brant's gameplay is fundamentally simple. However, don't be fooled by the simplicity of it as his Forte skill hits stupidly hard and is able to deal a huge portion of the team's damage by itself. In fact, it hits hard enough to be able to completely justify him in a traditional Hypercarry team where Brant's doing the overwhelming majority of the team's total damage. Granted, this doesn't make full use of his kit as his Outro is very valuable, however it remains a totally valid teambuilding choice."
-          ]
-        },
-        {
-          "heading": "Brant's Build Requirements",
-          "paragraphs": [
-            "Before getting too excited about building Brant there is one thing that must be highlighted and it's the main challenge with his kit — his massive Energy Regen requirements. Brant gains a significant amount of Flat ATK for each % of Energy Regen he possesses over 150% up to a cap of 280% (including the 100% Base Energy Regen). This makes Energy Regen one of his best offensive stats to have, not to mention the fact it's required in order to access his Ultimate every rotation. To make it even worse Brant's Signature Echo Set, a set which is a substantial damage gain for him over alternatives also requires an absurd 250% total Energy Regen (including the 100% Base Energy Regen).",
-            "In other words, Energy Regen is a stat he can't avoid, he needs it on his Echo Main Stats, Substats and if you have any intention of getting close to maxing out his Passive bonuses or using his Signature Echo Set, his Weapon as well. Fortunately as long as you have enough Energy to gain his Ultimate every Rotation (160-170% including Base should be enough) all you'll be losing out on is damage, as you can sub out his Signature Echo Set with 5P Molten Rift at the cost of only needing to press his skill once before doing his full rotation. Getting as much Energy Regen as possible is always a goal of Brant's but doing so at the cost of other high value offensive stats like CRIT isn't always worth it even if it means using a lower power set for a while.",
-            "Based on the above, it should be clear Brant has higher Echo requirements than most, especially if you intend to avoid using an Energy Regen weapon, although that shouldn't stop you from building him as he packs quite the punch when fully geared up. Fortunately or unfortunately based on who you ask, Brant has a quick fix to his gearing woes, his Signature Weapon Unflickering Valor. This weapon is totally tailored towards him and offers him a substantial amount of Energy Regen he needs, while providing the Basic Attack DMG bonus he needs to hit even harder with his Forte skill, and even a minor amount of CRIT Rate for his CRIT requirements to be slightly reduced. This weapon not only makes him incredibly easy to build on Tidebreaking Courage — it makes him reach a different level of viability when he's built properly.",
-            "The substantial amount of Energy Regen it gives is enough for you to run a Fusion DMG bonus 3 cost Echo instead of 2 Energy Regen 3 cost Echoes; this makes his damage potential skyrocket as DMG bonus is one of his best stats to invest into — something that his weapon leans into even more. Remember that his base ATK is low compared to other DPS units, so ATK% isn't too profitable and the flat ATK gains from his Forte/Ultimate hold a lot more meaning in comparison due to this."
+            "The focus of Brant's combat is in his Mid-air Attacks. They generate more Forte than his other attack strings, quicker. His Intro and Ultimate both also send him into the air if he is grounded, so it is heavily incentivized to utilize his Mid-air Attacks no matter what.",
+            "Brant has several options when it comes to mid-air combat, as beyond simply performing the equivalent of Basic Attacks in the air, he notably he has the ability to \"charge\" his first two Mid-air Attacks (similarly to a Heavy Attack) which can provide significant Forte gain, and he also performs some \"Flips\" automatically after his first 3 mid-air attacks to deal a bit of extra damage and gain a bit of extra Forte.",
+            "His Ultimate also provides 2 significant self-buffs that are key to his rotations: the ATK increase from his Forte based on his Energy Regen is 2/3 (66%) stronger, and importantly, his Forte generation from all his attacks is doubled. Except for his Intro, which always fills his Forte gauge by about a quarter and allows him to start his Mid-air Attack string from Mid-air Attack 2.",
+            "In practice, the fastest way to build up to his Forte after an Intro is by immediately casting his Ultimate to benefit from the doubled Forte gain, then to cast Mid-air Attack 2, charge it, and perform Mid-air Attack 3. That's enough to charge up his Anchor Forte Skill and finish his rotation by casting it."
           ]
         },
         {
           "heading": "Meta Position & Conclusion",
           "paragraphs": [
-            "Despite having healing and shielding Brant doesn't fill the role of a generalist Healer like Shorekeeper or Verina (as he wants to deal damage by running damage-focused sets & builds), however running him in addition to one makes things even more comfortable thanks to the extra Sustain available.",
-            "In contrast, his other supportive capability - his Outro - is far more useful as the combo of Resonance Skill and Fusion DMG amplification is not only very appreciated on a number of characters like Changli and Chixia, but can also extend to general Fusion DMG dealers like Encore and general Skill DMG dealers like Carlotta or even Jinhsi. And even without it, his damage ceiling is high enough to warrant him a viable position as the Main DPS of your team — provided your rotation is adjusted to account for that.",
-            "Due to Brant's very strict build requirements, if it were only up to us, we'd suggest pulling Brant with his Signature Weapon if you want to play him, and otherwise not pulling Brant at all; however, if you like the character and don't have the resources required to pull his Signature Weapon, by all means pull him and have fun. He's particularly strong in a Mono Fusion team featuring Lupa, and that's a team where his spot is very difficult to negotiate – that said, it's entirely possible to play Lupa with Encore and a generalist Support like Verina or Shorekeeper and that evens out to a mono-fusion team figuring Brant without his Signature, so his value is questionable without it from a strictly meta-focused perspective, unless his extra Sustain capabilities are particularly desired by the player.",
-            "To summarize, Brant ends up as a character who has a lot of potential, can work in multiple team archetypes, can fill many roles on a team efficiently and yet has a ton of his potential locked behind extra gear that costs a LOT of Astrites. And if his Signature Weapon alone wasn't enough, he even scales off his first 3 Sequences really well. He will still work at a baseline S0 level with Emerald of Genesis on Molten Rift; however a ton of his potential is locked behind his extra upgrades. With that being said, his Mid-Air playstyle is enjoyable and when Brant does get to work, he works brilliantly. At his best, he is part of one of the highest damage-dealing teams in the game in the form of Mono Fusion; and even outside of that scope, he remains a strong contender to add that little bit of extra damage and sustain you might need to clear the endgame contents of Wuthering Waves."
+            "Let's get something important out of the way first: Brant is a very expensive character to build, both Echoes-wise and Astrite investment-wise. His Signature weapon provides him with a massive 77% Energy Regen boost. His Energy Regen requirement for his Signature Echo set (which is a big damage boost) is 250% at minimum, and it can go up to 280% Energy Regen when it comes to Flat ATK increases from his Forte/Ultimate.",
+            "Not only that, but Brant is a character very dependent on his personal damage to perform. A good Echo build is in order, but that means getting at the minimum CRIT and Energy Regen stats on every Echo (or almost every with his Signature). Not only is owning his Signature weapon practically a requirement in order to build him properly, he will take a lot more Echoes to roll than the average character in order to get satisfactory performance out of him. This places big constraints on what his pull value can be for most players.",
+            "Brant does have his strengths when he is fully geared though: he is multi-roled, as he deals great personal damage for his rotation time of about 8 seconds, he can buff your Main DPS via his Outro skill, and he can provide big healing and shielding for the whole party, so his sustain capabilities are appreciated too.",
+            "The issue is that even with all of these facets that could make him a great secondary damage dealer, buffer, and sustain, he has the classic problem of being a jack of all trades, master of none. Brant's buffing potential is only limited to his Outro, while basically every other Hybrid buffer can at least run an Echo set for higher buffing potential, and in most cases have extra buffs packed into their kit. Brant deals good personal damage, but it's nowhere near that of a Main DPS (unless you explicitly lengthen his rotations to do so). His sustain capabilities are great, but non-essential to endgame clears.",
+            "Overall, Brant is quite the forgettable character in today's meta. He had his time to shine in the 2.x Rinascita era as one of the best Fusion characters you could get, but his main role was on teams with Lupa. Nowadays, Lupa is better off using more modern Fusion characters and Mornye for general buffing, since she has a great Outro skill of her own. The only Fusion/Skill damage dealer in this game is Changli, so his Outro has not been utilized to its fullest potential since a character significantly pre-dating his release, that has long since been powercrept herself.",
+            "In conclusion, Brant is not a recommended pull in today's Wuthering Waves meta. His heavy build requirements do not justify the rewards you get for building him, as he is a jack of all trades, master of none kind of character. More specialized Supports for modern damage dealers are recommended over him, as they tend to be cheaper to build and bring modern DPS to higher ceilings. In the Fusion archetype, Lupa and Mornye are more recommended as well. However, if you wish to utilize Brant's strengths, because you already own him or simply like the character, he can still clear Tower of Adversity and Endstate Matrix when surrounded by proper teammates, with a good enough playstyle and the right amount of investment (though he will struggle in Whimpering Wastes). Keep this in mind if you wish to acquire him today or want to get around to building him now!"
           ]
         }
       ],
-      "summary": "Brant is a 5-star Fusion Sword Hybrid character who's defined by his ability to deal great personal damage while having the potential to buff another DPS character on the team thanks to his Outro skill. This enables more unique team archetypes where, instead of concentrating damage into a single character, multiple characters contribute to the total, aka a multi-DPS team. He additionally sports Sustain abilities in the form of Heals and Shields, and most of his kit involves Mid-Air attacks. This makes him a great multi-purpose character who's able to fill many roles in a single team slot whilst also being relatively safe in the air."
+      "summary": "Brant is a 5-star Fusion Sword Hybrid character who's defined by his ability to deal great personal damage while being able to buff another DPS character on the team thanks to his Outro skill. He has a focus on mid-air combat and provides additional shielding and healing for your party, making him quite the multi-purpose character."
     },
     "rotations": [
       {
         "rotation_name": "Standard Rotation",
         "steps": [
           "Intro",
-          "Skill: Plunging Attack (OPTIONAL) (Immediately Cancel With Ultimate)",
           "Ultimate",
-          "Mid-Air Atk P2",
-          "Mid-Air Atk P2: Charged Attack",
-          "Mid-Air Atk P2: Flip",
-          "Mid-Air Atk P3",
-          "Mid-Air Atk P3: Flip",
-          "Forte: Returned from Ashes",
+          "Basic: Mid-Air Attack 2",
+          "Heavy: Mid-Air Attack 2 Charged (Full Channel)",
+          "Basic: Mid-Air Attack 3",
+          "Skill: Returned from Ashes",
           "Outro"
         ]
       },
       {
-        "rotation_name": "DOUBLE FORTE DPS ROTATION",
+        "rotation_name": "Double Forte Rotation (DPS)",
         "steps": [
-          "Skill: Anchors Aweigh! (Pre-Rotation)",
-          "<-- Swap -->",
+          "Opener only: Skill: Anchors Aweigh! (Swap)",
           "Intro",
-          "Mid-Air Atk P2",
-          "Mid-Air Atk P2: Charged Attack",
-          "Mid-Air Atk P2: Flip",
-          "Mid-Air Atk P3",
-          "Mid-Air Atk P3: Flip",
-          "Mid-Air Atk P4",
-          "<-- Swap and Prepare Team Buffs -->",
+          "Basic: Mid-air Attack 2",
+          "Heavy: Mid-air Attack 2 Charged (Full Channel)",
+          "Basic: Mid-air Attack 3",
+          "Basic: Mid-air Attack 4 (Cancel animation endlag via Echo)",
+          "Echo (Swap)",
           "Intro",
-          "Forte: Returned from Ashes",
+          "Skill: Returned from Ashes (Cancel animation endlag via Ultimate)",
           "Ultimate",
-          "Mid-Air Atk P1",
-          "Mid-Air Atk P2",
-          "Mid-Air Atk P2: Charged Attack",
-          "Mid-Air Atk P2: Flip",
-          "Mid-Air Atk P3",
-          "Mid-Air Atk P3: Flip",
-          "Mid-Air Atk P4",
-          "Forte: Returned from Ashes",
+          "Basic: Mid-air Attack 1",
+          "Basic: Mid-air Attack 2",
+          "Heavy: Mid-air Attack 2 Charged (Full Channel)",
+          "Basic: Mid-air Attack 3",
+          "Basic: Mid-air Attack 4 (Cancel animation endlag via Skill)",
+          "Skill: Returned from Ashes",
           "Outro"
         ]
       }

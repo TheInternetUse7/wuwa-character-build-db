@@ -185,9 +185,9 @@
       "slug": "galbrena",
       "updates": {
         "last_major_build_patch": "3",
-        "last_profile_update": "01/October/2026",
-        "last_review_patch": "2.7",
-        "last_updated": "01/October/2026"
+        "last_profile_update": "22/October/2026",
+        "last_review_patch": "3.7",
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Pistols"
     },
@@ -304,24 +304,21 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Has a rather bland playstyle only dependent on pressing Basic Attacks or occasionally executing Dodge Counters;",
-        "The overwhelming majority of her damage is loaded into the last two thirds of her rotation. In a meta where constant AoE output is important for one of the two hardest endgame modes, this significantly lowers her pull value;",
-        "Galbrena excels in the Mono Fusion team, but Changli is very competitive for her spot. Galbrena may be a redundant pull in this team if Changli is already owned, not because she isn't stronger, but because the difference is marginal (particularly if neither of them own their Signature weapon)."
+        "Her best team is Mono Fusion. Any more modern Fusion DPS than Galbrena can use those characters better than she can, because her raw damage numbers don't compete;",
+        "Her other best team is Echo Skill DMG with Qiuyuan/Lucilla. Sigrika is a direct upgrade to Galbrena in all scenarios there, other than Aero RES;",
+        "TL;DR: Galbrena has no reason to exist on anyone's account if you don't already own her and want to find the best fit for your Echo/Fusion Supports."
       ],
       "pros": [
-        "Is the best Fusion damage dealer currently in the game;",
-        "Has lots of different teammate options and performs well with all of them;",
-        "Signature weapon isn't necessary to perform alongside good teammates — standard 5-star is easily acceptable;",
-        "Has a really strong Dodge Counter combo, meaning she isn't affected by enemies being more aggressive provided the player can execute proper Perfect Dodging;",
-        "Her Outro only does damage, meaning she doesn't restrict the next character from quickswapping — this adds a lot to her damage ceiling."
+        "Can play into both the Mono Fusion and Echo Skill DMG archetypes, giving her some decent teammate flexibility;",
+        "Does not need her Signature weapon at all. Phasic Homogenizer is totally fine as a replacement;",
+        "Outro being damage-only means she is fully Quickswap-friendly."
       ]
     },
     "ratings": {
       "dps_ratings": {
         "tower_of_adversity": {
           "tags": [
-            "Echo",
-            "Expert +1"
+            "Echo"
           ],
           "tier": "T1"
         },
@@ -385,9 +382,9 @@
     "review": {
       "sections": [
         {
-          "heading": "Review",
+          "heading": "Summary",
           "paragraphs": [
-            "Galbrena is a 5-star Fusion Pistol DPS who, despite what her weapon class would make you think, gets up close and personal with her targets to deal massive Cleave damage to them under her enhanced state called Demon Hypostasis. Accessing this state and optimizing its damage via Galbrena's numerous self-buffs included in her kit is the key to unleashing her full potential."
+            "Galbrena is a 5-star Fusion Pistol DPS who, despite what her weapon class would make you think, gets up close and personal with her targets to deal Fusion & Heavy/Echo Skill damage to them under her enhanced state called Demon Hypostasis. Accessing this state and optimizing its damage via Galbrena's numerous self-buffs included in her kit is the key to unleashing her full potential."
           ]
         },
         {
@@ -395,73 +392,99 @@
           "paragraphs": [
             "Galbrena's kit focuses around entering a stance called Demon Hypostasis. It allows her to cast massively enhanced attacks that deal the overwhelming majority of her damage at the cost of Forte points called Sinflame. They get converted 1 to 1 into Purging Flame which is then expended to cast her enhanced moves in Demon Hypostasis. As a result, the focus of her kit is generating her max of 100 Sinflame to then expend it after entering Demon Hypostasis, entered by casting her Enhanced Skill.",
             "The amount of Sinflame currently generated is visible on her Forte bar, marked in blue outside of Demon Hypostasis. In Demon Hypostasis, only Purging Flame will be visible.",
-            "Via her Inherent Passives, Galbrena possesses Stamina recovery on a lot of her attacks, and a ramp-up DMG Amplify effect up to 20% which is easy to fully stack, as well as 20% ATK which will be up throughout most of her rotation. A lot of self-buffs make for a strong, self-sufficient kit.",
+            "Via her Inherent Skills, Galbrena possesses Stamina recovery on a lot of her attacks, and a ramp-up DMG Amplify effect up to 20% which is easy to fully stack, as well as 20% ATK which will be up throughout most of her rotation. A lot of self-buffs make for a strong, self-sufficient kit.",
             "Furthermore, she additionally possesses an extra Forte bar marked in red, and it stacks up to 40 points. It is called Afterflame, and it replenishes by casting Echo skills, at a rate of 8 points per. This increases the DMG Taken of enemies during Demon Hypostasis by up to 60% (1.5% per point).",
-            "The above is especially important because DMG Taken is a multiplier very rarely seen in character kits (mostly high Sequences like Cartethyia's and Phrolova's). On any character currently, in most cases it is rare enough to be considered a completely unique multiplier that buffs overall damage by whatever percentage is indicated. In other words, Galbrena's damage increases by up to 60% with multiple Echo skill casts on the team u can replace it by (in her best teams, this will typically not be maxed out and be left at 36% without Phrolova, 48% with Phrolova).",
-            "And for those who are curious: DMG Taken is the opposite of DMG Reduction observable in Tower of Adversity. They interact with one another directly and are considered the same damage multiplier."
+            "The above is especially important because DMG Taken (also known as Vulnerability) is a multiplier very rarely seen in character kits (mostly high Sequences like Cartethyia's and Phrolova's, and Qiuyuan's Forte buffs). In most cases, it is rare enough to be considered a completely unique multiplier that buffs overall damage by whatever percentage is indicated. In other words, Galbrena's damage increases by up to 60% with multiple Echo skill casts on the team (in her Mono Fusion team, this will typically not be maxed out and be left at 36%, but will go up to the full 60% with Qiuyuan or Lucilla).",
+            "And for those who are curious: DMG Taken is the opposite of DMG Reduction observable in Tower of Adversity. They interact with one another directly and are considered the same damage multiplier (they just increment as positive DMG Reduction or Negative DMG Reduction = Vulnerability)."
           ]
         },
         {
           "heading": "Attacks outside of Demon Hypostasis",
           "paragraphs": [
-            "Outside of Demon Hypostasis, Galbrena will mostly want to execute Basic Attacks because they replenish her Forte gauge the fastest. As a result, we can exploit the following during her rotations:",
+            "Outside of Demon Hypostasis, Galbrena will want to execute a mix of Heavy and Basic Attacks because they replenish her Forte gauge the fastest. As a result, we can exploit the following during her rotations:",
             "Intro leads into Basic Attack 2;",
-            "Basic Attack 4 leads into Basic Attack 2;",
+            "Heavy Attack 3 can be Dash Cancelled when fired while retaining full damage and Forte generation;",
             "Dodge Counter leads into Basic Attack 4 (situational).",
-            "Basic Attack 4 is a great Swap Cancel window if no Outro buffs are currently active on Galbrena.",
-            "Additionally, her Enhanced Skill has a very short animation as it is a very short slash which has a small amount of endlag. This endlag will be animation-cancelled on hit by her Ultimate to save a small amount of time.",
-            "Finally, her Ultimate increases the DMG multiplier of all attacks in Demon Hypostasis by 85% which means it is necessary to cast before entering Demon Hypostasis because this buff represents a massive damage boost. However, the 20% DMG Amplify from her Inherent skill should be fully stacked up before using it to maximize damage (simply doing Intro + Basic Attack + Enhanced Skill is sufficient!)"
+            "Finally, her Ultimate increases the DMG multiplier of all attacks in Demon Hypostasis by 85% which means it is necessary to cast before doing any attacks in Demon Hypostasis, because this buff represents a massive damage boost. However, the 20% DMG Amplify from her Inherent skill should be fully stacked up before using it to maximize damage (simply doing Intro + Basic Attack + Enhanced Skill is sufficient!)"
           ]
         },
         {
           "heading": "Attacks during Demon Hypostasis",
           "paragraphs": [
-            "During Demon Hypostasis, Galbrena only has her Basic Attack and Dodge Counter that she should worry about in order to fully expend her Forte gauge. There are 3 different properties to note here:",
+            "During Demon Hypostasis, Galbrena only has her Basic Attack and Dodge Counter that she should worry about in order to fully expend her Forte gauge. There are 4 different properties to note here:",
             "Ultimate leads into Basic Attack 2;",
             "Basic Attack 5 leads into Basic Attack 3;",
+            "Basic Attack 3 can be Dash Cancelled at the end of the animation to save minimal time, Basic Attack 5 can be Dash Cancelled as soon as the enemy is hit by Galbrena's kick to save a lot of time;",
             "Dodge Counter leads into Basic Attack 4.",
-            "All of these properties are used in her rotation to skip out on the weak Basic Attack 1 and only focus on the much stronger Basic Attacks 3, 4 and 5 which have much higher damage values than the first two. Additionally, the Dodge Counter is really strong and for all intents and purposes replaces Basic Attack 3 as a better version, both in Forte consumption and in damage.",
-            "What this means is that Galbrena's full Dodge Counter combo is really strong and particularly important to execute whenever possible. If an enemy attack is incoming, make sure to Perfect Dodge it and execute her Dodge Counter combo to take Galbrena's damage to new heights!",
-            "Starting from max Forte, 2 Dodge Counter combos or 2 full Basic 3,4,5 combos can be executed (alongside a Basic 2 to start with). The final Basic 5 can and should be Swap Cancelled for optimal damage."
-          ]
-        },
-        {
-          "heading": "Unused parts of her kit",
-          "paragraphs": [
-            "In practice, all of Galbrena's Mid-Air Attacks, her base Resonance Skill, her Hellstride attack, and all Heavy Attacks will go unused. They are not essential to her rotation and deal less damage than her Basic Attacks and Dodge Counters, so optimally Galbrena will not want to use them to optimize damage during her field time."
+            "All of these properties are used in her rotation to skip out on the weak Basic Attack 1 and only focus on the much stronger Basic Attacks 3, 4 and 5 which have much higher damage values than the first two. Additionally, the Dodge Counter is really strong and for all intents and purposes serves as a Basic Attack 3 with higher damage. It can be quite advantageous in the right situations. Starting from max Forte, 2 Dodge Counter combos or 2 full Basic 3,4,5 combos can be executed (alongside a Basic 2 to start with)."
           ]
         },
         {
           "heading": "Meta Position & Conclusion",
           "paragraphs": [
-            "Galbrena is a very simple Basic Attack spam character, whose only real damage ceilings reside in her rotation outside of Demon Hypostasis (where her Forte gauge can be generated before Introing into her in certain teams, particularly those involving Lupa to nearly immediately go into Demon Hypostasis after Intro and save time) as well as her ability to execute strong Dodge Counters during Demon Hypostasis.",
-            "Beyond this, she has very little intricacies to her kit and as a result presents herself as a strong Fusion main damage dealer who can benefit from a wide variety of teammates, ranging from Brant/Mortefi + Lupa, to Phrolova + Shorekeeper, or even Mortefi + Shorekeeper/Verina for more F2P-accessible units. And the best part is that she can perform with all of these teammates. However, as the main damage dealer of all teams she is present in, she will definitely require a strong weapon to boot, ideally her Signature, but with strong teammates, she can function on Static Mist (the standard banner 5-star pistol) just fine.",
-            "In conclusion, Galbrena functions in a main damage dealer archetype that has been done several times in the past, but despite functioning in a classic role she is also very strong in her niche. Her only real weakness is multi-wave content found in Whimpering Wastes, due to the nature of her kit focusing around a strong burst damage window instead of constant damage output (which is generally favourable for multi-wave). With that being said, she can also function there given enough effort and a strong enough team, making her specialized against Boss encounters, yet still generally usable in AoE situations as well.",
-            "As the new best single-target Fusion damage dealer in the game, Galbrena cements herself a comfortable spot in the Wuthering Waves meta, using a variety of teammates, taking new and old characters alike to new heights."
+            "Galbrena is a very simple Basic Attack spam character, whose only real damage ceiling improvements reside in her rotation outside of Demon Hypostasis - where Heavy Attacks do find some use, and her Forte gauge can be generated before Introing into her in certain teams, particularly those involving Lupa to nearly immediately go into Demon Hypostasis after Intro and save time.",
+            "Beyond this, she has very little intricacies to her kit and as a result presents herself as a decent Fusion damage dealer with decent teams. But that's all she is: a decent character all around. Galbrena faces issues in endgame content generally by a lack of damage numbers to keep up with the modern 3.x cast. It's still quite possible to clear with her, particularly in Quickswap, but generally Galbrena is behind the modern damage dealers and it shows. She was at her prime in version 3.0, when Mornye and Phasic Homogenizer both released to give her a new best team alongside Lupa and a fantastic alternative to her Signature, however since the release of Aemeath right after that, in the Fusion DPS department she was quickly outshined for Lupa teams, or at least Mornye teams since Aemeath's own best team uses her and Lynae. Additionally, Sigrika came out as a new best user of Qiuyuan.",
+            "While Galbrena is decent in both WhiWa and ToA and can see acceptable results, she generally has all of her best teammates constantly stolen from her by damage dealers with simplt higher baseline numbers, that operate in the same niche that she does. Lucilla is the latest expansion to the Echo Skill damage engine that Galbrena can make use of, but she is no upgrade to Qiuyuan as he gives slightly less specialized buffs than Lucilla, and Galbrena deals 1/3 Heavy Attack damage, which Lucilla does not help with in the slightest.",
+            "In conclusion, Galbrena used to be one of the strongest damage dealers when she released, but since then got outshined rather quickly. Landing on the tail end of 2.x damage dealers, the newest generations of damage dealers that came since version 3.1 quickly stole her best teammates to take them to new heights, both in Mono Fusion and in Echo Skill damage, rendering her quite skippable overall for new players, as she remains usable for players who already own her for now."
           ]
         }
       ],
-      "summary": "Galbrena is a 5-star Fusion Pistol DPS who, despite what her weapon class would make you think, gets up close and personal with her targets to deal massive Cleave damage to them under her enhanced state called Demon Hypostasis. Accessing this state and optimizing its damage via Galbrena's numerous self-buffs included in her kit is the key to unleashing her full potential."
+      "summary": "Galbrena is a 5-star Fusion Pistol DPS who, despite what her weapon class would make you think, gets up close and personal with her targets to deal Fusion & Heavy/Echo Skill damage to them under her enhanced state called Demon Hypostasis. Accessing this state and optimizing its damage via Galbrena's numerous self-buffs included in her kit is the key to unleashing her full potential."
     },
     "rotations": [
       {
         "rotation_name": "Standard Rotation",
         "steps": [
           "Intro",
-          "Basic P2",
-          "Basic P3",
-          "Basic P4",
-          "Basic P2",
-          "Basic P3",
-          "Skill: Ascent of Malice (interrupt animation on hit)",
+          "Basic 2",
+          "Basic 3",
+          "Heavy 1",
+          "Heavy 2",
+          "Heavy 3 (Cancel animation on shot via Dash)",
+          "Dash: Hellstride",
+          "Heavy 1",
+          "Heavy 2 (Cancel animation as soon as possible via Skill)",
+          "Skill: Ascent of Malice (Cancel animation endlag via Ultimate)",
           "Ultimate",
-          "Forte: Basic P2",
-          "Forte: Basic P3",
-          "Forte: Basic P4",
-          "Forte: Basic P5",
-          "Forte: Basic P3",
-          "Forte: Basic P4",
-          "Forte: Basic P5 (Swap)",
+          "Basic: Seraphic Execution 2",
+          "Basic: Seraphic Execution 3 (Cancel animation endlag via Dash)",
+          "Dash: Hellstride",
+          "Basic: Seraphic Execution 4",
+          "Basic: Seraphic Execution 5 (Cancel animation on kick via Dash)",
+          "Dash: Hellstride",
+          "Basic: Seraphic Execution 3 (Cancel animation endlag via Dash)",
+          "Dash: Hellstride",
+          "Basic: Seraphic Execution 4",
+          "Basic: Seraphic Execution 5 (Swap)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Extended Rotation",
+        "steps": [
+          "Intro",
+          "Basic 2",
+          "Basic 3",
+          "Heavy 1",
+          "Heavy 2",
+          "Heavy 3 (Cancel animation on shot via Dash)",
+          "Dash: Hellstride",
+          "Heavy 1",
+          "Heavy 2 (Cancel animation as soon as possible via Skill)",
+          "Skill: Ascent of Malice (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Basic: Seraphic Execution 2",
+          "Basic: Seraphic Execution 3 (Cancel animation endlag via Dash)",
+          "Dash: Hellstride",
+          "Basic: Seraphic Execution 4",
+          "Basic: Seraphic Execution 5 (Cancel animation on kick via Dash)",
+          "Dash: Hellstride",
+          "Basic: Seraphic Execution 3 (Cancel animation endlag via Dash)",
+          "Dash: Hellstride",
+          "Basic: Seraphic Execution 4",
+          "Basic: Seraphic Execution 5 (Cancel animation endlag via Dash)",
+          "Dash: Hellstride",
+          "Basic: Seraphic Execution 3 (Swap)",
           "Outro"
         ]
       }

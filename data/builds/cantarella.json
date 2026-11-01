@@ -209,9 +209,9 @@
       "slug": "cantarella",
       "updates": {
         "last_major_build_patch": "3",
-        "last_profile_update": "01/October/2026",
-        "last_review_patch": "2.2",
-        "last_updated": "01/October/2026"
+        "last_profile_update": "22/October/2026",
+        "last_review_patch": "3.7",
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -290,16 +290,13 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Huge Energy Regen requirements — depending on your build, an Energy Regen main stat Echo may be required, causing a significant decrease in her damage. By extension, all teammates will require more Energy Regen than usual as well.",
-        "No perfect meta relevant team at the time of her release where she's the clear best in slot choice (However she has a place in some more niche non-meta teams).",
-        "Her only way to stand out from other Coordinated Attacking Hybrids is by offering extra healing, which may not be necessary to a lot of players.",
-        "Could be distracting to play (no judging though)."
+        "Literally only a good choice for Phrolova teams, significantly outclassed by Qiuyuan and Lucilla in the Echo Skill buffing department - even for Phrolova teams if you don't care about the healing. Also outclassed by many other buffers for Havoc/Skill teams in general, so her team flexibility is nonexistent;",
+        "Big Energy Regen problems - Cantarella generates very little Resonance Energy for the team and herself. Her and her team's Energy Regen requirements can spike (not Phrolova/Lucilla since they don't require any Energy though);",
+        "Could be distracting to play for many (not our case, but no judging if you recognized yourself)."
       ],
       "pros": [
-        "Strong on and off-field presence with big on-field hits and Coordinated Attacks.",
-        "Works in many teams by amplifying both Skill and Havoc damage.",
-        "Provides extra healing and slows down enemies for comfort purposes.",
-        "Has lots of viable Weapon choices, even F2P ones."
+        "Extra Echo Skill casts and an ideal Outro to buff Phrolova, a very meta-relevant DPS to date;",
+        "Has Sustain capabilities, which none of Phrolova's other ideal teammates have."
       ]
     },
     "ratings": {
@@ -323,7 +320,7 @@
       },
       "value_tier_ratings": {
         "tower_of_adversity_value": {
-          "tier": "T3"
+          "tier": "T2"
         },
         "whimpering_wastes_value": {
           "tier": "T2"
@@ -376,51 +373,92 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Cantarella is a 5-star Havoc Rectifier Hybrid who fills a few roles on the team: she's capable of dealing damage on the field, off the field via Coordinated Attacks, and she can heal your team as well. And if that wasn't enough, she buffs Havoc DMG and Resonance Skill DMG through her Outro skill. This makes her able to function as a mix of DPS, Buffer, and Healer for your team all at once, fulfilling many roles and giving her a lot of flexibility in team compositions.",
-            "Her kit is fairly complex to grasp, as there are many things to note when trying to execute a proper rotation for her. All of it is synergistic and needs to be exploited correctly to unlock her full potential. As such, we'll try our best to explain things in a way that will be understandable by most.",
-            "As we mentioned earlier, her full kit must be exploited, and as such, unlike other characters, she has no focal point, as everything functions together. Therefore, we'll take a different approach this time and detail all of her abilities in order as they happen in the rotation we use on the site.",
-            "First things first, her Intro skill. It has several effects and possesses two variants, aside from just being the typical small burst of Havoc DMG.",
-            "The first variant, triggered upon casting her Intro skill normally without doing anything on Cantarella prior to using it, is called Ripple. This is the only variant you will realistically use in a rotation, and it has the effect of starting her Basic Attack chain from stage 3, as well as generating 1 of her Standard Forte points, called \"Trance\".",
-            "\"Trance\" stacks up to 5 times and when fully stacked, allows Cantarella to cast an enhanced Heavy Attack called \"Delusive Dive\". This sends her into the air in a special state called \"Mirage\" during which a lot of her kit changes — we'll get back to this part in a bit.",
-            "The second variant of her Intro is triggered upon casting her Intro skill after having used \"Delusive Dive\" and entering into \"Mirage\" state. It deals the same amount of damage as her first Intro skill variant and has no special effect other than resetting your Basic Attack chain in the \"Mirage\" state, making this skill something that will never be realistically used on her.",
-            "Both Intro skills make Cantarella enter a state called \"Abyssal Rebirth\". The only effect this has is assisting her with her Concerto Energy generation — whenever she or her teammates cast an ability that is considered as an Echo skill, it generates 6 Concerto Energy for her up to 6 times.",
-            "As mentioned earlier, Cantarella gets access to her Basic Attack 3 right away when she casts her first Intro skill, so we make use of that to generate Concerto Energy and an extra \"Trance\" stack. The other 2 Basic Attacks typically go unused.",
-            "Her default Resonance Skill is Graceful Step, which is necessary to use for the slight amount of Concerto Energy it generates. It also generates an extra \"Trance\" stack, providing us with three in total at this point.",
-            "Her Ultimate allows her to max out on \"Trance\" stacks, as it generates 3 stacks (so we overcap by 1, but it's necessary to use for her Concerto Energy requirements). Besides that, it deals a good burst of damage which is considered as Basic ATK DMG as well as an Echo Skill for Abyssal rebirth. It also activates her Coordinated Attacks, which are considered as Basic ATK DMG by summoning up to 1 Coordinated Attack per second every time your characters deal damage — this functions the same as Zhezhi's Ultimate (except Cantarella has the initial burst hit to top it off).",
-            "Now that we have maximum \"Trance\" stacks obtained through the rotation so far, we can enter \"Mirage\" using her enhanced Heavy Attack. With this we get access to a brand new Resonance Skill, the cooldown of which instantly refreshes and is called \"Flickering Reverie\", which is considered as an Echo Skill. It also sends any enemies hit by it into a state called \"Hazy Dream\", during which they are slowed down for 6.5s. This will also have an effect of triggering one additional Basic Attack called \"Jolt\" automatically, whenever Cantarella deals damage to them while in the \"Hazy Dream\" state.",
-            "While in \"Mirage\" state, Cantarella gains access to a new enhanced Basic Attack called \"Phantom String,\" which we'll be using next. These new enhanced Basic Attacks generate a new Forte bar called \"Shiver\", which stacks up to 3 times, after which she can cast her big skill nuke called \"Perception Drain\" which is considered as Basic ATK DMG as well as an Echo Skill for Abyssal rebirth. This skill not only does a big chunk of damage but also heals your whole party, sending enemies into \"Hazy Dream\" state once again. She finally ends her rotation when we use her standard Echo skill afterwards, since we'll have used enough Echo skills to make full use of her \"Abyssal Rebirth\" state at this point (including the Echo skills of other characters in your team).",
-            "So, the short and extremely simplified version is that you use her Intro, then her Basic Attack, then her Skill, then her Ultimate, then her Heavy Attack, then her Skill, then her Basics three times, then her Skill, then her Echo, and you're done. VoilÃ .",
-            "This doesn't come without its own set of issues, though. The biggest one is Cantarella's Energy Regen. Unfortunately for her, she really doesn't generate enough energy while performing her rotation, which leads to huge problems for her and, in some cases, her teammates. Cantarella must have access to her Ultimate every rotation - this combined with her lack of Base Resonance Energy generation means her % Energy Regen requirements can go through the roof unless you run her with Moonlit Clouds Echo set paired with a weapon that gives extra Energy like the F2P-accessible Cosmic Ripples and Fusion Accretion, or in the worst case scenario using an Energy Regen as main stat on your 3 cost Echoes.",
-            "However, most of these solutions come at the cost of reducing her damage, and none really solve the Energy problems she introduces to her teammates. Despite all this, one silver lining to all of this is her team options, her Havoc Element ones don't suffer quite as badly as a result of her lack of Energy generation.",
-            "Yet another weakness of Cantarella is that she currently lacks a perfect team mate to play alongside with her Outro's Havoc and Skill DMG amplifications. Here are some examples:",
-            "Havoc Rover and Camellya, while being Havoc, deal most of their damage through Basic ATKs instead. The only character who is able to synergize well with her boosts is Danjin - Cantarella is the best partner for main DPS Danjin, as she makes Danjin much better when played in that role. But since Danjin is typically played as a Hybrid herself and primarily used to buff someone like Camellya or Havoc Rover, and not as a Main DPS, it makes it more of a niche team composition.",
-            "Speaking of buffing Camellya, ironically enough, Danjin provides 3% more Havoc DMG amplification and an extra 20% ATK from her S6, so she straight-up has better buffs than Cantarella when it comes to supporting Camellya. And that's not even mentioning the freely accessible Sanhua, who's a level above both of them in Camellya teams, or the premium Roccia for maximal performance.",
-            "General Skill DMG-oriented teams don't really help her case either, since Zhezhi and Changli don't make for the best duo partners for Cantarella - much stronger Brant exists as Changli's perfect teammate, and Zhezhi only exists as a relatively weak alternative, and she is faster than Cantarella, which speaks for itself.",
-            "Jinhsi might look tempting since Cantarella has Coordinated Attacks, but unfortunately, pairing them will cost Jinhsi dearly, reducing her Ultimate use to once per 3 rotations instead of 2 unless your Jinhsi is built with an absurd Energy Regen to counter it (which is also a damage loss).",
-            "Finally, in Carlotta teams, not only do both Carlotta and Cantarella require way more additional Energy Regen, but Brant and Zhezhi both exist and outclass Cantarella in either damage or buffs while not having Energy issues.",
-            "All of this really poses a lot of questions regarding her current value. It's far from impossible that Cantarella gets a good DPS to work with in the future, but not only is that uncertain, it's also possible Cantarella might have a rerun with said character, following the pattern we've observed with a lot of recent units (Xiangli Yao and Yinlin, Carlotta and Zhezhi, Changli and Brant, and so on).",
-            "In conclusion, Cantarella's current pull value is definitely more speculative than cemented from a meta perspective. While she isn't bad in performance by any means, she is slightly outclassed in one way or another when supporting the best current meta DPS units. However, she performs well, works in several places, has healing and slows down enemies as backup to make the game easier and while all of this makes her a solid character, none of it changes the fact she currently lacks a perfect team to play in and until that time Cantarella wont hold as much value as other characters that do so."
+            "Cantarella is a 5-star Havoc Rectifier Hybrid and Sustain character who first introduced the Echo Skill Cast mechanic. Indeed, Cantarella is able to cast 3 more Echo Skills than normal through some attacks that are counted as such. On top of this, she has some Outro buffs tailored towards her best DPS to pair with, being Phrolova, and features some Sustain capabilities to boot."
+          ]
+        },
+        {
+          "heading": "Key Mechanics & Rotation Concepts",
+          "paragraphs": [
+            "Cantarella's main gimmick is her ability to cast 4 total Echo Skills throughout her rotation. The skills that do so are as follows (1 cast each):",
+            "Her Ultimate;",
+            "Her regular Skill in Mirage form (we explain this afterwards);",
+            "Her Forte Skill in Mirage form;",
+            "Her regular active Echo Skill (the same way anyone else could).",
+            "To explain what the Mirage state is, Cantarella enters it through casting a special Heavy Attack called Delusive Dive. She gains access to it when she has at least 1 Forte point, called Trance. She gains it through the following abilities:",
+            "Her Intro (1 point);",
+            "Her Skill (1 point);",
+            "Her Basic 3 (1 point);",
+            "Her Ultimate (3 points).",
+            "She then consumes these stacks in Mirage state through the new Basic Attacks that she unlocks. She also gains access to a new Skill (that counts as an extra Echo Skill cast). That Skill has the special property of sending all enemies hit by it into a slow-down state for 6.5s, interrupted if any character hits them. If Cantarella does so, an extra damage multiplier is triggered.",
+            "Once 3 Trance stacks have been consumed in Mirage state, Cantarella gains access to a Forte Skill called Perception Drain. It deals a lot of damage, heals the party a significant amount, and generates a lot of Concerto on top of counting as an extra Echo Skill cast.",
+            "Cantarella also has a passive that's necessary to her Concerto generation that operates on a 25s basis, called \"Abyssal Rebirth\". When Cantarella casts an Intro, she enters this state and restores 6 Concerto per Echo Skill cast of herself and her teammates, up to 6 times. This is necessary in order for her to complete her rotations.",
+            "Lastly, Cantarella's Ultimate also generates up to 21 Coordinated Attacks, triggered once every second at maximum, though they deal close to no damage. Her Outro Skill is the only source of buffing in her kit, granting the next character that Cantarella switches into 20% Havoc and 25% Skill DMG Amplification for 14s, expiring on swap.",
+            "In short, Cantarella's rotation has her quickly generating Concerto and Trance through her base Skill and Ultimate, then entering Mirage state to cast her Skill and 3 Basic Attacks into Perception drain before switching out. She is simplistic gameplay-wise and easy to pick up."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Cantarella's position in the meta is one of the most unfortunate in Wuthering Waves. Phrolova has been one of the most meta-relevant characters since her release, and Cantarella has always been one of her best teammates. However, the Echo Skill engine got expanded upon significantly not long after Phrolova's release. While this has resulted in significant teammate upgrades for Phrolova in the form of Lucilla and Qiuyuan, that also means Cantarella fell out of fashion in the only team where she was best. While Cantarella's own best team remains the one with Phrolova, Phrolova's own best team doesn't even include Cantarella in it anymore.",
+            "In other words, Cantarella's currently in a position where if you have Phrolova, you're forced to use them together simply because Cantarella has no other meta use cases, even if she isn't ideal for Phrolova's own team anymore. That said, Lucilla and Qiuyuan are very high-value teammates that can be used with Sigrika or Hiyuki instead, for example. And that's where Cantarella comes in.",
+            "Nonetheless, calling Cantarella powercrept is an accurate statement. Due to a lack of buffs outside her Outro, she's useless for Echo Skill characters that don't make use of it. Due to replaceability by Lucilla and Qiuyuan that exceed her, but also Lynae, Roccia and even Danjin that get very close to her level of performance, Cantarella isn't part of Phrolova's best in slot and has stayed replaceable since her release. Due to her rotation operating on a 25-second cooldown, her Coordinated Attacks that should make her synergistic with Jinhsi don't actually extend her team flexibility in practice (as Jinhsi can't rotate normally by making use of Unison like she could with Zhezhi or Yinlin).",
+            "In conclusion, Cantarella is still good for Phrolova teams, but she definitely pays the price in terms of team flexibility. Cantarella only exists in the Phrolova team at this point, for whom she is not even best in slot anymore, provided you have Lucilla and Qiuyuan both available. If you don't, Cantarella is still your best bet for your Phrolova teams. However, existing in a powercrept state, with a lack of team flexibility and staying power, whilst being replaceable by accessible options, definitely calls her current pull value into question. If you own her and have Phrolova, great news as she'll be very serviceable, but for beginners and players who skipped her, we do not recommend Cantarella currently."
           ]
         }
       ],
-      "summary": "Cantarella is a 5-star Havoc Rectifier Hybrid who fills a few roles on the team: she's capable of dealing damage on the field, off the field via Coordinated Attacks, and she can heal your team as well. And if that wasn't enough, she buffs Havoc DMG and Resonance Skill DMG through her Outro skill. This makes her able to function as a mix of DPS, Buffer, and Healer for your team all at once, fulfilling many roles and giving her a lot of flexibility in team compositions."
+      "summary": "Cantarella is a 5-star Havoc Rectifier Hybrid and Sustain character who first introduced the Echo Skill Cast mechanic. Indeed, Cantarella is able to cast 3 more Echo Skills than normal through some attacks that are counted as such. On top of this, she has some Outro buffs tailored towards her best DPS to pair with, being Phrolova, and features some Sustain capabilities to boot."
     },
     "rotations": [
       {
+        "rotation_name": "Fastest Rotation",
+        "steps": [
+          "Intro: Ripple",
+          "Skill: Graceful Step (Instantly interrupt via Echo)",
+          "Echo (Instantly interrupt via Dash)",
+          "Dash (Instantly interrupt via Ultimate)",
+          "Ultimate",
+          "Heavy: Delusive Dive",
+          "Skill: Flickering Reverie",
+          "Basic: Phantom Sting 1",
+          "Basic: Phantom Sting 2",
+          "Basic: Phantom Sting 3 (Instantly interrupt via Skill)",
+          "Skill: Perception Drain (Swap)",
+          "Outro"
+        ]
+      },
+      {
         "rotation_name": "Standard Rotation",
         "steps": [
-          "Intro Skill: Ripple",
-          "Basic P3",
-          "Skill: Graceful Step",
-          "Ultimate: Flowing Suffocation",
-          "Heavy ATK: Delusive Dive",
+          "Intro: Ripple",
+          "Skill: Graceful Step (Instantly interrupt via Ultimate)",
+          "Ultimate",
+          "Heavy: Delusive Dive",
           "Skill: Flickering Reverie",
-          "Forte: Phantom String P1",
-          "Forte: Phantom String P2",
-          "Forte: Phantom String P3",
-          "Forte: Skill: Perception Drain",
-          "Echo",
-          "Outro Skill"
+          "Basic: Phantom Sting 1",
+          "Basic: Phantom Sting 2",
+          "Basic: Phantom Sting 3 (Instantly interrupt via Skill)",
+          "Skill: Perception Drain",
+          "Echo (Swap)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Extended Rotation",
+        "steps": [
+          "Intro: Ripple",
+          "Basic 3 (Cancel animation endlag via Skill)",
+          "Skill: Graceful Step (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Heavy: Delusive Dive",
+          "Skill: Flickering Reverie",
+          "Basic: Phantom Sting 1",
+          "Basic: Phantom Sting 2",
+          "Basic: Phantom Sting 3 (Cancel animation endlag via Skill)",
+          "Skill: Perception Drain",
+          "Basic: Phantom Sting 1",
+          "Basic: Phantom Sting 2 (Cancel animation endlag via Echo)",
+          "Echo (Swap)",
+          "Outro"
         ]
       }
     ],

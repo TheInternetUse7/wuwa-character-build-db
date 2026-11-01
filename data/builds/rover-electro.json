@@ -185,13 +185,32 @@
       "slug": "rover-electro",
       "updates": {
         "last_major_build_patch": "3.7",
-        "last_profile_update": "01/October/2026",
+        "last_profile_update": "22/October/2026",
         "last_review_patch": "3.7",
-        "last_updated": "01/October/2026"
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Sword"
     },
     "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "hsin"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "rover-electro"
+        },
+        "slot_3": {
+          "alternatives": [
+            "chisa",
+            "buling"
+          ],
+          "character_name": "suisui"
+        },
+        "team_name": "Best Team",
+        "team_notes": ""
+      },
       {
         "slot_1": {
           "alternatives": [],

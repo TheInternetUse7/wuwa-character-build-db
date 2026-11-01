@@ -74,9 +74,121 @@
         "weapon_name": "Red Spring"
       },
       {
-        "commentary_details": "Outstanding Sword choice, offering significantly higher base damage due to its 5â rarity, as well as a stackable ATK% buff almost every character can effortlessly get 1 stack of (but with 2 also being easily achievable by most when played correctly). Additionally has a good amount of Energy Regen, which on most characters will allow one sub-stat of Energy Regen to be allocated elsewhere to increase damage even further. Best Sword choice across the board with only S5 4â Swords having a chance to compete with it.",
+        "commentary_details": "Best overall weapon on Sanhua when going by Team DPS by a very slight margin. Provides a 30% Heavy DMG Bonus if Echo is cast before her rotation starts (not accounted for here), but most importantly provides 20% Echo Skill DMG Bonus to all characters in the team upon Intro. Can improve Team DPS by a tiny margin in non-Echo teams (and a better one in Echo teams), making it the best weapon overall.",
         "dupe_rank": "R1",
         "percentage_performance": "100.00%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attack grants 1 stack of Bamboo Cleaver, which grants {1} Heavy Attack DMG Bonus to the wielder. This effect can be triggered by Echoes of the same name once only, stacking up to 2 times, lasting for 12s. Casting Echo Skill at max stacks does not reset the duration. This effect can be triggered once every 10s and ends early if the wielder is switched off the field. Casting Intro Skill grants {2} Echo Skill DMG Bonus to all Resonators in the team for 30s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Emerald Sentence"
+      },
+      {
+        "commentary_details": "Best weapon for Sanhua when only looking at personal DMG. Good general ATK, CRIT DMG and Skill DMG stat-stick for her.",
+        "dupe_rank": "R1",
+        "percentage_performance": "102.50%",
+        "weapon_base_info": {
+          "effect_description": "ATK increased by {0}. The equipper gains 1 stack of Searing Feather upon dealing damage, which can be triggered once every 0.5s, and gains 5 stacks of the same effect upon casting Resonance Skill. Each stack of Searing Feather gives {1} additional Resonance Skill DMG Bonus for up to 14 stacks. All stacks will be removed within 12s after reaching the max stack.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Gacha"
+        },
+        "weapon_name": "Blazing Brilliance"
+      },
+      {
+        "commentary_details": "ATK, CRIT Rate and DMG Bonus stat-stick for Sanhua, who does not benefit from this weapon's Havoc Bane-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "99.80%",
+        "weapon_base_info": {
+          "effect_description": "Grants {0} All-Attribute DMG Bonus. After inflicting Havoc Bane, the wielder gains {1} Heavy Attack DMG Amplification and their Heavy Attack DMG ignores {0} of the target's DEF, lasting for 8s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "Crit. Rate",
+          "secondary_stat_val": 24.3,
+          "source": ""
+        },
+        "weapon_name": "Azure Oath"
+      },
+      {
+        "commentary_details": "ATK, CRIT Rate and DMG Bonus stat-stick for Sanhua, who does not benefit from this weapon's Tune Rupture/Fusion Burst-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "99.80%",
+        "weapon_base_info": {
+          "effect_description": "Increases All-Attribute DMG Bonus by {0}. When inflicting Tune Rupture - Shifting or Fusion Burst, the wielder's Resonance Liberation DMG ignores {1} DEF and {2} Fusion RES on targets for 8s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Everbright Polestar"
+      },
+      {
+        "commentary_details": "ATK and CRIT Rate stat-stick for Sanhua, who does not benefit from this weapon's Unison/Concerto Consumption-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "99.10%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. Upon gaining Unison, the wielder gains {1} Electro DMG Bonus for 30s.\nUpon gaining Unison, the wielder removes Yearning Mind and grants all Resonators in the team the Binding Mind effect: gain {2} Electro DMG Bonus for 30s. Effects of the same name cannot stack.\nWhen the wielder consumes Concerto Energy, they remove Binding Mind from all Resonators in the team and gain the Yearning Mind effect: the wielder additionally gains {3} Electro DMG Bonus for 14s. Switching to another Resonator ends this effect early.",
+          "primary_stat_val": 588,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": ""
+        },
+        "weapon_name": "Unspoken Rue"
+      },
+      {
+        "commentary_details": "ATK and CRIT Rate stat-stick for Sanhua, who does not benefit from this weapon's Glacio Chafe-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "99.10%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. When the wielder applies Glacio Chafe, Glacio DMG is Amplified by {1}, and Resonance Liberation DMG ignores {2} of the target's DEF. If the wielder is the active Resonator in the team, Glacio Chafe DMG dealt to all targets within a certain range is Amplified by {3} for 6s. This effect can be triggered up to 1 time every 0.1s. Only the strongest effect of the same name applies.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Frostburn"
+      },
+      {
+        "commentary_details": "ATK and CRIT Rate stat-stick for Sanhua, who does not benefit from this weapon's Basic DMG-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "99.10%",
+        "weapon_base_info": {
+          "effect_description": "Increase ATK by {0}. When dealing Basic Attack DMG, the wielder gains {1} Basic Attack DMG Bonus for 14s. This effect can be triggered once per second, stacking up to 3 times. When the wielder's Concerto Energy is consumed, gain {2} Basic DMG Bonus for 10s. This effect can be triggered once per second and ends when the wielder is switched off the field.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Gacha"
+        },
+        "weapon_name": "Red Spring"
+      },
+      {
+        "commentary_details": "ATK and CRIT Rate stat-stick for Sanhua, who does not benefit from this weapon's Tune Strain-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "98.90%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. Inflicting Tune Strain - Shifting grants {1} Aero DMG Bonus for 2s, stacking up to 5 times. This effect can be triggered once every 0.5s. Upon reaching the max stack limit, gain the following effects:\n- This Aero DMG Bonus effect's duration is extended to 30s.\n- Aero DMG ignores {2} of the target's DEF during this effect.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 36,
+          "source": ""
+        },
+        "weapon_name": "Glint of Clouds"
+      },
+      {
+        "commentary_details": "Best permanent banner option, and most realistic one to use on Sanhua. Barely loses any value while remaining permanently accessible, just an ATK and CRIT Rate stat-stick that works decently on her despite the Energy Regen being useless most of the time due to Sanhua's very low Ultimate Energy cost.",
+        "dupe_rank": "R1",
+        "percentage_performance": "97.00%",
         "weapon_base_info": {
           "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases ATK by {1}, stacking up to 2 time(s). This effect lasts for 10s.",
           "primary_stat_val": 587,
@@ -88,9 +200,23 @@
         "weapon_name": "Emerald of Genesis"
       },
       {
-        "commentary_details": "Exceptional all-around generic Sword gaining its bonus close to unconditionally as most Resonators almost always aim to make use of their Intro skill and very few characters spend more than 15 seconds on field during their duration.",
+        "commentary_details": "Best 4-star weapon, this Batlle Pass exclusive is a decent ATK, CRIT Rate and Liberation DMG stat-stick for Sanhua. Still far outclassed by any 5-star weapon due to much higher base ATK and CRIT stats.",
         "dupe_rank": "R5",
-        "percentage_performance": "85.50%",
+        "percentage_performance": "84.80%",
+        "weapon_base_info": {
+          "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Resonance Liberation DMG Bonus for 15s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.3,
+          "source": "Battle Pass"
+        },
+        "weapon_name": "Feather Edge"
+      },
+      {
+        "commentary_details": "Best permanently accessible option, provides some ATK upon Intro. Plain ATK stat-stick otherwise. Can still be used on Sanhua due to her very low team damage contribution, should not result in drastic team damage losses, though upgrading to a 5-star can help a little bit.",
+        "dupe_rank": "R5",
+        "percentage_performance": "81.50%",
         "weapon_base_info": {
           "effect_description": "When Intro Skill is released, increases ATK by {0}, lasting for {1}.",
           "primary_stat_val": 412,
@@ -100,62 +226,6 @@
           "source": ""
         },
         "weapon_name": "Commando of Conviction"
-      },
-      {
-        "commentary_details": "Often inferior to Commando of Conviction for DPS, this sword is still a great F2P 4* option for characters who need the energy boost. Realistically however, only consider this option over Commando of Conviction if you have energy problems on your character. ",
-        "dupe_rank": "R5",
-        "percentage_performance": "84.52%",
-        "weapon_base_info": {
-          "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
-          "primary_stat_val": 462,
-          "rarity": 4,
-          "secondary_stat_name": "ATK",
-          "secondary_stat_val": 18.2,
-          "source": "Gacha"
-        },
-        "weapon_name": "Endless Collapse"
-      },
-      {
-        "commentary_details": "Powerful sword for Resonators spending minimal time on the field - the shorter the better. Best for Hybrid characters executing their rotation fast and infrequently, but less powerful on Main DPS characters that aim to spend extended time on field.",
-        "dupe_rank": "R5",
-        "percentage_performance": "83.96%",
-        "weapon_base_info": {
-          "effect_description": "Equipped Resonator gains 6 stack(s) of Oath upon entering the battlefield. Each stack increases ATK by {0}, up to 6 stacks. This effect can be triggered 1 time(s) every 12s. Oath reduces by 1 stack(s) every 2s. Equipped Resonator gains an additional <b>6</b> stack(s) of Oath upon defeating an enemy.",
-          "primary_stat_val": 412,
-          "rarity": 4,
-          "secondary_stat_name": "ATK",
-          "secondary_stat_val": 30.3,
-          "source": ""
-        },
-        "weapon_name": "Lunar Cutter"
-      },
-      {
-        "commentary_details": "Sword option for Heavy and Basic ATK users with an easy to trigger passive - with the only downside being its 10 second time limit. For characters that use their Skill multiple times per rotation, this downside is a non-issue but for Main DPS characters who take up a lot of field time and don't use their skill often this sword can lose value. ",
-        "dupe_rank": "R5",
-        "percentage_performance": "80.65%",
-        "weapon_base_info": {
-          "effect_description": "When Resonance Skill is released, increases Basic Attack DMG and Heavy Attack DMG by {0}, stacking up to 1 time(s). This effect lasts for 10s and can be triggered 1 time(s) every 1s.",
-          "primary_stat_val": 387,
-          "rarity": 4,
-          "secondary_stat_name": "ATK",
-          "secondary_stat_val": 36.4,
-          "source": "Pioneer Podcast"
-        },
-        "weapon_name": "Lumingloss"
-      },
-      {
-        "commentary_details": "An amazing, completely free 4* option for characters who have extended field times, providing a rare CRIT Rate boost and loads of ATK. However, due to the nature of its buffs stacking up over time, this sword will deminish a lot in power if the wielder swaps out in less than 10 seconds. ",
-        "dupe_rank": "R5",
-        "percentage_performance": "76.66%",
-        "weapon_base_info": {
-          "effect_description": "Gain 1 stack of Hiss when dealing damage to the target, with 1 stack generated every 1s. Hiss: each stack increases the wielder's ATK by {0} for 3s, stacking up to 10 times. Switching off the wielder clears all stacks. Gaining 10 stacks increases the wielder's Crit. Rate by {1}.",
-          "primary_stat_val": 462,
-          "rarity": 4,
-          "secondary_stat_name": "ATK",
-          "secondary_stat_val": 18.2,
-          "source": "Event"
-        },
-        "weapon_name": "Somnoire Anchor"
       }
     ],
     "character_metadata": {
@@ -169,10 +239,10 @@
       "rarity_stars": 4,
       "slug": "sanhua",
       "updates": {
-        "last_major_build_patch": "2.3",
-        "last_profile_update": "01/October/2026",
-        "last_review_patch": "1.3",
-        "last_updated": "01/October/2026"
+        "last_major_build_patch": "3.7",
+        "last_profile_update": "22/October/2026",
+        "last_review_patch": "3.7",
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Sword"
     },
@@ -180,7 +250,7 @@
       {
         "slot_1": {
           "alternatives": [],
-          "character_name": "camellya"
+          "character_name": "suoming, luuk-herssen, camellya"
         },
         "slot_2": {
           "alternatives": [],
@@ -188,17 +258,18 @@
         },
         "slot_3": {
           "alternatives": [
-            "verina"
+            "verina",
+            "mornye"
           ],
           "character_name": "the-shorekeeper"
         },
-        "team_name": "Best Team",
-        "team_notes": ""
+        "team_name": "Premium Teams",
+        "team_notes": "Suoming is a huge upgrade over other options, use her if available. Mornye is the best in slot in a team with Luuk only - privilege Shorekeeper/Verina otherwise."
       },
       {
         "slot_1": {
           "alternatives": [],
-          "character_name": "encore"
+          "character_name": "encore, rover-havoc"
         },
         "slot_2": {
           "alternatives": [],
@@ -210,61 +281,7 @@
           ],
           "character_name": "the-shorekeeper"
         },
-        "team_name": "Encore Team",
-        "team_notes": ""
-      },
-      {
-        "slot_1": {
-          "alternatives": [],
-          "character_name": "brant"
-        },
-        "slot_2": {
-          "alternatives": [],
-          "character_name": "sanhua"
-        },
-        "slot_3": {
-          "alternatives": [
-            "verina"
-          ],
-          "character_name": "the-shorekeeper"
-        },
-        "team_name": "Brant Hypercarry Team",
-        "team_notes": ""
-      },
-      {
-        "slot_1": {
-          "alternatives": [],
-          "character_name": "rover-havoc"
-        },
-        "slot_2": {
-          "alternatives": [],
-          "character_name": "sanhua"
-        },
-        "slot_3": {
-          "alternatives": [
-            "verina"
-          ],
-          "character_name": "the-shorekeeper"
-        },
-        "team_name": "Budget Havoc Rover Team",
-        "team_notes": ""
-      },
-      {
-        "slot_1": {
-          "alternatives": [],
-          "character_name": "carlotta"
-        },
-        "slot_2": {
-          "alternatives": [],
-          "character_name": "sanhua"
-        },
-        "slot_3": {
-          "alternatives": [
-            "verina"
-          ],
-          "character_name": "the-shorekeeper"
-        },
-        "team_name": "Carlotta Team",
+        "team_name": "F2P Teams",
         "team_notes": ""
       }
     ],
@@ -285,16 +302,15 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Combo is so fast, inputting everything correctly and in time can sometimes be overwhelming",
-        "Requires you to successfully time her Forte mini game in order to complete her rotation each time"
+        "Basic Attack damage dealers are few and far between, and aside from a select few most of them are really outdated and powercrept, so her synergies are either too old to perform or too account-dependent;",
+        "Personal damage is among the lowest of all Hybrid/buffer-type characters;",
+        "S5 is a big rotation time decrease, S6 provides added team buffs. A good amount of her value is locked behind her last 2 Sequence nodes."
       ],
       "pros": [
-        "One of if not the fastest Concerto rotations in the game",
-        "Great burst damage when using her Ultimate, Intro, and skill in combination with a Forte Burst",
-        "Gains an absurd amount of Concerto when detonating the ice spawned from her abilities",
-        "Low energy cost of 100 means she can consistently pull off her super-fast burst combo",
-        "She's free so if you get another copy you'll start getting Sequences, making her stronger",
-        "Multiple viable rotations, all powerful enough you can use the one fits best"
+        "The premier and only F2P Basic Attack buffer in the game. Fantastic with all Basic Attack damage dealers;",
+        "Has one of the fastest rotations in the game and is optimization/quickswap-friendly;",
+        "Requires next to no investment to perform in terms of build quality and weapon choice;",
+        "She's free!"
       ]
     },
     "ratings": {
@@ -303,7 +319,7 @@
           "tags": [
             "S0 -1"
           ],
-          "tier": "T2"
+          "tier": "T1"
         },
         "whimpering_wastes": {
           "tags": [],
@@ -312,7 +328,7 @@
       },
       "value_tier_ratings": {
         "tower_of_adversity_value": {
-          "tier": "T1.5"
+          "tier": "T0.5"
         },
         "whimpering_wastes_value": {
           "tier": "T3"
@@ -365,52 +381,65 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Sanhua is a free 4-star Glacio Sword wielding Hybrid that deals great damage with absurdly low field time requirements. She also has great Support capabilities, mainly owing to her Outro's whopping 38% Basic Attacks amplification and her easy accessibility to one of the best supportive echo sets in the game. The combination of these factors makes Sanhua one of the strongest and popular hybrids in the game with even more room to scale with sequences.",
-            "Sanhua's Forte allows her to charge and enhance her Heavy Attacks via a minigame. While she is charging, an indicator will pulse continuously on her Gauge; if released on blue area they will turn into detonating attacks, exploding all ice glaciers/prisms/thorns on field causing Glacio Damage and generating a large amount of Concerto Energy and Resonance Energy. Normally the blue area on the Gauge is very small and difficult to hit, however using either her Basic Attack 5, Intro Skill, Resonance Skill or Ultimate skill will cause the area to expand significantly for the next attack.",
-            "Her Ultimate Skill deals Glacio damage in front of her, generating a good chunk of Concerto Energy and spawning a large glacier. This can be detonated by utilizing her Forte Gauge for even more Concerto Energy generation along with a good amount of Resonance Energy.",
-            "Her Resonance Skill spawns a small Ice Prism in front of her that can co-exist with her Ultimate Skill, allowing you to stack both to detonate at once with her Forte Gauge.",
-            "Sanhua requires minimal field time thanks to having the fastest Concerto rotation in the game, but is a bit tricky to execute perfectly. She deals good burst damage due to the quick rotation as well as providing an excellent Outro buff to allies.",
-            "In regards to difficulty of playstyle, her insanely fast rotation can sometimes cause a challenge when attempting to input all the correct abilities on time. It is further complicated by requiring correct timing in her Forte Gauge mini game in order to detonate her ice crystals to complete her rotation.",
-            "While being able to deal good damage as far as Hybrid characters go, her true calling is as a Support thanks to her Outro Skill. To perform her best, she prefers the combination of 5P Moonlit Clouds and Impermanence Heron Echo. This stacks an additional 12% DMG and 22% ATK on top of her already potent 38% Basic Attack amplification from her Outro, generating a massive buff stack for the character switching in.",
-            "Overall, Sanhua, like Mortefi, is currently one of the top Hybrid characters in endgame, especially for characters/teams centered around Basic Attack burst rotation. Even outside of those types of teams, she sees use thanks to her incredibly fast Concerto Rotation and synergy with the 5P Moonlit Clouds and Impermanence Heron Echo."
+            "Sanhua is a 5-star Glacio Sword Hybrid buffer character specialized towards buffing Basic Attack damage dealers. She rotates in and out of the field remarkably quicker than most her peers, gives them a sufficient amount of buffs and lets the DPS she's paired with take the spotlight."
+          ]
+        },
+        {
+          "heading": "Key Mechanics & Rotation Concepts",
+          "paragraphs": [
+            "Sanhua's primary rotation goal is to create and detonate Ice Creations to generate her Concerto as quickly as possible. She generates the following Ice Creations through the following attacks:",
+            "Intro: 1 Ice Thorn per cast;",
+            "Skill: 1 Ice Prism per cast;",
+            "Ultimate: 1 Glacier per cast.",
+            "Each restores 15 Concerto and deals some amount of damage (we listed them in the order of lowest to highest damage above).",
+            "Sanhua detonates these Ice Creations through her Forte Heavy Attack, called Detonate. It can be activated any time, however it requires you to charge it up and time it with her Forte. A little arrow icon will appear when you hold down Basic Attack on Sanhua and you can release it to make it stop. A regular Heavy Attack is performed if instantly released or released in the grey area. If released in the blue area though, Sanhua performs Heavy: Detonate. Timing the release of the Basic Attack button correctly and quickly is essential to properly performing Sanhua rotations. This timing window is made bigger when Sanhua generates any Ice Creation, allowing for faster, more lenient timings.",
+            "Once the animation is complete, Heavy: Detonate will shatter all Ice Creations and generate a large amount of Concerto Energy. Paired with her Intro, Skill and Ultimate, at S5 (which has the hidden property of dealing Glacier damage twice, giving 15 extra Concerto), it gives Sanhua enough Concerto to get off her Outro. A second Heavy: Detonate will be needed at S4 and below, which will be more difficult to time than the first.",
+            "Other important aspects of Sanhua's kit are her Outro, which gives 38% Basic Attack DMG Amplification for 14s to the next character, expiring upon swap. This is what gives Sanhua her team synergies. Her S6 also provides 20% team-wide ATK."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Sanhua has been a staple F2P meta character since her release. Her and Mortefi are specialized towards amplifying a specific damage type by 38%, which is a pretty large amount for how dated the characters are, all things considered. Paired with the Moonlit Clouds Echo set and their S6, they're able to provide a good amount of buffs to any character of their corresponding damage types.",
+            "Recently, Sanhua has seen a resurgence in usability, because two key Basic Attack damage dealers have released: Luuk Herssen, and most importantly, Suoming.  Suoming has everything Sanhua wants to shine as a buffer: that is, just dealing a lot of Basic Attack damage. Nothing else. Raw Basic Attack damage numbers are exactly what Sanhua buffs, and while Luuk is also a viable choice to use as Sanhua's Main DPS, he specializes in Tune Strain which Sanhua has no synergy with whatsoever, making her significantly outclassed by Denia and Lynae who have affinities with the archetype.",
+            "In terms of other team options though? Before Luuk, the Basic Attack damage archetype had not seen a non-overly specialized DPS (such as Cartethyia) come out since Camellya. Indeed, a lot of Sanhua's best teams are still confined to the long-since outdated 1.x version's meta, like Encore and Havoc Rover for example. She in fact finds better use cases in teams with modern DPS characters who have no better fully F2P teammate alternatives. Teams like Hiyuki Sanhua Verina have come to exist, simply because Sanhua gives small amounts of buffs and allows the DPS to take as much of the spotlight on-field as possible thanks to her lightning fast rotation. It gives her a tiny bit more staying power long-term, but her best use cases are still in Basic Attack damage teams by far.",
+            "In conclusion, Sanhua is a great choice for F2P Basic Attack buffing. Sanhua is never truly best in slot in any current team, however she's a very close second for a lot of Basic Attack DPS. She can allow players to skip pulling premium Supports for Basic Attack DPS characters while still performing well enough to clear endgame content with a proper build. This makes her a staple investment for many accounts looking to round out their endgame teams."
           ]
         }
       ],
-      "summary": "Sanhua is a free 4-star Glacio Sword wielding Hybrid that deals great damage with absurdly low field time requirements. She also has great Support capabilities, mainly owing to her Outro's whopping 38% Basic Attacks amplification and her easy accessibility to one of the best supportive echo sets in the game. The combination of these factors makes Sanhua one of the strongest and popular hybrids in the game with even more room to scale with sequences."
+      "summary": "Sanhua is a 5-star Glacio Sword Hybrid buffer character specialized towards buffing Basic Attack damage dealers. She rotates in and out of the field remarkably quicker than most her peers, gives them a sufficient amount of buffs and lets the DPS she's paired with take the spotlight."
     },
     "rotations": [
       {
-        "rotation_name": "HEAVY ATTACK CONCERTO ROTATION",
+        "rotation_name": "Standard Rotation: S5+",
         "steps": [
           "Intro",
+          "Skill (Cancel animation endlag via Ultimate)",
           "Ultimate",
-          "Skill",
-          "Heavy Attack: Detonate",
-          "Heavy Attack: Detonate",
+          "Heavy: Detonate",
+          "Echo (Swap)",
           "Outro"
         ]
       },
       {
-        "rotation_name": "S5+ HEAVY ATK CONCERTO ROTATION",
+        "rotation_name": "S0 Opener",
         "steps": [
           "Intro",
+          "Skill (Cancel animation endlag via Echo)",
+          "Echo (Interrupt instantly via Dash",
+          "Dash (Interrupt instantly via Ultimate)",
           "Ultimate",
-          "Skill",
-          "Heavy Attack: Detonate",
-          "Echo (Impermanence Heron Switch Cancel)",
-          "Outro"
-        ]
-      },
-      {
-        "rotation_name": "BASIC ATTACK CONCERTO ROTATION",
-        "steps": [
+          "Heavy: Detonate",
+          "Heavy: Detonate",
+          "Heavy: Detonate (Swap)",
+          "Outro",
           "Intro",
-          "Basic ATK P3",
-          "Basic ATK P4",
-          "Basic ATK P5",
+          "Skill (Cancel animation endlag via Echo)",
+          "Echo (Interrupt instantly via Dash",
+          "Dash (Interrupt instantly via Ultimate)",
           "Ultimate",
-          "Skill",
-          "Heavy Attack: Detonate",
+          "Heavy: Detonate",
+          "Heavy: Detonate (Swap)",
           "Outro"
         ]
       }
@@ -881,51 +910,26 @@
     "synergies": [
       {
         "characters": [
+          "suoming",
+          "luuk-herssen",
           "camellya"
         ],
-        "commentary": "Sanhua is a very very close second to Roccia in Camellya teams, so much so there's really no incentive to pull Roccia because she's too small of a DMG increase over the free glacio swordswoman. Super short field time with a massive 38% Basic ATK DMG Amplify on her Outro are all Sanhua needs to shine in Camellya teams."
+        "commentary": "Sanhua's premium synergies. These limited Basic Attack Main DPS characters make great use of her buffs, Suoming being ideal thanks to her general scaling while Luuk is more reliant on Tune Strain. Camellya is a really old choice that can clear some low-difficulty endgames with enough effort."
       },
       {
         "characters": [
-          "encore"
-        ],
-        "commentary": "Sanhua is by far Encore's best teammate period, over any quickswap options or limited 5 star options. Her buffs and lightning fast field time are so strong that Encore uses her better than she uses anyone else. So much so, the pair easily clears absolutely any content in the game. Amazing F2P duo."
-      },
-      {
-        "characters": [
-          "phoebe"
-        ],
-        "commentary": "Sanhua is the best teammate to use for casual Phoebe players running Rejuvenating Glow Spectro Rover. Sanhua amplifies Basic ATK DMG by 38% on Outro, which she accesses insanely quickly, a welcome buff on Phoebe. However, being able to provide Moonlit Clouds buffs and a 20% ATK buff on S6 on top of a super fast rotation makes Sanhua, Phoebe and Spectro Rover the best casual Phoebe trio."
-      },
-      {
-        "characters": [
-          "brant"
-        ],
-        "commentary": "Sanhua is a very natural partner to a Hypercarry-style Brant as he deals Basic ATK DMG almost exclusively, allowing you to buff the overwhelming majority of his damage by a very good amount; seeing as Brant holds very high personal damage, the team is strong and will net great results, even if it's not as strong as Brant's Dual DPS teams."
-      },
-      {
-        "characters": [
+          "encore",
           "rover-havoc"
         ],
-        "commentary": "In Havoc Rover teams, Sanhua is outclassed by both Roccia on the 5 star side Danjin on the 4 star side, as Sanhua buffs Basic Attacks too heavily for someone with damage types that are spread thin like Havoc Rover. That said, Sanhua remains a good option if you don't want to invest in either, as she's top tier in 2 other meta teams."
+        "commentary": "Sanhua's F2P synergies include the old reliable Encore, the best permanent banner DPS, and Havoc Rover if you really want to make use of DPS Rover. Neither of them fully rely on Basic Attack DMG but mostly do, so Sanhua works decently here, although these are really old F2P pairings so don't expect them to shatter your expectations in endgame."
       },
       {
         "characters": [
-          "carlotta"
+          "the-shorekeeper",
+          "verina",
+          "mornye"
         ],
-        "commentary": "In Carlotta teams, Sanhua is outclassed by both Zhezhi on the 5 star side and Yangyang on the 4 star side, because she barely buffs Carlotta at all and does negligible damage. However, if you don't own Zhezhi and don't want to invest into Yangyang as Sanhua is a top tier character in other meta teams, the two are very comparable in strength, so you can use Sanhua."
-      },
-      {
-        "characters": [
-          "verina"
-        ],
-        "commentary": "One of the usual Healing Support options that can slot into any team. Super easy to use, provides amazing team-wide ATK% buffs and 15% DMG Amplify with one of the fastest rotations in the game. Enjoy."
-      },
-      {
-        "characters": [
-          "the-shorekeeper"
-        ],
-        "commentary": "Similar to Verina, a premium Healing Support option who can not only slot into any team, but also provide insane 12.5% Crit Rate, 25% Crit DMG, 25% ATK and 15% DMG Amplify buffs to your whole team. One of the best but also easy to use characters in the game."
+        "commentary": "Sanhua's teams generally go alongside DPS characters that don't scale off any specialized mechanics, so Shorekeeper and Verina are the best generalist Support options most of the time. Luuk does scale off of Tune Strain though, which Mornye can help with if you want to use that team in specific."
       }
     ],
     "upgrade_materials": {

@@ -183,9 +183,9 @@
       "slug": "yangyang-xuanling",
       "updates": {
         "last_major_build_patch": "3.6",
-        "last_profile_update": "01/October/2026",
+        "last_profile_update": "22/October/2026",
         "last_review_patch": "3.6",
-        "last_updated": "01/October/2026"
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Sword"
     },
@@ -293,7 +293,7 @@
           "tier": "T0"
         },
         "whimpering_wastes_value": {
-          "tier": "T2"
+          "tier": "T1.5"
         }
       }
     },
@@ -391,7 +391,7 @@
       }
     ],
     "skill_upgrade_priority": {
-      "commentary": "Skill can be completely skipped as it is useless to yangyang-xuanling's practical rotation. Basic and Intro can be skipped when levelling to save on resources at a minimal damage loss.",
+      "commentary": "Skill can be completely skipped as it is useless to Yangyang: Xuanling's practical rotation. Basic and Intro can be skipped when levelling to save on resources at a minimal damage loss.",
       "order": [
         "Forte Circuit",
         "Res. Liberation",

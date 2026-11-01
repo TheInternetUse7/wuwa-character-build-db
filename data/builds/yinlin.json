@@ -205,10 +205,10 @@
       "rarity_stars": 5,
       "slug": "yinlin",
       "updates": {
-        "last_major_build_patch": "3.2",
-        "last_profile_update": "01/October/2026",
-        "last_review_patch": "3.2",
-        "last_updated": "01/October/2026"
+        "last_major_build_patch": "3.7",
+        "last_profile_update": "22/October/2026",
+        "last_review_patch": "3.7",
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -285,16 +285,13 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Can be outshined by other units in meta teams (most notably Zhezhi in a Jinhsi team) while remaining usable.",
-        "Gains a great amount of consistency in her rotations from swap and animation cancelling compared to without those techniques, something that might be uncomfortable for more casual players;",
-        "Can be outshined at a less casual playing field by quickswap Dual DPS options in certain teams;",
-        "Has an unusually high reliance on her signature weapon compared to other characters, which can be detrimental to her damage if you're not willing to invest in it."
+        "Stringmaster is a better pull than the character itself.",
+        "No, seriously, we mean this, she's completely outshined by Lynae in every team she could exist in, or other Quickswap characters like Changli, or other Coordinated Attackers like Hsin or Zhezhi, modern Electro teams don't want her, even Jianxin isn't too terrible of a replacement for her in Liberation damage teams.",
+        "Highly prone to interruption in non-Quickswap rotations."
       ],
       "pros": [
-        "Stringmaster is one of the strongest weapons in the game, which the average Yinlin player should almost always get alongside her and improves her damage significantly;",
-        "Benefits a lot from swap cancelling while retaining a good baseline rotation without;",
-        "Very good AoE damage, which can help single-target DPS characters overcome their flaw to an extent;",
-        "Provides strong Liberation DMG and Electro DMG buffs to Electro DPS characters who she pairs very nicely with."
+        "Highly Quickswap-friendly;",
+        "Stringmaster is a great weapon."
       ]
     },
     "ratings": {
@@ -367,35 +364,62 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Yinlin is a 5-star Electro Rectifier Hybrid who specializes in dealing big AoE damage, even off-field, in relatively short windows of field time. She is near-mandatory to be played alongside a big Main DPS carry - the kind that'll make use of her powerful off-field presence and high buffing potential to have unsurprisingly powerful synergies that can pretty easily clear any enemies they come across. Benefitting from quickswap and from several animation cancels, she's not only a character that's good as a baseline, but a character that has plenty of optimization potential if you wish to make the effort to master her.",
-            "Yinlin's Forte is the center of her kit: it has a passive effect that causes the majority of her abilities to inflict Sinner's Mark, which expires upon switching out but also allows the Execution Mode triggered by her Skill (her blast attacks) to deal additional damage. Yinlin's Forte can also gain Judgement Points (her Forte stacks) from most of her abilities and, when fully accumulated, can be used to transform her next Heavy Attack into Chameleon Cipher. This huge AoE burst with a long but swap-cancellable wind-up converts all marks already present on enemies into more powerful Punishment Marks for 18 seconds. These marks can trigger additional Coordinated Attacks on any enemies hit with them, once per second, even if Yinlin leaves the field.",
-            "However, all of Yinlin's abilities are necessary to her kit, and so her Resonance Skill comes in two parts often used consecutively:",
-            "The first deals AoE electro damage and activates Execution mode for 10 seconds, while generating a lot of Forte stacks;",
-            "The second must be used shortly after the first and inflicts a potent AoE nuke while generating a lot of Forte stacks.",
-            "Execution Mode causes the next 4 attacks she inflicts on enemies to deal additional Electromagnetic Blast damage to any enemy with Sinner's Mark, generating a lot of Concerto Energy.",
-            "As a result, Yinlin presents herself as a high damage potential, low field time Hybrid, who can amplify Electro, Liberation damage-based characters by a ton with her Outro skill - a very good niche that Xiangli Yao and Calcharo very much appreciate, who will extremely often be played alongside her.",
-            "None of her abilities are necessary to swap cancel aside from her Chameleon Cipher at the very end of her rotation - which is within anyone's reach. However, a lot of those abilities have generous swap cancel windows that allow Yinlin players to escalate your team's damage to its highest potential, which is a very noteworthy strength of hers.",
-            "As a Hybrid, she will nearly always be sporting Moonlit Clouds in her optimal sets - don't be fooled by her great personal damage into running Void Thunder as it's detrimental to your overall team's DPS. By extension, don't run Yinlin as a Main DPS. She will underperform drastically compared to her amazing Hybrid potential.",
-            "In terms of flaws, Yinlin has a few noteworthy ones: while she's amazing in Xiangli Yao and Calcharo teams, Calcharo is far from meta and Xiangli Yao can enjoy a lot of quickswap options - which if you learn leave her totally outclassed, as while she is the second best option for Jinhsi teams, she's also outclassed by Zhezhi in those compositions. As a result, her meta relevancy, especially at an expert level, is questionable. But in terms of casual Xiangli Yao players, she's pretty much a \"must pull\" (which no character truly is so the term is incorrect, but she does hold a lot of value).",
-            "Additionally, she relies a lot on her signature weapon, Stringmaster, to reveal her true strength - however, this is mitigated by the fact that it is arguably the strongest overall, or at the very least one of the best weapons in the game. Indeed, her signature weapon is so strong compared to any other options she may have that she ends up relying on it more so than the average limited 5 star; a concern investment-wise, especially when Yinlin is praised for her high damage. Without Stringmaster, she will unfortunately underperform. Regardless, it's an amazing pull for other high tier Rectifier characters that deal high damage, such as Encore and Zhezhi - so on a lot of accounts, this won't pose too big of an issue. It is however noteworthy enough to mention.",
-            "To summarize, Yinlin is an amazing character. She has some noteworthy flaws to keep in mind, but her ease of use, high damage, and relevancy with two of the strongest characters in the game is great enough that it cements her as a very strong contender for the top Hybrids of the meta, a niche she is unlikely to quickly fall out of. Definitely a choice to heavily consider if you own Xiangli Yao, Calcharo or Jinhsi and need a strong Hybrid to support them."
+            "Yinlin is a 5-star Electro Rectifier Hybrid character capable of Coordinated Attacks, Electro and Liberation DMG buffing, decently fast rotations, and relatively good personal damage, who also is quite good in Quickswap teams. Yet, she is characterized by her crucial lack of notoriety in the meta. What does she actually do, and why is she so notoriously replaceable? Let's explore that more in-depth."
+          ]
+        },
+        {
+          "heading": "Key Mechanics & Rotation Concepts",
+          "paragraphs": [
+            "The focal point of Yinlin's kit is her Forte Circuit. Her Forte gauge stacks up to 100 points, and it's regenerated through her Basic Attacks and Skill. Once it's full, she can cast a Forte Heavy Attack which enables her to trigger Coordinated Attacks. How she does this is through marking enemies. She does so through 3 different stages.",
+            "The first of these is Sinner's Mark. It's applied on enemies hit by her Intro, Ultimate and Basic Attacks. It can then be upgraded through her Skill, which allows Yinlin to trigger up to 4 Electromagnetic Blasts on enemies hit by her on-field Basic Attacks. Finally, it can be converted into Punishment Mark by her Forte Heavy Attack. As we explained earlier, this enables her to trigger a Coordinated Attack on enemies hit once per second, for a duration of 18s.",
+            "One thing worth noting about her Electromagnetic Blasts is that they will individually count towards her Forte and Concerto generation in AoE situations, per enemy hit by them. In other words, in AoE scenarios, Yinlin can charge up her Forte and Concerto gauges much quicker than normal, which can allow her to speed up her rotations drastically.",
+            "The key idea when it comes to Yinlin's rotation is to apply her Sinner's Mark and upgrade it through her Skill very quickly, to start generating some Forte and Concerto through a mix of her Skills and Basic or Heavy Attacks. Yinlin has 2 Skills that can be chained consecutively and each generate a great amount of Forte and Concerto, her Ultimate is a nice burst of damage and Concerto as well, and finally her Forte Heavy can finish the rotation as the last big burst of Concerto that she gets.",
+            "When it comes to buffs, Yinlin is very simple: the only buff that she can provide is a 20% Electro and 25% Liberation DMG Amplification for 14s, expiring on swap, through her Outro. Her passives do give her a free 15% CRIT Rate and up to 20% ATK for her on-field rotation, but that doesn't really change much beyond slightly raising her personal damage potential."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "As we're sure you could guess from the above explanation, Yinlin's only buff being her Outro Skill really doesn't make her anything special in the Wuthering Waves meta. Every limited Hybrid buffer that followed her had some sort of special buff to give on top of this, like Zhezhi's Energy generation or Roccia's team-wide flat ATK buff. Yinlin only has 2 things to contribute to the team, her Outro and personal damage. That's it.",
+            "While Yinlin has a great uptime on her Coordinated Attacks and they deal a lot of personal damage, her rotation is fast, and she gained access to the Empyrean Anthem Echo set which raised her ceiling a bit since her release, she really has nothing too useful to provide to the team due to a crucial lack of unique buffing capabilities. Zhezhi immediately powercrept her in the Jinhsi team very shortly after Jinhsi's own release, and Xiangli Yao and Calcharo were never good to begin with. In other words: Ever since her release, Yinlin did nothing special, and was nothing special.",
+            "While she has Quickswap potential, and she has personal damage, Changli is simply an upgraded Yinlin in this role, and Lynae has completely powercrept Yinlin in any team she could ever exist in, Quickswap or not. She has way, way more buffs, a modern and cohesive kit, and her similar personal damage and rotation time make Lynae so much more useful than Yinlin in all Liberation DMG teams, including Electro ones, it's not even comparable. As a final nail in the coffin, practically no Electro damage dealers have been released since Xiangli Yao, and when they did, F2P options wound up better than Yinlin. Take Augusta with Mortefi, or Hsin with Electro Rover, or Suoming with Sanhua as examples. Electro/Liberation is a combination of damage types Yinlin needs to be present on a character for her to be justified on any team, and no damage dealer has released with those damage types since Xiangli Yao, where Lynae powercrept Yinlin, and where Changli has always been better in Quickswap.",
+            "In conclusion, Yinlin is one of the worst limited characters in Wuthering Waves. From a meta standpoint, we advise skipping this character. Unless you really, really are fond of Yinlin, generally speaking, the investment is not worth it. She retains some okay-ish usability in a select few teams if you already own her though, so she isn't completely unusable if she is present on your account. Still, her weapon Stringmaster is a great generalist Rectifier DPS choice and is much, much higher priority than Yinlin herself considering her current meta situation (even still, we currently recommend pulling Signature Rectifiers for the DPS you choose to pull rather than Stringmaster)."
           ]
         }
       ],
-      "summary": "Yinlin is a 5-star Electro Rectifier Hybrid who specializes in dealing big AoE damage, even off-field, in relatively short windows of field time. She is near-mandatory to be played alongside a big Main DPS carry - the kind that'll make use of her powerful off-field presence and high buffing potential to have unsurprisingly powerful synergies that can pretty easily clear any enemies they come across. Benefitting from quickswap and from several animation cancels, she's not only a character that's good as a baseline, but a character that has plenty of optimization potential if you wish to make the effort to master her."
+      "summary": "Yinlin is a 5-star Electro Rectifier Hybrid character capable of Coordinated Attacks, Electro and Liberation DMG buffing, decently fast rotations, and relatively good personal damage, who also is quite good in Quickswap teams. Yet, she is characterized by her crucial lack of notoriety in the meta. What does she actually do, and why is she so notoriously replaceable? Let's explore that more in-depth."
     },
     "rotations": [
       {
-        "rotation_name": "STANDARD ROTATION",
+        "rotation_name": "Standard Rotation",
         "steps": [
           "Intro",
-          "Basic P4 (Optionally Swap Cancel)",
+          "Basic 4",
           "Skill: Magnetic Roar",
-          "Heavy Attack",
-          "Skill: Lightning Execution (Try to Cancel Heavy ATK Endlag)",
-          "Ultimate (Use right as Yinlin Lands)",
-          "Basic P1",
-          "Forte: Heavy: Chameleon Cipher",
+          "Heavy Attack (Interrupt via Skill at 1 of 2 hits)",
+          "Skill: Lightning Execution (Cancel animation when Yinlin hits the ground via Ultimate)",
+          "Ultimate",
+          "Basic 1",
+          "Heavy: Chameleon Cipher",
+          "Echo (Swap)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Optimized Opener",
+        "steps": [
+          "Switch-in from any other character in combat",
+          "Basic 2",
+          "Heavy Attack (Interrupt via Skill at 1 of 2 hits)",
+          "Skill: Magnetic Roar",
+          "Skill: Lightning Execution (Swap)",
+          "Switch-in from any other character in combat",
+          "Basic 2",
+          "Heavy Attack (Cancel animation endlag via Ultimate after both hits)",
+          "Ultimate",
+          "Heavy Attack (Swap)",
+          "Intro",
+          "Heavy: Chameleon Cipher (Swap)",
           "Outro"
         ]
       }

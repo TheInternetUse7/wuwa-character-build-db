@@ -48,10 +48,10 @@
       {
         "commentary_details": "Hsin's Signature and best weapon, has the standard Base ATK, DMG Bonus and CRIT Rate stats, but also Skill DMG Amplification, Electro RES Ignore and Electro Flare DMG Amplification. Overall a big deal in terms of stats for her, far outclasses permanent options.",
         "dupe_rank": "R1",
-        "percentage_performance": "100.0%",
+        "percentage_performance": "100.00%",
         "weapon_base_info": {
           "effect_description": "Grants {0} All-Attribute DMG Bonus. After the wielder inflicts Electro Flare or triggers Unison Response, Resonance Skill DMG is Amplified by {1} and ignores {2} of the target's Electro RES. While the wielder is on the field, Electro Flare DMG taken by targets within a certain range is Amplified by {3} for 30s, triggered 1 time every 0.1s. Only the strongest effect of the same name applies.",
-          "primary_stat_val": 588,
+          "primary_stat_val": 587,
           "rarity": 5,
           "secondary_stat_name": "CRIT Rate",
           "secondary_stat_val": 24.3,
@@ -62,7 +62,7 @@
       {
         "commentary_details": "Solid alternative to Hsin's Signature in Flare teams, provides Hsin with Skill DMG and DEF Ignore as well as good base stats. Still far outclassed in Unison teams though for buff uptime reasons, which is an issue across all weapons but her Signature.",
         "dupe_rank": "R1",
-        "percentage_performance": "79.70%",
+        "percentage_performance": "83.74%",
         "weapon_base_info": {
           "effect_description": "ATK is increased by {0}. Within 12s after dealing Echo Skill DMG, gain {1} Resonance Skill DMG Bonus and {1} Echo Skill DMG Amplification, and ignore {2} of the target's DEF when dealing damage.",
           "primary_stat_val": 587,
@@ -76,7 +76,7 @@
       {
         "commentary_details": "One of the best generalist Rectifiers, with high ATK and CRIT Rate stats but still has significant losses compared to Hsin's Signature regardless of the team.",
         "dupe_rank": "R1",
-        "percentage_performance": "76.20%",
+        "percentage_performance": "79.03%",
         "weapon_base_info": {
           "effect_description": "Increases the DMG Bonus by {0}. When dealing Resonance Skill DMG, increases ATK by {1}, stacking up to 2. This effect lasts for 5s. When the equipped Resonator is not on the field, increases their ATK by an additional {2}.",
           "primary_stat_val": 500,
@@ -90,7 +90,7 @@
       {
         "commentary_details": "Mostly an ATK and CRIT DMG stat-stick for Hsin, barely benefits from this weapon's Basic Attack DMG-increasing effect but overall a negligible boost.",
         "dupe_rank": "R1",
-        "percentage_performance": "72.8%",
+        "percentage_performance": "77.83%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Casting Echo Skill within 10s after casting Intro Skill or Basic Attacks grants 1 stacks of Gentle Dream. Echoes with the same name can only trigger this effect once, stacking up to 2 times, lasting for 10s. When reaching 2 stacks, casting Echo Skill no longer resets the duration of this effect. This effect activates up to once per 10s. Switching to another Resonator ends this effect early.<br />With 1 stacks: Grants {1} Basic Attack DMG Bonus.<br />With 2 stacks: Ignores {0} of the target's Havoc RES.",
           "primary_stat_val": 500,
@@ -104,7 +104,7 @@
       {
         "commentary_details": "ATK and CRIT Rate stat-stick for Hsin, who does not benefit from this weapon's Glacio Chafe-related effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "71.00%",
+        "percentage_performance": "76.34%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. After inflicting Glacio Chafe on the target, the wielder gains {1} Glacio DMG Bonus for 12s, and all Resonators in the team gain {2} ATK increase for 30s. Effects of the same name cannot be stacked.",
           "primary_stat_val": 587,
@@ -118,7 +118,7 @@
       {
         "commentary_details": "ATK and CRIT Rate stat-stick for Hsin, who does not benefit from this weapon's Spectro Frazzle-related effects. Overall worse than Freeze Frame due to a lower Base ATK (higher CRIT Rate isn't too beneficial due to a tendency to overcap on it).",
         "dupe_rank": "R1",
-        "percentage_performance": "69.80%",
+        "percentage_performance": "73.73%",
         "weapon_base_info": {
           "effect_description": "Increase ATK by {0}. Dealing DMG to targets with Spectro Frazzle grants the wielder {1} Basic Attack DMG Bonus and {1} Heavy Attack DMG Bonus, stacking up to 3 times for 6s. Casting Outro Skill Amplifies the Spectro Frazzle DMG on targets around the active Resonator by {2} for 30s. Effects of the same name cannot be stacked.",
           "primary_stat_val": 500,
@@ -132,7 +132,7 @@
       {
         "commentary_details": "Same as Luminous Hymn.",
         "dupe_rank": "R1",
-        "percentage_performance": "69.80%",
+        "percentage_performance": "73.73%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. After the wielder inflicts Fusion Burst or Tune Strain - Shifting on the target, their Resonance Liberation DMG Bonus is increased by {1} for 5s. While this effect lasts, after Resonators in the team inflict Fusion Burst or Tune Strain - Shifting, their ATK is increased by {2} for 15s. Effects of the same name cannot be stacked.",
           "primary_stat_val": 500,
@@ -146,7 +146,7 @@
       {
         "commentary_details": "Best permanent weapon option for almost all Rectifier damage dealers, but its lack of CRIT-related stats and its Basic DMG-increasing effects are not that useful on Hsin. Generally recommended to go for her Signature if this is your 2nd option.",
         "dupe_rank": "R1",
-        "percentage_performance": "66.00%",
+        "percentage_performance": "69.57%",
         "weapon_base_info": {
           "effect_description": "Increases Energy Regen by {0}. When hitting a target with Basic Attacks, increases Basic Attack DMG Bonus by {1}, stacking up to {2} time(s). This effect lasts for {3}s and can be triggered 1 time(s) every 0.5s.",
           "primary_stat_val": 500,
@@ -160,7 +160,7 @@
       {
         "commentary_details": "ATK and CRIT Rate stat-stick, this Battle Pass exclusive provides some decent stats for Hsin but they're generally lower and worse than 5-star weapons.",
         "dupe_rank": "R5",
-        "percentage_performance": "64.60%",
+        "percentage_performance": "69.20%",
         "weapon_base_info": {
           "effect_description": "When Resonance Liberation is released, increases the caster's ATK by {0}, lasting for 15s.",
           "primary_stat_val": 412,
@@ -174,7 +174,7 @@
       {
         "commentary_details": "Provides some extra Energy and ATK when casting Skill, has decent Base ATK compared to other 4-stars, but generally provides a much worse blend of stats than almost any 5-star weapon.",
         "dupe_rank": "R5",
-        "percentage_performance": "58.70%",
+        "percentage_performance": "62.71%",
         "weapon_base_info": {
           "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
           "primary_stat_val": 462,
@@ -188,7 +188,7 @@
       {
         "commentary_details": "This Battle Pass exclusive increases ATK and CRIT DMG and benefits Flare mode more than Unison mode, as multiple Skills are cast in Flare mode to ensure uptime on its ATK and Basic DMG% increasing buff. However, even still it's not recommended over any other 5-star due to low Base ATK issues.",
         "dupe_rank": "R5",
-        "percentage_performance": "57.60%",
+        "percentage_performance": "62.00%",
         "weapon_base_info": {
           "effect_description": "Casting Resonance Skill increases ATK by {0} and grants {0} Basic Attack DMG Bonus for 10s.",
           "primary_stat_val": 412,
@@ -202,7 +202,7 @@
       {
         "commentary_details": "Best permanently accessible weapon option for Unison Hsin, generally not sufficient and would replace with her Signature weapon as quickly as possible as it simply gives way better stats for her.",
         "dupe_rank": "R5",
-        "percentage_performance": "56.70%",
+        "percentage_performance": "60.45%",
         "weapon_base_info": {
           "effect_description": "When Intro Skill is released, increases the caster's ATK by {0} and HP by {1}, lasting for {2}s.",
           "primary_stat_val": 387,
@@ -226,13 +226,32 @@
       "slug": "hsin",
       "updates": {
         "last_major_build_patch": "3.7",
-        "last_profile_update": "01/October/2026",
+        "last_profile_update": "22/October/2026",
         "last_review_patch": "3.7",
-        "last_updated": "01/October/2026"
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Rectifier"
     },
     "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "hsin"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "suoming"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina",
+            "buling"
+          ],
+          "character_name": "the-shorekeeper"
+        },
+        "team_name": "Best Team (Unison)",
+        "team_notes": "Jinhsi is theoretically usable instead of Suoming here, but there's a huge performance gap and it's not recommended over an F2P Flare team."
+      },
       {
         "slot_1": {
           "alternatives": [],
@@ -250,25 +269,7 @@
           "character_name": "suisui"
         },
         "team_name": "Best Team (Flare)",
-        "team_notes": "By way of more flexibility in quickswap, Chisa could prove stronger for more experienced players willing to take advantage of the mechanic."
-      },
-      {
-        "slot_1": {
-          "alternatives": [],
-          "character_name": "hsin"
-        },
-        "slot_2": {
-          "alternatives": [],
-          "character_name": "jinhsi"
-        },
-        "slot_3": {
-          "alternatives": [
-            "verina"
-          ],
-          "character_name": "the-shorekeeper"
-        },
-        "team_name": "Best Team (Unison)",
-        "team_notes": "Generally never recommended unless you really want to make use of Unison Hsin or Jinhsi, delivers very similar performance to Electro Rover + Buling in a Flare team."
+        "team_notes": ""
       }
     ],
     "media": {
@@ -288,14 +289,13 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Pretty underwhelming Sequences in Flare mode aside from her S6 - has standard sequence values in Unison mode though;",
-        "Permanent banner weapon options are underwhelming; generally try to go for her Signature if you're pulling her;",
-        "\"Brings Jinhsi back into the meta via Unison mode\" is what we'd like to say, but in truth, Hsin's full F2P Electro Flare team is just as good as her full premium Unison team with Jinhsi. No reason to bring Jinhsi back despite Hsin's access to Coordinated Attacks and Unison-related synergies."
+        "One of the biggest Signature to permanent weapon gaps in the game. Limited weapon alternatives aren't good in Unison mode either. Generally just pull Hsin's Signature if you want to get her, results will not be up to par with the rest of the meta otherwise;",
+        "Pretty underwhelming Sequences in Flare mode aside from her S6 - has standard Sequence values in Unison mode though."
       ],
       "pros": [
-        "The new best Electro DPS (pretty rare thing to say as Electro damage dealers are hard to come by);",
-        "Has access to very F2P-friendly team compositions in Flare mode - will essentially never be stranded for teammates, even for beginners;",
-        "Has significant room to grow as a DPS as Unison becomes a more developed character archetype."
+        "The current best Electro DPS, one of the very best Whimpering Wastes DPS with huge AoE's;",
+        "Has access to very F2P-friendly team compositions in Flare mode - will essentially never be stranded for teammates, even for beginners. Plus, probably the single best F2P WhiWa DPS in the game;",
+        "Unison is an easy upgrade path from Flare at higher investments, able to make use of Shorekeeper and Verina really well while retaining top performance."
       ]
     },
     "ratings": {
@@ -304,27 +304,25 @@
           "tags": [
             "Flare",
             "Unison",
-            "Coord",
-            "Watchlist (Up)"
+            "Coord"
           ],
-          "tier": "T0.5"
+          "tier": "T0"
         },
         "whimpering_wastes": {
           "tags": [
             "Flare",
             "Unison",
-            "Coord",
-            "Watchlist (Up)"
+            "Coord"
           ],
-          "tier": "T1"
+          "tier": "T0"
         }
       },
       "value_tier_ratings": {
         "tower_of_adversity_value": {
-          "tier": "T0.5"
+          "tier": "T0"
         },
         "whimpering_wastes_value": {
-          "tier": "T1"
+          "tier": "T0"
         }
       }
     },
@@ -374,8 +372,12 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Hsin is a 5-star Electro Rectifier Main DPS who plays into the Electro Flare archetype and a (sort of) brand new one, Unison. Electro Flare is one of the many Negative Statuses, and all of them have received significant attention meta-wise recently. However, Unison is a previously forgotten mechanic only Jinhsi possessed up until now, that involves your character doing 2 Outros per rotation: Unison gives one for free, and your Concerto gauge gives you the other. In the same vein as how Jinhsi plays, this creates more unique team rotations compared to the usual. With that being said, Hsin's kit has many complex elements based on her Resonance Mode, so we'll have to go in-depth to fully understand it.",
-            "Key Mechanics & Rotation Concepts",
+            "Hsin is a 5-star Electro Rectifier Main DPS who plays into the Electro Flare archetype and a (sort of) brand new one, Unison. Electro Flare is one of the many Negative Statuses, and all of them have received significant attention meta-wise recently. However, Unison is a previously forgotten mechanic only Jinhsi possessed up until now, that involves your character doing 2 Outros per rotation: Unison gives one for free, and your Concerto gauge gives you the other. In the same vein as how Jinhsi plays, this creates more unique team rotations compared to the usual. With that being said, Hsin's kit has many complex elements based on her Resonance Mode, so we'll have to go in-depth to fully understand it."
+          ]
+        },
+        {
+          "heading": "Key Mechanics & Rotation Concepts",
+          "paragraphs": [
             "Hsin has 3 states that she will switch between during battle throughout her rotation: Answering Form, Illumining Form, and Mechanism Dominion. In Answering Form, you build up the Forte required to switch to Illumining Form, then in that form, you build up the Forte that is required to enter Mechanism Dominion, at which point you consume said Forte to then unleash Hsin's final Ultimate. Pretty straightforward idea.",
             "However, we can go a bit more in-depth on the details here, based on Hsin's resonance mode. They fundamentally change how she will rotate and what kinds of synergies she will get.",
             "In Electro Flare mode, Hsin will perform a standard 1-2-3 team rotation like in any classic team you've previously played, so she'll do her on-field rotation fully until her Outro is ready and all her key abilities have been cast. Flare mechanics work in this way:",
@@ -388,14 +390,18 @@
             "Hsin can entirely skip the Illumining Form state and go straight into Mechanism Dominion if she Intros again after her First Ultimate;",
             "Hsin's Intros are enhanced if they are triggered by another Unison character and they give Hsin 50% more ATK for 8s.",
             "In other words, you are heavily incentivized to use Unison mode with and only with other Unison characters. To add to this, Hsin's Outro gives 20% DMG amplification to other characters in the team than herself, but only to Electro DMG (Electro Flare mode) or Unison characters (Unison mode).",
-            "Hence, we can conclude Hsin's rotation will have her stacking up her Forte gauges (which she can only do while she is active on the field, so Swap Cancelling is restricted) and entering Illumining Form via her Ultimate. In Unison mode, she will switch out until another Unison character can give her another Intro. In Flare mode, she will stay on field and charge up her second Forte, both things done to enter Mechanism Dominion state, at which point she can do a few Basic Attacks to consume the Forte, cast her second Forte Heavy and Ultimate, and then Outro until her next rotation starts.",
-            "Meta Position & Conclusion",
-            "You may have guessed the following when we described the Unison state mechanics:",
+            "Hence, we can conclude Hsin's rotation will have her stacking up her Forte gauges (which she can only do while she is active on the field, so Swap Cancelling is restricted) and entering Illumining Form via her Ultimate. In Unison mode, she will switch out until another Unison character can give her another Intro. In Flare mode, she will stay on field and charge up her second Forte, both things done to enter Mechanism Dominion state, at which point she can do a few Basic Attacks to consume the Forte, cast her second Forte Heavy and Ultimate, and then Outro until her next rotation starts."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "You may have guessed the following when we described Unison mechanics:",
             "Electro Flare is Hsin's more flexible mode teammates-wise, and her most F2P-friendly.",
-            "Currently, the only Unison character available is Jinhsi, and she cannot fully activate all the buffs in Hsin's kit. Not to mention, the team is rather weak compared to the rest of the current meta. In other words, new teammates are to come for this Resonance Mode.",
-            "And this is entirely true. Performance-wise, Hsin's Flare teams are however still restricted to using Electro Rover and Suisui at best outside of Quickswap (where Chisa would be privileged instead). Overall, Electro Rover is far from an ideal character, with low total buffing potential and a lengthy rotation, meaning they too could be replaced in the future. But for now, they are enough to make Hsin a good DPS still, and a budget-friendly one at that, able to run Buling in the 3rd slot for a nearly cost-free team composition while still retaining good enough performance to clear endgame modes when played properly.",
-            "For this reason though, raw performance-wise, Hsin is below the rest of the modern 3.x cast. Luuk can expect to see a bit higher results than her too. With that being said, Hsin has a way out in the form of Unison Mode, which has not been expanded upon yet. We can expect Kuro to release more Unison characters to synergize with Hsin to bring her up to modern performance standards. With that being said, we have no guarantee of this, so right now Hsin is simply a more budget-friendly Flare DPS than the rest of the modern cast, being able to take advantage of Rover better than any other character currently, who is accessible to everyone and doesn't need their Signature weapon.",
-            "In conclusion, while Hsin has no good permanent banner weapons, with her and her Signature, you essentially have a guaranteed Flare team for her out of the box, and that makes her a great pull for beginner players. In the future, she may be subject to receiving additional firepower through Unison, but for now her performance ceiling is quite a bit below her peers. Keep this into account when choosing whether to pull for her or not."
+            "If you want to invest into Unison, Suoming is the clear-cut best choice (and frankly the only good one), and can take Hsin's ceiling to new heights.",
+            "And this is entirely true. Performance-wise, Hsin's Flare teams are however still restricted to using Electro Rover and Suisui at best. Overall, Electro Rover is far from an ideal character, with low total buffing potential and a lengthy rotation, meaning they too could be replaced in the future. But for now, they are enough to make Hsin a good DPS still, and a budget-friendly one at that, able to run Buling in the 3rd slot for a nearly cost-free team composition while still retaining good enough performance to clear all endgame modes when played properly.",
+            "If you choose to upgrade to Unison through Suoming, you have a top meta team on your hands. Due to scaling off general stats, the team is perfectly able to make use of Shorekeeper and Verina. It'll be able to clear all endgames without much trouble, with an easy rotation with plenty of room for error. Unfortunately though, the only good Unison option is Suoming. Jinhsi is technically another Unison character, but her personal damage contribution has fallen out of fashion as an old 1.x character and she gives no damage buffs to Hsin, making the team overall not recommended by a lack of strength. You're better off using an F2P Flare team overall.",
+            "In conclusion, while Hsin has no good permanent banner weapons, with her and her Signature, you essentially have a guaranteed Flare team for her out of the box, and that makes her a great pull for beginner players. Plus, Unison is a straightforward upgrade path that leads her to the top of the meta easily. Overall, Hsin is currently a top meta DPS who will greatly help in all endgame contents, under the important condition that you pulled for her Signature."
           ]
         }
       ],
@@ -409,17 +415,16 @@
           "Basic 4",
           "Heavy: Realm Protector",
           "Ultimate: Formshift",
+          "Basic: Illumining 1 (Cancel animation on cast via Skill)",
           "Skill: Illumining",
-          "Basic: Illumining 1",
-          "Basic: Illumining 2 (Cancel animation endlag via Skill)",
           "Skill: Pillars",
           "Basic: Pillars 1",
-          "Basic: Pillars 2",
-          "Basic: Pillars 3",
-          "Basic: Pillars 4",
+          "Basic: Pillars 2 (Cancel animation endlag via Dash)",
+          "Basic: Pillars 1",
+          "Basic: Pillars 2 (Cancel animation endlag via Dash)",
+          "Basic: Pillars 1 (Cancel animation endlag via Heavy)",
           "Heavy: Stilling All Horizons",
           "Ultimate: Pillars Across Heaven",
-          "Skill (Swap)",
           "Outro"
         ]
       },
@@ -431,12 +436,14 @@
           "Basic 4",
           "Heavy: Realm Protector",
           "Ultimate: Formshift",
+          "Skill: Illumining (Swap)",
           "Outro (Unison)",
           "Intro: Manifold Unison",
           "Basic: Pillars 1",
-          "Basic: Pillars 2",
-          "Basic: Pillars 3",
-          "Basic: Pillars 4",
+          "Basic: Pillars 2 (Cancel animation endlag via Dash)",
+          "Basic: Pillars 1",
+          "Basic: Pillars 2 (Cancel animation endlag via Dash)",
+          "Basic: Pillars 1 (Cancel animation endlag via Heavy)",
           "Heavy: Stilling All Horizons",
           "Ultimate: Pillars Across Heaven",
           "Skill (Swap)",
@@ -445,13 +452,13 @@
       }
     ],
     "skill_upgrade_priority": {
-      "commentary": "Intro can be skipped when levelling to save on resources at a minimal damage loss. Basic and Skill are also lower-priority, but still worth levelling at endgame level.",
+      "commentary": "Skill can be skipped when levelling to save on resources at a minimal damage loss. Basic is also lower-priority, but still worth levelling at endgame level.",
       "order": [
         "Forte Circuit",
         "Res. Liberation",
+        "Intro Skill",
         "Basic Attack",
-        "Res. Skill",
-        "Intro Skill"
+        "Res. Skill"
       ]
     },
     "skills": [
@@ -1305,6 +1312,23 @@
       }
     ],
     "synergies": [
+      {
+        "characters": [
+          "suoming",
+          "rover-electro"
+        ],
+        "commentary": "Hsin's best secondary options for Unison and Electro Flare respectively. Suoming gives Hsin access to her best overall team by far, since the array of buffs she can provide for Hsin are massive. Electro Rover is less capable in terms of buffs and can be more inconsistent, but overall they're more F2P-friendly and still allow Hsin to perform up to endgame standards for cheaper."
+      },
+      {
+        "characters": [
+          "the-shorekeeper",
+          "verina",
+          "suisui",
+          "chisa",
+          "buling"
+        ],
+        "commentary": "Shorekeeper is Unison Hsin's best current Support as there is no dedicated Support for Unison teams, so she comes out on top by virtue of being the best generalist choice. Verina is her F2P replacement. Suisui, Chisa and Buling are all options for Electro Flare Hsin. Suisui is generally the strongest, Chisa in the in-between, and Buling is the F2P fallback option, giving extra Flare application and Skill DMG-oriented buffs. Buling can also be used in Unison to a lesser degree than Verina."
+      },
       {
         "characters": [
           "rover-electro",

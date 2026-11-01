@@ -63,7 +63,7 @@
       {
         "commentary_details": "Mostly a CRIT Rate and Base ATK stat stick for Lupa. She is fully able to take advantage of this weapon's effect, but in practice it only buffs the Foebreaker Resonance Skill after her Ultimate which only represents 1/8 of her damage. So while it remains a great option, it's not the strongest.",
         "dupe_rank": "R1",
-        "percentage_performance": "88.00%",
+        "percentage_performance": "87.80%",
         "weapon_base_info": {
           "effect_description": "Grants {0} Attribute DMG Bonus. Casting Intro Skill gives the equipper Ageless Marking, which grants {1} Resonance Skill DMG Bonus for 12s. Casting Resonance Skill gives the equipper Ethereal Endowment, which grants {1} Resonance Skill DMG Bonus for 12s.",
           "primary_stat_val": 587,
@@ -77,7 +77,7 @@
       {
         "commentary_details": "Chisa's Signature provides Lupa with a very small amount of Liberation DMG on Intro, and a huge chunk of CRIT Rate at the cost of slightly lower Base ATK than other 5-stars. Its stat totals (due to lower Base ATK) don't make it better than Ages of Harvest but do make it a good alternative if you don't own her Signature weapon.",
         "dupe_rank": "R1",
-        "percentage_performance": "87.50%",
+        "percentage_performance": "87.30%",
         "weapon_base_info": {
           "effect_description": "ATK is increased by {0}. When the wielder casts Intro Skill or inflicts Negative Statuses, they gain {1} Resonance Liberation DMG Bonus, stacking up to 3 times for 15s. At max stacks, when Resonators in the team inflict Negative Statuses, they gain  {2} All-Attribute DMG Bonus for 15s. Effects of the same name cannot be stacked.",
           "primary_stat_val": 500,
@@ -91,7 +91,7 @@
       {
         "commentary_details": "Mostly a CRIT DMG and Base ATK stat stick for Lupa. She is fully able to take advantage of this weapon's effect, but in practice it only buffs her Wolf's Claw Heavy Attack which only represents 1/16 of her damage, so while it remains a great option, it's not the strongest.",
         "dupe_rank": "R1",
-        "percentage_performance": "86.70%",
+        "percentage_performance": "85.40%",
         "weapon_base_info": {
           "effect_description": "Increases the DMG Bonus of all Resonance Attributes by {0}. Every time Intro Skill or Resonance Liberation is cast, increases Heavy Attack DMG Bonus by {1}, stacking up to 2 time(s). This effect lasts for 14s.",
           "primary_stat_val": 587,
@@ -105,7 +105,7 @@
       {
         "commentary_details": "The best permanently available option for Lupa which acts as a nice ATK and CRIT DMG stat-stick for her.",
         "dupe_rank": "R1",
-        "percentage_performance": "84.40%",
+        "percentage_performance": "84.10%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Dealing damage to targets under Tune Strain: Interfered grants {1} Resonance Liberation Bonus for 3s. Retriggering the effect resets its duration.",
           "primary_stat_val": 587,
@@ -119,7 +119,7 @@
       {
         "commentary_details": "Simple ATK and CRIT Rate stat-stick for Lupa who does not benefit from this weapon's Heavy Attack DMG-focused effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "84.30%",
+        "percentage_performance": "83.60%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Casting Intro Skill or Resonance Skill increases Heavy Attack DMG by {1} for 15s. Obtaining Shield allows Heavy Attack DMG to ignore {2} of the target's DEF for 7s, stacking up to 5 times. This effect is triggered once every 0.5s",
           "primary_stat_val": 675,
@@ -133,7 +133,7 @@
       {
         "commentary_details": "The Standard Banner Broadblade is for once a great option on Lupa. In spite of its secondary stat being ATK% which is often less preferable, as Lupa gives herself a ton of DMG bonus and this weapon's effect increases Resonance Liberation DMG even further on top of giving her much-needed Energy Regen, this weapon's stats end up being quite desirable on Lupa which makes it a perfectly suitable choice for her.",
         "dupe_rank": "R1",
-        "percentage_performance": "81.40%",
+        "percentage_performance": "78.10%",
         "weapon_base_info": {
           "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases Resonance Liberation DMG by {1}, stacking up to {2} times. This effect lasts for {3}s.",
           "primary_stat_val": 587,
@@ -147,7 +147,7 @@
       {
         "commentary_details": "The best 4-star option on Lupa thanks to its solid Base ATK, ATK-increasing effects, and ability to restore flat Energy when Resonance Skill is cast, which eases Lupa's build requirements as she tends to require a good chunk of Energy Regen.",
         "dupe_rank": "R5",
-        "percentage_performance": "75.80%",
+        "percentage_performance": "75.40%",
         "weapon_base_info": {
           "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
           "primary_stat_val": 462,
@@ -161,7 +161,7 @@
       {
         "commentary_details": "This Battle Pass exclusive provides Lupa with a quickly accessed ATK increase after casting Ultimate, but also a nice CRIT DMG secondary stat. As she barely benefits from the Heavy Attack DMG increase this weapon provides, and its Base ATK is rather low, it ranks lower than above options.",
         "dupe_rank": "R5",
-        "percentage_performance": "74.90%",
+        "percentage_performance": "74.00%",
         "weapon_base_info": {
           "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Heavy Attack DMG Bonus for 15s.",
           "primary_stat_val": 412,
@@ -175,7 +175,7 @@
       {
         "commentary_details": "This Battle Pass exclusive is solid on Lupa thanks to its easily accessed CRIT Rate and ATK-increasing effects, but its passive is difficult to stack on her because she mostly deals Liberation DMG so it falls behind other 4-star choices.",
         "dupe_rank": "R5",
-        "percentage_performance": "73.10%",
+        "percentage_performance": "72.30%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0} upon dealing Basic Attack DMG or Heavy Attack DMG, stacking up to 5 time(s). This effect lasts for 7s and can be triggered 1 time(s) every 1s.",
           "primary_stat_val": 412,
@@ -189,7 +189,7 @@
       {
         "commentary_details": "While Lupa is unable to fully access this Broadblade's stackable ATK buff when using Resonance Skill, this weapon remains better than any 3-star choices as it does give a good chunk of ATK.",
         "dupe_rank": "R5",
-        "percentage_performance": "69.30%",
+        "percentage_performance": "68.90%",
         "weapon_base_info": {
           "effect_description": "Within {0}s after Resonance Skill is cast, increases ATK by {2} every 2s, stacking up to 4 time(s). This effect can be triggered 1 time(s) every 12s. When the number of stacks reaches 4, all stacks will be reset within 6s.",
           "primary_stat_val": 412,
@@ -203,7 +203,7 @@
       {
         "commentary_details": "The best option that's fully F2P-accessible. It's strongly recommended to pull for Lustrous Razor if this weapon is all you have access to, but its ATK main stats are good enough to last you until Lustrous Razor becomes accessible.",
         "dupe_rank": "R5",
-        "percentage_performance": "66.90%",
+        "percentage_performance": "66.60%",
         "weapon_base_info": {
           "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
           "primary_stat_val": 462,
@@ -227,9 +227,9 @@
       "slug": "lupa",
       "updates": {
         "last_major_build_patch": "3",
-        "last_profile_update": "01/October/2026",
-        "last_review_patch": "2.4",
-        "last_updated": "01/October/2026"
+        "last_profile_update": "22/October/2026",
+        "last_review_patch": "3.7",
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Broadblade"
     },
@@ -321,17 +321,14 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Pretty much locked to mono Fusion compositions with very few exceptions because she's in direct competition with the top tier Sanhua;",
-        "Adding to the above point, takes a lengthy amount of field time despite being a buffer, may prove difficult to use with buffs that operate on shorter cooldowns (particularly Shorekeeper/Verina);",
-        "Her Outro expires on swap despite wanting to act in the 3rd slot in her best teams and having lots of swap cancel windows — this means playing quickswap with Lupa is only worthwhile if you REALLY know what you're doing;",
-        "Ideally operates in teams with 3 characters (including herself) that are highly built for damage, unlike Hypercarry-style compositions. This means extra investment is needed compared to current top tiers just to match their performance, not even outperform them (not to mention the absurd cost in pulls that a full premium team built for damage represents)."
+        "Pretty much locked into Mono Fusion exclusively (in terms of Basic DMG buffing, you're better off running Sanhua);",
+        "Has a 3x auto-dodge effect, which sounds good on paper but can definitely ruin some team rotations (for example when Brant's Anchor gets interrupted because of it);",
+        "Not Best in Slot in any teams since 2.x (can get close via her Quickswap ceiling though, so this con is negated for the most expert players)."
       ],
       "pros": [
-        "Super easy to use thanks to her auto-dodge effect (3x per rotation) and her ease to build Forte and Concerto Energy;",
-        "Very strong buffs to Fusion characters while retaining good personal damage;",
-        "Has good non-limited weapon options which allow her to perform well enough to clear without huge investments;",
-        "Does evenly spread damage all throughout her rotation with good AoE, valuable pickup for Whimpering Wastes (even if 10-20% DMG Bonus from her kit buffs don't apply there, it doesn't matter much);",
-        "Has lots of exploitable Swap Cancel windows for optimization potential with a straightforward kit to begin with — any kind of player can pick up Lupa's gameplay and be efficient with it."
+        "The enabler to an entire archetype, being Mono Fusion - as long as more general Fusion damage dealers release, she'll always get teammate upgrades;",
+        "Can be ran in both the 2nd and 3rd slot depending on her team thanks to her great Outro buff;",
+        "Super quickswap-friendly. Big ceiling for optimization."
       ]
     },
     "ratings": {
@@ -340,7 +337,7 @@
           "tags": [
             "Expert +1"
           ],
-          "tier": "T0.5"
+          "tier": "T1"
         },
         "whimpering_wastes": {
           "tags": [
@@ -351,10 +348,10 @@
       },
       "value_tier_ratings": {
         "tower_of_adversity_value": {
-          "tier": "T1"
+          "tier": "T1.5"
         },
         "whimpering_wastes_value": {
-          "tier": "T1.5"
+          "tier": "T2"
         }
       }
     },
@@ -404,97 +401,78 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Lupa is a 5-star Fusion Broadblade character whose primary role is to buff other Fusion characters in your team, while dealing some good personal damage of her own. Featuring an extended rotation time and buffs with an equally extended duration compared to most characters out there, Lupa excels in mono Fusion teams where doing full team rotations is lengthy but where the team's damage potential is just as high to compensate.",
-            "Lupa's kit is frankly very straightforward and there are lots of unnecessary details present in her kit, notably in her Basic Attacks, and her Resonance Skills are rarely used as well. In an effort to keep this review as short as possible, we won't detail all of the moves that Lupa can perform, and instead focus on the elements used in practice during her rotations.",
-            "The most important element of Lupa's kit is her Resonance Liberation — that is, her Ultimate. It costs a reasonable 125 Energy and operates on a 20-second cooldown, so Lupa will never have cooldown issues and reaching her Energy thresholds requires some Energy Regen, but not a massive amount like most 3rd slot teammates in the meta.",
-            "When Lupa casts her Ultimate, it deals Fusion DMG in a good AoE and it directly interacts with her 2 Forte Circuit resources: \"Wolfaith\" and \"Wolflame\". Let's list their properties and what they're used for:",
+            "Lupa is a 5-star Fusion Broadblade buffer who created the entire team archetype of Mono Fusion. The majority of her most important buffs require you to run an all-Fusion party, being the only character where, in a game where elements don't matter much outside of temporary endgame buffs/enemy element resistances, she's a unique and standalone character. This has created a very unique meta niche for Lupa, where the more Fusion characters release, the better she becomes over time."
+          ]
+        },
+        {
+          "heading": "Key Mechanics & Rotation Concepts",
+          "paragraphs": [
+            "The most important element of Lupa's kit is her Ultimate. A notable aspect about it is it operates on a 20-second cooldown (unlike most characters at 25s), and that's important because it's the starter to all of her rotations.",
+            "When Lupa casts her Ultimate, it deals a good chunk of Fusion DMG and it directly interacts with her 2 Forte Circuit resources: \"Wolfaith\" and \"Wolflame\". Let's list their properties and what they're used for:",
             "Lupa can store up to 100 Wolflame and 2 Wolfaith. Both are indicated by her Forte gauge, separated in two halves: Wolfaith is represented by a couple of wolf heads generated after certain actions, and Wolflame is the red bar that progressively fills up after certain actions;",
-            "Wolflame is restored after using Basic Attacks, Skill and Ultimate. Wolflame is fully restored when casting Ultimate and that's all that really matters for Lupa;",
-            "Wolfaith is restored after using certain attacks that also consume 50 Wolflame (one half of her bar), including Lupa's Enhanced Mid-Air Attack and Lupa's Enhanced Heavy Attacks;",
-            "Wolfaith stacks last for 10s and restore 50 Wolflame if they expire after that duration — in other words, 1 Wolfaith is considered as replacing 50 Wolflame when generated;",
-            "2 Wolfaith can be consumed to cast Lupa's Forte Enhanced Skills, generating a lot of damage, Concerto Energy and activating her off-field attack.",
-            "Now, finally going back to Lupa's Ultimate. It generates 100 Wolfaith, and it makes the party enter the \"Pack Hunt\" and \"Glory\" states for 35s.",
-            "During Pack Hunt, all characters in the team get 6% increased ATK against all targets and 10% Fusion DMG Bonus against all Overlord and Calamity-class targets (a.k.a 4-cost Echoes, bosses).",
-            "Pack Hunt can be enhanced in 2 ways: by casting another character's Intro skill, an extra 6% ATK is granted, up to 18% (2 Intros). By having a team full of Fusion characters (3 characters), the 10% DMG Bonus effect increases to 20%.",
-            "If Pack Hunt is fully enhanced by using 2 Intro Skills, it becomes \"Wild Hunt\" which allows Lupa to cast an Enhanced Intro Skill called \"Nowhere to Run\" which deals a big burst of damage at the cost of removing the effects of Pack Hunt and Glory.",
-            "During Glory, attacks of all characters in the team ignore 3% of the target's Fusion RES, enhanced to 6% with 2 Fusion characters then 15% with 3 Fusion characters (full team).",
-            "Due to the nature of their 35s duration, Pack Hunt and Glory can be considered as permanently active since full team rotations will never last longer. However, they will be removed when Lupa enters her next rotation due to casting Nowhere to Run.",
-            "Using Ultimate also allows Lupa to cast a special Skill called \"Foebreaker\" by pressing Basic Attack or Skill shortly after her Ultimate cast. This sends her up in the air and deals a good chunk of damage, setting herself up nicely for her Mid-Air Attacks.",
-            "Finally, Foebreaker also grants herself the \"Burning Matchpoint\" state, which increases Wolflame generation on Basic Attacks by 500% (useless since Lupa gains full Wolflame from casting Ultimate anyway). More importantly though, being in this state allows her to cast an Enhanced Forte Skill (we detail this later).",
-            "Lupa's Mid-Air attacks are nothing special, but since we have more than 50 Wolflame from casting her Ultimate beforehand, her third Mid-Air Attack becomes \"Firestrike\" which has increased Interruption Resistance and it allows her to follow up with an Enhanced Heavy Attack called \"Wolf's Claw\" by pressing Basic Attack, during which she also has increased Interruption Resistance. Lupa has another Enhanced Heavy Attack called \"Wolf's Gnawing\" but since it has the same perks as Wolf's Claw while being slower and only usable on the ground, it's not used in her rotations.",
-            "Anyway, using Firestrike and Wolf's Claw gave us 2 Wolfaith, so now her Forte Enhanced Skill, \"Dance With the Wolf - Climax\", can be cast. This consumes all Wolfaith and removes Burning Matchpoint. Another version exists if Lupa is not in Burning Matchpoint which deals less damage, but because that state lasts forever it never sees use (it could only be used on the second cast of the skill, but onfielding Lupa is not a good playstyle due to her significant lack of damage compared to a character like Brant. She has good personal damage, just not enough to justify taking longer than the field time she takes currently).",
-            "Doing this skill will generally end her rotation as it will generate enough Concerto Energy to activate her Outro, which amplifies the next character's Basic Attack DMG by 25% and Fusion DMG by 20%, which ends upon swap.",
-            "It should be noted however, that without the Concerto Energy from casting an Intro Skill, Lupa will lack Concerto Energy to end her rotation after her Forte Enhanced Skill. In this case where Lupa needs extra Concerto due to not having an Intro available (commonly in the Opener rotation of teams where she's the 3rd slot teammate), casting 1 of her 2 base Resonance Skills is perfectly acceptable. However, you need to make sure the first Skill hits the target before casting the Ultimate.",
-            "Indeed, Lupa has access to 2 Resonance Skills, which can be done one after the other. The first skill will apply a mark on the target which allows her second skill to gain a 50% increased multiplier against the affected targets. Other than that, they're simple ticks of damage which aren't used if an Intro is available.",
-            "Finally, Lupa can perform a pseudo-coordinated attack (not considered as one, but similar in the sense it happens automatically off-field) whenever other characters cast their Ultimate within 8s after using her Forte Enhanced Skill (during which she doesn't disappear from the field even when swapping). Due to the nature of Lupa's Outro expiring on swap, outside of Quickswap teams only 1 instance of this attack will be activated, but 2 is possible via Quickswapping. This attack is called \"Set The Arena Ablaze\".",
-            "Now that all of the useful parts of her kit have been explained, let's give a proper summary of the buffs granted by her rotations (for the rotations themselves, refer to our Gameplay & Teams page):",
-            "All buffs apply to the full team.",
-            "From Pack Hunt: 6% ATK, enhanced to 12% then 18% after 1-2 Intros, and 10-20% Fusion DMG Bonus against Calamity and Overlord class targets (depending on the amount of Fusion characters in the team), lasting 35s",
-            "From Glory: 3-6-15% Fusion RES Ignore (depending on the amount of Fusion characters in the team), lasting 35s",
-            "From Flaming Clawprint (signature Echo Set): 15% Fusion DMG Bonus when casting Ultimate, lasting 35s",
-            "From Signature Weapon if present: 24% Fusion DMG Bonus when casting Heavy Attack, lasting 30s.",
-            "You'll notice this is a lot of buffs — indeed, Lupa's personal damage is acceptable, but nothing impressive compared to proper Hybrids like Cantarella, Brant or Yinlin in spite of her field time requirements. Where Lupa truly shines is in the 3rd slot to Fusion teams, ideally buffing Fusion-Basic damage dealers like Brant or Encore and her own damage being buffable by Changli (mostly being Fusion-Liberation DMG).",
-            "As a result, a new Mono Fusion team archetype is created by Lupa's presence in the team, with team concepts such as Changli-Brant-Lupa, where all 3 characters buff each other via their Outros and Lupa handles the team-wide buffing while the other 2 handle the heavy lifting in terms of damage (with a bit of Lupa's help too).",
-            "This position in the meta gives Lupa a good niche, additionally being perfectly usable with Encore and a general Support like Shorekeeper or Verina. While generally speaking this use wouldn't be recommended due to the nature of Lupa's kit favouring the presence of all 3 teammates being Fusion, in the case of Encore, by nature of her very short rotation often presenting downtime which needs to be filled in for the 3rd teammate's Ultimate & Echo cooldowns to catch up, it ends up working nicely in favour of a duo with Lupa. Such a team is the only current case of Lupa separating herself from the Mono Fusion archetype.",
-            "Nonetheless, it gives her a brilliant F2P team in the form of Encore-Lupa-Verina, getting even better with Shorekeeper instead of Verina, making her all the more accessible in terms of use cases. However, it's worth noting this position is contested by Sanhua who also buffs Basic Attack DMG on her Outro, but Lupa while displaying similar performance is undeniably the stronger pick due to her increased buff strength and personal damage which would usually come at the cost of field time, but in that specific team this downside is close to nonexistent.",
-            "In conclusion, Lupa is fantastic both with F2P and higher-invested teammates. While her primary downside is her need to expand on damage and her best use case is in Mono Fusion teams with 3 damage dealers including herself, which comes at the cost of a lot of resources, this downside is mitigated by her duo with Encore which works surprisingly well even outside of Mono Fusion team archetypes. In such Mono Fusion teams however, Lupa is a brilliant addition as she brings a brand new archetype into Wuthering Waves, performing equally as well to some of the top tier contenders of the current meta, making her a fantastic character overall."
+            "Wolflame is restored after using Basic Attacks, Skill and Ultimate. Wolflame is fully restored when casting Ultimate, and she'll restore this bar once more through her Mid-Air Attacks;",
+            "Wolfaith is restored after using certain attacks that also consume 50 Wolflame (one half of her bar), including Lupa's Mid-air Attack 3 (called Firestrike) and Lupa's Enhanced Heavy Attack;",
+            "2 Wolfaith can be consumed to cast Lupa's Climax skill, generating a huge amount of Concerto and dealing a good burst of damage before ending her rotation.",
+            "Now, finally going back to Lupa's Ultimate. It gives the following buffs for 35s:",
+            "Pack Hunt: All characters in the team get 6% increased ATK against all targets and 10% Fusion DMG Bonus against boss enemies. It can be enhanced twice, after casting 2 characters' Intro Skills (where it becomes 12 to 18% ATK increase), and if the party is exclusively composed of Fusion characters, it becomes 20% Fusion DMG Bonus instead.",
+            "Additionally, if 2 other characters' Intros have been cast while in Pack Hunt, Lupa's next Intro will be enhanced to deal a much higher amount of damage than her regular Intro, while being very slightly faster.",
+            "Glory: Attacks of all characters in the team ignore 3-6-15% of the enemy's Fusion RES based on how many Fusion characters there are in the party (15% at full team). This is the biggest reason why Lupa wants to run Mono Fusion teams.",
+            "Due to the nature of their 35s duration, Pack Hunt and Glory can be considered as permanently active since full team rotations will never last longer. However, they will be reset when Lupa enters her next rotation due to casting her enhanced Intro.",
+            "Using Ultimate also allows Lupa to cast a special Skill called \"Foebreaker\" by pressing Basic Attack or Skill shortly after her Ultimate cast. This sends her up in the air and deals a good chunk of damage, setting herself up nicely for her Mid-Air Attacks, and consumes Wolflame fully but increases Wolflame generation by 500% (a buff that's basically necessary for her rotations, since it's necessary to cast this Skill before casting her Climax one).",
+            "After her full Mid-air Attack chain, Lupa then restores her Wolflame bar once more on top of 1 Wolfaith, and unlocks an enhanced Heavy Attack (pressing Basic Attack will still perform it outside of Quickswap though) called Wolf's Claw. It's responsible for generating her second Wolfaith stack. This enables us to cast her Climax Forte Skill.",
+            "This will generally end her rotation as it will generate enough Concerto Energy to activate her Outro, which amplifies the next character's Fusion and Basic DMG by 20% and 25% respectively for 14s, expiring upon Swap.",
+            "It should be noted however, that without the Concerto Energy from casting an Intro Skill, Lupa will lack Concerto Energy to end her rotation after her Forte Enhanced Skill. In this case, Lupa needs extra Concerto due to not having an Intro available, so casting 1 of her 2 base Resonance Skills before beginning her rotation is perfectly acceptable.",
+            "Finally, Lupa can perform a pseudo-coordinated attack (not considered as one, but similar in the sense it happens automatically off-field) whenever other characters cast their Ultimate within 8s after using her Forte Enhanced Skill. It groups enemies in its centre after the Ultimate animation occurs while dealing some low damage. Due to the nature of Lupa's Outro expiring on swap, outside of Quickswap teams only 1 instance of this attack will be activated, but 2 is possible via Quickswapping.",
+            "Finally, for some extra Fusion-related buffs, her Echo set Flaming Clawprint can give the team an extra 15%, and her Signature weapon an extra 24% if owned."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Lupa is one of the most unique characters because she has one of the more interesting teambuilding restrictions and buffing profiles in the game. She gives up to 59% Fusion DMG Bonus, 15% Fusion RES Ignore, 20% Fusion/25% Basic DMG Amplification, and up to 18% scaling ATK increase. All of this is party-wide aside from her Amplification buffs on her Outro that apply to the next character who Intros in. Fortunately for Lupa, only 6% ATK won't be given to the Main DPS of the team if she runs in the second slot. Thanks to her 20% Fusion DMG Amplification on Outro with an extra 25% for Basic DMG dealers, you have the possibility to run Lupa in the 2nd slot alongside a generalist Support in the 3rd slot, and this allows explicit synergy with one of the characters who ended up being a huge buff to her meta notoriety, Mornye.",
+            "Indeed, Mornye is essentially just a Fusion version of Verina for teams that aren't specifically revolving around Tune Rupture or Tune Strain. Considering Verina is a great generalist Support pick for F2P players that acts as a slightly weaker version of Shorekeeper, you end up pairing the equivalent of a good generalist Support with a good generalist secondary, being Lupa. Alongside a Fusion DPS, the two form a generalist Fusion buffing core that's capable of benefitting any Fusion DPS now and in the future. She doesn't even need her Signature weapon for this, while it does make her a bit stronger. The release of a strong permanent banner weapon in the form of Radiance Cleaver in 3.0 allows her to safely prove a good choice even at S0R0.",
+            "Lupa however doesn't limit herself to this use case. On release, she was a fantastic final teammate to the Changli/Brant duo, in the third slot. This was expanded upon shortly after her release with Galbrena, alongside Brant or Changli once again. In the second slot, she was already a perfect fit for DPS Brant (in Quickswap) and Encore, whom she remains best in slot for today. And those teams remain perfectly capable of clearing Tower and Matrix given the right amount of investment and/or good enough gameplay, while they struggle in Whimpering Wastes inevitably.",
+            "Lupa's only real issue is that she's only ever a generalist enabling an engine revolving around her, not around the DPS characters that she's paired with. In recent times, team compositions have started revolving around specific DPS character mechanics. To cite recent Fusion DPS characters, Aemeath revolves around Tune Rupture or Fusion Burst, and Jingran revolves around Shield stacking. Lupa forms their 2nd best teams, but never their best ones, as the best teams of those characters specialize in those mechanics. For example: Lynae or Denia for Aemeath lean into Tune Rupture or Fusion Burst, and Iuno leans into Shield stacking for Jingran. Lupa is only second to those options because she doesn't specialize in those aspects. Still, her amazing generalist buffs allow her to be best in slot for Galbrena despite not leaning into Echo Skill damage or Echo Skill casts at all, and that's quite the impressive feat. Her affinity for Quickswap, thanks to her many generous Swap Cancel windows, also allow her to shine for the most experienced players, even in teams like Aemeath's where you'd expect the best options to far exceed her, but that turns out to not be the case in the slightest for the players most willing to optimize.",
+            "In conclusion, Lupa is the enabler to an entire engine by herself, thanks to her amazing generalist buffing capabilities. She has many teams she can play in, thanks to her buffs being fully triggered under rather lenient conditions. Any Fusion DPS can make use of Lupa's generalist Fusion buffs, and that means she is likely to stay relevant in the meta as long as Fusion damage dealers release. She's unlikely to be best in slot in any future meta teams, however she will always be a strong alternative option that's likely to allow players to skip limited teammates they don't want to/can't get for their future Fusion DPS characters, particularly for those willing to optimize her through Quickswap. This makes her a good character in the meta to this day, while not being at the very top of the best teams."
           ]
         }
       ],
-      "summary": "Lupa is a 5-star Fusion Broadblade character whose primary role is to buff other Fusion characters in your team, while dealing some good personal damage of her own. Featuring an extended rotation time and buffs with an equally extended duration compared to most characters out there, Lupa excels in mono Fusion teams where doing full team rotations is lengthy but where the team's damage potential is just as high to compensate."
+      "summary": "Lupa is a 5-star Fusion Broadblade buffer who created the entire team archetype of Mono Fusion. The majority of her most important buffs require you to run an all-Fusion party, being the only character where, in a game where elements don't matter much outside of temporary endgame buffs/enemy element resistances, she's a unique and standalone character. This has created a very unique meta niche for Lupa, where the more Fusion characters release, the better she becomes over time."
     },
     "rotations": [
       {
-        "rotation_name": "Gameplay",
-        "steps": [
-          "Use Ultimate immediately to generate full Forte (Wolflame) and activate Pack Hunt & Glory buffs;",
-          "Build Concerto Energy as quickly as possible;",
-          "Access her Forte Enhanced Skill (Dance With the Wolf - Climax) as early as possible by building 2 Wolfaith."
-        ]
-      },
-      {
-        "rotation_name": "Echo usage (both rotations):",
-        "steps": [
-          "If using a Summon echo (e.g Lioness of Glory), at any point in the rotation.",
-          "If using a Transform echo (e.g Nightmare: Inferno Rider), after Forte Skill or before this rotation."
-        ]
-      },
-      {
         "rotation_name": "Opener Rotation",
         "steps": [
-          "Skill: Shewolf's Hunt",
+          "Skill: Shewolf's Hunt (Cancel animation endlag via Ultimate)",
           "Ultimate",
-          "Skill: Foebreaker (press Basic or Skill shortly after Ultimate)",
-          "Mid-Air Attack 1",
-          "Mid-Air Attack 2",
-          "Mid-Air Attack: Firestrike (press Basic after Mid-Air Attack 2)",
-          "Heavy: Wolf's Claw (press Basic after Firestrike)",
-          "Forte: Skill: Dance With the Wolf - Climax",
+          "Basic: Foebreaker",
+          "Basic: Mid-air Attack 1",
+          "Basic: Mid-air Attack 2",
+          "Basic: Mid-air Attack: Firestrike",
+          "Basic: Wolf's Claw",
+          "Skill: Dance With the Wolf: Climax",
           "Outro"
         ]
       },
       {
         "rotation_name": "Loop Rotation",
         "steps": [
-          "Intro",
+          "Intro: Nowhere to Run",
+          "Skill: Shewolf's Hunt (Cancel animation endlag via Ultimate)",
           "Ultimate",
-          "Skill: Foebreaker (press Basic or Skill shortly after Ultimate)",
-          "Mid-Air Attack 1",
-          "Mid-Air Attack 2",
-          "Mid-Air Attack: Firestrike (press Basic after Mid-Air Attack 2)",
-          "Heavy: Wolf's Claw (press Basic after Firestrike)",
-          "Forte: Skill: Dance With the Wolf - Climax",
-          "Outro"
-        ]
-      },
-      {
-        "rotation_name": "The abilities that make for reasonable swap windows throughout her rotations include the following:",
-        "steps": [
-          "Skill: Foebreaker",
+          "Basic: Foebreaker",
+          "Basic: Mid-air Attack 1",
+          "Basic: Mid-air Attack 2",
+          "Basic: Mid-air Attack: Firestrike",
+          "Basic: Wolf's Claw (Instantly interrupt via Jump)",
+          "Jump (Instantly interrupt via Skill)",
+          "Skill: Dance With the Wolf: Climax",
+          "Outro",
+          "Basic: Foebreaker",
           "Mid-Air Attack 2",
           "Mid-Air Attack: Firestrike",
-          "Heavy: Wolf's Claw",
-          "Forte: Skill: Dance With the Wolf - Climax"
+          "Basic: Wolf's Claw (Can also be triggered through Heavy if needed in some Quickswap rotations)",
+          "Skill: Dance With the Wolf - Climax"
         ]
       }
     ],

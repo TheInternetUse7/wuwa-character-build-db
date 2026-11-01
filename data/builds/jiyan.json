@@ -212,10 +212,10 @@
       "rarity_stars": 5,
       "slug": "jiyan",
       "updates": {
-        "last_major_build_patch": "3.2",
-        "last_profile_update": "01/October/2026",
-        "last_review_patch": "3.2",
-        "last_updated": "01/October/2026"
+        "last_major_build_patch": "3.7",
+        "last_profile_update": "22/October/2026",
+        "last_review_patch": "3.7",
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Broadblade"
     },
@@ -295,16 +295,15 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Completely Ultimate reliant with all his meaningful damage occurring during his ultimate window",
-        "Without correct cooldown management and energy regeneration will feel clunky to play as Ultimate will not be ready in time."
+        "One of the oldest DPS characters in the game. Noticeably powercrept since release, struggles to clear endgame content when it becomes any difficult;",
+        "Signature weapon is basically necessary for him to clear any important endgame nowadays;",
+        "Can experience noticeable Energy issues depending on the enemy encounter and rotation used;",
+        "Almost incapable of hitting airborne enemies at all, strongly dislikes enemies with high mobility. Result: Jiyan straight-up doesn't function against a lot of boss enemies in the game."
       ],
       "pros": [
-        "Incredible Burst Damage during Ultimate",
-        "One of the best AoE DPS characters in the game",
-        "Can gather and crowd control enemies constantly during ultimate",
-        "Can constantly parry most elite and boss enemies during main combo",
-        "Easy and straightforward to play",
-        "Scales insanely well with sequences if you want to invest more into him"
+        "Strong AoE: Constant hits, and all Ultimate attacks group enemies;",
+        "One of the lowest Ultimate cooldowns in the game (16s) enable uniquely fast team rotations as his Ultimate allows him to access the majority of his damage;",
+        "Has good synergies with general buffers for Aero and Heavy Attack damage alike, as well as general Supports."
       ]
     },
     "ratings": {
@@ -373,60 +372,56 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Jiyan is a 5-star Aero Broadblade wielding DPS that excels at AoE damage and is best suited for Hyper Carry teams as the majority of his damage potential is tied to his Ultimate burst window. Buffing this Ultimate window up as much as possible is incredibly potent and should be your focus when playing Jiyan. Jiyan doesn't have much to benefit from swap canceling any of his abilities especially during his ultimate burst window. Such tactics often result in a damage loss for Jiyan during said ultimate, as such Quick-Swap teams have little to offer him.",
-            "Jiyan recharges his Forte Gauge with his Basic Attacks and Intro Skill accumulating Resolve. You can use 30 points (half bar) of Resolve to enhance either his Resonance Skill increasing its damage dealt by 20% or enhance his Ultimate by incorporating a massive draconic strike to it upon its activation. It is advised strongly to keep Resolve to execute this empowered Ultimate instead compared to enhancing his Resonance Skill, which gives a mediocre result.",
-            "His Resonance Skill is a simple spear thrust combining a forward dash with a good amount of Aero Damage and generating decent Concerto Energy and Resonance Energy.",
-            "Jiyan's Ultimate Skill makes him enter Qingloong mode, which enhances his standard Basic Attack combo, Heavy Attacks as well as Dodge Counter into a 3 part Heavy Attack Combo named Lance of Qingloong. This summons a gigantic dragon with each executed attack that revolves around Jiyan dealing damage 8 times per attack, as well as sweeping all enemies (excluding most elites, all boss monsters and rooted enemies) into air making them move with the summoned dragon. While in this mode, he is less likely to be stunned or launched owing to increased anti-interruption; thanks to this combined with its massive range and immobilization abilities, his Ultimate Skill is incredibly strong offensively as well as defensively.",
-            "Jiyan spends the entire duration of his Ultimate Skill on field in order to maximize his DPS, after which he can leave, allowing other characters to step in. However you will still want to switch him in often to cast his low CD Resonance skill to generate enough Resonance Energy to recast his Ultimate in a timely manner. Due to this field time requirement, he needs to be used in Hyper Carry compositions. In return, he brings enormous AoE as well as ST damage to battles during his Ultimate Skill burst rotation while simultaneously inflicting crowd control on most of his enemies and parrying those he can't, making him a force to be reckoned with.",
-            "Considering all he brings to the table, he is extremely easy to play. To attain his incredible DPS output during his burst window, all you need to ensure is that he has all the buffs he requires prior to its casting and that he is generating enough Resonance Energy to recast it as required.",
-            "As is appropriate for his Main DPS build, Jiyan aims to maximize his DPS by utilizing damage-focused Echo and set combo.",
-            "Overall, Jiyan is currently one of the best DPS for Tower of Adversary and is extremely unlikely to phase out of meta anytime soon, owing to his very strong niche of combined ST and AoE DPS skills complete with crowd control abilities."
+            "Jiyan is a 5-star Aero main damage dealer and was the first Main DPS as well as first limited character to ever exist in the game. His kit is definitely reminiscent of the philosophy of the game's on-release days, not centred around any specific game mechanics other than dealing as much damage as possible within his Ultimate damage window, and general Heavy Attack-related buffs."
+          ]
+        },
+        {
+          "heading": "Key Mechanics & Rotation Concepts",
+          "paragraphs": [
+            "Jiyan's rotation revolves around his Ultimate almost entirely. This is because his Ultimate makes him enter a special stance called Qingloong mode for 10s. In those 10s, he is able to cast special Qingloong Heavy Attacks, which deal way more damage than anything else in his kit. They represent the core of his damage and fitting in as many as he can in that 10s window is the goal of his rotation.",
+            "Jiyan's Forte is built up through his Intro or Basic Attacks. He holds up to 2 charges of \"Resolve\" (60 points, 30 per charge) that empower either his Skills or Ultimates when consumed. The increase on the empowered Skill is really minimal though, so what matters is the Ultimate. When cast, it deals no damage unless Jiyan holds a charge of Resolve, in which case he performs an opening attack that deals a good amount of damage. Jiyan also gains the enhancement on his Skill for free if he casts it during his Ultimate window.",
+            "Finally, Jiyan's passives are simple damage increases activated by Intro and hitting a target respectively, and his Outro enables him to cast 2 Coordinated Attacks for a bit more damage when other characters cast Heavy Attacks for 8s. Most of the time, this will only be triggered once per team rotation, though it's possible to go out of your way to trigger it a second time if you want."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Jiyan has been an outdated DPS for a long time. It's fair to say that as a 1;x DPS, much like the other older members of the roster, he should not even be considered to pull if you care about the meta. His teams deal too little damage to be worth it, or require insane time/build investment to learn proper rotations with a good build. Generally, Jiyan is not recommended.",
+            "However, Jiyan does have two advantages if he's already on your account: He's Quickswap-friendly, and he doesn't need limited teammates to get close to his full potential. Sure, both Iuno and Ciaccona are upgrade paths, but Mortefi and Shorekeeper or Verina can suffice for clearing scores in low ToA floors or in Endstate Matrix. Don't count on him for Whimpering Wastes though; despite his AoE capabilities, he doesn't deal the damage required to keep up anymore.",
+            "There are two issues still: First, the elephant in the room, there are a lot of characters who can accomplish this other than Jiyan. Good examples of this are Jingran, Suoming, Augusta and so on. Even in the free character department, Encore and Havoc Rover can work decently with free teammates, to a degree that approaches Jiyan's. But they're permanently available and don't require a limited weapon to perform, unlike him.",
+            "Second, he pretty much cannot hit airborne enemies, and mobile enemies hurt his damage potential a lot as well. Even in his few use cases, he's limited in terms of what enemies he can actually attack properly, simply because his attacks don't connect against a lot of enemies in the game.",
+            "In conclusion, while Jiyan is not a recommended pull currently, if he's already on your account, you can still get some decent use out of him. In ToA or Endstate Matrix, he can still perform if you have him properly invested and some teammates available (which shouldn't be difficult as he has a good selection of free and limited teammates)."
           ]
         }
       ],
-      "summary": "Jiyan is a 5-star Aero Broadblade wielding DPS that excels at AoE damage and is best suited for Hyper Carry teams as the majority of his damage potential is tied to his Ultimate burst window. Buffing this Ultimate window up as much as possible is incredibly potent and should be your focus when playing Jiyan. Jiyan doesn't have much to benefit from swap canceling any of his abilities especially during his ultimate burst window. Such tactics often result in a damage loss for Jiyan during said ultimate, as such Quick-Swap teams have little to offer him."
+      "summary": "Jiyan is a 5-star Aero main damage dealer and was the first Main DPS as well as first limited character to ever exist in the game. His kit is definitely reminiscent of the philosophy of the game's on-release days, not centred around any specific game mechanics other than dealing as much damage as possible within his Ultimate damage window, and general Heavy Attack-related buffs."
     },
     "rotations": [
       {
-        "rotation_name": "WARM UP",
+        "rotation_name": "Standard Rotation",
         "steps": [
-          "Keep Jiyan's Resonance Skill on cooldown always outside your burst window, as it generates massive Resonance Energy.",
-          "Jiyan's Echo should be used in the warm-up phase but right before his Ultimate usage, so you get Echo buff without reducing time in his Ultimate burst window."
-        ]
-      },
-      {
-        "rotation_name": "BURST COMBO",
-        "steps": [
-          "Echo (Use Jiyan's Echo right before entering the burst combo so the Echo buff is active. Refer to the Echo guide on whether you'll need to Swap-Cancel it.)",
           "Intro",
-          "Forte: Emerald Storm",
-          "Heavy ATK: Lance of Qinqlong P1 (Interrupt as fast as possible using Resonance Skill)",
-          "Resonance Skill",
-          "Heavy Attack: Lance of Qinqlong P1",
-          "Heavy Attack: Lance of Qinqlong P2",
-          "Heavy Attack: Lance of Qinqlong P3",
-          "Heavy Attack: Lance of Qinqlong P1",
-          "Heavy Attack: Lance of Qinqlong P2",
-          "Heavy Attack: Lance of Qinqlong P3",
-          "Resonance Skill",
+          "Ultimate: Finale",
+          "Basic: Lance of Qingloong 1 (Interrupt animation instantly via Skill)",
+          "Skill",
+          "Basic: Lance of Qingloong 1 (Cancel animation endlag via Dash then Skill) (7-8 times)",
+          "Skill (Swap)",
           "Outro"
         ]
       },
       {
-        "rotation_name": "DOUBLE DRAGON COMBO",
+        "rotation_name": "Double Intro",
         "steps": [
           "Intro",
-          "Forte: Emerald Storm",
-          "Heavy ATK: Lance of Qinqlong P1 (Interrupt as fast as possible using Resonance Skill)",
-          "Resonance Skill",
-          "Heavy ATK: Lance of Qinqlong P1 (Dodge Cancel)",
-          "Heavy ATK: Lance of Qinqlong P1 (Dodge Cancel)",
-          "Heavy ATK: Lance of Qinqlong P1 (Dodge Cancel)",
-          "Heavy ATK: Lance of Qinqlong P1 (Dodge Cancel)",
-          "Heavy ATK: Lance of Qinqlong P1 (Dodge Cancel)",
-          "Heavy ATK: Lance of Qinqlong P1 (Dodge Cancel)",
-          "Heavy ATK: Lance of Qinqlong P1 (Dodge Cancel)",
-          "Resonance Skill",
+          "Basic: Mid-air Attack",
+          "Basic: Mid-air Attack: Banner of Triumph",
+          "Skill (Swap)",
+          "Intro",
+          "Ultimate: Finale",
+          "Basic: Lance of Qingloong 1 (Interrupt animation instantly via Skill)",
+          "Skill",
+          "Basic: Lance of Qingloong 1 (Cancel animation endlag via Dash then Skill) (7 times)",
+          "Skill (Swap)",
           "Outro"
         ]
       }

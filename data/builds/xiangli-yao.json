@@ -78,7 +78,7 @@
       {
         "commentary_details": "Xiangli Yao's Signature is his second best choice, granting him with solid ATK, CRIT Rate and DMG Bonus, making for an excellent stat-stick for him.",
         "dupe_rank": "R1",
-        "percentage_performance": "97.6%",
+        "percentage_performance": "97.0%",
         "weapon_base_info": {
           "effect_description": "Gain {0} Attribute DMG Bonus. When using Resonance Liberation, the wielder gains {1} Resonance Liberation DMG Bonus for 8s. This effect can be extended by 5 seconds each time Resonance Skills are cast, up to 3 times.",
           "primary_stat_val": 587,
@@ -92,7 +92,7 @@
       {
         "commentary_details": "Zani's Signature weapon is generally good for Gauntlets damage dealers thanks to its consistent ATK and CRIT DMG stats as well as its easily applied DEF Ignore effect.",
         "dupe_rank": "R1",
-        "percentage_performance": "89.3%",
+        "percentage_performance": "89.2%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Casting Basic Attack grants the following effects: Dealing damage ignores {1} of the target's DEF and Amplifies Spectro Frazzle DMG dealt by {2} for 6s. Retriggering the effect resets its duration.",
           "primary_stat_val": 587,
@@ -106,7 +106,7 @@
       {
         "commentary_details": "Simple ATK and CRIT Rate stat-stick for Xiangli Yao, who does not benefit from this weapon's Heavy Attack-oriented effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "88.4%",
+        "percentage_performance": "88.7%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Every time Basic Attack or Intro Skill is cast, Heavy Attack DMG Bonus increases by {1} for 3s.",
           "primary_stat_val": 587,
@@ -120,7 +120,7 @@
       {
         "commentary_details": "Strongest permanently available option and simple ATK and CRIT Rate stat-stick for Xiangli Yao, who does not benefit from this weapon's Basic DMG-oriented effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "88.4%",
+        "percentage_performance": "88.3%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Dealing damage to targets under Tune Strain: Interfered grants {1} Basic Attack DMG Bonus for 3s, stacking up to 4 times. This effect can be triggered once every 0.5s. Retriggering the effect resets its duration.",
           "primary_stat_val": 587,
@@ -134,7 +134,7 @@
       {
         "commentary_details": "Simple ATK and CRIT DMG stat-stick for Xiangli Yao, gives some extra but very negligible damage to his Echo Skill but does not benefit from any of its effects otherwise.",
         "dupe_rank": "R1",
-        "percentage_performance": "86.8%",
+        "percentage_performance": "86.7%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Casting Intro Skill or Echo Skill grants {1} Echo Skill DMG Amplification for 15s. When dealing Echo Skill DMG, Aero DMG ignores {2} of the target's DEF for 6s.",
           "primary_stat_val": 587,
@@ -148,7 +148,7 @@
       {
         "commentary_details": "Another strong permanent option for Xiangli Yao that does not grant him any CRIT but instead favours ATK and Energy Regen. Inferior choice overall but still viable.",
         "dupe_rank": "R1",
-        "percentage_performance": "81.1%",
+        "percentage_performance": "80.9%",
         "weapon_base_info": {
           "effect_description": "Increases Energy Regen by {0}. When hitting a target with Resonance Skill, increases Basic Attack DMG Bonus by {1}, lasting for {2}. When hitting a target with Basic Attacks, increases Resonance Skill DMG Bonus by {3}, lasting for {4}s.",
           "primary_stat_val": 587,
@@ -162,7 +162,7 @@
       {
         "commentary_details": "Best 4-star weapon and Battle Pass exclusive intended to function on Iuno that can still benefit Xiangli Yao by virtue of its ATK, CRIT DMG and Liberation DMG stats which increase Xiangli Yao's damage well enough to compete with low-ranked 5-star choices.",
         "dupe_rank": "R5",
-        "percentage_performance": "81.4%",
+        "percentage_performance": "78.7%",
         "weapon_base_info": {
           "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Resonance Liberation DMG Bonus for 15s.",
           "primary_stat_val": 412,
@@ -176,7 +176,7 @@
       {
         "commentary_details": "Another Battle Pass exclusive which gives CRIT Rate, a low Base ATK but some Liberation DMG Bonus increases to compensate, making for a viable 4-star overall.",
         "dupe_rank": "R5",
-        "percentage_performance": "79.7%",
+        "percentage_performance": "78.1%",
         "weapon_base_info": {
           "effect_description": "When Resonance Skill is released, increases the caster's Resonance Liberation DMG Bonus by {0}, lasting for 15s.",
           "primary_stat_val": 412,
@@ -190,7 +190,7 @@
       {
         "commentary_details": "Grants some extra Energy and ATK buffs with a decent Base ATK, does not compare to any 5-star choices and generally not the best, but a fine choice until stronger options are accessed.",
         "dupe_rank": "R5",
-        "percentage_performance": "73.6%",
+        "percentage_performance": "72.0%",
         "weapon_base_info": {
           "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
           "primary_stat_val": 462,
@@ -204,7 +204,7 @@
       {
         "commentary_details": "Gives some extra ATK and DEF until Xiangli Yao gets hit after casting his Ultimate. Even under the best case scenario, this weapon isn't the best but can serve until stronger weapons are available.",
         "dupe_rank": "R5",
-        "percentage_performance": "71.7%",
+        "percentage_performance": "70.1%",
         "weapon_base_info": {
           "effect_description": "When Resonance Liberation is released, grants 3 stack(s) of Iron Armor. Each stack increases ATK and DEF by {0}, stacking up to 3 time(s). When the Resonator takes damage, reduces the number of stacks by 1.",
           "primary_stat_val": 412,
@@ -218,7 +218,7 @@
       {
         "commentary_details": "Best no-gacha option for Xiangli Yao, does not give anything except some ATK. It is strongly encouraged to replace this weapon by one of the 5-star choices when possible.",
         "dupe_rank": "R5",
-        "percentage_performance": "69.0%",
+        "percentage_performance": "66.0%",
         "weapon_base_info": {
           "effect_description": "Dealing DMG to enemies with Negative Statuses increases the wielder's ATK by {0} for 10s. This effect can be triggered 1 time per second, stackable up to 4 times.",
           "primary_stat_val": 462,
@@ -241,10 +241,10 @@
       "rarity_stars": 5,
       "slug": "xiangli-yao",
       "updates": {
-        "last_major_build_patch": "3.2",
-        "last_profile_update": "01/October/2026",
-        "last_review_patch": "3.2",
-        "last_updated": "01/October/2026"
+        "last_major_build_patch": "3.7",
+        "last_profile_update": "22/October/2026",
+        "last_review_patch": "3.7",
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Gauntlets"
     },
@@ -342,16 +342,15 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Main combo takes some getting used to, to pull off in the heat of combat but is manageable when you learn how,",
-        "All main combo animations are very long leaving Xiangli Yao vulnerable to taking damage (even if he is rarely interrupted)."
+        "Much like the majority of the older character cast, is completely powercrept at this point. Even his own Signature isn't best in slot for him anymore;",
+        "Very abnormally long rotation without Quickswap, 14s Outro buffs are very prone to expiring;",
+        "When he does have to dodge, his rotations get slowed down significantly most of the time;",
+        "Not free anymore. Good times..."
       ],
       "pros": [
-        "Incredibly long and very forgiving burst window, allowing dodging, mistakes, and switching if desired,",
-        "Main Combo combines ground and aerial combat which can sometimes allow Xiangli Yao to avoid attacks mid-combo increasing his safety even without dodging,",
-        "Incredibly powerful amplification options via team building lead to big opportunities during his ultimate burst window - stacking Verina + Yinlin outros right before ultimate is very potent,",
-        "Has great energy and concerto efficiency between his high-generation main combo and incredibly spammable standard Resonance Skill and Forte: Resonance skill (Outside of Ultimate) abilities,",
-        "Gains interruption resistance (not immunity) during his Ultimate state (Intuition) which should be most of his field time,",
-        "He's free at the time of his release!"
+        "Fully Quickswap-friendly, huge amount of Swap Cancel windows and hence has room for a lot of rotation optimizations;",
+        "Can slow enemies down almost completely, making his rotation easy to perform and hard to interrupt;",
+        "Used to be free."
       ]
     },
     "ratings": {
@@ -420,58 +419,50 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Xiangli Yao is a 5-star Electro Gauntlet wielder who specializes in unleashing strong combos during his Ultimate burst window. What sets him apart from other Ultimate-focused characters, is his unusually long burst duration. This generous window allows for Dodging, Swapping, and even a few mistakes, making his gameplay more forgiving and accessible. Additionally, Xiangli Yao gains Interruption Resistance while his Ultimate buff is active, eliminating one of the most frustrating issues faced by burst-centric characters: being interrupted mid-combo. This resistance significantly reduces his reliance on Swap-Cancels—a challenge that troubles some of his counterparts like Calcharo. To better grasp his abilities and unlock his full potential, let's dive into his kit.",
-            "As an Ultimate-centric character, Xiangli Yao largely overlooks his non-Ultimate abilities in favor of quickly gaining access to his Ultimate. However, there is one exception - the Resonance Skill: Deduction. This ability delivers an Electro attack that generates a substantial amount of Concerto/Resonance energy, is Swap-Cancellable, and has an impressively short cooldown of just 5 seconds. Xiangli Yao's main combo falls slightly short of producing the required 100 Concerto to consistently execute his Outro. To bridge this gap, weaving in one or two uses of Deduction during your team's rotations is highly advised. This not only ensures smooth combo execution but also contributes to additional Resonance energy.",
-            "Xiangli Yao's Ultimate Cognition Model is heart of his kit. Upon activation, Xiangli Yao summons a large cube projection, delivering substantial Electro damage while generating a significant amount of Concerto and placing him into the Intuition buffed state for 24 seconds. During this phase, all his abilities—Basic Attack, Resonance Skill, Dodge Counter, Heavy Attack, and Mid-Air Attack—are enhanced, alongside his Forte gauge. One of the key elements introduced by the Ultimate is the acquisition of 3 charges of Hypercube - it's a unique resource that fuels a powerful attack - Law of Reigns.",
-            "Your goal after activating Xiangli Yao's Ultimate and entering the Intuition state is not to perform as many enhanced attacks within the 24-second duration as possible but, instead to focus on expending all 3 of his Hypercube charges on Laws of Reign as fast as possible - as doing this will lead to the most damage per second. Additionally after consuming all 3 charges of Hypercube the Intuition buffed state will end regardless of the remaining duration ready for you to recharge it and repeat the 3 cube burst combo again.",
-            "Xiangli Yao's Forte Gauge is up next and he actually has access to two of them - one of which is essential to his gameplay (Ultimate empowered) and the other of which can be mostly ignored (Standard).",
-            "His first and standard Forte Gauge is active whenever his Ultimate buffed state is not and is called \"Capacity\". Whenever Xiangli Yao uses his standard Resonance Skill or Basic Attacks he generates capacity rapidly and after accumulating a full Forte Gauge worth of it his Resonance Skill -  Deduction is replaced with Resonance Skill - Decipher, which deals more damage and has a separate cooldown. Decipher generates the same Concerto energy and similar Resonance Energy to Deduction and doesn't directly aid Xiangli Yao with his game plan. For this reason, the standard Forte Gauge is mostly irrelevant and can be treated as a bit of bonus damage whenever it fills. Sometimes some of your Deductions you use to generate Concerto and Resonance energy will be converted to Deciphers but you should treat them the same and still Swap-Cancel them as fast as possible to focus on his Ultimate instead. \nXiangli Yao's second Forte Gauge can only be accessed after using his Ultimate Cognition Model and while the Intuition buff remains active. While the Ultimate enhanced Forte Gauge is in effect Xiangli Yao's Capacity gauge is upgraded into \"Performance Capacity\" which converts it into a 5-point charge system that can be accumulated by landing hits with any of his Ultimate enhanced abilities.",
-            "As mentioned earlier Xiangli Yao's goal during his Ultimate is to consume all 3 of his Hypercube charges as fast as possible by executing 3 Laws of Reign attacks. The catch to this is that Laws of Reign requires and consumes 5 Performance Capacity charges in order to activate. This means your updated mission now is to generate 5 Performance Capacity and spend it on Laws of Reign 3 times as fast as you can. To do this you'll want to execute the series of enhanced abilities which generates 5 Performance Capacity as fast as possible while also dealing as much damage as possible. The best combo to do this is by combining Xiangli Yao's Ultimate enhanced Resonance Skill - Divergence to jump into the air followed by his enhanced Mid-Air Attack - Revamp, you of course want to follow this with Laws of Reign.",
-            "Ultimate: Skill: Divergence (Builds 2 Performance Capacity)",
-            "Forte: Mid-Air Atk: Revamp (Builds 3 Performance Capacity)",
-            "Forte: Skill: Law of Reigns (Consumes 5 Performance Capacity)",
-            "That's 1 Cube down and 2 to go but there's an issue - while the above combo is the most efficient in terms of time, damage, and resource generation Divergence has a 7-second cooldown so we can't just spam it 3 times in a row. To solve this we need to weave in one more combo that's the next most efficient and that is making use of Xiangli Yao's enhanced 3-part Basic Attack combo.",
-            "Ultimate: Basic: Pivot - Impale P1 (Builds 1 Performance Capacity)",
-            "Ultimate: Basic: Pivot - Impale P2 (Builds 2 Performance Capacity)",
-            "Ultimate: Basic: Pivot - Impale P3 (Builds 2 Performance Capacity)",
-            "Forte: Skill: Law of Reigns (Consumes 5 Performance Capacity)",
-            "After executing the Basic Attack combo the Divergence combo should be back off cooldown to use for the third and final cube. After spending your last cube the Ultimate will immediately end and you'll be back to the start of using a few Deductions in between your other teammates abilities to generate Resonance energy and Concerto until your Ultimate is ready to go once again.",
-            "Additionally, while performing Xiangli Yao's Ultimate combos, you will have ample time to incorporate Dodge Counters or Character Swaps - and all generate extra Performance Capacity. Ultimate-enhanced Dodge Counters, in particular, generate 2 Performance Capacity. If these additional charges are available, you can choose to either continue with the standard combo or integrate them, thus skipping some portions of the usual Performance Capacity building sequences to accelerate the burst process.",
-            "Xiangli Yao's Inherent Skills significantly improve his performance, providing both offensive and defensive advantages. His first inherent skill grants a stackable Electro DMG% boost whenever a Resonance skill is used, accumulating up to four stacks. Each stack provides a 5% damage increase, and the effect lasts for 8 seconds. Given that Xiangli Yao frequently employs Resonance Skills—Deduction, Decipher, Divergence, and Law of Reigns—this buff will remain active throughout most of his combo.",
-            "The second Inherent Skill serves as a defensive tool, granting Xiangli Yao Interruption Resistance while the Intuition State is active. This ability is vital, as many of Xiangli Yao's powerful attacks come with long animations. Without this skill, he would need to rely on Swap-Cancels, much like Calcharo. However, with this ability, Xiangli Yao can execute his attacks freely, without the constant concern of being interrupted mid-combo, allowing for smoother and uninterrupted gameplay.",
-            "Xiangli Yao is a great Electro-damage dealer, offering a level of accessibility that surpasses many other Ultimate-buff-based characters, without compromising on raw damage potential. His versatile and well-rounded kit makes him a reliable choice, with strong team synergies available right from his release. One of his greatest advantages is his accessibility, as he is available for free for some time after his initial banner drops (during the 1.2 patch). His easy-to-learn playstyle combined with his potent damage output makes him a standout option in his role."
+            "Xiangli Yao is a 5-star Electro Gauntlets DPS who wants to fire off his Ultimate as quickly as possible to enter a higher-damage stance called Intuition, during which he can deal a larger amount of Resonance Liberation DMG."
+          ]
+        },
+        {
+          "heading": "Key Mechanics & Rotation Concepts",
+          "paragraphs": [
+            "The highlight of Xiangli Yao's kit is his Ultimate. As explained earlier, it makes him enter the Intuition stance, which lasts a whopping 24s (needless to say it's not going to expire on him), and he gains access to new attacks as well as a new Forte gauge during this stance. He wants to enter it as quickly as possible to start dealing the majority of his damage.",
+            "Once his and his teammates' buffs are ready, he enters Intuition and can start filling up his new Forte gauge, Performance Capacity, which stacks up to 5 times. He gains 5 stacks when performing a full Basic Attack chain, or when performing a full Skill chain (which leads him into a Forte Mid-air Attack ending in a plunge). Up to 3 times per Ultimate, when his Forte gauge is full, he can cast a special Forte Skill called Law of Reigns. His rotation goal, as you could've guessed, is to cast those 3 Forte Skills as quickly as possible before switching out. In practice, that should be performed through 2 Skill-Plunge chains and 1 full Basic chain.",
+            "Xiangli Yao also has access to another Forte gauge, called Capacity. When fully filled up through his Basic Attacks or Skills outside of his Ultimate form, he can cast a Forte Skill called Decipher which can then follow into the same Mid-air Attack as in his Ultimate form. However, this Forte gauge will not be used in practice since executing this Skill takes too much time and is overall not worth building up to.",
+            "Other than this, his passives are simple self-damage and interruption resistance increases, and his Outro launches 3 extra lightning strikes to enemies hit by other characters' Basic Attacks."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Is Xiangli Yao a good pull? Let's get the obvious out of the way: No. Xiangli Yao got huge team upgrades since release in the form of Lynae and Mornye being basically as ideal of supports as he could ask for, but they're not enough. Why? A lack of raw damage numbers. Case in point with arbitrary numbers: giving a 200% boost to a character that deals 300000 damage is not as good as giving a 100% boost to a character that deals 500000 damage (you get 900000 vs 1 million).",
+            "However, Xiangli Yao was given for free way back in 1.2. Let's assume you're a long-time player and you already own him on your account, whether from that or from pulling for him on a rerun in the past. Can he be okay to invest into? Sure.",
+            "Xiangli Yao's one of those damage dealers where you really need to set your expectations low in terms of how they can perform, however he can be okay enough to clear some of the easier endgames with. He can get passing scores with enough investment and a proper rotation. As a matter of fact, if you spend enough time optimizing his Quickswap rotations, or you own Yinlin, he can get clearing performances without necessarily taking up Lynae and Mornye, who are much better used on characters with higher base damage than him. It will be difficult in content like Endstate Matrix for example, but it is possible to get results in theory.",
+            "In conclusion, if you need a weaker team than usual to clear some of the early floors of Tower of Adversity or set another score in Endstate Matrix for example, and you already own him, Xiangli Yao could just be serviceable enough to get the job done if you choose to invest in him. Do we recommend him to any new players? That's a definite no from a meta standpoint, but older players who already own him can still use him and get some okay-ish results out of doing so."
           ]
         }
       ],
-      "summary": "Xiangli Yao is a 5-star Electro Gauntlet wielder who specializes in unleashing strong combos during his Ultimate burst window. What sets him apart from other Ultimate-focused characters, is his unusually long burst duration. This generous window allows for Dodging, Swapping, and even a few mistakes, making his gameplay more forgiving and accessible. Additionally, Xiangli Yao gains Interruption Resistance while his Ultimate buff is active, eliminating one of the most frustrating issues faced by burst-centric characters: being interrupted mid-combo. This resistance significantly reduces his reliance on Swap-Cancels—a challenge that troubles some of his counterparts like Calcharo. To better grasp his abilities and unlock his full potential, let's dive into his kit."
+      "summary": "Xiangli Yao is a 5-star Electro Gauntlets DPS who wants to fire off his Ultimate as quickly as possible to enter a higher-damage stance called Intuition, during which he can deal a larger amount of Resonance Liberation DMG."
     },
     "rotations": [
       {
         "rotation_name": "Standard Rotation",
         "steps": [
           "Intro",
-          "Skill: Deduction (Instantly Cancel with Ultimate)",
+          "Heavy Attack (Instantly interrupt via Skill)",
+          "Skill (Instantly interrupt via Ultimate)",
           "Ultimate",
-          "Ultimate: Skill: Divergence",
-          "Forte: Mid-Air Attack: Revamp",
-          "Forte: Skill: Law of Reigns",
-          "Ultimate: Basic: Pivot - Impale P1",
-          "Ultimate: Basic: Pivot - Impale P2",
-          "Ultimate: Basic: Pivot - Impale P3",
-          "Forte: Skill: Law of Reigns",
-          "Ultimate: Skill: Divergence",
-          "Forte: Mid-Air Attack: Revamp",
-          "Forte: Skill: Law of Reigns",
+          "Skill: Divergence",
+          "Basic: Mid-air Attack: Revamp",
+          "Skill: Law of Reigns",
+          "Basic: Pivot 1",
+          "Basic: Pivot 2",
+          "Basic: Pivot 3",
+          "Skill: Law of Reigns",
+          "Skill: Divergence",
+          "Basic: Mid-air Attack: Revamp",
+          "Skill: Law of Reigns (Interrupt when cube starts forming via Swap)",
+          "Echo (Swap)",
           "Outro"
-        ]
-      },
-      {
-        "rotation_name": "Advanced Tips & Tricks",
-        "steps": [
-          "Any of Xiangli Yao's Ultimate attacks can be consecutively Swap Cancelled (save for his first and second Basic Attacks), as all of those animations are long enough to allow him to come back in time to continue his standard rotation sequence. In the most optimized quickswap playstyles, Xiangli Yao is a character who enters in and out of the field repeatedly, in order to cast one ability progressing his rotation further, while another character who also has good Swap Cancel windows (e.g Changli) takes the spotlight in order to play 2 DPS characters at once (or even 3, although we don't recommend that).",
-          "Xiangli Yao's Ultimate stance lasts long enough to entirely forfeit doing any Forte Basic Attacks if the player keeps him out of the field long enough for his skill cooldown to repeatedly come back. However, note that this will significantly extend the amount of time that it takes until he completes a full rotation.",
-          "Nothing prevents Xiangli Yao from using his Ultimate right at the beginning of a fight in order to weave in his attacks while your other characters are busy performing their Opener rotations — this is often used in top-level Xiangli Yao speedruns (although it is extremely difficult to achieve this in a worthwhile manner for DPS).",
-          "Xiangli Yao's initial Ultimate cast freezes all in-game timers a bit longer than most Ultimates do (roughly an extra second during which you're even free to switch into another character while all ingame timers are paused, similar to Augusta's Second Ultimate timestop). This can be exploited in Quickswap, the most common case being in order to achieve 4 Death Messengers with Calcharo more consistently (by swap cancelling a Death Messenger as Xiangli Yao casts his Ultimate)."
         ]
       }
     ],

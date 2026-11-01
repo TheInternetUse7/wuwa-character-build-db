@@ -78,7 +78,7 @@
       {
         "commentary_details": "Simple ATK and CRIT Rate stat-stick for Qiuyuan, who does not benefit from this weapon's Basic Attack DMG-focused effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "85.20%",
+        "percentage_performance": "83.40%",
         "weapon_base_info": {
           "effect_description": "Increase ATK by {0}. When dealing Basic Attack DMG, the wielder gains {1} Basic Attack DMG Bonus for 14s. This effect can be triggered once per second, stacking up to 3 times. When the wielder's Concerto Energy is consumed, gain {2} Basic DMG Bonus for 10s. This effect can be triggered once per second and ends when the wielder is switched off the field.",
           "primary_stat_val": 587,
@@ -92,7 +92,7 @@
       {
         "commentary_details": "Simple ATK and CRIT DMG stat-stick for Qiuyuan, who barely benefits from this weapon's Skill DMG-focused effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "84.40%",
+        "percentage_performance": "82.60%",
         "weapon_base_info": {
           "effect_description": "ATK increased by {0}. The equipper gains 1 stack of Searing Feather upon dealing damage, which can be triggered once every 0.5s, and gains 5 stacks of the same effect upon casting Resonance Skill. Each stack of Searing Feather gives {1} additional Resonance Skill DMG Bonus for up to 14 stacks. All stacks will be removed within 12s after reaching the max stack.",
           "primary_stat_val": 587,
@@ -104,23 +104,9 @@
         "weapon_name": "Blazing Brilliance"
       },
       {
-        "commentary_details": "Best permanently available option by far, since Qiuyuan wants Energy Regen, CRIT Rate and ATK and those are the stats this weapon provides, in high quantities as well. The 12% ATK increase when casting Skill is not exploited well by Qiuyuan, however all other effects of this weapon are very welcome on him and make for one of his top choices easily, able to replace his Signature weapon at a minimal loss.",
-        "dupe_rank": "R1",
-        "percentage_performance": "84.10%",
-        "weapon_base_info": {
-          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases ATK by {1}, stacking up to 2 time(s). This effect lasts for 10s.",
-          "primary_stat_val": 587,
-          "rarity": 5,
-          "secondary_stat_name": "CRIT Rate",
-          "secondary_stat_val": 24.3,
-          "source": "Permanent Convene"
-        },
-        "weapon_name": "Emerald of Genesis"
-      },
-      {
-        "commentary_details": "This Battle Pass exclusive has much lower Base ATK than all 5-star choices above which makes it much worse, however it does have a good CRIT DMG secondary stat and Qiuyuan can use the ATK% part of this weapon's passive well, which makes it the best 4-star choice.",
+        "commentary_details": "This Battle Pass exclusive has much lower Base ATK than all 5-star choices, however it does have a good CRIT DMG secondary stat and Qiuyuan can use the ATK% part of this weapon's passive well, which makes it the best 4-star choice.",
         "dupe_rank": "R5",
-        "percentage_performance": "80.10%",
+        "percentage_performance": "80.80%",
         "weapon_base_info": {
           "effect_description": "Casting Resonance Liberation increases ATK by {0} and grants {1} Resonance Liberation DMG Bonus for 15s.",
           "primary_stat_val": 412,
@@ -132,9 +118,23 @@
         "weapon_name": "Feather Edge"
       },
       {
+        "commentary_details": "Best permanently available option, since Qiuyuan wants CRIT Rate and ATK to deal decent damage and those are the stats this weapon provides, The Energy Regen part of its passive can be used in most teams, but in our specific teammate calculations it is not useful. Can outclass Feather Edge in other team circumstances.",
+        "dupe_rank": "R1",
+        "percentage_performance": "79.50%",
+        "weapon_base_info": {
+          "effect_description": "Increases Energy Regen by {0}. When Resonance Skill is released, increases ATK by {1}, stacking up to 2 time(s). This effect lasts for 10s.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Permanent Convene"
+        },
+        "weapon_name": "Emerald of Genesis"
+      },
+      {
         "commentary_details": "This weapon provides a lot of ATK throughout the whole rotation thanks to its universal passive activated upon Intro, making it a good 4-star choice for almost every Sword user including Qiuyuan.",
         "dupe_rank": "R5",
-        "percentage_performance": "74.10%",
+        "percentage_performance": "72.10%",
         "weapon_base_info": {
           "effect_description": "When Intro Skill is released, increases ATK by {0}, lasting for {1}.",
           "primary_stat_val": 412,
@@ -172,9 +172,9 @@
       "slug": "qiuyuan",
       "updates": {
         "last_major_build_patch": "2.7",
-        "last_profile_update": "01/October/2026",
-        "last_review_patch": "2.7",
-        "last_updated": "01/October/2026"
+        "last_profile_update": "22/October/2026",
+        "last_review_patch": "3.7",
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Sword"
     },
@@ -255,14 +255,14 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Qiuyuan's value is tied to Echo Skill damage dealers until at least S3 (at which point any modern DPS can function amazingly well). His value therefore dies alongside Echo Skill damage dealers', with no guarantee of further maintenance of this niche (like what happened to Coordinated Attacks & Youhu);",
+        "His value is tied to Echo Skill damage dealers until at least S3 (at which point any modern DPS can function amazingly well). His value therefore dies alongside Echo Skill damage dealers', with no guarantee of further maintenance of this niche (see Spectro Frazzle for a reference of this phenomenon);",
         "Optimal Echo sets vary between team choices; optimizing his build while wanting to keep him flexible in between his different teams can prove to be expensive on resources;",
-        "Arguably the most inconsistent Hybrid character in the game until S1. Getting interrupted on his Forte Heavy Attack chain happens often, and can ruin his Concerto generation and cause him to not apply all his buffs."
+        "One of the most inconsistent Hybrid characters in the game until S1. Getting interrupted on his Forte Heavy Attack chain happens often, and can ruin his Concerto generation and cause him to not apply all his buffs."
       ],
       "pros": [
         "Quick rotations, strong specialized buffing, and easy gameplay make for a high-quality buffer;",
         "The Echo Skill damage niche is currently very strong in the meta (particularly via Sigrika, Phrolova, but also Galbrena), for which Qiuyuan is a buffer of choice;",
-        "Has very good, permanently accessible weapon options, which makes him not as costly as more recent Hybrids that want their weapon for higher personal damage/buffing potential (while this is true for Qiuyuan, the difference is on the lower end, and his Signature ends up easily replaced)."
+        "Has very good permanently accessible weapon options."
       ]
     },
     "ratings": {
@@ -335,8 +335,12 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Qiuyuan is a 5-star Aero Sword character who focuses on buffing Echo Skill damage and possesses multiple Echo casts. As you can most likely guess, this enables him to function well in Echo Skill-focused teams as a buffer, and indeed, that is his main and most competitive use in the meta. Let's delve into the details of his kit to understand how to make him work:",
-            "Key Mechanics",
+            "Qiuyuan is a 5-star Aero Sword character who focuses on buffing Echo Skill damage and possesses multiple Echo casts. As you can most likely guess, this enables him to function well in Echo Skill-focused teams as a buffer, and indeed, that is his main and most competitive use in the meta. Let's delve into the details of his kit to understand how to make him work:"
+          ]
+        },
+        {
+          "heading": "Key Mechanics",
+          "paragraphs": [
             "The most important aspect of Qiuyuan's gameplay resides in his Forte gauge called \"Swordster's Soliloquy\". It is separated into three thirds at a value of 200 points each. At 200 points, he acquires enhanced Basic Attacks called Inkwash. At 400 points, he grants a 30% Echo Skill DMG Bonus to the active resonator in the team for 30s, and at 600 points, he gets to cast 3 Forte Heavy Attacks that restore a lot of Concerto Energy, deal good damage, and expend his Forte Gauge, concluding his rotation.",
             "Since Qiuyuan is a character focused on buffing, he additionally gives teammates up to 30% CRIT DMG from his Ultimate if he is at 65% CRIT Rate or higher. However, this buff and the 30% Echo Skill DMG Bonus from acquiring 400 Forte points both only apply to the active resonator in the party, which means they won't apply to any Coordinated and off-field characters. In Qiuyuan's case, this is most relevant for Phrolova's Hecate. It makes the synergy a bit weaker than it would otherwise, but as we'll discuss later, the synergy between Phrolova and Qiuyuan is very much present regardless of this.",
             "Lastly, he provides 50% Echo Skill DMG Amplification to the next character that switches in via his Outro for 14s, which expires upon swapping. This is only really relevant for Galbrena and Sigrika in the current meta; his Signature weapon also provides 20% Echo Skill DMG Bonus to the entire team, and he also has 2 Echo sets to provide team buffs in the form of Moonlit Clouds and Law of Harmony.",
@@ -349,24 +353,18 @@
             "Qiuyuan's rotation is very easy to understand simply by reading his kit, as his combos are intended to flow naturally into one another.",
             "His Intro provides him 400 Forte points and also allows him to directly start his Basic chain from Stage 3. Since he gets 400 Forte from his Intro alone, this makes him cast Enhanced Basic Attacks right away and Stages 3 & 4 of his Inkwash Basic Attacks are enough to get him to the full 600 Forte.",
             "After that, his Ultimate follows to give himself the 30% CRIT DMG buff on top of dealing a lot of damage and restoring Concerto Energy.",
-            "Since his Forte is full at this point, he can hold Basic Attack to cast his 3 Forte Heavy Attacks and finally finish the rotation with a Swap Cancel of his Echo cast (interrupted by his Outro) if it has an animation like Impermanence Heron to activate its buffs. In the Phrolova team specifically, however, casting it right before his Ultimate to privilege buffing Enhanced Hecate attacks is a better idea, so there is some nuance. And that concludes his rotation, very easy to perform.",
+            "Since his Forte is full at this point, he can hold Basic Attack to cast his 3 Forte Heavy Attacks and finally finish the rotation with a Swap Cancel of his Echo cast (interrupted by his Outro) if it has an animation like Impermanence Heron to activate its buffs. In the Phrolova team specifically, however, casting it right before his Ultimate to privilege buffing Enhanced Hecate attacks is a better idea, so there is some nuance. And that concludes his rotation, very easy to perform. If he gets interrupted at any point, he can recover some Forte and Concerto relatively quickly through his Heavy Attacks that directly lead into Inkwash Basic 4.",
             "At S3 and higher, his rotation changes as he is allowed to perform a unique Skill in place of his Intro to perform this same rotation a second time. This unlocks a DPS playstyle for him, while still enabling his use of the standard Skill as a buffer by simply holding the Skill input instead of tapping it."
           ]
         },
         {
-          "heading": "Unused parts of his kit",
+          "heading": "Meta position & Conclusion",
           "paragraphs": [
-            "In Qiuyuan's rotation, all of his non-Inkwash Basic Attack-related moves as well as his regular Heavy Attack are all unused. With that being said, after an Intro, Qiuyuan doesn't lose much from having to dodge during his Forte generation phase, so the Dodge Counter isn't bad to exploit when available (provided you aren't busy casting his Forte Heavy Attacks)."
-          ]
-        },
-        {
-          "heading": "Meta Position & Conclusion",
-          "paragraphs": [
-            "Qiuyuan is in a strong meta position currently, but he is not without his flaws. Due to his lack of personal damage and a rotation that's on the medium-short side, he doesn't perform well as a general buffer in spite of his generalist ability to buff the active party member's CRIT DMG, and outside of S3 enabling strong DPS rotations, he does not have potential as a Main DPS either, unlike Iuno or Brant, for example.",
-            "This makes Qiuyuan somewhat niche, where he'll have a hard time finding a spot on your teams unless you own an Echo Skill damage dealer. However, as it currently stands, the Echo Skill Damage archetype is composed of several very strong meta contenders in terms of DPS right now, and rest assured, Qiuyuan is on the best teams of Sigrika and Phrolova while being very close to Mono Fusion for Galbrena. This is because Qiuyuan's numerous Echo casts and team-wide Echo damage buffing increase Hecate's damage potential by a ton in Phrolova teams (not to mention Qiuyuan benefits from 25% DMG Amplification via Phrolova's Outro), and in teams featuring Galbrena and Sigrika, they fully utilize Qiuyuan's array of buffs, including his Outro and multiple Echo Skill casts, boosting their damage by a massive amount.",
-            "However, this does not come without its downsides. Qiuyuan is currently the strongest choice for these characters, but he is only a choice in these three teams. The issue with that? He is easily replaced by Lupa in a Galbrena team (where Lupa proves stronger alongside Mornye or other Quickswap compositions like Changli for more advanced players), and he is easily replaced in a Phrolova team by Lucilla (if she is played alongside one of Phrolova's many accessible 2nd slots), or at a lower power budget, Roccia, Shorekeeper, even Danjin, and in the Sigrika team he's replaceable by Lucilla in the 2nd slot. Alternatives always exist, and Qiuyuan is hence never necessary, although he is beyond the shadow of a doubt part of Phrolova's best team alongside Lucilla and Sigrika's best team alongside Ciaccona.",
-            "With that being said, he does have his selling points. Qiuyuan does not need his Signature weapon, which makes him less costly than most of his recent Hybrid peers (Lucilla included); he is very easy to pilot and he is the strongest teammate for 2 of the strongest teams in the game right now, Phrolova and Sigrika being the strongest teams in Whimpering Wastes while displaying excellent performance in other endgames too. That alone is more than enough to justify his position in the meta as a Hybrid buffer.",
-            "In conclusion, Qiuyuan is currently in a very strong meta position. Able to work with 3 of the best teams in the game as one of the best team members available, and having no need for a Signature weapon while remaining easy to play, he has a lot going for him. However, he is only limited to these 3 teams because of the nature of his kit focusing on the archetype of Echo Skill damage. Qiuyuan has a niche in which he specializes in and is very strong, and in spite of his low number of use cases, for players looking to improve their Sigrika, Phrolova and/or Galbrena teams, he's definitely worth considering."
+            "Qiuyuan is in a strong meta position currently, but he is not without his flaws. Due to his lack of personal damage and generalist buffs, he doesn't perform well as a generalist buffer. He does not have potential as a Main DPS until S3 either, unlike Iuno or Brant, for example.",
+            "This makes Qiuyuan somewhat niche, where he'll have a hard time finding a spot on your teams unless you own an Echo Skill damage dealer. However, as it currently stands, the Echo Skill Damage archetype is composed of several very strong meta contenders in terms of DPS right now, and rest assured, Qiuyuan is on some of the best teams of Sigrika and Phrolova while being very close to Mono Fusion for Galbrena. This is because Qiuyuan's numerous Echo casts and team-wide Echo damage buffing increase Hecate's damage potential by a ton in Phrolova teams (not to mention Qiuyuan benefits from 25% DMG Amplification via Phrolova's Outro), and in teams featuring Galbrena and Sigrika, they fully utilize Qiuyuan's array of buffs, including his Outro and multiple Echo Skill casts, boosting their damage by a massive amount.",
+            "However, this does not come without its downsides. Qiuyuan is currently one of the strongest choices for these characters, but he is only a choice in these three teams. The issue with that? He is easily replaced by Lupa in a Galbrena team (where Lupa proves stronger alongside Mornye or other Quickswap teams for more advanced players), and he is easily replaced in any team by Lucilla. In Phrolova teams, he's replaceable by the likes of Shorekeeper, Buling and even Danjin, if nothing else is available. Alternatives always exist, and Qiuyuan is hence never necessary. Lucilla is a more consistent version of him, with slower but easier rotations that get interrupted less frequently, and, if they do get interrupted, they aren't punished anywhere near as harshly as Qiuyuan's.",
+            "With that being said, he does have his selling points. Qiuyuan does not need his Signature weapon, which makes him less costly than most of his recent Hybrid peers (Lucilla included); while less consistent, he has the highest ceiling for Sigrika teams when played fully optimally, being the strongest Echo team currently. The Echo archetype also is one of the rare ones that dominates Whimpering Wastes right now through Sigrika and Phrolova. Additionally, Lucilla can very often be busy in Glacio Chafe mode playing alongside Hiyuki instead. Qiuyuan has no such flexibility, but Echo characters are very meta-relevant, and the fact that he's a second Echo Mode Lucilla alone is more than enough to justify his position in the meta as a Hybrid buffer. You only have so many Lucillas after all, even if she is a better character for the majority of accounts and players, by way of her added Glacio Chafe team flexibility, and rotation consistency.",
+            "In conclusion, Qiuyuan is currently in a very strong meta position in spite of his flaws. Able to work with 3 of the best teams in the game as one of the best team members available, and having no need for a Signature weapon while remaining easy to play, he has a lot going for him. However, he can very easily get interrupted, and is only limited to these 3 teams because of the nature of his kit focusing on the archetype of Echo Skill damage. Qiuyuan has a niche in which he specializes in and is very strong, and in spite of his low number of use cases and inconsistency issues, for players looking to improve their Sigrika, Phrolova and/or Galbrena teams, he's definitely worth considering."
           ]
         }
       ],
@@ -378,7 +376,7 @@
         "steps": [
           "Intro",
           "Basic: Inkwash 3",
-          "Basic: Inkwash 4 (OPTIONAL: Cancel animation endlag via Skill)",
+          "Basic: Inkwash 4 (OPTIONAL: Cancel animation on cast via Skill, use Ultimate otherwise)",
           "OPTIONAL: Skill (Cancel animation endlag via Ultimate)",
           "Ultimate",
           "Heavy: To Teach",
@@ -386,8 +384,29 @@
           "Heavy: To Sacrifice",
           "Outro",
           "At S3 and higher, Qiuyuan's Skill is replaced by a new Skill that enables him to recast his 2 Inkwash Basics and 3 Forte Heavy Attacks and function as a Main DPS. However, it consumes Concerto Energy, and as a result it must be skipped out when used as a buffer. A normal Skill can still be cast in a pinch for Resonance Energy by holding down the Skill input.",
-          "With 5P Moonlit Clouds, he uses Impermanence Heron as his main Echo. This can make him necessitate way less Energy; however, it needs to be cast either before his rotation starts (optimally) to benefit from the flat Energy regeneration effect and extra damage, or at the end of his rotation, which will interrupt the animation via his Outro. This is also applicable with a 2P Moonlit Clouds and Bell-Borne Geochelone in Phrolova teams, as he can use this at the very end of his rotation as well, this time benefiting from the damage and Energy generation from the cast itself but losing out on a bit of his Inherent Skill ATK buff.",
-          "With 3P Law of Harmony, he'll tend to run Reminiscence: Fenrico a lot of the time, which has no relevant timing to its use - just cast it immediately after switching into him to benefit from his Inherent Skill ATK buff."
+          "With 5P Moonlit Clouds, he uses Impermanence Heron as his main Echo. This can make him necessitate way less Energy; however, it needs to be cast either before his rotation starts (optimally) to benefit from the flat Energy regeneration effect and extra damage, or at the end of his rotation, which will interrupt the animation via his Outro.",
+          "If you want to rotate without an Intro (can be used when optimizing rotations to fit in some extra key attacks in niche situations, e.g: Sigrika Shorekeeper Double Outburst), then you can rotate like this:"
+        ]
+      },
+      {
+        "rotation_name": "No Intro Rotation",
+        "steps": [
+          "Heavy",
+          "Basic: Inkwash 4",
+          "Heavy",
+          "Basic: Inkwash 4 (Cancel animation on cast via Echo/Ultimate)",
+          "If on Moonlit: Echo (Interrupt instantly via Dash)",
+          "If on Moonlit: Dash (Interrupt instantly via Ultimate)",
+          "Ultimate",
+          "Basic: Inkwash 1",
+          "Basic: Inkwash 2 (Interrupt via Dash when Forte is generated)",
+          "Dash",
+          "Basic: Inkwash 1",
+          "Basic: Inkwash 2 (Interrupt via Heavy)",
+          "Heavy: To Teach",
+          "Heavy: To Save",
+          "Heavy: To Sacrifice (Swap)",
+          "Outro"
         ]
       },
       {
@@ -395,14 +414,14 @@
         "steps": [
           "Intro",
           "Basic: Inkwash 3",
-          "Basic: Inkwash 4",
+          "Basic: Inkwash 4 (Cancel animation on cast via Ultimate)",
           "Ultimate",
           "Heavy: To Teach",
           "Heavy: To Save",
           "Heavy: To Sacrifice",
           "Skill: Straw Cape in Drizzly Rain",
           "Basic: Inkwash 3",
-          "Basic: Inkwash 4",
+          "Basic: Inkwash 4 (Cancel animation on cast via Heavy)",
           "Heavy: To Teach",
           "Heavy: To Save",
           "Heavy: To Sacrifice",

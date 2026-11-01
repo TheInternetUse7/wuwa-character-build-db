@@ -165,10 +165,10 @@
       "rarity_stars": 5,
       "slug": "rover-spectro",
       "updates": {
-        "last_major_build_patch": "2.3",
-        "last_profile_update": "01/October/2026",
-        "last_review_patch": "2.1",
-        "last_updated": "01/October/2026"
+        "last_major_build_patch": "3.7",
+        "last_profile_update": "22/October/2026",
+        "last_review_patch": "3.7",
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Sword"
     },
@@ -278,18 +278,15 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "While the character has a ton of survivability built into their kit, they buff way less than other characters in the same niche;",
-        "Rotations aren't straightforward and require to swap in and out of the field in unconventional ways to perform;",
-        "Only really wanted in a single team, solely due to their Spectro Frazzle application, making them niche to build and likely to be replaceable in the future."
+        "Has effectively no Outro Skill (at least not one that does anything useful);",
+        "Only best use case is in Quickswap with Zani and Phoebe, their rotation is super awkward and they're overall not worth using if you don't Quickswap;",
+        "Spectro Frazzle has received no improvements since Zani's release way back on the 1st anniversary and it's their only justified use case."
       ],
       "pros": [
-        "Is one of the few characters that can deal a great amount of damage while retaining good healing in their base kit;",
-        "Relevant meta character thanks to being mandatory with one of the best DPS characters in the game as they're one of the main Spectro Frazzle appliers;",
-        "Can quickly fill their Forte gauge for fast rotations;",
-        "Able to be played with multiple Echo sets to make teambuilding flexible;",
-        "The character and all their sequences are available for free, unlocking the rare ability to lower enemy resistances;",
-        "Fast and precise attack frames that make parrying easier;",
-        "Outro skill slows enemies in place, providing a lot of comfort."
+        "Fully Quickswap-friendly;",
+        "Can shred enemy Spectro RES, a very rare form of damage increase;",
+        "Has no Signature weapon they could rely on, so they're balanced around permanent banner options;",
+        "They and their Sequences are free!"
       ]
     },
     "ratings": {
@@ -364,42 +361,71 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Rover is the main character in Wuthering Waves, unlocked for free by default and starting as a Spectro Hybrid Sword character who is a jack-of-all-trades, capable of many roles: healing, crowd control, debuff, damage over time and Sub-DPS damage dealer. They received a lot of buffs in versions 2.0 and 2.1 that now make them desirable in specific teams linked to their new core mechanic: Spectro Frazzle.",
-            "Spectro Frazzle is a damage over time mechanic currently only inflicted and exploited by a select few Spectro characters, being Spectro Rover themselves and Phoebe as of the current patch. As said previously, it's the mechanic that Spectro Rover's kit revolves around. It deals damage every 3 seconds to any enemy inflicted based on the number of stacks applied, enemy defense, enemy elemental resistance, character level, and Spectro Frazzle-specific buffs, stacking up to 10 times.",
-            "Spectro Rover has two ways to apply Spectro Frazzle: their Ultimate, a simple AoE nuke, applies 6 stacks by default, and their Resonance Skill, when enhanced by their Forte gauge (more details later), applies 2 stacks. This means you need 2 Resonance Skills and 1 Ultimate to build all 10 stacks of Spectro Frazzle - considering their Skill is on a very low cooldown of 6 seconds, this means they're able to apply full Spectro Frazzle to several enemies quickly, as their Ultimate has a good AoE.",
-            "Their Forte gauge, called Diminutive Sound, fills up to 100 points and is split in two halves. Spectro Rover consumes one half in order to enhance their Resonance Skill. To fill this gauge up, they need to use either Basic Attacks, Intro Skills, or most efficiently their Heavy Attacks, which they can follow up by a special Heavy Attack called Aftertune by attacking again. Intro skills and Aftertune each restore half of their Forte gauge, meaning they face no problems charging the gauge up for every Resonance Skill.",
-            "Their enhanced Resonance Skill, called Resonating Spin, not only applies 2 stacks of Spectro Frazzle as mentioned prior, but deals enhanced damage, spawns an extra whirling attack around Spectro Rover for even more damage, applies Shimmer to enemies hit which prevents any Spectro Frazzle stacks from diminishing for 9 seconds while still doing damage normally, and allows them to follow up with up to 2 special enhanced Skills called Resonating Echoes. Thanks to their S6, Resonating Echoes and Resonating Spin decreases the Spectro RES of any enemy hit by 10% for 20s. Keep in mind this last debuff can't stack, but is good damage increase nonetheless.",
-            "So with all of these mechanics explained, gameplay-wise they'll differ based on the Echo set they're running. Keep this in mind: you access all of Spectro Rover's sequences for free. Among these included the Spectro RES shred we just mentioned, but also a free 15% CRIT Rate after casting their Skill, a free 20% Spectro DMG bonus, a free 40% Liberation DMG bonus, and even a free 20% Energy Regen. These are a ton of free stats that make their builds way easier, but most importantly with their S4 they access healing to the whole team equal to 20% of their ATK every second for 5s after casting their Ultimate.",
-            "Realistically, this healing is small - it should amount to roughly 3000 to 4000 healing per team member in total. However, any healing is enough healing to trigger the Rejuvenating Glow set, which gives a free 15% ATK to the whole team for 30s after a heal is triggered. This makes them playable both on that set and the Moonlit Clouds set for more traditional Hybrid buffing. However, it means their gameplay and playstyle vary a fair amount depending on the role they fill in your team, said role depending on the Echo set you choose to run.",
-            "Equipped with the Rejuvenating Glow set, you won't want to run a traditional healer - you're looking for Spectro Rover to fill that role. The heals they provide won't be nearly as high, but they should be enough for experienced players - worst case scenario build Healing Bonus and lots of ATK and you should be good. In this case they don't need to build their Outro up since it doesn't buff characters like traditional healer Outroes do - so you can skip it altogether and only focus on applying Spectro Frazzle. This shortens their actions and their field time significantly. Generally speaking, you'll run this build with a traditional Moonlit Clouds Hybrid, or a quickswap second DPS for the more expert players.",
-            "This changes with Moonlit Clouds though. The buff to your DPS coming from it is triggered after an Outro - so you'll want to build that up more traditionally in order to access the buff. This makes their rotations a bit longer but makes them deal more damage and allows you to run lots of healing, since you'll pair this Spectro Rover build with a traditional healer, making for teams that have some of the highest survivability in the game.",
-            "Generally speaking though, their rotations follow the same rules of wanting to apply max Spectro Frazzle via their enhanced Skill - built after an Intro or after a Heavy Attack Aftertune - and their Ultimate. So that's essentially what their gameplay's about regardless.",
-            "Now, to tackle their meta relevancy: Spectro Rover finds themselves in an awkward position. Sure, they can fulfill many roles, but they're a jack-of-all-trades, master of none. The only thing they're a master of, which is their only meta niche, is applying Spectro Frazzle for Phoebe specifically, who needs it applied to enemies in order to deal great damage. This means currently, since we have no characters that can apply Spectro Frazzle other than Phoebe and Spectro Rover, the two are mandatory together. But other than that? Spectro Rover doesn't buff enough, or they don't deal enough damage, or they don't heal enough, or they don't debuff enough. So in other teams, they're caught between a rock and a hard place. Besides, in terms of applying Spectro Frazzle alone, Phoebe does it better than them via her Hybrid mode. This means the second another DPS character comes out who relies on Spectro Frazzle, they'll want Phoebe over Spectro Rover. And the second someone else generates Spectro Frazzle, but buffs more or deals more damage? They'll take the role of Phoebe's support over Spectro Rover.",
-            "This means Spectro Rover is currently necessary to Phoebe, but also holds an unstable future to her as well - we're unsure whether or not more characters that will work around Spectro Frazzle will come out, and the second Spectro Rover gets outclassed in that niche, they'll go back to having no meta relevancy - only being a budget option compared to the better ones. Regardless though, like said prior, Spectro Rover IS necessary to Phoebe, and the two together make for a team with ludicrous levels of damage, some of the very best in the entire game. So even if Spectro Rover does get outclassed in the future, you can rest assured you'll clear ANY content in the game ridiculously easily for a long time.",
-            "To summarize, Spectro Rover is a character capable of filling a ton of roles, so far as to fill multiple possible positions on a team. Currently, though, their only viable team is with Phoebe, so there is no justification to build them other than if you own her. That being said, the team with Phoebe is way too strong, and Spectro Rover is currently necessary to make Phoebe work well - this means Spectro Rover is, undeniably, a meta character, with who you'll enjoy great damage, healing, crowd control, buffs and debuffs for one of the best Spectro teams in the game."
+            "Spectro Rover is a 5-star Spectro Sword character who is the only free-to-play Spectro Frazzle applier. Their kit focuses on applying Spectro Frazzle for their allies to take advantage of, and they act mostly as a sort of 3rd slot Support, but they're particular as they have almost no inherent kit buffs and effectively no Outro Skill."
+          ]
+        },
+        {
+          "heading": "Key Mechanics & Rotation Concepts",
+          "paragraphs": [
+            "Spectro Rover is an especially dated 1.0 character that has a more unique design philosophy, the same way a lot of characters from the game's release do. A lot of characters had no identity on release, and Spectro Rover was one of those. However, in 2.0, they gained the following abilities that define their meta use case:",
+            "Their Ultimate applies 6 stacks of Spectro Frazzle to enemies hit;",
+            "Their Forte Skill applies 2 stacks of Spectro Frazzle and Shimmer to enemies hit, which prevents Spectro Frazzle counts from decreasing for 9s (they still deal their normal damage, but the stacks don't deplete upon dealing that damage as they normally would).",
+            "In total, to complete their rotation, they'll at least need to cast that Ultimate and 2 Forte Skills, which is a minimum of 10 Spectro Frazzle stacks applied per rotation. They may, however, do more than this in Quickswap.",
+            "Indeed, Spectro Rover has no inherent kit buffs that expire on Swap. Most characters in Spectro Rover's intended role have an Outro Skill that provides an amount of DMG Amplification to the next character, and it expires on swap. This is not their case, as their Outro just generates a field around themselves that slow enemies down to a crawl. Practically speaking, aside from adding some rotation consistency against more aggressive enemies, this is quite useless.",
+            "Most of their actual buffs are found in their Sequence nodes: free CRIT Rate, Energy Regen, Spectro & Liberation DMG Bonus. This only affects their own damage though. What's most relevant is their S4 and S6. Their S4 allows them to heal the entire party after casting Ultimate, and the S6 provides 10% Spectro RES Shred to all enemies hit by their Skill/Forte Skill. The healing is particularly important as it allows them to trigger the Rejuvenating Glow set for free, allowing them to act as a Spectro Frazzle-applying/RES shredding Support.",
+            "Finally, for their rotation, the only relevant combo to charge up some Forte is their Basic 2-3/Heavy Attack into Resonance & Aftertune. Those are special Heavy/Basic Attacks activated sequentially, Aftertune itself grants almost half of a Forte gauge. Half is what needs to be spent in order to cast a Forte Skill, and you get there with the Forte generated by a Basic 2-3 or a Heavy Attack.",
+            "These Forte Skills can also be followed up with a special Basic Attack called Resonating Echoes. In some rotations, this allows you to get enough Concerto quite quickly to trigger another character's Intro if they need it, even if Spectro Rover's own Outro is practically useless. And that's really all there is to say about their rotation."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Compared to say, a Verina or a Shorekeeper, in a Spectro Frazzle team, Spectro Rover has some clear advantages. Spectro RES shred and Spectro Frazzle application are both great additional resources that our 2 available Spectro Frazzle DPS, Zani and Phoebe make great use of.",
+            "However, Spectro Rover's damage buffing profile is very low, and their main utility is personal damage, Quickswap-friendliness and most important of all, Spectro Frazzle application. Through it, DPS Phoebe is enabled as Spectro Rover's Spectro Frazzle application is a necessity for her to do meaningful damage with her Starflash heavies.",
+            "Meanwhile, Zani's Spectro Frazzle application is already covered by Phoebe herself in Confession mode. Where Spectro Rover comes in is to provide even more fuel to Zani's Ultimate, as they're able to restore her Blaze bar mid-rotation through Quickswap in order to get her to do 1 or even 2 more Nightfalls depending on your rotation. This is highly significant for more advanced Zani rotations, and the Zani/Phoebe/Spectro Rover team played in Quickswap is the only reason why Zani is still meta relevant in the right hands today.",
+            "However, outside of these use cases, let's be honest - neither Phoebe nor Zani are meta-relevant units to begin with as things stand. If that wasn't enough, DPS Phoebe cannot be optimized enough to really keep up with the rest of the meta. Besides, Spectro Rover's own rotation is so slow and clunky outside of Quickswap that it's not even worth finishing all the way, at which point general Supports like Shorekeeper and Verina are simply better ideas.",
+            "In conclusion, Spectro Rover is a practically Quickswap-only unit for very specific teams that have long since dwindled in meta relevancy for most players. That is, Spectro Frazzle. Alongside both Zani and Phoebe in Quickswap rotations, Spectro Rover can prove quite strong as Zani's additional source of Blaze generation to execute more of her most powerful attacks. Outside of that use case, it's safe to say Spectro Rover is not a recommended investment in the current meta."
           ]
         }
       ],
-      "summary": "Rover is the main character in Wuthering Waves, unlocked for free by default and starting as a Spectro Hybrid Sword character who is a jack-of-all-trades, capable of many roles: healing, crowd control, debuff, damage over time and Sub-DPS damage dealer. They received a lot of buffs in versions 2.0 and 2.1 that now make them desirable in specific teams linked to their new core mechanic: Spectro Frazzle."
+      "summary": "Spectro Rover is a 5-star Spectro Sword character who is the only free-to-play Spectro Frazzle applier. Their kit focuses on applying Spectro Frazzle for their allies to take advantage of, and they act mostly as a sort of 3rd slot Support, but they're particular as they have almost no inherent kit buffs and effectively no Outro Skill."
     },
     "rotations": [
       {
-        "rotation_name": "BURST COMBO",
+        "rotation_name": "Opener Rotation",
         "steps": [
-          "Heavy Atk",
-          "Resonance",
-          "Aftertune",
-          "Forte: Resonating Spin",
-          "Forte: Resonating Whirl",
-          "Swap while waiting for Skill CD",
-          "Intro",
+          "Switch-in from any other character in combat",
+          "Basic 2",
+          "Basic 3",
+          "Heavy: Resonance",
+          "Basic: Aftertune (Cancel animation endlag via Skill)",
+          "Skill: Resonating Spin",
+          "Basic: Resonating Echoes (Swap)",
+          "Switch-in from any other character in combat",
+          "Basic 2",
+          "Basic 3",
+          "Heavy: Resonance",
+          "Basic: Aftertune (Cancel animation endlag via Ultimate)",
           "Ultimate",
-          "Basic P1",
-          "Basic P2",
-          "Forte: Resonating Spin",
-          "Forte: Resonating Whirl",
-          "Forte: Resonating Echoes P1",
-          "Forte: Resonating Echoes P2",
+          "Skill: Resonating Spin",
+          "Basic: Resonating Echoes (Swap)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Loop Rotation",
+        "steps": [
+          "Intro",
+          "Skill: Resonating Spin",
+          "Basic: Resonating Echoes (Swap)",
+          "Switch-in from any other character in combat",
+          "Basic 2",
+          "Basic 3",
+          "Heavy: Resonance",
+          "Basic: Aftertune (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Skill: Resonating Spin",
+          "Basic: Resonating Echoes (Swap)",
           "Outro"
         ]
       }

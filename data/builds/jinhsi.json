@@ -199,9 +199,9 @@
       "slug": "jinhsi",
       "updates": {
         "last_major_build_patch": "3.7",
-        "last_profile_update": "01/October/2026",
+        "last_profile_update": "22/October/2026",
         "last_review_patch": "3.7",
-        "last_updated": "01/October/2026"
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Broadblade"
     },
@@ -301,16 +301,18 @@
           "tags": [
             "Unison",
             "Coord",
-            "Expert +1"
+            "Expert +1",
+            "Partner (Hsin)"
           ],
-          "tier": "T3"
+          "tier": "T1.5"
         },
         "whimpering_wastes": {
           "tags": [
             "Unison",
-            "Coord"
+            "Coord",
+            "Partner (Hsin)"
           ],
-          "tier": "T4"
+          "tier": "T2"
         }
       },
       "value_tier_ratings": {

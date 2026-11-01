@@ -237,9 +237,9 @@
       "slug": "lucilla",
       "updates": {
         "last_major_build_patch": "3.6",
-        "last_profile_update": "01/October/2026",
+        "last_profile_update": "22/October/2026",
         "last_review_patch": "3.6",
-        "last_updated": "01/October/2026"
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -441,18 +441,14 @@
         "rotation_name": "Standard Rotation",
         "steps": [
           "Intro",
-          "Skill: Spotlight (Perfect Release)",
+          "Hold Skill: Spotlight (Perfect Release)",
           "Ultimate",
           "Heavy: Basic - Forms 1",
           "Heavy: Basic - Forms 2",
           "Heavy: Basic - Forms 3",
-          "Letting It Go",
-          "Outro"
-        ]
-      },
-      {
-        "rotation_name": "Additional Tips & Tricks",
-        "steps": [
+          "Heavy: Letting It Go",
+          "Outro",
+          "Important for Phrolova teams: Lucilla needs to cast her Hold Skill before her rotation starts. Then, she will use her Ultimate first and her Hold Skill after Letting It Go. The reason why she should do this is because otherwise, Hecate will get interrupted as it's busy casting Enhanced Attacks. Delaying Lucilla's Skill use allows Hecate to actually finish dealing all its damage before Introing back into Phrolova and interrupting Hecate safely without wasting damage.",
           "To release Spotlight perfectly within its timing window, try releasing around a quarter of a second after the Skill has started casting. During the Skill cast, the lens that forms around Lucilla has 2 grey areas, on which the arrows that circle around the lens need to land, for the Skill to be released at the perfect timing. At that point in time, the areas' colour changes from grey to golden - you want to release the Skill button there.",
           "Additionally, since Lucilla's Ultimate will not come up before Skill has fully landed, you're free to spam Ultimate until it casts and - if on Glacio Chafe mode - you may do the same for Outro by spamming swap during the ending part of Letting It Go as well.",
           "Lucilla's Basic 2 during Letting it Go can serve as her one and only decent swap cancel window for quickswap teams."

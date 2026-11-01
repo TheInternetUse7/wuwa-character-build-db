@@ -61,7 +61,7 @@
     },
     "best_weapons": [
       {
-        "commentary_details": "Incredibly potent option offering main stat CRIT RATE, great base damage and a good amount of energy recharge allowing for sub stats to be used elsewhere. Also offers a supportive ability granting the next character to switch in an ATK boost granting it extra value for Hybrid and Support characters. ",
+        "commentary_details": "Best in slot weapon for Mortefi when put in a full team context. Only weapon he can wield that provides a meaningful buff for the next character coming in via Intro, making it his best weapon when looking at full team damage.",
         "dupe_rank": "R1",
         "percentage_performance": "100.00%",
         "weapon_base_info": {
@@ -75,9 +75,23 @@
         "weapon_name": "Static Mist"
       },
       {
-        "commentary_details": "Carlotta's Signature and a solid choice for most pistol based resonators due to its decent base damage, very high CRIT DM% and permanent ATK% boost. Far more effective though for resonators that deal some or the majority of their damage through Resonance Skill damaging abilites. ",
+        "commentary_details": "Simple ATK and CRIT Rate stat-stick for Mortefi, who barely benefits from this weapon's Basic DMG-increasing effects.",
         "dupe_rank": "R1",
-        "percentage_performance": "106.12%",
+        "percentage_performance": "106.70%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Casting Intro Skill or hitting the target with Basic Attack increases the wielder's Basic Attack DMG by {1} for 4s. Each time the wielder inflicts Tune Rupture - Shifting or Tune Strain - Shifting during Basic Attacks, all DMG dealt by Resonators in the team is increased by {2} for 30s, up to 3 stacks. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 24.3,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Spectrum Blaster"
+      },
+      {
+        "commentary_details": "Simple ATK and CRIT DMG stat-stick for Mortefi, who barely benefits from this weapon's Skill DMG-increasing effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "105.70%",
         "weapon_base_info": {
           "effect_description": "Increases ATK by {0}. Every time Intro Skill or Resonance Liberation is cast, Resonance Skill DMG Bonus increases by {1} for 5s.",
           "primary_stat_val": 500,
@@ -89,9 +103,79 @@
         "weapon_name": "The Last Dance"
       },
       {
-        "commentary_details": "Good generalist 4-star weapon that provides extra Energy and has good Base ATK for a 4-star. Significantly reduces Energy requirements on Mortefi.",
+        "commentary_details": "Simple ATK and CRIT Rate stat-stick for Mortefi, who does not benefit from this weapon's Aero Erosion-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "105.00%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. Inflicting Aero Erosion on the target gives {1} Aero DMG Bonus for 10s. Hitting targets with Aero Erosion reduces their Aero RES by {2} for 20s. Effects of the same name cannot be stacked.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 36,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Woodland Aria"
+      },
+      {
+        "commentary_details": "Simple ATK and CRT DMG stat-stick for Mortefi, who does not benefit from this weapon's Heavy and Echo DMG-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "104.60%",
+        "weapon_base_info": {
+          "effect_description": "ATK is increased by {0}. Upon dealing Echo Skill DMG, gain {1} Heavy Attack DMG Amplification for 6s. Upon dealing Heavy Attack DMG, gain {1} Echo Skill DMG Amplification for 6s. DMG Amplification on each attack is capped at {1}. While both effects are active, dealing damage ignores {2} of the target's DEF.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG",
+          "secondary_stat_val": 48.6,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Lux & Umbra"
+      },
+      {
+        "commentary_details": "Simple ATK and CRIT DMG stat-stick for Mortefi, who does not benefit from this weapon's Spectro/Hack DMG-related effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "104.20%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Casting Resonance Skill grants 20% Spectro DMG Bonus to the wielder for 14s, stacking up to 2 times. Inflicting Hack - Shifting grants {1} Heavy Attack DMG Amplification to the wielder for 14s, during which Heavy Attack DMG ignores {2} of the target's DEF.",
+          "primary_stat_val": 587,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG%",
+          "secondary_stat_val": 48.6,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Spectral Trigger"
+      },
+      {
+        "commentary_details": "Simple ATK and CRIT DMG stat-stick for Mortefi, who barely benefits from this weapon's Basic DMG-increasing effects.",
+        "dupe_rank": "R1",
+        "percentage_performance": "103.00%",
+        "weapon_base_info": {
+          "effect_description": "Increases ATK by {0}. Casting Intro Skill grants {1} Basic Attack DMG Bonus to the wielder for 14s. Inflicting Hack - Shifting grants {0} Basic Attack DMG Bonus to the wielder for 14s, and increases the ATK of Resonators in the team by {1} for 30s. Effects of the same name do not stack.",
+          "primary_stat_val": 500,
+          "rarity": 5,
+          "secondary_stat_name": "CRIT DMG%",
+          "secondary_stat_val": 72,
+          "source": "Rate-up"
+        },
+        "weapon_name": "Skull Thrasher"
+      },
+      {
+        "commentary_details": "best 4-star option, grants some ATK and CRIT Rate stats while still remaining much worse than 5-star options due to a much lower Base ATK.",
         "dupe_rank": "R5",
-        "percentage_performance": "83.92%",
+        "percentage_performance": "87.20%",
+        "weapon_base_info": {
+          "effect_description": "Dealing Basic Attack or Heavy Attack DMG increases ATK by {0} and grants {0} Heavy Attack DMG Bonus for 7s, stacking up to 4 times. This effect can be triggered 1 time every 1s.",
+          "primary_stat_val": 412,
+          "rarity": 4,
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.3,
+          "source": "Battle Pass"
+        },
+        "weapon_name": "Solar Flame"
+      },
+      {
+        "commentary_details": "Good generalist 4-star weapon that provides extra Energy and has good Base ATK for a 4-star. Can reduce Energy requirements on Mortefi.",
+        "dupe_rank": "R5",
+        "percentage_performance": "85.80%",
         "weapon_base_info": {
           "effect_description": "Casting the Resonance Skill grants {0} Resonance Energy and increases ATK by {1}, lasting for 16s. This effect can be triggered once every 20s.",
           "primary_stat_val": 462,
@@ -103,37 +187,23 @@
         "weapon_name": "Relativistic Jet"
       },
       {
-        "commentary_details": "Gun usable by all resonators, offering good bonuses to ATK but reliant on dodging 3 times initially (with continual dodges after that). Should only be used by those willing to perform dodges at the start of their rotation and consistently after. Calculations assume you perform dodges as soon as possible and maintain the buff.",
+        "commentary_details": "best 4-star option, grants some ATK and CRIT Rate stats while still remaining much worse than 5-star options due to a much lower Base ATK.",
         "dupe_rank": "R5",
-        "percentage_performance": "83.64%",
+        "percentage_performance": "87.20%",
         "weapon_base_info": {
-          "effect_description": "When the Resonator dashes or dodges, increases ATK by {0}, stacking up to <b>3</b> time(s). This effect lasts for <b>8</b>s.",
+          "effect_description": "Dealing Basic Attack or Heavy Attack DMG increases ATK by {0} and grants {0} Heavy Attack DMG Bonus for 7s, stacking up to 4 times. This effect can be triggered 1 time every 1s.",
           "primary_stat_val": 412,
           "rarity": 4,
-          "secondary_stat_name": "ATK",
-          "secondary_stat_val": 30.3,
-          "source": ""
+          "secondary_stat_name": "CRIT Rate",
+          "secondary_stat_val": 20.3,
+          "source": "Battle Pass"
         },
-        "weapon_name": "Novaburst"
+        "weapon_name": "Solar Flame"
       },
       {
-        "commentary_details": "Powerful Gun option for Resonance Skill focused damage characters, but with a heavy conditional required for activation. Grants solid base damage and ATK% via main stats. Also offers an incredibly potent stackable Resonance Skill DMG% bonus that requires the users consistently use Basic Attacks to maintain. ",
+        "commentary_details": "Best permanently accessible option, simple ATK stat-stick that requires Mortefi to never get hit.",
         "dupe_rank": "R5",
-        "percentage_performance": "83.07%",
-        "weapon_base_info": {
-          "effect_description": "When hitting a target with Basic Attacks or Heavy Attacks, increases Resonance Skill DMG Bonus by {0}, stacking up to 3 time(s). This effect lasts for 10s and can be triggered 1 time(s) every 1s.",
-          "primary_stat_val": 387,
-          "rarity": 4,
-          "secondary_stat_name": "ATK",
-          "secondary_stat_val": 36.4,
-          "source": "Pioneer Podcast"
-        },
-        "weapon_name": "Thunderbolt"
-      },
-      {
-        "commentary_details": "Generic gun option usable by all characters but with a significant ramp-up time on its bonus. Also requires the player not to be hit in order to extract full value. If you do get hit this weapon will fall behind (calculations assume you don't get hit once).",
-        "dupe_rank": "R5",
-        "percentage_performance": "82.65%",
+        "percentage_performance": "84.30%",
         "weapon_base_info": {
           "effect_description": "When the Resonator takes no damage, increases ATK by {0} every 5s, stacking up to 2 time(s). This effect lasts for 8s. When the Resonator takes damage, reduces the number of stacks by 1 and restores their HP by {1}.",
           "primary_stat_val": 387,
@@ -143,20 +213,6 @@
           "source": "Synthesis"
         },
         "weapon_name": "Pistols#26"
-      },
-      {
-        "commentary_details": "Strong gun option for resonators that deal primarily Resonance Skill DMG with little to no conditions to worry about, thanks to its effect being tied to Intro skills. Grants a Resonance Skill DMG bonus that lasts for 15 seconds on using Intro - long enough for most Main DPS to finish their burst window making this a strong consistent option.",
-        "dupe_rank": "R5",
-        "percentage_performance": "81.87%",
-        "weapon_base_info": {
-          "effect_description": "When Intro Skill is released, increases Resonance Skill DMG Bonus by {0} for {1}s.",
-          "primary_stat_val": 412,
-          "rarity": 4,
-          "secondary_stat_name": "ATK",
-          "secondary_stat_val": 30.3,
-          "source": ""
-        },
-        "weapon_name": "Undying Flame"
       }
     ],
     "character_metadata": {
@@ -170,10 +226,10 @@
       "rarity_stars": 4,
       "slug": "mortefi",
       "updates": {
-        "last_major_build_patch": "2.3",
-        "last_profile_update": "01/October/2026",
-        "last_review_patch": "1.3",
-        "last_updated": "01/October/2026"
+        "last_major_build_patch": "3.7",
+        "last_profile_update": "22/October/2026",
+        "last_review_patch": "3.7",
+        "last_updated": "22/October/2026"
       },
       "weapon_type": "Pistols"
     },
@@ -278,16 +334,13 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Long Ultimate cooldown - 20 seconds compared to 10 second duration of the buff - so you need to keep this in mind while doing your rotations",
-        "If you're stuck at S0, looking at the overpowered Sequences will make you feel bad"
+        "Never best in slot for anybody. Expected out of a 4-star, but essentially if you own Rebecca, she's just Mortefi but better (and you only have so many Heavy Attackers you could buff);",
+        "Rotation is somewhat long for a Hybrid (though quickswap is a possible avenue to compensate for this in some teams)."
       ],
       "pros": [
-        "Incredibly fast Concerto rotation allowing fast access to his Outro",
-        "Incredible synergy with Heavy Attackers, boosting them and himself tremendously",
-        "Good personal damage considering the suite of buffs he provides",
-        "Insane Sequences that make him even stronger",
-        "Easy to understand and play even at the highest level",
-        "Strong enough to be played as a Hybrid even outside of his Heavy Attacker niche"
+        "THE F2P Heavy Attack buffer. Buffs any Heavy Attack DPS you want him to and does it pretty well;",
+        "Has decent personal damage that can be invested into, but he works well out of the box with minimal resources invested into his build;",
+        "S4 and S6 are good, but he provides most of his value at S0 already. The permanent banner 5* Static Mist is his best in slot. TLDR: Super easy to get up and running."
       ]
     },
     "ratings": {
@@ -362,32 +415,44 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Mortefi is a 4-star Fusion Pistol wielding Hybrid that can dish out good damage when built correctly, but truly shines in a more Supportive role with teammates that primarily deal Heavy Attack damage. This is because his Ultimate Skill synergises with Heavy Attacks and his Outro amplies them by a further 38%.",
-            "Mortefi recharges his Forte Gauge with Basic Attacks, Resonance Skill and Intro Skill, which when full will convert his skill to Fury Fugue. This is similar to his Resonance Skill, being an excellent generator of Concerto Energy and Resonance Energy, with the addition of Fusion DMG in an AoE radius. His Forte Gauge can be quickly filled by using his Basic Attacks after Resonance Skill, unlocking Fury Fugue faster. Another great point of Fury Fugue is that it lacks any CD; it can be spammed indefinitely as long as your Forte Gauge fills up, and it doesn't interfere with his normal Resonance Skill, allowing him to use the two in quick succession.",
-            "His Resonance Skill generates a good amount of Concerto Energy and Resonance Energy while dealing Fusion Damage to his primary target.",
-            "His Ultimate Skill deals Fusion Damage in front of him, generating a good chunk of Concerto Energy and buffing the entire team with Burning Rhapsody. While the buff is active, Mortefi will launch a coordinated attack when an enemy is hit by an ally, up to once every 0.35 seconds. If the landed attack is a Heavy Attack, he instead deals 2 coordinated attacks, doubling his potential damage output, making Heavy Attackers his ideal partners.",
-            "Mortefi requires minimal field time thanks to having one of the fastest and easiest to execute Concerto rotations in the game, which combines his excellent Outro buff, solid DPS and highly synergistic Ultimate Skill. He is also easy to play as his rotation is simple and fast to execute, making him a good choice for players of all skill. Even if you happen to mess up his rotation, it is quite easy to recover.",
-            "While being able to deal good damage as far as Hybrid characters go, his true calling is being a Support thanks to his Outro Skill, hence he prefers the combination of 5P Moonlit Clouds and Impermanence Heron Echo. This stacks an additional 12% DMG and 22% ATK on top of his already potent 38% Heavy Attack amplification from Outro, generating a massive buff stack for the character switching in.",
-            "Overall, Mortefi is currently one of the top Hybrid characters in endgame, especially for characters/teams centered around Heavy Attack burst rotation. Even if not for that, he sees use thanks to his incredibly fast Concerto Rotation and synergy with the 5P Moonlit Clouds and Impermanence Heron Echo. His strong Sequences can further increase his utility to your team."
+            "Mortefi is a 4-star Fusion Pistol buffer character who specializes in buffing Heavy Attack damage. He also has access to some Coordinated Attacks and is well-known for being one of the best F2P characters since the game's release."
+          ]
+        },
+        {
+          "heading": "Key Mechanics & Rotation Concepts",
+          "paragraphs": [
+            "Mortefi's rotation goal is to get his Outro off as quickly as physically possible. To do this, he needs to charge up his Forte gauge, which allows him to cast a Forte Skill that generates a good amount of Concerto and deals some damage. He charges this Forte gauge up through his Intro, Basic Attacks, and Skill.",
+            "To charge it as quickly as possible, Mortefi should cast his Skill before any Basic Attacks. An Intro and a Skill already charge up a full Forte gauge, so he can cast a Forte Skill, while within 5s after casting his base Skill, Mortefi generates extra Forte through his Basic Attacks. A full Basic Attack string becomes enough for his next Forte Skill to be available, and at that point he has enough Concerto Energy to Outro if his Ultimate is also cast.",
+            "Speaking of his Ultimate, at S6 it gives an extra 20% ATK to the whole party on cast for 20s, it deals a bit of damage, and also it enables Mortefi to fire Coordinated Attacks at the enemy for 10 (S0) to 17 (S4) seconds. These Coordinated Attacks are triggered once by Basic Attack casts, twice by Heavy Attack casts, and also twice by Skill casts at S1. Overall, this allows Mortefi to fire off a good amount of Coordinated Attacks regardless of who he is paired with, but he does scale a bit better with Heavy Attack casters in this regard.",
+            "Finally, his Outro gives the next character 38% Heavy Attack DMG Amplification for 14s, expiring on swap. This is the main buff in his kit and makes or breaks his synergies. Mortefi's passives give him a bit of extra personal damage, not much to explain there."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "In the meta, Mortefi is super easy to understand. He's completely one-dimensional and restricted to buffing Heavy Attackers, mostly through his Outro. He's simple, but effective in his role. As a F2P buffing character, he sports a nice amount of generalist buffs: 38% Heavy DMG Amplification, and up to 52.5% ATK and 12% DMG Bonus with Moonlit Clouds, S6, and Static Mist all factored in.",
+            "Indeed, his best weapon being a permanent banner one gives him a good amount of usability in all endgame content alongside Heavy Attack damage dealers like Jingran, Yangyang: Xuanling, Augusta, or even his on-release partner Jiyan. Team DPS can vary pretty wildly based on how modern the damage dealer that he pairs with is. However, the more Heavy Attack damage dealers that release, the more Mortefi gains staying power, not as a best in slot option, but as a F2P replacement for all future Heavy Attackers to come.",
+            "In conclusion, Mortefi is a simple Heavy Attack buffer who can act as a potent buffer for all your Heavy Attack damage dealers. While never ideal in those teams, he can always replace a limited 5-star character to buff your DPS. If you're in a pinch for teammates or have a modern enough DPS where you don't need their dedicated Supports to clear endgame, Mortefi is a great choice, and is likely to remain that way in the future as long as Heavy Attack DPS characters release."
           ]
         }
       ],
-      "summary": "Mortefi is a 4-star Fusion Pistol wielding Hybrid that can dish out good damage when built correctly, but truly shines in a more Supportive role with teammates that primarily deal Heavy Attack damage. This is because his Ultimate Skill synergises with Heavy Attacks and his Outro amplies them by a further 38%."
+      "summary": "Mortefi is a 4-star Fusion Pistol buffer character who specializes in buffing Heavy Attack damage. He also has access to some Coordinated Attacks and is well-known for being one of the best F2P characters since the game's release."
     },
     "rotations": [
       {
-        "rotation_name": "Rotation",
+        "rotation_name": "Standard Rotation",
         "steps": [
           "Intro",
-          "Skill: Passionate Variation",
-          "Skill: Fury Fugue",
-          "Basic P1",
-          "Basic P2",
-          "Basic P3",
-          "Basic P4",
-          "Skill: Fury Fugue",
+          "Skill: Passionate Variation (Cancel animation endlag via Skill)",
+          "Skill: Fury Fugue (Cancel animation endlag via Ultimate)",
           "Ultimate",
-          "Echo (Impermanance Heron Swap-Cancel)"
+          "Basic 1",
+          "Basic 2",
+          "Basic 3",
+          "Basic 4",
+          "Skill: Fury Fugue (Cancel animation endlag via Echo)",
+          "Echo (Swap)",
+          "Outro"
         ]
       }
     ],
