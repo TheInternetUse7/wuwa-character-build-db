@@ -185,9 +185,9 @@
       "slug": "galbrena",
       "updates": {
         "last_major_build_patch": "3",
-        "last_profile_update": "22/October/2026",
+        "last_profile_update": "12/November/2026",
         "last_review_patch": "3.7",
-        "last_updated": "22/October/2026"
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Pistols"
     },
@@ -221,6 +221,7 @@
         },
         "slot_3": {
           "alternatives": [
+            "lily",
             "verina"
           ],
           "character_name": "the-shorekeeper"
@@ -326,7 +327,7 @@
           "tags": [
             "Echo"
           ],
-          "tier": "T1"
+          "tier": "T1.5"
         }
       },
       "value_tier_ratings": {
@@ -334,7 +335,7 @@
           "tier": "T2"
         },
         "whimpering_wastes_value": {
-          "tier": "T1.5"
+          "tier": "T2"
         }
       }
     },
@@ -1172,25 +1173,26 @@
         "characters": [
           "lupa",
           "brant",
-          "mortefi"
+          "mortefi",
+          "changli"
         ],
-        "commentary": "These 3 are the Mono Fusion team members for Galbrena, an archetype enabled by Lupa's insane buffs catered towards Fusion characters, particularly if the team is only comprised of them. Brant and Mortefi are great Outro buffers for Galbrena since they have 20% Fusion and 38 Heavy DMG Amplification respectively. Brant has higher personal damage which makes him perform at higher investments, but Mortefi is a totally fine alternative, and can even be considered for F2P Galbrena teams. Mono Fusion enabled by Lupa is one of Galbrena's best teams, particularly in Whimpering Wastes, and is definitely worth trying out!"
+        "commentary": "These are the Mono Fusion team members for Galbrena, an archetype enabled by Lupa's insane buffs catered towards full Fusion parties. Brant and Mortefi are great Outro buffers for Galbrena since they have 20% Fusion and 38% Heavy DMG Amplification respectively. Brant has higher personal damage which makes him perform at higher investments, but Mortefi is a totally fine alternative, and can even be considered for F2P Galbrena teams. Changli is reserved to Quickswap compositions but can have a higher ceiling for the most experienced players."
       },
       {
         "characters": [
           "phrolova",
-          "iuno",
           "rebecca"
         ],
-        "commentary": "Not Galbrena's best teammate choices, but in Galbrena teams Phrolova and Iuno respectively provide 25 and 50% Heavy DMG Amplification on their Outros, and they both deal very high personal damage. Phrolova is stronger than Iuno in the personal damage department and has an extra Echo Skill cast for Galbrena's Afterflame, so she tends to outclass Iuno for these reasons; however Iuno has a really easy rotation and extra healing if it is preferred. Rebecca is also a generalist Heavy DMG buffer with minimal upsides beyond that, but all of them can be worth considering if the above options are missing."
+        "commentary": "Not Galbrena's best teammate choices, but in Galbrena teams Phrolova provides 25% Heavy Attack DMG Amplification and has an extra Echo Skill cast for Galbrena's Afterflame, on top of huge crowd control utility. Rebecca is also a generalist Heavy DMG buffer with minimal upsides beyond that, but can be worth considering if above options are missing."
       },
       {
         "characters": [
           "mornye",
           "the-shorekeeper",
+          "lily",
           "verina"
         ],
-        "commentary": "These 3 are the best generalist Supports in the game. Mornye has a special synergy with Galbrena and Lupa because she enables Galbrena to work in a Hypercarry team while still sporting Lupa's full Mono Fusion buffs which makes her the best choice if that's available. Otherwise, Shorekeeper is amazing thanks to her massive CRIT buffs and other generalist buffs, then Verina is the most accessible and still very strong option if neither are available."
+        "commentary": "These 3 are the best generalist Supports in the game. Mornye has a special synergy with Galbrena and Lupa because she enables Galbrena to work in a Hypercarry team while still sporting Lupa's full Mono Fusion buffs which makes her the best choice if that's available. Otherwise, Shorekeeper is amazing thanks to her massive CRIT buffs and other generalist buffs, Lily focuses almost exclusively on Echo Skill damage which makes her a bit worse than Shorekeeper overall, and lastly Verina is the most accessible option if none are available."
       }
     ],
     "upgrade_materials": {

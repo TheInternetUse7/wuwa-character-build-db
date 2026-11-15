@@ -225,10 +225,10 @@
       "rarity_stars": 5,
       "slug": "hsin",
       "updates": {
-        "last_major_build_patch": "3.7",
-        "last_profile_update": "22/October/2026",
-        "last_review_patch": "3.7",
-        "last_updated": "22/October/2026"
+        "last_major_build_patch": "3.8",
+        "last_profile_update": "12/November/2026",
+        "last_review_patch": "3.8",
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -244,13 +244,14 @@
         },
         "slot_3": {
           "alternatives": [
+            "the-shorekeeper",
             "verina",
             "buling"
           ],
-          "character_name": "the-shorekeeper"
+          "character_name": "lily"
         },
         "team_name": "Best Team (Unison)",
-        "team_notes": "Jinhsi is theoretically usable instead of Suoming here, but there's a huge performance gap and it's not recommended over an F2P Flare team."
+        "team_notes": "Lily is best overall, but can have performance drops in Whimpering Wastes compared to Shorekeeper due to being unable to provide CRIT consistency to the team until S2. Jinhsi is theoretically usable instead of Suoming here, but there's a huge performance gap and it's not recommended over an F2P Flare team."
       },
       {
         "slot_1": {
@@ -289,7 +290,7 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "One of the biggest Signature to permanent weapon gaps in the game. Limited weapon alternatives aren't good in Unison mode either. Generally just pull Hsin's Signature if you want to get her, results will not be up to par with the rest of the meta otherwise;",
+        "One of the biggest Signature-to-permanent weapon gaps in the game. Limited weapon alternatives aren't good in Unison mode either. Generally just pull Hsin's Signature if you want to get her, results will not be up to par with the rest of the meta otherwise;",
         "Pretty underwhelming Sequences in Flare mode aside from her S6 - has standard Sequence values in Unison mode though."
       ],
       "pros": [
@@ -400,7 +401,7 @@
             "Electro Flare is Hsin's more flexible mode teammates-wise, and her most F2P-friendly.",
             "If you want to invest into Unison, Suoming is the clear-cut best choice (and frankly the only good one), and can take Hsin's ceiling to new heights.",
             "And this is entirely true. Performance-wise, Hsin's Flare teams are however still restricted to using Electro Rover and Suisui at best. Overall, Electro Rover is far from an ideal character, with low total buffing potential and a lengthy rotation, meaning they too could be replaced in the future. But for now, they are enough to make Hsin a good DPS still, and a budget-friendly one at that, able to run Buling in the 3rd slot for a nearly cost-free team composition while still retaining good enough performance to clear all endgame modes when played properly.",
-            "If you choose to upgrade to Unison through Suoming, you have a top meta team on your hands. Due to scaling off general stats, the team is perfectly able to make use of Shorekeeper and Verina. It'll be able to clear all endgames without much trouble, with an easy rotation with plenty of room for error. Unfortunately though, the only good Unison option is Suoming. Jinhsi is technically another Unison character, but her personal damage contribution has fallen out of fashion as an old 1.x character and she gives no damage buffs to Hsin, making the team overall not recommended by a lack of strength. You're better off using an F2P Flare team overall.",
+            "If you choose to upgrade to Unison through Suoming, you have a top meta team on your hands. Due to scaling off general stats, the team is perfectly able to make use of Shorekeeper and Verina, with Lily as a possible slight upgrade path from the two.. It'll be able to clear all endgames without much trouble, with an easy rotation with plenty of room for error. Unfortunately though, the only good Unison option is Suoming. Jinhsi is technically another Unison character, but her personal damage contribution has fallen out of fashion as an old 1.x character and she gives no damage buffs to Hsin, making the team overall not recommended by a lack of strength. You're better off using an F2P Flare team overall.",
             "In conclusion, while Hsin has no good permanent banner weapons, with her and her Signature, you essentially have a guaranteed Flare team for her out of the box, and that makes her a great pull for beginner players. Plus, Unison is a straightforward upgrade path that leads her to the top of the meta easily. Overall, Hsin is currently a top meta DPS who will greatly help in all endgame contents, under the important condition that you pulled for her Signature."
           ]
         }
@@ -452,13 +453,13 @@
       }
     ],
     "skill_upgrade_priority": {
-      "commentary": "Skill can be skipped when levelling to save on resources at a minimal damage loss. Basic is also lower-priority, but still worth levelling at endgame level.",
+      "commentary": "Intro can be skipped when levelling to save on resources at a minimal damage loss. Basic and Skill are also lower-priority, but still worth levelling at endgame level.",
       "order": [
         "Forte Circuit",
         "Res. Liberation",
-        "Intro Skill",
         "Basic Attack",
-        "Res. Skill"
+        "Res. Skill",
+        "Intro Skill"
       ]
     },
     "skills": [
@@ -1321,29 +1322,14 @@
       },
       {
         "characters": [
+          "lily",
           "the-shorekeeper",
           "verina",
           "suisui",
           "chisa",
           "buling"
         ],
-        "commentary": "Shorekeeper is Unison Hsin's best current Support as there is no dedicated Support for Unison teams, so she comes out on top by virtue of being the best generalist choice. Verina is her F2P replacement. Suisui, Chisa and Buling are all options for Electro Flare Hsin. Suisui is generally the strongest, Chisa in the in-between, and Buling is the F2P fallback option, giving extra Flare application and Skill DMG-oriented buffs. Buling can also be used in Unison to a lesser degree than Verina."
-      },
-      {
-        "characters": [
-          "rover-electro",
-          "jinhsi"
-        ],
-        "commentary": "Electro Rover is Hsin's current best second slot teammate, as they provide her with some external Electro Flare application which is great for triggering her passives, as well as being able to provide her with a massive amount of Electro DMG Bonus among some other buffs. Jinhsi is the only current Unison character in the game, so she's the only option for Unison mode Hsin to be used with normally, but generally she's not recommended even over a F2P Flare team."
-      },
-      {
-        "characters": [
-          "the-shorekeeper",
-          "suisui",
-          "chisa",
-          "buling"
-        ],
-        "commentary": "Shorekeeper is Unison Hsin's best current Support as there is no dedicated Support for Unison teams, so she comes out on top by virtue of being the best generalist choice. Suisui, Chisa and Buling are all options for Electro Flare Hsin. Suisui is generally the strongest, but Chisa can outperform her in Quickswap. Buling is the F2P fallback option, giving extra Flare application and Skill DMG-oriented buffs."
+        "commentary": "Lily is the best Support for Hsin Unison teams, Shorekeeper also works totally fine as a close second premium option with more CRIT consistency and a shorter rotation particularly suited for Whimpering Wastes. Verina is their F2P replacement. Suisui, Chisa and Buling are all options for Electro Flare Hsin. Suisui is generally the strongest, Chisa in the in-between, and Buling is the F2P fallback option, giving extra Flare application and Skill DMG-oriented buffs. Buling can also be used in Unison to a lesser degree than Verina."
       }
     ],
     "upgrade_materials": {

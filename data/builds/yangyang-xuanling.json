@@ -183,9 +183,9 @@
       "slug": "yangyang-xuanling",
       "updates": {
         "last_major_build_patch": "3.6",
-        "last_profile_update": "22/October/2026",
+        "last_profile_update": "12/November/2026",
         "last_review_patch": "3.6",
-        "last_updated": "22/October/2026"
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Sword"
     },
@@ -283,9 +283,10 @@
         },
         "whimpering_wastes": {
           "tags": [
-            "Bane"
+            "Bane",
+            "Expert +1"
           ],
-          "tier": "T1"
+          "tier": "T1.5"
         }
       },
       "value_tier_ratings": {

@@ -172,9 +172,9 @@
       "slug": "qiuyuan",
       "updates": {
         "last_major_build_patch": "2.7",
-        "last_profile_update": "22/October/2026",
+        "last_profile_update": "12/November/2026",
         "last_review_patch": "3.7",
-        "last_updated": "22/October/2026"
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Sword"
     },
@@ -190,11 +190,11 @@
         },
         "slot_3": {
           "alternatives": [
-            "the-shorekeeper",
+            "lily",
             "phrolova",
-            "verina"
+            "ciaccona"
           ],
-          "character_name": "ciaccona"
+          "character_name": "the-shorekeeper"
         },
         "team_name": "Best Team",
         "team_notes": "Phrolova can be stronger in multi-wave scenarios like Whimpering Wastes, but it's worth keeping in mind Phrolova also has stronger teams of her own."
@@ -230,6 +230,7 @@
         },
         "slot_3": {
           "alternatives": [
+            "lily",
             "verina"
           ],
           "character_name": "the-shorekeeper"
@@ -848,13 +849,6 @@
           "phrolova"
         ],
         "commentary": "Qiuyuan is the best second slot teammate for Galbrena, and the best third slot teammate for Phrolova. The reason why is simple: for Galbrena and Sigrika, he is her best buffer due to his many buffs catered towards Echo Skill DMG, including his powerful Outro. For Phrolova, he has multiple Echo Skill casts which activates Hecate Enhanced Attacks and he also is a good recipient of Phrolova's 25% Heavy DMG Amplification Outro. These 3 pairs make Qiuyuan very strong in the current meta and are absolutely worth using."
-      },
-      {
-        "characters": [
-          "the-shorekeeper",
-          "verina"
-        ],
-        "commentary": "As the two best generalist Supports by heaps and bounds, it's no surprise Shorekeeper and Verina can slot in almost any team in the game as they provide high team-wide ATK% and 15% DMG Amplify. Shorekeeper additionally provides CRIT Rate and CRIT DMG, always making her the best third slot teammate for Galbrena+Qiuyuan teams, but Verina is a close, more accessible second provided Shorekeeper isn't available."
       }
     ],
     "upgrade_materials": {

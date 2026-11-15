@@ -219,10 +219,10 @@
       "rarity_stars": 5,
       "slug": "lingyang",
       "updates": {
-        "last_major_build_patch": "2.6",
-        "last_profile_update": "22/October/2026",
-        "last_review_patch": "1.3",
-        "last_updated": "22/October/2026"
+        "last_major_build_patch": "3.8",
+        "last_profile_update": "12/November/2026",
+        "last_review_patch": "3.8",
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Gauntlets"
     },
@@ -284,19 +284,16 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Falls slightly behind other damage dealers with a similar role",
-        "Flying can be disorienting for some players",
-        "Flying mobility is somewhat limited, making dodging, retargeting and moving while airborne harder without practice",
-        "Some bosses have unusual hitboxes which can make striking them while airborne a challenge, resulting in damage losses",
-        "Takes more time to get used to and learn than many other characters"
+        "Damage ceiling is just on the cusp of being at the same level as the other viable F2P DPS characters (e.g Encore), but he barely doesn't get there so he's generally not worth it for anything beyond Matrix high scores;",
+        "Difficult to utilize in Quickswap and even more difficult to justify there;",
+        "Low initial Concerto Energy generation can make Opener rotations inconsistent;",
+        "Tune Break Skills put him on the ground when he wants to be in the air for basically all of his rotation - the same can happen if he gets interrupted mid-air;",
+        "Fear him, for he is Lingyang, destroyer of 50/50s."
       ],
       "pros": [
-        "Can Fly!",
-        "Unique playstyle not found anywhere else",
-        "Gains the most free stats from his baseline S0 kit of any character thanks to his Ultimate boost",
-        "Button mashing combo that is hard to mess up",
-        "Can juggle enemies in the air (excluding elites and bosses), comboing them continuously and rendering them immobile",
-        "Can ignore some boss and enemy mechanics while in the air"
+        "Super easy to pick up and pretty easy to optimize;",
+        "Pretty decent enemy tracking with his optimized rotation, and can hit airborne enemies thanks to his affinity for mid-air combat;",
+        "Low reliance on limited weapons as a permanent banner character, and has access to decent F2P teammates."
       ]
     },
     "ratings": {
@@ -365,38 +362,59 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Lingyang is a 5-star Glacio Gauntlet wielder DPS that is most often played in Hyper Carry teams. As Lingyang deals the majority of his damage during his Ultimate burst window, which takes up a considerable amount of field time incentivizing him being played with supports to buff him to the max before using his Ultimate Skill. Lingyang also has very little incentive to switch out during his Ultimate burst window with it often resulting in a damage loss meaning you'll want to pair him with characters that can give him the field time he needs.",
-            "Lingyang recharges his Forte Gauge with his second Resonance Skill, Intro Skill and Ultimate Skill, though an interesting thing to note is that his Forte Gauge can be completely filled by performing his Intro followed by his Ultimate Skill once. This allows players to bypass having to use his Basic Attacks and Resonance Skill to generate Forte Gauge. Once full, he can perform a Heavy Attack to enter Striding Lion state, sending him airborne and enhancing all of his abilities for a short duration. It is during this state that Lingyang's DPS potential is at maximum and should be played attentively giving him all the buffs and support he needs during it.",
-            "Lingyang features two Resonance Skills with no cooldown. The first Resonance Skill; Ancient Arts is a simple punch that deals a small amount of Glacio damage to its target, though it is rarely used. His second Resonance Skill; Furious Punches can be only utilized after he has either used Basic Attack 3/4/5 or his Special Basic Attack - Feral Roars. This skill also deals a small amount of Glacio damage, however it generates a significant amount of his Forte Gauge along with allowing him to follow it up with Basic Attack 3 directly. This allows you to quickly juggle his Basic Attack 3 and Furious Punches, quickly filling his Forte Gauge.",
-            "His Ultimate deals a large strike in front of him, causing Glacio damage, generating Concerto Energy and a major portion of his Forte Gauge. It also increases his Glacio damage by 50% and further empowers his Forte Gauge empowerment to increase its duration.",
-            "In regards to field time, he is required to stay for the entire duration of his Ultimate enhanced Forte, which allows him to bring solid burst damage during this window. He has a unique aerial combat flair which while makes you immune to some ground attacks, also makes some significantly harder to dodge in return. This can be a drawback of his combat style, as it takes time to become accustomed to it, making actions like hitting enemies, repositioning and target changes harder to execute. Similar to Jiyan, he lacks the opportunity to leave the field mid-rotation as it causes him to lose a considerable amount of damage, making him more suited to the Hyper Carry archetype as mentioned earlier.",
-            "Lingyang is a mixed bag when it comes to play difficulty. On one hand, he is easy to play in the sense that all he requires is building enough Resonance Energy to use his Ultimate then unload all the attacks he can to maximize his damage during the burst window. On other hand, his unique Aerial combat makes it rough to navigate him, and it takes extra practice to master. Having to learn timing to dodge attacks and discern which attacks will hit you or not while airborne contributes massively to his low usage among players.",
-            "As a Main DPS he will prefer damage maximization. As such, you can equip him with damage-focused Echo and set.",
-            "Overall, due to Lingyang's damage being on the lower side of 5-stars, combined with his unique airborne gameplay that requires extra work to manage, he lags behind in usage compared to most other DPS in endgame."
+            "Lingyang is a 5-star Glacio Gauntlets DPS who focuses on mid-air combat in his 10s-long Forte stance that he needs to make the most of in order to deal damage. His goal will be to quickly rack up Forte and then leap into the air to use a mix of Basic Attacks and Skills in order to deal the most damage possible within his Forte stance duration."
+          ]
+        },
+        {
+          "heading": "Key Mechanics & Rotation Concepts",
+          "paragraphs": [
+            "Building up Lingyang's initial Forte bar to full, which he can easily do with a combination of his Intro and Ultimate, enables him to cast a special Heavy Attack called Glorious Plunge. This sends him into the Striding Lion state for up to 10s, during which he gains access to much stronger Basic Attacks and Skills than unusual (though in his case, it's more like they start dealing decent levels of damage).",
+            "His Ultimate also gives him access to a 50% Glacio DMG Bonus self-buff for 14s, and his Outro simply deals a good chunk of extra damage to enemies. Lastly, once his Forte has been almost completely expended, he can finish his rotation with the lengthy Stormy Kicks Basic Attack, which deals a decent amount of damage and restores a lot of Concerto. Ideally, Lingyang should Swap Cancel this attack on the first rotation if he generates the required Concerto for it. This is difficult to do, but it can really save a lot of time on his future rotations thanks to how much Concerto he carries over into the next rotation this way.",
+            "Finally, let's talk about his rotations. As explained earlier, Lingyang wants to immediately cast his Ultimate to benefit from his 50% Glacio DMG Bonus self-buff. After an Intro, this gives him enough Forte to cast Glorious Plunge. However, you have 2 options for his rotation inside of Striding Lion state. He can either do a mix of Basic Attacks and Skills, as casting a Skill in between his Basic Attacks doesn't interrupt the chain. Repeating this 5 times total is his normal dev-intended rotation, but he can also choose to really lean into his Skill damage.",
+            "One of his passives, called Diligent Practice, balances his otherwise weak Skill damage into being his strongest attack by a decent margin. It essentially adds an extra hit of damage equivalent to 150% of his usual Skill DMG if he has cast a Basic Attack beforehand, which makes his Diligent Practice 2.5x stronger than it otherwise would be. While this is useless to know with his S6 involved or a Basic Attack DMG buffer, as in both of these cases his Basic Attack DMG should be utilized, it's actually possible to trigger the Diligent Practice effect without even casting any Basic Attacks whatsoever.",
+            "Indeed, if any of Lingyang's Skill animations are completed and he starts walking in Striding Lion state, after a Skill has been cast and the Basic Attack button is still being held down, the DIligent Practice effect will trigger over and over even if you keep chaining Skills without any Basic Attacks involved. While this is definitely not dev-intended, it brings his damage up by a slight amount, particularly being useful with Skill DMG buffers like Zhezhi in the mix, or simply alongside general buffers like Lynae. This is his most optimized rotation without a Basic Attack DMG buffer or his S6 involved."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Even when considering the new developments to Lingyang's rotation, it's safe to say his base damage numbers do not allow him to compete anywhere near the level of modern damage dealers. While this is expected of a permanent banner DPS, his level, even when optimized, is far below that of any modern or better F2P damage dealer. Electro Rover and Encore are both options that undeniably outclass Lingyang, making him quite niche and in most cases, a completely skippable investment.",
+            "Unless your Lingyang has very high Sequences available to him, he'll never get close to the level of any DPS like even Carlotta. The release of his new best teammates Lynae and Mornye, a slightly better weapon in the form of Iuno's Signature, and a plethora of new Glacio DMG-oriented Echo sets have not really helped his situation. In general, from a meta perspective, he remains a questionable investment unless you're trying to seriously optimize your Matrix score with every damage dealer that you have available.",
+            "In conclusion, Lingyang is not going to be a worthwhile investment for the majority of players in Wuthering Waves. Until he gets significant buffs to his damage ceiling, he will not be able to compete by modern endgame content standards, and while he has access to good F2P teammates like Sanhua and Verina, they're usually better used elsewhere, typically on limited characters or better F2P damage dealers like Encore or even Electro Rover."
           ]
         }
       ],
-      "summary": "Lingyang is a 5-star Glacio Gauntlet wielder DPS that is most often played in Hyper Carry teams. As Lingyang deals the majority of his damage during his Ultimate burst window, which takes up a considerable amount of field time incentivizing him being played with supports to buff him to the max before using his Ultimate Skill. Lingyang also has very little incentive to switch out during his Ultimate burst window with it often resulting in a damage loss meaning you'll want to pair him with characters that can give him the field time he needs."
+      "summary": "Lingyang is a 5-star Glacio Gauntlets DPS who focuses on mid-air combat in his 10s-long Forte stance that he needs to make the most of in order to deal damage. His goal will be to quickly rack up Forte and then leap into the air to use a mix of Basic Attacks and Skills in order to deal the most damage possible within his Forte stance duration."
     },
     "rotations": [
       {
-        "rotation_name": "BURST COMBO",
+        "rotation_name": "Basic/S6 Rotation",
         "steps": [
-          "Echo (Use before combo but refer to Echo recommendations for exact specifics for your chosen Echo)",
           "Intro",
           "Ultimate",
-          "Heavy Attack: Glorious Plunge (Used to enter Forte and become airborne)",
-          "Basic Attack: Feral Gyrate P1",
+          "Heavy: Glorious Plunge",
+          "Basic: Feral Gyrate 1",
           "Skill: Mountain Roamer",
-          "Basic Attack: Feral Gyrate P2",
+          "Basic: Feral Gyrate 2",
           "Skill: Mountain Roamer",
-          "Basic Attack: Feral Gyrate P1",
+          "Basic: Feral Gyrate 1",
           "Skill: Mountain Roamer",
-          "Basic Attack: Feral Gyrate P2",
+          "Basic: Feral Gyrate 2",
           "Skill: Mountain Roamer",
-          "Basic Attack: Feral Gyrate P1",
-          "Basic Attack: Stormy Kicks",
-          "Mid-Air Attack: Tail Strike",
+          "Basic: Feral Gyrate 1",
+          "Skill: Mountain Roamer",
+          "Basic: Stormy Kicks (Swap)",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Optimized Skill Rotation",
+        "steps": [
+          "Intro",
+          "Ultimate",
+          "Heavy: Glorious Plunge (Hold Basic Attack until the rotation ends)",
+          "Skill: Mountain Roamer (Cast the Skills once Lingyang starts walking, repeat up to 9 times)",
+          "Basic: Stormy Kicks (Swap)",
           "Outro"
         ]
       }

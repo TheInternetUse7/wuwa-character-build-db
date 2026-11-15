@@ -46,34 +46,6 @@
     },
     "best_weapons": [
       {
-        "commentary_details": "Changli's signature weapon that's not only fantastic for her but also usable on all damage-focused Sword users who have a large portion of their damage originating from Resonance Skill damage. Offers a huge main stat of CRIT DMG% granting excellent scaling, 12% permanent ATK% and up to 56% increased Resonance Skill DMG% which should be at or close to full power during the bulk of your rotation when opening with one or two resonance skills.",
-        "dupe_rank": "R1",
-        "percentage_performance": "108.39%",
-        "weapon_base_info": {
-          "effect_description": "ATK increased by {0}. The equipper gains 1 stack of Searing Feather upon dealing damage, which can be triggered once every 0.5s, and gains 5 stacks of the same effect upon casting Resonance Skill. Each stack of Searing Feather gives {1} additional Resonance Skill DMG Bonus for up to 14 stacks. All stacks will be removed within 12s after reaching the max stack.",
-          "primary_stat_val": 587,
-          "rarity": 5,
-          "secondary_stat_name": "CRIT DMG",
-          "secondary_stat_val": 48.6,
-          "source": "Gacha"
-        },
-        "weapon_name": "Blazing Brilliance"
-      },
-      {
-        "commentary_details": "Camellya's signature weapon is usable by all Basic Attack focused Sword wielding characters, but clearly designed with her in mind due to a lot of its power locked behind spending Concerto mid-rotation - something only Camellya can do. Offers a decent amount of ATK%, CRIT RATE% and Basic Attack DMG for all characters but a huge Basic Attack DMG bonus after spending Concerto. ",
-        "dupe_rank": "R1",
-        "percentage_performance": "103.32%",
-        "weapon_base_info": {
-          "effect_description": "Increase ATK by {0}. When dealing Basic Attack DMG, the wielder gains {1} Basic Attack DMG Bonus for 14s. This effect can be triggered once per second, stacking up to 3 times. When the wielder's Concerto Energy is consumed, gain {2} Basic DMG Bonus for 10s. This effect can be triggered once per second and ends when the wielder is switched off the field.",
-          "primary_stat_val": 587,
-          "rarity": 5,
-          "secondary_stat_name": "CRIT Rate",
-          "secondary_stat_val": 24.3,
-          "source": "Gacha"
-        },
-        "weapon_name": "Red Spring"
-      },
-      {
         "commentary_details": "Best overall weapon on Sanhua when going by Team DPS by a very slight margin. Provides a 30% Heavy DMG Bonus if Echo is cast before her rotation starts (not accounted for here), but most importantly provides 20% Echo Skill DMG Bonus to all characters in the team upon Intro. Can improve Team DPS by a tiny margin in non-Echo teams (and a better one in Echo teams), making it the best weapon overall.",
         "dupe_rank": "R1",
         "percentage_performance": "100.00%",
@@ -135,7 +107,7 @@
         "percentage_performance": "99.10%",
         "weapon_base_info": {
           "effect_description": "ATK is increased by {0}. Upon gaining Unison, the wielder gains {1} Electro DMG Bonus for 30s.\nUpon gaining Unison, the wielder removes Yearning Mind and grants all Resonators in the team the Binding Mind effect: gain {2} Electro DMG Bonus for 30s. Effects of the same name cannot stack.\nWhen the wielder consumes Concerto Energy, they remove Binding Mind from all Resonators in the team and gain the Yearning Mind effect: the wielder additionally gains {3} Electro DMG Bonus for 14s. Switching to another Resonator ends this effect early.",
-          "primary_stat_val": 588,
+          "primary_stat_val": 587,
           "rarity": 5,
           "secondary_stat_name": "CRIT Rate",
           "secondary_stat_val": 24.3,
@@ -240,9 +212,9 @@
       "slug": "sanhua",
       "updates": {
         "last_major_build_patch": "3.7",
-        "last_profile_update": "22/October/2026",
+        "last_profile_update": "12/November/2026",
         "last_review_patch": "3.7",
-        "last_updated": "22/October/2026"
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Sword"
     },

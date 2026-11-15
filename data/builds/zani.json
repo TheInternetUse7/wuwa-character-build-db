@@ -216,9 +216,9 @@
       "slug": "zani",
       "updates": {
         "last_major_build_patch": "3.6",
-        "last_profile_update": "22/October/2026",
+        "last_profile_update": "12/November/2026",
         "last_review_patch": "3.6",
-        "last_updated": "22/October/2026"
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Gauntlets"
     },
@@ -317,7 +317,6 @@
         "whimpering_wastes": {
           "tags": [
             "Frazzle",
-            "Expert +2",
             "Partner (Phoebe)"
           ],
           "tier": "T3"

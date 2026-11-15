@@ -10,16 +10,83 @@
       "hp": 0,
       "max_energy": 0
     },
-    "best_echo_sets": [],
+    "best_echo_sets": [
+      {
+        "commentary": "Best set for Lily for general use. Since she buffs both Echo and Unison characters and Flower of Tinged Yearning only provides full buffs to Unison characters, this is her best set to take advantage of her two-sided buffing profile.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Allows Rejuvenating Glow to provide as many total buffs as Flower of Tinged Yearning on cast, giving an extra 10% ATK to the team and an extra 10% Energy Regen to the wearer. It can easily be summoned before Lily's Ultimate to have roughly the same effects as her Signature set, with the added perk of working in more than just Unison teams.",
+            "echo_name": "Fallacy of No Return"
+          }
+        ],
+        "percentage_performance": "1",
+        "set_name": "Rejuvenating Glow"
+      },
+      {
+        "commentary": "Comfort set option for now, as Lily can be used in both Unison and Echo teams. Has 10s more uptime on 10% ATK to the team and Energy Regen to Lily herself. The drawback is that these buffs only apply to Unison teams, so if you want to take advantage of Lily's Echo Skill buffing capabilities, this set is inferior.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Provides 10% Energy Regen when equipped in the main slot. Simple Summon Echo that ensures Energy Regen requirements are met a bit easier.",
+            "echo_name": "Formrender"
+          }
+        ],
+        "percentage_performance": "",
+        "set_name": "Flower of Tinged Yearning"
+      }
+    ],
     "best_echo_stats": {
       "main_stats": {
-        "cost_1": [],
-        "cost_3": [],
-        "cost_4": []
+        "cost_1": [
+          "HP%",
+          "HP%"
+        ],
+        "cost_3": [
+          "Energy Regen",
+          "Energy Regen / Spectro DMG Bonus"
+        ],
+        "cost_4": [
+          "HP% "
+        ]
       },
-      "substats_priority": []
+      "substats_priority": [
+        "Energy Regen (Until 260%)",
+        "CRIT DMG",
+        "CRIT Rate (Until 20%)",
+        "HP%",
+        "Heavy Attack DMG%",
+        "HP"
+      ]
     },
-    "best_weapons": [],
+    "best_weapons": [
+      {
+        "commentary_details": "Lily's Signature is 1 of 2 weapons that allow her to maximize her Energy Regen requirements. Best weapon by a slight margin, giving her the Concerto she needs to speed up her Opener on top of two buffs: 24% party-wide Echo Skill DMG Bonus for all characters, and 16% ATK to Unison characters only.",
+        "dupe_rank": "R1",
+        "percentage_performance": "1",
+        "weapon_base_info": {
+          "effect_description": "Increases Max HP by {0}. Casting Resonance Liberation restores {1} points of Concerto Energy, triggered once every 20s. All Resonators in the team gain Soothed Soul for 30s when the wielder provides healing with Heavy Attack. When Soothed Soul is active, if a Resonator in the team gains Unison or triggers Unison Response, that Resonator gains {2} ATK increase for 30s. This effect is removed when Soothed Soul ends. When the wielder provides healing with Heavy Attack, the active Resonator also gains {3} Echo Skill DMG Bonus for 30s. Effects of the same name do not stack.",
+          "primary_stat_val": 412,
+          "rarity": 5,
+          "secondary_stat_name": "Energy Regen",
+          "secondary_stat_val": 77,
+          "source": ""
+        },
+        "weapon_name": "Lullaby"
+      },
+      {
+        "commentary_details": "Replacement option to Signature. Lily works completely fine on Cadenza instead of Lullaby, as the team buffs it provides are negligible, and this weapon still accomplishes the key goals of giving extra Concerto for the Opener while giving Lily extra Energy Regen, which is needed for full Energy Regen-gated team buffs,",
+        "dupe_rank": "R1",
+        "percentage_performance": "2",
+        "weapon_base_info": {
+          "effect_description": "When Resonance Skill is released, restores Concerto Energy by {0}. This effect can be triggered 1 time every 20s.",
+          "primary_stat_val": 337,
+          "rarity": 4,
+          "secondary_stat_name": "Energy Reg.",
+          "secondary_stat_val": 51.8,
+          "source": ""
+        },
+        "weapon_name": "Cadenza"
+      }
+    ],
     "character_metadata": {
       "breadcrumb": [
         "Wuthering Waves",
@@ -31,35 +98,680 @@
       "rarity_stars": 5,
       "slug": "lily",
       "updates": {
-        "last_major_build_patch": "",
-        "last_profile_update": "08/October/2026",
-        "last_review_patch": "",
-        "last_updated": "08/October/2026"
+        "last_major_build_patch": "3.8",
+        "last_profile_update": "12/November/2026",
+        "last_review_patch": "3.8",
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Pistols"
     },
-    "example_teams": [],
+    "example_teams": [
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "hsin"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "suoming"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "lily"
+        },
+        "team_name": "Unison Team",
+        "team_notes": ""
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "sigrika, galbrena"
+        },
+        "slot_2": {
+          "alternatives": [
+            "lucilla"
+          ],
+          "character_name": "qiuyuan"
+        },
+        "slot_3": {
+          "alternatives": [],
+          "character_name": "lily"
+        },
+        "team_name": "Echo Teams",
+        "team_notes": "Galbrena is much worse here and Shorekeeper is a better fit for that team, because she deals partial Heavy Attack DMG which Lily doesn't buff."
+      }
+    ],
     "media": {
       "full_image_gallery_url": "https://cdn.prydwen.gg/images/wuthering-waves/characters/lily_full.webp",
       "youtube_guide_embed_url": "",
-      "youtube_guide_full_url": ""
+      "youtube_guide_full_url": "0NGdU9nLKRI"
     },
-    "minor_fortes": [],
+    "minor_fortes": [
+      {
+        "bonus_value": "+12%",
+        "stat_name": "Healing Bonus"
+      },
+      {
+        "bonus_value": "+12%",
+        "stat_name": "HP"
+      }
+    ],
     "pros_and_cons": {
-      "cons": [],
-      "pros": []
+      "cons": [
+        "Has like, one slightly decent Quickswap window after her Opener rotation, and only buffs active on-field characters which really mitigates Quickswap use on top of making her incompatible with Phrolova;",
+        "On every Echo team, is just an alternative to Shorekeeper, never a stronger option. This is especially true in Quickswap as we explained earlier;",
+        "Until S2, lacks CRIT consistency in Unison teams. This lowers her value in Whimpering Wastes if Shorekeeper is on your account since she covers this exact problem by default;",
+        "While S2 and S3 are decent, S4 to S6 are some of the worst in the entire game;",
+        "Who allowed her to wield a gun? We're pretty sure she's illegally carrying that thing."
+      ],
+      "pros": [
+        "Top-tier support for top-tier teams in all endgames. Easy to understand where her value is;",
+        "Has access to constant off-field grouping at regular intervals and on every Intro (though not as good as Denia's grouping, it's still pretty good);",
+        "Much like many other Supports of her kind, doesn't mind skipping her Signature weapon, and doesn't mind lower Echo investments (just needs Energy Regen requirements, and after that investing into damage is an optional bonus);"
+      ]
     },
-    "ratings": null,
+    "ratings": {
+      "dps_ratings": {
+        "tower_of_adversity": {
+          "tags": [
+            "Unison",
+            "Echo"
+          ],
+          "tier": "T0"
+        },
+        "whimpering_wastes": {
+          "tags": [
+            "Unison",
+            "Echo"
+          ],
+          "tier": "T0"
+        }
+      },
+      "value_tier_ratings": {
+        "tower_of_adversity_value": {
+          "tier": "T0.5"
+        },
+        "whimpering_wastes_value": {
+          "tier": "T1"
+        }
+      }
+    },
     "recommended_endgame_stats_target": [],
-    "resonance_chain_dupes": [],
+    "resonance_chain_dupes": [
+      {
+        "description": "Lily is immune to interruption while casting Heavy Attack - Woven Fairytale, Heavy Attack - Woven Phantasm, Heavy Attack - Fairytale's Finale, or Heavy Attack - Phantasm's End.While Cradle Lullaby is active, each Intro Skill cast by a Resonator in the team other than Lily now grants 2 stacks of Dream Aroma.",
+        "name": "Look, White Flowers from the Ruins of Dreams",
+        "node": "S1"
+      },
+      {
+        "description": "While Cradle Lullaby is active, when a Resonator in the team other than Lily casts an Intro Skill, each stack of Dream Aroma additionally increases Crit. Rate by 2% and Crit. DMG by 6%.",
+        "name": "Listen, a Requiem from the Dream Cradle",
+        "node": "S2"
+      },
+      {
+        "description": "Lily additionally gains 170 points of Dream Perfume upon entering combat, triggered once every 12s.When Lily deals DMG with Intro Skill - Eternal Bloom, she additionally gains 170 points of Dream Perfume.Casting Resonance Liberation - Into the Dream Cradle additionally restores 10 points of Concerto Energy.Dealing DMG with Heavy Attack - Fairytale's Finale or Heavy Attack - Phantasm's End additionally restores 10 points of Resonance Energy.During Heavy Attack - Woven Fairytale or Heavy Attack - Woven Phantasm, Lily gains Dreambell Chime faster.",
+        "name": "May Your Soul Wander No More",
+        "node": "S3"
+      },
+      {
+        "description": "Slumberland's healing is increased by 30%.",
+        "name": "May Your Past Sink into Silence",
+        "node": "S4"
+      },
+      {
+        "description": "While Lily is in Slumberland, the pull-in effect range is increased by 50% when a Resonator in the team casts Intro Skill.",
+        "name": "May You Find Peace in Endless Light",
+        "node": "S5"
+      },
+      {
+        "description": "The Spectro DMG dealt by Heavy Attack - Fairytale's Finale, Heavy Attack - Phantasm's End is additionally increased by 100%.The Spectro DMG dealt by Intro Skill - Eternal Bloom is additionally increased by 700%.",
+        "name": "May My Reverie Never End",
+        "node": "S6"
+      }
+    ],
     "review": {
-      "sections": [],
-      "summary": ""
+      "sections": [
+        {
+          "heading": "Summary",
+          "paragraphs": [
+            "Lily is a 5-star Spectro Pistol Support who specializes in supporting Unison and Echo Skill characters. She's essentially a repeat of Shorekeeper for those two team archetypes, making her a fundamentally easy character to pick up, build, and play."
+          ]
+        },
+        {
+          "heading": "Key Mechanics",
+          "paragraphs": [
+            "Lily doesn't have a single focal point in her kit. Generally, the most important things are her Skill, Intro, Forte gauge and Ultimate.",
+            "Lily has 2 different states that she switches between via her Skill that allow her to cast different Heavy Attacks: Fairytale and Phantasm. By default, she starts in Fairytale state. Generally speaking, both Heavy Attacks accomplish the same goal of restoring a lot of Concerto once the Forte gauge is filled up, on top of providing an ATK buff based on Unison Boon stacks, as well as an Echo CRIT Rate and CRIT DMG buff. They are in two steps each: a mid-air phase and a plunge for Fairytale state, and a charge into a projectile shot for Phantasm, roughly taking the same amount of field time.",
+            "To get there though, Lily has to restore her Forte gauge first. This is where all other elements of her kit start to intertwine. Her Forte gauge can be replenished through her Basic Attacks, her Skill, or her Enhanced Intro. It gets expended once to start casting her Forte Heavies, then she has to replenish it once again during her Forte Heavy animation to finish her rotation off.",
+            "Technically, her Skill has two variants that allow her to switch states, but they accomplish the exact same thing in terms of damage and Forte regeneration. Where it starts differing is her Intro. If Lily has cast her Ultimate, is still in her Ultimate state, and Intros back into the field, she interrupts her Ultimate state and, in exchange, gains access to a powerful Enhanced Intro that restores a bunch of Concerto, Forte, speeds up her Forte Heavies by adding some initial Forte charge, and allows her to start her Basic string from Basic 3.",
+            "Speaking of her Ultimate, it causes Lily to literally fall asleep on the battlefield. Setting the real-world counter-productive nature of this aside, Lily becomes incapable of any action during her Ultimate. It lasts for 50s, unless manually interrupted via either pressing Ultimate again or casting her Enhanced Intro. Aside from that, it gives her a big Concerto boost and triggers some additional ATK% buffs, so Lily always wants to finish her rotation with it. Her Ultimate also has the additional effect of grouping enemies every time an Intro is cast, and every 5s via a directional input.",
+            "In short: Lily wants to build up her Forte gauge through a mix of Basic Attacks and Skills before casting her Forte Heavies into her Ultimate to finish off her rotation."
+          ]
+        },
+        {
+          "heading": "Who Does She Buff & How?",
+          "paragraphs": [
+            "Let's provide a recap of how exactly Lily buffs characters on your team:",
+            "Through her Forte Heavies: Casting Outro within 6s of them gives the following buffs to the active character for 30s:",
+            "For Unison Response characters only: 7% ATK per stack of Unison Boon, up to 4;",
+            "10% Echo Skill CRIT Rate and 20% Echo Skill CRIT DMG;",
+            "Through her Ultimate: For 25s, each Intro other than Lily's provides 7% ATK to the active character, up to 28% at 4 Intros;",
+            "Through her Outro: 25% team-wide DMG Amplification for 30s;",
+            "Through her Echo set: 25% team-wide ATK (for 20s on Rejuvenating Glow, 30s on Flower of Tinged Yearning for Unison characters only);",
+            "Through her Signature weapon: 16% ATK to Unison characters, and 24% Echo Skill DMG to the active character;",
+            "She also has a bunch of healing and other safeguards on her passives, Ultimate, and Forte Heavies.",
+            "That's a total of 97% ATK to Unison characters (39% in other teams), 25% DMG Amplification, plus 10% Echo Skill CRIT Rate, 20% Echo Skill CRIT DMG, and 24% Echo Skill DMG, including her Signature. A very ATK-focused buffing profile for Unison, while Echo Skill characters get a wider array of more standard buffs. Non-Unison and Echo characters only get 39% ATK and 25% DMG Amplification alongside Echo Skill buffs that don't really make a difference, so generally, she won't be much better than Verina (if at all) in those instances.",
+            "Note: The 97% ATK Lily can provide to Unison characters is only theoretical. In the Hsin/Suoming/Lily team, the only Unison team currently available, Lily is \"only\" providing up to 90% ATK unless Hsin is S6."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Lily's meta position is interesting, is the best way we can put it. She's useful right now for some accounts, but it's obvious to us that this isn't her final form.",
+            "Let's get something out of the way first: her full Unison Boon ATK buff isn't yet able to be taken advantage of until S6 Hsin. This, and her Signature Echo Set is only fully compatible with Unison characters. Yet, she has 2 Vigor in Matrix, so it's likely she's intended to go on 2 separate teams using this set, otherwise there's no point in building it over Rejuvenating Glow, which is a set that fully works across all team compositions.",
+            "In short, it's very possible a future Unison team is to come, other than Hsin/Suoming. The thing is, we just don't know who that is yet. Whether they'll be strong meta-wise and whether you'll enjoy those characters enough to pull them, only time will tell.",
+            "As things stand, Lily is great for Sigrika and Hsin Unison, specifically. The issue is: for Galbrena and Phrolova, they don't just deal pure Echo DMG, they also deal a good amount of Heavy/Skill DMG respectively. Additionally, at least half of Phrolova's damage (being all her Echo damage) is off-field, while Lily only buffs active on-field characters. Suffice to say, there are more synergistic characters, and generally Shorekeeper is a better idea to use than Lily if she's available for those characters. That only really leaves Lily with Sigrika and Hsin Unison to play with at the top level, Galbrena being an alright option but nothing impressive.",
+            "The thing is, her top 2 teams are very strong across all endgames, and that gets Lily enough points to be worth considering. However, that's only if Shorekeeper is unavailable. While she's best in slot for Hsin Unison in theory, Lily doesn't give the team 100% CRIT Rate until S2, which means it'll be overall more inconsistent, which particularly matters for Whimpering Wastes. Lily's innate grouping compensates for that a bit, especially since her buffs are stronger than Shorekeeper's for the team on paper, but it doesn't cleanly resolve that issue.",
+            "In conclusion, Lily can be worth considering if you own Hsin Unison and/or Sigrika, want an upgrade from Verina, and don't have Shorekeeper to spare for that purpose. If you're the kind of person who really wants to optimize Endstate Matrix scores, Lily is a strong candidate for your account as well. However, make sure to keep in mind there's nuance to the character, and that her true best team is likely not released yet. She'll likely rerun alongside that team the same way Chisa did, so if you're unsure, you can skip her for now, provided your account's status doesn't justify pulling her."
+          ]
+        }
+      ],
+      "summary": "Lily is a 5-star Spectro Pistol Support who specializes in supporting Unison and Echo Skill characters. She's essentially a repeat of Shorekeeper for those two team archetypes, making her a fundamentally easy character to pick up, build, and play."
     },
-    "rotations": [],
-    "skill_upgrade_priority": null,
-    "skills": [],
-    "synergies": [],
+    "rotations": [
+      {
+        "rotation_name": "S0R1: Opener",
+        "steps": [
+          "Basic 1",
+          "Basic 2",
+          "Basic 3 (Cancel animation endlag via Skill)",
+          "Skill (Cancel animation endlag via Heavy)",
+          "Heavy: Woven Phantasm",
+          "Heavy: Phantasm's End (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "S0: Loop",
+        "steps": [
+          "Intro: Eternal Bloom",
+          "Basic 3 (Cancel animation endlag via Skill)",
+          "Skill (Cancel animation endlag via Heavy)",
+          "Heavy: Woven Fairytale",
+          "Heavy: Fairytale's Finale/Phantasm's End (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "S0R0: Opener",
+        "steps": [
+          "Basic 1",
+          "Basic 2",
+          "Basic 3",
+          "Basic 4 (Cancel animation endlag on hit via Skill)",
+          "Skill (Cancel animation endlag via Heavy)",
+          "Heavy: Woven Phantasm",
+          "Heavy: Phantasm's End (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Opener",
+        "steps": [
+          "Skill (Cancel animation endlag via Heavy)",
+          "Heavy: Woven Phantasm",
+          "Heavy: Phantasm's End (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Outro"
+        ]
+      },
+      {
+        "rotation_name": "Loop",
+        "steps": [
+          "Intro: Eternal Bloom",
+          "Heavy: Woven Phantasm",
+          "Heavy: Phantasm's End (Cancel animation endlag via Ultimate)",
+          "Ultimate",
+          "Outro"
+        ]
+      }
+    ],
+    "skill_upgrade_priority": {
+      "commentary": "Basic, Skill and Liberation can be completely skipped unless you specifically care about increasing the healing from Liberation. The damage increases are so small, you should entirely focus on Forte and Intro and leave out the rest.",
+      "order": [
+        "Forte Circuit",
+        "Intro Skill",
+        "Basic Attack",
+        "Res. Skill",
+        "Res. Liberation"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Active",
+        "description": "Basic AttackPress repeatedly or hold Normal Attack to perform up to 4 consecutive attacks, dealing Spectro DMG.Mid-air AttackConsume STA to perform a Plunging Attack, dealing Spectro DMG.Dodge CounterPress Normal Attack shortly after a successful Dodge to attack the target, dealing Spectro DMG. Press Normal Attack shortly after casting this skill to cast Basic Attack Stage 4.",
+        "multipliers": [
+          {
+            "Lv1": "32.00%",
+            "Lv10": "63.62%",
+            "Lv2": "34.63%",
+            "Lv3": "37.25%",
+            "Lv4": "40.93%",
+            "Lv5": "43.55%",
+            "Lv6": "46.57%",
+            "Lv7": "50.77%",
+            "Lv8": "54.96%",
+            "Lv9": "59.16%",
+            "Name": "Basic Attack Stage 1 DMG"
+          },
+          {
+            "Lv1": "14.66%+14.66%*3",
+            "Lv10": "29.15%+29.15%*3",
+            "Lv2": "15.87%+15.87%*3",
+            "Lv3": "17.07%+17.07%*3",
+            "Lv4": "18.75%+18.75%*3",
+            "Lv5": "19.95%+19.95%*3",
+            "Lv6": "21.34%+21.34%*3",
+            "Lv7": "23.26%+23.26%*3",
+            "Lv8": "25.18%+25.18%*3",
+            "Lv9": "27.11%+27.11%*3",
+            "Name": "Basic Attack Stage 2 DMG"
+          },
+          {
+            "Lv1": "48.00%",
+            "Lv10": "95.43%",
+            "Lv2": "51.94%",
+            "Lv3": "55.88%",
+            "Lv4": "61.39%",
+            "Lv5": "65.32%",
+            "Lv6": "69.85%",
+            "Lv7": "76.15%",
+            "Lv8": "82.44%",
+            "Lv9": "88.74%",
+            "Name": "Basic Attack Stage 3 DMG"
+          },
+          {
+            "Lv1": "19.34%*3+19.34%",
+            "Lv10": "38.45%*3+38.45%",
+            "Lv2": "20.93%*3+20.93%",
+            "Lv3": "22.52%*3+22.52%",
+            "Lv4": "24.74%*3+24.74%",
+            "Lv5": "26.32%*3+26.32%",
+            "Lv6": "28.15%*3+28.15%",
+            "Lv7": "30.68%*3+30.68%",
+            "Lv8": "33.22%*3+33.22%",
+            "Lv9": "35.76%*3+35.76%",
+            "Name": "Basic Attack Stage 4 DMG"
+          },
+          {
+            "Lv1": "57.60%",
+            "Lv10": "114.52%",
+            "Lv2": "62.33%",
+            "Lv3": "67.05%",
+            "Lv4": "73.66%",
+            "Lv5": "78.39%",
+            "Lv6": "83.82%",
+            "Lv7": "91.38%",
+            "Lv8": "98.93%",
+            "Lv9": "106.49%",
+            "Name": "Plunging Attack DMG"
+          },
+          {
+            "Lv1": "120.00%",
+            "Lv10": "238.58%",
+            "Lv2": "129.84%",
+            "Lv3": "139.68%",
+            "Lv4": "153.46%",
+            "Lv5": "163.30%",
+            "Lv6": "174.62%",
+            "Lv7": "190.36%",
+            "Lv8": "206.10%",
+            "Lv9": "221.85%",
+            "Name": "Dodge Counter DMG"
+          },
+          {
+            "Lv1": "30",
+            "Lv10": "30",
+            "Lv2": "30",
+            "Lv3": "30",
+            "Lv4": "30",
+            "Lv5": "30",
+            "Lv6": "30",
+            "Lv7": "30",
+            "Lv8": "30",
+            "Lv9": "30",
+            "Name": "Mid-air Attack STA Cost"
+          }
+        ],
+        "name": "Mend and Cleanse",
+        "skill_type": "Basic Attack"
+      },
+      {
+        "category": "Active",
+        "description": "Resonance Skill - Nightmare BlendLily starts with Heavy Attack - Woven Fairytale by default. When Heavy Attack - Woven Fairytale is active, press Resonance Skill to deal Spectro DMG to nearby targets, then switch to Heavy Attack - Woven Phantasm.This skill shares a Cooldown with Resonance Skill - Reverie Blend.Resonance Skill - Reverie BlendWhen Heavy Attack - Woven Phantasm is active, press Resonance Skill to deal Spectro DMG to nearby targets, then switch to Heavy Attack - Woven Fairytale.This skill shares a Cooldown with Resonance Skill - Nightmare Blend.",
+        "multipliers": [
+          {
+            "Lv1": "80.00%",
+            "Lv10": "159.05%",
+            "Lv2": "86.56%",
+            "Lv3": "93.12%",
+            "Lv4": "102.31%",
+            "Lv5": "108.87%",
+            "Lv6": "116.41%",
+            "Lv7": "126.91%",
+            "Lv8": "137.40%",
+            "Lv9": "147.90%",
+            "Name": "Resonance Skill - Reverie Blend DMG"
+          },
+          {
+            "Lv1": "80.00%",
+            "Lv10": "159.05%",
+            "Lv2": "86.56%",
+            "Lv3": "93.12%",
+            "Lv4": "102.31%",
+            "Lv5": "108.87%",
+            "Lv6": "116.41%",
+            "Lv7": "126.91%",
+            "Lv8": "137.40%",
+            "Lv9": "147.90%",
+            "Name": "Resonance Skill - Nightmare Blend DMG"
+          },
+          {
+            "Lv1": "13",
+            "Lv10": "13",
+            "Lv2": "13",
+            "Lv3": "13",
+            "Lv4": "13",
+            "Lv5": "13",
+            "Lv6": "13",
+            "Lv7": "13",
+            "Lv8": "13",
+            "Lv9": "13",
+            "Name": "Resonance Skill - Reverie Blend/Nightmare Blend Cooldown"
+          },
+          {
+            "Lv1": "8",
+            "Lv10": "8",
+            "Lv2": "8",
+            "Lv3": "8",
+            "Lv4": "8",
+            "Lv5": "8",
+            "Lv6": "8",
+            "Lv7": "8",
+            "Lv8": "8",
+            "Lv9": "8",
+            "Name": "Resonance Skill - Reverie Blend/Nightmare Blend Concerto Regen"
+          }
+        ],
+        "name": "Dream Blend",
+        "skill_type": "Resonance Skill"
+      },
+      {
+        "category": "Active",
+        "description": "Casting this skill sends Lily into Slumberland and grants her Cradle Lullaby.Casting this skill also grants Lily a Shield equal to 100% of her Max HP for 4s. This Shield does not carry over to the incoming Resonator.Can be cast in mid-air close to the ground.SlumberlandLasts for 50s. When Lily is in Slumberland, she heals the nearby active Resonator every 3s. During Slumberland, use directional input to command Dreambind to attack, dealing Spectro DMG to nearby targets. Dreambind pulls in targets within a certain range every 5s while attacking, and stops attacking 10s after movement stops. Press Resonance Liberation again during Slumberland to end it early.When Lily is in Slumberland and a Resonator in the team other than Lily casts Intro Skill, targets within a certain range are pulled in. This effect can be triggered once every 10s. Lily is immune to interruption during Slumberland and takes 50% less DMG.Switching to another Resonator during Slumberland keeps Lily on the field but stops the attacks of Dreambind. Lily leaves the field when Slumberland ends, or earlier if she gets too far from the active Resonator. Casting Intro Skill - Eternal Bloom also ends Slumberland immediately.Cradle LullabyLasts for 25s. While this effect is active, each Intro Skill cast by a Resonator in the team other than Lily grants 1 stack of Dream Aroma. Cradle Lullaby is removed when Lily is the incoming Resonator.Dream AromaStacks up to 4 times. Each stack increases the ATK of all Resonators in the team by 0.1% for every 1% of Lily's Energy Regen exceeding 190%, up to 7%. This effect is removed when Lily is the incoming Resonator or when Cradle Lullaby ends.",
+        "multipliers": [
+          {
+            "Lv1": "25",
+            "Lv10": "25",
+            "Lv2": "25",
+            "Lv3": "25",
+            "Lv4": "25",
+            "Lv5": "25",
+            "Lv6": "25",
+            "Lv7": "25",
+            "Lv8": "25",
+            "Lv9": "25",
+            "Name": "Cooldown"
+          },
+          {
+            "Lv1": "175",
+            "Lv10": "175",
+            "Lv2": "175",
+            "Lv3": "175",
+            "Lv4": "175",
+            "Lv5": "175",
+            "Lv6": "175",
+            "Lv7": "175",
+            "Lv8": "175",
+            "Lv9": "175",
+            "Name": "Resonance Cost"
+          },
+          {
+            "Lv1": "20",
+            "Lv10": "20",
+            "Lv2": "20",
+            "Lv3": "20",
+            "Lv4": "20",
+            "Lv5": "20",
+            "Lv6": "20",
+            "Lv7": "20",
+            "Lv8": "20",
+            "Lv9": "20",
+            "Name": "Concerto Regen"
+          },
+          {
+            "Lv1": "287+0.52%",
+            "Lv10": "546+1.09%",
+            "Lv2": "321+0.54%",
+            "Lv3": "359+0.56%",
+            "Lv4": "402+0.59%",
+            "Lv5": "454+0.63%",
+            "Lv6": "503+0.68%",
+            "Lv7": "511+0.75%",
+            "Lv8": "523+0.84%",
+            "Lv9": "531+0.94%",
+            "Name": "Slumberland Healing"
+          },
+          {
+            "Lv1": "10.00%",
+            "Lv10": "19.89%",
+            "Lv2": "10.82%",
+            "Lv3": "11.64%",
+            "Lv4": "12.79%",
+            "Lv5": "13.61%",
+            "Lv6": "14.56%",
+            "Lv7": "15.87%",
+            "Lv8": "17.18%",
+            "Lv9": "18.49%",
+            "Name": "Dreambind Continuous DMG"
+          }
+        ],
+        "name": "Into the Dream Cradle",
+        "skill_type": "Resonance Liberation"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "Dream PerfumeCan hold up to 300 points.Basic Attack, Mid-air Attack, and Dodge Counter restore Dream Perfume when dealing damage.Casting Resonance Skill - Reverie Blend or Resonance Skill - Nightmare Blend restores 130 points of Dream Perfume.Casting Intro Skill - Eternal Bloom restores 130 points of Dream Perfume.Dreambell ChimeCan hold up to 300 points.Can be gained continuously during Heavy Attack - Woven Fairytale and Heavy Attack - Woven Phantasm. Any unconsumed Dreambell Chime will be converted into an equal amount of Dream Perfume.Heavy Attack - Woven FairytaleWhen Dream Perfume is full, hold Normal Attack to cast Heavy Attack - Woven Fairytale, consuming all Dream Perfume to grant 1 stack of Dream Shelter. During the skill, Lily pulls in nearby targets and continuously deals Spectro DMG to them. She also heals all Resonators in the team every second for 2s.Casting Heavy Attack - Woven Fairytale grants Lily Wish of Praying Dream.Switching to another Resonator during Heavy Attack - Woven Fairytale ends the skills immediately.Lily continuously gains Dreambell Chime and Concerto Energy (up to 30 points) during the skill.When Dreambell Chime reaches 300 points, press or hold Normal Attack to end the skill immediately and cast Heavy Attack - Fairytale's Finale. Heavy Attack - Fairytale's Finale is automatically cast at the end of Heavy Attack - Woven Fairytale. Casting Heavy Attack - Fairytale's Finale consumes all Dreambell Chime.Heavy Attack - Fairytale's FinaleAttack targets within range, dealing Spectro DMG.For every 1% of Lily's Energy Regen exceeding 100%, this skill gains 0.5% Crit. Rate, up to 80%, and 1% Crit. DMG, up to 160%.Lily gains Sillage for 6s while casting this skill. Casting Outro Skill consumes Sillage and grants Silvered Dream to Resonators in the team. This effect can be triggered once every 20s.Lily cannot be switched off while casting this skill.Heavy Attack - Woven PhantasmWhen Dream Perfume is full, hold Normal Attack to cast Heavy Attack - Woven Phantasm, consuming all Dream Perfume to grant 1 stack of Dream Shelter. During the skill, Lily pulls in nearby targets and continuously deals Spectro DMG to them. She also heals all Resonators in the team every second for 2s.Casting Heavy Attack - Woven Phantasm grants Lily Wish of Praying Dream.Switching to another Resonator during Heavy Attack - Woven Phantasm ends the skill immediately.Lily continuously gains Dreambell Chime and Concerto Energy (up to 30 points) during the skill.When Dreambell Chime reaches 300 points, press or hold Normal Attack to end the skill immediately and cast Heavy Attack - Phantasm's End. Heavy Attack - Phantasm's End is automatically cast at the end of Heavy Attack - Woven Phantasm. Casting Heavy Attack - Phantasm's End consumes all Dreambell Chime.Heavy Attack - Phantasm's EndAttack targets within range, dealing Spectro DMG.For every 1% of Lily's Energy Regen exceeding 100%, this skill gains 0.5% Crit. Rate, up to 80%, and 1% Crit. DMG, up to 160%.Lily gains Sillage for 6s while casting this skill. Casting Outro Skill consumes Sillage and grants Silvered Dream to Resonators in the team. This effect can be triggered once every 20s.Lily cannot be switched off while casting this skill.Silvered DreamLasts for 30s.When the Resonator with this effect is the active Resonator and can trigger Unison Response, each stack of Unison Boon on the team increases their ATK by 0.1% for every 1% of Lily's Energy Regen exceeding 190%, up to 7%, counting up to 4 stacks of Unison Boon.The active Resonator's Echo Skill Crit. Rate and Echo Skill Crit. DMG are increased. Every 0.7% of Lily's Energy Regen exceeding 190% increases Echo Skill Crit. Rate by 0.1%, up to 10%. Every 0.7% of Lily's Energy Regen exceeding 190% increases Echo Skill Crit. DMG by 0.2%, up to 20%.All Resonators in the team gain increased resistance to interruption.Dream ShelterCasting Heavy Attack - Woven Fairytale or Heavy Attack - Woven Phantasm grants 1 stack of Dream Shelter, stacking up to 1 time. Dream Shelter is removed when Heavy Attack - Fairytale's Finale or Heavy Attack - Phantasm's End ends, or when Heavy Attack - Woven Fairytale or Heavy Attack - Woven Phantasm is interrupted. Receiving damage from an enemy target consumes 1 stack of Dream Shelter to grant Lily immunity to interruption and reduce the DMG taken by 60% for 1s. This effect can be triggered once every 1s.Wish of Praying DreamCan be gained once every 25s.When Lily has Wish of Praying Dream, the current Heavy Attack - Woven Fairytale or Heavy Attack - Woven Phantasm consumes Wish of Praying Dream to increase the skill's healing by 400%.",
+        "multipliers": [
+          {
+            "Lv1": "185+0.33%",
+            "Lv10": "351+0.70%",
+            "Lv2": "207+0.35%",
+            "Lv3": "231+0.36%",
+            "Lv4": "259+0.38%",
+            "Lv5": "292+0.41%",
+            "Lv6": "323+0.43%",
+            "Lv7": "329+0.48%",
+            "Lv8": "336+0.54%",
+            "Lv9": "342+0.60%",
+            "Name": "Heavy Attack - Woven Fairytale Healing"
+          },
+          {
+            "Lv1": "185+0.33%",
+            "Lv10": "351+0.70%",
+            "Lv2": "207+0.35%",
+            "Lv3": "231+0.36%",
+            "Lv4": "259+0.38%",
+            "Lv5": "292+0.41%",
+            "Lv6": "323+0.43%",
+            "Lv7": "329+0.48%",
+            "Lv8": "336+0.54%",
+            "Lv9": "342+0.60%",
+            "Name": "Heavy Attack - Woven Phantasm Healing"
+          },
+          {
+            "Lv1": "12.50%+12.50%*19",
+            "Lv10": "24.86%+24.86%*19",
+            "Lv2": "13.53%+13.53%*19",
+            "Lv3": "14.55%+14.55%*19",
+            "Lv4": "15.99%+15.99%*19",
+            "Lv5": "17.01%+17.01%*19",
+            "Lv6": "18.19%+18.19%*19",
+            "Lv7": "19.83%+19.83%*19",
+            "Lv8": "21.47%+21.47%*19",
+            "Lv9": "23.11%+23.11%*19",
+            "Name": "Heavy Attack - Woven Fairytale DMG"
+          },
+          {
+            "Lv1": "10.87%*23",
+            "Lv10": "21.61%*23",
+            "Lv2": "11.77%*23",
+            "Lv3": "12.66%*23",
+            "Lv4": "13.90%*23",
+            "Lv5": "14.80%*23",
+            "Lv6": "15.82%*23",
+            "Lv7": "17.25%*23",
+            "Lv8": "18.67%*23",
+            "Lv9": "20.10%*23",
+            "Name": "Heavy Attack - Woven Phantasm DMG"
+          },
+          {
+            "Lv1": "18.00%",
+            "Lv10": "35.79%",
+            "Lv2": "19.48%",
+            "Lv3": "20.96%",
+            "Lv4": "23.02%",
+            "Lv5": "24.50%",
+            "Lv6": "26.20%",
+            "Lv7": "28.56%",
+            "Lv8": "30.92%",
+            "Lv9": "33.28%",
+            "Name": "Heavy Attack - Fairytale's Finale DMG"
+          },
+          {
+            "Lv1": "18.00%",
+            "Lv10": "35.79%",
+            "Lv2": "19.48%",
+            "Lv3": "20.96%",
+            "Lv4": "23.02%",
+            "Lv5": "24.50%",
+            "Lv6": "26.20%",
+            "Lv7": "28.56%",
+            "Lv8": "30.92%",
+            "Lv9": "33.28%",
+            "Name": "Heavy Attack - Phantasm's End DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Heavy Attack - Fairytale's Finale/Phantasm's End Concerto Regen"
+          }
+        ],
+        "name": "Dreamland of Flowers",
+        "skill_type": "Forte Circuit"
+      },
+      {
+        "category": "Inherent",
+        "description": "Casting Intro Skill - Eternal Bloom additionally restores 10 points of Concerto Energy, triggered once every 20s.Casting Heavy Attack - Fairytale's Finale or Heavy Attack - Phantasm's End additionally restores 15 points of Concerto Energy, triggered once every 20s.",
+        "multipliers": [],
+        "name": "Woven Scent",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Inherent",
+        "description": "While a nearby active Resonator has 50% or more HP, Lily grants them 10% DMG Reduction.When a Resonator in the team takes a fatal blow, they will not fall and will instead gain a Shield equal to 10% of Lily's Max HP for 10s. This effect can be triggered once every 5 min.Casting Enhanced Heavy Attack - Fairytale's Finale or Enhanced Heavy Attack - Phantasm's End grants Floral Blessing to Resonators in the team.Floral BlessingLasts for 60s. When the HP of a Resonator in the team is below 50% of their Max HP, restore 50% of their Max HP and remove Floral Blessing. This effect can be triggered once every 120s.",
+        "multipliers": [],
+        "name": "Flowers for You",
+        "skill_type": "Inherent Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "First BloomAttack the target, dealing Spectro DMG. Press Normal Attack shortly after casting this skill to cast Basic Attack Stage 3.Eternal BloomAfter casting Resonance Liberation - Into the Dream Cradle, Lily's next Intro Skill First Bloom is replaced with Eternal Bloom. When cast, it attacks the target, dealing Spectro DMG.For every 1% of Lily's Energy Regen exceeding 100%, this skill gains 0.5% Crit. Rate, up to 80%, and 1% Crit. DMG, up to 160%.Casting the skill grants Deep Dream Fragrance for 8s. Casting Heavy Attack - Woven Fairytale or Heavy Attack - Woven Phantasm consumes Deep Dream Fragrance to additionally grant 100 points of Dreambell Chime.Press Normal Attack shortly after casting this skill to cast Basic Attack Stage 3.",
+        "multipliers": [
+          {
+            "Lv1": "27.34%+27.34%*3",
+            "Lv10": "54.36%+54.36%*3",
+            "Lv2": "29.59%+29.59%*3",
+            "Lv3": "31.83%+31.83%*3",
+            "Lv4": "31.83%+31.83%*3",
+            "Lv5": "37.21%+37.21%*3",
+            "Lv6": "39.79%+39.79%*3",
+            "Lv7": "43.37%+43.37%*3",
+            "Lv8": "46.96%+46.96%*3",
+            "Lv9": "50.55%+50.55%*3",
+            "Name": "Intro Skill - First Bloom DMG"
+          },
+          {
+            "Lv1": "18.16%",
+            "Lv10": "36.10%",
+            "Lv2": "19.65%",
+            "Lv3": "21.14%",
+            "Lv4": "21.14%",
+            "Lv5": "24.71%",
+            "Lv6": "26.42%",
+            "Lv7": "28.80%",
+            "Lv8": "31.18%",
+            "Lv9": "33.57%",
+            "Name": "Intro Skill - Eternal Bloom DMG"
+          },
+          {
+            "Lv1": "10",
+            "Lv10": "10",
+            "Lv2": "10",
+            "Lv3": "10",
+            "Lv4": "10",
+            "Lv5": "10",
+            "Lv6": "10",
+            "Lv7": "10",
+            "Lv8": "10",
+            "Lv9": "10",
+            "Name": "Concerto Regen"
+          }
+        ],
+        "name": "Blooming Dream",
+        "skill_type": "Intro Skill"
+      },
+      {
+        "category": "Transition",
+        "description": "Resonators in the team gain 25% All DMG Amplification for 30s.",
+        "multipliers": [],
+        "name": "Blooming Fragrance",
+        "skill_type": "Outro Skill"
+      },
+      {
+        "category": "Forte Circuit",
+        "description": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.",
+        "multipliers": [],
+        "name": "Tune Break: Pistols",
+        "skill_type": "Forte Circuit"
+      }
+    ],
+    "synergies": [
+      {
+        "characters": [
+          "hsin"
+        ],
+        "commentary": "Hsin is the only Unison Main DPS in the game currently (Suoming consumes Unison to become a DPS), so she is Lily's best synergy by far at the moment. Lily is at her best when paired with Unison characters, so if you use Hsin in Unison mode, Lily is a no-brainer for a premium support option, being a slight upgrade to Shorekeeper and a good upgrade from Verina overall."
+      },
+      {
+        "characters": [
+          "sigrika",
+          "galbrena"
+        ],
+        "commentary": "Lily is pretty much just as good as Shorekeeper for on-field Echo Skill damage dealers. Since the majority of Lily's buffs only apply to the active on-field character, she doesn't work for Phrolova, so Sigrika and Galbrena remain. Galbrena is not that good of a pick either, since she deals partial Heavy Attack DMG and Lily focuses on Echo Skill DMG almost entirely. With that being said, Sigrika is a perfect fit for Lily's Echo Skill side of her kit. Her longer rotation with better buffs makes her about the same as Shorekeeper, while being worse than her in Quickswap due to being more restricted there."
+      }
+    ],
     "upgrade_materials": {
       "character_ascension": [],
       "skill_upgrades": []

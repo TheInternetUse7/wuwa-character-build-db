@@ -199,9 +199,9 @@
       "slug": "jinhsi",
       "updates": {
         "last_major_build_patch": "3.7",
-        "last_profile_update": "22/October/2026",
+        "last_profile_update": "12/November/2026",
         "last_review_patch": "3.7",
-        "last_updated": "22/October/2026"
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Broadblade"
     },
@@ -226,7 +226,7 @@
           "character_name": "the-shorekeeper"
         },
         "team_name": "Best Team",
-        "team_notes": "Any of the other 3 teammates are recommended over Cantarella, since Jinhsi and Cantarella cannot rotate on a 1-2-3-2-3 loop like normal. Only consider Cantarella to take advantage of temporary endgame buffs that favour Echo Skill casts/Havoc DMG. Additionally, while Hsin is Jinhsi's best theoretical teammate, the same cannot be said for Hsin herself who is better off running a F2P Flare team."
+        "team_notes": "Any of the other 3 teammates are recommended over Cantarella, since Jinhsi and Cantarella cannot rotate on a 1-2-3-2-3 loop like normal. Only consider Cantarella to take advantage of temporary endgame buffs that favour Echo Skill casts/Havoc DMG. Additionally, while Hsin is Jinhsi's best theoretical teammate, the same cannot be said for Hsin herself who is better off running a F2P Flare team. Lily can be ran in the 3rd slot with Hsin on the team."
       },
       {
         "slot_1": {
@@ -312,7 +312,7 @@
             "Coord",
             "Partner (Hsin)"
           ],
-          "tier": "T2"
+          "tier": "T1"
         }
       },
       "value_tier_ratings": {

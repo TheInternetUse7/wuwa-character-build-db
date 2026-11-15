@@ -228,10 +228,10 @@
       "rarity_stars": 5,
       "slug": "encore",
       "updates": {
-        "last_major_build_patch": "2.6",
-        "last_profile_update": "22/October/2026",
-        "last_review_patch": "1.3",
-        "last_updated": "22/October/2026"
+        "last_major_build_patch": "3.8",
+        "last_profile_update": "12/November/2026",
+        "last_review_patch": "3.8",
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -309,16 +309,13 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Forte-charged Heavy Attacks have a small input window that can leave Encore vulnerable before having a chance to switch.",
-        "Has limited parrying potential during non-Ultimate form.",
-        "More challenging-to-use Echo options than other elements."
+        "Any non-modern DPS is powercrept, and she is no exception - her best teams only barely clear harder endgame content, and you need to put effort into your playstyle, with at least some basic Quickswap, to make it happen;",
+        "Main Echo is very awkward to use and essentially requires Quickswap with correct timing. Base Skill and its finisher attack work the same - in fact, since her Ultimate window is short and requires you to fit as many attacks as you can within it, her damage can vary wildly based on optimization."
       ],
       "pros": [
-        "Can be played as a Hyper Carry or in Quick-Swap double damage teams.",
-        "Can be played in far more teams than many other characters in the game thanks to her flexibility.",
-        "Very easy character to pick up and play.",
-        "Incredible Resonance energy generation for herself and the team.",
-        "Has a pet sheep."
+        "One of the best DPS that you can get without any limited banner pulls;",
+        "Lots of room for damage optimization, and Dodge Counters tend to be very beneficial;",
+        "Very accessible teammates, with room for upgrades via Mono Fusion."
       ]
     },
     "ratings": {
@@ -389,102 +386,55 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Encore is a 5-star Fusion Rectifier wielder that can be played as a Hyper Carry in teams focused on powering her up as the sole damage dealer or in Quick-Swap teams where she's played alongside another damage dealer. Depending on the style you prefer, you can adjust accordingly - If playing Encore as a Hyper Carry you'll focus mostly on landing as many buffs onto her before she uses her Ultimate to empower her burst rotation. Alternatively, if playing Encore in a Quick-Swap double DPS team you'll instead focus on keeping her standard Resonance skill and Echo on cooldown as much as possible while also cycling through the rest of your team. While Encore's Ultimate is still considered powerful in these teams, it is mostly used to fill downtime between each character's cooldowns.",
-            "Upon being fully charged, Encore's Forte allows her Heavy Attack to be enhanced, turning it into a high DPS attack with a significant casting period. This ability is enhanced during her Ultimate skill and should always be cast during it for maximum effect. In addition, despite having the drawback of a significant casting period, this ability can be Swap-Cancelled, which should be executed every time it is activated. However, do note that she has a small window where she is vulnerable before she can be Swapped after attacking.",
-            "Encore's skill is divided into two main parts: in the first part, she fires a barrage of fireballs over a lengthy casting duration, not only dealing decently high DPS, but also generating significant amounts of Resonance energy. In the second part of her skill, she generates a large fire explosion again dealing good damage, but generating much less Resonance energy. The second part of her skill is rarely used, as it requires you to immediately trigger it after the first part of her skill has finished executing, which is almost always Swap-Cancelled to prevent its lengthy casting duration.",
-            "Meanwhile, Encore's Ultimate will send her into a frenzy, converting her gameplay from that of a ranged mage into a melee attacker. The conversion changes and empowers the majority of her abilities, significantly increasing Encore's damage output - most of which comes from spamming her basic attacks.",
-            "As you might have guessed from the information present above, Encore is a versatile character that can stay on the field for varying amounts of time. She can bring short bursts of damage through her Resonance skill and Echo in Quick-Swap teams, a much larger sustained damage burst window in Hyper Carry teams, or a mix of both. Regardless of how you choose to play her, one thing remains consistent; at S0, all she can do is deal damage.",
-            "If her versatility didn't already sell you on her, Encore is also one of the easiest characters in the game to play in the endgame Tower of Adversary. Her skill is one of the easiest and most forgiving Quick-Swap skills in the game, and her burst rotation is also incredibly forgiving to execute.  Even if you end up dodging, you won't lose too much damage as most of her abilities also have gap-closing built into them, meaning you really can just mash attacks and get reasonable results as long as you dodge. The only challenging thing about this character is activating her Heavy Attack enhanced by her Forte skill cleanly, and switching at the right time with Inferno Rider.",
-            "Regardless of the playstyle you prefer for Encore, be it Hyper Carry or Quick-Swap build, Swap-Cancellation is an essential mechanic to her gameplay. Similarly, regardless of build, Encore plays as a damage dealer in all team's she's present in and will always use a 5P damage-focused set.",
-            "Overall, Encore is a solid DPS option in Hyper Carry teams in endgame, but even stronger in Quick-Swap teams, finding a place alongside many other damage dealers thanks to her flexible field time."
+            "Encore is a 5-star Fusion Rectifier DPS who was one of the earliest meta units in the game, as she was the best permanent banner DPS. As a matter of fact, this still holds true today, and while Encore does not get results that are up to par with the rest of the current meta, she can still provide decent results when played correctly."
+          ]
+        },
+        {
+          "heading": "Key Mechanics & Rotation Concepts",
+          "paragraphs": [
+            "Encore is one of very few characters whose Forte Circuit is not the focus of her kit. The highlight of Encore's kit, by a long shot, is her Ultimate. It sends her into the Cosmos Rave state for 10s, during which she unlocks a new Skill and new Basic Attacks that deal much higher damage than her base form. Dealing the highest damage that you can during this stance is her rotation goal. Typically, that's a mix of 3 Basic 4's (full attack strings) and 2 Skills, however one more Basic 4 can situationally be cast via her Dodge Counter, which behaves the exact same as her Basic 3, comboing into a much quicker Basic 4.",
+            "Her Forte is still used at the end of her Ultimate rotation though. It deals a good amount of damage over a long amount of time, increased if cast during her Ultimate stance (which is why we cast it at the very end), but it can (and must) be Swap Cancelled to compensate for this flaw. It's worth noting Encore has extremely high Forte gauge buildup, so practically no matter how unoptimized her rotation is, she'll always be able to cast it.",
+            "Her base form's Skill lasts a bit over a second. Encore shoots a barrage of 8 projectiles at one enemy and then can finish it off with a special Basic Attack, in total dealing quite a large amount of damage, but taking an extensive amount of time. Swap Cancelling a full cast of this Skill is another one of her rotation goals in Quickswap. However, requiring more Swaps than a standard rotation to execute, it's generally not considered for the majority of players. Still, it's an easy way to optimize Encore's damage. However, even in baseline rotations, it can be utilized as an easy way to trigger 5P Molten Rift's Set bonus and one of her Passives for a lot of extra Fusion DMG Bonus, by instantly interrupting it with her Ultimate after Intro.",
+            "Encore's passives give her 10% DMG Bonus each when she is above 70% HP (during her Ultimate) and when she casts any Resonance Skill (for 10s).",
+            "Lastly, her Intro and Outro are simple bursts of damage, nothing special there."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Encore was a staple of the meta on the game's initial release, however since then the damage ceiling of modern-day damage dealers raised significantly, making Encore pale in comparison to them. She nowadays struggles to clear the most challenging endgame content due to HP inflation.",
+            "However, that doesn't take away from her strengths: she's permanently accessible via the standard banner, and her weapon and buffing options are also always the generalist types. That means she accesses most of her damage potential with any limited banner weapon (or even the permanent Cosmic Ripples) and either Sanhua as a F2P buffer to hone in on her most important damage type (Basic Attack damage), or Lupa as a premium buffer to maximize her Fusion damage overall.",
+            "Nonetheless, upgrading to a team like Encore Brant Lupa or Encore Lupa Denia does not lead to a significant enough increase in Encore's damage ceiling to make her meta-relevant. Overall, you're simply better off pulling a premium DPS than upgrading Encore's own teammates. Generally, she'll be ran in a F2P team with Sanhua and Verina for example. That's not a bad thing though; given proper optimization, she can still clear some of the lower Tower of Adversity floors and even Endstate Matrix (leaning into Encore and Sanhua's 16s Ultimate cooldowns is particularly helpful for this).",
+            "In conclusion, while Encore's damage potential pales in comparison to modern damage dealers, she can still put in some work for a fully F2P DPS. She does not require a single limited banner pull to pick up and play in a decent team, and while that team is not up to par with the rest of the meta anymore, it can still get some results given the right amount of optimization, which is respectable compared to other permanent banner DPS choices."
           ]
         }
       ],
-      "summary": "Encore is a 5-star Fusion Rectifier wielder that can be played as a Hyper Carry in teams focused on powering her up as the sole damage dealer or in Quick-Swap teams where she's played alongside another damage dealer. Depending on the style you prefer, you can adjust accordingly - If playing Encore as a Hyper Carry you'll focus mostly on landing as many buffs onto her before she uses her Ultimate to empower her burst rotation. Alternatively, if playing Encore in a Quick-Swap double DPS team you'll instead focus on keeping her standard Resonance skill and Echo on cooldown as much as possible while also cycling through the rest of your team. While Encore's Ultimate is still considered powerful in these teams, it is mostly used to fill downtime between each character's cooldowns."
+      "summary": "Encore is a 5-star Fusion Rectifier DPS who was one of the earliest meta units in the game, as she was the best permanent banner DPS. As a matter of fact, this still holds true today, and while Encore does not get results that are up to par with the rest of the current meta, she can still provide decent results when played correctly."
     },
     "rotations": [
       {
-        "rotation_name": "WARM UP",
+        "rotation_name": "Standard Rotation",
         "steps": [
-          "Use Resonance Skill P1 Flaming Woolies on cooldown and immediately Swap-Cancel it after casting, allowing you to play another character while Encore finishes the cast in an immune state.",
-          "Use Encore's Echo on cooldown, especially if Inferno Rider, performing any Swap-Cancels where required. When playing Encore in teams with ample time for her Ultimate usage, ensure Echo buff is active throughout her Ultimate duration.",
-          "Use Charged Heavy Attack whenever Encore's Forte Gauge is full and Swap-Cancel to the next character immediately. Whenever possible, align usage of Forte Gauge with her Ultimate for a large increase in its damage."
-        ]
-      },
-      {
-        "rotation_name": "EASY & BASIC BURST COMBO",
-        "steps": [
-          "Echo (Use before combo but refer to Echo recommendations for exact specifics for your chosen Echo)",
           "Intro",
+          "Skill (Instantly interrupt using Ultimate)",
           "Ultimate",
-          "Skill: Cosmos: Rampage",
-          "Basic ATK: Cosmos: Frolicking P1",
-          "Basic ATK: Cosmos: Frolicking P2",
-          "Basic ATK: Cosmos: Frolicking P3",
-          "Basic ATK: Cosmos: Frolicking P4",
-          "Skill: Cosmos: Rampage",
-          "Basic ATK: Cosmos: Frolicking P1",
-          "Basic ATK: Cosmos: Frolicking P2",
-          "Basic ATK: Cosmos: Frolicking P3",
-          "Basic ATK: Cosmos: Frolicking P4",
-          "Skill: Cosmos: Rampage",
-          "Heavy ATK: Cosmos: Rupture (Swap-Cancel The Moment Encore Begin's Channelling)",
-          "Outro"
-        ]
-      },
-      {
-        "rotation_name": "ADVANCED BURST COMBO",
-        "steps": [
-          "Core of new rotates lies in cancellation of Encore's 4th enhanced Basic Attack animation, allowing you to start your next action much faster. This can be achieved by interrupting it via Skill usage or a Dash, you will need to perform one of these cancels 3 times during her Ultimate in this new rotation.",
-          "The other change is, this rotation gives one enhanced Skill use in favor of 4 more Basic Attacks, this leads to increased damage but leaves you with very less time to execute the entire combo without losing out on final Basic Attack, Skill and Forte Heavy Attack if you mess up. up.",
-          "Echo (Use before combo but refer to Echo recommendations for exact specifics for your chosen Echo)",
-          "Intro",
-          "Ultimate",
-          "Basic ATK: Cosmos: Frolicking P1",
-          "Basic ATK: Cosmos: Frolicking P2",
-          "Basic ATK: Cosmos: Frolicking P3",
-          "Basic ATK: Cosmos: Frolicking P4",
-          "Skill: Cosmos: Rampage (Use Skill to animation cancel Frolicking P4)",
-          "Basic ATK: Cosmos: Frolicking P1",
-          "Basic ATK: Cosmos: Frolicking P2",
-          "Basic ATK: Cosmos: Frolicking P3",
-          "Basic ATK: Cosmos: Frolicking P4 (Dash Cancel this attack)",
-          "Basic ATK: Cosmos: Frolicking P1",
-          "Basic ATK: Cosmos: Frolicking P2",
-          "Basic ATK: Cosmos: Frolicking P3",
-          "Basic ATK: Cosmos: Frolicking P4",
-          "Skill: Cosmos: Rampage (Use Skill to animation cancel Frolicking P4)",
-          "Heavy ATK: Cosmos: Rupture (Swap-Cancel the moment Encore begins channelling)",
-          "Outro"
-        ]
-      },
-      {
-        "rotation_name": "No Forte Rotation",
-        "steps": [
-          "Echo (Use before combo but refer to Echo recommendations for exact specifics for your chosen Echo)",
-          "Intro",
-          "Ultimate",
+          "Basic 1",
+          "Basic 2",
+          "Basic 3",
+          "Basic 4 (Cancel animation endlag via Skill)",
           "Skill: Cosmos Rampage",
-          "Basic ATK: Cosmos: Frolicking P1",
-          "Basic ATK: Cosmos: Frolicking P2",
-          "Basic ATK: Cosmos: Frolicking P3",
-          "Basic ATK: Cosmos: Frolicking P4 (Dash Cancel this attack)",
-          "Basic ATK: Cosmos: Frolicking P1",
-          "Basic ATK: Cosmos: Frolicking P2",
-          "Basic ATK: Cosmos: Frolicking P3",
-          "Basic ATK: Cosmos: Frolicking P4",
-          "Skill: Cosmos: Rampage (Use Skill to animation cancel Basic P4)",
-          "Basic ATK: Cosmos: Frolicking P1",
-          "Basic ATK: Cosmos: Frolicking P2",
-          "Basic ATK: Cosmos: Frolicking P3",
-          "Basic ATK: Cosmos: Frolicking P4 (Dash Cancel this attack)",
-          "Basic ATK: Cosmos: Frolicking P1",
-          "Basic ATK: Cosmos: Frolicking P2",
-          "Skill: Cosmos: Rampage (Use Skill to animation cancel Basic P4)",
-          "—> Ultimate duration expires",
-          "Skill: Flaming Woolies (swap)",
-          "Outro",
-          "Skill: Energetic Welcome (come back on Encore immediately to cast this, then immediately swap out again)"
+          "Basic 1",
+          "Basic 2",
+          "Basic 3",
+          "Basic 4 (Cancel animation endlag via Dash)",
+          "Dash",
+          "Basic 1",
+          "Basic 2",
+          "Basic 3",
+          "Basic 4 (Cancel animation endlag via Skill)",
+          "Skill: Cosmos Rampage",
+          "Heavy: Cosmos Rupture (Swap)",
+          "Outro"
         ]
       }
     ],

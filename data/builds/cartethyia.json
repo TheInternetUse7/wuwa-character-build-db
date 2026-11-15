@@ -157,9 +157,9 @@
       "slug": "cartethyia",
       "updates": {
         "last_major_build_patch": "3.6",
-        "last_profile_update": "22/October/2026",
+        "last_profile_update": "12/November/2026",
         "last_review_patch": "3.6",
-        "last_updated": "22/October/2026"
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Sword"
     },
@@ -247,7 +247,7 @@
             "Partner (Ciaccona)",
             "Expert +1"
           ],
-          "tier": "T1.5"
+          "tier": "T2"
         }
       },
       "value_tier_ratings": {
@@ -255,7 +255,7 @@
           "tier": "T1.5"
         },
         "whimpering_wastes_value": {
-          "tier": "T3"
+          "tier": "T2"
         }
       }
     },

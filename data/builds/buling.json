@@ -21,6 +21,17 @@
         ],
         "percentage_performance": "1",
         "set_name": "Rejuvenating Glow"
+      },
+      {
+        "commentary": "Comfort set option for Unison teams only. Gives 10% ATK to the team for 30s upon healing, which is increased to 25% for Unison characters. The niche nature of this set makes it less flexible than Rejuvenating Glow, but if you only plan to use Buling with Unison characters, this set can be considered for its higher buff uptime compared to Rejuvenating Glow, making it more comfortable to use.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Provides 10% Energy Regen when equipped in the main slot. Simple Summon Echo that ensures Energy Regen requirements are met a bit easier.",
+            "echo_name": "Formrender"
+          }
+        ],
+        "percentage_performance": "",
+        "set_name": "Flower of Tinged Yearning"
       }
     ],
     "best_echo_stats": {
@@ -141,10 +152,10 @@
       "rarity_stars": 4,
       "slug": "buling",
       "updates": {
-        "last_major_build_patch": "3.7",
-        "last_profile_update": "22/October/2026",
-        "last_review_patch": "3.7",
-        "last_updated": "22/October/2026"
+        "last_major_build_patch": "3.8",
+        "last_profile_update": "12/November/2026",
+        "last_review_patch": "3.8",
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -202,7 +213,10 @@
     "pros_and_cons": {
       "cons": [
         "Almost always worse than Verina/Shorekeeper as a generalist. For endgame-level accounts that already own the two stronger generalists, or Supports for specialized teams (different forms of Rover, Chisa, Lupa, Suisui, etc.), she will only ever find use in Matrix;",
-        "A lot of her general buffing potential is tied to Skill damage dealers and Electro Flare characters, which limits teams where she stands out, as well as her S6, which is not easily accessible in the short-term."
+        "A lot of her general buffing potential is tied to Skill damage dealers and Electro Flare characters, which limits teams where she stands out, as well as her S6, which is not easily accessible in the short-term.",
+        "Needs close to no investment whatsoever to perform - at S2+, she can be used on her Trial build in Endstate Matrix and will need literally no investment at all to perform there;",
+        "As a 4-star character, she is quite easy to access permanently alongside Sequence nodes;",
+        "Basically always better than Baizhi. A 4-star that has a solid use case for once!"
       ],
       "pros": [
         "Good generalist buffing reminiscent of already known viable Supports like Verina and Baizhi, featuring her own constant off-field healing while being able to inflict Electro Flare on enemies (very relevant in Hsin teams, her current best use case);",

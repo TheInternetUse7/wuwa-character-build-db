@@ -23,6 +23,17 @@
         "set_name": "Rejuvenating Glow"
       },
       {
+        "commentary": "Comfort set option for Unison teams only. Gives 10% ATK to the team for 30s upon healing, which is increased to 25% for Unison characters. The niche nature of this set makes it less flexible than Rejuvenating Glow, but if you only plan to use Shorekeeper with Unison characters, this set can be considered for its higher buff uptime compared to Rejuvenating Glow, making it more comfortable to use.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Provides 10% Energy Regen when equipped in the main slot. Simple Summon Echo that ensures Energy Regen requirements are met a bit easier.",
+            "echo_name": "Formrender"
+          }
+        ],
+        "percentage_performance": "",
+        "set_name": "Flower of Tinged Yearning"
+      },
+      {
         "commentary": "Niche set for Shorekeeper in Jingran teams that don't feature a natural Shielld applier. Ran in favour of Rejuvenating Glow since this set grants a base 20% ATK permanently to all characters in the team as long as the healer can apply Healing constantly off-field, something Shorekeeper is capable of. 5% better than Rejuvenating Glow's 15% ATK and less clunky to use thanks to having a Summon Echo instead of a Transform one on Rejuvenating Glow (which would be Stonewall Bracer).",
         "main_echo_options": [
           {
@@ -127,9 +138,9 @@
       "slug": "the-shorekeeper",
       "updates": {
         "last_major_build_patch": "3.7",
-        "last_profile_update": "22/October/2026",
+        "last_profile_update": "12/November/2026",
         "last_review_patch": "3.7",
-        "last_updated": "22/October/2026"
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -239,7 +250,7 @@
         },
         "whimpering_wastes": {
           "tags": [],
-          "tier": "T0.5"
+          "tier": "T0"
         }
       },
       "value_tier_ratings": {

@@ -171,9 +171,9 @@
       "slug": "sigrika",
       "updates": {
         "last_major_build_patch": "3.6",
-        "last_profile_update": "22/October/2026",
+        "last_profile_update": "12/November/2026",
         "last_review_patch": "3.7",
-        "last_updated": "22/October/2026"
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Gauntlets"
     },
@@ -191,36 +191,14 @@
         },
         "slot_3": {
           "alternatives": [
-            "the-shorekeeper",
+            "lily",
             "phrolova",
             "verina"
           ],
-          "character_name": "ciaccona"
+          "character_name": "the-shorekeeper"
         },
         "team_name": "Best Team",
-        "team_notes": "Phrolova can be considered stronger for AoE multi-wave encounters like Whimpering Wastes. Generally privilege other Support options in single-wave encounters."
-      },
-      {
-        "slot_1": {
-          "alternatives": [],
-          "character_name": "sigrika"
-        },
-        "slot_2": {
-          "alternatives": [
-            "ciaccona"
-          ],
-          "character_name": "lynae"
-        },
-        "slot_3": {
-          "alternatives": [
-            "rover-aero",
-            "the-shorekeeper",
-            "verina"
-          ],
-          "character_name": "mornye"
-        },
-        "team_name": "Alternative Teams",
-        "team_notes": "Mornye should only be used alongside Lynae, Aero Rover should only be used alongside Ciaccona."
+        "team_notes": "Phrolova can be considered stronger for AoE multi-wave encounters like Whimpering Wastes. Generally privilege other Support options in single-wave encounters. Ciaccona can also be considered in the third slot with Qiuyuan on the team only."
       }
     ],
     "media": {
@@ -898,11 +876,9 @@
       {
         "characters": [
           "qiuyuan",
-          "lucilla",
-          "ciaccona",
-          "lynae"
+          "lucilla"
         ],
-        "commentary": "These are the best buffers Sigrika has to increase her damage. Qiuyuan and Lucilla provide the Echo Skill casts and Echo Skill damage buffs Sigrika desires to take full leverage of her kit, making them the strongest synergies by a lot and a staple of all top Sigrika teams. Ciaccona is the best third slot buffer with Qiuyuan thanks to her ability to buff party-wide Aero DMG and provide Aero RES Shred with her Signature, though without her Signature Shorekeeper, particularly with Lucilla, will be privileged. She can also work in the second slot alongside Shorekeeper or Aero Rover. Finally, Lynae is the alternative if you lack the other options thanks to her very generalized buffing capabilities."
+        "commentary": "These are the best buffers Sigrika has to increase her damage. Qiuyuan and Lucilla provide the Echo Skill casts and Echo Skill damage buffs Sigrika desires to take full leverage of her kit, making them the strongest synergies by a lot and a staple of all top Sigrika teams."
       },
       {
         "characters": [
@@ -913,11 +889,11 @@
       {
         "characters": [
           "the-shorekeeper",
-          "mornye",
-          "verina",
-          "rover-aero"
+          "lily",
+          "ciaccona",
+          "verina"
         ],
-        "commentary": "Some of the best third slot teammates for Sigrika are listed here. Shorekeeper is generally the strongest choice in a lot of cases thanks to her extra Sustain capabilities compared to Ciaccona and also the fact she doesn't need a Signature weapon to provide close to the fullest extent of her team buffs. Mornye works better than her in tandem with Lynae, Aero Rover works better in tandem with Ciaccona if you use alternative teams to Sigrika's best. Finally, if none of those options are preferred, Verina works generally well as a permanently accessible and very capable Support."
+        "commentary": "Some of the best third slot teammates for Sigrika are listed here. Shorekeeper is generally the strongest choice in a lot of cases because she isn't Signature-reliant and has a very fast rotation. Lily has the same non-Signature-reliant pro and provides stronger buffs, but that comes at the cost of slower rotation time which makes her have about the same value. Ciaccona is one of the best third slot buffers with Qiuyuan thanks to her ability to buff party-wide Aero DMG and provide Aero RES Shred with her Signature, though without her Signature Shorekeeper and Lily, particularly with Lucilla, will be privileged. If none of those options are available, Verina works generally well as a permanently accessible and very capable Support."
       }
     ],
     "upgrade_materials": {

@@ -171,10 +171,10 @@
       "rarity_stars": 5,
       "slug": "rover-havoc",
       "updates": {
-        "last_major_build_patch": "2.2",
-        "last_profile_update": "22/October/2026",
-        "last_review_patch": "2.2",
-        "last_updated": "22/October/2026"
+        "last_major_build_patch": "3.8",
+        "last_profile_update": "12/November/2026",
+        "last_review_patch": "3.8",
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Sword"
     },
@@ -271,18 +271,13 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "One of the longest Main DPS on-field times in the game;",
-        "Falls behind limited options as a Dual DPS due to a long Forte buildup;",
-        "Low AoE potential outside of big nukes that have cooldowns."
+        "Very clunky rotation that's prone to interruption by enemies and has very limited range, not to mention they pretty much can't hit airborne enemies;",
+        "Very low damage ceiling compared to most other characters in the game while already being super inconsistent;",
+        "Lots of setup time required to enter their main damage window unless you Quickswap (this only gives them access to damage per rotation increases at significant rotation time costs at best);",
+        "Literally outclassed as a DPS by another form of Rover, being Electro. Other Rover forms fill better niche use cases as well. Absolutely zero reason to use this character under any circumstance at this point."
       ],
       "pros": [
-        "Able to be used effectively as both a Main DPS and a burst dual DPS;",
-        "Versatile teams with many options available;",
-        "Simplistic in playstyle with easy rotations to perform;",
-        "Damage can be frontloaded to finish enemies off quickly — low-cooldown",
-        "Ultimate and signature Echo nukes with very high damage;",
-        "Sword user with lots of viable and commonly obtained 5-star options available:",
-        "They and their sequences are free and make building them easy!"
+        "They and their Sequences are free! Rejoice!"
       ]
     },
     "ratings": {
@@ -351,89 +346,86 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Havoc Rover is a free 5-star Havoc DPS character everyone can gain access to after completing Act I Chapter 6 of the main story. Unlike a lot of Main DPS characters who have their combos locked behind their Ultimate, they use their Forte gauge to access a stance that lets them deal the bulk of their damage. With that being said, Havoc Rover's ultimate hits like a freight train, along with some other abilities as well. Maximizing the damage potential of their full kit is the key to making them perform as efficiently as possible.",
-            "Havoc Rover's kit is not centered towards a single type of damage, nor towards a single ability. Their Skill, their Ultimate and their Forte Circuit are all components that contribute towards their strength as a DPS. However, the most central part of their kit is the \"Dark Surge\" state provided by their Forte Circuit. This state is accessed by accumulating a total of 100 \"Umbra\" points via their Intro Skill, their regular Resonance Skill and their Basic Attacks.",
-            "When the Umbra bar is full, they can cast a special Heavy Attack called \"Devastation\" which lets them enter the Dark Surge state and reduces the Havoc RES of enemies by 10% for 20s on hit. In this state, the Forte gauge will start depleting until it's completely empty, which happens constantly even if the character is switched out. During this state, with all their Skills and Sequences unlocked (given for free), they also possess increased Havoc DMG Bonus, they recover additional Resonance Energy, their Basic Attacks are replaced by new, enhanced ones which heal them on the final hit, they obtain an extra 25% CRIT Rate and their Resonance Skill's cooldown is instantly refreshed and it is replaced by a new, enhanced one that not only deals more damage, but also slightly extends their Dark Surge time.",
-            "The quickest and most effective way to access this Dark Surge state is to use a Resonance Skill before you do your Support and/or Hybrid's rotations depending on your cooldowns, then use an Intro Skill and a second Resonance Skill when you enter the field with all of your buffs. This method is what will be used in all of Havoc Rover's optimized rotations. Note that if you don't use this method, you may need to perform a full Basic Attack string off of your Dark Surge state, which is suboptimal.",
-            "Interestingly, in the Dark Surge state, using your Intro Skill restores the Dark Surge gauge. When paired with a cast of their Dark Surge skill, this allows Havoc Rover to use two enhanced skills per Dark Surge rotation, extending the state's duration even more, which can be useful in teams where Havoc Rover acts as a Dual DPS who does big bursts of damage over short periods of time. Additionally, with one Enhanced Skill alone, the duration is barely long enough to allow Havoc Rover to cast 3 full Basic Attack chains if they aren't interrupted, which is useful for Main DPS rotations.",
-            "They are also unique in the sense that they have one 4-cost Echo that is tailored towards them specifically: the Dreamless. That Echo, when equipped on Havoc Rover and used within 5 seconds of Havoc Rover's Ultimate, possesses 50% increased damage. Already sporting huge damage at base, this wide AoE damaging Echo turns into a very powerful burst of damage similar to Yinlin's Ultimate, which makes it the highest damaging Echo skill in the game. This Echo skill can be swap cancelled right upon casting, which enables them to deal a huge amount of damage in a short period of time in a wide AoE at the cost of almost no field time and no chances of interruption. As the Dreamless effectively gives them two Ultimates in one, this is a huge selling point for Havoc Rover and a good chunk of the reason why their damage is very good, whether used as a Main or a Dual DPS.",
-            "Speaking of Ultimates, Havoc Rover's ultimate is extremely simple: an insanely high-damage cleave nuke they can launch at a ridiculous 125 Energy cost on a 16 second cooldown. Similar abilities usually cost 150 Energy and have higher cooldowns, which for a 1520% multiplier at level 10 is costs that are absolutely unheard of. Plus, thanks to their extra Energy generation during the Dark Surge state, unless they're played as a burst-focused Dual DPS, they do not need any Energy Regen on their build despite their Ultimate being powerful and low-cooldown. This is another huge selling point for Havoc Rover.",
-            "These quick bursts of damage, not only present in the form of their Ultimate and Echo but also their Resonance Skills in single-target scenarios (as they refresh instantly when entering Dark Surge), will allow them to perform very well as a Dual DPS character if you can effectively manage two DPS characters' cooldowns at once; only problem being that is rather difficult to execute, but when learnt properly it can be amazing.",
-            "Unfortunately, despite all of those selling points, their biggest flaw is also the biggest source of their damage, being their Dark Surge Basic Attacks. Those attacks aren't bad by any means; but their relatively slow time to execute doesn't justify their multipliers being on the average end of things, at least when compared to the high tier DPS characters.",
-            "This isn't as problematic for Dual DPS Havoc Rover, but in that instance, they are still in a losing position compared to a lot of other optimal team options because they don't have a buffing Outro skill and instead have a damaging one, something that  characters in a similar position, such as Changli and Brant, have over Havoc Rover.  Additionally, they don't have many swap windows, their biggest ones being their final Basic Attack, their Skills and their Echo, however they either take a while to access or operate on cooldowns which isn't preferred for quickswap playstyles. As a result, they fall short of premium options.",
-            "With that being said, as a Main DPS, they are a character who has damage potential similar to the likes of Encore, Jiyan and Xiangli Yao, mostly thanks to their S6 giving them a massive boost and their ability to frontload damage via their Skills, Echo and Ultimate to finish enemies off quickly. One of their most noteworthy Main DPS synergies is with Danjin, who can even be played alongside Havoc Rover in a more Dual DPS style for the most experienced players. This 4-star and free character pairing makes for one of the best teams in the game, both for experienced players and beginners, as both characters have simple playstyles and complex playstyles to help with clearing endgame content. In version 2.0, Havoc Rover got access to Roccia, who thanks to her grouping was a big upgrade to their AoE nuke potential and upgraded their performance as a Main DPS character thanks to her higher buffing as well.",
-            "To summarize, Havoc Rover is a character who is often overlooked due to them being free, however they remain a very strong choice for a Main DPS carry but also a Dual DPS burst damage-focused option. They have many teams they can play in and different playstyles and roles they can fill in a team. Overall, Havoc Rover is a flexible DPS character whose potential shouldn't be overlooked, as they comfortably sit in the high tiers of the Wuthering Waves meta."
+            "Havoc Rover is a 5-star... Havoc DPS (who could've guessed!) who essentially focuses on building up to a Forte stance that they enter via a Heavy Attack, to then cast some enhanced Basic Attacks and Skills to deal the bulk of their damage before switching out."
+          ]
+        },
+        {
+          "heading": "Key Mechanics & Rotation Concepts",
+          "paragraphs": [
+            "Havoc Rover has 2 forms, their base form and Dark Surge form. They want to switch to Dark Surge as quickly as possible to deal most of their damage, but to do that, they need to restore the full 100 points of their Forte gauge to full via their regular Basic Attacks, Skills, and Intro. Assuming all attacks hit the enemy, 3 Basic Attacks alongside an Intro and a Skill are enough to restore their Forte to full. 2 Intros and a Skill also work.",
+            "Once this is done, they can cast a special Heavy Attack called \"Devastation\" which makes them enter the Dark Surge state. This state grants them 20% Havoc DMG Bonus and 25% CRIT Rate at S6.",
+            "It works by gradually consuming the Forte you've accumulated, at a rate of 10 points per second. However, the new Skill they gain access to in this form, called Lifetaker, can also restore this Forte gauge by 20 points. In other words, if at least 2s into the Dark Surge state, they cast Lifetaker, that means their Dark Surge state can last for an additional 2s, for a total of 12s.",
+            "Their Ultimate deals a surprisingly large amount of damage in a large AoE with a very short cooldown of 16s. It also shreds enemy Havoc RES by 10% for 20s via S4, the same as their Heavy Attack Devastation.",
+            "Finally, their Intro sends them up into the air, so a Mid-air Attack is required to come down from it. Their Outro creates a simple area of damage, not much else to add there. The rest of their Sequences aren't impactful, aside from their S2 which is basically required in order to execute proper rotations since without it, you won't have access to their Skill in their Dark Surge state, which is practically required for proper Concerto Energy generation (as it gives 15 Concerto on cast). In other words: Don't consider using Havoc Rover before S2. Luckily, all their Sequences are free, so having them at S6 is expected.",
+            "In short, their rotation involves a Forte buildup phase of either an Intro, Mid-air Attack, 3 Basics and a Skill, or 2 Intros, a Mid-air Attack, and a Skill. After that, by entering Dark Surge state through their Devastation Heavy Attack to access their big damage window, they'll cast 2 to 3 Basic Attack strings (depending on how much on-field time you want to spend on-field), another Skill, and their Ultimate and Echo before switching out."
+          ]
+        },
+        {
+          "heading": "Meta Position & Conclusion",
+          "paragraphs": [
+            "Havoc Rover used to be one of the better F2P-accessible damage dealers. Having no dedicated Signature weapon, a very straightforward Echo build, and fully free Sequences on top of accessible teammates made them a really justifiable early game damage dealer for beginner accounts, until stronger limited damage dealers could form more powerful, but more expensive teams.",
+            "However, this completely changed with the release of Electro Rover in version 3.4. Unfortunately for them, Havoc Rover was outdone by their Electro version as a damage dealer, even though their primary use is intended as a Hybrid for Electro Flare teams. The problem with Havoc Rover is that their damage is inconsistent, as they have a severe attack range problem. That, and a lack of raw damage numbers, on top of a really high rotation time, really don't help their case.",
+            "Not to mention, if you want cheaper alternatives to Havoc and Electro Rover, their Aero form is perfect for supporting Aero damage dealers of all kinds with a lower-investment build, since their Signature weapon is freely accessible.",
+            "In conclusion, Havoc Rover is generally not a worthwhile investment for basically any account in Wuthering Waves. Electro Rover is a better DPS, Aero Rover is a better cheap investment, Spectro Rover also has more use cases in Spectro Frazzle teams specifically. Generally avoid investing into them, and if you've already built them, chances are you've got a better use of Rover on your account by now."
           ]
         }
       ],
-      "summary": "Havoc Rover is a free 5-star Havoc DPS character everyone can gain access to after completing Act I Chapter 6 of the main story. Unlike a lot of Main DPS characters who have their combos locked behind their Ultimate, they use their Forte gauge to access a stance that lets them deal the bulk of their damage. With that being said, Havoc Rover's ultimate hits like a freight train, along with some other abilities as well. Maximizing the damage potential of their full kit is the key to making them perform as efficiently as possible."
+      "summary": "Havoc Rover is a 5-star... Havoc DPS (who could've guessed!) who essentially focuses on building up to a Forte stance that they enter via a Heavy Attack, to then cast some enhanced Basic Attacks and Skills to deal the bulk of their damage before switching out."
     },
     "rotations": [
       {
-        "rotation_name": "WARM UP",
-        "steps": [
-          "Your top priority when playing Havoc Rover is to ensure you keep using your Resonance Skill on cooldown in your downtime between Umbra burst windows.",
-          "In addition to using your Resonance Skill on cooldown, hit the enemy with a Basic Attack when possible to maintain the 5P Havoc Eclipse echo set."
-        ]
-      },
-      {
-        "rotation_name": "SHORT BURST COMBO",
+        "rotation_name": "Standard Rotation",
         "steps": [
           "Intro",
-          "Skill",
-          "Heavy ATK: Devastation",
-          "Skill: Umbra: Lifetaker (Optionally Swap Cancel)",
+          "Basic: Mid-air Attack",
+          "Skill (Interrupt after 1st hit via Echo)",
+          "Echo (Cancel animation instantly via Dash)",
+          "Dash",
+          "Basic 1",
+          "Basic 2",
+          "Basic 3 (Cancel animation endlag via Heavy)",
+          "Heavy: Devastation (Cancel animation endlag via Echo)",
+          "Echo (Cancel animation instantly via Dash)",
+          "Dash",
+          "Basic: Umbra 1",
+          "Basic: Umbra 2",
+          "Basic: Umbra 3",
+          "Basic: Umbra 4",
+          "Basic: Umbra 5 (Cancel animation endlag via Skill)",
+          "Skill: Lifetaker (Interrupt after 1st hit via Ultimate)",
           "Ultimate",
-          "Echo (Dreamless Swap Cancel)",
+          "Basic: Umbra 1",
+          "Basic: Umbra 2",
+          "Basic: Umbra 3",
+          "Basic: Umbra 4",
+          "Basic: Umbra 5 (Cancel animation endlag via Echo)",
+          "Echo (Swap)",
           "Outro"
         ]
       },
       {
-        "rotation_name": "MEDIUM BURST COMBO",
+        "rotation_name": "Double Intro Rotation",
         "steps": [
           "Intro",
-          "Skill",
-          "Heavy ATK: Devastation",
-          "Umbra: Basic P1",
-          "Umbra: Basic P2",
-          "Umbra: Basic P3",
-          "Umbra: Basic P4",
-          "Umbra: Basic P5",
-          "Umbra: Basic P1",
-          "Umbra: Basic P2",
-          "Umbra: Basic P3",
-          "Umbra: Basic P4",
-          "Umbra: Basic P5",
-          "Skill: Umbra: Lifetaker (Optionally Swap Cancel)",
-          "Ultimate",
-          "Echo (Dreamless Swap Cancel)",
-          "Outro"
-        ]
-      },
-      {
-        "rotation_name": "LONG BURST COMBO",
-        "steps": [
+          "Basic: Mid-air Attack",
+          "Skill (Swap)",
           "Intro",
-          "Skill",
-          "Heavy ATK: Devastation",
-          "Umbra: Basic P1",
-          "Umbra: Basic P2",
-          "Umbra: Basic P3",
-          "Umbra: Basic P4",
-          "Umbra: Basic P5",
-          "Skill: Umbra: Lifetaker (Optionally Swap Cancel)",
-          "Umbra: Basic P1",
-          "Umbra: Basic P2",
-          "Umbra: Basic P3",
-          "Umbra: Basic P4",
-          "Umbra: Basic P5",
+          "Basic: Mid-air Attack",
+          "Heavy: Devastation (Cancel animation endlag via Echo)",
+          "Echo (Cancel animation instantly via Dash)",
+          "Basic: Umbra 1",
+          "Basic: Umbra 2",
+          "Basic: Umbra 3",
+          "Basic: Umbra 4",
+          "Basic: Umbra 5 (Cancel animation endlag via Skill)",
+          "Skill: Lifetaker (Interrupt 1st hit via Ultimate)",
           "Ultimate",
-          "Umbra: Basic P1",
-          "Umbra: Basic P2",
-          "Umbra: Basic P3",
-          "Umbra: Basic P4",
-          "Umbra: Basic P5",
-          "Echo (Dreamless Swap Cancel)",
+          "Basic: Umbra 1",
+          "Basic: Umbra 2",
+          "Basic: Umbra 3",
+          "Basic: Umbra 4",
+          "Basic: Umbra 5 (Cancel animation endlag via Echo)",
+          "Echo (Swap)",
           "Outro"
         ]
       }

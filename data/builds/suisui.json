@@ -67,7 +67,7 @@
           "primary_stat_val": 412,
           "rarity": 5,
           "secondary_stat_name": "Energy Regen",
-          "secondary_stat_val": 77.04,
+          "secondary_stat_val": 77,
           "source": ""
         },
         "weapon_name": "Firstlight's Herald"
@@ -126,10 +126,10 @@
       "rarity_stars": 5,
       "slug": "suisui",
       "updates": {
-        "last_major_build_patch": "3.7",
-        "last_profile_update": "22/October/2026",
-        "last_review_patch": "3.7",
-        "last_updated": "22/October/2026"
+        "last_major_build_patch": "3.8",
+        "last_profile_update": "12/November/2026",
+        "last_review_patch": "3.8",
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Rectifier"
     },

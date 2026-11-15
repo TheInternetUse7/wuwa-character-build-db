@@ -170,10 +170,10 @@
       "rarity_stars": 5,
       "slug": "hiyuki",
       "updates": {
-        "last_major_build_patch": "3.6",
-        "last_profile_update": "22/October/2026",
-        "last_review_patch": "3.6",
-        "last_updated": "22/October/2026"
+        "last_major_build_patch": "3.8",
+        "last_profile_update": "12/November/2026",
+        "last_review_patch": "3.8",
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Sword"
     },
@@ -362,10 +362,12 @@
         "steps": [
           "Intro",
           "Basic 3",
-          "Heavy: Frost splinter (Cancel animation as soon as possible via Ultimate)",
+          "Heavy: Frost Splinter (Cancel animation as soon as possible via Ultimate)",
           "Ultimate: Inward Vision",
           "Skill: Jade Cleave",
           "Skill: Petalfall",
+          "Basic: Foreclaimed Self 1",
+          "Basic: Foreclaimed Self 2",
           "Basic: Foreclaimed Self 3",
           "Basic: Foreclaimed Self 4",
           "Basic: Foreclaimed Self 5",

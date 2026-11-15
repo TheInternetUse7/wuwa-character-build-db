@@ -45,7 +45,7 @@
             "echo_name": "Impermanence Heron"
           }
         ],
-        "percentage_performance": "1",
+        "percentage_performance": "",
         "set_name": "Dream of the Lost"
       }
     ],
@@ -236,10 +236,10 @@
       "rarity_stars": 5,
       "slug": "lucilla",
       "updates": {
-        "last_major_build_patch": "3.6",
-        "last_profile_update": "22/October/2026",
-        "last_review_patch": "3.6",
-        "last_updated": "22/October/2026"
+        "last_major_build_patch": "3.8",
+        "last_profile_update": "12/November/2026",
+        "last_review_patch": "3.8",
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Rectifier"
     },
@@ -273,6 +273,7 @@
         },
         "slot_3": {
           "alternatives": [
+            "lily",
             "verina"
           ],
           "character_name": "the-shorekeeper"
@@ -427,9 +428,9 @@
         {
           "heading": "Meta Position & Conclusion",
           "paragraphs": [
-            "Lucilla's a very easy character to understand, whose synergies are obvious from the get-go due to the kinds of buffs that she provides. In Echo Skill teams, she's perfectly suited to Sigrika + Shorekeeper, to buff Sigrika's almost-exclusively Echo Skill DMG as hard as possible. Meanwhile, for Glacio Chafe teams, the only contender is Hiyuki as of her release, for whom she's perfectly suited as well.",
+            "Lucilla's a very easy character to understand, whose synergies are obvious from the get-go due to the kinds of buffs that she provides. In Echo Skill teams, she's perfectly suited to Sigrika + Lily/Shorekeeper, to buff Sigrika's almost-exclusively Echo Skill DMG as hard as possible. Meanwhile, for Glacio Chafe teams, the only contender is Hiyuki as of her release, for whom she's perfectly suited as well.",
             "However, in Echo Skill mode, Lucilla does offer flexibility: wielding a 5P Moonlit Clouds Echo set, she can support not only Sigrika but also Galbrena, and using the property that she can never hold any Resonance Energy, 3P Dream of The Lost (Phrolova's Echo set) works on her to make her even stronger damage-wise, fitting a pseudo-\"Triple DPS\" Phrolova Echo team.",
-            "Using these different and unique ways to build her, Lucilla can be a strong asset to a lot of accounts, being part of Hiyuki and Phrolova's best team, and standing on equal footing with Qiuyuan for Galbrena and (most importantly) Sigrika teams, each offering their own specialties: Qiuyuan can synergize with Ciaccona for Sigrika and has a faster rotation, but Lucilla is more consistent due to her immunity during Letting It Go and offers more specialized buffs, making her better with Shorekeeper for Sigrika, but is more Signature weapon-reliant than Qiuyuan and works less effectively for Galbrena who doesn't exclusively deal Echo Skill DMG in exchange.",
+            "Using these different and unique ways to build her, Lucilla can be a strong asset to a lot of accounts, being part of Hiyuki and Phrolova's best team, and standing on equal footing with Qiuyuan for Galbrena and (most importantly) Sigrika teams, each offering their own specialties: Qiuyuan can synergize with Ciaccona for Sigrika and has a faster rotation, but Lucilla is more consistent due to her immunity during Letting It Go and offers more specialized buffs, making her better with Lily/Shorekeeper for Sigrika, but is more Signature weapon-reliant than Qiuyuan and works less effectively for Galbrena who doesn't exclusively deal Echo Skill DMG in exchange.",
             "In conclusion, Lucilla could very well be the Hybrid buffer you need to round out your Glacio Chafe and Echo Skill teams. While her use case with Hiyuki is obvious, and she is highly desired in that team composition, Lucilla will find a lot of use cases in a wide variety of Echo Skill teams, making her a particularly strong contender in the meta as of her release by her ease of use, buffing ability, and team composition strength."
           ]
         }

@@ -21,6 +21,17 @@
         ],
         "percentage_performance": "100.00%",
         "set_name": "Flash of Electric Reflection"
+      },
+      {
+        "commentary": "Hsin's Signature set gives DPS Electro Rover access to 15% CRIT Rate and 32.5% Electro DMG Bonus in total, making it the best blend of stats they have access to in this role.",
+        "main_echo_options": [
+          {
+            "echo_commentary": "Best for DPS Electro Rover. Simple Summon Echo, gives Suoming 20% Electro DMG Bonus when equipped in the main slot, making it their best as a DPS for that reason alone.",
+            "echo_name": "Reminiscence: Suhsin the Inevitable"
+          }
+        ],
+        "percentage_performance": "",
+        "set_name": "Heart of Sworn Vigil"
       }
     ],
     "best_echo_stats": {
@@ -30,8 +41,8 @@
           "ATK%"
         ],
         "cost_3": [
-          "Electro DMG",
-          "Electro DMG"
+          "Electro DMG / ATK%",
+          "Electro DMG / ATK%"
         ],
         "cost_4": [
           "CRIT Rate / CRIT DMG"
@@ -61,7 +72,7 @@
         "weapon_name": "Blazing Brilliance"
       },
       {
-        "commentary_details": "As Electro Rover also deals a decent amount of Basic DMG, Red Spring is a good choice although not the best one on them.",
+        "commentary_details": "As Electro Rover also deals a decent amount of Basic DMG, Red Spring is a good choice although not the best one on them as a Hybrid, while being a normal stat-stick as a DPS.",
         "dupe_rank": "R1",
         "percentage_performance": "93.00%",
         "weapon_base_info": {
@@ -184,10 +195,10 @@
       "rarity_stars": 5,
       "slug": "rover-electro",
       "updates": {
-        "last_major_build_patch": "3.7",
-        "last_profile_update": "22/October/2026",
-        "last_review_patch": "3.7",
-        "last_updated": "22/October/2026"
+        "last_major_build_patch": "3.8",
+        "last_profile_update": "12/November/2026",
+        "last_review_patch": "3.8",
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Sword"
     },
@@ -214,21 +225,38 @@
       {
         "slot_1": {
           "alternatives": [],
-          "character_name": "hsin"
+          "character_name": "rover-electro"
         },
         "slot_2": {
           "alternatives": [],
-          "character_name": "rover-electro"
+          "character_name": "lynae"
         },
         "slot_3": {
           "alternatives": [
-            "chisa",
-            "buling"
+            "the-shorekeeper"
           ],
-          "character_name": "suisui"
+          "character_name": "mornye"
         },
-        "team_name": "Best Team",
-        "team_notes": "By way of more flexibility in quickswap, Chisa could prove stronger for more experienced players willing to take advantage of the mechanic."
+        "team_name": "Premium DPS Team",
+        "team_notes": "Buling and Verina are also decent options for a Support, same as below. Other general buffers like Rebecca, or even Yinlin/Zhezhi for Electro/Skill buffs respectively are usable in the second slot, but much worse than Lynae."
+      },
+      {
+        "slot_1": {
+          "alternatives": [],
+          "character_name": "rover-electro"
+        },
+        "slot_2": {
+          "alternatives": [],
+          "character_name": "taoqi"
+        },
+        "slot_3": {
+          "alternatives": [
+            "verina"
+          ],
+          "character_name": "buling"
+        },
+        "team_name": "F2P DPS Team",
+        "team_notes": "Don't expect strong results out of this team, keep your expectations low as this is a fully F2P team. Buling is stronger at S6 than S0 Verina, while S2 Verina is the best pick if owned. If both are S0, Verina is your best option."
       }
     ],
     "media": {
@@ -248,13 +276,14 @@
     ],
     "pros_and_cons": {
       "cons": [
-        "Buffs are too low for them to have any synergy with anybody other than Hsin who has specific mentions of Electro Rover in her kit. Their only real use case is to buff Electro Flare Hsin and that's basically it;",
-        "Fairly long rotation for a Hybrid character;",
+        "As a Hybrid, buffing profile is too low for them to have any synergy with anybody other than Hsin who has specific mentions of Electro Rover in her kit. Their only real use case as a buffer is therefore with Electro Flare Hsin, and that's basically it;",
+        "As a Hybrid, has a slow rotation with clunky Basic Attacks unless you use Double Intro. As a DPS, strictly requires Quickswap or Double Intro for their rotation to be usable;",
+        "As a DPS, their damage ceiling is expectedly much, much lower than the level you'd expect from any modern damage dealer;",
         "Outro buff expires on Swap. Unprecedented for a Negative Status character."
       ],
       "pros": [
         "The best secondary for Hsin in Electro Flare teams currently;",
-        "Low costs in terms of weapon and Echo investment - can easily be built in little time;",
+        "Can also be one of the best fully F2P Main DPS when their unique DPS playstyle is properly mastered. Plus, they get constant Interruption Resistance, some of the highest Tune Break buildup in the game, and can stagnate enemies a lot of the time when doing so, which significantly helps with consistency;",
         "They and their Sequences are free!"
       ]
     },
@@ -330,28 +359,41 @@
         {
           "heading": "Summary",
           "paragraphs": [
-            "Electro Rover is a 5-star Electro Sword Hybrid character who applies Electro Flare and buffs Negative Status characters. They follow a simple rotation that involves building their Forte up to the maximum to cast an enhanced attack before switching out."
+            "Electro Rover is a 5-star Electro Sword Hybrid or DPS character who applies Electro Flare and buffs Negative Status characters. They normally follow a simple rotation that involves building their Forte up to the maximum to cast an enhanced Skill before switching out, but they can also hold that same Skill to enter a DPS mode with a very unique playstyle."
           ]
         },
         {
-          "heading": "Key Mechanics & Rotation",
+          "heading": "Key Mechanics & Rotation (Hybrid)",
           "paragraphs": [
             "Electro Rover applies a total of 15 Electro Flare stacks: 10 via their Forte Skill, 5 via their Ultimate at S2. They access this Forte Skill by charging up Electric Surge, a 120-point Forte gauge that is restored via their Basic Attacks and Skill.",
-            "Once this Forte gauge is full, they have 2 options: tap their Skill, which makes the team benefit from a 10% ATK buff for 20s while dealing some solid damage, and holding their Skill to enter a special state called Apex Resonance.",
-            "Unfortunately, while Apex Resonance is meant to be a sort of Main DPS state where Electro Rover uses all of their elements accessed earlier in the story in order to deal damage at significant field time costs, they not only forfeit the party-wide ATK buff (which doesn't mesh well with their Outro), they also spend way too long dealing objectively mediocre damage. Judging by this, they are best relegated to only tapping the Forte Skill, rendering this part of their kit nothing more than a gimmick used for Main Story content (meaning their S6 is also useless in practical gameplay).",
-            "So as a Hybrid, what do they provide? On top of that 10% ATK buff and Electro Flare stacks mentioned earlier, their Outro also provides 25% all-type DMG Amplification to any character who inflicts a Negative Status, which is a buff that is lost on swap. Not only is this a minor buff, Electro Rover is our first Negative Status character whose Outro expires on swap, firmly cementing them as a Hybrid character.",
-            "And... that's it. Since their Sequences are free, we'll mention them - aside from the S2 that applies extra Electro Flare, they're only small personal damage or Interruption Resistance increases. S5 and S6 are also useless in practice, since they're related to their Hold Skill."
+            "Once this Forte gauge is full, they have 2 options: tap their Skill, which makes the team benefit from a 10% ATK buff for 20s while dealing some solid damage, and holding their Skill to enter a special state called Apex Resonance. Here, we'll tackle the Hybrid part.",
+            "So as a Hybrid, what else do they provide? On top of that 10% ATK buff and Electro Flare stacks mentioned earlier, their Outro also provides 25% all-type DMG Amplification to any character who inflicts a Negative Status, which is a buff that is lost on swap. Not only is this a minor buff, Electro Rover is our first Negative Status character whose Outro expires on swap, firmly cementing them as a Hybrid character."
+          ]
+        },
+        {
+          "heading": "Other Mechanics & Rotation (DPS)",
+          "paragraphs": [
+            "Now, as we explained earlier, Electro Rover can hold their Forte Skill to enter Apex Resonance when their Forte gauge is full. While Apex Resonance is meant to be a Main DPS state where Electro Rover uses all of their elements accessed earlier in the story in order to deal damage at significant field time costs, we're not exactly going to use it that way. Electro Rover's playstyle as a DPS is very... unique, to say the least.",
+            "First and foremost, they want to cast their Hold Skill right as they Intro in, so Double Intro is practically a requirement if you want an easy and fast solution not involving Quickswap, though that is also a solution. After this, let's detail four important mechanics that are utilized in their best DPS rotation:",
+            "Holding Skill before jumping immediately casts their Aero Plunging Attack on the first available frame (this is called buffering) - it deals Aero damage too;",
+            "Tapping Skill upon landing (this input can optionally be mashed during the Plunging Attack) casts their Aero Silencing Blade Skill, which quickly deals 5 small hits of Aero damage with a higher damage final hit after a longer period of time;",
+            "Each hit that Electro Rover lands on enemies also deals an additional hit of Electro damage called Thunder Bane;",
+            "Their Silencing Blade Skill can be interrupted at any point with a jump.",
+            "In case you don't see where this is going, we can essentially infinitely buffer Aero Plunging Attacks into the first 5 hits of Silencing Blade, repeatedly, over and over. This creates a very unique playstyle where Electro Rover completely forgets they can use other elemental attacks than Aero Rover's and just maximizes on Thunder Bane damage instead. Fully mastering this has several benefits.",
+            "First, all of Silencing Blade stagnates enemies while it's being cast. This significantly helps their rotation consistency. Second, the Tune Break buildup on this entire rotation is ridiculous. It's around 2/3rds higher than the average modern DPS character's buildup. Enemy Tune Break gauges fill so fast, it not only helps with their own on-field rotation consistency if it helps interrupting boss enemies, it also makes DPS Electro Rover one of the best drivers for Lynae's Tune Rupture damage if she's in use on the team (Lynae expectedly being Electro Rover's best buffing and secondary damage dealing option).",
+            "Lastly, their Sequences affect this playstyle a lot. S1 gives constant Interruption Resistance, S3 to S5 give decent damage increases, and S6 gives a very nice 20% increase to the damage multipliers of all their Apex Resonance attacks, including Thunder Bane. So they're constantly under Interruption Resistance and have quite the buffed damage numbers, making for one of the best primary damage dealers we have access to that doesn't require a single pull to use."
           ]
         },
         {
           "heading": "Meta Position & Conclusion",
           "paragraphs": [
-            "If it wasn't obvious, Electro Rover is essentially a completely useless character in the current meta... outside of Hsin Electro Flare teams. Indeed, since Hsin's kit mentions Electro Rover by name, when the two are used alongside each other, Hsin will benefit from extra buffs. In spite of Electro Rover's low Electro Flare application relative to even a character like Buling, the fact that their existence makes Hsin benefit from extra Electro DMG Bonus is enough for them to be justified on her Electro Flare team. However, they may easily be outclassed in the future on the chance that they get replaced by a limited Electro Flare-applying Hybrid character. That being said, Electro Rover is overall the best current Hybrid for Electro Flare Hsin, so they are still easily justified to be built for that team if you have it.",
-            "In conclusion, Electro Rover is a good character for Electro Flare Hsin, and that's basically all they do. Their account value is completely tied to Hsin being on your account, otherwise they are functionally useless. With that being said, they are worth your investment if you don't make use of your Rover elsewhere, own Hsin, and want to play her in an Electro Flare team - do consider them in that case!"
+            "As a buffer, Electro Rover has no use cases in the meta aside from Hsin Flare teams. Indeed, since Hsin's kit mentions Electro Rover by name, when the two are used alongside each other, Hsin will benefit from extra buffs. In spite of Electro Rover's low Electro Flare application relative to even a character like Buling, the fact that their existence makes Hsin benefit from extra Electro DMG Bonus is enough for them to be justified on her Electro Flare team. However, they may easily be outclassed in the future on the chance that they get replaced by a limited Electro Flare-applying Hybrid character. That being said, Electro Rover is overall the best current Hybrid for Electro Flare Hsin, so they are still easily justified to be built for that team if you have it.",
+            "As a DPS, Electro Rover works surprisingly well somehow. They have the tools that they need to get some surprisingly much better results when compared to other fully F2P DPS like Encore or even Havoc Rover, who is directly intended for DPS use. Obviously, while Electro Rover is no match for any modern limited damage dealer, thanks to the ability to utilize Hsin's Echo Set as well as a surprisingly (and definitely unintended) effective rotation, they can get in some results.",
+            "In conclusion, Electro Rover is a good character for Electro Flare Hsin, and they're also one of the best F2P damage dealers in the game. As a buffer, they are functionally useless outside of Electro Flare Hsin teams due to their low buffing profile, lengthy rotation and lack of uniqueness. To compensate for that though, their DPS use case is surprisingly quite good and flips their lack of uniqueness on its head, having one of the most original rotations in the game. When mastered, DPS Electro Rover can be useful in some lower-difficulty endgames (or when benefitting from temporary endgame buffs). Meanwhile, as a buffer for Flare Hsin, they have an obvious use case in all endgames, making them a useful investment for a number of scenarios, based on your account's status."
           ]
         }
       ],
-      "summary": "Electro Rover is a 5-star Electro Sword Hybrid character who applies Electro Flare and buffs Negative Status characters. They follow a simple rotation that involves building their Forte up to the maximum to cast an enhanced attack before switching out."
+      "summary": "Electro Rover is a 5-star Electro Sword Hybrid or DPS character who applies Electro Flare and buffs Negative Status characters. They normally follow a simple rotation that involves building their Forte up to the maximum to cast an enhanced Skill before switching out, but they can also hold that same Skill to enter a DPS mode with a very unique playstyle."
     },
     "rotations": [
       {
@@ -381,10 +423,24 @@
           "Skill: Overshock",
           "Outro"
         ]
+      },
+      {
+        "rotation_name": "DPS Rotation",
+        "steps": [
+          "Intro",
+          "Skill",
+          "Basic: Repel (Optionally Swap, or wait until landing based on team)",
+          "Intro",
+          "Hold Skill: Overshock",
+          "Ultimate",
+          "Hold Skill: Jump & Aero Plunging Attack",
+          "Skill: Silencing Blade (Interrupt via Jump after first 5 hits)",
+          "Outro"
+        ]
       }
     ],
     "skill_upgrade_priority": {
-      "commentary": "Intro can be skipped when levelling to save on resources at a minimal damage loss. Basic and Skill don't give huge increases but are decent to level as well.",
+      "commentary": "As a Hybrid, Intro can be skipped when levelling to save on resources at a minimal damage loss. Basic and Skill don't give huge increases but are decent to level as well. As a DPS, only Forte and Liberation are worth levelling, Skill and Intro give extremely negligible increases.",
       "order": [
         "Forte Circuit",
         "Res. Liberation",
@@ -1040,7 +1096,23 @@
         "characters": [
           "hsin"
         ],
-        "commentary": "Electro Rover's best and only patner, Hsin is the DPS character they have direct synergy with, as Electro Rover's presence alone gives Hsin extra Electro DMG Bonus to benefit from. Their ability to apply Electro Flare and buff Electro DMG significantly via the Flash of Electric Reflection Echo set is quite appreciated too."
+        "commentary": "Electro Rover's best and only patner as a Hybrid. Hsin is the DPS character they have direct synergy with, as Electro Rover's presence alone gives Hsin extra Electro DMG Bonus to benefit from. Their ability to apply Electro Flare and buff Electro DMG significantly via the Flash of Electric Reflection Echo set is quite appreciated too."
+      },
+      {
+        "characters": [
+          "lynae"
+        ],
+        "commentary": "Best buffer for DPS Electro Rover, Lynae is generally strong for all types of attackers. This is great for DPS Electro Rover who deals damage of multiple kinds, both in element and nature."
+      },
+      {
+        "characters": [
+          "suisui",
+          "mornye",
+          "the-shorekeeper",
+          "verina",
+          "buling"
+        ],
+        "commentary": "List of buffers for Electro Rover. Suisui is the best as a Hybrid, and Mornye is the best DPS Electro Rover pair with Lynae due to their synergy with each other. Shorekeeper is the best generalist pick with the fastest rotation, while Verina and Buling are good F2P picks."
       }
     ],
     "upgrade_materials": {

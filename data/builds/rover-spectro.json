@@ -166,9 +166,9 @@
       "slug": "rover-spectro",
       "updates": {
         "last_major_build_patch": "3.7",
-        "last_profile_update": "22/October/2026",
+        "last_profile_update": "12/November/2026",
         "last_review_patch": "3.7",
-        "last_updated": "22/October/2026"
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Sword"
     },
@@ -303,7 +303,7 @@
             "Frazzle",
             "Expert +1"
           ],
-          "tier": "T3"
+          "tier": "T4"
         }
       },
       "value_tier_ratings": {

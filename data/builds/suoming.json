@@ -34,7 +34,7 @@
             "echo_name": "Impermanence Heron"
           }
         ],
-        "percentage_performance": "1",
+        "percentage_performance": "",
         "set_name": "Moonlit Clouds"
       }
     ],
@@ -67,7 +67,7 @@
         "percentage_performance": "100.00%",
         "weapon_base_info": {
           "effect_description": "ATK is increased by {0}. Upon gaining Unison, the wielder gains {1} Electro DMG Bonus for 30s.\nUpon gaining Unison, the wielder removes Yearning Mind and grants all Resonators in the team the Binding Mind effect: gain {2} Electro DMG Bonus for 30s. Effects of the same name cannot stack.\nWhen the wielder consumes Concerto Energy, they remove Binding Mind from all Resonators in the team and gain the Yearning Mind effect: the wielder additionally gains {3} Electro DMG Bonus for 14s. Switching to another Resonator ends this effect early.",
-          "primary_stat_val": 588,
+          "primary_stat_val": 587,
           "rarity": 5,
           "secondary_stat_name": "CRIT Rate",
           "secondary_stat_val": 24.3,
@@ -241,10 +241,10 @@
       "rarity_stars": 5,
       "slug": "suoming",
       "updates": {
-        "last_major_build_patch": "3.7",
-        "last_profile_update": "22/October/2026",
-        "last_review_patch": "3.7",
-        "last_updated": "22/October/2026"
+        "last_major_build_patch": "3.8",
+        "last_profile_update": "12/November/2026",
+        "last_review_patch": "3.8",
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Sword"
     },
@@ -260,13 +260,14 @@
         },
         "slot_3": {
           "alternatives": [
+            "the-shorekeeper",
             "verina",
             "buling"
           ],
-          "character_name": "the-shorekeeper"
+          "character_name": "lily"
         },
         "team_name": "Unison Team",
-        "team_notes": ""
+        "team_notes": "Lily is best overall, but can have performance drops in Whimpering Wastes compared to Shorekeeper due to being unable to provide CRIT consistency to the team until S2."
       },
       {
         "slot_1": {
@@ -308,13 +309,14 @@
     "pros_and_cons": {
       "cons": [
         "Unison Hybrid use is completely restricted to Hsin, since the overwhelming majority of her buffs are tied to Electro and it's very, very unlikely we get a second Electro Unison DPS any time soon;",
+        "DPS Suoming is vastly inferior to Unison Suoming when looking at WhiWa;",
         "Has like 200 layers of restrictions for Quickswap, seriously good luck making her do anything useful there;",
         "Sequence value is seriously bad until S6 as a DPS, and as a Hybrid you much rather get Hsin Sequences over Suoming ones. Unless going for S6 DPS specifically, vertically investing isn't the best idea."
       ],
       "pros": [
         "The literal best F2P DPS in the game in ToA/Matrix right now;",
         "As a DPS, really easy to make a team with her thanks to Sanhua (one of her best teammates) being free;",
-        "Has meaningful improvement room in all gamemodes, simply by upgrading to a Unison Hybrid role alongside Hsin, one of the best teams in the game overall;",
+        "Has meaningful improvement room in all gamemodes, simply by upgrading to a Unison Hybrid role alongside Hsin, one of the best teams in all endgames;",
         "As a Hybrid, can use both 5P Heart and 5P Moonlit Clouds to basically the same degree (at S0R1), so she's easy to build and not too Signature-reliant there;",
         "Fights with a pretty cool umbrella drill thingy."
       ]
@@ -322,20 +324,12 @@
     "ratings": {
       "dps_ratings": {
         "tower_of_adversity": {
-          "tags": [
-            "Unison",
-            "Coord",
-            "Partner (Hsin)"
-          ],
-          "tier": "T0"
+          "tags": [],
+          "tier": "T0.5"
         },
         "whimpering_wastes": {
-          "tags": [
-            "Unison",
-            "Coord",
-            "Partner (Hsin)"
-          ],
-          "tier": "T0"
+          "tags": [],
+          "tier": "T3"
         }
       },
       "value_tier_ratings": {
@@ -415,9 +409,9 @@
           "paragraphs": [
             "In the current meta, simply put, Suoming is great. Even if her Unison use is completely restricted to Hsin, and that's likely to stay the case, in DPS mode she has two things going for her: team flexibility, and teammate accessibility. All of this while retaining pretty solid performance, around early Lahai-Roi level (think Aemeath, Luuk, Sigrika).",
             "What we mean by team flexibility is that Suoming scales off of general buffs. She has no explicit saturation for DMG Amplification, DMG Bonus, or ATK, and scales well off all of them. A F2P teammate particularly stands out for this: Sanhua. Suoming as a DPS is perfectly capable of making full use of her, and revives a previously basically-dead 4-star back into the meta.",
-            "As an added plus, since she doesn't have CRIT Rate saturation like a lot of the modern damage dealers, she scales well with Shorekeeper. Verina also scales much better for her than most of the recently released DPS cast. Otherwise, the Lynae Mornye duo always works and has higher damage per rotation overall. Being able to make good use of Shorekeeper and Verina is also true in the Unison team.",
-            "Although Suoming is practically completely locked out of Quickswap due to her many layers of restrictions around it, for the overwhelming majority of players, Suoming is a great character in ToA/Matrix as DPS while being fairly average in Whimpering Wastes, and she becomes great overall in Unison alongside Hsin, being an undeniable top meta performer in her best team.",
-            "In conclusion, Suoming is a pretty well-established character within the Wuthering Waves meta. Either used as a good Main DPS or the ideal Unison Support for Hsin, there are ways to use her for beginners and veterans of the game alike. In all cases, she's at least going to perform up to endgame standards when used properly. Overall, this makes Suoming a fine character to recommend, so long as you're interested in getting her on your account."
+            "As an added plus, since she doesn't have CRIT Rate saturation like a lot of the modern damage dealers, she scales well with Shorekeeper. Verina also scales much better for her than most of the recently released DPS cast. Otherwise, the Lynae Mornye duo always works and has higher damage per rotation overall. Being able to make good use of Shorekeeper and Verina is also true in the Unison team, with Lily as the most Unison-centric option.",
+            "Although Suoming is practically completely locked out of Quickswap due to her many layers of restrictions around it, for the overwhelming majority of players, Suoming is a great character in ToA/Matrix as DPS. However, she lacks the AoE to perform in Whimpering Wastes, so be mindful of that. She becomes excellent overall in Unison alongside Hsin, being an undeniable top meta performer in her best team.",
+            "In conclusion, Suoming is a pretty well-established character within the Wuthering Waves meta. Either used as a good Main DPS for ToA/Matrix or the ideal Unison Support for Hsin, there are ways to use her for beginners and veterans of the game alike. Overall, this makes Suoming a pretty good character, so long as you're interested in getting her on your account."
           ]
         }
       ],
@@ -425,16 +419,16 @@
     },
     "rotations": [
       {
-        "rotation_name": "Unison/Hybrid rotation",
+        "rotation_name": "Unison Rotation",
         "steps": [
           "Intro",
-          "Ultimate",
-          "Outro",
-          "Intro: Whirling (Unison)",
-          "Basic: Whirling 2 (Cancel animation endlag via Dash)",
-          "Dash",
           "Basic: Unfurled 1",
           "Basic: Unfurled 2 (Cancel animation endlag via Skill)",
+          "Skill (Instantly interrupt via Ultimate)",
+          "Ultimate",
+          "Basic 1 (Swap after Forte generation)",
+          "Outro",
+          "Intro: Whirling (Unison)",
           "Skill: Unforsaken Mind",
           "Hold Skill: Engraved Heart",
           "Outro"
@@ -463,12 +457,12 @@
       }
     ],
     "skill_upgrade_priority": {
-      "commentary": "Skill can be completely skipped as it is useless to Suoming's practical rotation. All other Fortes are important to level though.",
+      "commentary": "Skill can be completely skipped as it is useless to Suoming's practical rotation. Intro can be skipped to save on resources at a minimal damage loss.",
       "order": [
+        "Basic Attack",
         "Forte Circuit",
         "Res. Liberation",
         "Intro Skill",
-        "Basic Attack",
         "Res. Skill"
       ]
     },
@@ -989,9 +983,10 @@
         "characters": [
           "the-shorekeeper",
           "verina",
+          "lily",
           "mornye"
         ],
-        "commentary": "Best Support options for Suoming, who doesn't scale off any particular Support's specializations currently. Shorekeeper is the best overall, Verina is her F2P replacement. Mornye is only used alongside Lynae in a DPS Suoming team."
+        "commentary": "Best Support options for Suoming, based on team. As a DPS, Shorekeeper is the best overall, Verina is her F2P replacement. Lily is the strongest choice in the Hsin Unison team, while Mornye is only used alongside Lynae in a DPS Suoming team but is the strongest option in that specific case."
       }
     ],
     "upgrade_materials": {

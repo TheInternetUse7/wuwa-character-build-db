@@ -210,9 +210,9 @@
       "slug": "camellya",
       "updates": {
         "last_major_build_patch": "2.2",
-        "last_profile_update": "22/October/2026",
+        "last_profile_update": "12/November/2026",
         "last_review_patch": "1.4",
-        "last_updated": "22/October/2026"
+        "last_updated": "12/November/2026"
       },
       "weapon_type": "Sword"
     },
@@ -297,7 +297,7 @@
         },
         "whimpering_wastes": {
           "tags": [],
-          "tier": "T3"
+          "tier": "T4"
         }
       },
       "value_tier_ratings": {
@@ -305,7 +305,7 @@
           "tier": "T3"
         },
         "whimpering_wastes_value": {
-          "tier": "T3"
+          "tier": "T4"
         }
       }
     },
